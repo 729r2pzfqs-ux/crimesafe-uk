@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peterborough North — Cambridgeshire Constabulary — CrimeSafe UK</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#01696F">
 </head>
 <body>
     <header>
@@ -37,11 +42,61 @@
         <section>
             <div class="container">
                 
-            <div class="stat-card" style="text-align: center; padding: 2rem;">
-                <p>Crime statistics coming soon</p>
-                <p class="label">Data is being collected for this neighbourhood</p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">75</div>
+                    <div class="label">Safety Score</div>
+                    <span class="score-badge score-safe">Safe</span>
+                </div>
+                <div class="stat-card">
+                    <div class="number">199</div>
+                    <div class="label">Crimes (Jan 2026)</div>
+                </div>
             </div>
+            
+            <h3 style="margin-top: 2rem;">Crime Breakdown</h3>
+            <div class="force-grid" style="margin-top: 1rem;">
 
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">⚠️ 79</div>
+                    <div class="label">Violent Crime</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">😤 24</div>
+                    <div class="label">Anti-Social Behaviour</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">🔥 23</div>
+                    <div class="label">Criminal Damage</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">🛒 17</div>
+                    <div class="label">Shoplifting</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">🏠 11</div>
+                    <div class="label">Burglary</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">🛍️ 11</div>
+                    <div class="label">Other Theft</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">📢 7</div>
+                    <div class="label">Public Order</div>
+                </div>
+
+                <div class="stat-card" style="text-align: left;">
+                    <div style="font-size: 1.5rem;">💊 6</div>
+                    <div class="label">Drugs</div>
+                </div>
+</div>
             </div>
         </section>
     </main>
