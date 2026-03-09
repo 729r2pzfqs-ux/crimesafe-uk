@@ -36,6 +36,10 @@ def main():
     # Districts index
     urls.append(("/districts/", "0.9", "weekly"))
     
+    # Rankings pages
+    urls.append(("/safest/", "0.9", "weekly"))
+    urls.append(("/dangerous/", "0.9", "weekly"))
+    
     # Load districts
     districts_file = f"{DATA_DIR}/districts.json"
     if os.path.exists(districts_file):

@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Highest Crime Areas in the UK 2026 — CrimeSafe UK</title>
+    <meta name="description" content="Top 100 neighbourhoods with highest crime rates in the UK. Crime statistics for England, Wales, and Northern Ireland.">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a>
+                <a href="/districts/">Districts</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › Highest Crime Areas
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>Highest Crime Areas in the UK</h1>
+                <p class="hero-sub">Top 100 neighbourhoods with highest crime rates • January 2026 data</p>
+            </div>
+        </section>
+        
+        <section style="padding-bottom: var(--space-12);">
+            <div class="container">
+                <div style="display: flex; gap: var(--space-4); margin-bottom: var(--space-6); flex-wrap: wrap;">
+                    <a href="/safest/" class="btn btn-outline">Safest Areas</a>
+                    <a href="/dangerous/" class="btn btn-primary">Highest Crime Areas</a>
+                </div>
+                
+                <div class="ranking-table">
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--border); text-align: left;">
+                                <th style="padding: var(--space-3);">#</th>
+                                <th style="padding: var(--space-3);">Neighbourhood</th>
+                                <th style="padding: var(--space-3);">Police Force</th>
+                                <th style="padding: var(--space-3); text-align: center;">Score</th>
+                                <th style="padding: var(--space-3); text-align: center;">Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">1</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/clapham-common-and-abbeville/" style="color: var(--primary); text-decoration: none;">Clapham Common and Abbeville</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">1</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">2</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/new-cross-gate/" style="color: var(--primary); text-decoration: none;">New Cross Gate</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">1</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">3</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/leicestershire-police/clarendon-park/" style="color: var(--primary); text-decoration: none;">Clarendon Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Leicestershire Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">1</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">4</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/tyldesley/" style="color: var(--primary); text-decoration: none;">Tyldesley</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">5</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/bloomfield/" style="color: var(--primary); text-decoration: none;">Bloomfield</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">6</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/high-street/" style="color: var(--primary); text-decoration: none;">High Street</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">7</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/northbury/" style="color: var(--primary); text-decoration: none;">Northbury</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">8</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/lewisham-central/" style="color: var(--primary); text-decoration: none;">Lewisham Central</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">9</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/custom-house/" style="color: var(--primary); text-decoration: none;">Custom House</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">10</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/deptford/" style="color: var(--primary); text-decoration: none;">Deptford</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">11</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/cathall/" style="color: var(--primary); text-decoration: none;">Cathall</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">12</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/derbyshire-constabulary/abbey/" style="color: var(--primary); text-decoration: none;">Abbey</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Derbyshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">2</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">13</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/hampshire-constabulary/bevois/" style="color: var(--primary); text-decoration: none;">Bevois</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Hampshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">3</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">14</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/hackney-wick/" style="color: var(--primary); text-decoration: none;">Hackney Wick</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">3</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">15</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/surrey-docks/" style="color: var(--primary); text-decoration: none;">Surrey Docks</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">3</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">16</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/bensham-manor/" style="color: var(--primary); text-decoration: none;">Bensham Manor</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">3</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">17</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/forest-gate-north/" style="color: var(--primary); text-decoration: none;">Forest Gate North</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">3</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">18</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/devon-cornwall-police/mutley/" style="color: var(--primary); text-decoration: none;">Mutley</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Devon &amp; Cornwall Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">3</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">19</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/avon-and-somerset-constabulary/clifton-down/" style="color: var(--primary); text-decoration: none;">Clifton Down</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Avon and Somerset Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">20</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/avon-and-somerset-constabulary/easton-and-redfield/" style="color: var(--primary); text-decoration: none;">Easton and Redfield</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Avon and Somerset Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">21</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/canary-wharf/" style="color: var(--primary); text-decoration: none;">Canary Wharf</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">22</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/manor-park/" style="color: var(--primary); text-decoration: none;">Manor Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">23</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/addiscombe-west/" style="color: var(--primary); text-decoration: none;">Addiscombe West</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">24</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/roundwood/" style="color: var(--primary); text-decoration: none;">Roundwood</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">25</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/west-midlands-police/lozells-and-east-handsworth/" style="color: var(--primary); text-decoration: none;">Lozells and East Handsworth</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">West Midlands Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">4</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">26</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/battersea-park/" style="color: var(--primary); text-decoration: none;">Battersea Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">5</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">27</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/upper-edmonton/" style="color: var(--primary); text-decoration: none;">Upper Edmonton</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">5</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">28</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/everton-east/" style="color: var(--primary); text-decoration: none;">Everton East</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">5</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">29</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/devon-cornwall-police/stonehouse/" style="color: var(--primary); text-decoration: none;">Stonehouse</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Devon &amp; Cornwall Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">5</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">30</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/tottenham-hale/" style="color: var(--primary); text-decoration: none;">Tottenham Hale</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">6</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">31</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/west-midlands-police/aston/" style="color: var(--primary); text-decoration: none;">Aston</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">West Midlands Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">6</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">32</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/avon-and-somerset-constabulary/windmill/" style="color: var(--primary); text-decoration: none;">Windmill</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Avon and Somerset Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">7</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">33</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/hampshire-constabulary/bargate/" style="color: var(--primary); text-decoration: none;">Bargate</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Hampshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">7</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">34</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/east-ham-south/" style="color: var(--primary); text-decoration: none;">East Ham South</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">7</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">35</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/belsize/" style="color: var(--primary); text-decoration: none;">Belsize</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">7</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">36</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/south-wales-police/adamsdown/" style="color: var(--primary); text-decoration: none;">Adamsdown</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">South Wales Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">7</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">37</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/claremont/" style="color: var(--primary); text-decoration: none;">Claremont</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">8</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">38</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/abbey/" style="color: var(--primary); text-decoration: none;">Abbey</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">9</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">39</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/blackwall-and-cubitt-town/" style="color: var(--primary); text-decoration: none;">Blackwall and Cubitt Town</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">9</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">40</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/west-midlands-police/sparkbrook/" style="color: var(--primary); text-decoration: none;">Sparkbrook</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">West Midlands Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">9</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">41</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/south-wales-police/cathays/" style="color: var(--primary); text-decoration: none;">Cathays</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">South Wales Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">9</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">42</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/hampshire-constabulary/st-thomas/" style="color: var(--primary); text-decoration: none;">St Thomas</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Hampshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">43</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/hampshire-constabulary/central-southsea-and-st-judes/" style="color: var(--primary); text-decoration: none;">Central Southsea and St Judes</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Hampshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">44</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/brondesbury-park/" style="color: var(--primary); text-decoration: none;">Brondesbury Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">45</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/canning-town-south/" style="color: var(--primary); text-decoration: none;">Canning Town South</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">46</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/gospel-oak/" style="color: var(--primary); text-decoration: none;">Gospel Oak</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">47</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/fulham-town/" style="color: var(--primary); text-decoration: none;">Fulham Town</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">48</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/evelyn/" style="color: var(--primary); text-decoration: none;">Evelyn</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">10</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">49</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/champion-hill/" style="color: var(--primary); text-decoration: none;">Champion Hill</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">11</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">50</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/grove-green/" style="color: var(--primary); text-decoration: none;">Grove Green</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">11</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">51</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/cazenove/" style="color: var(--primary); text-decoration: none;">Cazenove</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">11</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">52</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/toxteth/" style="color: var(--primary); text-decoration: none;">Toxteth</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">11</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">53</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/noel-park/" style="color: var(--primary); text-decoration: none;">Noel Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">12</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">54</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/harlesden-and-kensal-green/" style="color: var(--primary); text-decoration: none;">Harlesden and Kensal Green</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">12</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">55</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/white-hart-lane/" style="color: var(--primary); text-decoration: none;">White Hart Lane</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">12</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">56</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/bedfordshire-police/luton-town-centre/" style="color: var(--primary); text-decoration: none;">Luton Town Centre</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Bedfordshire Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">12</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">57</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/west-midlands-police/winson-green-nht/" style="color: var(--primary); text-decoration: none;">Winson Green NHT</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">West Midlands Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">12</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">58</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/nunhead-and-queens-road/" style="color: var(--primary); text-decoration: none;">Nunhead and Queen&#x27;s Road</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">13</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">59</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/greenwich-creekside/" style="color: var(--primary); text-decoration: none;">Greenwich Creekside</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">13</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">60</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/southall-west/" style="color: var(--primary); text-decoration: none;">Southall West</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">13</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">61</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/derby/" style="color: var(--primary); text-decoration: none;">Derby</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">13</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">62</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/ravenscourt/" style="color: var(--primary); text-decoration: none;">Ravenscourt</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">63</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/springfield/" style="color: var(--primary); text-decoration: none;">Springfield</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">64</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/valentines/" style="color: var(--primary); text-decoration: none;">Valentines</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">65</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/falconbrook/" style="color: var(--primary); text-decoration: none;">Falconbrook</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">66</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/munster/" style="color: var(--primary); text-decoration: none;">Munster</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">67</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/west-midlands-police/stockland-green/" style="color: var(--primary); text-decoration: none;">Stockland Green</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">West Midlands Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">68</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/cambridgeshire-constabulary/peterborough-city-centre/" style="color: var(--primary); text-decoration: none;">Peterborough City Centre</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Cambridgeshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">14</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">69</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/deepdale/" style="color: var(--primary); text-decoration: none;">Deepdale</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">15</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">70</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/south-tottenham/" style="color: var(--primary); text-decoration: none;">South Tottenham</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">15</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">71</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/woolwich-arsenal/" style="color: var(--primary); text-decoration: none;">Woolwich Arsenal</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">15</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">72</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/william-morris/" style="color: var(--primary); text-decoration: none;">William Morris</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">15</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">73</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/west-midlands-police/bordesley-green/" style="color: var(--primary); text-decoration: none;">Bordesley Green</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">West Midlands Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">15</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">74</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/kensington-and-fairfield/" style="color: var(--primary); text-decoration: none;">Kensington and Fairfield</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">15</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">75</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/palace-and-hurlingham/" style="color: var(--primary); text-decoration: none;">Palace and Hurlingham</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">16</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">76</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/fortune-green/" style="color: var(--primary); text-decoration: none;">Fortune Green</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">16</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">77</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/woodside/" style="color: var(--primary); text-decoration: none;">Woodside</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">16</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">78</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/everton-north/" style="color: var(--primary); text-decoration: none;">Everton North</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">16</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">79</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/plungington/" style="color: var(--primary); text-decoration: none;">Plungington</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">17</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">80</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/st-matthews-preston/" style="color: var(--primary); text-decoration: none;">St Matthew&#x27;s - Preston</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">17</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">81</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/longbridge/" style="color: var(--primary); text-decoration: none;">Longbridge</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">17</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">82</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/wendell-park/" style="color: var(--primary); text-decoration: none;">Wendell Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">17</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">83</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/wormholt/" style="color: var(--primary); text-decoration: none;">Wormholt</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">17</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">84</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/cambridgeshire-constabulary/peterborough-central/" style="color: var(--primary); text-decoration: none;">Peterborough Central</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Cambridgeshire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">17</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">85</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/avon-and-somerset-constabulary/barton-hill/" style="color: var(--primary); text-decoration: none;">Barton Hill</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Avon and Somerset Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">86</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/wood-street/" style="color: var(--primary); text-decoration: none;">Wood Street</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">87</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/woolwich-common/" style="color: var(--primary); text-decoration: none;">Woolwich Common</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">88</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/west-thornton/" style="color: var(--primary); text-decoration: none;">West Thornton</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">89</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/northumberland-park/" style="color: var(--primary); text-decoration: none;">Northumberland Park</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">90</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/cleveland-police/central/" style="color: var(--primary); text-decoration: none;">Central</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Cleveland Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">91</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/edge-hill/" style="color: var(--primary); text-decoration: none;">Edge Hill</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">92</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/anfield/" style="color: var(--primary); text-decoration: none;">Anfield</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">18</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">93</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/lancashire-constabulary/victoria/" style="color: var(--primary); text-decoration: none;">Victoria</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Lancashire Constabulary</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">94</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/hounslow-west/" style="color: var(--primary); text-decoration: none;">Hounslow West</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">95</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/furzedown/" style="color: var(--primary); text-decoration: none;">Furzedown</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">96</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/rushey-green/" style="color: var(--primary); text-decoration: none;">Rushey Green</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">97</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/hounslow-central/" style="color: var(--primary); text-decoration: none;">Hounslow Central</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">98</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/southall-broadway/" style="color: var(--primary); text-decoration: none;">Southall Broadway</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">99</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/merseyside-police/kirkdale-east/" style="color: var(--primary); text-decoration: none;">Kirkdale East</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Merseyside Police</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">19</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-f">F</span></td>
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid var(--border);">
+                                <td style="padding: var(--space-3); font-weight: 600; color: var(--muted);">100</td>
+                                <td style="padding: var(--space-3);"><a href="/neighbourhood/metropolitan-police-service/lavender/" style="color: var(--primary); text-decoration: none;">Lavender</a></td>
+                                <td style="padding: var(--space-3); color: var(--muted);">Metropolitan Police Service</td>
+                                <td style="padding: var(--space-3); text-align: center; font-weight: 600;">20</td>
+                                <td style="padding: var(--space-3); text-align: center;"><span class="grade grade-d">D</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="card" style="margin-top: var(--space-8); padding: var(--space-6);">
+                    <h2 style="margin-bottom: var(--space-4);">About This Ranking</h2>
+                    <p>This ranking shows neighbourhoods with the highest recorded crime rates based on official police data from data.police.uk.</p>
+                    <p style="margin-top: var(--space-3);"><strong>Note:</strong> High crime rates don't necessarily mean an area is "dangerous". Commercial areas, city centres, and transport hubs often have higher reported crime due to more people passing through, not because residents are at greater risk.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
