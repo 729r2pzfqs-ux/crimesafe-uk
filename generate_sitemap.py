@@ -33,6 +33,18 @@ def main():
     # Forces index
     urls.append(("/forces/", "0.9", "weekly"))
     
+    # Districts index
+    urls.append(("/districts/", "0.9", "weekly"))
+    
+    # Load districts
+    districts_file = f"{DATA_DIR}/districts.json"
+    if os.path.exists(districts_file):
+        with open(districts_file) as f:
+            districts = json.load(f)
+        for d in districts:
+            district_slug = slugify(d['district'])
+            urls.append((f"/district/{district_slug}/", "0.8", "weekly"))
+    
     # Force pages
     for force in forces_data['forces']:
         force_slug = slugify(force['name'])
