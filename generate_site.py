@@ -44,27 +44,6 @@ def slugify(text):
     text = re.sub(r'-+', '-', text)
     return text.strip('-')
 
-def get_js():
-    """Return the site JavaScript"""
-    return '''
-// Theme toggle
-const toggle = document.getElementById('themeToggle');
-const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-const saved = localStorage.getItem('theme');
-const theme = saved || (prefersDark ? 'dark' : 'light');
-
-document.documentElement.setAttribute('data-theme', theme);
-toggle.textContent = theme === 'dark' ? '☀️' : '🌙';
-
-toggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-    toggle.textContent = next === 'dark' ? '☀️' : '🌙';
-});
-'''
-
 def get_header(title="CrimeSafe UK", description="UK crime statistics and safety scores"):
     """Return HTML header"""
     return f'''<!DOCTYPE html>
@@ -291,7 +270,6 @@ def main():
     print(f"Loaded {len(forces_data['forces'])} forces")
     
     # Generate JS
-    print("Generating JS...")
     with open(f"{OUTPUT_DIR}/script.js", 'w') as f:
         f.write(get_js())
     
