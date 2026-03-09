@@ -134,10 +134,10 @@ a:hover { color: var(--color-primary-hover); }
 }
 .nav-logo {
   display: flex; align-items: center; gap: var(--space-2);
-  font-weight: 700; font-size: var(--text-sm); color: var(--color-text);
+  font-weight: 700; font-size: var(--text-sm); color: var(--color-primary);
   text-decoration: none;
 }
-.nav-logo:hover { color: var(--color-text); }
+.nav-logo:hover { color: var(--color-primary-hover); }
 .nav-logo svg { flex-shrink: 0; }
 .nav-links { display: flex; align-items: center; gap: var(--space-1); }
 .nav-links a {
@@ -160,7 +160,7 @@ a:hover { color: var(--color-primary-hover); }
 }
 .hero h1 {
   font-size: var(--text-2xl); font-weight: 700; margin-bottom: var(--space-3);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.02em; color: var(--color-primary);
 }
 .hero-sub {
   font-size: var(--text-sm); color: var(--color-text-muted); max-width: 520px;
@@ -207,7 +207,7 @@ a:hover { color: var(--color-primary-hover); }
 }
 .kpi-value {
   font-size: var(--text-xl); font-weight: 700; font-variant-numeric: tabular-nums lining-nums;
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-1); color: var(--color-primary);
 }
 .kpi-detail { font-size: var(--text-xs); color: var(--color-text-muted); }
 
@@ -216,7 +216,7 @@ a:hover { color: var(--color-primary-hover); }
   display: flex; align-items: baseline; justify-content: space-between;
   margin-bottom: var(--space-6); flex-wrap: wrap; gap: var(--space-3);
 }
-.section-title { font-size: var(--text-lg); font-weight: 700; }
+.section-title { font-size: var(--text-lg); font-weight: 700; color: var(--color-primary); }
 
 /* ===== FORCE/NEIGHBOURHOOD GRID ===== */
 .force-grid {
