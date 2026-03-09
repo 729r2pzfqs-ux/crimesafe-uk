@@ -51,12 +51,72 @@
         <section style="padding-bottom: var(--space-12);">
             <div class="container">
                 
-                <div class="kpi-card" style="text-align: center; max-width: 500px; margin: 0 auto;">
-                    <div class="kpi-label">Status</div>
-                    <div class="kpi-value" style="font-size: var(--text-lg);">Data Loading</div>
-                    <div class="kpi-detail">Crime statistics are being collected for this neighbourhood</div>
+                <div class="kpi-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 500px; margin: 0 auto var(--space-8);">
+                    <div class="kpi-card" style="text-align: center;">
+                        <div class="kpi-label">Safety Score</div>
+                        <div class="kpi-value">75</div>
+                        <span class="score-badge score-safe">Safe</span>
+                    </div>
+                    <div class="kpi-card" style="text-align: center;">
+                        <div class="kpi-label">Total Crimes</div>
+                        <div class="kpi-value">195</div>
+                        <div class="kpi-detail">January 2026</div>
+                    </div>
                 </div>
+                
+                <div class="section-header">
+                    <h2 class="section-title">Crime Breakdown</h2>
+                </div>
+                <div class="crime-grid">
 
+                    <div class="crime-item">
+                        <div class="icon">⚠️</div>
+                        <div class="count">81</div>
+                        <div class="type">Violent Crime</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">🔥</div>
+                        <div class="count">21</div>
+                        <div class="type">Criminal Damage</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">💊</div>
+                        <div class="count">18</div>
+                        <div class="type">Drugs</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">😤</div>
+                        <div class="count">17</div>
+                        <div class="type">Anti-Social Behaviour</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">📢</div>
+                        <div class="count">16</div>
+                        <div class="type">Public Order</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">🛍️</div>
+                        <div class="count">14</div>
+                        <div class="type">Other Theft</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">🏠</div>
+                        <div class="count">7</div>
+                        <div class="type">Burglary</div>
+                    </div>
+
+                    <div class="crime-item">
+                        <div class="icon">🛒</div>
+                        <div class="count">7</div>
+                        <div class="type">Shoplifting</div>
+                    </div>
+</div>
             </div>
         </section>
     </main>
