@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About — CrimeSafe UK</title>
+    <meta name="description" content="Learn about CrimeSafe UK and our crime statistics data">
     <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#01696F">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/" class="logo">🛡️ Crime<span>Safe</span> UK</a>
-            <nav>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/about/">About</a>
-            </nav>
-            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main>
         <div class="container">
@@ -27,33 +40,33 @@
             </div>
         </div>
         
-        <section class="hero" style="padding: 2rem 1rem;">
+        <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>About CrimeSafe UK</h1>
-                <p>Understanding crime statistics across the UK</p>
+                <p class="hero-sub">Understanding crime statistics across the UK</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-12);">
             <div class="container" style="max-width: 800px;">
-                <div class="stat-card" style="text-align: left; padding: 2rem;">
-                    <h2>Our Mission</h2>
-                    <p style="margin-top: 1rem;">CrimeSafe UK provides easy-to-understand crime statistics for neighbourhoods across England, Wales, and Northern Ireland. We help residents, homebuyers, and businesses make informed decisions about safety.</p>
+                <div class="kpi-card" style="text-align: left; padding: var(--space-8);">
+                    <h2 style="color: var(--color-primary);">Our Mission</h2>
+                    <p style="margin-top: var(--space-4); color: var(--color-text-muted);">CrimeSafe UK provides easy-to-understand crime statistics for neighbourhoods across England, Wales, and Northern Ireland. We help residents, homebuyers, and businesses make informed decisions about safety.</p>
                     
-                    <h2 style="margin-top: 2rem;">Data Source</h2>
-                    <p style="margin-top: 1rem;">All crime data comes directly from <a href="https://data.police.uk" target="_blank" style="color: var(--primary);">data.police.uk</a>, the official UK Police open data portal. This data is updated monthly by all 44 police forces.</p>
+                    <h2 style="margin-top: var(--space-8); color: var(--color-primary);">Data Source</h2>
+                    <p style="margin-top: var(--space-4); color: var(--color-text-muted);">All crime data comes directly from <a href="https://data.police.uk" target="_blank">data.police.uk</a>, the official UK Police open data portal. This data is updated monthly by all 44 police forces.</p>
                     
-                    <h2 style="margin-top: 2rem;">Coverage</h2>
-                    <ul style="margin-top: 1rem; margin-left: 1.5rem;">
+                    <h2 style="margin-top: var(--space-8); color: var(--color-primary);">Coverage</h2>
+                    <ul style="margin-top: var(--space-4); margin-left: var(--space-6); color: var(--color-text-muted);">
                         <li><strong>44</strong> Police Forces</li>
                         <li><strong>4,929</strong> Neighbourhoods</li>
                         <li><strong>14</strong> Crime Categories</li>
                         <li><strong>Monthly</strong> Updates</li>
                     </ul>
                     
-                    <h2 style="margin-top: 2rem;">Crime Categories</h2>
-                    <p style="margin-top: 1rem;">We track all official crime categories including:</p>
-                    <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                    <h2 style="margin-top: var(--space-8); color: var(--color-primary);">Crime Categories</h2>
+                    <p style="margin-top: var(--space-4); color: var(--color-text-muted);">We track all official crime categories including:</p>
+                    <ul style="margin-top: var(--space-2); margin-left: var(--space-6); color: var(--color-text-muted);">
                         <li>Violent Crime</li>
                         <li>Robbery</li>
                         <li>Burglary</li>
@@ -66,22 +79,24 @@
                         <li>Weapons Possession</li>
                     </ul>
                     
-                    <h2 style="margin-top: 2rem;">Safety Scores</h2>
-                    <p style="margin-top: 1rem;">Our safety scores (0-100) are calculated using a weighted formula that considers both the volume and severity of crimes. Violent crimes and robberies are weighted more heavily than minor offences like shoplifting.</p>
+                    <h2 style="margin-top: var(--space-8); color: var(--color-primary);">Safety Scores</h2>
+                    <p style="margin-top: var(--space-4); color: var(--color-text-muted);">Our safety scores (0-100) are calculated using a weighted formula that considers both the volume and severity of crimes. Violent crimes and robberies are weighted more heavily than minor offences like shoplifting.</p>
                     
-                    <h2 style="margin-top: 2rem;">Limitations</h2>
-                    <p style="margin-top: 1rem;">Crime locations are anonymised to protect victims. The data represents reported crimes only — actual crime levels may vary. Scotland is not included as Scottish police data uses different systems.</p>
+                    <h2 style="margin-top: var(--space-8); color: var(--color-primary);">Limitations</h2>
+                    <p style="margin-top: var(--space-4); color: var(--color-text-muted);">Crime locations are anonymised to protect victims. The data represents reported crimes only — actual crime levels may vary. Scotland is not included as Scottish police data uses different systems.</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank">data.police.uk</a></p>
-            <p style="margin-top: 0.5rem;">Data updated monthly. Last update: January 2026</p>
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
+    <script src="/forces_search.js"></script>
+    <script src="/neighbourhoods_search.js"></script>
     <script src="/script.js"></script>
 </body>
 </html>
