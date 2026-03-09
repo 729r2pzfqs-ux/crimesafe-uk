@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate neighbourhood pages with full content (HoodSafe style)
+Uses percentile-based scoring for even distribution
 """
 
 import json
@@ -18,25 +19,53 @@ def get_grade(score):
     if score >= 20: return "D", "Below Average"
     return "F", "High Risk"
 
-def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
+def calculate_weighted_crime(categories):
+    """Calculate weighted crime score"""
+    weighted = 0
+    for cat, count in categories.items():
+        if cat in CRIME_WEIGHTS:
+            weighted += count * CRIME_WEIGHTS[cat]['weight']
+        else:
+            weighted += count * 1.0
+    return weighted
+
+def calculate_percentile_scores(all_crime_data):
+    """
+    Calculate percentile-based safety scores.
+    Lower crime = higher percentile = higher safety score.
+    """
+    # Calculate weighted crime for each neighbourhood
+    weighted_crimes = []
+    for key, data in all_crime_data.items():
+        weighted = calculate_weighted_crime(data.get('categories', {}))
+        weighted_crimes.append((key, weighted))
+    
+    # Sort by weighted crime (ascending - lowest crime first)
+    weighted_crimes.sort(key=lambda x: x[1])
+    
+    # Assign percentile scores
+    total = len(weighted_crimes)
+    scores = {}
+    for i, (key, weighted) in enumerate(weighted_crimes):
+        # Percentile: what % of neighbourhoods have MORE crime than this one
+        percentile = (i / max(1, total - 1)) * 100
+        # Safest (lowest crime) get highest scores
+        safety_score = round(100 - percentile)
+        scores[key] = safety_score
+    
+    return scores
+
+def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_data=None, safety_score=None):
     """Generate a neighbourhood detail page with full content"""
-    force_slug = slugify(force['name'])
-    nb_slug = slugify(neighbourhood['name'])
-    nb_name = neighbourhood['name']
-    force_name = force['name']
     
     # Calculate stats
     if crime_data and crime_data.get('total_crimes', 0) > 0:
         total = crime_data['total_crimes']
         categories = crime_data.get('categories', {})
         
-        weighted_score = 0
-        for cat, count in categories.items():
-            if cat in CRIME_WEIGHTS:
-                weighted_score += count * CRIME_WEIGHTS[cat]['weight']
+        if safety_score is None:
+            safety_score = 50  # Default if not provided
         
-        raw_score = max(0, 100 - (weighted_score / 5))
-        safety_score = round(min(100, max(0, raw_score)))
         grade, grade_text = get_grade(safety_score)
         
         violent = categories.get('violent-crime', 0)
@@ -121,11 +150,11 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
                 <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
                     <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is {nb_name} Safe?</h2>
                     <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
-                        {nb_name} has a safety score of <strong>{safety_score}/100</strong>, which is rated as <strong>{grade_text}</strong>.
-                        In January 2026, police recorded {total} crimes in this neighbourhood, including {violent} violent offences.
+                        {nb_name} has a safety score of <strong>{safety_score}/100</strong>, placing it in the <strong>{"top " + str(100-safety_score) + "%" if safety_score >= 50 else "bottom " + str(safety_score) + "%"}</strong> of UK neighbourhoods.
+                        In January 2026, police recorded {total} crimes in this area, including {violent} violent offences.
                     </p>
                     <p style="color: var(--color-text-muted);">
-                        {"This area has lower crime rates compared to many urban neighbourhoods, making it a relatively safe place to live or visit." if safety_score >= 60 else "This area has moderate crime levels. As with any neighbourhood, we recommend staying aware of your surroundings, especially at night." if safety_score >= 40 else "This area has above-average crime rates. Take extra precautions with personal belongings and avoid walking alone at night."}
+                        {"This area has lower crime rates than most UK neighbourhoods, making it a relatively safe place to live or visit." if safety_score >= 60 else "This area has average crime levels compared to other UK neighbourhoods. As with any area, stay aware of your surroundings." if safety_score >= 40 else "This area has higher crime rates than most UK neighbourhoods. Take extra precautions with personal belongings and avoid walking alone at night."}
                     </p>
                 </div>
                 
@@ -157,7 +186,7 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">Is {nb_name} a safe neighbourhood?</div>
-                        <div style="color: var(--color-text-muted);">With a safety score of {safety_score}/100 (Grade {grade}), {nb_name} is considered {grade_text.lower()}. {"It has below-average crime for the region." if safety_score >= 60 else "Crime levels are typical for the area." if safety_score >= 40 else "Extra caution is advised."}</div>
+                        <div style="color: var(--color-text-muted);">With a safety score of {safety_score}/100 (Grade {grade}), {nb_name} is safer than {safety_score}% of UK neighbourhoods. {"It has below-average crime rates." if safety_score >= 60 else "Crime levels are typical for the UK." if safety_score >= 40 else "Extra caution is advised."}</div>
                     </div>
                     
                     <div style="padding: var(--space-4) 0;">
@@ -170,7 +199,7 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
                 <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
                     <h3 style="margin-bottom: var(--space-2);">Compare {nb_name}</h3>
                     <p style="opacity: 0.9;">See how this neighbourhood compares to others</p>
-                    <a href="/" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: var(--space-4);">Compare Neighbourhoods →</a>
+                    <a href="/safest/" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: var(--space-4);">View UK Rankings →</a>
                 </div>
             </div>
         </section>
@@ -198,7 +227,7 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
                 <div class="kpi-card" style="text-align: center; padding: var(--space-8);">
                     <div class="kpi-label">Status</div>
                     <div class="kpi-value" style="font-size: var(--text-lg);">Data Loading</div>
-                    <div class="kpi-detail">Crime statistics are being collected for this neighbourhood</div>
+                    <div class="kpi-detail">Crime statistics coming soon</div>
                 </div>
             </div>
         </section>
@@ -211,42 +240,76 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
 
 def main():
     print("Loading data...")
+    
+    # Load forces
     with open(f"{DATA_DIR}/forces.json") as f:
         forces_data = json.load(f)
+    forces = {f['id']: f for f in forces_data['forces']}
     
-    # Load crime data
-    crime_data = {}
-    crimes_dir = f"{DATA_DIR}/neighbourhood_crimes"
-    if os.path.exists(crimes_dir):
-        for fname in os.listdir(crimes_dir):
+    # Load all crime data from neighbourhood_crimes
+    all_crime_data = {}
+    crime_dir = f"{DATA_DIR}/neighbourhood_crimes"
+    
+    # Build lookup by force_id + nb_name_slug
+    slug_to_key = {}
+    
+    if os.path.exists(crime_dir):
+        for fname in os.listdir(crime_dir):
             if fname.endswith('.json'):
-                with open(f"{crimes_dir}/{fname}") as f:
+                key = fname.replace('.json', '')
+                with open(f"{crime_dir}/{fname}") as f:
                     data = json.load(f)
-                    key = fname.replace('.json', '')
-                    crime_data[key] = data
+                    all_crime_data[key] = data
+                    
+                    # Create slug-based lookup
+                    force_id = data.get('force_id', key.split('_')[0])
+                    nb_name = data.get('neighbourhood_name', '')
+                    if nb_name:
+                        nb_slug = slugify(nb_name)
+                        force = forces.get(force_id, {'name': force_id})
+                        force_slug = slugify(force['name'])
+                        lookup_key = f"{force_slug}/{nb_slug}"
+                        slug_to_key[lookup_key] = key
     
-    print(f"Loaded crime data for {len(crime_data)} neighbourhoods")
+    print(f"Loaded crime data for {len(all_crime_data)} neighbourhoods")
     
-    # Generate neighbourhood pages
-    total = sum(len(f['neighbourhoods']) for f in forces_data['forces'])
+    # Calculate percentile-based scores
+    percentile_scores = calculate_percentile_scores(all_crime_data)
+    
+    # Show score distribution
+    scores = list(percentile_scores.values())
+    if scores:
+        print(f"Score distribution:")
+        print(f"  0-20: {len([s for s in scores if s < 20])}")
+        print(f"  20-40: {len([s for s in scores if 20 <= s < 40])}")
+        print(f"  40-60: {len([s for s in scores if 40 <= s < 60])}")
+        print(f"  60-80: {len([s for s in scores if 60 <= s < 80])}")
+        print(f"  80-100: {len([s for s in scores if s >= 80])}")
+    
+    # Generate pages directly from crime data
     generated = 0
-    
-    for force in forces_data['forces']:
-        force_id = force['id']
-        force_slug = slugify(force['name'])
+    for key, crime_data in all_crime_data.items():
+        force_id = crime_data.get('force_id', key.split('_')[0])
+        nb_name = crime_data.get('neighbourhood_name', key.split('_')[1] if '_' in key else key)
         
-        for nb in force['neighbourhoods']:
-            nb_slug = slugify(nb['name'])
-            key = f"{force_id}_{nb['id']}"
-            nb_crime = crime_data.get(key)
-            
-            os.makedirs(f"{OUTPUT_DIR}/neighbourhood/{force_slug}/{nb_slug}", exist_ok=True)
-            with open(f"{OUTPUT_DIR}/neighbourhood/{force_slug}/{nb_slug}/index.html", 'w') as f:
-                f.write(generate_neighbourhood_page(force, nb, nb_crime))
-            
-            generated += 1
-            if generated % 500 == 0:
-                print(f"  Generated {generated}/{total}...")
+        force = forces.get(force_id, {'id': force_id, 'name': force_id.replace('-', ' ').title()})
+        force_slug = slugify(force['name'])
+        nb_slug = slugify(nb_name)
+        
+        # Get percentile score
+        safety_score = percentile_scores.get(key, 50)
+        
+        # Generate page
+        out_dir = f"{OUTPUT_DIR}/neighbourhood/{force_slug}/{nb_slug}"
+        os.makedirs(out_dir, exist_ok=True)
+        
+        html = generate_neighbourhood_page(force['name'], force_slug, nb_name, nb_slug, crime_data, safety_score)
+        with open(f"{out_dir}/index.html", 'w') as f:
+            f.write(html)
+        
+        generated += 1
+        if generated % 500 == 0:
+            print(f"  Generated {generated}/{len(all_crime_data)}...")
     
     print(f"\n{'='*50}")
     print(f"Generated {generated} neighbourhood pages")
