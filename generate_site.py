@@ -108,6 +108,8 @@ def get_footer():
             <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
+    <script src="/forces_search.js"></script>
+    <script src="/neighbourhoods_search.js"></script>
     <script src="/script.js"></script>
 </body>
 </html>
@@ -130,6 +132,7 @@ def generate_homepage(forces_data):
                 <div class="search-wrap">
                     <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
                     <input type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
+                    <div class="search-dropdown" id="searchDropdown"></div>
                 </div>
             </div>
         </section>
