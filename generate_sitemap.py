@@ -40,6 +40,16 @@ def main():
     urls.append(("/safest/", "0.9", "weekly"))
     urls.append(("/dangerous/", "0.9", "weekly"))
     
+    # Compare index
+    urls.append(("/compare/", "0.8", "weekly"))
+    
+    # Comparison pages
+    compare_dir = f"{OUTPUT_DIR}/compare"
+    if os.path.exists(compare_dir):
+        for slug in os.listdir(compare_dir):
+            if os.path.isdir(f"{compare_dir}/{slug}"):
+                urls.append((f"/compare/{slug}/", "0.6", "monthly"))
+    
     # Load districts
     districts_file = f"{DATA_DIR}/districts.json"
     if os.path.exists(districts_file):

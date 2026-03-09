@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Compare Neighbourhoods — CrimeSafe UK</title>
+    <meta name="description" content="Compare crime rates between UK neighbourhoods. Side-by-side safety score comparisons.">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a>
+                <a href="/districts/">Districts</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › Compare
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>Compare Neighbourhoods</h1>
+                <p class="hero-sub">Side-by-side crime rate comparisons</p>
+            </div>
+        </section>
+        
+        <section style="padding-bottom: var(--space-12);">
+            <div class="container">
+                <h2 style="margin-bottom: var(--space-6);">Popular Comparisons</h2>
+                <div class="force-grid">
+
+                    <a href="/compare/upminster-vs-darwin/" class="force-card">
+                        <h3>Upminster vs Darwin</h3>
+                        <div class="meta">Score 69 vs 64</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-harefield-village/" class="force-card">
+                        <h3>Upminster vs Harefield Village</h3>
+                        <div class="meta">Score 69 vs 61</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-chelsfield/" class="force-card">
+                        <h3>Upminster vs Chelsfield</h3>
+                        <div class="meta">Score 69 vs 57</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-carshalton-south-and-clockhouse/" class="force-card">
+                        <h3>Upminster vs Carshalton South and Clockhouse</h3>
+                        <div class="meta">Score 69 vs 57</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-chessington-south-and-malden-rushett/" class="force-card">
+                        <h3>Upminster vs Chessington South and Malden Rushett</h3>
+                        <div class="meta">Score 69 vs 56</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-ickenham-and-south-harefield/" class="force-card">
+                        <h3>Upminster vs Ickenham and South Harefield</h3>
+                        <div class="meta">Score 69 vs 56</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Upminster vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 69 vs 55</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Upminster vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 69 vs 54</div>
+                    </a>
+
+                    <a href="/compare/upminster-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Upminster vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 69 vs 54</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-harefield-village/" class="force-card">
+                        <h3>Darwin vs Harefield Village</h3>
+                        <div class="meta">Score 64 vs 61</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-chelsfield/" class="force-card">
+                        <h3>Darwin vs Chelsfield</h3>
+                        <div class="meta">Score 64 vs 57</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-carshalton-south-and-clockhouse/" class="force-card">
+                        <h3>Darwin vs Carshalton South and Clockhouse</h3>
+                        <div class="meta">Score 64 vs 57</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-chessington-south-and-malden-rushett/" class="force-card">
+                        <h3>Darwin vs Chessington South and Malden Rushett</h3>
+                        <div class="meta">Score 64 vs 56</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-ickenham-and-south-harefield/" class="force-card">
+                        <h3>Darwin vs Ickenham and South Harefield</h3>
+                        <div class="meta">Score 64 vs 56</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Darwin vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 64 vs 55</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Darwin vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 64 vs 54</div>
+                    </a>
+
+                    <a href="/compare/darwin-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Darwin vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 64 vs 54</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-chelsfield/" class="force-card">
+                        <h3>Harefield Village vs Chelsfield</h3>
+                        <div class="meta">Score 61 vs 57</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-carshalton-south-and-clockhouse/" class="force-card">
+                        <h3>Harefield Village vs Carshalton South and Clockhouse</h3>
+                        <div class="meta">Score 61 vs 57</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-chessington-south-and-malden-rushett/" class="force-card">
+                        <h3>Harefield Village vs Chessington South and Malden Rushett</h3>
+                        <div class="meta">Score 61 vs 56</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-ickenham-and-south-harefield/" class="force-card">
+                        <h3>Harefield Village vs Ickenham and South Harefield</h3>
+                        <div class="meta">Score 61 vs 56</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Harefield Village vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 61 vs 55</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Harefield Village vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 61 vs 54</div>
+                    </a>
+
+                    <a href="/compare/harefield-village-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Harefield Village vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 61 vs 54</div>
+                    </a>
+
+                    <a href="/compare/chelsfield-vs-carshalton-south-and-clockhouse/" class="force-card">
+                        <h3>Chelsfield vs Carshalton South and Clockhouse</h3>
+                        <div class="meta">Score 57 vs 57</div>
+                    </a>
+
+                    <a href="/compare/chelsfield-vs-chessington-south-and-malden-rushett/" class="force-card">
+                        <h3>Chelsfield vs Chessington South and Malden Rushett</h3>
+                        <div class="meta">Score 57 vs 56</div>
+                    </a>
+
+                    <a href="/compare/chelsfield-vs-ickenham-and-south-harefield/" class="force-card">
+                        <h3>Chelsfield vs Ickenham and South Harefield</h3>
+                        <div class="meta">Score 57 vs 56</div>
+                    </a>
+
+                    <a href="/compare/chelsfield-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Chelsfield vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 57 vs 55</div>
+                    </a>
+
+                    <a href="/compare/chelsfield-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Chelsfield vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 57 vs 54</div>
+                    </a>
+
+                    <a href="/compare/chelsfield-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Chelsfield vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 57 vs 54</div>
+                    </a>
+
+                    <a href="/compare/carshalton-south-and-clockhouse-vs-chessington-south-and-malden-rushett/" class="force-card">
+                        <h3>Carshalton South and Clockhouse vs Chessington South and Malden Rushett</h3>
+                        <div class="meta">Score 57 vs 56</div>
+                    </a>
+
+                    <a href="/compare/carshalton-south-and-clockhouse-vs-ickenham-and-south-harefield/" class="force-card">
+                        <h3>Carshalton South and Clockhouse vs Ickenham and South Harefield</h3>
+                        <div class="meta">Score 57 vs 56</div>
+                    </a>
+
+                    <a href="/compare/carshalton-south-and-clockhouse-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Carshalton South and Clockhouse vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 57 vs 55</div>
+                    </a>
+
+                    <a href="/compare/carshalton-south-and-clockhouse-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Carshalton South and Clockhouse vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 57 vs 54</div>
+                    </a>
+
+                    <a href="/compare/carshalton-south-and-clockhouse-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Carshalton South and Clockhouse vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 57 vs 54</div>
+                    </a>
+
+                    <a href="/compare/chessington-south-and-malden-rushett-vs-ickenham-and-south-harefield/" class="force-card">
+                        <h3>Chessington South and Malden Rushett vs Ickenham and South Harefield</h3>
+                        <div class="meta">Score 56 vs 56</div>
+                    </a>
+
+                    <a href="/compare/chessington-south-and-malden-rushett-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Chessington South and Malden Rushett vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 56 vs 55</div>
+                    </a>
+
+                    <a href="/compare/chessington-south-and-malden-rushett-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Chessington South and Malden Rushett vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 56 vs 54</div>
+                    </a>
+
+                    <a href="/compare/chessington-south-and-malden-rushett-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Chessington South and Malden Rushett vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 56 vs 54</div>
+                    </a>
+
+                    <a href="/compare/ickenham-and-south-harefield-vs-totteridge-and-woodside/" class="force-card">
+                        <h3>Ickenham and South Harefield vs Totteridge and Woodside</h3>
+                        <div class="meta">Score 56 vs 55</div>
+                    </a>
+
+                    <a href="/compare/ickenham-and-south-harefield-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Ickenham and South Harefield vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 56 vs 54</div>
+                    </a>
+
+                    <a href="/compare/ickenham-and-south-harefield-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Ickenham and South Harefield vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 56 vs 54</div>
+                    </a>
+
+                    <a href="/compare/totteridge-and-woodside-vs-ham-petersham-and-richmond-riverside/" class="force-card">
+                        <h3>Totteridge and Woodside vs Ham, Petersham and Richmond Riverside</h3>
+                        <div class="meta">Score 55 vs 54</div>
+                    </a>
+
+                    <a href="/compare/totteridge-and-woodside-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Totteridge and Woodside vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 55 vs 54</div>
+                    </a>
+
+                    <a href="/compare/ham-petersham-and-richmond-riverside-vs-hayes-and-coney-hall/" class="force-card">
+                        <h3>Ham, Petersham and Richmond Riverside vs Hayes and Coney Hall</h3>
+                        <div class="meta">Score 54 vs 54</div>
+                    </a>
+
+                    <a href="/compare/longsight-vs-atherleigh/" class="force-card">
+                        <h3>Longsight vs Atherleigh</h3>
+                        <div class="meta">Score 81 vs 81</div>
+                    </a>
+
+                    <a href="/compare/longsight-vs-ashton-st-michaels/" class="force-card">
+                        <h3>Longsight vs Ashton St. Michael's</h3>
+                        <div class="meta">Score 81 vs 81</div>
+                    </a>
+
+                    <a href="/compare/longsight-vs-irwell-riverside/" class="force-card">
+                        <h3>Longsight vs Irwell Riverside</h3>
+                        <div class="meta">Score 81 vs 80</div>
+                    </a>
+
+                    <a href="/compare/longsight-vs-bramhall-south-and-woodford/" class="force-card">
+                        <h3>Longsight vs Bramhall South and Woodford</h3>
+                        <div class="meta">Score 81 vs 80</div>
+                    </a>
+
+                    <a href="/compare/longsight-vs-ordsall/" class="force-card">
+                        <h3>Longsight vs Ordsall</h3>
+                        <div class="meta">Score 81 vs 80</div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
