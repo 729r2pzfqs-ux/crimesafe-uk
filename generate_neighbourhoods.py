@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate neighbourhood pages
+Generate neighbourhood pages with HoodSafe styling
 """
 
 import json
@@ -16,7 +16,8 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
     force_slug = slugify(force['name'])
     nb_slug = slugify(neighbourhood['name'])
     
-    html = get_header(f"{neighbourhood['name']} — {force['name']} — CrimeSafe UK")
+    desc = f"Crime statistics and safety score for {neighbourhood['name']} in {force['name']}"
+    html = get_header(f"{neighbourhood['name']} — {force['name']} — CrimeSafe UK", desc)
     
     # Crime stats section
     if crime_data and crime_data.get('total_crimes', 0) > 0:
@@ -25,13 +26,11 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
         
         # Calculate safety score (100 = safest, 0 = most dangerous)
         weighted_score = 0
-        max_weight = sum(c['weight'] for c in CRIME_WEIGHTS.values())
         for cat, count in categories.items():
             if cat in CRIME_WEIGHTS:
                 weighted_score += count * CRIME_WEIGHTS[cat]['weight']
         
         # Normalize: lower crime = higher score
-        # Rough estimate: <50 crimes/month = safe, >500 = dangerous
         raw_score = max(0, 100 - (weighted_score / 5))
         safety_score = round(min(100, max(0, raw_score)))
         
@@ -46,36 +45,41 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
             score_label = "Needs Attention"
         
         crime_html = f'''
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="number">{safety_score}</div>
-                    <div class="label">Safety Score</div>
-                    <span class="score-badge {score_class}">{score_label}</span>
+                <div class="kpi-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 500px; margin: 0 auto var(--space-8);">
+                    <div class="kpi-card" style="text-align: center;">
+                        <div class="kpi-label">Safety Score</div>
+                        <div class="kpi-value">{safety_score}</div>
+                        <span class="score-badge {score_class}">{score_label}</span>
+                    </div>
+                    <div class="kpi-card" style="text-align: center;">
+                        <div class="kpi-label">Total Crimes</div>
+                        <div class="kpi-value">{total:,}</div>
+                        <div class="kpi-detail">January 2026</div>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <div class="number">{total:,}</div>
-                    <div class="label">Crimes (Jan 2026)</div>
+                
+                <div class="section-header">
+                    <h2 class="section-title">Crime Breakdown</h2>
                 </div>
-            </div>
-            
-            <h3 style="margin-top: 2rem;">Crime Breakdown</h3>
-            <div class="force-grid" style="margin-top: 1rem;">
+                <div class="crime-grid">
 '''
         for cat, count in sorted(categories.items(), key=lambda x: -x[1])[:8]:
             info = CRIME_WEIGHTS.get(cat, {"name": cat.replace("-", " ").title(), "icon": "📋"})
             crime_html += f'''
-                <div class="stat-card" style="text-align: left;">
-                    <div style="font-size: 1.5rem;">{info['icon']} {count}</div>
-                    <div class="label">{info['name']}</div>
-                </div>
+                    <div class="crime-item">
+                        <div class="icon">{info['icon']}</div>
+                        <div class="count">{count}</div>
+                        <div class="type">{info['name']}</div>
+                    </div>
 '''
         crime_html += '</div>'
     else:
         crime_html = '''
-            <div class="stat-card" style="text-align: center; padding: 2rem;">
-                <p>Crime statistics coming soon</p>
-                <p class="label">Data is being collected for this neighbourhood</p>
-            </div>
+                <div class="kpi-card" style="text-align: center; max-width: 500px; margin: 0 auto;">
+                    <div class="kpi-label">Status</div>
+                    <div class="kpi-value" style="font-size: var(--text-lg);">Data Loading</div>
+                    <div class="kpi-detail">Crime statistics are being collected for this neighbourhood</div>
+                </div>
 '''
     
     html += f'''
@@ -86,14 +90,14 @@ def generate_neighbourhood_page(force, neighbourhood, crime_data=None):
             </div>
         </div>
         
-        <section class="hero" style="padding: 2rem 1rem;">
+        <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{neighbourhood['name']}</h1>
-                <p>{force['name']}</p>
+                <p class="hero-sub">{force['name']}</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-12);">
             <div class="container">
                 {crime_html}
             </div>
