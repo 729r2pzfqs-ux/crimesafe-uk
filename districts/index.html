@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>UK Districts — CrimeSafe UK</title>
+    <meta name="description" content="Browse crime statistics by district across the UK">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a>
+                <a href="/districts/">Districts</a>
+                <a href="/about/">About</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › Districts
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>UK Districts</h1>
+                <p class="hero-sub">80 districts across England, Wales, and Northern Ireland</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="force-grid">
+
+                    <a href="/district/barking-and-dagenham/" class="force-card">
+                        <h3>Barking And Dagenham</h3>
+                        <div class="meta">Metropolitan Police Service • 19 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/barnet/" class="force-card">
+                        <h3>Barnet</h3>
+                        <div class="meta">Metropolitan Police Service • 24 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/bexley/" class="force-card">
+                        <h3>Bexley</h3>
+                        <div class="meta">Metropolitan Police Service • 17 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/brent/" class="force-card">
+                        <h3>Brent</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/bromley/" class="force-card">
+                        <h3>Bromley</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/camden/" class="force-card">
+                        <h3>Camden</h3>
+                        <div class="meta">Metropolitan Police Service • 20 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/croydon/" class="force-card">
+                        <h3>Croydon</h3>
+                        <div class="meta">Metropolitan Police Service • 28 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/ealing/" class="force-card">
+                        <h3>Ealing</h3>
+                        <div class="meta">Metropolitan Police Service • 24 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/enfield/" class="force-card">
+                        <h3>Enfield</h3>
+                        <div class="meta">Metropolitan Police Service • 25 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/greenwich/" class="force-card">
+                        <h3>Greenwich</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/hackney/" class="force-card">
+                        <h3>Hackney</h3>
+                        <div class="meta">Metropolitan Police Service • 21 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/hammersmith-and-fulham/" class="force-card">
+                        <h3>Hammersmith And Fulham</h3>
+                        <div class="meta">Metropolitan Police Service • 21 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/haringey/" class="force-card">
+                        <h3>Haringey</h3>
+                        <div class="meta">Metropolitan Police Service • 21 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/harrow/" class="force-card">
+                        <h3>Harrow</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/havering/" class="force-card">
+                        <h3>Havering</h3>
+                        <div class="meta">Metropolitan Police Service • 20 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/hillingdon/" class="force-card">
+                        <h3>Hillingdon</h3>
+                        <div class="meta">Metropolitan Police Service • 21 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/hounslow/" class="force-card">
+                        <h3>Hounslow</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/islington/" class="force-card">
+                        <h3>Islington</h3>
+                        <div class="meta">Metropolitan Police Service • 17 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/kensington-and-chelsea/" class="force-card">
+                        <h3>Kensington And Chelsea</h3>
+                        <div class="meta">Metropolitan Police Service • 18 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/kingston-upon-thames/" class="force-card">
+                        <h3>Kingston Upon Thames</h3>
+                        <div class="meta">Metropolitan Police Service • 19 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/lambeth/" class="force-card">
+                        <h3>Lambeth</h3>
+                        <div class="meta">Metropolitan Police Service • 25 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/lewisham/" class="force-card">
+                        <h3>Lewisham</h3>
+                        <div class="meta">Metropolitan Police Service • 19 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/merton/" class="force-card">
+                        <h3>Merton</h3>
+                        <div class="meta">Metropolitan Police Service • 20 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/newham/" class="force-card">
+                        <h3>Newham</h3>
+                        <div class="meta">Metropolitan Police Service • 24 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/redbridge/" class="force-card">
+                        <h3>Redbridge</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/richmond-upon-thames/" class="force-card">
+                        <h3>Richmond Upon Thames</h3>
+                        <div class="meta">Metropolitan Police Service • 18 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/southwark/" class="force-card">
+                        <h3>Southwark</h3>
+                        <div class="meta">Metropolitan Police Service • 23 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/sutton/" class="force-card">
+                        <h3>Sutton</h3>
+                        <div class="meta">Metropolitan Police Service • 20 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/tower-hamlets/" class="force-card">
+                        <h3>Tower Hamlets</h3>
+                        <div class="meta">Metropolitan Police Service • 20 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/waltham-forest/" class="force-card">
+                        <h3>Waltham Forest</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/wandsworth/" class="force-card">
+                        <h3>Wandsworth</h3>
+                        <div class="meta">Metropolitan Police Service • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/westminster/" class="force-card">
+                        <h3>Westminster</h3>
+                        <div class="meta">Metropolitan Police Service • 18 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/amman-towy/" class="force-card">
+                        <h3>Amman Towy</h3>
+                        <div class="meta">Dyfed-Powys Police • 26 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/bassetlaw/" class="force-card">
+                        <h3>Bassetlaw</h3>
+                        <div class="meta">Nottinghamshire Police • 2 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/birmingham/" class="force-card">
+                        <h3>Birmingham</h3>
+                        <div class="meta">West Midlands Police • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/bournemouth-poole-and-christchurch/" class="force-card">
+                        <h3>Bournemouth Poole And Christchurch</h3>
+                        <div class="meta">Dorset Police • 9 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/broadland/" class="force-card">
+                        <h3>Broadland</h3>
+                        <div class="meta">Norfolk Constabulary • 2 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/broxtowe/" class="force-card">
+                        <h3>Broxtowe</h3>
+                        <div class="meta">Nottinghamshire Police • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/carmarthen/" class="force-card">
+                        <h3>Carmarthen</h3>
+                        <div class="meta">Dyfed-Powys Police • 13 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/ceredigion-north/" class="force-card">
+                        <h3>Ceredigion North</h3>
+                        <div class="meta">Dyfed-Powys Police • 18 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/ceredigion-south/" class="force-card">
+                        <h3>Ceredigion South</h3>
+                        <div class="meta">Dyfed-Powys Police • 32 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/city-central/" class="force-card">
+                        <h3>City Central</h3>
+                        <div class="meta">Nottinghamshire Police • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/city-west/" class="force-card">
+                        <h3>City West</h3>
+                        <div class="meta">Nottinghamshire Police • 2 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/corby/" class="force-card">
+                        <h3>Corby</h3>
+                        <div class="meta">Northamptonshire Police • 2 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/daventry/" class="force-card">
+                        <h3>Daventry</h3>
+                        <div class="meta">Northamptonshire Police • 4 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/dorset-county/" class="force-card">
+                        <h3>Dorset County</h3>
+                        <div class="meta">Dorset Police • 12 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/east-cornwall/" class="force-card">
+                        <h3>East Cornwall</h3>
+                        <div class="meta">Devon & Cornwall Police • 30 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/east-northamptonshire/" class="force-card">
+                        <h3>East Northamptonshire</h3>
+                        <div class="meta">Northamptonshire Police • 5 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/eastleigh/" class="force-card">
+                        <h3>Eastleigh</h3>
+                        <div class="meta">Hampshire Constabulary • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/epsom-ewell/" class="force-card">
+                        <h3>Epsom Ewell</h3>
+                        <div class="meta">Surrey Police • 6 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/exeter-east-mid-devon/" class="force-card">
+                        <h3>Exeter East  Mid Devon</h3>
+                        <div class="meta">Devon & Cornwall Police • 42 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/gedling/" class="force-card">
+                        <h3>Gedling</h3>
+                        <div class="meta">Nottinghamshire Police • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/greenwich/" class="force-card">
+                        <h3>Greenwich</h3>
+                        <div class="meta">Metropolitan Police Service • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/hart/" class="force-card">
+                        <h3>Hart</h3>
+                        <div class="meta">Hampshire Constabulary • 3 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/herefordshire/" class="force-card">
+                        <h3>Herefordshire</h3>
+                        <div class="meta">West Mercia Police • 10 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/ilfracombe-west/" class="force-card">
+                        <h3>Ilfracombe West</h3>
+                        <div class="meta">Devon & Cornwall Police • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/kettering/" class="force-card">
+                        <h3>Kettering</h3>
+                        <div class="meta">Northamptonshire Police • 6 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/llanelli-rural/" class="force-card">
+                        <h3>Llanelli Rural</h3>
+                        <div class="meta">Dyfed-Powys Police • 13 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/llanelli-town/" class="force-card">
+                        <h3>Llanelli Town</h3>
+                        <div class="meta">Dyfed-Powys Police • 7 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/luton/" class="force-card">
+                        <h3>Luton</h3>
+                        <div class="meta">Bedfordshire Police • 4 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/newark-and-sherwood/" class="force-card">
+                        <h3>Newark And Sherwood</h3>
+                        <div class="meta">Nottinghamshire Police • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/north-west-devon/" class="force-card">
+                        <h3>North  West Devon</h3>
+                        <div class="meta">Devon & Cornwall Police • 28 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/north-worcestershire/" class="force-card">
+                        <h3>North Worcestershire</h3>
+                        <div class="meta">West Mercia Police • 19 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/northampton-central/" class="force-card">
+                        <h3>Northampton Central</h3>
+                        <div class="meta">Northamptonshire Police • 3 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/northampton-suburban/" class="force-card">
+                        <h3>Northampton Suburban</h3>
+                        <div class="meta">Northamptonshire Police • 5 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/pembrokeshire-mid/" class="force-card">
+                        <h3>Pembrokeshire Mid</h3>
+                        <div class="meta">Dyfed-Powys Police • 13 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/pembrokeshire-north/" class="force-card">
+                        <h3>Pembrokeshire North</h3>
+                        <div class="meta">Dyfed-Powys Police • 19 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/pembrokeshire-south/" class="force-card">
+                        <h3>Pembrokeshire South</h3>
+                        <div class="meta">Dyfed-Powys Police • 23 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/plymouth/" class="force-card">
+                        <h3>Plymouth</h3>
+                        <div class="meta">Devon & Cornwall Police • 39 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/powys-mid/" class="force-card">
+                        <h3>Powys Mid</h3>
+                        <div class="meta">Dyfed-Powys Police • 17 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/powys-north/" class="force-card">
+                        <h3>Powys North</h3>
+                        <div class="meta">Dyfed-Powys Police • 30 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/powys-south/" class="force-card">
+                        <h3>Powys South</h3>
+                        <div class="meta">Dyfed-Powys Police • 22 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/shropshire/" class="force-card">
+                        <h3>Shropshire</h3>
+                        <div class="meta">West Mercia Police • 20 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/south-devon/" class="force-card">
+                        <h3>South Devon</h3>
+                        <div class="meta">Devon & Cornwall Police • 42 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/south-northamptonshire/" class="force-card">
+                        <h3>South Northamptonshire</h3>
+                        <div class="meta">Northamptonshire Police • 4 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/south-worcestershire/" class="force-card">
+                        <h3>South Worcestershire</h3>
+                        <div class="meta">West Mercia Police • 19 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/telford-and-wrekin/" class="force-card">
+                        <h3>Telford And Wrekin</h3>
+                        <div class="meta">West Mercia Police • 14 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/warrington/" class="force-card">
+                        <h3>Warrington</h3>
+                        <div class="meta">Cheshire Constabulary • 1 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/wellingborough/" class="force-card">
+                        <h3>Wellingborough</h3>
+                        <div class="meta">Northamptonshire Police • 5 neighbourhoods</div>
+                    </a>
+
+                    <a href="/district/west-cornwall/" class="force-card">
+                        <h3>West Cornwall</h3>
+                        <div class="meta">Devon & Cornwall Police • 31 neighbourhoods</div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="/forces_search.js"></script>
+    <script src="/neighbourhoods_search.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
