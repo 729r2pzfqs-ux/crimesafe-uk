@@ -109,10 +109,32 @@ def generate_homepage(forces_data):
             <div class="container">
                 <h1>UK Crime Statistics</h1>
                 <p class="hero-sub">Explore crime data and safety scores for neighbourhoods across England, Wales, and Northern Ireland</p>
-                <div class="search-wrap">
-                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                    <input type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
-                    <div class="search-dropdown" id="searchDropdown"></div>
+                <div class="search-tabs">
+                    <button class="search-tab active" data-panel="searchPanel">Search</button>
+                    <button class="search-tab" data-panel="comparePanel">Compare</button>
+                </div>
+                
+                <div class="search-panel active" id="searchPanel">
+                    <div class="search-wrap">
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                        <input type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
+                        <div class="search-dropdown" id="searchDropdown"></div>
+                    </div>
+                </div>
+                
+                <div class="search-panel" id="comparePanel">
+                    <div class="compare-wrap">
+                        <div class="compare-input-wrap">
+                            <input type="text" class="search-input" id="compareCity1" placeholder="First neighbourhood..." autocomplete="off">
+                            <div class="search-dropdown" id="compareDropdown1"></div>
+                        </div>
+                        <span class="compare-vs">vs</span>
+                        <div class="compare-input-wrap">
+                            <input type="text" class="search-input" id="compareCity2" placeholder="Second neighbourhood..." autocomplete="off">
+                            <div class="search-dropdown" id="compareDropdown2"></div>
+                        </div>
+                        <button class="compare-btn" id="compareBtn" disabled>Compare</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -270,8 +292,6 @@ def main():
     print(f"Loaded {len(forces_data['forces'])} forces")
     
     # Generate JS
-    with open(f"{OUTPUT_DIR}/script.js", 'w') as f:
-        f.write(get_js())
     
     # Generate homepage
     print("Generating homepage...")
