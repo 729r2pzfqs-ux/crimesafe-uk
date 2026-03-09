@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hounslow Central — Metropolitan Police Service — CrimeSafe UK</title>
-    <meta name="description" content="Crime statistics and safety score for Hounslow Central in Metropolitan Police Service">
+    <title>Hounslow Central Crime Rate & Safety — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics and safety score for Hounslow Central in Metropolitan Police Service. Safety Score: 19/100">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -43,80 +43,135 @@
         
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
-                <h1>Hounslow Central</h1>
-                <p class="hero-sub">Metropolitan Police Service</p>
+                <h1>Hounslow Central Crime Rate</h1>
+                <p class="hero-sub">Metropolitan Police Service • January 2026 Data</p>
             </div>
         </section>
         
-        <section style="padding-bottom: var(--space-12);">
-            <div class="container">
-                
-                <div class="kpi-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 500px; margin: 0 auto var(--space-8);">
-                    <div class="kpi-card" style="text-align: center;">
-                        <div class="kpi-label">Safety Score</div>
-                        <div class="kpi-value">19</div>
-                        <span class="score-badge score-unsafe">Needs Attention</span>
+        <section style="padding-bottom: var(--space-8);">
+            <div class="container" style="max-width: 900px;">
+                <!-- Score Card -->
+                <div class="kpi-card" style="display: flex; align-items: center; gap: var(--space-8); padding: var(--space-8); flex-wrap: wrap; justify-content: center;">
+                    <div style="width: 140px; height: 140px; border-radius: 50%; background: #dc2626; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white;">
+                        <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">19</span>
+                        <span style="font-size: var(--text-xs); opacity: 0.9;">Safety Score</span>
                     </div>
-                    <div class="kpi-card" style="text-align: center;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; font-weight: 700; color: #dc2626; line-height: 1;">F</div>
+                        <div style="color: var(--color-text-muted);">High Risk</div>
+                    </div>
+                </div>
+                
+                <!-- Stats Grid -->
+                <div class="kpi-grid" style="margin-top: var(--space-6);">
+                    <div class="kpi-card">
                         <div class="kpi-label">Total Crimes</div>
                         <div class="kpi-value">757</div>
                         <div class="kpi-detail">January 2026</div>
                     </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Violent Crime</div>
+                        <div class="kpi-value" style="color: #dc2626;">206</div>
+                        <div class="kpi-detail">Assaults, robbery</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Property Crime</div>
+                        <div class="kpi-value" style="color: #ca8a04;">110</div>
+                        <div class="kpi-detail">Burglary, theft</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Anti-Social</div>
+                        <div class="kpi-value">147</div>
+                        <div class="kpi-detail">Nuisance, disorder</div>
+                    </div>
                 </div>
                 
-                <div class="section-header">
-                    <h2 class="section-title">Crime Breakdown</h2>
+                <!-- Is it Safe? Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is Hounslow Central Safe?</h2>
+                    <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
+                        Hounslow Central has a safety score of <strong>19/100</strong>, which is rated as <strong>High Risk</strong>.
+                        In January 2026, police recorded 757 crimes in this neighbourhood, including 206 violent offences.
+                    </p>
+                    <p style="color: var(--color-text-muted);">
+                        This area has above-average crime rates. Take extra precautions with personal belongings and avoid walking alone at night.
+                    </p>
                 </div>
-                <div class="crime-grid">
+                
+                <!-- Crime Breakdown -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Crime Breakdown</h2>
+                    <div class="kpi-grid" style="grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));">
 
-                    <div class="crime-item">
-                        <div class="icon">⚠️</div>
-                        <div class="count">206</div>
-                        <div class="type">Violent Crime</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">206</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Violent Crime</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">😤</div>
-                        <div class="count">147</div>
-                        <div class="type">Anti-Social Behaviour</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">147</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Anti-Social Behaviour</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🛒</div>
-                        <div class="count">87</div>
-                        <div class="type">Shoplifting</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">87</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Shoplifting</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">📢</div>
-                        <div class="count">53</div>
-                        <div class="type">Public Order</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">53</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Public Order</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🛍️</div>
-                        <div class="count">50</div>
-                        <div class="type">Other Theft</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">50</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Other Theft</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🔥</div>
-                        <div class="count">43</div>
-                        <div class="type">Criminal Damage</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">43</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Criminal Damage</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">👛</div>
-                        <div class="count">43</div>
-                        <div class="type">Theft from Person</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">43</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Theft from Person</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🏠</div>
-                        <div class="count">41</div>
-                        <div class="type">Burglary</div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">41</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Burglary</div>
+                        </div>
+
                     </div>
-</div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">What is Hounslow Central's crime rate?</div>
+                        <div style="color: var(--color-text-muted);">Hounslow Central recorded 757 crimes in January 2026, including 206 violent crimes and 110 property crimes.</div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is Hounslow Central a safe neighbourhood?</div>
+                        <div style="color: var(--color-text-muted);">With a safety score of 19/100 (Grade F), Hounslow Central is considered high risk. Extra caution is advised.</div>
+                    </div>
+                    
+                    <div style="padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Which police force covers Hounslow Central?</div>
+                        <div style="color: var(--color-text-muted);">Hounslow Central is policed by <a href="/force/metropolitan-police-service/">Metropolitan Police Service</a>.</div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
+                    <h3 style="margin-bottom: var(--space-2);">Compare Hounslow Central</h3>
+                    <p style="opacity: 0.9;">See how this neighbourhood compares to others</p>
+                    <a href="/" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: var(--space-4);">Compare Neighbourhoods →</a>
+                </div>
             </div>
         </section>
     </main>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pyle, Kenfig Hill and Cefn Cribwr — South Wales Police — CrimeSafe UK</title>
-    <meta name="description" content="Crime statistics and safety score for Pyle, Kenfig Hill and Cefn Cribwr in South Wales Police">
+    <title>Pyle, Kenfig Hill and Cefn Cribwr Crime Rate & Safety — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics and safety score for Pyle, Kenfig Hill and Cefn Cribwr in South Wales Police. Safety Score: 97/100">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -43,68 +43,125 @@
         
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
-                <h1>Pyle, Kenfig Hill and Cefn Cribwr</h1>
-                <p class="hero-sub">South Wales Police</p>
+                <h1>Pyle, Kenfig Hill and Cefn Cribwr Crime Rate</h1>
+                <p class="hero-sub">South Wales Police • January 2026 Data</p>
             </div>
         </section>
         
-        <section style="padding-bottom: var(--space-12);">
-            <div class="container">
-                
-                <div class="kpi-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 500px; margin: 0 auto var(--space-8);">
-                    <div class="kpi-card" style="text-align: center;">
-                        <div class="kpi-label">Safety Score</div>
-                        <div class="kpi-value">97</div>
-                        <span class="score-badge score-safe">Safe</span>
+        <section style="padding-bottom: var(--space-8);">
+            <div class="container" style="max-width: 900px;">
+                <!-- Score Card -->
+                <div class="kpi-card" style="display: flex; align-items: center; gap: var(--space-8); padding: var(--space-8); flex-wrap: wrap; justify-content: center;">
+                    <div style="width: 140px; height: 140px; border-radius: 50%; background: #16a34a; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white;">
+                        <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">97</span>
+                        <span style="font-size: var(--text-xs); opacity: 0.9;">Safety Score</span>
                     </div>
-                    <div class="kpi-card" style="text-align: center;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; font-weight: 700; color: #16a34a; line-height: 1;">A</div>
+                        <div style="color: var(--color-text-muted);">Very Safe</div>
+                    </div>
+                </div>
+                
+                <!-- Stats Grid -->
+                <div class="kpi-grid" style="margin-top: var(--space-6);">
+                    <div class="kpi-card">
                         <div class="kpi-label">Total Crimes</div>
                         <div class="kpi-value">24</div>
                         <div class="kpi-detail">January 2026</div>
                     </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Violent Crime</div>
+                        <div class="kpi-value" style="color: #dc2626;">12</div>
+                        <div class="kpi-detail">Assaults, robbery</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Property Crime</div>
+                        <div class="kpi-value" style="color: #ca8a04;">1</div>
+                        <div class="kpi-detail">Burglary, theft</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Anti-Social</div>
+                        <div class="kpi-value">3</div>
+                        <div class="kpi-detail">Nuisance, disorder</div>
+                    </div>
                 </div>
                 
-                <div class="section-header">
-                    <h2 class="section-title">Crime Breakdown</h2>
+                <!-- Is it Safe? Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is Pyle, Kenfig Hill and Cefn Cribwr Safe?</h2>
+                    <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
+                        Pyle, Kenfig Hill and Cefn Cribwr has a safety score of <strong>97/100</strong>, which is rated as <strong>Very Safe</strong>.
+                        In January 2026, police recorded 24 crimes in this neighbourhood, including 12 violent offences.
+                    </p>
+                    <p style="color: var(--color-text-muted);">
+                        This area has lower crime rates compared to many urban neighbourhoods, making it a relatively safe place to live or visit.
+                    </p>
                 </div>
-                <div class="crime-grid">
+                
+                <!-- Crime Breakdown -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Crime Breakdown</h2>
+                    <div class="kpi-grid" style="grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));">
 
-                    <div class="crime-item">
-                        <div class="icon">⚠️</div>
-                        <div class="count">12</div>
-                        <div class="type">Violent Crime</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">12</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Violent Crime</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">📢</div>
-                        <div class="count">5</div>
-                        <div class="type">Public Order</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">5</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Public Order</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">😤</div>
-                        <div class="count">3</div>
-                        <div class="type">Anti-Social Behaviour</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">3</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Anti-Social Behaviour</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🔥</div>
-                        <div class="count">2</div>
-                        <div class="type">Criminal Damage</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">2</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Criminal Damage</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🚗</div>
-                        <div class="count">1</div>
-                        <div class="type">Vehicle Crime</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">1</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Vehicle Crime</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">📋</div>
-                        <div class="count">1</div>
-                        <div class="type">Other Crime</div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">1</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Other Crime</div>
+                        </div>
+
                     </div>
-</div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">What is Pyle, Kenfig Hill and Cefn Cribwr's crime rate?</div>
+                        <div style="color: var(--color-text-muted);">Pyle, Kenfig Hill and Cefn Cribwr recorded 24 crimes in January 2026, including 12 violent crimes and 1 property crimes.</div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is Pyle, Kenfig Hill and Cefn Cribwr a safe neighbourhood?</div>
+                        <div style="color: var(--color-text-muted);">With a safety score of 97/100 (Grade A), Pyle, Kenfig Hill and Cefn Cribwr is considered very safe. It has below-average crime for the region.</div>
+                    </div>
+                    
+                    <div style="padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Which police force covers Pyle, Kenfig Hill and Cefn Cribwr?</div>
+                        <div style="color: var(--color-text-muted);">Pyle, Kenfig Hill and Cefn Cribwr is policed by <a href="/force/south-wales-police/">South Wales Police</a>.</div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
+                    <h3 style="margin-bottom: var(--space-2);">Compare Pyle, Kenfig Hill and Cefn Cribwr</h3>
+                    <p style="opacity: 0.9;">See how this neighbourhood compares to others</p>
+                    <a href="/" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: var(--space-4);">Compare Neighbourhoods →</a>
+                </div>
             </div>
         </section>
     </main>
