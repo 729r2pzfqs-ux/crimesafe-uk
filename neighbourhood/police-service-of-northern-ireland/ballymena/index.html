@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ballymena — Police Service of Northern Ireland — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics and safety score for Ballymena in Police Service of Northern Ireland">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -13,17 +14,24 @@
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/" class="logo">🛡️ Crime<span>Safe</span> UK</a>
-            <nav>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/about/">About</a>
-            </nav>
-            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main>
         <div class="container">
@@ -32,29 +40,30 @@
             </div>
         </div>
         
-        <section class="hero" style="padding: 2rem 1rem;">
+        <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>Ballymena</h1>
-                <p>Police Service of Northern Ireland</p>
+                <p class="hero-sub">Police Service of Northern Ireland</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-12);">
             <div class="container">
                 
-            <div class="stat-card" style="text-align: center; padding: 2rem;">
-                <p>Crime statistics coming soon</p>
-                <p class="label">Data is being collected for this neighbourhood</p>
-            </div>
+                <div class="kpi-card" style="text-align: center; max-width: 500px; margin: 0 auto;">
+                    <div class="kpi-label">Status</div>
+                    <div class="kpi-value" style="font-size: var(--text-lg);">Data Loading</div>
+                    <div class="kpi-detail">Crime statistics are being collected for this neighbourhood</div>
+                </div>
 
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank">data.police.uk</a></p>
-            <p style="margin-top: 0.5rem;">Data updated monthly. Last update: January 2026</p>
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>

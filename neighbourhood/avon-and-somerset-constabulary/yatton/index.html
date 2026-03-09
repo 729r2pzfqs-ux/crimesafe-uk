@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yatton — Avon and Somerset Constabulary — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics and safety score for Yatton in Avon and Somerset Constabulary">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -13,17 +14,24 @@
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/" class="logo">🛡️ Crime<span>Safe</span> UK</a>
-            <nav>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/about/">About</a>
-            </nav>
-            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main>
         <div class="container">
@@ -32,54 +40,60 @@
             </div>
         </div>
         
-        <section class="hero" style="padding: 2rem 1rem;">
+        <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>Yatton</h1>
-                <p>Avon and Somerset Constabulary</p>
+                <p class="hero-sub">Avon and Somerset Constabulary</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-12);">
             <div class="container">
                 
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="number">98</div>
-                    <div class="label">Safety Score</div>
-                    <span class="score-badge score-safe">Safe</span>
+                <div class="kpi-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 500px; margin: 0 auto var(--space-8);">
+                    <div class="kpi-card" style="text-align: center;">
+                        <div class="kpi-label">Safety Score</div>
+                        <div class="kpi-value">98</div>
+                        <span class="score-badge score-safe">Safe</span>
+                    </div>
+                    <div class="kpi-card" style="text-align: center;">
+                        <div class="kpi-label">Total Crimes</div>
+                        <div class="kpi-value">13</div>
+                        <div class="kpi-detail">January 2026</div>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <div class="number">13</div>
-                    <div class="label">Crimes (Jan 2026)</div>
+                
+                <div class="section-header">
+                    <h2 class="section-title">Crime Breakdown</h2>
                 </div>
-            </div>
-            
-            <h3 style="margin-top: 2rem;">Crime Breakdown</h3>
-            <div class="force-grid" style="margin-top: 1rem;">
+                <div class="crime-grid">
 
-                <div class="stat-card" style="text-align: left;">
-                    <div style="font-size: 1.5rem;">⚠️ 11</div>
-                    <div class="label">Violent Crime</div>
-                </div>
+                    <div class="crime-item">
+                        <div class="icon">⚠️</div>
+                        <div class="count">11</div>
+                        <div class="type">Violent Crime</div>
+                    </div>
 
-                <div class="stat-card" style="text-align: left;">
-                    <div style="font-size: 1.5rem;">📢 1</div>
-                    <div class="label">Public Order</div>
-                </div>
+                    <div class="crime-item">
+                        <div class="icon">📢</div>
+                        <div class="count">1</div>
+                        <div class="type">Public Order</div>
+                    </div>
 
-                <div class="stat-card" style="text-align: left;">
-                    <div style="font-size: 1.5rem;">🛒 1</div>
-                    <div class="label">Shoplifting</div>
-                </div>
+                    <div class="crime-item">
+                        <div class="icon">🛒</div>
+                        <div class="count">1</div>
+                        <div class="type">Shoplifting</div>
+                    </div>
 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank">data.police.uk</a></p>
-            <p style="margin-top: 0.5rem;">Data updated monthly. Last update: January 2026</p>
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>

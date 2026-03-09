@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrimeSafe UK — UK Crime Statistics & Safety Scores</title>
+    <meta name="description" content="Explore crime data and safety scores for neighbourhoods across the UK">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -13,47 +14,59 @@
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/" class="logo">🛡️ Crime<span>Safe</span> UK</a>
-            <nav>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/about/">About</a>
-            </nav>
-            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main>
         <section class="hero">
             <div class="container">
-                <h1>🛡️ UK Crime Statistics</h1>
-                <p>Explore crime data and safety scores for neighbourhoods across the UK</p>
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
+                <h1>UK Crime Statistics</h1>
+                <p class="hero-sub">Explore crime data and safety scores for neighbourhoods across England, Wales, and Northern Ireland</p>
+                <div class="search-wrap">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    <input type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
                 </div>
             </div>
         </section>
         
-        <section>
+        <section class="kpi-section">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="number">44</div>
-                        <div class="label">Police Forces</div>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-label">Police Forces</div>
+                        <div class="kpi-value">44</div>
+                        <div class="kpi-detail">Across UK</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="number">4,929</div>
-                        <div class="label">Neighbourhoods</div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Neighbourhoods</div>
+                        <div class="kpi-value">4,929</div>
+                        <div class="kpi-detail">Coverage areas</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="number">Monthly</div>
-                        <div class="label">Data Updates</div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Data Updates</div>
+                        <div class="kpi-value">Monthly</div>
+                        <div class="kpi-detail">Official police data</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="number">14</div>
-                        <div class="label">Crime Categories</div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Crime Types</div>
+                        <div class="kpi-value">14</div>
+                        <div class="kpi-detail">Categories tracked</div>
                     </div>
                 </div>
             </div>
@@ -61,7 +74,9 @@
         
         <section id="forces-section">
             <div class="container">
-                <h2>Police Forces</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Police Forces</h2>
+                </div>
                 <div class="force-grid">
 
                     <a href="/force/metropolitan-police-service/" class="force-card">
@@ -289,10 +304,10 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank">data.police.uk</a></p>
-            <p style="margin-top: 0.5rem;">Data updated monthly. Last update: January 2026</p>
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>

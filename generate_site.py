@@ -29,6 +29,13 @@ CRIME_WEIGHTS = {
     "other-crime": {"name": "Other Crime", "weight": 0.3, "icon": "📋"},
 }
 
+# Logo SVG
+LOGO_SVG = '''<svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>'''
+
 def slugify(text):
     """Convert text to URL-safe slug"""
     text = text.lower()
@@ -36,219 +43,6 @@ def slugify(text):
     text = re.sub(r'[\s_]+', '-', text)
     text = re.sub(r'-+', '-', text)
     return text.strip('-')
-
-def get_css():
-    """Return the site CSS"""
-    return '''
-:root {
-    --bg: #ffffff;
-    --bg-card: #f8f9fa;
-    --text: #1a1a2e;
-    --text-muted: #6c757d;
-    --border: #dee2e6;
-    --primary: #0d6efd;
-    --success: #198754;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --safe: #198754;
-    --moderate: #ffc107;
-    --unsafe: #dc3545;
-}
-
-[data-theme="dark"] {
-    --bg: #1a1a2e;
-    --bg-card: #16213e;
-    --text: #eaeaea;
-    --text-muted: #adb5bd;
-    --border: #2d3748;
-    --primary: #4dabf7;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-}
-
-.container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
-
-header {
-    background: var(--bg-card);
-    border-bottom: 1px solid var(--border);
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.header-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary);
-    text-decoration: none;
-}
-
-.logo span { color: var(--text); }
-
-nav a {
-    color: var(--text-muted);
-    text-decoration: none;
-    margin-left: 1.5rem;
-    font-size: 0.95rem;
-}
-
-nav a:hover { color: var(--primary); }
-
-.theme-toggle {
-    background: none;
-    border: 1px solid var(--border);
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
-    font-size: 1.1rem;
-    margin-left: 1rem;
-}
-
-.hero {
-    text-align: center;
-    padding: 3rem 1rem;
-    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg) 100%);
-}
-
-.hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-.hero p { color: var(--text-muted); font-size: 1.1rem; }
-
-.search-box {
-    max-width: 500px;
-    margin: 2rem auto 0;
-    position: relative;
-}
-
-.search-box input {
-    width: 100%;
-    padding: 1rem 1.5rem;
-    font-size: 1rem;
-    border: 2px solid var(--border);
-    border-radius: 50px;
-    background: var(--bg);
-    color: var(--text);
-}
-
-.search-box input:focus {
-    outline: none;
-    border-color: var(--primary);
-}
-
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem 0;
-}
-
-.stat-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.stat-card .number {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--primary);
-}
-
-.stat-card .label {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-.force-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
-    padding: 2rem 0;
-}
-
-.force-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1.25rem;
-    text-decoration: none;
-    color: var(--text);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.force-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.force-card h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-}
-
-.force-card .meta {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-.score-badge {
-    display: inline-block;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 0.85rem;
-}
-
-.score-safe { background: var(--safe); color: white; }
-.score-moderate { background: var(--warning); color: #333; }
-.score-unsafe { background: var(--danger); color: white; }
-
-section { padding: 2rem 0; }
-section h2 { margin-bottom: 1.5rem; font-size: 1.75rem; }
-
-.breadcrumb {
-    padding: 1rem 0;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-.breadcrumb a { color: var(--primary); text-decoration: none; }
-
-footer {
-    background: var(--bg-card);
-    border-top: 1px solid var(--border);
-    padding: 2rem 0;
-    margin-top: 3rem;
-    text-align: center;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-footer a { color: var(--primary); text-decoration: none; }
-
-@media (max-width: 768px) {
-    .hero h1 { font-size: 1.75rem; }
-    .header-inner { flex-wrap: wrap; }
-    nav { margin-top: 0.5rem; width: 100%; }
-    nav a { margin: 0 1rem 0 0; }
-}
-'''
 
 def get_js():
     """Return the site JavaScript"""
@@ -271,7 +65,7 @@ toggle.addEventListener('click', () => {
 });
 '''
 
-def get_header(title="CrimeSafe UK"):
+def get_header(title="CrimeSafe UK", description="UK crime statistics and safety scores"):
     """Return HTML header"""
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -279,6 +73,7 @@ def get_header(title="CrimeSafe UK"):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <meta name="description" content="{description}">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -288,26 +83,29 @@ def get_header(title="CrimeSafe UK"):
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/" class="logo">🛡️ Crime<span>Safe</span> UK</a>
-            <nav>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                {LOGO_SVG}
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/about/">About</a>
-            </nav>
-            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
         </div>
-    </header>
+    </nav>
 '''
 
 def get_footer():
     """Return HTML footer"""
-    return f'''
-    <footer>
+    return '''
+    <footer class="footer">
         <div class="container">
-            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank">data.police.uk</a></p>
-            <p style="margin-top: 0.5rem;">Data updated monthly. Last update: January 2026</p>
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>
@@ -322,37 +120,42 @@ def generate_homepage(forces_data):
     # Sort forces by neighbourhood count
     forces_sorted = sorted(forces_data['forces'], key=lambda f: len(f['neighbourhoods']), reverse=True)
     
-    html = get_header("CrimeSafe UK — UK Crime Statistics & Safety Scores")
+    html = get_header("CrimeSafe UK — UK Crime Statistics & Safety Scores", "Explore crime data and safety scores for neighbourhoods across the UK")
     html += '''
     <main>
         <section class="hero">
             <div class="container">
-                <h1>🛡️ UK Crime Statistics</h1>
-                <p>Explore crime data and safety scores for neighbourhoods across the UK</p>
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
+                <h1>UK Crime Statistics</h1>
+                <p class="hero-sub">Explore crime data and safety scores for neighbourhoods across England, Wales, and Northern Ireland</p>
+                <div class="search-wrap">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    <input type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
                 </div>
             </div>
         </section>
         
-        <section>
+        <section class="kpi-section">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="number">44</div>
-                        <div class="label">Police Forces</div>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-label">Police Forces</div>
+                        <div class="kpi-value">44</div>
+                        <div class="kpi-detail">Across UK</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="number">''' + f'{total_neighbourhoods:,}' + '''</div>
-                        <div class="label">Neighbourhoods</div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Neighbourhoods</div>
+                        <div class="kpi-value">''' + f'{total_neighbourhoods:,}' + '''</div>
+                        <div class="kpi-detail">Coverage areas</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="number">Monthly</div>
-                        <div class="label">Data Updates</div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Data Updates</div>
+                        <div class="kpi-value">Monthly</div>
+                        <div class="kpi-detail">Official police data</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="number">14</div>
-                        <div class="label">Crime Categories</div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Crime Types</div>
+                        <div class="kpi-value">14</div>
+                        <div class="kpi-detail">Categories tracked</div>
                     </div>
                 </div>
             </div>
@@ -360,7 +163,9 @@ def generate_homepage(forces_data):
         
         <section id="forces-section">
             <div class="container">
-                <h2>Police Forces</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Police Forces</h2>
+                </div>
                 <div class="force-grid">
 '''
     
@@ -388,7 +193,7 @@ def generate_force_page(force, all_forces):
     slug = slugify(force['name'])
     nb_count = len(force['neighbourhoods'])
     
-    html = get_header(f"{force['name']} — CrimeSafe UK")
+    html = get_header(f"{force['name']} — CrimeSafe UK", f"Crime statistics for {nb_count} neighbourhoods in {force['name']}")
     html += f'''
     <main>
         <div class="container">
@@ -397,16 +202,18 @@ def generate_force_page(force, all_forces):
             </div>
         </div>
         
-        <section class="hero" style="padding: 2rem 1rem;">
+        <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{force['name']}</h1>
-                <p>{nb_count:,} neighbourhoods covered</p>
+                <p class="hero-sub">{nb_count:,} neighbourhoods covered</p>
             </div>
         </section>
         
         <section>
             <div class="container">
-                <h2>Neighbourhoods</h2>
+                <div class="section-header">
+                    <h2 class="section-title">Neighbourhoods</h2>
+                </div>
                 <div class="force-grid">
 '''
     
@@ -432,7 +239,7 @@ def generate_forces_index(forces_data):
     """Generate the forces index page"""
     forces_sorted = sorted(forces_data['forces'], key=lambda f: f['name'])
     
-    html = get_header("All Police Forces — CrimeSafe UK")
+    html = get_header("All Police Forces — CrimeSafe UK", "Browse all 44 UK police forces")
     html += '''
     <main>
         <div class="container">
@@ -441,10 +248,10 @@ def generate_forces_index(forces_data):
             </div>
         </div>
         
-        <section class="hero" style="padding: 2rem 1rem;">
+        <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>UK Police Forces</h1>
-                <p>44 forces covering England, Wales, and Northern Ireland</p>
+                <p class="hero-sub">44 forces covering England, Wales, and Northern Ireland</p>
             </div>
         </section>
         
@@ -479,10 +286,8 @@ def main():
     
     print(f"Loaded {len(forces_data['forces'])} forces")
     
-    # Generate CSS and JS
-    print("Generating CSS and JS...")
-    with open(f"{OUTPUT_DIR}/style.css", 'w') as f:
-        f.write(get_css())
+    # Generate JS
+    print("Generating JS...")
     with open(f"{OUTPUT_DIR}/script.js", 'w') as f:
         f.write(get_js())
     
@@ -507,7 +312,7 @@ def main():
             f.write(generate_force_page(force, forces_data))
     
     # Summary
-    total_pages = 1 + 1 + len(forces_data['forces'])  # home + forces index + force pages
+    total_pages = 1 + 1 + len(forces_data['forces'])
     print(f"\n{'='*50}")
     print(f"Generated {total_pages} pages")
     print(f"  - Homepage: /index.html")
