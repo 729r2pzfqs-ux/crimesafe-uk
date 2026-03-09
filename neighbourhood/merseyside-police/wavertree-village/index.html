@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wavertree Village — Merseyside Police — CrimeSafe UK</title>
-    <meta name="description" content="Crime statistics and safety score for Wavertree Village in Merseyside Police">
+    <title>Wavertree Village Crime Rate & Safety — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics and safety score for Wavertree Village in Merseyside Police. Safety Score: 60/100">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -43,80 +43,135 @@
         
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
-                <h1>Wavertree Village</h1>
-                <p class="hero-sub">Merseyside Police</p>
+                <h1>Wavertree Village Crime Rate</h1>
+                <p class="hero-sub">Merseyside Police • January 2026 Data</p>
             </div>
         </section>
         
-        <section style="padding-bottom: var(--space-12);">
-            <div class="container">
-                
-                <div class="kpi-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 500px; margin: 0 auto var(--space-8);">
-                    <div class="kpi-card" style="text-align: center;">
-                        <div class="kpi-label">Safety Score</div>
-                        <div class="kpi-value">60</div>
-                        <span class="score-badge score-moderate">Moderate</span>
+        <section style="padding-bottom: var(--space-8);">
+            <div class="container" style="max-width: 900px;">
+                <!-- Score Card -->
+                <div class="kpi-card" style="display: flex; align-items: center; gap: var(--space-8); padding: var(--space-8); flex-wrap: wrap; justify-content: center;">
+                    <div style="width: 140px; height: 140px; border-radius: 50%; background: #16a34a; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white;">
+                        <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">60</span>
+                        <span style="font-size: var(--text-xs); opacity: 0.9;">Safety Score</span>
                     </div>
-                    <div class="kpi-card" style="text-align: center;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; font-weight: 700; color: #16a34a; line-height: 1;">B</div>
+                        <div style="color: var(--color-text-muted);">Safe</div>
+                    </div>
+                </div>
+                
+                <!-- Stats Grid -->
+                <div class="kpi-grid" style="margin-top: var(--space-6);">
+                    <div class="kpi-card">
                         <div class="kpi-label">Total Crimes</div>
                         <div class="kpi-value">349</div>
                         <div class="kpi-detail">January 2026</div>
                     </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Violent Crime</div>
+                        <div class="kpi-value" style="color: #dc2626;">122</div>
+                        <div class="kpi-detail">Assaults, robbery</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Property Crime</div>
+                        <div class="kpi-value" style="color: #ca8a04;">47</div>
+                        <div class="kpi-detail">Burglary, theft</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Anti-Social</div>
+                        <div class="kpi-value">26</div>
+                        <div class="kpi-detail">Nuisance, disorder</div>
+                    </div>
                 </div>
                 
-                <div class="section-header">
-                    <h2 class="section-title">Crime Breakdown</h2>
+                <!-- Is it Safe? Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is Wavertree Village Safe?</h2>
+                    <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
+                        Wavertree Village has a safety score of <strong>60/100</strong>, which is rated as <strong>Safe</strong>.
+                        In January 2026, police recorded 349 crimes in this neighbourhood, including 122 violent offences.
+                    </p>
+                    <p style="color: var(--color-text-muted);">
+                        This area has lower crime rates compared to many urban neighbourhoods, making it a relatively safe place to live or visit.
+                    </p>
                 </div>
-                <div class="crime-grid">
+                
+                <!-- Crime Breakdown -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Crime Breakdown</h2>
+                    <div class="kpi-grid" style="grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));">
 
-                    <div class="crime-item">
-                        <div class="icon">⚠️</div>
-                        <div class="count">122</div>
-                        <div class="type">Violent Crime</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">122</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Violent Crime</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">📢</div>
-                        <div class="count">46</div>
-                        <div class="type">Public Order</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">46</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Public Order</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🛒</div>
-                        <div class="count">41</div>
-                        <div class="type">Shoplifting</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">41</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Shoplifting</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">😤</div>
-                        <div class="count">26</div>
-                        <div class="type">Anti-Social Behaviour</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">26</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Anti-Social Behaviour</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">💊</div>
-                        <div class="count">26</div>
-                        <div class="type">Drugs</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">26</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Drugs</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🔥</div>
-                        <div class="count">25</div>
-                        <div class="type">Criminal Damage</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">25</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Criminal Damage</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🛍️</div>
-                        <div class="count">19</div>
-                        <div class="type">Other Theft</div>
-                    </div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">19</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Other Theft</div>
+                        </div>
 
-                    <div class="crime-item">
-                        <div class="icon">🚗</div>
-                        <div class="count">15</div>
-                        <div class="type">Vehicle Crime</div>
+                        <div style="text-align: center; padding: var(--space-4); background: var(--color-surface-offset); border-radius: var(--radius-md);">
+                            <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">15</div>
+                            <div style="font-size: var(--text-xs); color: var(--color-text-muted);">Vehicle Crime</div>
+                        </div>
+
                     </div>
-</div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">What is Wavertree Village's crime rate?</div>
+                        <div style="color: var(--color-text-muted);">Wavertree Village recorded 349 crimes in January 2026, including 122 violent crimes and 47 property crimes.</div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is Wavertree Village a safe neighbourhood?</div>
+                        <div style="color: var(--color-text-muted);">With a safety score of 60/100 (Grade B), Wavertree Village is considered safe. It has below-average crime for the region.</div>
+                    </div>
+                    
+                    <div style="padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Which police force covers Wavertree Village?</div>
+                        <div style="color: var(--color-text-muted);">Wavertree Village is policed by <a href="/force/merseyside-police/">Merseyside Police</a>.</div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
+                    <h3 style="margin-bottom: var(--space-2);">Compare Wavertree Village</h3>
+                    <p style="opacity: 0.9;">See how this neighbourhood compares to others</p>
+                    <a href="/" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: var(--space-4);">Compare Neighbourhoods →</a>
+                </div>
             </div>
         </section>
     </main>
