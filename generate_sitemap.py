@@ -10,7 +10,7 @@ from datetime import datetime
 
 DATA_DIR = "data"
 OUTPUT_DIR = "."
-BASE_URL = "https://729r2pzfqs-ux.github.io/crimesafe-uk"
+BASE_URL = "https://crimesafe.uk"
 
 def slugify(text):
     text = text.lower()
