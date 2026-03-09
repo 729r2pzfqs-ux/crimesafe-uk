@@ -199,9 +199,11 @@ def generate_homepage(forces_data):
     html += get_footer()
     return html
 
-def generate_force_page(force, all_forces):
+def generate_force_page(force, all_forces, rankings_lookup=None):
     """Generate a force detail page"""
     slug = slugify(force['name'])
+    if rankings_lookup is None:
+        rankings_lookup = {}
     nb_count = len(force['neighbourhoods'])
     
     html = get_header(f"{force['name']} — CrimeSafe UK", f"Crime statistics for {nb_count} neighbourhoods in {force['name']}")
@@ -230,10 +232,24 @@ def generate_force_page(force, all_forces):
     
     for nb in sorted(force['neighbourhoods'], key=lambda n: n['name']):
         nb_slug = slugify(nb['name'])
+        lookup_key = f"{slug}/{nb_slug}"
+        score_data = rankings_lookup.get(lookup_key, {})
+        score = score_data.get('score')
+        grade = score_data.get('grade', '?')
+        
+        if score is not None:
+            score_html = f'<span style="font-weight: 600; color: {"#16a34a" if score >= 60 else "#ca8a04" if score >= 40 else "#dc2626"};">{score}</span>/100'
+        else:
+            score_html = '<span style="color: var(--color-text-muted);">—</span>'
+        
         html += f'''
-                    <a href="/neighbourhood/{slug}/{nb_slug}/" class="force-card">
-                        <h3>{nb['name']}</h3>
-                        <div class="meta">{force['name']}</div>
+                    <a href="/neighbourhood/{slug}/{nb_slug}/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">{nb['name']}</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);">{score_html}</div>
+                        </div>
                     </a>
 '''
     
@@ -297,6 +313,17 @@ def main():
     
     print(f"Loaded {len(forces_data['forces'])} forces")
     
+    # Load rankings for score lookup
+    rankings_lookup = {}
+    rankings_file = f"{DATA_DIR}/rankings.json"
+    if os.path.exists(rankings_file):
+        with open(rankings_file) as f:
+            rankings = json.load(f)
+        for r in rankings:
+            key = f"{r['force_slug']}/{r['nb_slug']}"
+            rankings_lookup[key] = {'score': r['score'], 'grade': r['grade']}
+        print(f"Loaded {len(rankings_lookup)} neighbourhood scores")
+    
     # Generate JS
     
     # Generate homepage
@@ -317,7 +344,7 @@ def main():
         slug = slugify(force['name'])
         os.makedirs(f"{OUTPUT_DIR}/force/{slug}", exist_ok=True)
         with open(f"{OUTPUT_DIR}/force/{slug}/index.html", 'w') as f:
-            f.write(generate_force_page(force, forces_data))
+            f.write(generate_force_page(force, forces_data, rankings_lookup))
     
     # Summary
     total_pages = 1 + 1 + len(forces_data['forces'])
