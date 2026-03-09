@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://729r2pzfqs-ux.github.io/crimesafe-uk/sitemap.xml
