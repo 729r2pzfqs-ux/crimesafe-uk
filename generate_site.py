@@ -51,6 +51,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
     <title>{title}</title>
     <meta name="description" content="{description}">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
