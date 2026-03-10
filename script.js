@@ -193,14 +193,18 @@ if (compareCity1 && compareCity2) {
         compareBtn.addEventListener('click', () => {
             if (!compareData1 || !compareData2) return;
             
-            // City vs City
+            // City vs City - use original order from COMPARE_CITIES
             if (compareData1.force === 'city' && compareData2.force === 'city') {
-                const slugs = [compareData1.nb, compareData2.nb].sort();
-                window.location.href = `/compare/city/${slugs[0]}-vs-${slugs[1]}/`;
+                const cityOrder = COMPARE_CITIES.map(c => c[4]);
+                const idx1 = cityOrder.indexOf(compareData1.nb);
+                const idx2 = cityOrder.indexOf(compareData2.nb);
+                const first = idx1 < idx2 ? compareData1.nb : compareData2.nb;
+                const second = idx1 < idx2 ? compareData2.nb : compareData1.nb;
+                window.location.href = `/compare/city/${first}-vs-${second}/`;
                 return;
             }
             
-            // Same force - neighbourhood comparison
+            // Same force - neighbourhood comparison (alphabetical sort)
             if (compareData1.force === compareData2.force && compareData1.force !== 'city') {
                 const slugs = [compareData1.nb, compareData2.nb].sort();
                 window.location.href = `/compare/${compareData1.force}/${slugs[0]}-vs-${slugs[1]}/`;
