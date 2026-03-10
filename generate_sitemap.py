@@ -50,6 +50,14 @@ def main():
             if os.path.isdir(f"{compare_dir}/{slug}"):
                 urls.append((f"/compare/{slug}/", "0.6", "monthly"))
     
+    # Postcode pages
+    postcode_dir = f"{OUTPUT_DIR}/postcode"
+    if os.path.exists(postcode_dir):
+        urls.append(("/postcode/", "0.8", "monthly"))
+        for slug in os.listdir(postcode_dir):
+            if os.path.isdir(f"{postcode_dir}/{slug}"):
+                urls.append((f"/postcode/{slug}/", "0.5", "monthly"))
+    
     # Load districts
     districts_file = f"{DATA_DIR}/districts.json"
     if os.path.exists(districts_file):
