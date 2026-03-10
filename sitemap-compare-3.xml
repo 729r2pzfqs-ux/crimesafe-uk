@@ -63313,6 +63313,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://crimesafe.uk/compare/west-midlands-police/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://crimesafe.uk/compare/camden-town-vs-lee-green/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -252421,6 +252427,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://crimesafe.uk/compare/greater-manchester-police/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://crimesafe.uk/compare/childs-hill-vs-green-street-east/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -269984,18 +269996,6 @@
   </url>
   <url>
     <loc>https://crimesafe.uk/compare/beam-park-vs-grove-green/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/compare/dulwich-village-vs-finchley-church-end/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/compare/carshalton-south-and-clockhouse-vs-rayners-lane/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
