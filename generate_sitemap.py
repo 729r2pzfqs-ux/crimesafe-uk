@@ -120,6 +120,14 @@ def main():
             if os.path.isdir(f"{lsoa_dir}/{slug}"):
                 lsoa_urls.append((f"/lsoa/{slug}/", "0.5", "monthly"))
     
+    # City pages
+    city_dir = f"{OUTPUT_DIR}/city"
+    if os.path.exists(city_dir):
+        main_urls.append(("/city/", "0.9", "weekly"))
+        for slug in os.listdir(city_dir):
+            if os.path.isdir(f"{city_dir}/{slug}"):
+                main_urls.append((f"/city/{slug}/", "0.8", "weekly"))
+    
     # Write sitemaps
     sitemap_files = []
     total_urls = 0
