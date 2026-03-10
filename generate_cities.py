@@ -9,8 +9,25 @@ from pathlib import Path
 # Top UK cities and towns by population/search volume
 CITIES = {
     "london": {"name": "London", "force": "metropolitan", "force_name": "Metropolitan Police Service", "show_all": True},
-    "birmingham": {"name": "Birmingham", "force": "west-midlands", "force_name": "West Midlands Police"},
-    "manchester": {"name": "Manchester", "force": "greater-manchester", "force_name": "Greater Manchester Police"},
+    "birmingham": {"name": "Birmingham", "force": "west-midlands", "force_name": "West Midlands Police", "neighbourhoods": [
+        "Erdington", "Kingstanding", "Stockland Green", "Tyburn", "Hall Green", "Moseley and Kings Heath",
+        "Sparkbrook", "Springfield", "Bordesley Green", "Hodge Hill", "Shard End", "Washwood Heath",
+        "Sutton Four Oaks", "Sutton New Hall", "Sutton Trinity", "Sutton Vesey", "Acocks Green", "Sheldon",
+        "South Yardley", "Stechford and Yardley North", "City Centre", "Bartley Green", "Edgbaston", "Harborne",
+        "Quinton", "Aston", "Nechells", "Small Heath and Highgate", "Kings Norton", "Longbridge", "Northfield",
+        "Weoley", "Handsworth Wood", "Lozells and East Handsworth", "Oscott", "Perry Barr", "Billesley",
+        "Bournville", "Brandwood", "Selly Oak", "Jewellery Quarter", "Ladywood", "Soho Road", "Winson Green NHT "
+    ]},
+    "manchester": {"name": "Manchester", "force": "greater-manchester", "force_name": "Greater Manchester Police", "neighbourhoods": [
+        "Clayton", "Miles Platting", "Newton Heath", "Beswick", "Openshaw", "Castlefield", "Southern Gateway",
+        "Higher Cheetham", "Higher Crumpsall", "Lower Cheetham", "Lower Crumpsall", "Charlestown", "Higher Blackley",
+        "Collyhurst", "Harpurhey", "Monsall", "Moston and New Moston", "Ancoats", "Northern Quarter", "China Town",
+        "Commercial District", "The Village", "Piccadilly Station", "Piccadilly Gardens", "Abbey Hey", "Debdale",
+        "Gorton North", "Gorton South", "Anson", "Ardwick", "Brunswick", "Coverdale", "Longsight", "MRI",
+        "Northmoor", "West Gorton", "Rusholme", "Alexandra Park (South Manchester)", "Hulme", "Moss Side",
+        "St Georges", "University", "Levenshulme", "Fallowfield", "Platt Fields", "Burnage", "Old Moat",
+        "Withington", "Whalley Range", "Chorlton"
+    ]},
     "leeds": {"name": "Leeds", "force": "west-yorkshire", "force_name": "West Yorkshire Police"},
     "liverpool": {"name": "Liverpool", "force": "merseyside", "force_name": "Merseyside Police", "neighbourhoods": [
         "Anfield", "Everton East", "Everton North", "Everton West", "Kirkdale East", "Kirkdale West",
@@ -42,14 +59,22 @@ CITIES = {
         "North Evington", "Knighton", "Freemen/Saffron", "Eyres Monsell", "Aylestone",
         "Abbey", "Beaumont Leys", "Braunstone Park and Rowley Fields", "Fosse", "Westcotes", "Western"
     ]},
-    "coventry": {"name": "Coventry", "force": "west-midlands", "force_name": "West Midlands Police"},
+    "coventry": {"name": "Coventry", "force": "west-midlands", "force_name": "West Midlands Police", "neighbourhoods": [
+        "Foleshill", "Stoke and Wyken", "St Michael's", "Henley and Longford",
+        "Binley, Willenhall, Cheylesmore and Earlsdon", "Holbrook, Radford, Sherbourne and Bablake",
+        "Woodlands, Wainbody, Westwood and Whoberley"
+    ]},
     "bradford": {"name": "Bradford", "force": "west-yorkshire", "force_name": "West Yorkshire Police"},
     # Note: Belfast removed - PSNI uses district names (Strandtown, etc.) not "Belfast"
     "brighton": {"name": "Brighton", "force": "sussex", "force_name": "Sussex Police"},
     "hull": {"name": "Hull", "force": "humberside", "force_name": "Humberside Police"},
     "plymouth": {"name": "Plymouth", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police"},
     "stoke-on-trent": {"name": "Stoke-on-Trent", "force": "staffordshire", "force_name": "Staffordshire Police"},
-    "wolverhampton": {"name": "Wolverhampton", "force": "west-midlands", "force_name": "West Midlands Police"},
+    "wolverhampton": {"name": "Wolverhampton", "force": "west-midlands", "force_name": "West Midlands Police", "neighbourhoods": [
+        "St Matthew's", "Wolverhampton City Centre", "Ettingshall, Blakenhall and Spring Vale",
+        "St Peter's, Park and Graiseley", "Bilston and East Park", "Fallings Park, Bushbury and Low Hill",
+        "Tettenhall, Penn, Merry Hill and Oxley", "Wednesfield and Heath Town"
+    ]},
     "derby": {"name": "Derby", "force": "derbyshire", "force_name": "Derbyshire Constabulary"},
     "southampton": {"name": "Southampton", "force": "hampshire", "force_name": "Hampshire Constabulary"},
     "portsmouth": {"name": "Portsmouth", "force": "hampshire", "force_name": "Hampshire Constabulary"},
@@ -385,22 +410,9 @@ def main():
             )
         
         if not neighbourhoods:
-            # Fallback: get all neighbourhoods for the force
-            for force in forces_data['forces']:
-                if force['id'] == city_info['force']:
-                    for nb in force.get('neighbourhoods', []):
-                        nb_id = nb.get('id', '')
-                        key = f"{city_info['force']}_{nb_id}"
-                        crime = crime_data.get(key, {})
-                        neighbourhoods.append({
-                            'name': nb['name'],
-                            'slug': slugify(nb['name']),
-                            'force_slug': slugify(force['name']),
-                            'score': crime.get('score', 0),
-                            'total_crimes': crime.get('total_crimes', 0)
-                        })
-                    neighbourhoods.sort(key=lambda x: x['score'], reverse=True)
-                    break
+            # Skip cities with no matching neighbourhoods
+            print(f"  ⚠️  {city_info['name']}: No neighbourhoods found, skipping")
+            continue
         
         if neighbourhoods:
             html = generate_city_page(city_slug, city_info, neighbourhoods, crime_data)
