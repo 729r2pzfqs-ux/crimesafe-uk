@@ -184,11 +184,6 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                         <div style="color: var(--color-text-muted);">{nb_name} recorded {total} crimes in January 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
                     </div>
                     
-                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
-                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is {nb_name} a safe neighbourhood?</div>
-                        <div style="color: var(--color-text-muted);">With a safety score of {safety_score}/100 (Grade {grade}), {nb_name} is safer than {safety_score}% of UK neighbourhoods. {"It has below-average crime rates." if safety_score >= 60 else "Crime levels are typical for the UK." if safety_score >= 40 else "Extra caution is advised."}</div>
-                    </div>
-                    
                     <div style="padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">Which police force covers {nb_name}?</div>
                         <div style="color: var(--color-text-muted);">{nb_name} is policed by <a href="/force/{force_slug}/">{force_name}</a>.</div>
