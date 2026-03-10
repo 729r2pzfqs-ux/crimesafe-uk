@@ -101,6 +101,25 @@ const compareBtn = document.getElementById('compareBtn');
 let compareData1 = null;
 let compareData2 = null;
 
+// Cities for comparison
+const COMPARE_CITIES = [
+    ["London", "City", 52, "city", "london"],
+    ["Birmingham", "City", 44, "city", "birmingham"],
+    ["Manchester", "City", 39, "city", "manchester"],
+    ["Leeds", "City", 49, "city", "leeds"],
+    ["Liverpool", "City", 42, "city", "liverpool"],
+    ["Sheffield", "City", 47, "city", "sheffield"],
+    ["Bristol", "City", 52, "city", "bristol"],
+    ["Newcastle", "City", 45, "city", "newcastle"],
+    ["Nottingham", "City", 43, "city", "nottingham"],
+    ["Cardiff", "City", 41, "city", "cardiff"],
+    ["Leicester", "City", 46, "city", "leicester"],
+    ["Coventry", "City", 44, "city", "coventry"],
+];
+
+// Forces with comparison pages
+const COMPARE_FORCES = ['metropolitan-police-service', 'greater-manchester-police', 'west-midlands-police'];
+
 function setupCompareInput(input, dropdown, setData) {
     if (!input || !dropdown) return;
     
@@ -114,9 +133,16 @@ function setupCompareInput(input, dropdown, setData) {
             return;
         }
         
-        const results = (typeof NEIGHBOURHOODS_SEARCH !== 'undefined' ? NEIGHBOURHOODS_SEARCH : [])
-            .filter(n => n[2] !== null && (n[0].toLowerCase().includes(q) || n[1].toLowerCase().includes(q)))
-            .slice(0, 8);
+        // Filter to only forces with comparison pages + add cities
+        const neighbourhoods = (typeof NEIGHBOURHOODS_SEARCH !== 'undefined' ? NEIGHBOURHOODS_SEARCH : [])
+            .filter(n => n[2] !== null && COMPARE_FORCES.includes(n[3]) && (n[0].toLowerCase().includes(q) || n[1].toLowerCase().includes(q)))
+            .slice(0, 6);
+        
+        const cities = COMPARE_CITIES
+            .filter(c => c[0].toLowerCase().includes(q))
+            .slice(0, 4);
+        
+        const results = [...cities, ...neighbourhoods].slice(0, 8);
         
         if (!results.length) {
             dropdown.classList.remove('active');
@@ -166,11 +192,23 @@ if (compareCity1 && compareCity2) {
     if (compareBtn) {
         compareBtn.addEventListener('click', () => {
             if (!compareData1 || !compareData2) return;
-            const slugs = [
-                `${compareData1.force}_${compareData1.nb}`,
-                `${compareData2.force}_${compareData2.nb}`
-            ].sort();
-            window.location.href = `/compare/${slugs[0]}-vs-${slugs[1]}/`;
+            
+            // City vs City
+            if (compareData1.force === 'city' && compareData2.force === 'city') {
+                const slugs = [compareData1.nb, compareData2.nb].sort();
+                window.location.href = `/compare/city/${slugs[0]}-vs-${slugs[1]}/`;
+                return;
+            }
+            
+            // Same force - neighbourhood comparison
+            if (compareData1.force === compareData2.force && compareData1.force !== 'city') {
+                const slugs = [compareData1.nb, compareData2.nb].sort();
+                window.location.href = `/compare/${compareData1.force}/${slugs[0]}-vs-${slugs[1]}/`;
+                return;
+            }
+            
+            // Different forces - redirect to city comparison if available
+            alert('Please compare neighbourhoods from the same city, or compare cities directly.');
         });
     }
 }
