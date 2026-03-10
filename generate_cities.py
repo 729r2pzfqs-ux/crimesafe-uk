@@ -12,17 +12,36 @@ CITIES = {
     "birmingham": {"name": "Birmingham", "force": "west-midlands", "force_name": "West Midlands Police"},
     "manchester": {"name": "Manchester", "force": "greater-manchester", "force_name": "Greater Manchester Police"},
     "leeds": {"name": "Leeds", "force": "west-yorkshire", "force_name": "West Yorkshire Police"},
-    "liverpool": {"name": "Liverpool", "force": "merseyside", "force_name": "Merseyside Police"},
+    "liverpool": {"name": "Liverpool", "force": "merseyside", "force_name": "Merseyside Police", "neighbourhoods": [
+        "Anfield", "Everton East", "Everton North", "Everton West", "Kirkdale East", "Kirkdale West",
+        "Vauxhall", "Walton", "Fazakerley East", "Fazakerley North", "Fazakerley West", "Norris Green",
+        "Croxteth", "Clubmoor East", "Clubmoor West", "County", "Kensington and Fairfield", "Old Swan East",
+        "Old Swan West", "Tuebrook Breckside Park", "Tuebrook Larkhill", "West Derby Deysbrook",
+        "West Derby Leyfield", "West Derby Muirhead", "Toxteth", "Dingle", "Edge Hill", "Wavertree Village",
+        "City Centre North", "City Centre South", "Waterfront North", "Waterfront South"
+    ]},
     "bristol": {"name": "Bristol", "force": "avon-and-somerset", "force_name": "Avon and Somerset Constabulary"},
-    "sheffield": {"name": "Sheffield", "force": "south-yorkshire", "force_name": "South Yorkshire Police"},
+    "sheffield": {"name": "Sheffield", "force": "south-yorkshire", "force_name": "South Yorkshire Police", "neighbourhoods": [
+        "Sheffield North East", "Sheffield South East", "Sheffield City Centre", "Sheffield South West", "Sheffield North West"
+    ]},
     "newcastle": {"name": "Newcastle", "force": "northumbria", "force_name": "Northumbria Police", "neighbourhoods": [
         "Newcastle Central", "Jesmond and Heaton", "Byker and Walker", "Fenham and Scotswood",
         "Benwell and Elswick", "Gosforth and Great Park", "Blakelaw, Kenton and Fawdon", "Westerhope and Newburn"
     ]},
-    "nottingham": {"name": "Nottingham", "force": "nottinghamshire", "force_name": "Nottinghamshire Police"},
+    "nottingham": {"name": "Nottingham", "force": "nottinghamshire", "force_name": "Nottinghamshire Police", "neighbourhoods": [
+        "City Centre", "Arboretum", "St Ann's", "Sneinton and Dales", "Meadows", "Clifton",
+        "Dunkirk & Lenton", "Radford & Park", "Wollaton West", "Wollaton East and Lenton Abbey",
+        "Basford", "Aspley", "Bilborough", "Leen Valley", "Bulwell", "Bulwell Forest", "Bestwood",
+        "Berridge", "Sherwood", "Mapperley & Wells"
+    ]},
     "cardiff": {"name": "Cardiff", "force": "south-wales", "force_name": "South Wales Police"},
     # Note: Edinburgh/Glasgow removed - Police Scotland doesn't use data.police.uk
-    "leicester": {"name": "Leicester", "force": "leicestershire", "force_name": "Leicestershire Police"},
+    "leicester": {"name": "Leicester", "force": "leicestershire", "force_name": "Leicestershire Police", "neighbourhoods": [
+        "City Centre", "Cultural Quarter", "Riverside", "Clarendon Park", "Latimer", "Belgrave",
+        "Rushey Mead", "Humberstone and Hamilton", "Stoneygate", "Spinney Hills", "Evington",
+        "North Evington", "Knighton", "Freemen/Saffron", "Eyres Monsell", "Aylestone",
+        "Abbey", "Beaumont Leys", "Braunstone Park and Rowley Fields", "Fosse", "Westcotes", "Western"
+    ]},
     "coventry": {"name": "Coventry", "force": "west-midlands", "force_name": "West Midlands Police"},
     "bradford": {"name": "Bradford", "force": "west-yorkshire", "force_name": "West Yorkshire Police"},
     # Note: Belfast removed - PSNI uses district names (Strandtown, etc.) not "Belfast"
