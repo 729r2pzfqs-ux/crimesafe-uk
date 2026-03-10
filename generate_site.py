@@ -78,7 +78,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
             </a>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/forces/">Forces</a>
+                <a href="/forces/">Forces</a><a href="/city/">City</a>
                 <a href="/districts/">Districts</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
@@ -269,7 +269,7 @@ def generate_force_page(force, all_forces, rankings_lookup=None):
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/forces/">Forces</a> › {force['name']}
+                <a href="/">Home</a> › <a href="/forces/">Forces</a><a href="/city/">City</a> › {force['name']}
             </div>
         </div>
         
