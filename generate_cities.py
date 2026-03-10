@@ -15,7 +15,10 @@ CITIES = {
     "liverpool": {"name": "Liverpool", "force": "merseyside", "force_name": "Merseyside Police"},
     "bristol": {"name": "Bristol", "force": "avon-and-somerset", "force_name": "Avon and Somerset Constabulary"},
     "sheffield": {"name": "Sheffield", "force": "south-yorkshire", "force_name": "South Yorkshire Police"},
-    "newcastle": {"name": "Newcastle", "force": "northumbria", "force_name": "Northumbria Police"},
+    "newcastle": {"name": "Newcastle", "force": "northumbria", "force_name": "Northumbria Police", "neighbourhoods": [
+        "Newcastle Central", "Jesmond and Heaton", "Byker and Walker", "Fenham and Scotswood",
+        "Benwell and Elswick", "Gosforth and Great Park", "Blakelaw, Kenton and Fawdon", "Westerhope and Newburn"
+    ]},
     "nottingham": {"name": "Nottingham", "force": "nottinghamshire", "force_name": "Nottinghamshire Police"},
     "cardiff": {"name": "Cardiff", "force": "south-wales", "force_name": "South Wales Police"},
     # Note: Edinburgh/Glasgow removed - Police Scotland doesn't use data.police.uk
@@ -131,24 +134,25 @@ def get_footer():
 </body>
 </html>'''
 
-def find_neighbourhoods_for_city(city_slug, city_name, force_id, forces_data, crime_data):
-    """Find neighbourhoods that match the city name."""
+def find_neighbourhoods_for_city(city_slug, city_name, force_id, forces_data, crime_data, explicit_nbs=None):
+    """Find neighbourhoods that match the city name or are explicitly listed."""
     matching = []
+    explicit_set = set(explicit_nbs) if explicit_nbs else set()
     
     for force in forces_data['forces']:
         if force['id'] == force_id:
             for nb in force.get('neighbourhoods', []):
-                nb_name = nb.get('name', '').lower()
+                nb_name = nb.get('name', '')
                 nb_id = nb.get('id', '')
                 
-                # Match if city name is in neighbourhood name
-                if city_name.lower() in nb_name or city_slug in slugify(nb_name):
+                # Match if explicitly listed, or city name is in neighbourhood name
+                if nb_name in explicit_set or (not explicit_set and (city_name.lower() in nb_name.lower() or city_slug in slugify(nb_name))):
                     # Get crime data
                     key = f"{force_id}_{nb_id}"
                     crime = crime_data.get(key, {})
                     matching.append({
-                        'name': nb['name'],
-                        'slug': slugify(nb['name']),
+                        'name': nb_name,
+                        'slug': slugify(nb_name),
                         'force_slug': slugify(force['name']),
                         'score': crime.get('score', 0),
                         'total_crimes': crime.get('total_crimes', 0)
@@ -355,9 +359,10 @@ def main():
                     neighbourhoods.sort(key=lambda x: x['score'], reverse=True)
                     break
         else:
-            # Find matching neighbourhoods by name
+            # Find matching neighbourhoods by name or explicit list
             neighbourhoods = find_neighbourhoods_for_city(
-                city_slug, city_info['name'], city_info['force'], forces_data, crime_data
+                city_slug, city_info['name'], city_info['force'], forces_data, crime_data,
+                explicit_nbs=city_info.get('neighbourhoods')
             )
         
         if not neighbourhoods:
