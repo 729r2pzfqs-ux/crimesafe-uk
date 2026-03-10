@@ -37,7 +37,12 @@ CITIES = {
         "West Derby Leyfield", "West Derby Muirhead", "Toxteth", "Dingle", "Edge Hill", "Wavertree Village",
         "City Centre North", "City Centre South", "Waterfront North", "Waterfront South"
     ]},
-    "bristol": {"name": "Bristol", "force": "avon-and-somerset", "force_name": "Avon and Somerset Constabulary"},
+    "bristol": {"name": "Bristol", "force": "avon-and-somerset", "force_name": "Avon and Somerset Constabulary", "neighbourhoods": [
+        "Bedminster", "Bishopsworth", "Brislington East", "Brislington West", "Bristol Airport",
+        "Clifton", "Clifton Down", "Cotham", "Easton and Redfield", "Filwood", "Henbury and Brentry",
+        "Hengrove and Whitchurch", "Henleaze and Westbury-on-Trym", "Horfield", "Knowle", "Redland",
+        "Southville", "St George Central", "St George Troopers Hill", "St George West", "Stoke Bishop"
+    ]},
     "sheffield": {"name": "Sheffield", "force": "south-yorkshire", "force_name": "South Yorkshire Police", "neighbourhoods": [
         "Sheffield North East", "Sheffield South East", "Sheffield City Centre", "Sheffield South West", "Sheffield North West"
     ]},
@@ -51,7 +56,12 @@ CITIES = {
         "Basford", "Aspley", "Bilborough", "Leen Valley", "Bulwell", "Bulwell Forest", "Bestwood",
         "Berridge", "Sherwood", "Mapperley & Wells"
     ]},
-    "cardiff": {"name": "Cardiff", "force": "south-wales", "force_name": "South Wales Police"},
+    "cardiff": {"name": "Cardiff", "force": "south-wales", "force_name": "South Wales Police", "neighbourhoods": [
+        "Butetown", "Canton", "Cathays", "Ely", "Fairwater", "Gabalfa", "Grangetown", "Heath",
+        "Llandaff", "Llandaff North", "Llanishen", "Llanrumney", "Pentwyn", "Plasnewydd",
+        "Pontprennau and Old St. Mellons", "Rhiwbina", "Riverside", "Rumney", "Splott",
+        "Trowbridge", "Whitchurch and Tongwynlais"
+    ]},
     # Note: Edinburgh/Glasgow removed - Police Scotland doesn't use data.police.uk
     "leicester": {"name": "Leicester", "force": "leicestershire", "force_name": "Leicestershire Police", "neighbourhoods": [
         "City Centre", "Cultural Quarter", "Riverside", "Clarendon Park", "Latimer", "Belgrave",
@@ -73,32 +83,93 @@ CITIES = {
         "Central Hove", "Hove Park", "Aldrington", "West Blatchington", "Hangleton and Knoll",
         "Portslade", "North Portslade", "South Portslade", "Mile Oak", "Hollingbury and Hollingdean"
     ]},
-    "hull": {"name": "Hull", "force": "humberside", "force_name": "Humberside Police"},
-    "plymouth": {"name": "Plymouth", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police"},
-    "stoke-on-trent": {"name": "Stoke-on-Trent", "force": "staffordshire", "force_name": "Staffordshire Police"},
+    "hull": {"name": "Hull", "force": "humberside", "force_name": "Humberside Police", "neighbourhoods": [
+        "Ashby Central", "Avenues", "Beverley Rural", "Beverley and Newland", "Cottingham North",
+        "Cottingham South", "Drypool", "Holderness", "Hull Central", "Mid Holderness",
+        "North Holderness", "Orchard Park", "South East Holderness", "South West Holderness", "University"
+    ]},
+    "plymouth": {"name": "Plymouth", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police", "neighbourhoods": [
+        "Devonport", "Efford", "Eggbuckland", "Ham, Weston Mill & Pennycross", "Higher Compton & Mannamead",
+        "Honicknowle", "Keyham", "Lipson & Laira", "Mount Gould", "Mutley", "Peverell & Hartley",
+        "Plymouth City Centre", "Plympton St Maurice & Yealmpstone", "Plymstock", "Southway",
+        "St Budeaux & Kings Tamerton", "Stoke", "Derriford West & Crownhill", "Estover, Glenholt & Derriford East",
+        "Leigham & Mainstone"
+    ]},
+    "stoke-on-trent": {"name": "Stoke-on-Trent", "force": "staffordshire", "force_name": "Staffordshire Police", "neighbourhoods": [
+        "Abbey Hulton & Townsend", "Baddeley, Milton & Norton", "Bentilee & Ubberley", "Blurton & Longton West",
+        "Bradeley & Chell Heath", "Broadway & Longton East", "Burslem Central", "Burslem Park",
+        "Etruria & Hanley", "Fenton West & Mount Pleasant", "Great Chell & Packmoor", "Hanley Park & Shelton",
+        "Little Chell & Stanfield", "Longton South", "Meir Hay & Sandford Hill", "Meir North & Weston Coyney",
+        "Meir Park & South", "Penkhull & Stoke", "Sneyd Green", "Springfields & Trent Vale", "Tunstall"
+    ]},
     "wolverhampton": {"name": "Wolverhampton", "force": "west-midlands", "force_name": "West Midlands Police", "neighbourhoods": [
         "St Matthew's", "Wolverhampton City Centre", "Ettingshall, Blakenhall and Spring Vale",
         "St Peter's, Park and Graiseley", "Bilston and East Park", "Fallings Park, Bushbury and Low Hill",
         "Tettenhall, Penn, Merry Hill and Oxley", "Wednesfield and Heath Town"
     ]},
-    "derby": {"name": "Derby", "force": "derbyshire", "force_name": "Derbyshire Constabulary"},
-    "southampton": {"name": "Southampton", "force": "hampshire", "force_name": "Hampshire Constabulary"},
-    "portsmouth": {"name": "Portsmouth", "force": "hampshire", "force_name": "Hampshire Constabulary"},
+    "derby": {"name": "Derby", "force": "derbyshire", "force_name": "Derbyshire Constabulary", "neighbourhoods": [
+        "Allestree and Darley", "Alvaston North", "Alvaston South", "Chaddesden and Spondon",
+        "Chellaston", "Derby City", "Derwent and Oakwood", "Littleover and Blagreaves",
+        "Mackworth and Morley", "Mickleover", "Normanton", "Sinfin and Osmaston"
+    ]},
+    "southampton": {"name": "Southampton", "force": "hampshire", "force_name": "Hampshire Constabulary", "neighbourhoods": [
+        "Bargate", "Bevois", "Bitterne North", "Coxford, Redbridge and Millbrook",
+        "Peartree and Woolston", "Portswood, Swaythling, and Bassett", "Shirley and Freemantle",
+        "Sholing and Bitterne"
+    ]},
+    "portsmouth": {"name": "Portsmouth", "force": "hampshire", "force_name": "Hampshire Constabulary", "neighbourhoods": [
+        "Central Southsea and St Judes", "Cosham", "Eastney and Milton", "Fratton, Baffins",
+        "Hilsea, Copnor, Drayton and Farlington", "Paulsgrove"
+    ]},
     "oxford": {"name": "Oxford", "force": "thames-valley", "force_name": "Thames Valley Police"},
     "cambridge": {"name": "Cambridge", "force": "cambridgeshire", "force_name": "Cambridgeshire Constabulary"},
     "york": {"name": "York", "force": "north-yorkshire", "force_name": "North Yorkshire Police"},
-    "reading": {"name": "Reading", "force": "thames-valley", "force_name": "Thames Valley Police"},
+    "reading": {"name": "Reading", "force": "thames-valley", "force_name": "Thames Valley Police", "neighbourhoods": [
+        "Abbey and Battle", "Calcot and Tilehurst", "Kentwood and Tilehurst", "Mapledurham and Thames",
+        "Minster and Katesgrove", "Peppard and Caversham", "Redlands and Park", "Southcote and Norcot",
+        "Whitley and Church"
+    ]},
     "norwich": {"name": "Norwich", "force": "norfolk", "force_name": "Norfolk Constabulary"},
-    "swansea": {"name": "Swansea", "force": "south-wales", "force_name": "South Wales Police"},
+    "swansea": {"name": "Swansea", "force": "south-wales", "force_name": "South Wales Police", "neighbourhoods": [
+        "Castle", "Clydach", "Cockett", "Cwmbwrla", "Dunvant and Killay", "Gorseinon and Penyrheol",
+        "Gowerton", "Landore", "Llansamlet", "Mayals", "Morriston", "Mumbles", "Penderry",
+        "Penllergaer", "Pontarddulais", "Sketty", "Townhill", "Uplands"
+    ]},
     "luton": {"name": "Luton", "force": "bedfordshire", "force_name": "Bedfordshire Police"},
-    "milton-keynes": {"name": "Milton Keynes", "force": "thames-valley", "force_name": "Thames Valley Police"},
-    "warrington": {"name": "Warrington", "force": "cheshire", "force_name": "Cheshire Constabulary"},
-    "swindon": {"name": "Swindon", "force": "wiltshire", "force_name": "Wiltshire Police"},
+    "milton-keynes": {"name": "Milton Keynes", "force": "thames-valley", "force_name": "Thames Valley Police", "neighbourhoods": [
+        "Bradwell and Stantonbury", "Campbell Park South and Woughton", "Central Bletchley and Fenny Stratford",
+        "Great Linford", "Loughton Park", "Milton Keynes City Centre and Campbell Park", "Newport Pagnell",
+        "Rural Milton Keynes", "Stony Stratford and Wolverton", "West Bletchley"
+    ]},
+    "warrington": {"name": "Warrington", "force": "cheshire", "force_name": "Cheshire Constabulary", "neighbourhoods": [
+        "Bewsey and Whitecross", "Birchwood", "Burtonwood and Winwick", "Culcheth, Glazebury and Croft",
+        "Fairfield and Howley", "Grappenhall and Thelwall", "Great Sankey North", "Great Sankey South",
+        "Latchford East", "Latchford West", "Lymm", "Orford", "Penketh and Cuerdley", "Poulton North",
+        "Poulton South", "Stockton Heath", "Warrington Town Centre", "Westbrook"
+    ]},
+    "swindon": {"name": "Swindon", "force": "wiltshire", "force_name": "Wiltshire Police", "neighbourhoods": [
+        "Covingham", "Eastcott", "Gorse Hill", "Grange Park", "Haydon Wick", "Lawn", "Lower Stratton",
+        "Moredon", "Nythe", "Old Town", "Park North", "Park South", "Penhill", "Pinehurst", "Rodbourne",
+        "Rodbourne Cheney", "Stratton Village", "Swindon Town Centre", "Upper Stratton", "Walcot East",
+        "Walcot West", "Woodhall Park and Taw Hill", "Wroughton"
+    ]},
     "peterborough": {"name": "Peterborough", "force": "cambridgeshire", "force_name": "Cambridgeshire Constabulary"},
-    "exeter": {"name": "Exeter", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police"},
+    "exeter": {"name": "Exeter", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police", "neighbourhoods": [
+        "Alphington", "Exeter City Centre", "Exwick", "Mincinglake", "Pinhoe", "St Davids", "St James",
+        "St Loyes", "Whipton Barton", "Countess Wear & Topsham", "Cowick & St Thomas",
+        "Duryard & Pennsylvannia", "Heavitree & Polsloe", "Newtown & St Leonards"
+    ]},
     "bath": {"name": "Bath", "force": "avon-and-somerset", "force_name": "Avon and Somerset Constabulary"},
-    "cheltenham": {"name": "Cheltenham", "force": "gloucestershire", "force_name": "Gloucestershire Constabulary"},
-    "gloucester": {"name": "Gloucester", "force": "gloucestershire", "force_name": "Gloucestershire Constabulary"},
+    "cheltenham": {"name": "Cheltenham", "force": "gloucestershire", "force_name": "Gloucestershire Constabulary", "neighbourhoods": [
+        "Charlton Kings", "Cheltenham Town Centre", "Hesters Way", "Lansdown", "Leckhampton",
+        "Springbank and Fiddlers Green", "St Marks", "St Pauls and Pittville", "Swindon Village and Wymans Brook",
+        "Tuffley and Grange", "Whaddon Lynworth and Oakley"
+    ]},
+    "gloucester": {"name": "Gloucester", "force": "gloucestershire", "force_name": "Gloucestershire Constabulary", "neighbourhoods": [
+        "Barton, Tredworth and White City", "Gloucester City Centre", "Hucclecote Abbey and Upton St Leonards",
+        "Kingsholm and Wotton", "Longlevens and Elmbridge", "Matson and Robinswood", "Podsmead",
+        "Quedgeley, Kingsway, Hardwicke, Longney and Elmore"
+    ]},
     "lincoln": {"name": "Lincoln", "force": "lincolnshire", "force_name": "Lincolnshire Police"},
 }
 
