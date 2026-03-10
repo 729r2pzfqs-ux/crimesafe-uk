@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate search data for CrimeSafe UK
+Uses rankings.json for percentile-based scores
 """
 
 import json
@@ -22,16 +23,17 @@ def main():
     with open(f"{DATA_DIR}/forces.json") as f:
         forces_data = json.load(f)
     
-    # Load crime data
-    crime_data = {}
-    crimes_dir = f"{DATA_DIR}/neighbourhood_crimes"
-    if os.path.exists(crimes_dir):
-        for fname in os.listdir(crimes_dir):
-            if fname.endswith('.json'):
-                with open(f"{crimes_dir}/{fname}") as f:
-                    data = json.load(f)
-                    key = fname.replace('.json', '')
-                    crime_data[key] = data
+    # Load rankings for scores
+    rankings_lookup = {}
+    rankings_path = f"{DATA_DIR}/rankings.json"
+    if os.path.exists(rankings_path):
+        with open(rankings_path) as f:
+            rankings = json.load(f)
+        for r in rankings:
+            key = f"{r['force_slug']}/{r['nb_slug']}"
+            rankings_lookup[key] = r.get('score')
+            # Also index by nb_slug alone as fallback
+            rankings_lookup[r['nb_slug']] = r.get('score')
     
     # Build search arrays
     # Forces: [name, neighbourhood_count, slug]
@@ -50,16 +52,9 @@ def main():
         for nb in force['neighbourhoods']:
             nb_slug = slugify(nb['name'])
             
-            # Get crime score if available
-            key = f"{force['id']}_{nb['id']}"
-            nb_crime = crime_data.get(key)
-            
-            if nb_crime and nb_crime.get('total_crimes', 0) > 0:
-                # Calculate simple score
-                total = nb_crime['total_crimes']
-                score = max(0, min(100, round(100 - total / 5)))
-            else:
-                score = None
+            # Get score from rankings.json
+            key = f"{force_slug}/{nb_slug}"
+            score = rankings_lookup.get(key) or rankings_lookup.get(nb_slug)
             
             neighbourhoods_search.append([
                 nb['name'],
