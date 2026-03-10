@@ -130,6 +130,15 @@ def main():
             if os.path.isdir(f"{city_dir}/{slug}"):
                 main_urls.append((f"/city/{slug}/", "0.8", "weekly"))
     
+    # Embed widget pages
+    embed_urls = []
+    embed_dir = f"{OUTPUT_DIR}/embed"
+    if os.path.exists(embed_dir):
+        main_urls.append(("/embed/", "0.8", "monthly"))
+        for slug in os.listdir(embed_dir):
+            if os.path.isdir(f"{embed_dir}/{slug}"):
+                embed_urls.append((f"/embed/{slug}/", "0.4", "monthly"))
+    
     # Write sitemaps
     sitemap_files = []
     total_urls = 0
@@ -180,6 +189,13 @@ def main():
             sitemap_files.append(filename)
             total_urls += count
             print(f"  {filename}: {count} URLs")
+    
+    # Embed widget sitemaps
+    if embed_urls:
+        count = write_sitemap("sitemap-embeds.xml", embed_urls, today)
+        sitemap_files.append("sitemap-embeds.xml")
+        total_urls += count
+        print(f"  sitemap-embeds.xml: {count} URLs")
     
     # Write sitemap index
     write_sitemap_index(sitemap_files, today)
