@@ -232,8 +232,12 @@ def generate_force_page(force, all_forces, rankings_lookup=None):
     
     for nb in sorted(force['neighbourhoods'], key=lambda n: n['name']):
         nb_slug = slugify(nb['name'])
-        lookup_key = f"{slug}/{nb_slug}"
-        score_data = rankings_lookup.get(lookup_key, {})
+        nb_id = nb.get('id', nb_slug)
+        
+        # Try ID-based lookup first, then slug-based
+        id_key = f"{force['id']}_{nb_id}"
+        slug_key = f"{slug}/{nb_slug}"
+        score_data = rankings_lookup.get(id_key) or rankings_lookup.get(slug_key, {})
         score = score_data.get('score')
         grade = score_data.get('grade', '?')
         
@@ -313,16 +317,65 @@ def main():
     
     print(f"Loaded {len(forces_data['forces'])} forces")
     
-    # Load rankings for score lookup
+    # Load rankings for score lookup (by both ID and slug)
     rankings_lookup = {}
-    rankings_file = f"{DATA_DIR}/rankings.json"
-    if os.path.exists(rankings_file):
-        with open(rankings_file) as f:
-            rankings = json.load(f)
-        for r in rankings:
-            key = f"{r['force_slug']}/{r['nb_slug']}"
-            rankings_lookup[key] = {'score': r['score'], 'grade': r['grade']}
-        print(f"Loaded {len(rankings_lookup)} neighbourhood scores")
+    
+    # Load crime data to build ID-based lookup
+    crime_dir = f"{DATA_DIR}/neighbourhood_crimes"
+    if os.path.exists(crime_dir):
+        # First, calculate all weighted crimes for percentile scoring
+        all_weighted = []
+        crime_data_map = {}
+        
+        for fname in os.listdir(crime_dir):
+            if not fname.endswith('.json'):
+                continue
+            with open(f'{crime_dir}/{fname}') as f:
+                data = json.load(f)
+            
+            force_id = data.get('force_id', '')
+            nb_id = data.get('neighbourhood_id', '')
+            nb_name = data.get('neighbourhood_name', '')
+            categories = data.get('categories', {})
+            
+            # Calculate weighted crime
+            weighted = 0
+            for cat, count in categories.items():
+                weight = CRIME_WEIGHTS.get(cat, {}).get('weight', 1.0)
+                weighted += count * weight
+            
+            key = f"{force_id}_{nb_id}"
+            crime_data_map[key] = {
+                'weighted': weighted,
+                'force_id': force_id,
+                'nb_id': nb_id,
+                'nb_name': nb_name
+            }
+            all_weighted.append((key, weighted))
+        
+        # Sort by weighted crime (ascending = lowest crime first)
+        all_weighted.sort(key=lambda x: x[1])
+        
+        # Assign percentile scores
+        total = len(all_weighted)
+        for i, (key, _) in enumerate(all_weighted):
+            percentile = (i / max(1, total - 1)) * 100
+            score = round(100 - percentile)
+            if score >= 80: grade = 'A'
+            elif score >= 60: grade = 'B'
+            elif score >= 40: grade = 'C'
+            elif score >= 20: grade = 'D'
+            else: grade = 'F'
+            
+            data = crime_data_map[key]
+            # Store by force_id + nb_id
+            rankings_lookup[key] = {'score': score, 'grade': grade}
+            # Also store by slugified names for fallback
+            force_slug = slugify(data['force_id'].replace('-', ' '))
+            nb_slug = slugify(data['nb_name'])
+            rankings_lookup[f"{force_slug}/{nb_slug}"] = {'score': score, 'grade': grade}
+        
+        print(f"Loaded {len(crime_data_map)} neighbourhood scores")
     
     # Generate JS
     
