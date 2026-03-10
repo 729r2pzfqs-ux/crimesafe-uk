@@ -47,86 +47,79 @@
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/cities/">Cities</a> › Luton
+                <a href="/">Home</a> › <a href="/city/">Cities</a> › Luton
             </div>
         </div>
         
-        <section class="hero" style="padding: var(--space-8) 0;">
+        <section class="hero" style="padding: var(--space-6) 0;">
             <div class="container">
-                <h1>Crime in Luton</h1>
+                <h1 style="color: var(--color-text);">Crime in Luton</h1>
                 <p class="hero-sub">Explore crime statistics and safety scores for Luton neighbourhoods</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">5</div>
-                        <div class="stat-label">Neighbourhoods</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">5</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">2,116</div>
-                        <div class="stat-label">Total Crimes (Monthly)</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">2,116</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Crimes (Monthly)</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">20</div>
-                        <div class="stat-label">Average Safety Score</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700; color: #dc2626;">20/100</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Safety Score</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label" style="margin-bottom: var(--space-2);">Police Force</div>
-                        <a href="/force/bedfordshire-police/" style="color: var(--color-primary); font-weight: 600;">Bedfordshire Police</a>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-1);">Police Force</div>
+                        <a href="/force/bedfordshire-police/" style="color: var(--color-primary); font-weight: 600; font-size: var(--text-sm);">Bedfordshire Police</a>
                     </div>
                 </div>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stat-card" style="margin-bottom: var(--space-6);">
-                    <h2 style="margin: 0; color: var(--color-primary);">Neighbourhoods in Luton</h2>
-                    <p style="margin-top: var(--space-2); color: var(--color-text-muted);">Sorted by safety score (safest first)</p>
-                </div>
+                <h2 style="margin-bottom: var(--space-4); color: var(--color-text);">Neighbourhoods in Luton</h2>
+                <p style="margin-bottom: var(--space-6); color: var(--color-text-muted);">Click any area to view detailed crime statistics. Sorted by safety score.</p>
                 <div class="force-grid">
-                    <a href="/neighbourhood/bedfordshire-police/luton-airport/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Luton Airport</h3>
+                    <a href="/neighbourhood/bedfordshire-police/luton-airport/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">49</span>
+                            <span style="font-weight: 500;">Luton Airport</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">49</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/bedfordshire-police/luton-and-north-and-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Luton and North and West</h3>
+                    <a href="/neighbourhood/bedfordshire-police/luton-and-north-and-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Luton and North and West</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/bedfordshire-police/luton-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Luton Central</h3>
+                    <a href="/neighbourhood/bedfordshire-police/luton-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">15</span>
+                            <span style="font-weight: 500;">Luton Central</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">15</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/bedfordshire-police/luton-south-and-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Luton South and East</h3>
+                    <a href="/neighbourhood/bedfordshire-police/luton-south-and-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">8</span>
+                            <span style="font-weight: 500;">Luton South and East</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">8</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/bedfordshire-police/luton-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Luton Town Centre</h3>
+                    <a href="/neighbourhood/bedfordshire-police/luton-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">6</span>
+                            <span style="font-weight: 500;">Luton Town Centre</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">6</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
                 </div>
             </div>

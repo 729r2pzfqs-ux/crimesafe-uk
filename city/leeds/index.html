@@ -47,94 +47,86 @@
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/cities/">Cities</a> › Leeds
+                <a href="/">Home</a> › <a href="/city/">Cities</a> › Leeds
             </div>
         </div>
         
-        <section class="hero" style="padding: var(--space-8) 0;">
+        <section class="hero" style="padding: var(--space-6) 0;">
             <div class="container">
-                <h1>Crime in Leeds</h1>
+                <h1 style="color: var(--color-text);">Crime in Leeds</h1>
                 <p class="hero-sub">Explore crime statistics and safety scores for Leeds neighbourhoods</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">6</div>
-                        <div class="stat-label">Neighbourhoods</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">6</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">2,034</div>
-                        <div class="stat-label">Total Crimes (Monthly)</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">2,034</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Crimes (Monthly)</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">36</div>
-                        <div class="stat-label">Average Safety Score</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700; color: #dc2626;">36/100</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Safety Score</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label" style="margin-bottom: var(--space-2);">Police Force</div>
-                        <a href="/force/west-yorkshire-police/" style="color: var(--color-primary); font-weight: 600;">West Yorkshire Police</a>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-1);">Police Force</div>
+                        <a href="/force/west-yorkshire-police/" style="color: var(--color-primary); font-weight: 600; font-size: var(--text-sm);">West Yorkshire Police</a>
                     </div>
                 </div>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stat-card" style="margin-bottom: var(--space-6);">
-                    <h2 style="margin: 0; color: var(--color-primary);">Neighbourhoods in Leeds</h2>
-                    <p style="margin-top: var(--space-2); color: var(--color-text-muted);">Sorted by safety score (safest first)</p>
-                </div>
+                <h2 style="margin-bottom: var(--space-4); color: var(--color-text);">Neighbourhoods in Leeds</h2>
+                <p style="margin-bottom: var(--space-6); color: var(--color-text-muted);">Click any area to view detailed crime statistics. Sorted by safety score.</p>
                 <div class="force-grid">
-                    <a href="/neighbourhood/west-yorkshire-police/leeds-north-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Leeds North East</h3>
+                    <a href="/neighbourhood/west-yorkshire-police/leeds-north-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">71</span>
+                            <span style="font-weight: 500;">Leeds North East</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">71</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-yorkshire-police/leeds-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Leeds East</h3>
+                    <a href="/neighbourhood/west-yorkshire-police/leeds-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">57</span>
+                            <span style="font-weight: 500;">Leeds East</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">57</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-yorkshire-police/leeds-north-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Leeds North West</h3>
+                    <a href="/neighbourhood/west-yorkshire-police/leeds-north-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">39</span>
+                            <span style="font-weight: 500;">Leeds North West</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">39</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-yorkshire-police/leeds-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Leeds South</h3>
+                    <a href="/neighbourhood/west-yorkshire-police/leeds-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">28</span>
+                            <span style="font-weight: 500;">Leeds South</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">28</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-yorkshire-police/leeds-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Leeds West</h3>
+                    <a href="/neighbourhood/west-yorkshire-police/leeds-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">16</span>
+                            <span style="font-weight: 500;">Leeds West</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">16</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-yorkshire-police/leeds-city/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Leeds City</h3>
+                    <a href="/neighbourhood/west-yorkshire-police/leeds-city/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">2</span>
+                            <span style="font-weight: 500;">Leeds City</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">2</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
                 </div>
             </div>

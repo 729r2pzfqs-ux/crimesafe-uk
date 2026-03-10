@@ -47,910 +47,800 @@
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/cities/">Cities</a> › Reading
+                <a href="/">Home</a> › <a href="/city/">Cities</a> › Reading
             </div>
         </div>
         
-        <section class="hero" style="padding: var(--space-8) 0;">
+        <section class="hero" style="padding: var(--space-6) 0;">
             <div class="container">
-                <h1>Crime in Reading</h1>
+                <h1 style="color: var(--color-text);">Crime in Reading</h1>
                 <p class="hero-sub">Explore crime statistics and safety scores for Reading neighbourhoods</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">108</div>
-                        <div class="stat-label">Neighbourhoods</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">108</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">14,240</div>
-                        <div class="stat-label">Total Crimes (Monthly)</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">14,240</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Crimes (Monthly)</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">46</div>
-                        <div class="stat-label">Average Safety Score</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700; color: #ca8a04;">46/100</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Safety Score</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label" style="margin-bottom: var(--space-2);">Police Force</div>
-                        <a href="/force/thames-valley-police/" style="color: var(--color-primary); font-weight: 600;">Thames Valley Police</a>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-1);">Police Force</div>
+                        <a href="/force/thames-valley-police/" style="color: var(--color-primary); font-weight: 600; font-size: var(--text-sm);">Thames Valley Police</a>
                     </div>
                 </div>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stat-card" style="margin-bottom: var(--space-6);">
-                    <h2 style="margin: 0; color: var(--color-primary);">Neighbourhoods in Reading</h2>
-                    <p style="margin-top: var(--space-2); color: var(--color-text-muted);">Sorted by safety score (safest first)</p>
-                </div>
+                <h2 style="margin-bottom: var(--space-4); color: var(--color-text);">Neighbourhoods in Reading</h2>
+                <p style="margin-bottom: var(--space-6); color: var(--color-text-muted);">Click any area to view detailed crime statistics. Sorted by safety score.</p>
                 <div class="force-grid">
-                    <a href="/neighbourhood/thames-valley-police/faringdon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Faringdon</h3>
+                    <a href="/neighbourhood/thames-valley-police/faringdon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">100</span>
+                            <span style="font-weight: 500;">Faringdon</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">100</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/winslow-and-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Winslow and District</h3>
+                    <a href="/neighbourhood/thames-valley-police/winslow-and-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">97</span>
+                            <span style="font-weight: 500;">Winslow and District</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">97</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bicester-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bicester Rural</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">95</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/bicester-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">95</span>
+                            <span style="font-weight: 500;">Bicester Rural</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/marlow-south-west-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Marlow South West Rural</h3>
+                    <a href="/neighbourhood/thames-valley-police/marlow-south-west-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">92</span>
+                            <span style="font-weight: 500;">Marlow South West Rural</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">92</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/woodstock/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Woodstock</h3>
+                    <a href="/neighbourhood/thames-valley-police/woodstock/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">89</span>
+                            <span style="font-weight: 500;">Woodstock</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">89</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/pangbourne-and-burghfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Pangbourne and Burghfield</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">86</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/pangbourne-and-burghfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">86</span>
+                            <span style="font-weight: 500;">Pangbourne and Burghfield</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/waddesdon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Waddesdon</h3>
+                    <a href="/neighbourhood/thames-valley-police/waddesdon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">83</span>
+                            <span style="font-weight: 500;">Waddesdon</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">83</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wantage-and-grove/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wantage and Grove</h3>
+                    <a href="/neighbourhood/thames-valley-police/wantage-and-grove/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">82</span>
+                            <span style="font-weight: 500;">Wantage and Grove</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">82</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/eynsham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Eynsham</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">81</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/eynsham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">81</span>
+                            <span style="font-weight: 500;">Eynsham</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/chipping-norton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Chipping Norton</h3>
+                    <a href="/neighbourhood/thames-valley-police/chipping-norton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">79</span>
+                            <span style="font-weight: 500;">Chipping Norton</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">79</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/hungerford-and-lambourn-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Hungerford and Lambourn District</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">78</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/hungerford-and-lambourn-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">78</span>
+                            <span style="font-weight: 500;">Hungerford and Lambourn District</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wheatley-and-chalgrove/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wheatley and Chalgrove</h3>
+                    <a href="/neighbourhood/thames-valley-police/wheatley-and-chalgrove/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">77</span>
+                            <span style="font-weight: 500;">Wheatley and Chalgrove</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">77</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/rural-milton-keynes/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Rural Milton Keynes</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">76</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/rural-milton-keynes/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">76</span>
+                            <span style="font-weight: 500;">Rural Milton Keynes</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/haddenham-and-long-crendon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Haddenham and Long Crendon</h3>
+                    <a href="/neighbourhood/thames-valley-police/haddenham-and-long-crendon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">75</span>
+                            <span style="font-weight: 500;">Haddenham and Long Crendon</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">75</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/henley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Henley</h3>
+                    <a href="/neighbourhood/thames-valley-police/henley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">70</span>
+                            <span style="font-weight: 500;">Henley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">70</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/thame-watlington-and-chinnor/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Thame, Watlington and Chinnor</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">70</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/thame-watlington-and-chinnor/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">70</span>
+                            <span style="font-weight: 500;">Thame, Watlington and Chinnor</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/chalfonts/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Chalfonts</h3>
+                    <a href="/neighbourhood/thames-valley-police/chalfonts/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">70</span>
+                            <span style="font-weight: 500;">Chalfonts</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">70</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/abingdon-outer/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Abingdon Outer</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">69</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/abingdon-outer/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">69</span>
+                            <span style="font-weight: 500;">Abingdon Outer</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/missendens/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Missendens</h3>
+                    <a href="/neighbourhood/thames-valley-police/missendens/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">69</span>
+                            <span style="font-weight: 500;">Missendens</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">69</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/kidlington/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Kidlington</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">68</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/kidlington/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">68</span>
+                            <span style="font-weight: 500;">Kidlington</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/maidenhead-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Maidenhead South</h3>
+                    <a href="/neighbourhood/thames-valley-police/maidenhead-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">66</span>
+                            <span style="font-weight: 500;">Maidenhead South</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">66</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bucklebury-and-downlands/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bucklebury and Downlands</h3>
+                    <a href="/neighbourhood/thames-valley-police/bucklebury-and-downlands/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">66</span>
+                            <span style="font-weight: 500;">Bucklebury and Downlands</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">66</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/princes-risborough/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Princes Risborough</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">64</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/princes-risborough/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">64</span>
+                            <span style="font-weight: 500;">Princes Risborough</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wallingford-berinsfield-and-cholsey/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wallingford, Berinsfield and Cholsey</h3>
+                    <a href="/neighbourhood/thames-valley-police/wallingford-berinsfield-and-cholsey/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">63</span>
+                            <span style="font-weight: 500;">Wallingford, Berinsfield and Cholsey</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">63</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/fields/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Fields</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">62</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/fields/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">62</span>
+                            <span style="font-weight: 500;">Fields</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/finchampstead/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Finchampstead</h3>
+                    <a href="/neighbourhood/thames-valley-police/finchampstead/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">60</span>
+                            <span style="font-weight: 500;">Finchampstead</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">60</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/great-brickhill-wing-and-ivinghoe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;"> Great Brickhill, Wing and Ivinghoe</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">60</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/great-brickhill-wing-and-ivinghoe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">60</span>
+                            <span style="font-weight: 500;"> Great Brickhill, Wing and Ivinghoe</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/newbury-outer/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Newbury Outer</h3>
+                    <a href="/neighbourhood/thames-valley-police/newbury-outer/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">60</span>
+                            <span style="font-weight: 500;">Newbury Outer</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">60</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/windsor-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Windsor East</h3>
+                    <a href="/neighbourhood/thames-valley-police/windsor-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">59</span>
+                            <span style="font-weight: 500;">Windsor East</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">59</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/marlow/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Marlow</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">59</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/marlow/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">59</span>
+                            <span style="font-weight: 500;">Marlow</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wendover/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wendover</h3>
+                    <a href="/neighbourhood/thames-valley-police/wendover/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">59</span>
+                            <span style="font-weight: 500;">Wendover</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">59</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/iver-stoke-poges-and-wexham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Iver, Stoke Poges and Wexham</h3>
+                    <a href="/neighbourhood/thames-valley-police/iver-stoke-poges-and-wexham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">59</span>
+                            <span style="font-weight: 500;">Iver, Stoke Poges and Wexham</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">59</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/banbury-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Banbury Rural</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">58</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/banbury-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">58</span>
+                            <span style="font-weight: 500;">Banbury Rural</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/chesham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Chesham</h3>
+                    <a href="/neighbourhood/thames-valley-police/chesham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">58</span>
+                            <span style="font-weight: 500;">Chesham</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">58</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/witney/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Witney</h3>
+                    <a href="/neighbourhood/thames-valley-police/witney/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">57</span>
+                            <span style="font-weight: 500;">Witney</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">57</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/twyford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Twyford</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">57</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/twyford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">57</span>
+                            <span style="font-weight: 500;">Twyford</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/buckingham-and-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Buckingham and District</h3>
+                    <a href="/neighbourhood/thames-valley-police/buckingham-and-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">57</span>
+                            <span style="font-weight: 500;">Buckingham and District</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">57</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/denham-and-gerrards-cross/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Denham and Gerrards Cross</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">57</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/denham-and-gerrards-cross/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">57</span>
+                            <span style="font-weight: 500;">Denham and Gerrards Cross</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/maidenhead-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Maidenhead West</h3>
+                    <a href="/neighbourhood/thames-valley-police/maidenhead-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">56</span>
+                            <span style="font-weight: 500;">Maidenhead West</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">56</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/carterton-bampton-and-burford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Carterton, Bampton and Burford</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">55</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/carterton-bampton-and-burford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">55</span>
+                            <span style="font-weight: 500;">Carterton, Bampton and Burford</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/ascot/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Ascot</h3>
+                    <a href="/neighbourhood/thames-valley-police/ascot/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">55</span>
+                            <span style="font-weight: 500;">Ascot</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">55</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/beaconsfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Beaconsfield</h3>
+                    <a href="/neighbourhood/thames-valley-police/beaconsfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">55</span>
+                            <span style="font-weight: 500;">Beaconsfield</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">55</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/crowthorne/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Crowthorne</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">51</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/crowthorne/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">51</span>
+                            <span style="font-weight: 500;">Crowthorne</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/winnersh/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Winnersh</h3>
+                    <a href="/neighbourhood/thames-valley-police/winnersh/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">51</span>
+                            <span style="font-weight: 500;">Winnersh</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">51</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/danesborough-and-walton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Danesborough and Walton</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">51</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/danesborough-and-walton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">51</span>
+                            <span style="font-weight: 500;">Danesborough and Walton</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/sandhurst/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sandhurst</h3>
+                    <a href="/neighbourhood/thames-valley-police/sandhurst/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">50</span>
+                            <span style="font-weight: 500;">Sandhurst</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">50</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/aylesbury-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aylesbury East</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">48</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/aylesbury-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">48</span>
+                            <span style="font-weight: 500;">Aylesbury East</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/aylesbury-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aylesbury North </h3>
+                    <a href="/neighbourhood/thames-valley-police/aylesbury-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">47</span>
+                            <span style="font-weight: 500;">Aylesbury North </span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">47</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/colnbrook-poyle-and-foxborough/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Colnbrook, Poyle and Foxborough</h3>
+                    <a href="/neighbourhood/thames-valley-police/colnbrook-poyle-and-foxborough/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">47</span>
+                            <span style="font-weight: 500;">Colnbrook, Poyle and Foxborough</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">47</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/newport-pagnell/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Newport Pagnell</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">46</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/newport-pagnell/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">46</span>
+                            <span style="font-weight: 500;">Newport Pagnell</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/chepping-wye-valley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Chepping Wye Valley</h3>
+                    <a href="/neighbourhood/thames-valley-police/chepping-wye-valley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">45</span>
+                            <span style="font-weight: 500;">Chepping Wye Valley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">45</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bracknell-northern-parishes/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bracknell Northern Parishes</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">45</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/bracknell-northern-parishes/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">45</span>
+                            <span style="font-weight: 500;">Bracknell Northern Parishes</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/amersham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Amersham</h3>
+                    <a href="/neighbourhood/thames-valley-police/amersham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">45</span>
+                            <span style="font-weight: 500;">Amersham</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">45</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford North</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">45</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/oxford-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">45</span>
+                            <span style="font-weight: 500;">Oxford North</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/woodley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Woodley</h3>
+                    <a href="/neighbourhood/thames-valley-police/woodley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">44</span>
+                            <span style="font-weight: 500;">Woodley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">44</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/windsor-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Windsor West</h3>
+                    <a href="/neighbourhood/thames-valley-police/windsor-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">43</span>
+                            <span style="font-weight: 500;">Windsor West</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">43</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/earley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Earley</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">42</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/earley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">42</span>
+                            <span style="font-weight: 500;">Earley</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/mapledurham-and-thames/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Mapledurham and Thames</h3>
+                    <a href="/neighbourhood/thames-valley-police/mapledurham-and-thames/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">42</span>
+                            <span style="font-weight: 500;">Mapledurham and Thames</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">42</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wokingham-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wokingham Town</h3>
+                    <a href="/neighbourhood/thames-valley-police/wokingham-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">41</span>
+                            <span style="font-weight: 500;">Wokingham Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">41</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/stony-stratford-and-wolverton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Stony Stratford and Wolverton</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">41</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/stony-stratford-and-wolverton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">41</span>
+                            <span style="font-weight: 500;">Stony Stratford and Wolverton</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/great-linford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Great Linford</h3>
+                    <a href="/neighbourhood/thames-valley-police/great-linford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">40</span>
+                            <span style="font-weight: 500;">Great Linford</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">40</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/didcot/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Didcot</h3>
+                    <a href="/neighbourhood/thames-valley-police/didcot/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">39</span>
+                            <span style="font-weight: 500;">Didcot</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">39</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/thatcham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Thatcham</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">39</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/thatcham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">39</span>
+                            <span style="font-weight: 500;">Thatcham</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/calcot-and-tilehurst/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Calcot and Tilehurst</h3>
+                    <a href="/neighbourhood/thames-valley-police/calcot-and-tilehurst/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">38</span>
+                            <span style="font-weight: 500;">Calcot and Tilehurst</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">38</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/loughton-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Loughton Park</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">37</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/loughton-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">37</span>
+                            <span style="font-weight: 500;">Loughton Park</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/shenley-brook-end-and-tattenhoe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Shenley Brook End and Tattenhoe</h3>
+                    <a href="/neighbourhood/thames-valley-police/shenley-brook-end-and-tattenhoe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">37</span>
+                            <span style="font-weight: 500;">Shenley Brook End and Tattenhoe</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">37</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/peppard-and-caversham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Peppard and Caversham</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">37</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/peppard-and-caversham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">37</span>
+                            <span style="font-weight: 500;">Peppard and Caversham</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/windsor-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Windsor Central</h3>
+                    <a href="/neighbourhood/thames-valley-police/windsor-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">36</span>
+                            <span style="font-weight: 500;">Windsor Central</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">36</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-north-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford North East</h3>
+                    <a href="/neighbourhood/thames-valley-police/oxford-north-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">35</span>
+                            <span style="font-weight: 500;">Oxford North East</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">35</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/burnham-farnhams-and-taplow/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Burnham, Farnhams and Taplow</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">34</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/burnham-farnhams-and-taplow/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">34</span>
+                            <span style="font-weight: 500;">Burnham, Farnhams and Taplow</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bracknell-central-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bracknell Central South</h3>
+                    <a href="/neighbourhood/thames-valley-police/bracknell-central-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">32</span>
+                            <span style="font-weight: 500;">Bracknell Central South</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">32</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/middleton-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Middleton District</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">32</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/middleton-district/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">32</span>
+                            <span style="font-weight: 500;">Middleton District</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/maidenhead-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Maidenhead Central</h3>
+                    <a href="/neighbourhood/thames-valley-police/maidenhead-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">31</span>
+                            <span style="font-weight: 500;">Maidenhead Central</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">31</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wycombe-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wycombe West </h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">30</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/wycombe-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">30</span>
+                            <span style="font-weight: 500;">Wycombe West </span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/west-bletchley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">West Bletchley</h3>
+                    <a href="/neighbourhood/thames-valley-police/west-bletchley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">30</span>
+                            <span style="font-weight: 500;">West Bletchley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">30</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/whitley-and-church/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Whitley and Church</h3>
+                    <a href="/neighbourhood/thames-valley-police/whitley-and-church/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">30</span>
+                            <span style="font-weight: 500;">Whitley and Church</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">30</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/abingdon-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Abingdon Town</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">29</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/abingdon-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">29</span>
+                            <span style="font-weight: 500;">Abingdon Town</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bradwell-and-stantonbury/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bradwell and Stantonbury</h3>
+                    <a href="/neighbourhood/thames-valley-police/bradwell-and-stantonbury/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">29</span>
+                            <span style="font-weight: 500;">Bradwell and Stantonbury</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">29</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-barton-risinghurst-and-sandhills/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford Barton, Risinghurst and Sandhills</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">29</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/oxford-barton-risinghurst-and-sandhills/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">29</span>
+                            <span style="font-weight: 500;">Oxford Barton, Risinghurst and Sandhills</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/cippenham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Cippenham</h3>
+                    <a href="/neighbourhood/thames-valley-police/cippenham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">29</span>
+                            <span style="font-weight: 500;">Cippenham</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">29</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wycombe-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wycombe East</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">28</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/wycombe-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">28</span>
+                            <span style="font-weight: 500;">Wycombe East</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/aylesbury-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aylesbury West</h3>
+                    <a href="/neighbourhood/thames-valley-police/aylesbury-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">27</span>
+                            <span style="font-weight: 500;">Aylesbury West</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">27</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/kentwood-and-tilehurst/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Kentwood and Tilehurst</h3>
+                    <a href="/neighbourhood/thames-valley-police/kentwood-and-tilehurst/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">26</span>
+                            <span style="font-weight: 500;">Kentwood and Tilehurst</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">26</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/britwell-and-haymill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Britwell and Haymill</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">25</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/britwell-and-haymill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">25</span>
+                            <span style="font-weight: 500;">Britwell and Haymill</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/newbury-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Newbury Town Centre</h3>
+                    <a href="/neighbourhood/thames-valley-police/newbury-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">24</span>
+                            <span style="font-weight: 500;">Newbury Town Centre</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">24</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bracknell-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bracknell Town Centre</h3>
+                    <a href="/neighbourhood/thames-valley-police/bracknell-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">24</span>
+                            <span style="font-weight: 500;">Bracknell Town Centre</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">24</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/central-bletchley-and-fenny-stratford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Central Bletchley and Fenny Stratford</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">24</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/central-bletchley-and-fenny-stratford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">24</span>
+                            <span style="font-weight: 500;">Central Bletchley and Fenny Stratford</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-cowley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford Cowley</h3>
+                    <a href="/neighbourhood/thames-valley-police/oxford-cowley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">24</span>
+                            <span style="font-weight: 500;">Oxford Cowley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">24</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/langley-and-kedermister/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Langley and Kedermister</h3>
+                    <a href="/neighbourhood/thames-valley-police/langley-and-kedermister/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">24</span>
+                            <span style="font-weight: 500;">Langley and Kedermister</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">24</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bicester-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bicester Town</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">23</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/bicester-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">23</span>
+                            <span style="font-weight: 500;">Bicester Town</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/bracknell-central-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bracknell Central North</h3>
+                    <a href="/neighbourhood/thames-valley-police/bracknell-central-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">22</span>
+                            <span style="font-weight: 500;">Bracknell Central North</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">22</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/ruscote-neithrop-and-hardwick/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Ruscote, Neithrop and Hardwick</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/ruscote-neithrop-and-hardwick/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Ruscote, Neithrop and Hardwick</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/aylesbury-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aylesbury South</h3>
+                    <a href="/neighbourhood/thames-valley-police/aylesbury-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Aylesbury South</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/southcote-and-norcot/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Southcote and Norcot</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/southcote-and-norcot/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Southcote and Norcot</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/redlands-and-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Redlands and Park</h3>
+                    <a href="/neighbourhood/thames-valley-police/redlands-and-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Redlands and Park</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wycombe-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wycombe South</h3>
+                    <a href="/neighbourhood/thames-valley-police/wycombe-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Wycombe South</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/banbury-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Banbury Town</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/banbury-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Banbury Town</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford Central</h3>
+                    <a href="/neighbourhood/thames-valley-police/oxford-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Oxford Central</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford East</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/oxford-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Oxford East</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/oxford-south-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oxford South East</h3>
+                    <a href="/neighbourhood/thames-valley-police/oxford-south-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">17</span>
+                            <span style="font-weight: 500;">Oxford South East</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">17</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/campbell-park-south-and-woughton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Campbell Park South and Woughton</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">16</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/campbell-park-south-and-woughton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">16</span>
+                            <span style="font-weight: 500;">Campbell Park South and Woughton</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/farnham-baylis-and-stoke/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Farnham, Baylis and Stoke</h3>
+                    <a href="/neighbourhood/thames-valley-police/farnham-baylis-and-stoke/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">15</span>
+                            <span style="font-weight: 500;">Farnham, Baylis and Stoke</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">15</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/aylesbury-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aylesbury Town Centre</h3>
+                    <a href="/neighbourhood/thames-valley-police/aylesbury-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">12</span>
+                            <span style="font-weight: 500;">Aylesbury Town Centre</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">12</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/chalvey-town-centre-amp-upton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Chalvey, Town Centre &amp; Upton</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">10</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/chalvey-town-centre-amp-upton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">10</span>
+                            <span style="font-weight: 500;">Chalvey, Town Centre &amp; Upton</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/wexham-lea-and-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wexham Lea and Central</h3>
+                    <a href="/neighbourhood/thames-valley-police/wexham-lea-and-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">10</span>
+                            <span style="font-weight: 500;">Wexham Lea and Central</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">10</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/milton-keynes-city-centre-and-campbell-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Milton Keynes City Centre and Campbell Park</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">9</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/milton-keynes-city-centre-and-campbell-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">9</span>
+                            <span style="font-weight: 500;">Milton Keynes City Centre and Campbell Park</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/minster-and-katesgrove/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Minster and Katesgrove</h3>
+                    <a href="/neighbourhood/thames-valley-police/minster-and-katesgrove/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">9</span>
+                            <span style="font-weight: 500;">Minster and Katesgrove</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">9</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/thames-valley-police/abbey-and-battle/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Abbey and Battle</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">7</span>/100</div>
+                    <a href="/neighbourhood/thames-valley-police/abbey-and-battle/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">7</span>
+                            <span style="font-weight: 500;">Abbey and Battle</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
                 </div>
             </div>
