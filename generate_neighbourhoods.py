@@ -58,8 +58,8 @@ def calculate_percentile_scores(all_crime_data):
 def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_data=None, safety_score=None):
     """Generate a neighbourhood detail page with full content"""
     
-    # Calculate stats
-    if crime_data and crime_data.get('total_crimes', 0) > 0:
+    # Calculate stats - show data even for 0 crimes (safest areas!)
+    if crime_data is not None:
         total = crime_data['total_crimes']
         categories = crime_data.get('categories', {})
         
