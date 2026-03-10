@@ -68,10 +68,9 @@ if (searchInput && searchDropdown) {
         
         searchDropdown.innerHTML = results.map(r => `
             <a class="search-item" href="${r.url}">
-                <div>
+                <div class="search-item-content">
                     <span class="search-item-name">${r.name}</span>
-                    <span class="search-item-meta">${r.meta}</span>
-                    <span class="search-item-type">${r.type}</span>
+                    <span class="search-item-meta">${r.meta} · <span class="search-item-type">${r.type}</span></span>
                 </div>
                 ${r.score !== null ? `<span class="search-item-score" style="background:${getScoreColor(r.score)}">${r.score}</span>` : ''}
             </a>
@@ -151,7 +150,7 @@ function setupCompareInput(input, dropdown, setData) {
         
         dropdown.innerHTML = results.map(n => `
             <div class="search-item" data-force="${n[3]}" data-nb="${n[4]}" data-name="${n[0]}, ${n[1]}" data-score="${n[2]}">
-                <div>
+                <div class="search-item-content">
                     <span class="search-item-name">${n[0]}</span>
                     <span class="search-item-meta">${n[1]}</span>
                 </div>
