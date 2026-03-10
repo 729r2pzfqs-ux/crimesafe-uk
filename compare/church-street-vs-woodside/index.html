@@ -47,8 +47,9 @@
                 <p style="color: var(--muted);">London crime comparison • January 2026</p>
                 
                 <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-4); border-radius: var(--radius-md); margin: var(--space-4) 0;">
-                    <div style="font-size: var(--text-sm);">🏆 Safer</div>
+                    <div style="font-size: var(--text-sm);">🏆 Safer Neighbourhood</div>
                     <div style="font-size: var(--text-xl); font-weight: 700;">Woodside</div>
+                    <div style="font-size: var(--text-sm); opacity: 0.9;">Score 11/100</div>
                 </div>
                 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4);">
@@ -56,20 +57,59 @@
                         <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Church Street</h2>
                         <div style="font-size: 2rem; font-weight: 700; color: #dc2626;">2</div>
                         <div style="font-size: var(--text-sm); color: var(--muted);">Safety Score</div>
-                        <a href="/neighbourhood/metropolitan-police-service/church-street/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View →</a>
+                        <a href="/neighbourhood/metropolitan-police-service/church-street/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View Details →</a>
                     </div>
                     <div class="kpi-card" style="text-align: center; padding: var(--space-4);">
                         <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Woodside</h2>
                         <div style="font-size: 2rem; font-weight: 700; color: #dc2626;">11</div>
                         <div style="font-size: var(--text-sm); color: var(--muted);">Safety Score</div>
-                        <a href="/neighbourhood/metropolitan-police-service/woodside/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View →</a>
+                        <a href="/neighbourhood/metropolitan-police-service/woodside/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View Details →</a>
                     </div>
                 </div>
                 
-                <p style="margin-top: var(--space-4); color: var(--muted);">
-                    Woodside is safer with 9 points higher rating.
-                    Scores based on official Metropolitan Police crime data.
-                </p>
+                <!-- Summary Section -->
+                <div class="kpi-card" style="margin-top: var(--space-4); padding: var(--space-4);">
+                    <h2 style="font-size: var(--text-lg); color: var(--color-primary); margin-bottom: var(--space-3);">Comparison Summary</h2>
+                    <p style="color: var(--muted); margin-bottom: var(--space-3);">
+                        When comparing Church Street and Woodside, Woodside is safer than Church Street. 
+                        Church Street has a safety score of 2/100, which is considered high risk for London. 
+                        Woodside scores 11/100, rated as high risk.
+                    </p>
+                    <p style="color: var(--muted);">
+                        The 9-point difference suggests similar crime levels in both areas.
+                        These scores are based on official Metropolitan Police crime data from January 2026.
+                    </p>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="kpi-card" style="margin-top: var(--space-4); padding: var(--space-4);">
+                    <h2 style="font-size: var(--text-lg); color: var(--color-primary); margin-bottom: var(--space-3);">Frequently Asked Questions</h2>
+                    
+                    <div style="border-bottom: 1px solid var(--border); padding: var(--space-3) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Which is safer, Church Street or Woodside?</div>
+                        <div style="color: var(--muted);">
+                            Woodside is safer with a score of 11/100 compared to Church Street's 2/100.
+                        </div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--border); padding: var(--space-3) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is Church Street a safe place to live?</div>
+                        <div style="color: var(--muted);">
+                            Church Street has a safety score of 2/100, which is high risk compared to other London neighbourhoods.
+                            Extra caution is advised in this area.
+                        </div>
+                    </div>
+                    
+                    <div style="padding: var(--space-3) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">How are these safety scores calculated?</div>
+                        <div style="color: var(--muted);">
+                            Safety scores are based on official crime data from the Metropolitan Police. 
+                            Each neighbourhood is ranked against all other UK neighbourhoods, with 100 being the safest and 0 the least safe.
+                            Scores account for violent crime, property crime, and anti-social behaviour.
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>

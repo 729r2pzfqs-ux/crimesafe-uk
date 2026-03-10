@@ -72,7 +72,7 @@ def grade_class(grade):
     return f"grade-{grade.lower()}"
 
 def generate_comparison_page(nb1, nb2):
-    """Generate a minimal comparison page"""
+    """Generate a comparison page with FAQ and descriptive text"""
     name1 = html_lib.escape(nb1['name'])
     name2 = html_lib.escape(nb2['name'])
     
@@ -81,12 +81,26 @@ def generate_comparison_page(nb1, nb2):
     
     if nb1['score'] > nb2['score']:
         winner, winner_score = name1, nb1['score']
+        loser, loser_score = name2, nb2['score']
+        safer_text = f"{name1} is safer than {name2}"
     elif nb2['score'] > nb1['score']:
         winner, winner_score = name2, nb2['score']
+        loser, loser_score = name1, nb1['score']
+        safer_text = f"{name2} is safer than {name1}"
     else:
         winner, winner_score = "Tie", nb1['score']
+        loser, loser_score = "", nb1['score']
+        safer_text = f"{name1} and {name2} have equal safety ratings"
     
     score_diff = abs(nb1['score'] - nb2['score'])
+    
+    # Grade descriptions
+    def grade_desc(score):
+        if score >= 80: return "very safe"
+        if score >= 60: return "safe"
+        if score >= 40: return "average"
+        if score >= 20: return "below average"
+        return "high risk"
     
     html = get_header(title, desc)
     html += f'''
@@ -101,8 +115,9 @@ def generate_comparison_page(nb1, nb2):
                 <p style="color: var(--muted);">London crime comparison • January 2026</p>
                 
                 <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-4); border-radius: var(--radius-md); margin: var(--space-4) 0;">
-                    <div style="font-size: var(--text-sm);">{"🏆 Safer" if winner != "Tie" else "⚖️ Equal"}</div>
+                    <div style="font-size: var(--text-sm);">{"🏆 Safer Neighbourhood" if winner != "Tie" else "⚖️ Equal Safety"}</div>
                     <div style="font-size: var(--text-xl); font-weight: 700;">{winner}</div>
+                    <div style="font-size: var(--text-sm); opacity: 0.9;">{f"Score {winner_score}/100" if winner != "Tie" else f"Both score {winner_score}/100"}</div>
                 </div>
                 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4);">
@@ -110,20 +125,59 @@ def generate_comparison_page(nb1, nb2):
                         <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">{name1}</h2>
                         <div style="font-size: 2rem; font-weight: 700; color: {"#16a34a" if nb1['score'] >= 60 else "#ca8a04" if nb1['score'] >= 40 else "#dc2626"};">{nb1['score']}</div>
                         <div style="font-size: var(--text-sm); color: var(--muted);">Safety Score</div>
-                        <a href="/neighbourhood/{nb1['force_slug']}/{nb1['nb_slug']}/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View →</a>
+                        <a href="/neighbourhood/{nb1['force_slug']}/{nb1['nb_slug']}/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View Details →</a>
                     </div>
                     <div class="kpi-card" style="text-align: center; padding: var(--space-4);">
                         <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-2);">{name2}</h2>
                         <div style="font-size: 2rem; font-weight: 700; color: {"#16a34a" if nb2['score'] >= 60 else "#ca8a04" if nb2['score'] >= 40 else "#dc2626"};">{nb2['score']}</div>
                         <div style="font-size: var(--text-sm); color: var(--muted);">Safety Score</div>
-                        <a href="/neighbourhood/{nb2['force_slug']}/{nb2['nb_slug']}/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View →</a>
+                        <a href="/neighbourhood/{nb2['force_slug']}/{nb2['nb_slug']}/" style="display: inline-block; margin-top: var(--space-3); color: var(--color-primary);">View Details →</a>
                     </div>
                 </div>
                 
-                <p style="margin-top: var(--space-4); color: var(--muted);">
-                    {f"{winner} is safer with {score_diff} points higher rating." if winner != "Tie" else "Both areas have equal safety ratings."}
-                    Scores based on official Metropolitan Police crime data.
-                </p>
+                <!-- Summary Section -->
+                <div class="kpi-card" style="margin-top: var(--space-4); padding: var(--space-4);">
+                    <h2 style="font-size: var(--text-lg); color: var(--color-primary); margin-bottom: var(--space-3);">Comparison Summary</h2>
+                    <p style="color: var(--muted); margin-bottom: var(--space-3);">
+                        When comparing {name1} and {name2}, {safer_text}. 
+                        {name1} has a safety score of {nb1['score']}/100, which is considered {grade_desc(nb1['score'])} for London. 
+                        {name2} scores {nb2['score']}/100, rated as {grade_desc(nb2['score'])}.
+                    </p>
+                    <p style="color: var(--muted);">
+                        {f"The {score_diff}-point difference indicates {winner} has noticeably lower crime rates." if score_diff >= 10 else f"The {score_diff}-point difference suggests similar crime levels in both areas." if score_diff > 0 else "Both neighbourhoods have identical crime profiles."}
+                        These scores are based on official Metropolitan Police crime data from January 2026.
+                    </p>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="kpi-card" style="margin-top: var(--space-4); padding: var(--space-4);">
+                    <h2 style="font-size: var(--text-lg); color: var(--color-primary); margin-bottom: var(--space-3);">Frequently Asked Questions</h2>
+                    
+                    <div style="border-bottom: 1px solid var(--border); padding: var(--space-3) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Which is safer, {name1} or {name2}?</div>
+                        <div style="color: var(--muted);">
+                            {f"{winner} is safer with a score of {winner_score}/100 compared to {loser}'s {loser_score}/100." if winner != "Tie" else f"Both neighbourhoods are equally safe with scores of {winner_score}/100."}
+                        </div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--border); padding: var(--space-3) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is {name1} a safe place to live?</div>
+                        <div style="color: var(--muted);">
+                            {name1} has a safety score of {nb1['score']}/100, which is {grade_desc(nb1['score'])} compared to other London neighbourhoods.
+                            {"It ranks in the top 40% for safety." if nb1['score'] >= 60 else "It has average crime levels for the area." if nb1['score'] >= 40 else "Extra caution is advised in this area."}
+                        </div>
+                    </div>
+                    
+                    <div style="padding: var(--space-3) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">How are these safety scores calculated?</div>
+                        <div style="color: var(--muted);">
+                            Safety scores are based on official crime data from the Metropolitan Police. 
+                            Each neighbourhood is ranked against all other UK neighbourhoods, with 100 being the safest and 0 the least safe.
+                            Scores account for violent crime, property crime, and anti-social behaviour.
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>
@@ -153,10 +207,10 @@ def main():
         slug = f"{nb1['nb_slug']}-vs-{nb2['nb_slug']}"
         out_dir = f"compare/{slug}"
         
-        # Skip if exists
-        if os.path.exists(f"{out_dir}/index.html"):
-            generated += 1
-            continue
+        # Always regenerate (template updated)
+        # if os.path.exists(f"{out_dir}/index.html"):
+        #     generated += 1
+        #     continue
         
         os.makedirs(out_dir, exist_ok=True)
         
