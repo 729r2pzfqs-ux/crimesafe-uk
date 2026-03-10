@@ -207,7 +207,12 @@ if (compareCity1 && compareCity2) {
             // Same force - neighbourhood comparison (alphabetical sort)
             if (compareData1.force === compareData2.force && compareData1.force !== 'city') {
                 const slugs = [compareData1.nb, compareData2.nb].sort();
-                window.location.href = `/compare/${compareData1.force}/${slugs[0]}-vs-${slugs[1]}/`;
+                // London (Met Police) comparisons are at /compare/{slug}-vs-{slug}/ (no force prefix)
+                if (compareData1.force === 'metropolitan-police-service') {
+                    window.location.href = `/compare/${slugs[0]}-vs-${slugs[1]}/`;
+                } else {
+                    window.location.href = `/compare/${compareData1.force}/${slugs[0]}-vs-${slugs[1]}/`;
+                }
                 return;
             }
             
