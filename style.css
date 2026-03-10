@@ -332,8 +332,8 @@ a:hover { color: var(--color-primary-hover); }
 .search-item:last-child { border-bottom: none; }
 .search-item:hover { background: var(--color-surface-offset); }
 .search-item-content { flex: 1; min-width: 0; }
-.search-item-name { font-weight: 500; font-size: var(--text-sm); display: block; }
-.search-item-meta { color: var(--color-text-muted); font-size: var(--text-xs); display: block; margin-top: 2px; }
+.search-item-name { font-weight: 500; font-size: var(--text-sm); display: block; line-height: 1.3; }
+.search-item-meta { color: var(--color-text-muted); font-size: var(--text-xs); display: block; margin-top: 4px; line-height: 1.3; }
 .search-item-score {
   font-weight: 700; font-size: var(--text-xs);
   padding: var(--space-1) var(--space-2);
