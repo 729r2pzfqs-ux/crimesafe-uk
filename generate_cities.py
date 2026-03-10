@@ -188,7 +188,7 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/city/">Cities</a> › {city_name}
+                <a href="/">Home</a> › <a href="/city/">City</a> › {city_name}
             </div>
         </div>
         
@@ -404,7 +404,7 @@ def generate_cities_index():
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › Cities
+                <a href="/">Home</a> › City
             </div>
         </div>
         
