@@ -101,9 +101,11 @@ def main():
     # Comparison pages
     compare_dir = f"{OUTPUT_DIR}/compare"
     if os.path.exists(compare_dir):
-        for slug in os.listdir(compare_dir):
-            if os.path.isdir(f"{compare_dir}/{slug}"):
-                compare_urls.append((f"/compare/{slug}/", "0.6", "monthly"))
+        for root, dirs, files in os.walk(compare_dir):
+            for f in files:
+                if f == "index.html":
+                    rel_path = os.path.relpath(root, OUTPUT_DIR)
+                    compare_urls.append((f"/{rel_path}/", "0.6", "monthly"))
     
     # Postcode pages
     postcode_dir = f"{OUTPUT_DIR}/postcode"
