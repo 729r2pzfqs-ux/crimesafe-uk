@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>UK Postcode Crime Statistics — CrimeSafe UK</title>
+    <meta name="description" content="Find crime rates by UK postcode. Enter your postcode to see local safety scores.">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a>
+                <a href="/postcode/">Postcodes</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › Postcodes
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>Postcode Crime Lookup</h1>
+                <p class="hero-sub">Find crime statistics for any UK postcode</p>
+                
+                <div style="max-width: 400px; margin: var(--space-6) auto 0;">
+                    <div style="display: flex; gap: var(--space-2);">
+                        <input type="text" id="postcodeInput" class="search-input" placeholder="Enter postcode (e.g., SW1A 1AA)" style="flex: 1;">
+                        <button id="postcodeBtn" class="btn btn-primary">Search</button>
+                    </div>
+                    <div id="postcodeResult"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section style="padding-bottom: var(--space-12);">
+            <div class="container">
+                <h2 style="margin-bottom: var(--space-4);">Browse by Postcode District</h2>
+                <div class="force-grid">
+
+                    <div class="force-card">
+                        <h3>AB Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ab10/" style="color: var(--color-primary);">AB10</a> <a href="/postcode/ab11/" style="color: var(--color-primary);">AB11</a> <a href="/postcode/ab12/" style="color: var(--color-primary);">AB12</a> <a href="/postcode/ab13/" style="color: var(--color-primary);">AB13</a> <a href="/postcode/ab14/" style="color: var(--color-primary);">AB14</a> <a href="/postcode/ab15/" style="color: var(--color-primary);">AB15</a> <a href="/postcode/ab16/" style="color: var(--color-primary);">AB16</a> <a href="/postcode/ab21/" style="color: var(--color-primary);">AB21</a> <a href="/postcode/ab22/" style="color: var(--color-primary);">AB22</a> <a href="/postcode/ab23/" style="color: var(--color-primary);">AB23</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>AL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/al1/" style="color: var(--color-primary);">AL1</a> <a href="/postcode/al10/" style="color: var(--color-primary);">AL10</a> <a href="/postcode/al2/" style="color: var(--color-primary);">AL2</a> <a href="/postcode/al3/" style="color: var(--color-primary);">AL3</a> <a href="/postcode/al4/" style="color: var(--color-primary);">AL4</a> <a href="/postcode/al5/" style="color: var(--color-primary);">AL5</a> <a href="/postcode/al6/" style="color: var(--color-primary);">AL6</a> <a href="/postcode/al7/" style="color: var(--color-primary);">AL7</a> <a href="/postcode/al8/" style="color: var(--color-primary);">AL8</a> <a href="/postcode/al9/" style="color: var(--color-primary);">AL9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>B Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/b1/" style="color: var(--color-primary);">B1</a> <a href="/postcode/b10/" style="color: var(--color-primary);">B10</a> <a href="/postcode/b11/" style="color: var(--color-primary);">B11</a> <a href="/postcode/b12/" style="color: var(--color-primary);">B12</a> <a href="/postcode/b13/" style="color: var(--color-primary);">B13</a> <a href="/postcode/b14/" style="color: var(--color-primary);">B14</a> <a href="/postcode/b15/" style="color: var(--color-primary);">B15</a> <a href="/postcode/b16/" style="color: var(--color-primary);">B16</a> <a href="/postcode/b17/" style="color: var(--color-primary);">B17</a> <a href="/postcode/b18/" style="color: var(--color-primary);">B18</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ba1/" style="color: var(--color-primary);">BA1</a> <a href="/postcode/ba10/" style="color: var(--color-primary);">BA10</a> <a href="/postcode/ba11/" style="color: var(--color-primary);">BA11</a> <a href="/postcode/ba12/" style="color: var(--color-primary);">BA12</a> <a href="/postcode/ba13/" style="color: var(--color-primary);">BA13</a> <a href="/postcode/ba14/" style="color: var(--color-primary);">BA14</a> <a href="/postcode/ba15/" style="color: var(--color-primary);">BA15</a> <a href="/postcode/ba16/" style="color: var(--color-primary);">BA16</a> <a href="/postcode/ba2/" style="color: var(--color-primary);">BA2</a> <a href="/postcode/ba20/" style="color: var(--color-primary);">BA20</a> <span style="color: var(--muted);">+9 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BB Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bb1/" style="color: var(--color-primary);">BB1</a> <a href="/postcode/bb10/" style="color: var(--color-primary);">BB10</a> <a href="/postcode/bb11/" style="color: var(--color-primary);">BB11</a> <a href="/postcode/bb12/" style="color: var(--color-primary);">BB12</a> <a href="/postcode/bb18/" style="color: var(--color-primary);">BB18</a> <a href="/postcode/bb2/" style="color: var(--color-primary);">BB2</a> <a href="/postcode/bb3/" style="color: var(--color-primary);">BB3</a> <a href="/postcode/bb4/" style="color: var(--color-primary);">BB4</a> <a href="/postcode/bb5/" style="color: var(--color-primary);">BB5</a> <a href="/postcode/bb6/" style="color: var(--color-primary);">BB6</a> <span style="color: var(--muted);">+3 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BD Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bd1/" style="color: var(--color-primary);">BD1</a> <a href="/postcode/bd10/" style="color: var(--color-primary);">BD10</a> <a href="/postcode/bd11/" style="color: var(--color-primary);">BD11</a> <a href="/postcode/bd12/" style="color: var(--color-primary);">BD12</a> <a href="/postcode/bd13/" style="color: var(--color-primary);">BD13</a> <a href="/postcode/bd14/" style="color: var(--color-primary);">BD14</a> <a href="/postcode/bd15/" style="color: var(--color-primary);">BD15</a> <a href="/postcode/bd16/" style="color: var(--color-primary);">BD16</a> <a href="/postcode/bd17/" style="color: var(--color-primary);">BD17</a> <a href="/postcode/bd18/" style="color: var(--color-primary);">BD18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BH Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bh1/" style="color: var(--color-primary);">BH1</a> <a href="/postcode/bh10/" style="color: var(--color-primary);">BH10</a> <a href="/postcode/bh11/" style="color: var(--color-primary);">BH11</a> <a href="/postcode/bh12/" style="color: var(--color-primary);">BH12</a> <a href="/postcode/bh13/" style="color: var(--color-primary);">BH13</a> <a href="/postcode/bh14/" style="color: var(--color-primary);">BH14</a> <a href="/postcode/bh15/" style="color: var(--color-primary);">BH15</a> <a href="/postcode/bh16/" style="color: var(--color-primary);">BH16</a> <a href="/postcode/bh17/" style="color: var(--color-primary);">BH17</a> <a href="/postcode/bh18/" style="color: var(--color-primary);">BH18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bl1/" style="color: var(--color-primary);">BL1</a> <a href="/postcode/bl11/" style="color: var(--color-primary);">BL11</a> <a href="/postcode/bl2/" style="color: var(--color-primary);">BL2</a> <a href="/postcode/bl3/" style="color: var(--color-primary);">BL3</a> <a href="/postcode/bl4/" style="color: var(--color-primary);">BL4</a> <a href="/postcode/bl5/" style="color: var(--color-primary);">BL5</a> <a href="/postcode/bl6/" style="color: var(--color-primary);">BL6</a> <a href="/postcode/bl7/" style="color: var(--color-primary);">BL7</a> <a href="/postcode/bl8/" style="color: var(--color-primary);">BL8</a> <a href="/postcode/bl9/" style="color: var(--color-primary);">BL9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bn1/" style="color: var(--color-primary);">BN1</a> <a href="/postcode/bn10/" style="color: var(--color-primary);">BN10</a> <a href="/postcode/bn11/" style="color: var(--color-primary);">BN11</a> <a href="/postcode/bn12/" style="color: var(--color-primary);">BN12</a> <a href="/postcode/bn13/" style="color: var(--color-primary);">BN13</a> <a href="/postcode/bn14/" style="color: var(--color-primary);">BN14</a> <a href="/postcode/bn15/" style="color: var(--color-primary);">BN15</a> <a href="/postcode/bn16/" style="color: var(--color-primary);">BN16</a> <a href="/postcode/bn17/" style="color: var(--color-primary);">BN17</a> <a href="/postcode/bn18/" style="color: var(--color-primary);">BN18</a> <span style="color: var(--muted);">+12 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/br1/" style="color: var(--color-primary);">BR1</a> <a href="/postcode/br2/" style="color: var(--color-primary);">BR2</a> <a href="/postcode/br3/" style="color: var(--color-primary);">BR3</a> <a href="/postcode/br4/" style="color: var(--color-primary);">BR4</a> <a href="/postcode/br5/" style="color: var(--color-primary);">BR5</a> <a href="/postcode/br6/" style="color: var(--color-primary);">BR6</a> <a href="/postcode/br7/" style="color: var(--color-primary);">BR7</a> <a href="/postcode/br8/" style="color: var(--color-primary);">BR8</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BS Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bs1/" style="color: var(--color-primary);">BS1</a> <a href="/postcode/bs10/" style="color: var(--color-primary);">BS10</a> <a href="/postcode/bs11/" style="color: var(--color-primary);">BS11</a> <a href="/postcode/bs13/" style="color: var(--color-primary);">BS13</a> <a href="/postcode/bs14/" style="color: var(--color-primary);">BS14</a> <a href="/postcode/bs15/" style="color: var(--color-primary);">BS15</a> <a href="/postcode/bs16/" style="color: var(--color-primary);">BS16</a> <a href="/postcode/bs2/" style="color: var(--color-primary);">BS2</a> <a href="/postcode/bs20/" style="color: var(--color-primary);">BS20</a> <a href="/postcode/bs21/" style="color: var(--color-primary);">BS21</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>BT Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/bt1/" style="color: var(--color-primary);">BT1</a> <a href="/postcode/bt10/" style="color: var(--color-primary);">BT10</a> <a href="/postcode/bt11/" style="color: var(--color-primary);">BT11</a> <a href="/postcode/bt12/" style="color: var(--color-primary);">BT12</a> <a href="/postcode/bt13/" style="color: var(--color-primary);">BT13</a> <a href="/postcode/bt14/" style="color: var(--color-primary);">BT14</a> <a href="/postcode/bt15/" style="color: var(--color-primary);">BT15</a> <a href="/postcode/bt16/" style="color: var(--color-primary);">BT16</a> <a href="/postcode/bt17/" style="color: var(--color-primary);">BT17</a> <a href="/postcode/bt18/" style="color: var(--color-primary);">BT18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ca1/" style="color: var(--color-primary);">CA1</a> <a href="/postcode/ca10/" style="color: var(--color-primary);">CA10</a> <a href="/postcode/ca11/" style="color: var(--color-primary);">CA11</a> <a href="/postcode/ca12/" style="color: var(--color-primary);">CA12</a> <a href="/postcode/ca13/" style="color: var(--color-primary);">CA13</a> <a href="/postcode/ca14/" style="color: var(--color-primary);">CA14</a> <a href="/postcode/ca15/" style="color: var(--color-primary);">CA15</a> <a href="/postcode/ca16/" style="color: var(--color-primary);">CA16</a> <a href="/postcode/ca17/" style="color: var(--color-primary);">CA17</a> <a href="/postcode/ca18/" style="color: var(--color-primary);">CA18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CB Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/cb1/" style="color: var(--color-primary);">CB1</a> <a href="/postcode/cb10/" style="color: var(--color-primary);">CB10</a> <a href="/postcode/cb11/" style="color: var(--color-primary);">CB11</a> <a href="/postcode/cb2/" style="color: var(--color-primary);">CB2</a> <a href="/postcode/cb21/" style="color: var(--color-primary);">CB21</a> <a href="/postcode/cb22/" style="color: var(--color-primary);">CB22</a> <a href="/postcode/cb23/" style="color: var(--color-primary);">CB23</a> <a href="/postcode/cb24/" style="color: var(--color-primary);">CB24</a> <a href="/postcode/cb3/" style="color: var(--color-primary);">CB3</a> <a href="/postcode/cb4/" style="color: var(--color-primary);">CB4</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CF Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/cf10/" style="color: var(--color-primary);">CF10</a> <a href="/postcode/cf11/" style="color: var(--color-primary);">CF11</a> <a href="/postcode/cf14/" style="color: var(--color-primary);">CF14</a> <a href="/postcode/cf15/" style="color: var(--color-primary);">CF15</a> <a href="/postcode/cf23/" style="color: var(--color-primary);">CF23</a> <a href="/postcode/cf24/" style="color: var(--color-primary);">CF24</a> <a href="/postcode/cf3/" style="color: var(--color-primary);">CF3</a> <a href="/postcode/cf5/" style="color: var(--color-primary);">CF5</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CH Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ch1/" style="color: var(--color-primary);">CH1</a> <a href="/postcode/ch2/" style="color: var(--color-primary);">CH2</a> <a href="/postcode/ch3/" style="color: var(--color-primary);">CH3</a> <a href="/postcode/ch4/" style="color: var(--color-primary);">CH4</a> <a href="/postcode/ch5/" style="color: var(--color-primary);">CH5</a> <a href="/postcode/ch6/" style="color: var(--color-primary);">CH6</a> <a href="/postcode/ch7/" style="color: var(--color-primary);">CH7</a> <a href="/postcode/ch8/" style="color: var(--color-primary);">CH8</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CM Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/cm1/" style="color: var(--color-primary);">CM1</a> <a href="/postcode/cm11/" style="color: var(--color-primary);">CM11</a> <a href="/postcode/cm12/" style="color: var(--color-primary);">CM12</a> <a href="/postcode/cm13/" style="color: var(--color-primary);">CM13</a> <a href="/postcode/cm14/" style="color: var(--color-primary);">CM14</a> <a href="/postcode/cm15/" style="color: var(--color-primary);">CM15</a> <a href="/postcode/cm16/" style="color: var(--color-primary);">CM16</a> <a href="/postcode/cm17/" style="color: var(--color-primary);">CM17</a> <a href="/postcode/cm18/" style="color: var(--color-primary);">CM18</a> <a href="/postcode/cm19/" style="color: var(--color-primary);">CM19</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CO Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/co1/" style="color: var(--color-primary);">CO1</a> <a href="/postcode/co10/" style="color: var(--color-primary);">CO10</a> <a href="/postcode/co11/" style="color: var(--color-primary);">CO11</a> <a href="/postcode/co12/" style="color: var(--color-primary);">CO12</a> <a href="/postcode/co13/" style="color: var(--color-primary);">CO13</a> <a href="/postcode/co14/" style="color: var(--color-primary);">CO14</a> <a href="/postcode/co15/" style="color: var(--color-primary);">CO15</a> <a href="/postcode/co16/" style="color: var(--color-primary);">CO16</a> <a href="/postcode/co2/" style="color: var(--color-primary);">CO2</a> <a href="/postcode/co3/" style="color: var(--color-primary);">CO3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/cr2/" style="color: var(--color-primary);">CR2</a> <a href="/postcode/cr3/" style="color: var(--color-primary);">CR3</a> <a href="/postcode/cr4/" style="color: var(--color-primary);">CR4</a> <a href="/postcode/cr5/" style="color: var(--color-primary);">CR5</a> <a href="/postcode/cr6/" style="color: var(--color-primary);">CR6</a> <a href="/postcode/cr7/" style="color: var(--color-primary);">CR7</a> <a href="/postcode/cr8/" style="color: var(--color-primary);">CR8</a> <a href="/postcode/cr9/" style="color: var(--color-primary);">CR9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CT Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ct1/" style="color: var(--color-primary);">CT1</a> <a href="/postcode/ct10/" style="color: var(--color-primary);">CT10</a> <a href="/postcode/ct11/" style="color: var(--color-primary);">CT11</a> <a href="/postcode/ct12/" style="color: var(--color-primary);">CT12</a> <a href="/postcode/ct13/" style="color: var(--color-primary);">CT13</a> <a href="/postcode/ct14/" style="color: var(--color-primary);">CT14</a> <a href="/postcode/ct15/" style="color: var(--color-primary);">CT15</a> <a href="/postcode/ct16/" style="color: var(--color-primary);">CT16</a> <a href="/postcode/ct17/" style="color: var(--color-primary);">CT17</a> <a href="/postcode/ct18/" style="color: var(--color-primary);">CT18</a> <span style="color: var(--muted);">+11 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CV Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/cv1/" style="color: var(--color-primary);">CV1</a> <a href="/postcode/cv10/" style="color: var(--color-primary);">CV10</a> <a href="/postcode/cv11/" style="color: var(--color-primary);">CV11</a> <a href="/postcode/cv12/" style="color: var(--color-primary);">CV12</a> <a href="/postcode/cv13/" style="color: var(--color-primary);">CV13</a> <a href="/postcode/cv2/" style="color: var(--color-primary);">CV2</a> <a href="/postcode/cv21/" style="color: var(--color-primary);">CV21</a> <a href="/postcode/cv22/" style="color: var(--color-primary);">CV22</a> <a href="/postcode/cv23/" style="color: var(--color-primary);">CV23</a> <a href="/postcode/cv3/" style="color: var(--color-primary);">CV3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>CW Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/cw1/" style="color: var(--color-primary);">CW1</a> <a href="/postcode/cw10/" style="color: var(--color-primary);">CW10</a> <a href="/postcode/cw11/" style="color: var(--color-primary);">CW11</a> <a href="/postcode/cw12/" style="color: var(--color-primary);">CW12</a> <a href="/postcode/cw2/" style="color: var(--color-primary);">CW2</a> <a href="/postcode/cw3/" style="color: var(--color-primary);">CW3</a> <a href="/postcode/cw4/" style="color: var(--color-primary);">CW4</a> <a href="/postcode/cw5/" style="color: var(--color-primary);">CW5</a> <a href="/postcode/cw6/" style="color: var(--color-primary);">CW6</a> <a href="/postcode/cw7/" style="color: var(--color-primary);">CW7</a> <span style="color: var(--muted);">+2 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/da1/" style="color: var(--color-primary);">DA1</a> <a href="/postcode/da10/" style="color: var(--color-primary);">DA10</a> <a href="/postcode/da11/" style="color: var(--color-primary);">DA11</a> <a href="/postcode/da12/" style="color: var(--color-primary);">DA12</a> <a href="/postcode/da13/" style="color: var(--color-primary);">DA13</a> <a href="/postcode/da14/" style="color: var(--color-primary);">DA14</a> <a href="/postcode/da15/" style="color: var(--color-primary);">DA15</a> <a href="/postcode/da16/" style="color: var(--color-primary);">DA16</a> <a href="/postcode/da17/" style="color: var(--color-primary);">DA17</a> <a href="/postcode/da18/" style="color: var(--color-primary);">DA18</a> <span style="color: var(--muted);">+8 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DD Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dd1/" style="color: var(--color-primary);">DD1</a> <a href="/postcode/dd10/" style="color: var(--color-primary);">DD10</a> <a href="/postcode/dd11/" style="color: var(--color-primary);">DD11</a> <a href="/postcode/dd2/" style="color: var(--color-primary);">DD2</a> <a href="/postcode/dd3/" style="color: var(--color-primary);">DD3</a> <a href="/postcode/dd4/" style="color: var(--color-primary);">DD4</a> <a href="/postcode/dd5/" style="color: var(--color-primary);">DD5</a> <a href="/postcode/dd6/" style="color: var(--color-primary);">DD6</a> <a href="/postcode/dd7/" style="color: var(--color-primary);">DD7</a> <a href="/postcode/dd8/" style="color: var(--color-primary);">DD8</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DE Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/de1/" style="color: var(--color-primary);">DE1</a> <a href="/postcode/de11/" style="color: var(--color-primary);">DE11</a> <a href="/postcode/de12/" style="color: var(--color-primary);">DE12</a> <a href="/postcode/de13/" style="color: var(--color-primary);">DE13</a> <a href="/postcode/de14/" style="color: var(--color-primary);">DE14</a> <a href="/postcode/de15/" style="color: var(--color-primary);">DE15</a> <a href="/postcode/de21/" style="color: var(--color-primary);">DE21</a> <a href="/postcode/de22/" style="color: var(--color-primary);">DE22</a> <a href="/postcode/de23/" style="color: var(--color-primary);">DE23</a> <a href="/postcode/de24/" style="color: var(--color-primary);">DE24</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DG Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dg1/" style="color: var(--color-primary);">DG1</a> <a href="/postcode/dg10/" style="color: var(--color-primary);">DG10</a> <a href="/postcode/dg11/" style="color: var(--color-primary);">DG11</a> <a href="/postcode/dg12/" style="color: var(--color-primary);">DG12</a> <a href="/postcode/dg13/" style="color: var(--color-primary);">DG13</a> <a href="/postcode/dg14/" style="color: var(--color-primary);">DG14</a> <a href="/postcode/dg16/" style="color: var(--color-primary);">DG16</a> <a href="/postcode/dg2/" style="color: var(--color-primary);">DG2</a> <a href="/postcode/dg3/" style="color: var(--color-primary);">DG3</a> <a href="/postcode/dg4/" style="color: var(--color-primary);">DG4</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DH Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dh1/" style="color: var(--color-primary);">DH1</a> <a href="/postcode/dh2/" style="color: var(--color-primary);">DH2</a> <a href="/postcode/dh3/" style="color: var(--color-primary);">DH3</a> <a href="/postcode/dh4/" style="color: var(--color-primary);">DH4</a> <a href="/postcode/dh5/" style="color: var(--color-primary);">DH5</a> <a href="/postcode/dh6/" style="color: var(--color-primary);">DH6</a> <a href="/postcode/dh7/" style="color: var(--color-primary);">DH7</a> <a href="/postcode/dh8/" style="color: var(--color-primary);">DH8</a> <a href="/postcode/dh9/" style="color: var(--color-primary);">DH9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dl1/" style="color: var(--color-primary);">DL1</a> <a href="/postcode/dl10/" style="color: var(--color-primary);">DL10</a> <a href="/postcode/dl11/" style="color: var(--color-primary);">DL11</a> <a href="/postcode/dl12/" style="color: var(--color-primary);">DL12</a> <a href="/postcode/dl13/" style="color: var(--color-primary);">DL13</a> <a href="/postcode/dl14/" style="color: var(--color-primary);">DL14</a> <a href="/postcode/dl15/" style="color: var(--color-primary);">DL15</a> <a href="/postcode/dl16/" style="color: var(--color-primary);">DL16</a> <a href="/postcode/dl17/" style="color: var(--color-primary);">DL17</a> <a href="/postcode/dl2/" style="color: var(--color-primary);">DL2</a> <span style="color: var(--muted);">+7 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dn1/" style="color: var(--color-primary);">DN1</a> <a href="/postcode/dn10/" style="color: var(--color-primary);">DN10</a> <a href="/postcode/dn11/" style="color: var(--color-primary);">DN11</a> <a href="/postcode/dn12/" style="color: var(--color-primary);">DN12</a> <a href="/postcode/dn14/" style="color: var(--color-primary);">DN14</a> <a href="/postcode/dn15/" style="color: var(--color-primary);">DN15</a> <a href="/postcode/dn16/" style="color: var(--color-primary);">DN16</a> <a href="/postcode/dn17/" style="color: var(--color-primary);">DN17</a> <a href="/postcode/dn18/" style="color: var(--color-primary);">DN18</a> <a href="/postcode/dn19/" style="color: var(--color-primary);">DN19</a> <span style="color: var(--muted);">+11 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DT Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dt1/" style="color: var(--color-primary);">DT1</a> <a href="/postcode/dt10/" style="color: var(--color-primary);">DT10</a> <a href="/postcode/dt11/" style="color: var(--color-primary);">DT11</a> <a href="/postcode/dt2/" style="color: var(--color-primary);">DT2</a> <a href="/postcode/dt3/" style="color: var(--color-primary);">DT3</a> <a href="/postcode/dt4/" style="color: var(--color-primary);">DT4</a> <a href="/postcode/dt5/" style="color: var(--color-primary);">DT5</a> <a href="/postcode/dt6/" style="color: var(--color-primary);">DT6</a> <a href="/postcode/dt7/" style="color: var(--color-primary);">DT7</a> <a href="/postcode/dt8/" style="color: var(--color-primary);">DT8</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>DY Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/dy1/" style="color: var(--color-primary);">DY1</a> <a href="/postcode/dy10/" style="color: var(--color-primary);">DY10</a> <a href="/postcode/dy11/" style="color: var(--color-primary);">DY11</a> <a href="/postcode/dy12/" style="color: var(--color-primary);">DY12</a> <a href="/postcode/dy13/" style="color: var(--color-primary);">DY13</a> <a href="/postcode/dy14/" style="color: var(--color-primary);">DY14</a> <a href="/postcode/dy2/" style="color: var(--color-primary);">DY2</a> <a href="/postcode/dy3/" style="color: var(--color-primary);">DY3</a> <a href="/postcode/dy4/" style="color: var(--color-primary);">DY4</a> <a href="/postcode/dy5/" style="color: var(--color-primary);">DY5</a> <span style="color: var(--muted);">+4 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>E Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/e1/" style="color: var(--color-primary);">E1</a> <a href="/postcode/e10/" style="color: var(--color-primary);">E10</a> <a href="/postcode/e11/" style="color: var(--color-primary);">E11</a> <a href="/postcode/e12/" style="color: var(--color-primary);">E12</a> <a href="/postcode/e13/" style="color: var(--color-primary);">E13</a> <a href="/postcode/e14/" style="color: var(--color-primary);">E14</a> <a href="/postcode/e15/" style="color: var(--color-primary);">E15</a> <a href="/postcode/e16/" style="color: var(--color-primary);">E16</a> <a href="/postcode/e17/" style="color: var(--color-primary);">E17</a> <a href="/postcode/e18/" style="color: var(--color-primary);">E18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>EH Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/eh1/" style="color: var(--color-primary);">EH1</a> <a href="/postcode/eh10/" style="color: var(--color-primary);">EH10</a> <a href="/postcode/eh11/" style="color: var(--color-primary);">EH11</a> <a href="/postcode/eh12/" style="color: var(--color-primary);">EH12</a> <a href="/postcode/eh13/" style="color: var(--color-primary);">EH13</a> <a href="/postcode/eh14/" style="color: var(--color-primary);">EH14</a> <a href="/postcode/eh15/" style="color: var(--color-primary);">EH15</a> <a href="/postcode/eh16/" style="color: var(--color-primary);">EH16</a> <a href="/postcode/eh17/" style="color: var(--color-primary);">EH17</a> <a href="/postcode/eh18/" style="color: var(--color-primary);">EH18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>EN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/en1/" style="color: var(--color-primary);">EN1</a> <a href="/postcode/en10/" style="color: var(--color-primary);">EN10</a> <a href="/postcode/en11/" style="color: var(--color-primary);">EN11</a> <a href="/postcode/en2/" style="color: var(--color-primary);">EN2</a> <a href="/postcode/en3/" style="color: var(--color-primary);">EN3</a> <a href="/postcode/en4/" style="color: var(--color-primary);">EN4</a> <a href="/postcode/en5/" style="color: var(--color-primary);">EN5</a> <a href="/postcode/en6/" style="color: var(--color-primary);">EN6</a> <a href="/postcode/en7/" style="color: var(--color-primary);">EN7</a> <a href="/postcode/en8/" style="color: var(--color-primary);">EN8</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>EX Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ex1/" style="color: var(--color-primary);">EX1</a> <a href="/postcode/ex10/" style="color: var(--color-primary);">EX10</a> <a href="/postcode/ex11/" style="color: var(--color-primary);">EX11</a> <a href="/postcode/ex12/" style="color: var(--color-primary);">EX12</a> <a href="/postcode/ex13/" style="color: var(--color-primary);">EX13</a> <a href="/postcode/ex14/" style="color: var(--color-primary);">EX14</a> <a href="/postcode/ex15/" style="color: var(--color-primary);">EX15</a> <a href="/postcode/ex16/" style="color: var(--color-primary);">EX16</a> <a href="/postcode/ex17/" style="color: var(--color-primary);">EX17</a> <a href="/postcode/ex18/" style="color: var(--color-primary);">EX18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>FK Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/fk1/" style="color: var(--color-primary);">FK1</a> <a href="/postcode/fk10/" style="color: var(--color-primary);">FK10</a> <a href="/postcode/fk11/" style="color: var(--color-primary);">FK11</a> <a href="/postcode/fk12/" style="color: var(--color-primary);">FK12</a> <a href="/postcode/fk13/" style="color: var(--color-primary);">FK13</a> <a href="/postcode/fk14/" style="color: var(--color-primary);">FK14</a> <a href="/postcode/fk15/" style="color: var(--color-primary);">FK15</a> <a href="/postcode/fk16/" style="color: var(--color-primary);">FK16</a> <a href="/postcode/fk17/" style="color: var(--color-primary);">FK17</a> <a href="/postcode/fk18/" style="color: var(--color-primary);">FK18</a> <span style="color: var(--muted);">+11 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>FY Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/fy1/" style="color: var(--color-primary);">FY1</a> <a href="/postcode/fy2/" style="color: var(--color-primary);">FY2</a> <a href="/postcode/fy3/" style="color: var(--color-primary);">FY3</a> <a href="/postcode/fy4/" style="color: var(--color-primary);">FY4</a> <a href="/postcode/fy5/" style="color: var(--color-primary);">FY5</a> <a href="/postcode/fy6/" style="color: var(--color-primary);">FY6</a> <a href="/postcode/fy7/" style="color: var(--color-primary);">FY7</a> <a href="/postcode/fy8/" style="color: var(--color-primary);">FY8</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>G Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/g1/" style="color: var(--color-primary);">G1</a> <a href="/postcode/g11/" style="color: var(--color-primary);">G11</a> <a href="/postcode/g12/" style="color: var(--color-primary);">G12</a> <a href="/postcode/g13/" style="color: var(--color-primary);">G13</a> <a href="/postcode/g14/" style="color: var(--color-primary);">G14</a> <a href="/postcode/g15/" style="color: var(--color-primary);">G15</a> <a href="/postcode/g2/" style="color: var(--color-primary);">G2</a> <a href="/postcode/g20/" style="color: var(--color-primary);">G20</a> <a href="/postcode/g21/" style="color: var(--color-primary);">G21</a> <a href="/postcode/g22/" style="color: var(--color-primary);">G22</a> <span style="color: var(--muted);">+4 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>GL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/gl1/" style="color: var(--color-primary);">GL1</a> <a href="/postcode/gl10/" style="color: var(--color-primary);">GL10</a> <a href="/postcode/gl11/" style="color: var(--color-primary);">GL11</a> <a href="/postcode/gl12/" style="color: var(--color-primary);">GL12</a> <a href="/postcode/gl13/" style="color: var(--color-primary);">GL13</a> <a href="/postcode/gl14/" style="color: var(--color-primary);">GL14</a> <a href="/postcode/gl15/" style="color: var(--color-primary);">GL15</a> <a href="/postcode/gl16/" style="color: var(--color-primary);">GL16</a> <a href="/postcode/gl17/" style="color: var(--color-primary);">GL17</a> <a href="/postcode/gl18/" style="color: var(--color-primary);">GL18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>GU Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/gu1/" style="color: var(--color-primary);">GU1</a> <a href="/postcode/gu10/" style="color: var(--color-primary);">GU10</a> <a href="/postcode/gu11/" style="color: var(--color-primary);">GU11</a> <a href="/postcode/gu12/" style="color: var(--color-primary);">GU12</a> <a href="/postcode/gu14/" style="color: var(--color-primary);">GU14</a> <a href="/postcode/gu15/" style="color: var(--color-primary);">GU15</a> <a href="/postcode/gu16/" style="color: var(--color-primary);">GU16</a> <a href="/postcode/gu17/" style="color: var(--color-primary);">GU17</a> <a href="/postcode/gu18/" style="color: var(--color-primary);">GU18</a> <a href="/postcode/gu19/" style="color: var(--color-primary);">GU19</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ha1/" style="color: var(--color-primary);">HA1</a> <a href="/postcode/ha2/" style="color: var(--color-primary);">HA2</a> <a href="/postcode/ha3/" style="color: var(--color-primary);">HA3</a> <a href="/postcode/ha4/" style="color: var(--color-primary);">HA4</a> <a href="/postcode/ha5/" style="color: var(--color-primary);">HA5</a> <a href="/postcode/ha6/" style="color: var(--color-primary);">HA6</a> <a href="/postcode/ha7/" style="color: var(--color-primary);">HA7</a> <a href="/postcode/ha8/" style="color: var(--color-primary);">HA8</a> <a href="/postcode/ha9/" style="color: var(--color-primary);">HA9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HD Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hd1/" style="color: var(--color-primary);">HD1</a> <a href="/postcode/hd2/" style="color: var(--color-primary);">HD2</a> <a href="/postcode/hd3/" style="color: var(--color-primary);">HD3</a> <a href="/postcode/hd4/" style="color: var(--color-primary);">HD4</a> <a href="/postcode/hd5/" style="color: var(--color-primary);">HD5</a> <a href="/postcode/hd6/" style="color: var(--color-primary);">HD6</a> <a href="/postcode/hd7/" style="color: var(--color-primary);">HD7</a> <a href="/postcode/hd8/" style="color: var(--color-primary);">HD8</a> <a href="/postcode/hd9/" style="color: var(--color-primary);">HD9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HG Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hg1/" style="color: var(--color-primary);">HG1</a> <a href="/postcode/hg2/" style="color: var(--color-primary);">HG2</a> <a href="/postcode/hg3/" style="color: var(--color-primary);">HG3</a> <a href="/postcode/hg4/" style="color: var(--color-primary);">HG4</a> <a href="/postcode/hg5/" style="color: var(--color-primary);">HG5</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HP Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hp1/" style="color: var(--color-primary);">HP1</a> <a href="/postcode/hp10/" style="color: var(--color-primary);">HP10</a> <a href="/postcode/hp11/" style="color: var(--color-primary);">HP11</a> <a href="/postcode/hp12/" style="color: var(--color-primary);">HP12</a> <a href="/postcode/hp13/" style="color: var(--color-primary);">HP13</a> <a href="/postcode/hp14/" style="color: var(--color-primary);">HP14</a> <a href="/postcode/hp15/" style="color: var(--color-primary);">HP15</a> <a href="/postcode/hp16/" style="color: var(--color-primary);">HP16</a> <a href="/postcode/hp17/" style="color: var(--color-primary);">HP17</a> <a href="/postcode/hp18/" style="color: var(--color-primary);">HP18</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hr1/" style="color: var(--color-primary);">HR1</a> <a href="/postcode/hr2/" style="color: var(--color-primary);">HR2</a> <a href="/postcode/hr3/" style="color: var(--color-primary);">HR3</a> <a href="/postcode/hr4/" style="color: var(--color-primary);">HR4</a> <a href="/postcode/hr5/" style="color: var(--color-primary);">HR5</a> <a href="/postcode/hr6/" style="color: var(--color-primary);">HR6</a> <a href="/postcode/hr7/" style="color: var(--color-primary);">HR7</a> <a href="/postcode/hr8/" style="color: var(--color-primary);">HR8</a> <a href="/postcode/hr9/" style="color: var(--color-primary);">HR9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HS Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hs1/" style="color: var(--color-primary);">HS1</a> <a href="/postcode/hs2/" style="color: var(--color-primary);">HS2</a> <a href="/postcode/hs3/" style="color: var(--color-primary);">HS3</a> <a href="/postcode/hs4/" style="color: var(--color-primary);">HS4</a> <a href="/postcode/hs5/" style="color: var(--color-primary);">HS5</a> <a href="/postcode/hs6/" style="color: var(--color-primary);">HS6</a> <a href="/postcode/hs7/" style="color: var(--color-primary);">HS7</a> <a href="/postcode/hs8/" style="color: var(--color-primary);">HS8</a> <a href="/postcode/hs9/" style="color: var(--color-primary);">HS9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HU Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hu1/" style="color: var(--color-primary);">HU1</a> <a href="/postcode/hu10/" style="color: var(--color-primary);">HU10</a> <a href="/postcode/hu11/" style="color: var(--color-primary);">HU11</a> <a href="/postcode/hu12/" style="color: var(--color-primary);">HU12</a> <a href="/postcode/hu13/" style="color: var(--color-primary);">HU13</a> <a href="/postcode/hu14/" style="color: var(--color-primary);">HU14</a> <a href="/postcode/hu15/" style="color: var(--color-primary);">HU15</a> <a href="/postcode/hu16/" style="color: var(--color-primary);">HU16</a> <a href="/postcode/hu17/" style="color: var(--color-primary);">HU17</a> <a href="/postcode/hu18/" style="color: var(--color-primary);">HU18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>HX Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/hx1/" style="color: var(--color-primary);">HX1</a> <a href="/postcode/hx2/" style="color: var(--color-primary);">HX2</a> <a href="/postcode/hx3/" style="color: var(--color-primary);">HX3</a> <a href="/postcode/hx4/" style="color: var(--color-primary);">HX4</a> <a href="/postcode/hx5/" style="color: var(--color-primary);">HX5</a> <a href="/postcode/hx6/" style="color: var(--color-primary);">HX6</a> <a href="/postcode/hx7/" style="color: var(--color-primary);">HX7</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>IG Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ig1/" style="color: var(--color-primary);">IG1</a> <a href="/postcode/ig10/" style="color: var(--color-primary);">IG10</a> <a href="/postcode/ig11/" style="color: var(--color-primary);">IG11</a> <a href="/postcode/ig2/" style="color: var(--color-primary);">IG2</a> <a href="/postcode/ig3/" style="color: var(--color-primary);">IG3</a> <a href="/postcode/ig4/" style="color: var(--color-primary);">IG4</a> <a href="/postcode/ig5/" style="color: var(--color-primary);">IG5</a> <a href="/postcode/ig6/" style="color: var(--color-primary);">IG6</a> <a href="/postcode/ig7/" style="color: var(--color-primary);">IG7</a> <a href="/postcode/ig8/" style="color: var(--color-primary);">IG8</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>IP Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ip1/" style="color: var(--color-primary);">IP1</a> <a href="/postcode/ip10/" style="color: var(--color-primary);">IP10</a> <a href="/postcode/ip11/" style="color: var(--color-primary);">IP11</a> <a href="/postcode/ip12/" style="color: var(--color-primary);">IP12</a> <a href="/postcode/ip13/" style="color: var(--color-primary);">IP13</a> <a href="/postcode/ip14/" style="color: var(--color-primary);">IP14</a> <a href="/postcode/ip15/" style="color: var(--color-primary);">IP15</a> <a href="/postcode/ip16/" style="color: var(--color-primary);">IP16</a> <a href="/postcode/ip17/" style="color: var(--color-primary);">IP17</a> <a href="/postcode/ip18/" style="color: var(--color-primary);">IP18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>IV Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/iv1/" style="color: var(--color-primary);">IV1</a> <a href="/postcode/iv10/" style="color: var(--color-primary);">IV10</a> <a href="/postcode/iv11/" style="color: var(--color-primary);">IV11</a> <a href="/postcode/iv12/" style="color: var(--color-primary);">IV12</a> <a href="/postcode/iv13/" style="color: var(--color-primary);">IV13</a> <a href="/postcode/iv14/" style="color: var(--color-primary);">IV14</a> <a href="/postcode/iv15/" style="color: var(--color-primary);">IV15</a> <a href="/postcode/iv16/" style="color: var(--color-primary);">IV16</a> <a href="/postcode/iv17/" style="color: var(--color-primary);">IV17</a> <a href="/postcode/iv18/" style="color: var(--color-primary);">IV18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>KA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ka1/" style="color: var(--color-primary);">KA1</a> <a href="/postcode/ka10/" style="color: var(--color-primary);">KA10</a> <a href="/postcode/ka11/" style="color: var(--color-primary);">KA11</a> <a href="/postcode/ka12/" style="color: var(--color-primary);">KA12</a> <a href="/postcode/ka13/" style="color: var(--color-primary);">KA13</a> <a href="/postcode/ka14/" style="color: var(--color-primary);">KA14</a> <a href="/postcode/ka15/" style="color: var(--color-primary);">KA15</a> <a href="/postcode/ka16/" style="color: var(--color-primary);">KA16</a> <a href="/postcode/ka17/" style="color: var(--color-primary);">KA17</a> <a href="/postcode/ka18/" style="color: var(--color-primary);">KA18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>KT Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/kt1/" style="color: var(--color-primary);">KT1</a> <a href="/postcode/kt10/" style="color: var(--color-primary);">KT10</a> <a href="/postcode/kt11/" style="color: var(--color-primary);">KT11</a> <a href="/postcode/kt12/" style="color: var(--color-primary);">KT12</a> <a href="/postcode/kt13/" style="color: var(--color-primary);">KT13</a> <a href="/postcode/kt14/" style="color: var(--color-primary);">KT14</a> <a href="/postcode/kt15/" style="color: var(--color-primary);">KT15</a> <a href="/postcode/kt16/" style="color: var(--color-primary);">KT16</a> <a href="/postcode/kt17/" style="color: var(--color-primary);">KT17</a> <a href="/postcode/kt18/" style="color: var(--color-primary);">KT18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>KW Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/kw1/" style="color: var(--color-primary);">KW1</a> <a href="/postcode/kw10/" style="color: var(--color-primary);">KW10</a> <a href="/postcode/kw11/" style="color: var(--color-primary);">KW11</a> <a href="/postcode/kw12/" style="color: var(--color-primary);">KW12</a> <a href="/postcode/kw13/" style="color: var(--color-primary);">KW13</a> <a href="/postcode/kw14/" style="color: var(--color-primary);">KW14</a> <a href="/postcode/kw15/" style="color: var(--color-primary);">KW15</a> <a href="/postcode/kw16/" style="color: var(--color-primary);">KW16</a> <a href="/postcode/kw17/" style="color: var(--color-primary);">KW17</a> <a href="/postcode/kw2/" style="color: var(--color-primary);">KW2</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>KY Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ky1/" style="color: var(--color-primary);">KY1</a> <a href="/postcode/ky10/" style="color: var(--color-primary);">KY10</a> <a href="/postcode/ky11/" style="color: var(--color-primary);">KY11</a> <a href="/postcode/ky12/" style="color: var(--color-primary);">KY12</a> <a href="/postcode/ky13/" style="color: var(--color-primary);">KY13</a> <a href="/postcode/ky14/" style="color: var(--color-primary);">KY14</a> <a href="/postcode/ky15/" style="color: var(--color-primary);">KY15</a> <a href="/postcode/ky16/" style="color: var(--color-primary);">KY16</a> <a href="/postcode/ky2/" style="color: var(--color-primary);">KY2</a> <a href="/postcode/ky3/" style="color: var(--color-primary);">KY3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>L Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/l1/" style="color: var(--color-primary);">L1</a> <a href="/postcode/l10/" style="color: var(--color-primary);">L10</a> <a href="/postcode/l11/" style="color: var(--color-primary);">L11</a> <a href="/postcode/l12/" style="color: var(--color-primary);">L12</a> <a href="/postcode/l13/" style="color: var(--color-primary);">L13</a> <a href="/postcode/l14/" style="color: var(--color-primary);">L14</a> <a href="/postcode/l15/" style="color: var(--color-primary);">L15</a> <a href="/postcode/l16/" style="color: var(--color-primary);">L16</a> <a href="/postcode/l17/" style="color: var(--color-primary);">L17</a> <a href="/postcode/l18/" style="color: var(--color-primary);">L18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/la1/" style="color: var(--color-primary);">LA1</a> <a href="/postcode/la10/" style="color: var(--color-primary);">LA10</a> <a href="/postcode/la11/" style="color: var(--color-primary);">LA11</a> <a href="/postcode/la12/" style="color: var(--color-primary);">LA12</a> <a href="/postcode/la13/" style="color: var(--color-primary);">LA13</a> <a href="/postcode/la14/" style="color: var(--color-primary);">LA14</a> <a href="/postcode/la15/" style="color: var(--color-primary);">LA15</a> <a href="/postcode/la16/" style="color: var(--color-primary);">LA16</a> <a href="/postcode/la17/" style="color: var(--color-primary);">LA17</a> <a href="/postcode/la18/" style="color: var(--color-primary);">LA18</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LD Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ld1/" style="color: var(--color-primary);">LD1</a> <a href="/postcode/ld2/" style="color: var(--color-primary);">LD2</a> <a href="/postcode/ld3/" style="color: var(--color-primary);">LD3</a> <a href="/postcode/ld4/" style="color: var(--color-primary);">LD4</a> <a href="/postcode/ld5/" style="color: var(--color-primary);">LD5</a> <a href="/postcode/ld6/" style="color: var(--color-primary);">LD6</a> <a href="/postcode/ld7/" style="color: var(--color-primary);">LD7</a> <a href="/postcode/ld8/" style="color: var(--color-primary);">LD8</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LE Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/le1/" style="color: var(--color-primary);">LE1</a> <a href="/postcode/le10/" style="color: var(--color-primary);">LE10</a> <a href="/postcode/le11/" style="color: var(--color-primary);">LE11</a> <a href="/postcode/le12/" style="color: var(--color-primary);">LE12</a> <a href="/postcode/le13/" style="color: var(--color-primary);">LE13</a> <a href="/postcode/le14/" style="color: var(--color-primary);">LE14</a> <a href="/postcode/le15/" style="color: var(--color-primary);">LE15</a> <a href="/postcode/le16/" style="color: var(--color-primary);">LE16</a> <a href="/postcode/le17/" style="color: var(--color-primary);">LE17</a> <a href="/postcode/le18/" style="color: var(--color-primary);">LE18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ll11/" style="color: var(--color-primary);">LL11</a> <a href="/postcode/ll12/" style="color: var(--color-primary);">LL12</a> <a href="/postcode/ll13/" style="color: var(--color-primary);">LL13</a> <a href="/postcode/ll14/" style="color: var(--color-primary);">LL14</a> <a href="/postcode/ll15/" style="color: var(--color-primary);">LL15</a> <a href="/postcode/ll16/" style="color: var(--color-primary);">LL16</a> <a href="/postcode/ll17/" style="color: var(--color-primary);">LL17</a> <a href="/postcode/ll18/" style="color: var(--color-primary);">LL18</a> <a href="/postcode/ll19/" style="color: var(--color-primary);">LL19</a> <a href="/postcode/ll20/" style="color: var(--color-primary);">LL20</a> <span style="color: var(--muted);">+4 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ln1/" style="color: var(--color-primary);">LN1</a> <a href="/postcode/ln10/" style="color: var(--color-primary);">LN10</a> <a href="/postcode/ln11/" style="color: var(--color-primary);">LN11</a> <a href="/postcode/ln12/" style="color: var(--color-primary);">LN12</a> <a href="/postcode/ln13/" style="color: var(--color-primary);">LN13</a> <a href="/postcode/ln2/" style="color: var(--color-primary);">LN2</a> <a href="/postcode/ln3/" style="color: var(--color-primary);">LN3</a> <a href="/postcode/ln4/" style="color: var(--color-primary);">LN4</a> <a href="/postcode/ln5/" style="color: var(--color-primary);">LN5</a> <a href="/postcode/ln6/" style="color: var(--color-primary);">LN6</a> <span style="color: var(--muted);">+3 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LS Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ls1/" style="color: var(--color-primary);">LS1</a> <a href="/postcode/ls10/" style="color: var(--color-primary);">LS10</a> <a href="/postcode/ls11/" style="color: var(--color-primary);">LS11</a> <a href="/postcode/ls12/" style="color: var(--color-primary);">LS12</a> <a href="/postcode/ls13/" style="color: var(--color-primary);">LS13</a> <a href="/postcode/ls14/" style="color: var(--color-primary);">LS14</a> <a href="/postcode/ls15/" style="color: var(--color-primary);">LS15</a> <a href="/postcode/ls16/" style="color: var(--color-primary);">LS16</a> <a href="/postcode/ls17/" style="color: var(--color-primary);">LS17</a> <a href="/postcode/ls18/" style="color: var(--color-primary);">LS18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>LU Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/lu1/" style="color: var(--color-primary);">LU1</a> <a href="/postcode/lu2/" style="color: var(--color-primary);">LU2</a> <a href="/postcode/lu3/" style="color: var(--color-primary);">LU3</a> <a href="/postcode/lu4/" style="color: var(--color-primary);">LU4</a> <a href="/postcode/lu5/" style="color: var(--color-primary);">LU5</a> <a href="/postcode/lu6/" style="color: var(--color-primary);">LU6</a> <a href="/postcode/lu7/" style="color: var(--color-primary);">LU7</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>M Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/m1/" style="color: var(--color-primary);">M1</a> <a href="/postcode/m11/" style="color: var(--color-primary);">M11</a> <a href="/postcode/m12/" style="color: var(--color-primary);">M12</a> <a href="/postcode/m13/" style="color: var(--color-primary);">M13</a> <a href="/postcode/m14/" style="color: var(--color-primary);">M14</a> <a href="/postcode/m15/" style="color: var(--color-primary);">M15</a> <a href="/postcode/m16/" style="color: var(--color-primary);">M16</a> <a href="/postcode/m17/" style="color: var(--color-primary);">M17</a> <a href="/postcode/m18/" style="color: var(--color-primary);">M18</a> <a href="/postcode/m19/" style="color: var(--color-primary);">M19</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>ME Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/me1/" style="color: var(--color-primary);">ME1</a> <a href="/postcode/me10/" style="color: var(--color-primary);">ME10</a> <a href="/postcode/me11/" style="color: var(--color-primary);">ME11</a> <a href="/postcode/me12/" style="color: var(--color-primary);">ME12</a> <a href="/postcode/me13/" style="color: var(--color-primary);">ME13</a> <a href="/postcode/me14/" style="color: var(--color-primary);">ME14</a> <a href="/postcode/me15/" style="color: var(--color-primary);">ME15</a> <a href="/postcode/me16/" style="color: var(--color-primary);">ME16</a> <a href="/postcode/me17/" style="color: var(--color-primary);">ME17</a> <a href="/postcode/me18/" style="color: var(--color-primary);">ME18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>MK Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/mk1/" style="color: var(--color-primary);">MK1</a> <a href="/postcode/mk10/" style="color: var(--color-primary);">MK10</a> <a href="/postcode/mk11/" style="color: var(--color-primary);">MK11</a> <a href="/postcode/mk12/" style="color: var(--color-primary);">MK12</a> <a href="/postcode/mk13/" style="color: var(--color-primary);">MK13</a> <a href="/postcode/mk14/" style="color: var(--color-primary);">MK14</a> <a href="/postcode/mk15/" style="color: var(--color-primary);">MK15</a> <a href="/postcode/mk16/" style="color: var(--color-primary);">MK16</a> <a href="/postcode/mk17/" style="color: var(--color-primary);">MK17</a> <a href="/postcode/mk18/" style="color: var(--color-primary);">MK18</a> <span style="color: var(--muted);">+9 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>ML Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ml1/" style="color: var(--color-primary);">ML1</a> <a href="/postcode/ml10/" style="color: var(--color-primary);">ML10</a> <a href="/postcode/ml11/" style="color: var(--color-primary);">ML11</a> <a href="/postcode/ml12/" style="color: var(--color-primary);">ML12</a> <a href="/postcode/ml2/" style="color: var(--color-primary);">ML2</a> <a href="/postcode/ml3/" style="color: var(--color-primary);">ML3</a> <a href="/postcode/ml4/" style="color: var(--color-primary);">ML4</a> <a href="/postcode/ml5/" style="color: var(--color-primary);">ML5</a> <a href="/postcode/ml6/" style="color: var(--color-primary);">ML6</a> <a href="/postcode/ml7/" style="color: var(--color-primary);">ML7</a> <span style="color: var(--muted);">+2 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>N Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/n1/" style="color: var(--color-primary);">N1</a> <a href="/postcode/n10/" style="color: var(--color-primary);">N10</a> <a href="/postcode/n11/" style="color: var(--color-primary);">N11</a> <a href="/postcode/n12/" style="color: var(--color-primary);">N12</a> <a href="/postcode/n13/" style="color: var(--color-primary);">N13</a> <a href="/postcode/n14/" style="color: var(--color-primary);">N14</a> <a href="/postcode/n15/" style="color: var(--color-primary);">N15</a> <a href="/postcode/n16/" style="color: var(--color-primary);">N16</a> <a href="/postcode/n17/" style="color: var(--color-primary);">N17</a> <a href="/postcode/n18/" style="color: var(--color-primary);">N18</a> <span style="color: var(--muted);">+12 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>NE Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ne1/" style="color: var(--color-primary);">NE1</a> <a href="/postcode/ne10/" style="color: var(--color-primary);">NE10</a> <a href="/postcode/ne11/" style="color: var(--color-primary);">NE11</a> <a href="/postcode/ne12/" style="color: var(--color-primary);">NE12</a> <a href="/postcode/ne13/" style="color: var(--color-primary);">NE13</a> <a href="/postcode/ne15/" style="color: var(--color-primary);">NE15</a> <a href="/postcode/ne16/" style="color: var(--color-primary);">NE16</a> <a href="/postcode/ne17/" style="color: var(--color-primary);">NE17</a> <a href="/postcode/ne18/" style="color: var(--color-primary);">NE18</a> <a href="/postcode/ne19/" style="color: var(--color-primary);">NE19</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>NG Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ng1/" style="color: var(--color-primary);">NG1</a> <a href="/postcode/ng10/" style="color: var(--color-primary);">NG10</a> <a href="/postcode/ng11/" style="color: var(--color-primary);">NG11</a> <a href="/postcode/ng12/" style="color: var(--color-primary);">NG12</a> <a href="/postcode/ng13/" style="color: var(--color-primary);">NG13</a> <a href="/postcode/ng14/" style="color: var(--color-primary);">NG14</a> <a href="/postcode/ng15/" style="color: var(--color-primary);">NG15</a> <a href="/postcode/ng16/" style="color: var(--color-primary);">NG16</a> <a href="/postcode/ng17/" style="color: var(--color-primary);">NG17</a> <a href="/postcode/ng18/" style="color: var(--color-primary);">NG18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>NN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/nn1/" style="color: var(--color-primary);">NN1</a> <a href="/postcode/nn10/" style="color: var(--color-primary);">NN10</a> <a href="/postcode/nn11/" style="color: var(--color-primary);">NN11</a> <a href="/postcode/nn12/" style="color: var(--color-primary);">NN12</a> <a href="/postcode/nn13/" style="color: var(--color-primary);">NN13</a> <a href="/postcode/nn14/" style="color: var(--color-primary);">NN14</a> <a href="/postcode/nn15/" style="color: var(--color-primary);">NN15</a> <a href="/postcode/nn16/" style="color: var(--color-primary);">NN16</a> <a href="/postcode/nn17/" style="color: var(--color-primary);">NN17</a> <a href="/postcode/nn18/" style="color: var(--color-primary);">NN18</a> <span style="color: var(--muted);">+8 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>NP Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/np10/" style="color: var(--color-primary);">NP10</a> <a href="/postcode/np11/" style="color: var(--color-primary);">NP11</a> <a href="/postcode/np12/" style="color: var(--color-primary);">NP12</a> <a href="/postcode/np13/" style="color: var(--color-primary);">NP13</a> <a href="/postcode/np15/" style="color: var(--color-primary);">NP15</a> <a href="/postcode/np16/" style="color: var(--color-primary);">NP16</a> <a href="/postcode/np18/" style="color: var(--color-primary);">NP18</a> <a href="/postcode/np19/" style="color: var(--color-primary);">NP19</a> <a href="/postcode/np20/" style="color: var(--color-primary);">NP20</a> <a href="/postcode/np22/" style="color: var(--color-primary);">NP22</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>NR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/nr1/" style="color: var(--color-primary);">NR1</a> <a href="/postcode/nr10/" style="color: var(--color-primary);">NR10</a> <a href="/postcode/nr11/" style="color: var(--color-primary);">NR11</a> <a href="/postcode/nr12/" style="color: var(--color-primary);">NR12</a> <a href="/postcode/nr13/" style="color: var(--color-primary);">NR13</a> <a href="/postcode/nr14/" style="color: var(--color-primary);">NR14</a> <a href="/postcode/nr15/" style="color: var(--color-primary);">NR15</a> <a href="/postcode/nr16/" style="color: var(--color-primary);">NR16</a> <a href="/postcode/nr17/" style="color: var(--color-primary);">NR17</a> <a href="/postcode/nr18/" style="color: var(--color-primary);">NR18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>NW Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/nw1/" style="color: var(--color-primary);">NW1</a> <a href="/postcode/nw10/" style="color: var(--color-primary);">NW10</a> <a href="/postcode/nw11/" style="color: var(--color-primary);">NW11</a> <a href="/postcode/nw2/" style="color: var(--color-primary);">NW2</a> <a href="/postcode/nw3/" style="color: var(--color-primary);">NW3</a> <a href="/postcode/nw4/" style="color: var(--color-primary);">NW4</a> <a href="/postcode/nw5/" style="color: var(--color-primary);">NW5</a> <a href="/postcode/nw6/" style="color: var(--color-primary);">NW6</a> <a href="/postcode/nw7/" style="color: var(--color-primary);">NW7</a> <a href="/postcode/nw8/" style="color: var(--color-primary);">NW8</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>OL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ol1/" style="color: var(--color-primary);">OL1</a> <a href="/postcode/ol10/" style="color: var(--color-primary);">OL10</a> <a href="/postcode/ol11/" style="color: var(--color-primary);">OL11</a> <a href="/postcode/ol12/" style="color: var(--color-primary);">OL12</a> <a href="/postcode/ol13/" style="color: var(--color-primary);">OL13</a> <a href="/postcode/ol14/" style="color: var(--color-primary);">OL14</a> <a href="/postcode/ol15/" style="color: var(--color-primary);">OL15</a> <a href="/postcode/ol16/" style="color: var(--color-primary);">OL16</a> <a href="/postcode/ol2/" style="color: var(--color-primary);">OL2</a> <a href="/postcode/ol3/" style="color: var(--color-primary);">OL3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>OX Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ox1/" style="color: var(--color-primary);">OX1</a> <a href="/postcode/ox10/" style="color: var(--color-primary);">OX10</a> <a href="/postcode/ox11/" style="color: var(--color-primary);">OX11</a> <a href="/postcode/ox12/" style="color: var(--color-primary);">OX12</a> <a href="/postcode/ox13/" style="color: var(--color-primary);">OX13</a> <a href="/postcode/ox14/" style="color: var(--color-primary);">OX14</a> <a href="/postcode/ox15/" style="color: var(--color-primary);">OX15</a> <a href="/postcode/ox16/" style="color: var(--color-primary);">OX16</a> <a href="/postcode/ox17/" style="color: var(--color-primary);">OX17</a> <a href="/postcode/ox18/" style="color: var(--color-primary);">OX18</a> <span style="color: var(--muted);">+7 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>PA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/pa1/" style="color: var(--color-primary);">PA1</a> <a href="/postcode/pa10/" style="color: var(--color-primary);">PA10</a> <a href="/postcode/pa11/" style="color: var(--color-primary);">PA11</a> <a href="/postcode/pa12/" style="color: var(--color-primary);">PA12</a> <a href="/postcode/pa13/" style="color: var(--color-primary);">PA13</a> <a href="/postcode/pa14/" style="color: var(--color-primary);">PA14</a> <a href="/postcode/pa15/" style="color: var(--color-primary);">PA15</a> <a href="/postcode/pa16/" style="color: var(--color-primary);">PA16</a> <a href="/postcode/pa17/" style="color: var(--color-primary);">PA17</a> <a href="/postcode/pa18/" style="color: var(--color-primary);">PA18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>PE Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/pe1/" style="color: var(--color-primary);">PE1</a> <a href="/postcode/pe10/" style="color: var(--color-primary);">PE10</a> <a href="/postcode/pe11/" style="color: var(--color-primary);">PE11</a> <a href="/postcode/pe12/" style="color: var(--color-primary);">PE12</a> <a href="/postcode/pe13/" style="color: var(--color-primary);">PE13</a> <a href="/postcode/pe14/" style="color: var(--color-primary);">PE14</a> <a href="/postcode/pe15/" style="color: var(--color-primary);">PE15</a> <a href="/postcode/pe16/" style="color: var(--color-primary);">PE16</a> <a href="/postcode/pe19/" style="color: var(--color-primary);">PE19</a> <a href="/postcode/pe2/" style="color: var(--color-primary);">PE2</a> <span style="color: var(--muted);">+12 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>PH Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ph1/" style="color: var(--color-primary);">PH1</a> <a href="/postcode/ph10/" style="color: var(--color-primary);">PH10</a> <a href="/postcode/ph11/" style="color: var(--color-primary);">PH11</a> <a href="/postcode/ph12/" style="color: var(--color-primary);">PH12</a> <a href="/postcode/ph13/" style="color: var(--color-primary);">PH13</a> <a href="/postcode/ph14/" style="color: var(--color-primary);">PH14</a> <a href="/postcode/ph15/" style="color: var(--color-primary);">PH15</a> <a href="/postcode/ph16/" style="color: var(--color-primary);">PH16</a> <a href="/postcode/ph17/" style="color: var(--color-primary);">PH17</a> <a href="/postcode/ph18/" style="color: var(--color-primary);">PH18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>PL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/pl1/" style="color: var(--color-primary);">PL1</a> <a href="/postcode/pl10/" style="color: var(--color-primary);">PL10</a> <a href="/postcode/pl11/" style="color: var(--color-primary);">PL11</a> <a href="/postcode/pl12/" style="color: var(--color-primary);">PL12</a> <a href="/postcode/pl13/" style="color: var(--color-primary);">PL13</a> <a href="/postcode/pl14/" style="color: var(--color-primary);">PL14</a> <a href="/postcode/pl15/" style="color: var(--color-primary);">PL15</a> <a href="/postcode/pl16/" style="color: var(--color-primary);">PL16</a> <a href="/postcode/pl17/" style="color: var(--color-primary);">PL17</a> <a href="/postcode/pl18/" style="color: var(--color-primary);">PL18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>PO Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/po1/" style="color: var(--color-primary);">PO1</a> <a href="/postcode/po10/" style="color: var(--color-primary);">PO10</a> <a href="/postcode/po11/" style="color: var(--color-primary);">PO11</a> <a href="/postcode/po12/" style="color: var(--color-primary);">PO12</a> <a href="/postcode/po13/" style="color: var(--color-primary);">PO13</a> <a href="/postcode/po14/" style="color: var(--color-primary);">PO14</a> <a href="/postcode/po15/" style="color: var(--color-primary);">PO15</a> <a href="/postcode/po16/" style="color: var(--color-primary);">PO16</a> <a href="/postcode/po17/" style="color: var(--color-primary);">PO17</a> <a href="/postcode/po18/" style="color: var(--color-primary);">PO18</a> <span style="color: var(--muted);">+13 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>PR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/pr1/" style="color: var(--color-primary);">PR1</a> <a href="/postcode/pr11/" style="color: var(--color-primary);">PR11</a> <a href="/postcode/pr2/" style="color: var(--color-primary);">PR2</a> <a href="/postcode/pr3/" style="color: var(--color-primary);">PR3</a> <a href="/postcode/pr4/" style="color: var(--color-primary);">PR4</a> <a href="/postcode/pr5/" style="color: var(--color-primary);">PR5</a> <a href="/postcode/pr6/" style="color: var(--color-primary);">PR6</a> <a href="/postcode/pr7/" style="color: var(--color-primary);">PR7</a> <a href="/postcode/pr8/" style="color: var(--color-primary);">PR8</a> <a href="/postcode/pr9/" style="color: var(--color-primary);">PR9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>RG Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/rg1/" style="color: var(--color-primary);">RG1</a> <a href="/postcode/rg10/" style="color: var(--color-primary);">RG10</a> <a href="/postcode/rg12/" style="color: var(--color-primary);">RG12</a> <a href="/postcode/rg14/" style="color: var(--color-primary);">RG14</a> <a href="/postcode/rg17/" style="color: var(--color-primary);">RG17</a> <a href="/postcode/rg18/" style="color: var(--color-primary);">RG18</a> <a href="/postcode/rg19/" style="color: var(--color-primary);">RG19</a> <a href="/postcode/rg2/" style="color: var(--color-primary);">RG2</a> <a href="/postcode/rg20/" style="color: var(--color-primary);">RG20</a> <a href="/postcode/rg21/" style="color: var(--color-primary);">RG21</a> <span style="color: var(--muted);">+9 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>RH Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/rh1/" style="color: var(--color-primary);">RH1</a> <a href="/postcode/rh10/" style="color: var(--color-primary);">RH10</a> <a href="/postcode/rh11/" style="color: var(--color-primary);">RH11</a> <a href="/postcode/rh12/" style="color: var(--color-primary);">RH12</a> <a href="/postcode/rh13/" style="color: var(--color-primary);">RH13</a> <a href="/postcode/rh14/" style="color: var(--color-primary);">RH14</a> <a href="/postcode/rh15/" style="color: var(--color-primary);">RH15</a> <a href="/postcode/rh16/" style="color: var(--color-primary);">RH16</a> <a href="/postcode/rh17/" style="color: var(--color-primary);">RH17</a> <a href="/postcode/rh18/" style="color: var(--color-primary);">RH18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>RM Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/rm1/" style="color: var(--color-primary);">RM1</a> <a href="/postcode/rm10/" style="color: var(--color-primary);">RM10</a> <a href="/postcode/rm11/" style="color: var(--color-primary);">RM11</a> <a href="/postcode/rm12/" style="color: var(--color-primary);">RM12</a> <a href="/postcode/rm13/" style="color: var(--color-primary);">RM13</a> <a href="/postcode/rm14/" style="color: var(--color-primary);">RM14</a> <a href="/postcode/rm15/" style="color: var(--color-primary);">RM15</a> <a href="/postcode/rm16/" style="color: var(--color-primary);">RM16</a> <a href="/postcode/rm17/" style="color: var(--color-primary);">RM17</a> <a href="/postcode/rm18/" style="color: var(--color-primary);">RM18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>S Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/s1/" style="color: var(--color-primary);">S1</a> <a href="/postcode/s10/" style="color: var(--color-primary);">S10</a> <a href="/postcode/s11/" style="color: var(--color-primary);">S11</a> <a href="/postcode/s12/" style="color: var(--color-primary);">S12</a> <a href="/postcode/s13/" style="color: var(--color-primary);">S13</a> <a href="/postcode/s14/" style="color: var(--color-primary);">S14</a> <a href="/postcode/s17/" style="color: var(--color-primary);">S17</a> <a href="/postcode/s18/" style="color: var(--color-primary);">S18</a> <a href="/postcode/s2/" style="color: var(--color-primary);">S2</a> <a href="/postcode/s20/" style="color: var(--color-primary);">S20</a> <span style="color: var(--muted);">+8 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sa1/" style="color: var(--color-primary);">SA1</a> <a href="/postcode/sa10/" style="color: var(--color-primary);">SA10</a> <a href="/postcode/sa11/" style="color: var(--color-primary);">SA11</a> <a href="/postcode/sa12/" style="color: var(--color-primary);">SA12</a> <a href="/postcode/sa13/" style="color: var(--color-primary);">SA13</a> <a href="/postcode/sa14/" style="color: var(--color-primary);">SA14</a> <a href="/postcode/sa15/" style="color: var(--color-primary);">SA15</a> <a href="/postcode/sa16/" style="color: var(--color-primary);">SA16</a> <a href="/postcode/sa17/" style="color: var(--color-primary);">SA17</a> <a href="/postcode/sa18/" style="color: var(--color-primary);">SA18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SE Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/se1/" style="color: var(--color-primary);">SE1</a> <a href="/postcode/se10/" style="color: var(--color-primary);">SE10</a> <a href="/postcode/se11/" style="color: var(--color-primary);">SE11</a> <a href="/postcode/se12/" style="color: var(--color-primary);">SE12</a> <a href="/postcode/se13/" style="color: var(--color-primary);">SE13</a> <a href="/postcode/se14/" style="color: var(--color-primary);">SE14</a> <a href="/postcode/se15/" style="color: var(--color-primary);">SE15</a> <a href="/postcode/se16/" style="color: var(--color-primary);">SE16</a> <a href="/postcode/se17/" style="color: var(--color-primary);">SE17</a> <a href="/postcode/se18/" style="color: var(--color-primary);">SE18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SG Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sg1/" style="color: var(--color-primary);">SG1</a> <a href="/postcode/sg10/" style="color: var(--color-primary);">SG10</a> <a href="/postcode/sg11/" style="color: var(--color-primary);">SG11</a> <a href="/postcode/sg12/" style="color: var(--color-primary);">SG12</a> <a href="/postcode/sg13/" style="color: var(--color-primary);">SG13</a> <a href="/postcode/sg14/" style="color: var(--color-primary);">SG14</a> <a href="/postcode/sg15/" style="color: var(--color-primary);">SG15</a> <a href="/postcode/sg16/" style="color: var(--color-primary);">SG16</a> <a href="/postcode/sg17/" style="color: var(--color-primary);">SG17</a> <a href="/postcode/sg18/" style="color: var(--color-primary);">SG18</a> <span style="color: var(--muted);">+9 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SK Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sk1/" style="color: var(--color-primary);">SK1</a> <a href="/postcode/sk10/" style="color: var(--color-primary);">SK10</a> <a href="/postcode/sk11/" style="color: var(--color-primary);">SK11</a> <a href="/postcode/sk12/" style="color: var(--color-primary);">SK12</a> <a href="/postcode/sk13/" style="color: var(--color-primary);">SK13</a> <a href="/postcode/sk14/" style="color: var(--color-primary);">SK14</a> <a href="/postcode/sk15/" style="color: var(--color-primary);">SK15</a> <a href="/postcode/sk16/" style="color: var(--color-primary);">SK16</a> <a href="/postcode/sk17/" style="color: var(--color-primary);">SK17</a> <a href="/postcode/sk2/" style="color: var(--color-primary);">SK2</a> <span style="color: var(--muted);">+9 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SL Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sl1/" style="color: var(--color-primary);">SL1</a> <a href="/postcode/sl2/" style="color: var(--color-primary);">SL2</a> <a href="/postcode/sl3/" style="color: var(--color-primary);">SL3</a> <a href="/postcode/sl4/" style="color: var(--color-primary);">SL4</a> <a href="/postcode/sl5/" style="color: var(--color-primary);">SL5</a> <a href="/postcode/sl6/" style="color: var(--color-primary);">SL6</a> <a href="/postcode/sl7/" style="color: var(--color-primary);">SL7</a> <a href="/postcode/sl8/" style="color: var(--color-primary);">SL8</a> <a href="/postcode/sl9/" style="color: var(--color-primary);">SL9</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SM Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sm1/" style="color: var(--color-primary);">SM1</a> <a href="/postcode/sm2/" style="color: var(--color-primary);">SM2</a> <a href="/postcode/sm3/" style="color: var(--color-primary);">SM3</a> <a href="/postcode/sm4/" style="color: var(--color-primary);">SM4</a> <a href="/postcode/sm5/" style="color: var(--color-primary);">SM5</a> <a href="/postcode/sm6/" style="color: var(--color-primary);">SM6</a> <a href="/postcode/sm7/" style="color: var(--color-primary);">SM7</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sn1/" style="color: var(--color-primary);">SN1</a> <a href="/postcode/sn10/" style="color: var(--color-primary);">SN10</a> <a href="/postcode/sn11/" style="color: var(--color-primary);">SN11</a> <a href="/postcode/sn12/" style="color: var(--color-primary);">SN12</a> <a href="/postcode/sn13/" style="color: var(--color-primary);">SN13</a> <a href="/postcode/sn14/" style="color: var(--color-primary);">SN14</a> <a href="/postcode/sn15/" style="color: var(--color-primary);">SN15</a> <a href="/postcode/sn16/" style="color: var(--color-primary);">SN16</a> <a href="/postcode/sn2/" style="color: var(--color-primary);">SN2</a> <a href="/postcode/sn3/" style="color: var(--color-primary);">SN3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SO Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/so14/" style="color: var(--color-primary);">SO14</a> <a href="/postcode/so15/" style="color: var(--color-primary);">SO15</a> <a href="/postcode/so16/" style="color: var(--color-primary);">SO16</a> <a href="/postcode/so17/" style="color: var(--color-primary);">SO17</a> <a href="/postcode/so18/" style="color: var(--color-primary);">SO18</a> <a href="/postcode/so19/" style="color: var(--color-primary);">SO19</a> <a href="/postcode/so20/" style="color: var(--color-primary);">SO20</a> <a href="/postcode/so21/" style="color: var(--color-primary);">SO21</a> <a href="/postcode/so22/" style="color: var(--color-primary);">SO22</a> <a href="/postcode/so23/" style="color: var(--color-primary);">SO23</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SP Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sp1/" style="color: var(--color-primary);">SP1</a> <a href="/postcode/sp10/" style="color: var(--color-primary);">SP10</a> <a href="/postcode/sp11/" style="color: var(--color-primary);">SP11</a> <a href="/postcode/sp2/" style="color: var(--color-primary);">SP2</a> <a href="/postcode/sp3/" style="color: var(--color-primary);">SP3</a> <a href="/postcode/sp4/" style="color: var(--color-primary);">SP4</a> <a href="/postcode/sp5/" style="color: var(--color-primary);">SP5</a> <a href="/postcode/sp6/" style="color: var(--color-primary);">SP6</a> <a href="/postcode/sp7/" style="color: var(--color-primary);">SP7</a> <a href="/postcode/sp8/" style="color: var(--color-primary);">SP8</a> <span style="color: var(--muted);">+1 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sr1/" style="color: var(--color-primary);">SR1</a> <a href="/postcode/sr2/" style="color: var(--color-primary);">SR2</a> <a href="/postcode/sr3/" style="color: var(--color-primary);">SR3</a> <a href="/postcode/sr4/" style="color: var(--color-primary);">SR4</a> <a href="/postcode/sr5/" style="color: var(--color-primary);">SR5</a> <a href="/postcode/sr6/" style="color: var(--color-primary);">SR6</a> <a href="/postcode/sr7/" style="color: var(--color-primary);">SR7</a> <a href="/postcode/sr8/" style="color: var(--color-primary);">SR8</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SS Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ss1/" style="color: var(--color-primary);">SS1</a> <a href="/postcode/ss11/" style="color: var(--color-primary);">SS11</a> <a href="/postcode/ss12/" style="color: var(--color-primary);">SS12</a> <a href="/postcode/ss13/" style="color: var(--color-primary);">SS13</a> <a href="/postcode/ss14/" style="color: var(--color-primary);">SS14</a> <a href="/postcode/ss15/" style="color: var(--color-primary);">SS15</a> <a href="/postcode/ss16/" style="color: var(--color-primary);">SS16</a> <a href="/postcode/ss17/" style="color: var(--color-primary);">SS17</a> <a href="/postcode/ss2/" style="color: var(--color-primary);">SS2</a> <a href="/postcode/ss22/" style="color: var(--color-primary);">SS22</a> <span style="color: var(--muted);">+7 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>ST Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/st1/" style="color: var(--color-primary);">ST1</a> <a href="/postcode/st10/" style="color: var(--color-primary);">ST10</a> <a href="/postcode/st11/" style="color: var(--color-primary);">ST11</a> <a href="/postcode/st12/" style="color: var(--color-primary);">ST12</a> <a href="/postcode/st13/" style="color: var(--color-primary);">ST13</a> <a href="/postcode/st14/" style="color: var(--color-primary);">ST14</a> <a href="/postcode/st15/" style="color: var(--color-primary);">ST15</a> <a href="/postcode/st16/" style="color: var(--color-primary);">ST16</a> <a href="/postcode/st17/" style="color: var(--color-primary);">ST17</a> <a href="/postcode/st18/" style="color: var(--color-primary);">ST18</a> <span style="color: var(--muted);">+11 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SW Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sw10/" style="color: var(--color-primary);">SW10</a> <a href="/postcode/sw11/" style="color: var(--color-primary);">SW11</a> <a href="/postcode/sw12/" style="color: var(--color-primary);">SW12</a> <a href="/postcode/sw13/" style="color: var(--color-primary);">SW13</a> <a href="/postcode/sw14/" style="color: var(--color-primary);">SW14</a> <a href="/postcode/sw15/" style="color: var(--color-primary);">SW15</a> <a href="/postcode/sw16/" style="color: var(--color-primary);">SW16</a> <a href="/postcode/sw17/" style="color: var(--color-primary);">SW17</a> <a href="/postcode/sw18/" style="color: var(--color-primary);">SW18</a> <a href="/postcode/sw19/" style="color: var(--color-primary);">SW19</a> <span style="color: var(--muted);">+9 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>SY Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/sy1/" style="color: var(--color-primary);">SY1</a> <a href="/postcode/sy10/" style="color: var(--color-primary);">SY10</a> <a href="/postcode/sy11/" style="color: var(--color-primary);">SY11</a> <a href="/postcode/sy12/" style="color: var(--color-primary);">SY12</a> <a href="/postcode/sy13/" style="color: var(--color-primary);">SY13</a> <a href="/postcode/sy14/" style="color: var(--color-primary);">SY14</a> <a href="/postcode/sy15/" style="color: var(--color-primary);">SY15</a> <a href="/postcode/sy16/" style="color: var(--color-primary);">SY16</a> <a href="/postcode/sy17/" style="color: var(--color-primary);">SY17</a> <a href="/postcode/sy18/" style="color: var(--color-primary);">SY18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ta1/" style="color: var(--color-primary);">TA1</a> <a href="/postcode/ta10/" style="color: var(--color-primary);">TA10</a> <a href="/postcode/ta11/" style="color: var(--color-primary);">TA11</a> <a href="/postcode/ta12/" style="color: var(--color-primary);">TA12</a> <a href="/postcode/ta13/" style="color: var(--color-primary);">TA13</a> <a href="/postcode/ta14/" style="color: var(--color-primary);">TA14</a> <a href="/postcode/ta15/" style="color: var(--color-primary);">TA15</a> <a href="/postcode/ta16/" style="color: var(--color-primary);">TA16</a> <a href="/postcode/ta17/" style="color: var(--color-primary);">TA17</a> <a href="/postcode/ta18/" style="color: var(--color-primary);">TA18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TD Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/td1/" style="color: var(--color-primary);">TD1</a> <a href="/postcode/td10/" style="color: var(--color-primary);">TD10</a> <a href="/postcode/td11/" style="color: var(--color-primary);">TD11</a> <a href="/postcode/td12/" style="color: var(--color-primary);">TD12</a> <a href="/postcode/td13/" style="color: var(--color-primary);">TD13</a> <a href="/postcode/td14/" style="color: var(--color-primary);">TD14</a> <a href="/postcode/td15/" style="color: var(--color-primary);">TD15</a> <a href="/postcode/td2/" style="color: var(--color-primary);">TD2</a> <a href="/postcode/td3/" style="color: var(--color-primary);">TD3</a> <a href="/postcode/td4/" style="color: var(--color-primary);">TD4</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TF Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/tf1/" style="color: var(--color-primary);">TF1</a> <a href="/postcode/tf10/" style="color: var(--color-primary);">TF10</a> <a href="/postcode/tf11/" style="color: var(--color-primary);">TF11</a> <a href="/postcode/tf12/" style="color: var(--color-primary);">TF12</a> <a href="/postcode/tf13/" style="color: var(--color-primary);">TF13</a> <a href="/postcode/tf2/" style="color: var(--color-primary);">TF2</a> <a href="/postcode/tf3/" style="color: var(--color-primary);">TF3</a> <a href="/postcode/tf4/" style="color: var(--color-primary);">TF4</a> <a href="/postcode/tf5/" style="color: var(--color-primary);">TF5</a> <a href="/postcode/tf6/" style="color: var(--color-primary);">TF6</a> <span style="color: var(--muted);">+3 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/tn1/" style="color: var(--color-primary);">TN1</a> <a href="/postcode/tn10/" style="color: var(--color-primary);">TN10</a> <a href="/postcode/tn11/" style="color: var(--color-primary);">TN11</a> <a href="/postcode/tn12/" style="color: var(--color-primary);">TN12</a> <a href="/postcode/tn13/" style="color: var(--color-primary);">TN13</a> <a href="/postcode/tn14/" style="color: var(--color-primary);">TN14</a> <a href="/postcode/tn15/" style="color: var(--color-primary);">TN15</a> <a href="/postcode/tn16/" style="color: var(--color-primary);">TN16</a> <a href="/postcode/tn17/" style="color: var(--color-primary);">TN17</a> <a href="/postcode/tn18/" style="color: var(--color-primary);">TN18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TQ Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/tq1/" style="color: var(--color-primary);">TQ1</a> <a href="/postcode/tq10/" style="color: var(--color-primary);">TQ10</a> <a href="/postcode/tq11/" style="color: var(--color-primary);">TQ11</a> <a href="/postcode/tq12/" style="color: var(--color-primary);">TQ12</a> <a href="/postcode/tq13/" style="color: var(--color-primary);">TQ13</a> <a href="/postcode/tq14/" style="color: var(--color-primary);">TQ14</a> <a href="/postcode/tq2/" style="color: var(--color-primary);">TQ2</a> <a href="/postcode/tq3/" style="color: var(--color-primary);">TQ3</a> <a href="/postcode/tq4/" style="color: var(--color-primary);">TQ4</a> <a href="/postcode/tq5/" style="color: var(--color-primary);">TQ5</a> <span style="color: var(--muted);">+4 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/tr1/" style="color: var(--color-primary);">TR1</a> <a href="/postcode/tr10/" style="color: var(--color-primary);">TR10</a> <a href="/postcode/tr11/" style="color: var(--color-primary);">TR11</a> <a href="/postcode/tr12/" style="color: var(--color-primary);">TR12</a> <a href="/postcode/tr13/" style="color: var(--color-primary);">TR13</a> <a href="/postcode/tr14/" style="color: var(--color-primary);">TR14</a> <a href="/postcode/tr15/" style="color: var(--color-primary);">TR15</a> <a href="/postcode/tr16/" style="color: var(--color-primary);">TR16</a> <a href="/postcode/tr17/" style="color: var(--color-primary);">TR17</a> <a href="/postcode/tr18/" style="color: var(--color-primary);">TR18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TS Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ts1/" style="color: var(--color-primary);">TS1</a> <a href="/postcode/ts10/" style="color: var(--color-primary);">TS10</a> <a href="/postcode/ts11/" style="color: var(--color-primary);">TS11</a> <a href="/postcode/ts12/" style="color: var(--color-primary);">TS12</a> <a href="/postcode/ts13/" style="color: var(--color-primary);">TS13</a> <a href="/postcode/ts14/" style="color: var(--color-primary);">TS14</a> <a href="/postcode/ts15/" style="color: var(--color-primary);">TS15</a> <a href="/postcode/ts16/" style="color: var(--color-primary);">TS16</a> <a href="/postcode/ts17/" style="color: var(--color-primary);">TS17</a> <a href="/postcode/ts18/" style="color: var(--color-primary);">TS18</a> <span style="color: var(--muted);">+14 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>TW Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/tw1/" style="color: var(--color-primary);">TW1</a> <a href="/postcode/tw10/" style="color: var(--color-primary);">TW10</a> <a href="/postcode/tw11/" style="color: var(--color-primary);">TW11</a> <a href="/postcode/tw12/" style="color: var(--color-primary);">TW12</a> <a href="/postcode/tw13/" style="color: var(--color-primary);">TW13</a> <a href="/postcode/tw14/" style="color: var(--color-primary);">TW14</a> <a href="/postcode/tw15/" style="color: var(--color-primary);">TW15</a> <a href="/postcode/tw16/" style="color: var(--color-primary);">TW16</a> <a href="/postcode/tw17/" style="color: var(--color-primary);">TW17</a> <a href="/postcode/tw18/" style="color: var(--color-primary);">TW18</a> <span style="color: var(--muted);">+10 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>UB Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ub1/" style="color: var(--color-primary);">UB1</a> <a href="/postcode/ub10/" style="color: var(--color-primary);">UB10</a> <a href="/postcode/ub11/" style="color: var(--color-primary);">UB11</a> <a href="/postcode/ub18/" style="color: var(--color-primary);">UB18</a> <a href="/postcode/ub2/" style="color: var(--color-primary);">UB2</a> <a href="/postcode/ub3/" style="color: var(--color-primary);">UB3</a> <a href="/postcode/ub4/" style="color: var(--color-primary);">UB4</a> <a href="/postcode/ub5/" style="color: var(--color-primary);">UB5</a> <a href="/postcode/ub6/" style="color: var(--color-primary);">UB6</a> <a href="/postcode/ub7/" style="color: var(--color-primary);">UB7</a> <span style="color: var(--muted);">+2 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>W Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/w10/" style="color: var(--color-primary);">W10</a> <a href="/postcode/w11/" style="color: var(--color-primary);">W11</a> <a href="/postcode/w12/" style="color: var(--color-primary);">W12</a> <a href="/postcode/w13/" style="color: var(--color-primary);">W13</a> <a href="/postcode/w14/" style="color: var(--color-primary);">W14</a> <a href="/postcode/w2/" style="color: var(--color-primary);">W2</a> <a href="/postcode/w3/" style="color: var(--color-primary);">W3</a> <a href="/postcode/w4/" style="color: var(--color-primary);">W4</a> <a href="/postcode/w5/" style="color: var(--color-primary);">W5</a> <a href="/postcode/w6/" style="color: var(--color-primary);">W6</a> <span style="color: var(--muted);">+3 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WA Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/wa1/" style="color: var(--color-primary);">WA1</a> <a href="/postcode/wa10/" style="color: var(--color-primary);">WA10</a> <a href="/postcode/wa11/" style="color: var(--color-primary);">WA11</a> <a href="/postcode/wa12/" style="color: var(--color-primary);">WA12</a> <a href="/postcode/wa13/" style="color: var(--color-primary);">WA13</a> <a href="/postcode/wa14/" style="color: var(--color-primary);">WA14</a> <a href="/postcode/wa15/" style="color: var(--color-primary);">WA15</a> <a href="/postcode/wa16/" style="color: var(--color-primary);">WA16</a> <a href="/postcode/wa2/" style="color: var(--color-primary);">WA2</a> <a href="/postcode/wa3/" style="color: var(--color-primary);">WA3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WD Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/wd17/" style="color: var(--color-primary);">WD17</a> <a href="/postcode/wd18/" style="color: var(--color-primary);">WD18</a> <a href="/postcode/wd19/" style="color: var(--color-primary);">WD19</a> <a href="/postcode/wd23/" style="color: var(--color-primary);">WD23</a> <a href="/postcode/wd24/" style="color: var(--color-primary);">WD24</a> <a href="/postcode/wd3/" style="color: var(--color-primary);">WD3</a> <a href="/postcode/wd4/" style="color: var(--color-primary);">WD4</a> <a href="/postcode/wd5/" style="color: var(--color-primary);">WD5</a> <a href="/postcode/wd6/" style="color: var(--color-primary);">WD6</a> <a href="/postcode/wd7/" style="color: var(--color-primary);">WD7</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WF Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/wf1/" style="color: var(--color-primary);">WF1</a> <a href="/postcode/wf10/" style="color: var(--color-primary);">WF10</a> <a href="/postcode/wf11/" style="color: var(--color-primary);">WF11</a> <a href="/postcode/wf12/" style="color: var(--color-primary);">WF12</a> <a href="/postcode/wf13/" style="color: var(--color-primary);">WF13</a> <a href="/postcode/wf14/" style="color: var(--color-primary);">WF14</a> <a href="/postcode/wf15/" style="color: var(--color-primary);">WF15</a> <a href="/postcode/wf16/" style="color: var(--color-primary);">WF16</a> <a href="/postcode/wf17/" style="color: var(--color-primary);">WF17</a> <a href="/postcode/wf2/" style="color: var(--color-primary);">WF2</a> <span style="color: var(--muted);">+7 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WN Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/wn1/" style="color: var(--color-primary);">WN1</a> <a href="/postcode/wn2/" style="color: var(--color-primary);">WN2</a> <a href="/postcode/wn3/" style="color: var(--color-primary);">WN3</a> <a href="/postcode/wn4/" style="color: var(--color-primary);">WN4</a> <a href="/postcode/wn5/" style="color: var(--color-primary);">WN5</a> <a href="/postcode/wn6/" style="color: var(--color-primary);">WN6</a> <a href="/postcode/wn7/" style="color: var(--color-primary);">WN7</a> <a href="/postcode/wn8/" style="color: var(--color-primary);">WN8</a> 
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WR Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/wr1/" style="color: var(--color-primary);">WR1</a> <a href="/postcode/wr10/" style="color: var(--color-primary);">WR10</a> <a href="/postcode/wr11/" style="color: var(--color-primary);">WR11</a> <a href="/postcode/wr12/" style="color: var(--color-primary);">WR12</a> <a href="/postcode/wr13/" style="color: var(--color-primary);">WR13</a> <a href="/postcode/wr14/" style="color: var(--color-primary);">WR14</a> <a href="/postcode/wr15/" style="color: var(--color-primary);">WR15</a> <a href="/postcode/wr2/" style="color: var(--color-primary);">WR2</a> <a href="/postcode/wr3/" style="color: var(--color-primary);">WR3</a> <a href="/postcode/wr4/" style="color: var(--color-primary);">WR4</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WS Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ws1/" style="color: var(--color-primary);">WS1</a> <a href="/postcode/ws10/" style="color: var(--color-primary);">WS10</a> <a href="/postcode/ws11/" style="color: var(--color-primary);">WS11</a> <a href="/postcode/ws12/" style="color: var(--color-primary);">WS12</a> <a href="/postcode/ws13/" style="color: var(--color-primary);">WS13</a> <a href="/postcode/ws14/" style="color: var(--color-primary);">WS14</a> <a href="/postcode/ws15/" style="color: var(--color-primary);">WS15</a> <a href="/postcode/ws2/" style="color: var(--color-primary);">WS2</a> <a href="/postcode/ws3/" style="color: var(--color-primary);">WS3</a> <a href="/postcode/ws4/" style="color: var(--color-primary);">WS4</a> <span style="color: var(--muted);">+5 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>WV Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/wv1/" style="color: var(--color-primary);">WV1</a> <a href="/postcode/wv10/" style="color: var(--color-primary);">WV10</a> <a href="/postcode/wv11/" style="color: var(--color-primary);">WV11</a> <a href="/postcode/wv12/" style="color: var(--color-primary);">WV12</a> <a href="/postcode/wv13/" style="color: var(--color-primary);">WV13</a> <a href="/postcode/wv14/" style="color: var(--color-primary);">WV14</a> <a href="/postcode/wv15/" style="color: var(--color-primary);">WV15</a> <a href="/postcode/wv16/" style="color: var(--color-primary);">WV16</a> <a href="/postcode/wv2/" style="color: var(--color-primary);">WV2</a> <a href="/postcode/wv3/" style="color: var(--color-primary);">WV3</a> <span style="color: var(--muted);">+6 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>YO Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/yo1/" style="color: var(--color-primary);">YO1</a> <a href="/postcode/yo10/" style="color: var(--color-primary);">YO10</a> <a href="/postcode/yo11/" style="color: var(--color-primary);">YO11</a> <a href="/postcode/yo12/" style="color: var(--color-primary);">YO12</a> <a href="/postcode/yo13/" style="color: var(--color-primary);">YO13</a> <a href="/postcode/yo14/" style="color: var(--color-primary);">YO14</a> <a href="/postcode/yo15/" style="color: var(--color-primary);">YO15</a> <a href="/postcode/yo16/" style="color: var(--color-primary);">YO16</a> <a href="/postcode/yo17/" style="color: var(--color-primary);">YO17</a> <a href="/postcode/yo18/" style="color: var(--color-primary);">YO18</a> <span style="color: var(--muted);">+7 more</span>
+                        </div>
+                    </div>
+
+                    <div class="force-card">
+                        <h3>ZE Area</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2);">
+<a href="/postcode/ze1/" style="color: var(--color-primary);">ZE1</a> <a href="/postcode/ze2/" style="color: var(--color-primary);">ZE2</a> <a href="/postcode/ze3/" style="color: var(--color-primary);">ZE3</a> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/postcode_lookup.js"></script>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Data from <a href="https://data.police.uk">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
