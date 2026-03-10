@@ -112,7 +112,7 @@ def generate_comparison_page(nb1, nb2):
         <section style="padding: var(--space-6) 0;">
             <div class="container">
                 <h1 style="font-size: var(--text-2xl);">{name1} vs {name2}</h1>
-                <p style="color: var(--muted);">London crime comparison • Q1 2026</p>
+                <p style="color: var(--muted);">London crime comparison • January 2026</p>
                 
                 <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-4); border-radius: var(--radius-md); margin: var(--space-4) 0;">
                     <div style="font-size: var(--text-sm);">{"🏆 Safer Neighbourhood" if winner != "Tie" else "⚖️ Equal Safety"}</div>
@@ -145,7 +145,7 @@ def generate_comparison_page(nb1, nb2):
                     </p>
                     <p style="color: var(--muted);">
                         {f"The {score_diff}-point difference indicates {winner} has noticeably lower crime rates." if score_diff >= 10 else f"The {score_diff}-point difference suggests similar crime levels in both areas." if score_diff > 0 else "Both neighbourhoods have identical crime profiles."}
-                        These scores are based on official Metropolitan Police crime data from Q1 2026.
+                        These scores are based on official Metropolitan Police crime data from January 2026.
                     </p>
                 </div>
                 
