@@ -183235,6 +183235,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://crimesafe.uk/compare/city/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://crimesafe.uk/compare/eltham-town-and-avery-hill-vs-hackney-downs/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -269990,12 +269996,6 @@
   </url>
   <url>
     <loc>https://crimesafe.uk/compare/chingford-green-vs-east-barnet/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/compare/fortune-green-vs-hounslow-west/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
