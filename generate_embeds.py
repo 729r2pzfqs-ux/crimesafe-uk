@@ -37,7 +37,7 @@ def get_grade(score):
 
 # Generate embed pages for top neighbourhoods
 count = 0
-for r in rankings[:1000]:  # Top 1000 for now
+for r in rankings:  # All neighbourhoods
     slug = r['nb_slug']
     name = r.get('name', slug.replace('-', ' ').title())
     score = r.get('score', 50)
@@ -146,6 +146,8 @@ for r in rankings[:1000]:  # Top 1000 for now
             <a href="https://crimesafe.uk/neighbourhood/{force_slug}/{slug}/" target="_blank" class="powered">CrimeSafe UK</a>
         </div>
     </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');gtag('event','embed_view',{{'neighbourhood':'{slug}','referrer':document.referrer}});</script>
 </body>
 </html>'''
     
