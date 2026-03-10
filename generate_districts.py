@@ -14,7 +14,7 @@ def slugify(text):
     text = text.lower()
     text = re.sub(r'[^a-z0-9\s-]', '', text)
     text = re.sub(r'[\s_]+', '-', text)
-    text = re.sub(r'-+', '-', text)
+    # Don't collapse multiple dashes - they come from " - " in names
     return text.strip('-')
 
 def get_header(title, description):
