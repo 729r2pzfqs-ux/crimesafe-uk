@@ -72,7 +72,13 @@ def get_footer():
 </html>
 '''
 
-def generate_district_page(district):
+def get_score_class(score):
+    if score is None: return 'score-na'
+    if score >= 60: return 'score-green'
+    if score >= 40: return 'score-amber'
+    return 'score-red'
+
+def generate_district_page(district, rankings_lookup):
     """Generate a district detail page"""
     district_name = district['district'].title()
     force_name = district['force']
@@ -109,9 +115,19 @@ def generate_district_page(district):
     
     for nb in sorted(neighbourhoods, key=lambda n: n['name']):
         nb_slug = slugify(nb['name'])
+        # Look up score
+        key = f"{force_slug}_{nb_slug}"
+        ranking = rankings_lookup.get(key, {})
+        score = ranking.get('score')
+        score_class = get_score_class(score)
+        score_display = score if score is not None else '—'
+        
         html += f'''
                     <a href="/neighbourhood/{force_slug}/{nb_slug}/" class="force-card">
-                        <h3>{nb['name']}</h3>
+                        <div class="card-header">
+                            <h3>{nb['name']}</h3>
+                            <span class="score-badge {score_class}">{score_display}</span>
+                        </div>
                         <div class="meta">{district_name}</div>
                     </a>
 '''
@@ -175,6 +191,18 @@ def main():
     
     print(f"Loaded {len(districts)} districts")
     
+    # Load rankings for scores
+    print("Loading rankings...")
+    with open(f"{DATA_DIR}/rankings.json") as f:
+        rankings = json.load(f)
+    
+    # Build lookup by force_slug + nb_slug
+    rankings_lookup = {}
+    for r in rankings:
+        key = f"{r.get('force_slug', '')}_{r.get('nb_slug', '')}"
+        rankings_lookup[key] = r
+    print(f"Loaded {len(rankings_lookup)} neighbourhood scores")
+    
     # Generate districts index
     print("Generating districts index...")
     os.makedirs(f"{OUTPUT_DIR}/districts", exist_ok=True)
@@ -187,7 +215,7 @@ def main():
         district_slug = slugify(d['district'])
         os.makedirs(f"{OUTPUT_DIR}/district/{district_slug}", exist_ok=True)
         with open(f"{OUTPUT_DIR}/district/{district_slug}/index.html", 'w') as f:
-            f.write(generate_district_page(d))
+            f.write(generate_district_page(d, rankings_lookup))
     
     print(f"\n{'='*50}")
     print(f"Generated {len(districts) + 1} pages")

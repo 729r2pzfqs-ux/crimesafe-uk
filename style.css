@@ -262,9 +262,24 @@ a:hover { color: var(--color-primary-hover); }
   border-radius: var(--radius-full); font-weight: 600; font-size: var(--text-xs);
   margin-top: var(--space-2);
 }
-.score-safe { background: var(--color-success); color: white; }
-.score-moderate { background: var(--color-warning); color: white; }
-.score-unsafe { background: var(--color-error); color: white; }
+.score-safe, .score-green { background: var(--color-success); color: white; }
+.score-moderate, .score-amber { background: var(--color-warning); color: white; }
+.score-unsafe, .score-red { background: var(--color-error); color: white; }
+.score-na { background: var(--color-surface-alt); color: var(--color-text-muted); }
+
+/* Card header with score */
+.force-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+.force-card .card-header h3 { flex: 1; }
+.force-card .card-header .score-badge { 
+  margin-top: 0; 
+  min-width: 36px; 
+  text-align: center;
+}
 
 /* ===== BREADCRUMB ===== */
 .breadcrumb {
