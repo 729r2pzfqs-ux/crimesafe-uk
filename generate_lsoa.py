@@ -3,7 +3,6 @@
 
 import csv
 import json
-import os
 import re
 from pathlib import Path
 
@@ -22,7 +21,6 @@ def load_force_data():
     """Load force names and create ID to name mapping."""
     with open('data/forces.json', 'r') as f:
         data = json.load(f)
-        # Map force ID to force name
         return {f['id']: f['name'] for f in data['forces']}
 
 def generate_lsoa_page(lsoa_code, lsoa_name, la_name, force_id, force_name, welsh_name=None):
@@ -30,12 +28,11 @@ def generate_lsoa_page(lsoa_code, lsoa_name, la_name, force_id, force_name, wels
     
     la_slug = slugify(la_name)
     lsoa_slug = slugify(lsoa_name)
-    force_slug = slugify(force_name)  # Use force NAME slug, not ID
+    force_slug = slugify(force_name)
     
-    # Welsh name if available
     welsh_section = ""
     if welsh_name:
-        welsh_section = f'<p style="color: var(--text-muted); margin-top: 0.5rem;"><em>Welsh: {welsh_name}</em></p>'
+        welsh_section = f'<p class="welsh-name">Welsh: <em>{welsh_name}</em></p>'
     
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -48,15 +45,7 @@ def generate_lsoa_page(lsoa_code, lsoa_name, la_name, force_id, force_name, wels
     <title>{lsoa_name} Crime Statistics | CrimeSafe UK</title>
     <meta name="description" content="View crime statistics and safety information for {lsoa_name} ({lsoa_code}) in {la_name}. Part of {force_name} police area.">
     <link rel="canonical" href="https://crimesafe.uk/lsoa/{lsoa_slug}/">
-    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <meta name="theme-color" content="#01696F">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <meta property="og:title" content="{lsoa_name} Crime Statistics">
     <meta property="og:description" content="Crime data for {lsoa_name} in {la_name}, {force_name} area.">
     <meta property="og:type" content="website">
@@ -73,113 +62,208 @@ def generate_lsoa_page(lsoa_code, lsoa_name, la_name, force_id, force_name, wels
         }}
     }}
     </script>
+    <style>
+        :root {{
+            --primary: #01696F;
+            --accent: #2ecc71;
+            --danger: #e74c3c;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #1a1a1a;
+            --text-muted: #666;
+            --border: #e5e5e5;
+        }}
+        * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }}
+        header {{
+            background: var(--primary);
+            color: white;
+            padding: 1rem;
+        }}
+        header .container {{
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }}
+        .logo {{
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }}
+        .logo svg {{ width: 28px; height: 28px; }}
+        nav a {{
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }}
+        nav a:hover {{ opacity: 1; }}
+        .breadcrumb {{
+            background: white;
+            padding: 0.75rem 1rem;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--border);
+        }}
+        .breadcrumb .container {{
+            max-width: 1200px;
+            margin: 0 auto;
+        }}
+        .breadcrumb a {{ color: var(--primary); text-decoration: none; }}
+        .breadcrumb a:hover {{ text-decoration: underline; }}
+        main {{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }}
+        h1 {{
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }}
+        .lsoa-code {{
+            font-family: monospace;
+            background: #eee;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }}
+        .welsh-name {{
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-top: 0.25rem;
+        }}
+        .info-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }}
+        .card {{
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid var(--border);
+        }}
+        .card h2 {{
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--primary);
+        }}
+        .card ul {{ list-style: none; }}
+        .card li {{
+            padding: 0.6rem 0;
+            border-bottom: 1px solid var(--border);
+        }}
+        .card li:last-child {{ border-bottom: none; }}
+        .card a {{ color: var(--primary); text-decoration: none; }}
+        .card a:hover {{ text-decoration: underline; }}
+        .card p {{ color: var(--text-muted); }}
+        .placeholder {{
+            background: var(--bg);
+            border: 2px dashed var(--border);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-muted);
+            border-radius: 8px;
+        }}
+        footer {{
+            background: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            text-align: center;
+        }}
+        footer a {{ color: #7dd3fc; }}
+        footer p {{ opacity: 0.9; }}
+        @media (max-width: 600px) {{
+            header .container {{ flex-direction: column; gap: 1rem; }}
+            nav a {{ margin: 0 0.75rem; }}
+        }}
+    </style>
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-inner">
-            <a href="/" class="nav-logo">
-                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
-  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
-  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
-</svg>
-                <span>CrimeSafe UK</span>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.15"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="310" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="150" fill="currentColor">UK</text>
+                </svg>
+                CrimeSafe UK
             </a>
-            <div class="nav-links">
+            <nav>
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/districts/">Districts</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
-                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
-            </div>
+            </nav>
         </div>
-    </nav>
-
-    <main>
+    </header>
+    
+    <div class="breadcrumb">
         <div class="container">
-            <div class="breadcrumb">
-                <a href="/">Home</a> › 
-                <a href="/force/{force_slug}/">{force_name}</a> › 
-                <a href="/district/{la_slug}/">{la_name}</a> › 
-                {lsoa_name}
+            <a href="/">Home</a> &rsaquo;
+            <a href="/force/{force_slug}/">{force_name}</a> &rsaquo;
+            <a href="/district/{la_slug}/">{la_name}</a> &rsaquo;
+            <span>{lsoa_name}</span>
+        </div>
+    </div>
+    
+    <main>
+        <h1>{lsoa_name}</h1>
+        <p><span class="lsoa-code">{lsoa_code}</span></p>
+        {welsh_section}
+        
+        <div class="info-grid">
+            <div class="card">
+                <h2>📍 Location</h2>
+                <ul>
+                    <li><strong>Local Authority:</strong> <a href="/district/{la_slug}/">{la_name}</a></li>
+                    <li><strong>Police Force:</strong> <a href="/force/{force_slug}/">{force_name}</a></li>
+                    <li><strong>LSOA Code:</strong> {lsoa_code}</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>ℹ️ About LSOAs</h2>
+                <p>Lower Layer Super Output Areas (LSOAs) are small geographic areas used for statistical reporting in England and Wales.</p>
+                <p style="margin-top: 0.75rem;">Each LSOA contains approximately <strong>1,500 residents</strong> or <strong>650 households</strong>.</p>
             </div>
         </div>
         
-        <section class="hero" style="padding: var(--space-8) 0;">
-            <div class="container">
-                <h1>{lsoa_name}</h1>
-                <p class="hero-sub"><code style="background: var(--card-bg); padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.9rem;">{lsoa_code}</code></p>
-                {welsh_section}
+        <div class="card" style="margin-top: 1.5rem;">
+            <h2>📊 Crime Data</h2>
+            <div class="placeholder">
+                <p>Detailed crime statistics for this area coming soon.</p>
+                <p style="margin-top: 0.5rem;">View <a href="/force/{force_slug}/">{force_name}</a> for area-wide statistics.</p>
             </div>
-        </section>
-        
-        <section>
-            <div class="container">
-                <div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
-                    <div class="stat-card">
-                        <h3>Location</h3>
-                        <ul style="list-style: none; padding: 0; margin: 0;">
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--border);">
-                                <strong>Local Authority:</strong><br>
-                                <a href="/district/{la_slug}/" style="color: var(--primary);">{la_name}</a>
-                            </li>
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--border);">
-                                <strong>Police Force:</strong><br>
-                                <a href="/force/{force_slug}/" style="color: var(--primary);">{force_name}</a>
-                            </li>
-                            <li style="padding: 0.75rem 0;">
-                                <strong>LSOA Code:</strong><br>
-                                {lsoa_code}
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="stat-card">
-                        <h3>About LSOAs</h3>
-                        <p>Lower Layer Super Output Areas (LSOAs) are small geographic areas used for statistical reporting in England and Wales.</p>
-                        <p style="margin-top: 1rem;">Each LSOA contains approximately <strong>1,500 residents</strong> or <strong>650 households</strong>, making them ideal for detailed local analysis.</p>
-                    </div>
-                </div>
-                
-                <div class="stat-card" style="margin-top: var(--space-6);">
-                    <h3>Crime Data</h3>
-                    <div style="background: var(--bg); border: 2px dashed var(--border); padding: 2rem; text-align: center; border-radius: 8px; color: var(--text-muted);">
-                        <p style="margin: 0;">Detailed crime statistics for this LSOA coming soon.</p>
-                        <p style="margin-top: 0.5rem;">
-                            View <a href="/force/{force_slug}/" style="color: var(--primary);">{force_name}</a> for area-wide statistics.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
     
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 CrimeSafe UK. Data from <a href="https://data.police.uk">data.police.uk</a> (Open Government Licence)</p>
-            <p style="margin-top: 0.5rem;">
-                <a href="/about/">About</a> · 
-                <a href="/privacy/">Privacy</a>
-            </p>
-        </div>
+    <footer>
+        <p>&copy; 2026 CrimeSafe UK. Data from <a href="https://data.police.uk">data.police.uk</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+            <a href="/about/">About</a> · <a href="/privacy/">Privacy</a>
+        </p>
     </footer>
-    
-    <script>
-        const toggle = document.getElementById('themeToggle');
-        const html = document.documentElement;
-        const stored = localStorage.getItem('theme');
-        if (stored) html.setAttribute('data-theme', stored);
-        else if (window.matchMedia('(prefers-color-scheme: dark)').matches) html.setAttribute('data-theme', 'dark');
-        toggle.textContent = html.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
-        toggle.addEventListener('click', () => {{
-            const current = html.getAttribute('data-theme');
-            const next = current === 'dark' ? 'light' : 'dark';
-            html.setAttribute('data-theme', next);
-            localStorage.setItem('theme', next);
-            toggle.textContent = next === 'dark' ? '☀️' : '🌙';
-        }});
-    </script>
 </body>
 </html>'''
     
@@ -188,20 +272,13 @@ def generate_lsoa_page(lsoa_code, lsoa_name, la_name, force_id, force_name, wels
 def main():
     """Generate all LSOA pages."""
     
-    # Load mappings
     la_to_force = load_la_to_force_mapping()
     force_names = load_force_data()
-    
-    # Create output directory
     output_dir = Path('lsoa')
     output_dir.mkdir(exist_ok=True)
     
-    # Stats
     generated = 0
-    skipped = 0
-    unmapped_las = set()
     
-    # Read LSOA data
     with open('data/lsoa_2021.csv', 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         
@@ -210,24 +287,16 @@ def main():
             lsoa_name = row['LSOA21NM']
             welsh_name = row.get('LSOA21NMW', '').strip() or None
             
-            # Extract LA name from LSOA name
             parts = lsoa_name.rsplit(' ', 1)
             if len(parts) != 2:
-                skipped += 1
                 continue
             
             la_name = parts[0]
-            
-            # Get force ID
             force_id = la_to_force.get(la_name)
             if not force_id or force_id == '_comment':
-                unmapped_las.add(la_name)
-                skipped += 1
                 continue
             
             force_name = force_names.get(force_id, force_id.replace('-', ' ').title())
-            
-            # Generate slug and page
             lsoa_slug = slugify(lsoa_name)
             page_dir = output_dir / lsoa_slug
             page_dir.mkdir(exist_ok=True)
@@ -238,19 +307,10 @@ def main():
                 out.write(html)
             
             generated += 1
-            
             if generated % 5000 == 0:
                 print(f"Generated {generated} pages...")
     
     print(f"\n✅ Generated {generated} LSOA pages")
-    print(f"⏭️  Skipped {skipped} (unmapped LAs)")
-    
-    if unmapped_las:
-        print(f"\n⚠️  {len(unmapped_las)} unmapped Local Authorities:")
-        for la in sorted(unmapped_las)[:20]:
-            print(f"   - {la}")
-        if len(unmapped_las) > 20:
-            print(f"   ... and {len(unmapped_las) - 20} more")
 
 if __name__ == '__main__':
     main()
