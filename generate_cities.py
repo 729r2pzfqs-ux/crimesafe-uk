@@ -18,12 +18,11 @@ CITIES = {
     "newcastle": {"name": "Newcastle", "force": "northumbria", "force_name": "Northumbria Police"},
     "nottingham": {"name": "Nottingham", "force": "nottinghamshire", "force_name": "Nottinghamshire Police"},
     "cardiff": {"name": "Cardiff", "force": "south-wales", "force_name": "South Wales Police"},
-    "edinburgh": {"name": "Edinburgh", "force": "police-scotland", "force_name": "Police Scotland"},
-    "glasgow": {"name": "Glasgow", "force": "police-scotland", "force_name": "Police Scotland"},
+    # Note: Edinburgh/Glasgow removed - Police Scotland doesn't use data.police.uk
     "leicester": {"name": "Leicester", "force": "leicestershire", "force_name": "Leicestershire Police"},
     "coventry": {"name": "Coventry", "force": "west-midlands", "force_name": "West Midlands Police"},
     "bradford": {"name": "Bradford", "force": "west-yorkshire", "force_name": "West Yorkshire Police"},
-    "belfast": {"name": "Belfast", "force": "police-service-of-northern-ireland", "force_name": "Police Service of Northern Ireland"},
+    # Note: Belfast removed - PSNI uses district names (Strandtown, etc.) not "Belfast"
     "brighton": {"name": "Brighton", "force": "sussex", "force_name": "Sussex Police"},
     "hull": {"name": "Hull", "force": "humberside", "force_name": "Humberside Police"},
     "plymouth": {"name": "Plymouth", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police"},
