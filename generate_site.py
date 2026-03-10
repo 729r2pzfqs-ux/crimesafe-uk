@@ -202,6 +202,16 @@ def generate_homepage(forces_data):
                         <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Highest Crime Areas</div>
                         <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Top 100 highest crime neighbourhoods</div>
                     </a>
+                    <a href="/postcode/" class="kpi-card" style="text-decoration: none; text-align: center; padding: var(--space-6);">
+                        <div style="margin-bottom: var(--space-2);">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Postcode Lookup</div>
+                        <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Find crime statistics by UK postcode</div>
+                    </a>
                 </div>
             </div>
         </section>
