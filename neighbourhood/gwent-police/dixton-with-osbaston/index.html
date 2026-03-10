@@ -8,10 +8,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>Dixton with Osbaston Crime Rate & Safety — CrimeSafe UK</title>
-    <meta name="description" content="Crime statistics for Dixton with Osbaston">
+    <meta name="description" content="Crime statistics and safety score for Dixton with Osbaston in Gwent Police. Safety Score: 85/100">
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -51,17 +52,94 @@
         
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
-                <h1>Dixton with Osbaston</h1>
-                <p class="hero-sub">Gwent Police</p>
+                <h1>Dixton with Osbaston Crime Rate</h1>
+                <p class="hero-sub">Gwent Police • January 2026 Data</p>
             </div>
         </section>
         
-        <section style="padding-bottom: var(--space-12);">
-            <div class="container" style="max-width: 800px;">
-                <div class="kpi-card" style="text-align: center; padding: var(--space-8);">
-                    <div class="kpi-label">Status</div>
-                    <div class="kpi-value" style="font-size: var(--text-lg);">Data Loading</div>
-                    <div class="kpi-detail">Crime statistics coming soon</div>
+        <section style="padding-bottom: var(--space-8);">
+            <div class="container" style="max-width: 900px;">
+                <!-- Score Card -->
+                <div class="kpi-card" style="display: flex; align-items: center; gap: var(--space-8); padding: var(--space-8); flex-wrap: wrap; justify-content: center;">
+                    <div style="width: 140px; height: 140px; border-radius: 50%; background: #16a34a; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white;">
+                        <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">85</span>
+                        <span style="font-size: var(--text-xs); opacity: 0.9;">Safety Score</span>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; font-weight: 700; color: #16a34a; line-height: 1;">A</div>
+                        <div style="color: var(--color-text-muted);">Very Safe</div>
+                    </div>
+                </div>
+                
+                <!-- Stats Grid -->
+                <div class="kpi-grid" style="margin-top: var(--space-6);">
+                    <div class="kpi-card">
+                        <div class="kpi-label">Total Crimes</div>
+                        <div class="kpi-value">0</div>
+                        <div class="kpi-detail">January 2026</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Violent Crime</div>
+                        <div class="kpi-value" style="color: #dc2626;">0</div>
+                        <div class="kpi-detail">Assaults, robbery</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Property Crime</div>
+                        <div class="kpi-value" style="color: #ca8a04;">0</div>
+                        <div class="kpi-detail">Burglary, theft</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Anti-Social</div>
+                        <div class="kpi-value">0</div>
+                        <div class="kpi-detail">Nuisance, disorder</div>
+                    </div>
+                </div>
+                
+                <!-- Is it Safe? Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is Dixton with Osbaston Safe?</h2>
+                    <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
+                        Dixton with Osbaston has a safety score of <strong>85/100</strong>, placing it in the <strong>top 15%</strong> of UK neighbourhoods.
+                        In January 2026, police recorded 0 crimes in this area, including 0 violent offences.
+                    </p>
+                    <p style="color: var(--color-text-muted);">
+                        This area has lower crime rates than most UK neighbourhoods, making it a relatively safe place to live or visit.
+                    </p>
+                </div>
+                
+                <!-- Crime Breakdown -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Crime Breakdown</h2>
+                    <div class="kpi-grid" style="grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));">
+
+                    </div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-6);">
+                    <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">What is Dixton with Osbaston's crime rate?</div>
+                        <div style="color: var(--color-text-muted);">Dixton with Osbaston recorded 0 crimes in January 2026, including 0 violent crimes and 0 property crimes.</div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is Dixton with Osbaston a safe neighbourhood?</div>
+                        <div style="color: var(--color-text-muted);">With a safety score of 85/100 (Grade A), Dixton with Osbaston is safer than 85% of UK neighbourhoods. It has below-average crime rates.</div>
+                    </div>
+                    
+                    <div style="padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Which police force covers Dixton with Osbaston?</div>
+                        <div style="color: var(--color-text-muted);">Dixton with Osbaston is policed by <a href="/force/gwent-police/">Gwent Police</a>.</div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
+                    <h3 style="margin-bottom: var(--space-2);">Compare Dixton with Osbaston</h3>
+                    <p style="opacity: 0.9;">See how this neighbourhood compares to others</p>
+                    <a href="/safest/" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: var(--space-4);">View UK Rankings →</a>
                 </div>
             </div>
         </section>
@@ -73,8 +151,10 @@
             <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/forces_search.js"></script>
     <script src="/neighbourhoods_search.js"></script>
+    <script src="/force_map.js"></script>
     <script src="/script.js"></script>
 </body>
 </html>
