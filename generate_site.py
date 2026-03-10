@@ -78,6 +78,8 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
+                <a href="/districts/">Districts</a>
+                <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
@@ -168,6 +170,27 @@ def generate_homepage(forces_data):
                         <div class="kpi-value">14</div>
                         <div class="kpi-detail">Categories tracked</div>
                     </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Rankings Section -->
+        <section style="padding: var(--space-8) 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">UK Crime Rankings</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-6);">
+                    <a href="/safest/" class="kpi-card" style="text-decoration: none; text-align: center; padding: var(--space-6);">
+                        <div style="font-size: 3rem; margin-bottom: var(--space-2);">🏆</div>
+                        <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Safest Places</div>
+                        <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Top 100 lowest crime neighbourhoods in the UK</div>
+                    </a>
+                    <a href="/dangerous/" class="kpi-card" style="text-decoration: none; text-align: center; padding: var(--space-6);">
+                        <div style="font-size: 3rem; margin-bottom: var(--space-2);">⚠️</div>
+                        <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Highest Crime Areas</div>
+                        <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Top 100 highest crime neighbourhoods</div>
+                    </a>
                 </div>
             </div>
         </section>
