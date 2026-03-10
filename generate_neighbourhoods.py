@@ -104,7 +104,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{nb_name} Crime Rate</h1>
-                <p class="hero-sub">{force_name} • Q1 2026 Data</p>
+                <p class="hero-sub">{force_name} • January 2026 Data</p>
             </div>
         </section>
         
@@ -127,7 +127,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <div class="kpi-card">
                         <div class="kpi-label">Total Crimes</div>
                         <div class="kpi-value">{total}</div>
-                        <div class="kpi-detail">Q1 2026</div>
+                        <div class="kpi-detail">January 2026</div>
                     </div>
                     <div class="kpi-card">
                         <div class="kpi-label">Violent Crime</div>
@@ -151,7 +151,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is {nb_name} Safe?</h2>
                     <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
                         {nb_name} has a safety score of <strong>{safety_score}/100</strong>, placing it in the <strong>{"top " + str(100-safety_score) + "%" if safety_score >= 50 else "bottom " + str(safety_score) + "%"}</strong> of UK neighbourhoods.
-                        In Q1 2026, police recorded {total} crimes in this area, including {violent} violent offences.
+                        In January 2026, police recorded {total} crimes in this area, including {violent} violent offences.
                     </p>
                     <p style="color: var(--color-text-muted);">
                         {"This area has lower crime rates than most UK neighbourhoods, making it a relatively safe place to live or visit." if safety_score >= 60 else "This area has average crime levels compared to other UK neighbourhoods. As with any area, stay aware of your surroundings." if safety_score >= 40 else "This area has higher crime rates than most UK neighbourhoods. Take extra precautions with personal belongings and avoid walking alone at night."}
@@ -181,7 +181,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">What is {nb_name}'s crime rate?</div>
-                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total} crimes in Q1 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total} crimes in January 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
                     </div>
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">

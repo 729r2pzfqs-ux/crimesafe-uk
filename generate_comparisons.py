@@ -62,7 +62,7 @@ def get_footer():
     <footer class="footer">
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
-            <p style="margin-top: var(--space-2);">Data updated quarterly. Last update: Q1 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>
@@ -115,7 +115,7 @@ def generate_comparison_page(nb1, nb2):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{name1} vs {name2}</h1>
-                <p class="hero-sub">Crime rate comparison • Q1 2026 data</p>
+                <p class="hero-sub">Crime rate comparison • January 2026 data</p>
             </div>
         </section>
         

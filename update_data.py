@@ -101,22 +101,21 @@ def regenerate_site():
     
     return True
 
-def update_quarter_label(new_date):
-    """Update the quarter label in generators based on new data date"""
+def update_month_label(new_date):
+    """Update the month label in generators based on new data date"""
+    import re
+    
     # Parse date (format: "2026-01")
     year, month = new_date.split("-")
     month = int(month)
     
-    if month <= 3:
-        quarter = f"Q1 {year}"
-    elif month <= 6:
-        quarter = f"Q2 {year}"
-    elif month <= 9:
-        quarter = f"Q3 {year}"
-    else:
-        quarter = f"Q4 {year}"
+    month_names = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ]
+    month_label = f"{month_names[month-1]} {year}"
     
-    print(f"Updating quarter label to: {quarter}")
+    print(f"Updating month label to: {month_label}")
     
     # Update generator files
     generators = [
@@ -128,14 +127,15 @@ def update_quarter_label(new_date):
         "generate_london_comparisons.py"
     ]
     
+    # Pattern to match month names followed by year
+    month_pattern = r'(January|February|March|April|May|June|July|August|September|October|November|December) 20\d{2}'
+    
     for gen in generators:
         filepath = f"{REPO_DIR}/{gen}"
         if os.path.exists(filepath):
             with open(filepath, 'r') as f:
                 content = f.read()
-            # Replace Q? 20?? pattern
-            import re
-            content = re.sub(r'Q[1-4] 20\d{2}', quarter, content)
+            content = re.sub(month_pattern, month_label, content)
             with open(filepath, 'w') as f:
                 f.write(content)
 
@@ -177,8 +177,8 @@ def main():
             send_telegram("❌ CrimeSafe UK: Data fetch failed!")
             return
         
-        # Update quarter label
-        update_quarter_label(latest_available)
+        # Update month label
+        update_month_label(latest_available)
         
         # Regenerate site
         if not regenerate_site():
