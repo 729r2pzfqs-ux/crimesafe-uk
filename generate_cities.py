@@ -214,8 +214,9 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
         
         <section>
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Neighbourhoods in {city_name}</h2>
+                <div class="stat-card" style="margin-bottom: var(--space-6);">
+                    <h2 style="margin: 0; color: var(--color-primary);">Neighbourhoods in {city_name}</h2>
+                    <p style="margin-top: var(--space-2); color: var(--color-text-muted);">Sorted by safety score (safest first)</p>
                 </div>
                 <div class="force-grid">'''
     
