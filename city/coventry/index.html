@@ -47,758 +47,667 @@
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/cities/">Cities</a> › Coventry
+                <a href="/">Home</a> › <a href="/city/">Cities</a> › Coventry
             </div>
         </div>
         
-        <section class="hero" style="padding: var(--space-8) 0;">
+        <section class="hero" style="padding: var(--space-6) 0;">
             <div class="container">
-                <h1>Crime in Coventry</h1>
+                <h1 style="color: var(--color-text);">Crime in Coventry</h1>
                 <p class="hero-sub">Explore crime statistics and safety scores for Coventry neighbourhoods</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">89</div>
-                        <div class="stat-label">Neighbourhoods</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">89</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">30,503</div>
-                        <div class="stat-label">Total Crimes (Monthly)</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">30,503</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Crimes (Monthly)</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">21</div>
-                        <div class="stat-label">Average Safety Score</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700; color: #dc2626;">21/100</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Safety Score</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label" style="margin-bottom: var(--space-2);">Police Force</div>
-                        <a href="/force/west-midlands-police/" style="color: var(--color-primary); font-weight: 600;">West Midlands Police</a>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-1);">Police Force</div>
+                        <a href="/force/west-midlands-police/" style="color: var(--color-primary); font-weight: 600; font-size: var(--text-sm);">West Midlands Police</a>
                     </div>
                 </div>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stat-card" style="margin-bottom: var(--space-6);">
-                    <h2 style="margin: 0; color: var(--color-primary);">Neighbourhoods in Coventry</h2>
-                    <p style="margin-top: var(--space-2); color: var(--color-text-muted);">Sorted by safety score (safest first)</p>
-                </div>
+                <h2 style="margin-bottom: var(--space-4); color: var(--color-text);">Neighbourhoods in Coventry</h2>
+                <p style="margin-bottom: var(--space-6); color: var(--color-text-muted);">Click any area to view detailed crime statistics. Sorted by safety score.</p>
                 <div class="force-grid">
-                    <a href="/neighbourhood/west-midlands-police/solihull-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Solihull Rural</h3>
+                    <a href="/neighbourhood/west-midlands-police/solihull-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #dcfce7; color: #16a34a; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">70</span>
+                            <span style="font-weight: 500;">Solihull Rural</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #16a34a;">70</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/holbrook-radford-sherbourne-and-bablake/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Holbrook, Radford, Sherbourne and Bablake</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">56</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/holbrook-radford-sherbourne-and-bablake/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">56</span>
+                            <span style="font-weight: 500;">Holbrook, Radford, Sherbourne and Bablake</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/sutton-four-oaks/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sutton Four Oaks</h3>
+                    <a href="/neighbourhood/west-midlands-police/sutton-four-oaks/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">51</span>
+                            <span style="font-weight: 500;">Sutton Four Oaks</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">51</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/aldridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aldridge</h3>
+                    <a href="/neighbourhood/west-midlands-police/aldridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">49</span>
+                            <span style="font-weight: 500;">Aldridge</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">49</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/nec/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">NEC</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">48</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/nec/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">48</span>
+                            <span style="font-weight: 500;">NEC</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/birmingham-airport/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Birmingham Airport</h3>
+                    <a href="/neighbourhood/west-midlands-police/birmingham-airport/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">47</span>
+                            <span style="font-weight: 500;">Birmingham Airport</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">47</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/sutton-new-hall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sutton New Hall</h3>
+                    <a href="/neighbourhood/west-midlands-police/sutton-new-hall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">45</span>
+                            <span style="font-weight: 500;">Sutton New Hall</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">45</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/brownhills/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Brownhills</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #ca8a04;">43</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/brownhills/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fef9c3; color: #ca8a04; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">43</span>
+                            <span style="font-weight: 500;">Brownhills</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/st-alphege-and-blythe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">St Alphege and Blythe</h3>
+                    <a href="/neighbourhood/west-midlands-police/st-alphege-and-blythe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">39</span>
+                            <span style="font-weight: 500;">St Alphege and Blythe</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">39</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/kingswinford-wall-heath-and-pensnett/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Kingswinford, Wall Heath and Pensnett</h3>
+                    <a href="/neighbourhood/west-midlands-police/kingswinford-wall-heath-and-pensnett/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">37</span>
+                            <span style="font-weight: 500;">Kingswinford, Wall Heath and Pensnett</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">37</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/woodlands-wainbody-westwood-and-whoberley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Woodlands, Wainbody, Westwood and Whoberley</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">36</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/woodlands-wainbody-westwood-and-whoberley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">36</span>
+                            <span style="font-weight: 500;">Woodlands, Wainbody, Westwood and Whoberley</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/lyndon-elmdon-olton-and-silhill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;"> Lyndon, Elmdon, Olton and Silhill</h3>
+                    <a href="/neighbourhood/west-midlands-police/lyndon-elmdon-olton-and-silhill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">34</span>
+                            <span style="font-weight: 500;"> Lyndon, Elmdon, Olton and Silhill</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">34</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/tettenhall-penn-merry-hill-and-oxley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Tettenhall, Penn, Merry Hill and Oxley</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">34</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/tettenhall-penn-merry-hill-and-oxley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">34</span>
+                            <span style="font-weight: 500;">Tettenhall, Penn, Merry Hill and Oxley</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/sutton-trinity/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sutton Trinity</h3>
+                    <a href="/neighbourhood/west-midlands-police/sutton-trinity/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">33</span>
+                            <span style="font-weight: 500;">Sutton Trinity</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">33</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/sutton-vesey/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sutton Vesey</h3>
+                    <a href="/neighbourhood/west-midlands-police/sutton-vesey/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">32</span>
+                            <span style="font-weight: 500;">Sutton Vesey</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">32</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/netherton-quarry-bank-and-st-thomas/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Netherton, Quarry Bank and St Thomas</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">32</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/netherton-quarry-bank-and-st-thomas/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">32</span>
+                            <span style="font-weight: 500;">Netherton, Quarry Bank and St Thomas</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/west-bromwich-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">West Bromwich Town</h3>
+                    <a href="/neighbourhood/west-midlands-police/west-bromwich-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">32</span>
+                            <span style="font-weight: 500;">West Bromwich Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">32</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/halesowen/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Halesowen</h3>
+                    <a href="/neighbourhood/west-midlands-police/halesowen/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">30</span>
+                            <span style="font-weight: 500;">Halesowen</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">30</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/stourbridge-pedmore-and-wollaston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Stourbridge, Pedmore and Wollaston</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">30</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/stourbridge-pedmore-and-wollaston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">30</span>
+                            <span style="font-weight: 500;">Stourbridge, Pedmore and Wollaston</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/binley-willenhall-cheylesmore-and-earlsdon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Binley, Willenhall, Cheylesmore and Earlsdon</h3>
+                    <a href="/neighbourhood/west-midlands-police/binley-willenhall-cheylesmore-and-earlsdon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">29</span>
+                            <span style="font-weight: 500;">Binley, Willenhall, Cheylesmore and Earlsdon</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">29</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/henley-and-longford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Henley and Longford</h3>
+                    <a href="/neighbourhood/west-midlands-police/henley-and-longford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">27</span>
+                            <span style="font-weight: 500;">Henley and Longford</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">27</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/dudley-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Dudley North</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">26</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/dudley-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">26</span>
+                            <span style="font-weight: 500;">Dudley North</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/rowley-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Rowley Town</h3>
+                    <a href="/neighbourhood/west-midlands-police/rowley-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">26</span>
+                            <span style="font-weight: 500;">Rowley Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">26</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/stoke-and-wyken/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Stoke and Wyken</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">25</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/stoke-and-wyken/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">25</span>
+                            <span style="font-weight: 500;">Stoke and Wyken</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/shirley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Shirley</h3>
+                    <a href="/neighbourhood/west-midlands-police/shirley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">25</span>
+                            <span style="font-weight: 500;">Shirley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">25</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/ettingshall-blakenhall-and-spring-vale/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Ettingshall, Blakenhall and Spring Vale</h3>
+                    <a href="/neighbourhood/west-midlands-police/ettingshall-blakenhall-and-spring-vale/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">25</span>
+                            <span style="font-weight: 500;">Ettingshall, Blakenhall and Spring Vale</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">25</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/bloxwich/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bloxwich</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">24</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/bloxwich/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">24</span>
+                            <span style="font-weight: 500;">Bloxwich</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/wednesfield-and-heath-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wednesfield and Heath Town</h3>
+                    <a href="/neighbourhood/west-midlands-police/wednesfield-and-heath-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">23</span>
+                            <span style="font-weight: 500;">Wednesfield and Heath Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">23</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/bartley-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bartley Green</h3>
+                    <a href="/neighbourhood/west-midlands-police/bartley-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">22</span>
+                            <span style="font-weight: 500;">Bartley Green</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">22</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/oscott/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oscott</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">22</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/oscott/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">22</span>
+                            <span style="font-weight: 500;">Oscott</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/bournville/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bournville</h3>
+                    <a href="/neighbourhood/west-midlands-police/bournville/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">22</span>
+                            <span style="font-weight: 500;">Bournville</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">22</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/quinton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Quinton</h3>
+                    <a href="/neighbourhood/west-midlands-police/quinton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Quinton</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/brierley-hill-and-wordsley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Brierley Hill and Wordsley</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/brierley-hill-and-wordsley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Brierley Hill and Wordsley</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/wednesbury-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wednesbury Town</h3>
+                    <a href="/neighbourhood/west-midlands-police/wednesbury-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Wednesbury Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/willenhall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Willenhall</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/willenhall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Willenhall</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/fallings-park-bushbury-and-low-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Fallings Park, Bushbury and Low Hill</h3>
+                    <a href="/neighbourhood/west-midlands-police/fallings-park-bushbury-and-low-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">21</span>
+                            <span style="font-weight: 500;">Fallings Park, Bushbury and Low Hill</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">21</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/kings-norton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Kings Norton</h3>
+                    <a href="/neighbourhood/west-midlands-police/kings-norton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">20</span>
+                            <span style="font-weight: 500;">Kings Norton</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">20</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/longbridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Longbridge</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">20</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/longbridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">20</span>
+                            <span style="font-weight: 500;">Longbridge</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/weoley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Weoley</h3>
+                    <a href="/neighbourhood/west-midlands-police/weoley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">20</span>
+                            <span style="font-weight: 500;">Weoley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">20</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/brandwood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Brandwood</h3>
+                    <a href="/neighbourhood/west-midlands-police/brandwood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">20</span>
+                            <span style="font-weight: 500;">Brandwood</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">20</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/stourbridge-and-amblecote/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Stourbridge and Amblecote</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">20</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/stourbridge-and-amblecote/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">20</span>
+                            <span style="font-weight: 500;">Stourbridge and Amblecote</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/chelmsley-wood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Chelmsley Wood</h3>
+                    <a href="/neighbourhood/west-midlands-police/chelmsley-wood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">20</span>
+                            <span style="font-weight: 500;">Chelmsley Wood</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">20</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/hall-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Hall Green</h3>
+                    <a href="/neighbourhood/west-midlands-police/hall-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Hall Green</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/harborne/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Harborne</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/harborne/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Harborne</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/handsworth-wood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Handsworth Wood</h3>
+                    <a href="/neighbourhood/west-midlands-police/handsworth-wood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Handsworth Wood</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/oldbury-team/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Oldbury Team </h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/oldbury-team/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Oldbury Team </span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/delves/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Delves</h3>
+                    <a href="/neighbourhood/west-midlands-police/delves/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">19</span>
+                            <span style="font-weight: 500;">Delves</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">19</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/tyburn/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Tyburn</h3>
+                    <a href="/neighbourhood/west-midlands-police/tyburn/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Tyburn</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/perry-barr/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Perry Barr</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/perry-barr/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Perry Barr</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/billesley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Billesley</h3>
+                    <a href="/neighbourhood/west-midlands-police/billesley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Billesley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/dudley-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Dudley Central</h3>
+                    <a href="/neighbourhood/west-midlands-police/dudley-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">18</span>
+                            <span style="font-weight: 500;">Dudley Central</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">18</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/kingstanding/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Kingstanding</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">17</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/kingstanding/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">17</span>
+                            <span style="font-weight: 500;">Kingstanding</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/moseley-and-kings-heath/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Moseley and Kings Heath</h3>
+                    <a href="/neighbourhood/west-midlands-police/moseley-and-kings-heath/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">17</span>
+                            <span style="font-weight: 500;">Moseley and Kings Heath</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">17</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/darlaston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Darlaston</h3>
+                    <a href="/neighbourhood/west-midlands-police/darlaston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">17</span>
+                            <span style="font-weight: 500;">Darlaston</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">17</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/bilston-and-east-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bilston and East Park</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">17</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/bilston-and-east-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">17</span>
+                            <span style="font-weight: 500;">Bilston and East Park</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/smith-s-wood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Smith's Wood</h3>
+                    <a href="/neighbourhood/west-midlands-police/smith-s-wood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">16</span>
+                            <span style="font-weight: 500;">Smith's Wood</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">16</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/sheldon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sheldon</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">15</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/sheldon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">15</span>
+                            <span style="font-weight: 500;">Sheldon</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/edgbaston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Edgbaston</h3>
+                    <a href="/neighbourhood/west-midlands-police/edgbaston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">15</span>
+                            <span style="font-weight: 500;">Edgbaston</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">15</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/tipton-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Tipton Town</h3>
+                    <a href="/neighbourhood/west-midlands-police/tipton-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">15</span>
+                            <span style="font-weight: 500;">Tipton Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">15</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/hodge-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Hodge Hill</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">14</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/hodge-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">14</span>
+                            <span style="font-weight: 500;">Hodge Hill</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/nechells/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Nechells</h3>
+                    <a href="/neighbourhood/west-midlands-police/nechells/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">13</span>
+                            <span style="font-weight: 500;">Nechells</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">13</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/northfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Northfield</h3>
+                    <a href="/neighbourhood/west-midlands-police/northfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">13</span>
+                            <span style="font-weight: 500;">Northfield</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">13</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/shard-end/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Shard End</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">12</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/shard-end/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">12</span>
+                            <span style="font-weight: 500;">Shard End</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/selly-oak/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Selly Oak</h3>
+                    <a href="/neighbourhood/west-midlands-police/selly-oak/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">12</span>
+                            <span style="font-weight: 500;">Selly Oak</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">12</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/st-peter-s-park-and-graiseley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">St Peter's, Park and Graiseley</h3>
+                    <a href="/neighbourhood/west-midlands-police/st-peter-s-park-and-graiseley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">12</span>
+                            <span style="font-weight: 500;">St Peter's, Park and Graiseley</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">12</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/foleshill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Foleshill</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">11</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/foleshill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">11</span>
+                            <span style="font-weight: 500;">Foleshill</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/blakenall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Blakenall</h3>
+                    <a href="/neighbourhood/west-midlands-police/blakenall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">11</span>
+                            <span style="font-weight: 500;">Blakenall</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">11</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/pleck/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Pleck</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">11</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/pleck/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">11</span>
+                            <span style="font-weight: 500;">Pleck</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/springfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Springfield</h3>
+                    <a href="/neighbourhood/west-midlands-police/springfield/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">10</span>
+                            <span style="font-weight: 500;">Springfield</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">10</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/acocks-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Acocks Green</h3>
+                    <a href="/neighbourhood/west-midlands-police/acocks-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">10</span>
+                            <span style="font-weight: 500;">Acocks Green</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">10</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/south-yardley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">South Yardley</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">10</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/south-yardley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">10</span>
+                            <span style="font-weight: 500;">South Yardley</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/smethwick-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Smethwick Town</h3>
+                    <a href="/neighbourhood/west-midlands-police/smethwick-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">10</span>
+                            <span style="font-weight: 500;">Smethwick Town</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">10</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/stechford-and-yardley-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Stechford and Yardley North</h3>
+                    <a href="/neighbourhood/west-midlands-police/stechford-and-yardley-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">9</span>
+                            <span style="font-weight: 500;">Stechford and Yardley North</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">9</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/st-matthew-s/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">St Matthew's</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">9</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/st-matthew-s/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">9</span>
+                            <span style="font-weight: 500;">St Matthew's</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/erdington/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Erdington</h3>
+                    <a href="/neighbourhood/west-midlands-police/erdington/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">8</span>
+                            <span style="font-weight: 500;">Erdington</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">8</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/wolverhampton-city-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Wolverhampton City Centre</h3>
+                    <a href="/neighbourhood/west-midlands-police/wolverhampton-city-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">8</span>
+                            <span style="font-weight: 500;">Wolverhampton City Centre</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">8</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/stockland-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Stockland Green</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">7</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/stockland-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">7</span>
+                            <span style="font-weight: 500;">Stockland Green</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/bordesley-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Bordesley Green</h3>
+                    <a href="/neighbourhood/west-midlands-police/bordesley-green/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">7</span>
+                            <span style="font-weight: 500;">Bordesley Green</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">7</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/washwood-heath/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Washwood Heath</h3>
+                    <a href="/neighbourhood/west-midlands-police/washwood-heath/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">7</span>
+                            <span style="font-weight: 500;">Washwood Heath</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">7</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/sparkbrook/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Sparkbrook</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">6</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/sparkbrook/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">6</span>
+                            <span style="font-weight: 500;">Sparkbrook</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/aston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Aston</h3>
+                    <a href="/neighbourhood/west-midlands-police/aston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">6</span>
+                            <span style="font-weight: 500;">Aston</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">6</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/lozells-and-east-handsworth/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Lozells and East Handsworth</h3>
+                    <a href="/neighbourhood/west-midlands-police/lozells-and-east-handsworth/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">6</span>
+                            <span style="font-weight: 500;">Lozells and East Handsworth</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">6</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/winson-green-nht/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Winson Green NHT </h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">6</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/winson-green-nht/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">6</span>
+                            <span style="font-weight: 500;">Winson Green NHT </span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/soho-road/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Soho Road</h3>
+                    <a href="/neighbourhood/west-midlands-police/soho-road/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">5</span>
+                            <span style="font-weight: 500;">Soho Road</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">5</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/small-heath-and-highgate/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Small Heath and Highgate</h3>
+                    <a href="/neighbourhood/west-midlands-police/small-heath-and-highgate/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">4</span>
+                            <span style="font-weight: 500;">Small Heath and Highgate</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">4</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/ladywood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Ladywood</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">4</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/ladywood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">4</span>
+                            <span style="font-weight: 500;">Ladywood</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/st-michael-s/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">St Michael's</h3>
+                    <a href="/neighbourhood/west-midlands-police/st-michael-s/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">4</span>
+                            <span style="font-weight: 500;">St Michael's</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">4</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/city-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">City Centre</h3>
+                    <a href="/neighbourhood/west-midlands-police/city-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">1</span>
+                            <span style="font-weight: 500;">City Centre</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">1</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
-                    <a href="/neighbourhood/west-midlands-police/jewellery-quarter/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">Jewellery Quarter</h3>
-                        </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: #dc2626;">1</span>/100</div>
+                    <a href="/neighbourhood/west-midlands-police/jewellery-quarter/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: #fee2e2; color: #dc2626; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">1</span>
+                            <span style="font-weight: 500;">Jewellery Quarter</span>
                         </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>
                 </div>
             </div>

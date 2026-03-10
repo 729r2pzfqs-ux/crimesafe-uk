@@ -173,69 +173,80 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
     total_crimes = sum(n.get('total_crimes', 0) for n in neighbourhoods)
     avg_score = round(sum(n.get('score', 0) for n in neighbourhoods) / max(1, len(neighbourhoods)))
     
+    # Safety grade color
+    if avg_score >= 60:
+        grade_color = "#16a34a"
+        grade_bg = "#dcfce7"
+    elif avg_score >= 40:
+        grade_color = "#ca8a04"
+        grade_bg = "#fef9c3"
+    else:
+        grade_color = "#dc2626"
+        grade_bg = "#fee2e2"
+    
     html += f'''
     <main>
         <div class="container">
             <div class="breadcrumb">
-                <a href="/">Home</a> › <a href="/cities/">Cities</a> › {city_name}
+                <a href="/">Home</a> › <a href="/city/">Cities</a> › {city_name}
             </div>
         </div>
         
-        <section class="hero" style="padding: var(--space-8) 0;">
+        <section class="hero" style="padding: var(--space-6) 0;">
             <div class="container">
-                <h1>Crime in {city_name}</h1>
+                <h1 style="color: var(--color-text);">Crime in {city_name}</h1>
                 <p class="hero-sub">Explore crime statistics and safety scores for {city_name} neighbourhoods</p>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">{len(neighbourhoods)}</div>
-                        <div class="stat-label">Neighbourhoods</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">{len(neighbourhoods)}</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">{total_crimes:,}</div>
-                        <div class="stat-label">Total Crimes (Monthly)</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700;">{total_crimes:,}</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Crimes (Monthly)</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">{avg_score}</div>
-                        <div class="stat-label">Average Safety Score</div>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-2xl); font-weight: 700; color: {grade_color};">{avg_score}/100</div>
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Safety Score</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label" style="margin-bottom: var(--space-2);">Police Force</div>
-                        <a href="/force/{force_slug}/" style="color: var(--color-primary); font-weight: 600;">{force_name}</a>
+                    <div class="stat-card" style="text-align: center; padding: var(--space-5);">
+                        <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-1);">Police Force</div>
+                        <a href="/force/{force_slug}/" style="color: var(--color-primary); font-weight: 600; font-size: var(--text-sm);">{force_name}</a>
                     </div>
                 </div>
             </div>
         </section>
         
-        <section>
+        <section style="padding-bottom: var(--space-8);">
             <div class="container">
-                <div class="stat-card" style="margin-bottom: var(--space-6);">
-                    <h2 style="margin: 0; color: var(--color-primary);">Neighbourhoods in {city_name}</h2>
-                    <p style="margin-top: var(--space-2); color: var(--color-text-muted);">Sorted by safety score (safest first)</p>
-                </div>
+                <h2 style="margin-bottom: var(--space-4); color: var(--color-text);">Neighbourhoods in {city_name}</h2>
+                <p style="margin-bottom: var(--space-6); color: var(--color-text-muted);">Click any area to view detailed crime statistics. Sorted by safety score.</p>
                 <div class="force-grid">'''
     
     for nb in neighbourhoods:
         score = nb.get('score', 0)
         if score >= 60:
             color = "#16a34a"
+            bg = "#dcfce7"
         elif score >= 40:
             color = "#ca8a04"
+            bg = "#fef9c3"
         else:
             color = "#dc2626"
+            bg = "#fee2e2"
         
         html += f'''
-                    <a href="/neighbourhood/{nb['force_slug']}/{nb['slug']}/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">{nb['name']}</h3>
+                    <a href="/neighbourhood/{nb['force_slug']}/{nb['slug']}/" class="force-card" style="display: flex; justify-content: space-between; align-items: center; transition: transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <span style="background: {bg}; color: {color}; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: var(--text-sm);">{score}</span>
+                            <span style="font-weight: 500;">{nb['name']}</span>
                         </div>
-                        <div style="text-align: right;">
-                            <div style="font-size: var(--text-sm);"><span style="font-weight: 600; color: {color};">{score}</span>/100</div>
-                        </div>
+                        <span style="color: var(--color-text-muted);">→</span>
                     </a>'''
     
     html += '''
