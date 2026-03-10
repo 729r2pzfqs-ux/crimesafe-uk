@@ -381,6 +381,7 @@ def main():
     Path('city').mkdir(exist_ok=True)
     
     generated = 0
+    city_scores = {}
     
     for city_slug, city_info in CITIES.items():
         neighbourhoods = []
@@ -415,6 +416,11 @@ def main():
             continue
         
         if neighbourhoods:
+            # Calculate average score for city
+            scores = [nb['score'] for nb in neighbourhoods if nb.get('score', 0) > 0]
+            if scores:
+                city_scores[city_slug] = round(sum(scores) / len(scores))
+            
             html = generate_city_page(city_slug, city_info, neighbourhoods, crime_data)
             
             page_dir = Path(f'city/{city_slug}')
@@ -427,11 +433,17 @@ def main():
             print(f"  {city_info['name']}: {len(neighbourhoods)} neighbourhoods")
     
     # Generate cities index page
-    generate_cities_index()
+    generate_cities_index(city_scores)
     
     print(f"\n✅ Generated {generated} city pages")
 
-def generate_cities_index():
+def get_score_class(score):
+    if score is None or score == 0: return 'score-na'
+    if score >= 60: return 'score-green'
+    if score >= 40: return 'score-amber'
+    return 'score-red'
+
+def generate_cities_index(city_scores):
     """Generate the cities index page."""
     html = get_header("UK Cities Crime Statistics | CrimeSafe UK", 
                       "Browse crime statistics for major UK cities and towns. Compare safety scores and find the safest areas.")
@@ -456,9 +468,15 @@ def generate_cities_index():
                 <div class="force-grid">'''
     
     for city_slug, city_info in sorted(CITIES.items(), key=lambda x: x[1]['name']):
+        score = city_scores.get(city_slug, 0)
+        score_class = get_score_class(score)
+        score_display = score if score else '—'
         html += f'''
                     <a href="/city/{city_slug}/" class="force-card">
-                        <h3>{city_info['name']}</h3>
+                        <div class="card-header">
+                            <h3>{city_info['name']}</h3>
+                            <span class="score-badge {score_class}">{score_display}</span>
+                        </div>
                         <p style="color: var(--color-text-muted); font-size: var(--text-sm);">{city_info['force_name']}</p>
                     </a>'''
     
