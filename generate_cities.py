@@ -66,7 +66,13 @@ CITIES = {
     ]},
     "bradford": {"name": "Bradford", "force": "west-yorkshire", "force_name": "West Yorkshire Police"},
     # Note: Belfast removed - PSNI uses district names (Strandtown, etc.) not "Belfast"
-    "brighton": {"name": "Brighton", "force": "sussex", "force_name": "Sussex Police"},
+    "brighton": {"name": "Brighton", "force": "sussex", "force_name": "Sussex Police", "neighbourhoods": [
+        "Regency Business", "Regency Seafront", "Tarner", "Hanover", "Queens Park", "Elm Grove",
+        "Kemp Town - The Village", "Kemp Town", "Rottingdean and Coastal", "Woodingdean",
+        "East Brighton", "Stanmer", "Moulsecoomb", "Patcham", "Withdean", "Preston Park",
+        "Central Hove", "Hove Park", "Aldrington", "West Blatchington", "Hangleton and Knoll",
+        "Portslade", "North Portslade", "South Portslade", "Mile Oak", "Hollingbury and Hollingdean"
+    ]},
     "hull": {"name": "Hull", "force": "humberside", "force_name": "Humberside Police"},
     "plymouth": {"name": "Plymouth", "force": "devon-and-cornwall", "force_name": "Devon & Cornwall Police"},
     "stoke-on-trent": {"name": "Stoke-on-Trent", "force": "staffordshire", "force_name": "Staffordshire Police"},
