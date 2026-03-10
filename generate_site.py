@@ -60,6 +60,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -96,8 +97,10 @@ def get_footer():
             <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/forces_search.js"></script>
     <script src="/neighbourhoods_search.js"></script>
+    <script src="/force_map.js"></script>
     <script src="/script.js"></script>
 </body>
 </html>
@@ -213,6 +216,17 @@ def generate_homepage(forces_data):
                         <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Find crime statistics by UK postcode</div>
                     </a>
                 </div>
+            </div>
+        </section>
+        
+        <!-- Map Section -->
+        <section style="padding: var(--space-8) 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">UK Police Force Map</h2>
+                </div>
+                <div id="forceMap" style="height: 500px; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border);"></div>
+                <p style="text-align: center; color: var(--color-text-muted); margin-top: var(--space-3); font-size: var(--text-sm);">Click on a force area to view crime statistics</p>
             </div>
         </section>
         
