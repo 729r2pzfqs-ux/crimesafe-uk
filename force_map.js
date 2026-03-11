@@ -53,10 +53,30 @@ const forceNameMap = {
 // Safety scores by force (will be populated from data)
 let forceScores = {};
 
-// Initialize map
+// Initialize map (lazy loaded when visible)
+let mapInitialized = false;
+
 function initForceMap() {
     const mapContainer = document.getElementById('forceMap');
-    if (!mapContainer) return;
+    if (!mapContainer || mapInitialized) return;
+    
+    // Use IntersectionObserver for lazy loading
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !mapInitialized) {
+                mapInitialized = true;
+                observer.disconnect();
+                loadMap(mapContainer);
+            }
+        });
+    }, { rootMargin: '200px' }); // Load when 200px away from viewport
+    
+    observer.observe(mapContainer);
+}
+
+function loadMap(mapContainer) {
+    // Show loading state
+    mapContainer.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#666;">Loading map...</div>';
     
     // Create map centered on UK
     const map = L.map('forceMap', {

@@ -2,3 +2,4 @@ fetch_crimes.log
 .DS_Store
 __pycache__/
 *.pyc
+data/*_full.geojson
