@@ -289,14 +289,14 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
     force_name = city_info['force_name']
     force_slug = slugify(force_name)
     
-    title = f"Crime in {city_name} — Safety Statistics | CrimeSafe UK"
-    desc = f"Is {city_name} safe? View crime statistics, safety scores, and neighbourhood data for {city_name}. Compare areas and find the safest places to live."
-    
-    html = get_header(title, desc)
-    
-    # Calculate city-wide stats
+    # Calculate city-wide stats first (needed for title)
     total_crimes = sum(n.get('total_crimes', 0) for n in neighbourhoods)
     avg_score = round(sum(n.get('score', 0) for n in neighbourhoods) / max(1, len(neighbourhoods)))
+    
+    title = f"{city_name} Crime Rate 2026 — Avg Safety Score {avg_score}/100 | CrimeSafe UK"
+    desc = f"Is {city_name} safe? Average Safety Score: {avg_score}/100 across {len(neighbourhoods)} areas. View {total_crimes:,} crimes reported, compare neighbourhoods, find the safest places."
+    
+    html = get_header(title, desc)
     
     # Safety grade color
     if avg_score >= 60:

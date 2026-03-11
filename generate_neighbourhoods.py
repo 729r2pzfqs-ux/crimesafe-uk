@@ -88,8 +88,13 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         asb = 0
         score_color = "var(--color-text-muted)"
     
-    desc = f"Crime statistics and safety score for {nb_name} in {force_name}. Safety Score: {safety_score}/100" if safety_score else f"Crime statistics for {nb_name}"
-    html = get_header(f"{nb_name} Crime Rate & Safety — CrimeSafe UK", desc)
+    if safety_score:
+        title = f"{nb_name} Crime Rate 2026 — Safety Score {safety_score}/100 | CrimeSafe UK"
+        desc = f"Is {nb_name} safe? Safety Score: {safety_score}/100. View {total:,} crimes reported in January 2026, compare with nearby areas, and see crime breakdown."
+    else:
+        title = f"{nb_name} Crime Statistics 2026 | CrimeSafe UK"
+        desc = f"Crime statistics for {nb_name} in {force_name}. View latest crime data and safety information."
+    html = get_header(title, desc)
     
     if safety_score is not None:
         # Full page with crime data
@@ -180,8 +185,13 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
+                        <div style="font-weight: 600; margin-bottom: var(--space-2);">Is {nb_name} safe to live in?</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} has a Safety Score of {safety_score}/100, rated "{grade_text}". This score is based on {total:,} crimes reported in January 2026.</div>
+                    </div>
+                    
+                    <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">What is {nb_name}'s crime rate?</div>
-                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total} crimes in January 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total:,} crimes in January 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
                     </div>
                     
                     <div style="padding: var(--space-4) 0;">
@@ -189,6 +199,40 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                         <div style="color: var(--color-text-muted);">{nb_name} is policed by <a href="/force/{force_slug}/">{force_name}</a>.</div>
                     </div>
                 </div>
+                
+                <!-- FAQ Schema -->
+                <script type="application/ld+json">
+                {{
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {{
+                            "@type": "Question",
+                            "name": "Is {nb_name} safe to live in?",
+                            "acceptedAnswer": {{
+                                "@type": "Answer",
+                                "text": "{nb_name} has a Safety Score of {safety_score}/100, rated {grade_text}. This score is based on {total:,} crimes reported in January 2026."
+                            }}
+                        }},
+                        {{
+                            "@type": "Question",
+                            "name": "What is {nb_name}'s crime rate?",
+                            "acceptedAnswer": {{
+                                "@type": "Answer",
+                                "text": "{nb_name} recorded {total:,} crimes in January 2026, including {violent} violent crimes and {property_crime} property crimes."
+                            }}
+                        }},
+                        {{
+                            "@type": "Question",
+                            "name": "Which police force covers {nb_name}?",
+                            "acceptedAnswer": {{
+                                "@type": "Answer",
+                                "text": "{nb_name} is policed by {force_name}."
+                            }}
+                        }}
+                    ]
+                }}
+                </script>
                 
                 <!-- CTA -->
                 <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
