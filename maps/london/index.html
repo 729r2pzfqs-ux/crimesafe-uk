@@ -127,6 +127,9 @@
         <div id="map"></div>
 
         <div class="map-legend">
+            <div class="legend-item" style="width:100%;justify-content:center;margin-bottom:8px;font-weight:500;">
+                <span>London Score (compared to other London areas)</span>
+            </div>
             <div class="legend-item">
                 <span class="legend-dot" style="background: #22c55e;"></span>
                 <span>Safe (60-100)</span>
@@ -204,19 +207,20 @@
             return '#ef4444';
         }
 
-        // Add markers
+        // Add markers using REGIONAL scores for colors
         let safe = 0, risky = 0, totalScore = 0;
         
         LONDON_DATA.forEach(d => {
-            const color = getColor(d.sc);
+            const regColor = getColor(d.rs);  // Regional score for color
+            const natColor = getColor(d.ns);  // National score
             
-            if (d.sc >= 60) safe++;
-            if (d.sc < 20) risky++;
-            totalScore += d.sc;
+            if (d.rs >= 60) safe++;
+            if (d.rs < 20) risky++;
+            totalScore += d.rs;
             
             const marker = L.circleMarker([d.lt, d.lg], {
                 radius: 8,
-                fillColor: color,
+                fillColor: regColor,
                 color: '#fff',
                 weight: 2,
                 opacity: 1,
@@ -225,7 +229,16 @@
             
             marker.bindPopup(`
                 <div class="popup-name">${d.n}</div>
-                <span class="popup-score" style="background: ${color};">${d.sc}</span>
+                <div style="display:flex;gap:8px;margin-bottom:8px;">
+                    <div style="text-align:center;">
+                        <span class="popup-score" style="background: ${regColor};">${d.rs}</span>
+                        <div style="font-size:11px;color:#666;margin-top:2px;">London</div>
+                    </div>
+                    <div style="text-align:center;">
+                        <span class="popup-score" style="background: ${natColor};">${d.ns}</span>
+                        <div style="font-size:11px;color:#666;margin-top:2px;">UK</div>
+                    </div>
+                </div>
                 <div class="popup-stats">
                     <strong>${d.t}</strong> crimes/month<br>
                     <strong>${d.r}</strong> per 1,000 people
@@ -234,7 +247,7 @@
             `);
         });
 
-        // Update stats
+        // Update stats (using regional scores)
         document.getElementById('statSafe').textContent = safe;
         document.getElementById('statRisky').textContent = risky;
         document.getElementById('statAvg').textContent = Math.round(totalScore / LONDON_DATA.length);
