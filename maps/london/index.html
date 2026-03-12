@@ -317,7 +317,7 @@
         <!-- Compare Panel -->
         <div class="compare-panel" id="comparePanel">
             <div class="compare-header">
-                <span class="compare-title">📊 Compare Areas</span>
+                <span class="compare-title">⚖️ Compare Areas</span>
                 <button class="compare-clear" onclick="clearCompare()">Clear selection</button>
             </div>
             <div class="compare-slots">
@@ -480,10 +480,6 @@
                 <div class="popup-stats">
                     <strong>${d.t}</strong> crimes/month · <strong>${d.r}</strong> per 1,000
                 </div>
-                <button class="popup-btn ${selected.find(s => s.s === d.s) ? 'popup-btn-secondary' : 'popup-btn-primary'}" 
-                        onclick="toggleCompare('${d.s}')">
-                    ${selected.find(s => s.s === d.s) ? '✓ Selected' : '+ Add to Compare'}
-                </button>
                 <a href="/neighbourhood/metropolitan-police-service/${d.s}/" style="display:block;background:#1a5632;color:white;text-align:center;padding:10px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:8px;">View Details →</a>
             `);
         });
@@ -522,6 +518,11 @@
             }
             
             updateComparePanel();
+            
+            // Auto-scroll to compare panel
+            setTimeout(() => {
+                document.getElementById('comparePanel').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
         }
 
         function removeFromCompare(slug) {
