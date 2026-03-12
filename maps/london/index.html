@@ -578,7 +578,7 @@
             if (selected[0]) {
                 const d = selected[0];
                 slot1.innerHTML = `
-                    <div class="compare-slot-name">${d.n}</div>
+                    <div class="compare-slot-name">${d.n} <a href="/neighbourhood/metropolitan-police-service/${d.s}/" style="font-size:12px;color:#1a5632;margin-left:4px;">→ View</a></div>
                     <span class="compare-slot-score" style="background: ${getColor(d.rs)};">${d.rs}</span>
                     <div class="compare-slot-stats">${d.t} crimes · ${d.r}/1k</div>
                 `;
@@ -589,7 +589,7 @@
             if (selected[1]) {
                 const d = selected[1];
                 slot2.innerHTML = `
-                    <div class="compare-slot-name">${d.n}</div>
+                    <div class="compare-slot-name">${d.n} <a href="/neighbourhood/metropolitan-police-service/${d.s}/" style="font-size:12px;color:#1a5632;margin-left:4px;">→ View</a></div>
                     <span class="compare-slot-score" style="background: ${getColor(d.rs)};">${d.rs}</span>
                     <div class="compare-slot-stats">${d.t} crimes · ${d.r}/1k</div>
                 `;
