@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ — CrimeSafe UK | Frequently Asked Questions</title>
+    <meta name="description" content="Frequently asked questions about CrimeSafe UK crime statistics, safety scores, data sources, and methodology.">
+    <link rel="canonical" href="https://crimesafe.uk/faq/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="FAQ — CrimeSafe UK">
+    <meta property="og:description" content="Frequently asked questions about CrimeSafe UK crime statistics, safety scores, and methodology.">
+    <meta property="og:url" content="https://crimesafe.uk/faq/">
+    <meta property="og:type" content="website">
+    
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Where does the crime data come from?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "All crime data comes from the official Police UK API (data.police.uk), which publishes monthly crime statistics from all 43 police forces in England and Wales. Data is typically released 6-8 weeks after the end of each month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How are safety scores calculated?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Safety scores (0-100) are calculated using per-capita crime rates, adjusted for population using Census 2021 data. Scores are percentile-based: a score of 80 means the area is safer than 80% of UK neighbourhoods. This allows fair comparison between busy city centres and quiet residential areas."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How often is the data updated?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We update our data monthly when new statistics are released by Police UK, typically 6-8 weeks after month end. The current data covers the most recent available month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a policing neighbourhood?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A policing neighbourhood is a geographic area defined by UK police forces for community policing purposes. There are approximately 4,900 neighbourhoods across England and Wales, each with a dedicated policing team. They are smaller than boroughs but larger than individual streets."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why do city centres show higher crime rates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "City centres typically show higher per-capita crime rates because the resident population is low, but the daytime population (commuters, shoppers, tourists) is much higher. Crime is measured against residential population, not daytime visitors, which can make busy areas appear less safe statistically."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I embed CrimeSafe data on my website?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! We offer free embeddable widgets for any UK neighbourhood. Visit the neighbourhood page and click 'Embed Widget' to get the code. No signup required."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="/" class="logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">CrimeSafe<span style="font-weight: 400; opacity: 0.8;">.uk</span></span>
+            </a>
+            <nav class="nav">
+                <a href="/safest/">Safest Areas</a>
+                <a href="/about/">About</a>
+                <a href="/faq/" class="active">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: var(--space-8) var(--space-4);">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h1 style="font-size: var(--text-3xl); font-weight: 700; margin-bottom: var(--space-2);">Frequently Asked Questions</h1>
+            <p style="color: var(--color-text-muted); margin-bottom: var(--space-8);">Everything you need to know about CrimeSafe UK</p>
+
+            <div class="faq-list" style="display: flex; flex-direction: column; gap: var(--space-6);">
+                
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">Where does the crime data come from?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">All crime data comes from the official <strong>Police UK API</strong> (data.police.uk), which publishes monthly crime statistics from all 43 police forces in England and Wales. Data is typically released 6-8 weeks after the end of each month.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">How are safety scores calculated?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">Safety scores (0-100) are calculated using <strong>per-capita crime rates</strong>, adjusted for population using Census 2021 data. Scores are percentile-based: a score of 80 means the area is safer than 80% of UK neighbourhoods. This allows fair comparison between busy city centres and quiet residential areas.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">How often is the data updated?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">We update our data <strong>monthly</strong> when new statistics are released by Police UK, typically 6-8 weeks after month end. The current data covers the most recent available month.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">What is a policing neighbourhood?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">A policing neighbourhood is a geographic area defined by UK police forces for community policing purposes. There are approximately <strong>4,900 neighbourhoods</strong> across England and Wales, each with a dedicated policing team. They are smaller than boroughs but larger than individual streets.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">Why do city centres show higher crime rates?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">City centres typically show higher per-capita crime rates because the <strong>resident population is low</strong>, but the daytime population (commuters, shoppers, tourists) is much higher. Crime is measured against residential population, not daytime visitors, which can make busy areas appear less safe statistically.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">Can I embed CrimeSafe data on my website?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">Yes! We offer <strong>free embeddable widgets</strong> for any UK neighbourhood. Visit the neighbourhood page and click "Embed Widget" to get the code. No signup required.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">What crime types are included?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;">We include all crime categories reported to Police UK: violent crime, robbery, burglary, vehicle crime, theft, criminal damage, drugs, public order offences, anti-social behaviour, and more. Each neighbourhood page shows a full breakdown by category.</p>
+                </div>
+
+                <div class="faq-item" style="background: var(--color-surface); border-radius: var(--radius-lg); padding: var(--space-6); border: 1px solid var(--color-border);">
+                    <h2 style="font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-3); color: var(--color-primary);">Is CrimeSafe UK affiliated with the police?</h2>
+                    <p style="color: var(--color-text-muted); line-height: 1.6;"><strong>No.</strong> CrimeSafe UK is an independent website. We use publicly available data from Police UK but are not affiliated with any police force or government body.</p>
+                </div>
+
+            </div>
+
+            <div style="margin-top: var(--space-12); padding: var(--space-6); background: linear-gradient(135deg, var(--color-primary) 0%, #1a4d2e 100%); border-radius: var(--radius-lg); text-align: center;">
+                <h2 style="color: white; font-size: var(--text-xl); margin-bottom: var(--space-3);">Still have questions?</h2>
+                <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--space-4);">Get in touch and we'll help you out</p>
+                <a href="mailto:hello@crimesafe.uk" style="display: inline-block; background: white; color: var(--color-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); font-weight: 600; text-decoration: none;">Contact Us</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-links">
+                <a href="/about/">About</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/safest/">Safest Areas</a>
+                <a href="/dangerous/">Highest Crime</a>
+            </div>
+            <p class="footer-copy">© 2026 CrimeSafe UK. Data from <a href="https://data.police.uk" target="_blank">Police UK</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
