@@ -68,6 +68,8 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
     if crime_data is not None:
         total = crime_data['total_crimes']
         categories = crime_data.get('categories', {})
+        population = crime_data.get('population', 0)
+        crime_rate = crime_data.get('crime_rate_per_1000', 0)
         
         if safety_score is None:
             safety_score = 50  # Default if not provided
@@ -93,6 +95,8 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         property_crime = 0
         asb = 0
         score_color = "var(--color-text-muted)"
+        population = 0
+        crime_rate = 0
     
     if safety_score:
         title = f"{nb_name} Crime Rate 2026 — Safety Score {safety_score}/100 | CrimeSafe UK"
@@ -154,6 +158,16 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                         <div class="kpi-label">Anti-Social</div>
                         <div class="kpi-value">{asb}</div>
                         <div class="kpi-detail">Nuisance, disorder</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Population</div>
+                        <div class="kpi-value">{population:,}</div>
+                        <div class="kpi-detail">Census 2021</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Crime Rate</div>
+                        <div class="kpi-value">{crime_rate:.1f}</div>
+                        <div class="kpi-detail">per 1,000 people</div>
                     </div>
                 </div>
                 
