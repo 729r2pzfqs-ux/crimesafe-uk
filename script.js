@@ -49,7 +49,7 @@ if (searchInput && searchDropdown) {
         
         const nbResults = (typeof NEIGHBOURHOODS_SEARCH !== 'undefined' ? NEIGHBOURHOODS_SEARCH : [])
             .filter(n => n[0].toLowerCase().includes(q) || n[1].toLowerCase().includes(q))
-            .slice(0, 8)
+            .slice(0, 6)
             .map(n => ({
                 name: n[0],
                 meta: n[1],
@@ -58,7 +58,18 @@ if (searchInput && searchDropdown) {
                 type: 'neighbourhood'
             }));
         
-        const results = [...forceResults, ...nbResults];
+        const cityResults = (typeof CITIES_SEARCH !== 'undefined' ? CITIES_SEARCH : [])
+            .filter(c => c[0].toLowerCase().includes(q))
+            .slice(0, 4)
+            .map(c => ({
+                name: c[0],
+                meta: c[3] + ' areas',
+                score: c[1],
+                url: '/city/' + c[2] + '/',
+                type: 'city'
+            }));
+        
+        const results = [...cityResults, ...forceResults, ...nbResults];
         
         if (!results.length) {
             searchDropdown.innerHTML = '<div class="search-item" style="justify-content:center;color:var(--color-text-muted);">No results found</div>';

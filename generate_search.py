@@ -64,6 +64,31 @@ def main():
                 nb_slug
             ])
     
+    # Cities: [name, score, slug, neighbourhood_count]
+    cities_search = []
+    city_dir = "city"
+    if os.path.exists(city_dir):
+        for city_slug in os.listdir(city_dir):
+            city_path = f"{city_dir}/{city_slug}/index.html"
+            if os.path.isdir(f"{city_dir}/{city_slug}") and os.path.exists(city_path):
+                # Extract score from city page
+                with open(city_path) as f:
+                    content = f.read()
+                
+                # Get score
+                import re
+                score_match = re.search(r'Safety Score[:\s]*(\d+)', content)
+                score = int(score_match.group(1)) if score_match else None
+                
+                # Get neighbourhood count
+                count_match = re.search(r'(\d+)\s*(?:areas|neighbourhoods)', content)
+                count = int(count_match.group(1)) if count_match else 0
+                
+                # Format name from slug
+                name = city_slug.replace('-', ' ').title()
+                
+                cities_search.append([name, score, city_slug, count])
+    
     # Write JS files
     with open(f"{OUTPUT_DIR}/forces_search.js", 'w') as f:
         f.write(f"const FORCES_SEARCH = {json.dumps(forces_search, ensure_ascii=False)};\n")
@@ -71,10 +96,14 @@ def main():
     with open(f"{OUTPUT_DIR}/neighbourhoods_search.js", 'w') as f:
         f.write(f"const NEIGHBOURHOODS_SEARCH = {json.dumps(neighbourhoods_search, ensure_ascii=False)};\n")
     
+    with open(f"{OUTPUT_DIR}/cities_search.js", 'w') as f:
+        f.write(f"const CITIES_SEARCH = {json.dumps(cities_search, ensure_ascii=False)};\n")
+    
     print(f"Generated search data:")
     print(f"  - {len(forces_search)} forces")
     print(f"  - {len(neighbourhoods_search)} neighbourhoods")
     print(f"  - {sum(1 for n in neighbourhoods_search if n[2] is not None)} with scores")
+    print(f"  - {len(cities_search)} cities")
 
 if __name__ == "__main__":
     main()
