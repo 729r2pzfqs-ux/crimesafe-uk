@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Maps — Interactive UK Crime Maps | CrimeSafe UK</title>
+    <meta name="description" content="Interactive crime maps for UK cities. Explore safety scores, compare neighbourhoods, and find the safest areas.">
+    <link rel="canonical" href="https://crimesafe.uk/maps/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .map-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: var(--space-6);
+            margin-top: var(--space-6);
+        }
+        .map-card {
+            background: var(--color-surface);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--color-border);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .map-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        .map-card-img {
+            height: 180px;
+            background: linear-gradient(135deg, var(--color-primary) 0%, #1a4d2e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+        }
+        .map-card-body {
+            padding: var(--space-5);
+        }
+        .map-card-title {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            margin-bottom: var(--space-2);
+        }
+        .map-card-meta {
+            color: var(--color-text-muted);
+            font-size: var(--text-sm);
+            margin-bottom: var(--space-4);
+        }
+        .map-card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            color: var(--color-primary);
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .map-card-link:hover {
+            text-decoration: underline;
+        }
+        .coming-soon {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        .coming-soon .map-card-img {
+            background: linear-gradient(135deg, #64748b 0%, #475569 100%);
+        }
+        .badge-soon {
+            display: inline-block;
+            background: #f1f5f9;
+            color: #64748b;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/maps/" class="active">Maps</a>
+                <a href="/safest/">Safest Areas</a>
+                <a href="/about/">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="padding: var(--space-8) var(--space-4);">
+        <div style="text-align: center; margin-bottom: var(--space-6);">
+            <h1 style="font-size: var(--text-3xl); font-weight: 700; margin-bottom: var(--space-2);">Interactive Crime Maps</h1>
+            <p style="color: var(--color-text-muted); max-width: 600px; margin: 0 auto;">
+                Explore crime statistics visually. Click any neighbourhood to see safety scores and detailed breakdowns.
+            </p>
+        </div>
+
+        <div class="map-grid">
+            <div class="map-card">
+                <div class="map-card-img">🗺️</div>
+                <div class="map-card-body">
+                    <h2 class="map-card-title">London</h2>
+                    <p class="map-card-meta">679 neighbourhoods · Metropolitan Police</p>
+                    <a href="/maps/london/" class="map-card-link">
+                        Explore map →
+                    </a>
+                </div>
+            </div>
+
+            <div class="map-card coming-soon">
+                <div class="map-card-img">🗺️</div>
+                <div class="map-card-body">
+                    <h2 class="map-card-title">Manchester <span class="badge-soon">Coming Soon</span></h2>
+                    <p class="map-card-meta">50 neighbourhoods · Greater Manchester Police</p>
+                    <span class="map-card-link" style="color: #94a3b8;">Coming soon</span>
+                </div>
+            </div>
+
+            <div class="map-card coming-soon">
+                <div class="map-card-img">🗺️</div>
+                <div class="map-card-body">
+                    <h2 class="map-card-title">Birmingham <span class="badge-soon">Coming Soon</span></h2>
+                    <p class="map-card-meta">44 neighbourhoods · West Midlands Police</p>
+                    <span class="map-card-link" style="color: #94a3b8;">Coming soon</span>
+                </div>
+            </div>
+
+            <div class="map-card coming-soon">
+                <div class="map-card-img">🗺️</div>
+                <div class="map-card-body">
+                    <h2 class="map-card-title">Liverpool <span class="badge-soon">Coming Soon</span></h2>
+                    <p class="map-card-meta">32 neighbourhoods · Merseyside Police</p>
+                    <span class="map-card-link" style="color: #94a3b8;">Coming soon</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-links">
+                <a href="/about/">About</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/maps/">Maps</a>
+                <a href="/safest/">Safest Areas</a>
+            </div>
+            <p class="footer-copy">© 2026 CrimeSafe UK. Data from <a href="https://data.police.uk" target="_blank">Police UK</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>

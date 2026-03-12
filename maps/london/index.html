@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Crime Map 2026 — Interactive Safety Map | CrimeSafe UK</title>
+    <meta name="description" content="Interactive crime map of London showing safety scores for all 679 neighbourhoods. Click any area to see crime statistics and compare locations.">
+    <link rel="canonical" href="https://crimesafe.uk/maps/london/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <style>
+        #map {
+            height: 70vh;
+            min-height: 500px;
+            width: 100%;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--color-border);
+        }
+        .map-legend {
+            display: flex;
+            gap: var(--space-4);
+            justify-content: center;
+            margin-top: var(--space-4);
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            font-size: var(--text-sm);
+            color: var(--color-text-muted);
+        }
+        .legend-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+        }
+        .map-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: var(--space-4);
+            margin-top: var(--space-6);
+        }
+        .map-stat {
+            background: var(--color-surface);
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+            text-align: center;
+            border: 1px solid var(--color-border);
+        }
+        .map-stat-value {
+            font-size: var(--text-2xl);
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+        .map-stat-label {
+            font-size: var(--text-sm);
+            color: var(--color-text-muted);
+        }
+        .leaflet-popup-content {
+            margin: 12px;
+            min-width: 200px;
+        }
+        .popup-name {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .popup-score {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .popup-stats {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+        .popup-link {
+            display: block;
+            background: var(--color-primary);
+            color: white;
+            text-align: center;
+            padding: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .popup-link:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/maps/" class="active">Maps</a>
+                <a href="/safest/">Safest Areas</a>
+                <a href="/about/">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="padding: var(--space-8) var(--space-4);">
+        <div style="text-align: center; margin-bottom: var(--space-6);">
+            <h1 style="font-size: var(--text-3xl); font-weight: 700; margin-bottom: var(--space-2);">London Crime Map</h1>
+            <p style="color: var(--color-text-muted); max-width: 600px; margin: 0 auto;">
+                Interactive map showing safety scores for all 679 Metropolitan Police neighbourhoods. 
+                Click any area to see details.
+            </p>
+        </div>
+
+        <div id="map"></div>
+
+        <div class="map-legend">
+            <div class="legend-item">
+                <span class="legend-dot" style="background: #22c55e;"></span>
+                <span>Safe (60-100)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-dot" style="background: #eab308;"></span>
+                <span>Moderate (40-59)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-dot" style="background: #f97316;"></span>
+                <span>Elevated (20-39)</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-dot" style="background: #ef4444;"></span>
+                <span>High Risk (0-19)</span>
+            </div>
+        </div>
+
+        <div class="map-stats" id="mapStats">
+            <div class="map-stat">
+                <div class="map-stat-value" id="statTotal">679</div>
+                <div class="map-stat-label">Neighbourhoods</div>
+            </div>
+            <div class="map-stat">
+                <div class="map-stat-value" id="statSafe">-</div>
+                <div class="map-stat-label">Safe Areas (60+)</div>
+            </div>
+            <div class="map-stat">
+                <div class="map-stat-value" id="statRisky">-</div>
+                <div class="map-stat-label">High Risk (0-19)</div>
+            </div>
+            <div class="map-stat">
+                <div class="map-stat-value" id="statAvg">-</div>
+                <div class="map-stat-label">Average Score</div>
+            </div>
+        </div>
+
+        <div style="margin-top: var(--space-8); text-align: center;">
+            <p style="color: var(--color-text-muted); font-size: var(--text-sm);">
+                Data from Police UK API · Population from Census 2021 · 
+                <a href="/about/" style="color: var(--color-primary);">Learn about our methodology</a>
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-links">
+                <a href="/about/">About</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/maps/">Maps</a>
+                <a href="/safest/">Safest Areas</a>
+            </div>
+            <p class="footer-copy">© 2026 CrimeSafe UK. Data from <a href="https://data.police.uk" target="_blank">Police UK</a>.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="data.js"></script>
+    <script>
+        // Initialize map centered on London
+        const map = L.map('map').setView([51.509, -0.118], 11);
+        
+        // Add tile layer
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors © CARTO',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Color function
+        function getColor(score) {
+            if (score >= 60) return '#22c55e';
+            if (score >= 40) return '#eab308';
+            if (score >= 20) return '#f97316';
+            return '#ef4444';
+        }
+
+        // Add markers
+        let safe = 0, risky = 0, totalScore = 0;
+        
+        LONDON_DATA.forEach(d => {
+            const color = getColor(d.sc);
+            
+            if (d.sc >= 60) safe++;
+            if (d.sc < 20) risky++;
+            totalScore += d.sc;
+            
+            const marker = L.circleMarker([d.lt, d.lg], {
+                radius: 8,
+                fillColor: color,
+                color: '#fff',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+            }).addTo(map);
+            
+            marker.bindPopup(`
+                <div class="popup-name">${d.n}</div>
+                <span class="popup-score" style="background: ${color};">${d.sc}</span>
+                <div class="popup-stats">
+                    <strong>${d.t}</strong> crimes/month<br>
+                    <strong>${d.r}</strong> per 1,000 people
+                </div>
+                <a href="/neighbourhood/metropolitan-police-service/${d.s}/" class="popup-link">View Details →</a>
+            `);
+        });
+
+        // Update stats
+        document.getElementById('statSafe').textContent = safe;
+        document.getElementById('statRisky').textContent = risky;
+        document.getElementById('statAvg').textContent = Math.round(totalScore / LONDON_DATA.length);
+    </script>
+</body>
+</html>
