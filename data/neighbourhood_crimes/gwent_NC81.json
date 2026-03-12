@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NC81", "neighbourhood_name": "Stow Hill", "force_id": "gwent", "lat": "51.5834", "lng": "-2.99666", "population": "4453", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "NC81", "neighbourhood_name": "Stow Hill", "force_id": "gwent", "lat": "51.5834", "lng": "-2.99666", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "84", "neighbourhood_name": "Messingham", "force_id": "humberside", "lat": "53.5388", "lng": "-0.651924", "population": "0", "total_crimes": 4, "categories": {"public-order": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "84", "neighbourhood_name": "Messingham", "force_id": "humberside", "lat": "53.5388", "lng": "-0.651924", "population": 12098, "total_crimes": 4, "categories": {"public-order": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.33}

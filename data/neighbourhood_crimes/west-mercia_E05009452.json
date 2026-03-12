@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E05009452", "neighbourhood_name": "Hereford City Southside and Rural", "force_id": "west-mercia", "lat": "51.9698", "lng": "-2.7414", "population": "0", "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E05009452", "neighbourhood_name": "Hereford City Southside and Rural", "force_id": "west-mercia", "lat": "51.9698", "lng": "-2.7414", "population": 3870, "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.52}

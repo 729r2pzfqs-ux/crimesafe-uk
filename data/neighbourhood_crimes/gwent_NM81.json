@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NM81", "neighbourhood_name": "Victoria", "force_id": "gwent", "lat": "51.588", "lng": "-2.98383", "population": "6688", "total_crimes": 4, "categories": {"violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "NM81", "neighbourhood_name": "Victoria", "force_id": "gwent", "lat": "51.588", "lng": "-2.98383", "population": 12098, "total_crimes": 4, "categories": {"violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.33}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NR39", "neighbourhood_name": "Broughton Astley and Walton", "force_id": "leicestershire", "lat": "52.5057", "lng": "-1.16955", "population": "0", "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "NR39", "neighbourhood_name": "Broughton Astley and Walton", "force_id": "leicestershire", "lat": "52.5057", "lng": "-1.16955", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.25}

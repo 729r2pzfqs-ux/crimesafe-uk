@@ -1,1 +1,1 @@
-{"neighbourhood_id": "8OL03", "neighbourhood_name": "Four Marks and Ropley", "force_id": "hampshire", "lat": "51.0953", "lng": "-1.01915", "population": "0", "total_crimes": 4, "categories": {"public-order": 2, "violent-crime": 1, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "8OL03", "neighbourhood_name": "Four Marks and Ropley", "force_id": "hampshire", "lat": "51.0953", "lng": "-1.01915", "population": 12098, "total_crimes": 4, "categories": {"public-order": 2, "violent-crime": 1, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.33}

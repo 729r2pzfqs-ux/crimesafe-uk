@@ -1,1 +1,1 @@
-{"neighbourhood_id": "VC03", "neighbourhood_name": "Shakerley", "force_id": "cheshire", "lat": "53.2252", "lng": "-2.41099", "population": "0", "total_crimes": 3, "categories": {"public-order": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "VC03", "neighbourhood_name": "Shakerley", "force_id": "cheshire", "lat": "53.2252", "lng": "-2.41099", "population": 12098, "total_crimes": 3, "categories": {"public-order": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "RV21", "neighbourhood_name": "Waddington, Bashall Eaves &amp; Mitton", "force_id": "lancashire", "lat": "53.878", "lng": "-2.4486", "population": "0", "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01"}
+{"neighbourhood_id": "RV21", "neighbourhood_name": "Waddington, Bashall Eaves &amp; Mitton", "force_id": "lancashire", "lat": "53.878", "lng": "-2.4486", "population": 12098, "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

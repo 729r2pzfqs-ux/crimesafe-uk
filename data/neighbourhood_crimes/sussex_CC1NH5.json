@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC1NH5", "neighbourhood_name": "Clifton, Montpelier, Powis", "force_id": "sussex", "lat": "50.8256", "lng": "-0.151158", "population": "6510", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "CC1NH5", "neighbourhood_name": "Clifton, Montpelier, Powis", "force_id": "sussex", "lat": "50.8256", "lng": "-0.151158", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

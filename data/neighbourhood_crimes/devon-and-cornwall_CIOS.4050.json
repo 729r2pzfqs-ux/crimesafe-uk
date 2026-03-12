@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CIOS.4050", "neighbourhood_name": "Bude Rural", "force_id": "devon-and-cornwall", "lat": "50.8103", "lng": "-4.47644", "population": "0", "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "other-theft": 2}, "date": "2026-01"}
+{"neighbourhood_id": "CIOS.4050", "neighbourhood_name": "Bude Rural", "force_id": "devon-and-cornwall", "lat": "50.8103", "lng": "-4.47644", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "other-theft": 2}, "date": "2026-01", "crime_rate_per_1000": 0.25}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "D217", "neighbourhood_name": "Llandysilio", "force_id": "dyfed-powys", "lat": "52.7721", "lng": "-3.06966", "population": "0", "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "D217", "neighbourhood_name": "Llandysilio", "force_id": "dyfed-powys", "lat": "52.7721", "lng": "-3.06966", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.33}

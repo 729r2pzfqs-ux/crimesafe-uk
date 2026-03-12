@@ -1,1 +1,1 @@
-{"neighbourhood_id": "aberkenfig", "neighbourhood_name": "Aberkenfig", "force_id": "south-wales", "lat": "51.5508", "lng": "-3.62362", "population": "0", "total_crimes": 5, "categories": {"criminal-damage-arson": 2, "public-order": 1, "violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "aberkenfig", "neighbourhood_name": "Aberkenfig", "force_id": "south-wales", "lat": "51.5508", "lng": "-3.62362", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 2, "public-order": 1, "violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.41}

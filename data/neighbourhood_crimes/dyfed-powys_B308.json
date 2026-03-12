@@ -1,1 +1,1 @@
-{"neighbourhood_id": "B308", "neighbourhood_name": "Lledrod", "force_id": "dyfed-powys", "lat": "52.2934", "lng": "-3.85842", "population": "0", "total_crimes": 2, "categories": {"other-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "B308", "neighbourhood_name": "Lledrod", "force_id": "dyfed-powys", "lat": "52.2934", "lng": "-3.85842", "population": 12098, "total_crimes": 2, "categories": {"other-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

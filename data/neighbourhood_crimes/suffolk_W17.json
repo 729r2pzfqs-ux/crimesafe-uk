@@ -1,1 +1,1 @@
-{"neighbourhood_id": "W17", "neighbourhood_name": "Sudbury Rural North", "force_id": "suffolk", "lat": "52.1166", "lng": "0.790275", "population": "0", "total_crimes": 4, "categories": {"anti-social-behaviour": 3, "vehicle-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "W17", "neighbourhood_name": "Sudbury Rural North", "force_id": "suffolk", "lat": "52.1166", "lng": "0.790275", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 3, "vehicle-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.33}

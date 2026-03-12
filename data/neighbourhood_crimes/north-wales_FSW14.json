@@ -1,1 +1,1 @@
-{"neighbourhood_id": "FSW14", "neighbourhood_name": "Higher Kinnerton", "force_id": "north-wales", "lat": "53.1428", "lng": "-2.99922", "population": "1633", "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "public-order": 1}, "date": "2026-01"}
+{"neighbourhood_id": "FSW14", "neighbourhood_name": "Higher Kinnerton", "force_id": "north-wales", "lat": "53.1428", "lng": "-2.99922", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "public-order": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

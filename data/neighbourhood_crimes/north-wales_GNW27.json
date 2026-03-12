@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GNW27", "neighbourhood_name": "Talysarn", "force_id": "north-wales", "lat": "53.0668", "lng": "-4.23044", "population": "1772", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "GNW27", "neighbourhood_name": "Talysarn", "force_id": "north-wales", "lat": "53.0668", "lng": "-4.23044", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

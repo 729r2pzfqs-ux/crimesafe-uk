@@ -1,1 +1,1 @@
-{"neighbourhood_id": "ER5", "neighbourhood_name": "Lichfield Rural", "force_id": "staffordshire", "lat": "52.7255", "lng": "-1.90041", "population": "0", "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01"}
+{"neighbourhood_id": "ER5", "neighbourhood_name": "Lichfield Rural", "force_id": "staffordshire", "lat": "52.7255", "lng": "-1.90041", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

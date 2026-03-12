@@ -1,1 +1,1 @@
-{"neighbourhood_id": "N387", "neighbourhood_name": "Eynsham", "force_id": "thames-valley", "lat": "51.7696", "lng": "-1.42299", "population": "7531", "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01"}
+{"neighbourhood_id": "N387", "neighbourhood_name": "Eynsham", "force_id": "thames-valley", "lat": "51.7696", "lng": "-1.42299", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

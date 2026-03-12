@@ -1,1 +1,1 @@
-{"neighbourhood_id": "ER1NH7", "neighbourhood_name": "St Stephens", "force_id": "sussex", "lat": "50.8514", "lng": "0.462499", "population": "4351", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "ER1NH7", "neighbourhood_name": "St Stephens", "force_id": "sussex", "lat": "50.8514", "lng": "0.462499", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

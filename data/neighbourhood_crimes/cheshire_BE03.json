@@ -1,1 +1,1 @@
-{"neighbourhood_id": "BE03", "neighbourhood_name": "Dane Valley", "force_id": "cheshire", "lat": "53.2213", "lng": "-2.35807", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "BE03", "neighbourhood_name": "Dane Valley", "force_id": "cheshire", "lat": "53.2213", "lng": "-2.35807", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

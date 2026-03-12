@@ -1,1 +1,1 @@
-{"neighbourhood_id": "RV15", "neighbourhood_name": "Mellor", "force_id": "lancashire", "lat": "53.7824", "lng": "-2.55041", "population": "0", "total_crimes": 1, "categories": {"drugs": 1}, "date": "2026-01"}
+{"neighbourhood_id": "RV15", "neighbourhood_name": "Mellor", "force_id": "lancashire", "lat": "53.7824", "lng": "-2.55041", "population": 12098, "total_crimes": 1, "categories": {"drugs": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

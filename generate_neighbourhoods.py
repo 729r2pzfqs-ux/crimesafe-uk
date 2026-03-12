@@ -31,25 +31,31 @@ def calculate_weighted_crime(categories):
 
 def calculate_percentile_scores(all_crime_data):
     """
-    Calculate percentile-based safety scores.
-    Lower crime = higher percentile = higher safety score.
+    Calculate percentile-based safety scores using per-capita crime rates.
+    Lower crime rate per 1000 = higher percentile = higher safety score.
     """
-    # Calculate weighted crime for each neighbourhood
-    weighted_crimes = []
+    # Use per-capita crime rate for fairer comparison
+    crime_rates = []
     for key, data in all_crime_data.items():
-        weighted = calculate_weighted_crime(data.get('categories', {}))
-        weighted_crimes.append((key, weighted))
+        # Use crime_rate_per_1000 if available, otherwise fall back to weighted calculation
+        rate = data.get('crime_rate_per_1000')
+        if rate is None:
+            # Fallback: calculate from total_crimes and estimated population
+            pop = data.get('population', 12098)  # National average
+            total = data.get('total_crimes', 0)
+            rate = (total / pop) * 1000 if pop > 0 else 0
+        crime_rates.append((key, rate))
     
-    # Sort by weighted crime (ascending - lowest crime first)
-    weighted_crimes.sort(key=lambda x: x[1])
+    # Sort by crime rate (ascending - lowest rate first = safest)
+    crime_rates.sort(key=lambda x: x[1])
     
     # Assign percentile scores
-    total = len(weighted_crimes)
+    total = len(crime_rates)
     scores = {}
-    for i, (key, weighted) in enumerate(weighted_crimes):
+    for i, (key, rate) in enumerate(crime_rates):
         # Percentile: what % of neighbourhoods have MORE crime than this one
         percentile = (i / max(1, total - 1)) * 100
-        # Safest (lowest crime) get highest scores
+        # Safest (lowest crime rate) get highest scores
         safety_score = round(100 - percentile)
         scores[key] = safety_score
     

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "A019", "neighbourhood_name": "Betws", "force_id": "dyfed-powys", "lat": "51.7825", "lng": "-3.96814", "population": "0", "total_crimes": 15, "categories": {"burglary": 1, "criminal-damage-arson": 2, "drugs": 5, "violent-crime": 7}, "date": "2026-01"}
+{"neighbourhood_id": "A019", "neighbourhood_name": "Betws", "force_id": "dyfed-powys", "lat": "51.7825", "lng": "-3.96814", "population": 12098, "total_crimes": 15, "categories": {"burglary": 1, "criminal-damage-arson": 2, "drugs": 5, "violent-crime": 7}, "date": "2026-01", "crime_rate_per_1000": 1.24}

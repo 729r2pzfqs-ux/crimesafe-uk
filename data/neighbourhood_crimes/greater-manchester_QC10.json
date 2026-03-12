@@ -1,1 +1,1 @@
-{"neighbourhood_id": "QC10", "neighbourhood_name": "Oldham Town Centre", "force_id": "greater-manchester", "lat": "53.5414", "lng": "-2.1124", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "QC10", "neighbourhood_name": "Oldham Town Centre", "force_id": "greater-manchester", "lat": "53.5414", "lng": "-2.1124", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

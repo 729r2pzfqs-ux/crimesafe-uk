@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AE025", "neighbourhood_name": "Somerton and Langport", "force_id": "avon-and-somerset", "lat": "51.055", "lng": "-2.80322", "population": "0", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "AE025", "neighbourhood_name": "Somerton and Langport", "force_id": "avon-and-somerset", "lat": "51.055", "lng": "-2.80322", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

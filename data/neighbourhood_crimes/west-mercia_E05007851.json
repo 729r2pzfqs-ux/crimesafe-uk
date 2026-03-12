@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E05007851", "neighbourhood_name": "Martley and Tenbury", "force_id": "west-mercia", "lat": "52.2871", "lng": "-2.44726", "population": "0", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E05007851", "neighbourhood_name": "Martley and Tenbury", "force_id": "west-mercia", "lat": "52.2871", "lng": "-2.44726", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

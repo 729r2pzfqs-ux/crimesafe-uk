@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E9", "neighbourhood_name": "Bungay and Wainford", "force_id": "suffolk", "lat": "52.4311", "lng": "1.54669", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E9", "neighbourhood_name": "Bungay and Wainford", "force_id": "suffolk", "lat": "52.4311", "lng": "1.54669", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

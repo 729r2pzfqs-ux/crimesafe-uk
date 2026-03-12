@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E05008191", "neighbourhood_name": "Shrewsbury Rural West", "force_id": "west-mercia", "lat": "52.6979", "lng": "-2.88165", "population": "0", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E05008191", "neighbourhood_name": "Shrewsbury Rural West", "force_id": "west-mercia", "lat": "52.6979", "lng": "-2.88165", "population": 5461, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.18}

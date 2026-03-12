@@ -1,1 +1,1 @@
-{"neighbourhood_id": "RV26", "neighbourhood_name": "Wiswell &amp; Barrow", "force_id": "lancashire", "lat": "53.8431", "lng": "-2.37437", "population": "0", "total_crimes": 3, "categories": {"anti-social-behaviour": 2, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "RV26", "neighbourhood_name": "Wiswell &amp; Barrow", "force_id": "lancashire", "lat": "53.8431", "lng": "-2.37437", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 2, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC2NH8", "neighbourhood_name": "Kemp Town", "force_id": "sussex", "lat": "50.8172", "lng": "-0.117909", "population": "7795", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "CC2NH8", "neighbourhood_name": "Kemp Town", "force_id": "sussex", "lat": "50.8172", "lng": "-0.117909", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

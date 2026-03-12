@@ -1,1 +1,1 @@
-{"neighbourhood_id": "55.DU3002", "neighbourhood_name": "Gillingham and Shaftesbury", "force_id": "dorset", "lat": "51.0219", "lng": "-2.24327", "population": "0", "total_crimes": 2, "categories": {"burglary": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "55.DU3002", "neighbourhood_name": "Gillingham and Shaftesbury", "force_id": "dorset", "lat": "51.0219", "lng": "-2.24327", "population": 12098, "total_crimes": 2, "categories": {"burglary": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

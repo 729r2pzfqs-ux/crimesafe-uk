@@ -1,1 +1,1 @@
-{"neighbourhood_id": "Ballymena", "neighbourhood_name": "Ballymena", "force_id": "northern-ireland", "lat": "54.9042", "lng": "-6.22559", "population": "47550", "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "drugs": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "Ballymena", "neighbourhood_name": "Ballymena", "force_id": "northern-ireland", "lat": "54.9042", "lng": "-6.22559", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "drugs": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

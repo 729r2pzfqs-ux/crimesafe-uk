@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC2NH5", "neighbourhood_name": "Queens Park", "force_id": "sussex", "lat": "50.8255", "lng": "-0.124077", "population": "3261", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "CC2NH5", "neighbourhood_name": "Queens Park", "force_id": "sussex", "lat": "50.8255", "lng": "-0.124077", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "D506", "neighbourhood_name": "Maescar and Llywel", "force_id": "dyfed-powys", "lat": "51.9433", "lng": "-3.63007", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "D506", "neighbourhood_name": "Maescar and Llywel", "force_id": "dyfed-powys", "lat": "51.9433", "lng": "-3.63007", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

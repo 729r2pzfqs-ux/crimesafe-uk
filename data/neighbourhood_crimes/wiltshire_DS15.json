@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DS15", "neighbourhood_name": "Ridgeway Villages", "force_id": "wiltshire", "lat": "51.5434", "lng": "-1.66745", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "DS15", "neighbourhood_name": "Ridgeway Villages", "force_id": "wiltshire", "lat": "51.5434", "lng": "-1.66745", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

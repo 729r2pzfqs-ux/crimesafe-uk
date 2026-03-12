@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GC06", "neighbourhood_name": "Ashton Hurst", "force_id": "greater-manchester", "lat": "53.5091", "lng": "-2.076", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "GC06", "neighbourhood_name": "Ashton Hurst", "force_id": "greater-manchester", "lat": "53.5091", "lng": "-2.076", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

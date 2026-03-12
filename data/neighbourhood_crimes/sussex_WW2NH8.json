@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WW2NH8", "neighbourhood_name": "Gaisford", "force_id": "sussex", "lat": "50.824", "lng": "-0.379626", "population": "8326", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "WW2NH8", "neighbourhood_name": "Gaisford", "force_id": "sussex", "lat": "50.824", "lng": "-0.379626", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

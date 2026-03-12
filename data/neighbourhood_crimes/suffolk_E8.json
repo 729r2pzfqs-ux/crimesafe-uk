@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E8", "neighbourhood_name": "Beccles and Worlingham", "force_id": "suffolk", "lat": "52.4564", "lng": "1.61122", "population": "0", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "E8", "neighbourhood_name": "Beccles and Worlingham", "force_id": "suffolk", "lat": "52.4564", "lng": "1.61122", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

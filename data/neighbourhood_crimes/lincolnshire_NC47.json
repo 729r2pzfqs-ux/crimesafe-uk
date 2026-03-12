@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NC47", "neighbourhood_name": "Market Deeping and Uffington", "force_id": "lincolnshire", "lat": "52.696", "lng": "-0.338303", "population": "0", "total_crimes": 2, "categories": {"public-order": 1, "vehicle-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NC47", "neighbourhood_name": "Market Deeping and Uffington", "force_id": "lincolnshire", "lat": "52.696", "lng": "-0.338303", "population": 12098, "total_crimes": 2, "categories": {"public-order": 1, "vehicle-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "W4", "neighbourhood_name": "Lakenheath and the Rows", "force_id": "suffolk", "lat": "52.3975", "lng": "0.50527", "population": "0", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "W4", "neighbourhood_name": "Lakenheath and the Rows", "force_id": "suffolk", "lat": "52.3975", "lng": "0.50527", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

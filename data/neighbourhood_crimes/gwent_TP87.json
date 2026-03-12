@@ -1,1 +1,1 @@
-{"neighbourhood_id": "TP87", "neighbourhood_name": "Blaenavon", "force_id": "gwent", "lat": "51.7767", "lng": "-3.09366", "population": "5763", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "TP87", "neighbourhood_name": "Blaenavon", "force_id": "gwent", "lat": "51.7767", "lng": "-3.09366", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

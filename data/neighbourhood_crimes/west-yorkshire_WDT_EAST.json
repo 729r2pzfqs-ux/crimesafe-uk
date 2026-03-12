@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WDT_EAST", "neighbourhood_name": "Wakefield East", "force_id": "west-yorkshire", "lat": "53.6586", "lng": "-1.31186", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "WDT_EAST", "neighbourhood_name": "Wakefield East", "force_id": "west-yorkshire", "lat": "53.6586", "lng": "-1.31186", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

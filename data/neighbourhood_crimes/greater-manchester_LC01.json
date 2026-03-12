@@ -1,1 +1,1 @@
-{"neighbourhood_id": "LC01", "neighbourhood_name": "Astley Mosley Common", "force_id": "greater-manchester", "lat": "53.4913", "lng": "-2.45551", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "LC01", "neighbourhood_name": "Astley Mosley Common", "force_id": "greater-manchester", "lat": "53.4913", "lng": "-2.45551", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

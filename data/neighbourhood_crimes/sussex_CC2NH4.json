@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC2NH4", "neighbourhood_name": "Hanover", "force_id": "sussex", "lat": "50.8291", "lng": "-0.129271", "population": "4381", "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "CC2NH4", "neighbourhood_name": "Hanover", "force_id": "sussex", "lat": "50.8291", "lng": "-0.129271", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.25}

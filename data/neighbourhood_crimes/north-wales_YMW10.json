@@ -1,1 +1,1 @@
-{"neighbourhood_id": "YMW10", "neighbourhood_name": "Llanfair-yn-Neubwll", "force_id": "north-wales", "lat": "53.2745", "lng": "-4.50954", "population": "2762", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "YMW10", "neighbourhood_name": "Llanfair-yn-Neubwll", "force_id": "north-wales", "lat": "53.2745", "lng": "-4.50954", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

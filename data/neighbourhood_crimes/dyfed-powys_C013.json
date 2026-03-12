@@ -1,1 +1,1 @@
-{"neighbourhood_id": "C013", "neighbourhood_name": "Wiston", "force_id": "dyfed-powys", "lat": "51.8565", "lng": "-4.88541", "population": "0", "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01"}
+{"neighbourhood_id": "C013", "neighbourhood_name": "Wiston", "force_id": "dyfed-powys", "lat": "51.8565", "lng": "-4.88541", "population": 12098, "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

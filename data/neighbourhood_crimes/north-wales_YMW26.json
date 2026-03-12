@@ -1,1 +1,1 @@
-{"neighbourhood_id": "YMW26", "neighbourhood_name": "Bodorgan", "force_id": "north-wales", "lat": "53.2037", "lng": "-4.38112", "population": "1542", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "YMW26", "neighbourhood_name": "Bodorgan", "force_id": "north-wales", "lat": "53.2037", "lng": "-4.38112", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

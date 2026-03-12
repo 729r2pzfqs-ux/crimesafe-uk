@@ -1,1 +1,1 @@
-{"neighbourhood_id": "B22", "neighbourhood_name": "Attleborough", "force_id": "norfolk", "lat": "52.4696", "lng": "0.925498", "population": "0", "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "B22", "neighbourhood_name": "Attleborough", "force_id": "norfolk", "lat": "52.4696", "lng": "0.925498", "population": 12098, "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

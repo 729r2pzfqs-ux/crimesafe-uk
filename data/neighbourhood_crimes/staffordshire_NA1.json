@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NA1", "neighbourhood_name": "Leek Rural", "force_id": "staffordshire", "lat": "53.1088", "lng": "-2.1057", "population": "0", "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NA1", "neighbourhood_name": "Leek Rural", "force_id": "staffordshire", "lat": "53.1088", "lng": "-2.1057", "population": 12098, "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

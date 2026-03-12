@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WCW02", "neighbourhood_name": "Pandy", "force_id": "north-wales", "lat": "53.2466", "lng": "-3.94569", "population": "1772", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01"}
+{"neighbourhood_id": "WCW02", "neighbourhood_name": "Pandy", "force_id": "north-wales", "lat": "53.2466", "lng": "-3.94569", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

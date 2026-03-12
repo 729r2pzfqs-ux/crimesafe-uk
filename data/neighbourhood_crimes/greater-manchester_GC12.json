@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GC12", "neighbourhood_name": "Hyde Werneth", "force_id": "greater-manchester", "lat": "53.4394", "lng": "-2.05932", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "GC12", "neighbourhood_name": "Hyde Werneth", "force_id": "greater-manchester", "lat": "53.4394", "lng": "-2.05932", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

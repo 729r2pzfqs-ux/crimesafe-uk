@@ -1,1 +1,1 @@
-{"neighbourhood_id": "A33", "neighbourhood_name": "Downham Market", "force_id": "norfolk", "lat": "52.5461", "lng": "0.391449", "population": "0", "total_crimes": 2, "categories": {"drugs": 1, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "A33", "neighbourhood_name": "Downham Market", "force_id": "norfolk", "lat": "52.5461", "lng": "0.391449", "population": 12098, "total_crimes": 2, "categories": {"drugs": 1, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

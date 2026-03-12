@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC85", "neighbourhood_name": "Cefn Fforest", "force_id": "gwent", "lat": "51.6693", "lng": "-3.21053", "population": "3589", "total_crimes": 2, "categories": {"drugs": 1, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "CC85", "neighbourhood_name": "Cefn Fforest", "force_id": "gwent", "lat": "51.6693", "lng": "-3.21053", "population": 12098, "total_crimes": 2, "categories": {"drugs": 1, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

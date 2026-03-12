@@ -1,1 +1,1 @@
-{"neighbourhood_id": "TC90", "neighbourhood_name": "Fairwater", "force_id": "gwent", "lat": "51.6469", "lng": "-3.05668", "population": "5559", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01"}
+{"neighbourhood_id": "TC90", "neighbourhood_name": "Fairwater", "force_id": "gwent", "lat": "51.6469", "lng": "-3.05668", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

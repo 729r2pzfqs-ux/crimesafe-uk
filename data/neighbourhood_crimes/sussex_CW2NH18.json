@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CW2NH18", "neighbourhood_name": "Wish", "force_id": "sussex", "lat": "50.8306", "lng": "-0.196897", "population": "9038", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "CW2NH18", "neighbourhood_name": "Wish", "force_id": "sussex", "lat": "50.8306", "lng": "-0.196897", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

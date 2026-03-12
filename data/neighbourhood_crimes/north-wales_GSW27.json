@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GSW27", "neighbourhood_name": "Llanuwchllyn", "force_id": "north-wales", "lat": "52.8525", "lng": "-3.64567", "population": "836", "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01"}
+{"neighbourhood_id": "GSW27", "neighbourhood_name": "Llanuwchllyn", "force_id": "north-wales", "lat": "52.8525", "lng": "-3.64567", "population": 12098, "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

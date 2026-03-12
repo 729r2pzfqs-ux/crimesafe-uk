@@ -1,1 +1,1 @@
-{"neighbourhood_id": "6LW03", "neighbourhood_name": "Wight Rural West", "force_id": "hampshire", "lat": "50.6995", "lng": "-1.4597", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "6LW03", "neighbourhood_name": "Wight Rural West", "force_id": "hampshire", "lat": "50.6995", "lng": "-1.4597", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

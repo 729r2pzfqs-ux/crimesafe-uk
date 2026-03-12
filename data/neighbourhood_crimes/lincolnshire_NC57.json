@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NC57", "neighbourhood_name": "Spilsby", "force_id": "lincolnshire", "lat": "53.1487", "lng": "0.0680368", "population": "0", "total_crimes": 2, "categories": {"public-order": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NC57", "neighbourhood_name": "Spilsby", "force_id": "lincolnshire", "lat": "53.1487", "lng": "0.0680368", "population": 12098, "total_crimes": 2, "categories": {"public-order": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

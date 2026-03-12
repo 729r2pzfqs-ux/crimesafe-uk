@@ -1,1 +1,1 @@
-{"neighbourhood_id": "D213", "neighbourhood_name": "Llansantffraid", "force_id": "dyfed-powys", "lat": "52.7729", "lng": "-3.18332", "population": "0", "total_crimes": 4, "categories": {"burglary": 1, "violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "D213", "neighbourhood_name": "Llansantffraid", "force_id": "dyfed-powys", "lat": "52.7729", "lng": "-3.18332", "population": 12098, "total_crimes": 4, "categories": {"burglary": 1, "violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.33}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NR01", "neighbourhood_name": "Quarndon and Kirk Langley", "force_id": "derbyshire", "lat": "52.9755", "lng": "-1.54671", "population": "0", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NR01", "neighbourhood_name": "Quarndon and Kirk Langley", "force_id": "derbyshire", "lat": "52.9755", "lng": "-1.54671", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

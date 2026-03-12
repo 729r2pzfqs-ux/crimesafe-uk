@@ -1,1 +1,1 @@
-{"neighbourhood_id": "ZC24", "neighbourhood_name": "Weald Central", "force_id": "kent", "lat": "51.1237", "lng": "0.763681", "population": "0", "total_crimes": 5, "categories": {"public-order": 1, "violent-crime": 2, "other-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "ZC24", "neighbourhood_name": "Weald Central", "force_id": "kent", "lat": "51.1237", "lng": "0.763681", "population": 12098, "total_crimes": 5, "categories": {"public-order": 1, "violent-crime": 2, "other-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.41}

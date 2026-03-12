@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WW2NH9", "neighbourhood_name": "Broadwater", "force_id": "sussex", "lat": "50.8276", "lng": "-0.365242", "population": "8442", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "WW2NH9", "neighbourhood_name": "Broadwater", "force_id": "sussex", "lat": "50.8276", "lng": "-0.365242", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

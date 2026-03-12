@@ -1,1 +1,1 @@
-{"neighbourhood_id": "FSW06", "neighbourhood_name": "Northop", "force_id": "north-wales", "lat": "53.2011", "lng": "-3.12332", "population": "2984", "total_crimes": 5, "categories": {"anti-social-behaviour": 3, "violent-crime": 1, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "FSW06", "neighbourhood_name": "Northop", "force_id": "north-wales", "lat": "53.2011", "lng": "-3.12332", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 3, "violent-crime": 1, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.41}

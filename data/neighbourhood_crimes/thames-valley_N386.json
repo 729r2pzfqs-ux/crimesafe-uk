@@ -1,1 +1,1 @@
-{"neighbourhood_id": "N386", "neighbourhood_name": "Chipping Norton", "force_id": "thames-valley", "lat": "51.9124", "lng": "-1.54786", "population": "20047", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1}, "date": "2026-01"}
+{"neighbourhood_id": "N386", "neighbourhood_name": "Chipping Norton", "force_id": "thames-valley", "lat": "51.9124", "lng": "-1.54786", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

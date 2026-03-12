@@ -1,1 +1,1 @@
-{"neighbourhood_id": "JC05", "neighbourhood_name": "Peel Centre", "force_id": "greater-manchester", "lat": "53.4141", "lng": "-2.15292", "population": "0", "total_crimes": 3, "categories": {"violent-crime": 2, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "JC05", "neighbourhood_name": "Peel Centre", "force_id": "greater-manchester", "lat": "53.4141", "lng": "-2.15292", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 2, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

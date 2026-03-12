@@ -1,1 +1,1 @@
-{"neighbourhood_id": "A037", "neighbourhood_name": "Hengoed", "force_id": "dyfed-powys", "lat": "51.697", "lng": "-4.19176", "population": "0", "total_crimes": 15, "categories": {"burglary": 2, "criminal-damage-arson": 6, "drugs": 2, "violent-crime": 5}, "date": "2026-01"}
+{"neighbourhood_id": "A037", "neighbourhood_name": "Hengoed", "force_id": "dyfed-powys", "lat": "51.697", "lng": "-4.19176", "population": 12098, "total_crimes": 15, "categories": {"burglary": 2, "criminal-damage-arson": 6, "drugs": 2, "violent-crime": 5}, "date": "2026-01", "crime_rate_per_1000": 1.24}

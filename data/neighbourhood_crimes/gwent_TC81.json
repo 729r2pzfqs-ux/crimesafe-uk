@@ -1,1 +1,1 @@
-{"neighbourhood_id": "TC81", "neighbourhood_name": "Llantarnam", "force_id": "gwent", "lat": "51.6373", "lng": "-3.0068", "population": "4688", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "TC81", "neighbourhood_name": "Llantarnam", "force_id": "gwent", "lat": "51.6373", "lng": "-3.0068", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

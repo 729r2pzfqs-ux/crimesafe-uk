@@ -1,1 +1,1 @@
-{"neighbourhood_id": "FY17", "neighbourhood_name": "Wrea Green with Westby", "force_id": "lancashire", "lat": "53.7698", "lng": "-2.94304", "population": "0", "total_crimes": 2, "categories": {"public-order": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "FY17", "neighbourhood_name": "Wrea Green with Westby", "force_id": "lancashire", "lat": "53.7698", "lng": "-2.94304", "population": 12098, "total_crimes": 2, "categories": {"public-order": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}
