@@ -401,3 +401,40 @@ a:hover { color: var(--color-primary-hover); }
   .compare-vs { padding: var(--space-1) 0; }
   .compare-btn { width: 100%; }
 }
+
+/* ===== MOBILE NAV ===== */
+.nav-toggle {
+  display: none;
+  width: 36px; height: 36px;
+  align-items: center; justify-content: center;
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all var(--transition-interactive);
+}
+.nav-toggle:hover { color: var(--color-text); background: var(--color-surface-offset); }
+.nav-toggle svg { width: 20px; height: 20px; }
+
+@media (max-width: 640px) {
+  .nav-toggle { display: flex; }
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-background);
+    border-bottom: 1px solid var(--color-divider);
+    flex-direction: column;
+    padding: var(--space-4);
+    gap: var(--space-1);
+    display: none;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+  }
+  .nav-inner { position: relative; }
+  .nav-right { display: flex; align-items: center; gap: var(--space-1); }
+}
