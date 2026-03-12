@@ -436,3 +436,15 @@ a:hover { color: var(--color-primary-hover); }
   .nav-inner { position: relative; }
   .nav-right { display: flex; align-items: center; gap: var(--space-1); }
 }
+
+/* Fix mobile nav overlay */
+@media (max-width: 640px) {
+  .nav-links {
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  [data-theme="dark"] .nav-links {
+    background: #1a1918;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  }
+}
