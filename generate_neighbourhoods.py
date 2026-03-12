@@ -61,7 +61,7 @@ def calculate_percentile_scores(all_crime_data):
     
     return scores
 
-def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_data=None, safety_score=None):
+def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_data=None, safety_score=None, regional_score=None):
     """Generate a neighbourhood detail page with full content"""
     
     # Calculate stats - show data even for 0 crimes (safest areas!)
@@ -127,10 +127,18 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
             <div class="container" style="max-width: 900px;">
                 <!-- Score Card -->
                 <div class="kpi-card" style="display: flex; align-items: center; gap: var(--space-8); padding: var(--space-8); flex-wrap: wrap; justify-content: center;">
-                    <div style="width: 140px; height: 140px; border-radius: 50%; background: {score_color}; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white;">
-                        <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">{safety_score}</span>
-                        <span style="font-size: var(--text-xs); opacity: 0.9;">Safety Score</span>
+                    <div style="text-align: center;">
+                        <div style="width: 120px; height: 120px; border-radius: 50%; background: {score_color}; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; margin: 0 auto;">
+                            <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">{safety_score}</span>
+                        </div>
+                        <div style="margin-top: var(--space-2); font-size: var(--text-sm); color: var(--color-text-muted);">UK Score</div>
                     </div>
+                    {f'''<div style="text-align: center;">
+                        <div style="width: 120px; height: 120px; border-radius: 50%; background: {"#22c55e" if regional_score >= 60 else "#eab308" if regional_score >= 40 else "#f97316" if regional_score >= 20 else "#ef4444"}; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; margin: 0 auto;">
+                            <span style="font-size: var(--text-2xl); font-weight: 700; line-height: 1;">{regional_score}</span>
+                        </div>
+                        <div style="margin-top: var(--space-2); font-size: var(--text-sm); color: var(--color-text-muted);">{force_name.split()[0]} Score</div>
+                    </div>''' if regional_score is not None else ''}
                     <div style="text-align: center;">
                         <div style="font-size: 4rem; font-weight: 700; color: {score_color}; line-height: 1;">{grade}</div>
                         <div style="color: var(--color-text-muted);">{grade_text}</div>
@@ -335,6 +343,14 @@ def main():
     # Calculate percentile-based scores
     percentile_scores = calculate_percentile_scores(all_crime_data)
     
+    # Load regional scores
+    regional_scores = {}
+    regional_path = f"{DATA_DIR}/regional_scores.json"
+    if os.path.exists(regional_path):
+        with open(regional_path) as f:
+            regional_scores = json.load(f)
+        print(f"Loaded {len(regional_scores)} regional scores")
+    
     # Show score distribution
     scores = list(percentile_scores.values())
     if scores:
@@ -358,11 +374,15 @@ def main():
         # Get percentile score
         safety_score = percentile_scores.get(key, 50)
         
+        # Get regional score
+        regional_key = f"{force_id}_{crime_data.get('neighbourhood_id', '')}"
+        regional_score = regional_scores.get(regional_key)
+        
         # Generate page
         out_dir = f"{OUTPUT_DIR}/neighbourhood/{force_slug}/{nb_slug}"
         os.makedirs(out_dir, exist_ok=True)
         
-        html = generate_neighbourhood_page(force['name'], force_slug, nb_name, nb_slug, crime_data, safety_score)
+        html = generate_neighbourhood_page(force['name'], force_slug, nb_name, nb_slug, crime_data, safety_score, regional_score)
         with open(f"{out_dir}/index.html", 'w') as f:
             f.write(html)
         
