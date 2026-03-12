@@ -194,7 +194,7 @@ a:hover { color: var(--color-primary-hover); }
 .kpi-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-4);
 }
-@media (max-width: 768px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .kpi-grid { grid-template-columns: 1fr; } }
 .kpi-card {
   background: var(--color-surface); border: 1px solid var(--color-divider);
@@ -323,8 +323,6 @@ a:hover { color: var(--color-primary-hover); }
 }
 .animate-in { animation: fadeUp 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; }
 
-@media (max-width: 768px) {
-  .nav-links a:not(.theme-toggle) { display: none; }
 }
 
 /* ===== SEARCH DROPDOWN ===== */
