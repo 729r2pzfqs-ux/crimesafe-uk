@@ -76,19 +76,24 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <div class="container header-inner">
-            <a href="/" class="logo">
-                <span class="logo-icon">🛡️</span>
-                <span class="logo-text">CrimeSafe<span style="font-weight: 400; opacity: 0.8;">.uk</span></span>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
             </a>
-            <nav class="nav">
+            <div class="nav-links">
+                <a href="/">Home</a>
                 <a href="/safest/">Safest Areas</a>
                 <a href="/about/">About</a>
                 <a href="/faq/" class="active">FAQ</a>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main class="container" style="padding: var(--space-8) var(--space-4);">
         <div style="max-width: 800px; margin: 0 auto;">
