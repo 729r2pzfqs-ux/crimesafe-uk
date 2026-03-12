@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AC15", "neighbourhood_name": "Lower Cheetham", "force_id": "greater-manchester", "lat": "53.496", "lng": "-2.23926", "population": "0", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "AC15", "neighbourhood_name": "Lower Cheetham", "force_id": "greater-manchester", "lat": "53.496", "lng": "-2.23926", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

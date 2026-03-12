@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CN209", "neighbourhood_name": "Frampton and Charfield", "force_id": "avon-and-somerset", "lat": "51.5778", "lng": "-2.4631", "population": "0", "total_crimes": 5, "categories": {"anti-social-behaviour": 2, "violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "CN209", "neighbourhood_name": "Frampton and Charfield", "force_id": "avon-and-somerset", "lat": "51.5778", "lng": "-2.4631", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 2, "violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.41}

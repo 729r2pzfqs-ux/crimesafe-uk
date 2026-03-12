@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DEV.4104", "neighbourhood_name": "Ilfracombe West", "force_id": "devon-and-cornwall", "lat": "51.191", "lng": "-4.14851", "population": "0", "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "DEV.4104", "neighbourhood_name": "Ilfracombe West", "force_id": "devon-and-cornwall", "lat": "51.191", "lng": "-4.14851", "population": 12098, "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

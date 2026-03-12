@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC2NH22", "neighbourhood_name": "Craven Vale and Queensway", "force_id": "sussex", "lat": "50.8244", "lng": "-0.119016", "population": "2727", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "CC2NH22", "neighbourhood_name": "Craven Vale and Queensway", "force_id": "sussex", "lat": "50.8244", "lng": "-0.119016", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

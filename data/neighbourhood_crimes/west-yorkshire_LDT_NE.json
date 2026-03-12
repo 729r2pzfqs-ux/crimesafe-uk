@@ -1,1 +1,1 @@
-{"neighbourhood_id": "LDT_NE", "neighbourhood_name": "Leeds North East", "force_id": "west-yorkshire", "lat": "53.8723", "lng": "-1.44177", "population": "0", "total_crimes": 3, "categories": {"other-theft": 1, "violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "LDT_NE", "neighbourhood_name": "Leeds North East", "force_id": "west-yorkshire", "lat": "53.8723", "lng": "-1.44177", "population": 12098, "total_crimes": 3, "categories": {"other-theft": 1, "violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.25}

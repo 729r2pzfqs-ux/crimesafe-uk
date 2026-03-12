@@ -1,1 +1,1 @@
-{"neighbourhood_id": "FC15", "neighbourhood_name": "Winton", "force_id": "greater-manchester", "lat": "53.4847", "lng": "-2.37697", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "FC15", "neighbourhood_name": "Winton", "force_id": "greater-manchester", "lat": "53.4847", "lng": "-2.37697", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GSW07", "neighbourhood_name": "Morfa Nefyn", "force_id": "north-wales", "lat": "52.9307", "lng": "-4.57226", "population": "1262", "total_crimes": 3, "categories": {"other-theft": 1, "violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "GSW07", "neighbourhood_name": "Morfa Nefyn", "force_id": "north-wales", "lat": "52.9307", "lng": "-4.57226", "population": 12098, "total_crimes": 3, "categories": {"other-theft": 1, "violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.25}

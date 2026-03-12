@@ -1,1 +1,1 @@
-{"neighbourhood_id": "XB26", "neighbourhood_name": "East Downs", "force_id": "kent", "lat": "51.2698", "lng": "0.828335", "population": "0", "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "XB26", "neighbourhood_name": "East Downs", "force_id": "kent", "lat": "51.2698", "lng": "0.828335", "population": 12098, "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DEV.4037", "neighbourhood_name": "Ashburton", "force_id": "devon-and-cornwall", "lat": "50.5479", "lng": "-3.7734", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "DEV.4037", "neighbourhood_name": "Ashburton", "force_id": "devon-and-cornwall", "lat": "50.5479", "lng": "-3.7734", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

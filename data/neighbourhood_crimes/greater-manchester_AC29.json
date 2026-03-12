@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AC29", "neighbourhood_name": "Piccadilly Gardens", "force_id": "greater-manchester", "lat": "53.4809", "lng": "-2.23574", "population": "0", "total_crimes": 5, "categories": {"public-order": 1, "violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "AC29", "neighbourhood_name": "Piccadilly Gardens", "force_id": "greater-manchester", "lat": "53.4809", "lng": "-2.23574", "population": 12098, "total_crimes": 5, "categories": {"public-order": 1, "violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.41}

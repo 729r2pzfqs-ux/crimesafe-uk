@@ -1,1 +1,1 @@
-{"neighbourhood_id": "catterick", "neighbourhood_name": "Catterick", "force_id": "north-yorkshire", "lat": "54.3609", "lng": "-1.69991", "population": "0", "total_crimes": 2, "categories": {"drugs": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "catterick", "neighbourhood_name": "Catterick", "force_id": "north-yorkshire", "lat": "54.3609", "lng": "-1.69991", "population": 12098, "total_crimes": 2, "categories": {"drugs": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

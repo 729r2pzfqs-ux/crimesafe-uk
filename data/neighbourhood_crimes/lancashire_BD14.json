@@ -1,1 +1,1 @@
-{"neighbourhood_id": "BD14", "neighbourhood_name": "Darwen West", "force_id": "lancashire", "lat": "53.692", "lng": "-2.50472", "population": "0", "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "BD14", "neighbourhood_name": "Darwen West", "force_id": "lancashire", "lat": "53.692", "lng": "-2.50472", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.41}

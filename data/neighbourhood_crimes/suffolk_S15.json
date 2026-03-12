@@ -1,1 +1,1 @@
-{"neighbourhood_id": "S15", "neighbourhood_name": "Deben and Orford", "force_id": "suffolk", "lat": "52.0775", "lng": "1.45154", "population": "0", "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "burglary": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "S15", "neighbourhood_name": "Deben and Orford", "force_id": "suffolk", "lat": "52.0775", "lng": "1.45154", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "burglary": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "FNW02", "neighbourhood_name": "Gronant", "force_id": "north-wales", "lat": "53.3364", "lng": "-3.34919", "population": "1594", "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "other-theft": 1}, "date": "2026-01"}
+{"neighbourhood_id": "FNW02", "neighbourhood_name": "Gronant", "force_id": "north-wales", "lat": "53.3364", "lng": "-3.34919", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "other-theft": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

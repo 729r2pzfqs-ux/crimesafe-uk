@@ -1,1 +1,1 @@
-{"neighbourhood_id": "FNW15", "neighbourhood_name": "Flint Oakenholt", "force_id": "north-wales", "lat": "53.2383", "lng": "-3.09627", "population": "2921", "total_crimes": 7, "categories": {"anti-social-behaviour": 6, "other-theft": 1}, "date": "2026-01"}
+{"neighbourhood_id": "FNW15", "neighbourhood_name": "Flint Oakenholt", "force_id": "north-wales", "lat": "53.2383", "lng": "-3.09627", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 6, "other-theft": 1}, "date": "2026-01", "crime_rate_per_1000": 0.58}

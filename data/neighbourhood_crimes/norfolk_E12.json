@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E12", "neighbourhood_name": "Aylsham", "force_id": "norfolk", "lat": "52.7574", "lng": "1.27054", "population": "0", "total_crimes": 2, "categories": {"violent-crime": 1, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E12", "neighbourhood_name": "Aylsham", "force_id": "norfolk", "lat": "52.7574", "lng": "1.27054", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 1, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

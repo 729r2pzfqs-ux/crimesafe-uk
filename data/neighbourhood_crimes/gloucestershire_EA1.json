@@ -1,1 +1,1 @@
-{"neighbourhood_id": "EA1", "neighbourhood_name": "Newent", "force_id": "gloucestershire", "lat": "51.9443", "lng": "-2.3841", "population": "0", "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "EA1", "neighbourhood_name": "Newent", "force_id": "gloucestershire", "lat": "51.9443", "lng": "-2.3841", "population": 12098, "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "St_Neots", "neighbourhood_name": "St Neots", "force_id": "cambridgeshire", "lat": "52.2505", "lng": "-0.283733", "population": "44800", "total_crimes": 8, "categories": {"drugs": 1, "other-theft": 1, "violent-crime": 6}, "date": "2026-01"}
+{"neighbourhood_id": "St_Neots", "neighbourhood_name": "St Neots", "force_id": "cambridgeshire", "lat": "52.2505", "lng": "-0.283733", "population": 12098, "total_crimes": 8, "categories": {"drugs": 1, "other-theft": 1, "violent-crime": 6}, "date": "2026-01", "crime_rate_per_1000": 0.66}

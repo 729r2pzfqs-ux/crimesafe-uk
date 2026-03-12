@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CIOS.4010", "neighbourhood_name": "Porthleven &amp;amp; Helston North", "force_id": "devon-and-cornwall", "lat": "50.1378", "lng": "-5.29931", "population": "0", "total_crimes": 1, "categories": {"vehicle-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "CIOS.4010", "neighbourhood_name": "Porthleven &amp;amp; Helston North", "force_id": "devon-and-cornwall", "lat": "50.1378", "lng": "-5.29931", "population": 12098, "total_crimes": 1, "categories": {"vehicle-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GE85", "neighbourhood_name": "Beaufort", "force_id": "gwent", "lat": "51.8028", "lng": "-3.20245", "population": "3876", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "GE85", "neighbourhood_name": "Beaufort", "force_id": "gwent", "lat": "51.8028", "lng": "-3.20245", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

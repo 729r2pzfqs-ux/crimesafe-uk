@@ -1,1 +1,1 @@
-{"neighbourhood_id": "YMW16", "neighbourhood_name": "Llaneilian", "force_id": "north-wales", "lat": "53.37", "lng": "-4.337", "population": "2248", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "YMW16", "neighbourhood_name": "Llaneilian", "force_id": "north-wales", "lat": "53.37", "lng": "-4.337", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

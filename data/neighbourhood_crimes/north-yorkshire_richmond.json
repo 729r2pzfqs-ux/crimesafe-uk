@@ -1,1 +1,1 @@
-{"neighbourhood_id": "richmond", "neighbourhood_name": "Richmond", "force_id": "north-yorkshire", "lat": "54.452", "lng": "-1.70506", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "richmond", "neighbourhood_name": "Richmond", "force_id": "north-yorkshire", "lat": "54.452", "lng": "-1.70506", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

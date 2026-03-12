@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NC29", "neighbourhood_name": "Boston Rural East", "force_id": "lincolnshire", "lat": "53.0002", "lng": "0.115824", "population": "0", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NC29", "neighbourhood_name": "Boston Rural East", "force_id": "lincolnshire", "lat": "53.0002", "lng": "0.115824", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

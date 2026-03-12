@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NE17", "neighbourhood_name": "Tibshelf", "force_id": "derbyshire", "lat": "53.155", "lng": "-1.31864", "population": "0", "total_crimes": 2, "categories": {"drugs": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NE17", "neighbourhood_name": "Tibshelf", "force_id": "derbyshire", "lat": "53.155", "lng": "-1.31864", "population": 12098, "total_crimes": 2, "categories": {"drugs": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NB201", "neighbourhood_name": "Maldon", "force_id": "essex", "lat": "51.7571", "lng": "0.774433", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "NB201", "neighbourhood_name": "Maldon", "force_id": "essex", "lat": "51.7571", "lng": "0.774433", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

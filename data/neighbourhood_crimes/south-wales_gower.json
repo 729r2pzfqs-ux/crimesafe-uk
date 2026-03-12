@@ -1,1 +1,1 @@
-{"neighbourhood_id": "gower", "neighbourhood_name": "Gower", "force_id": "south-wales", "lat": "51.6031", "lng": "-4.22649", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "gower", "neighbourhood_name": "Gower", "force_id": "south-wales", "lat": "51.6031", "lng": "-4.22649", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

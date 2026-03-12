@@ -1,1 +1,1 @@
-{"neighbourhood_id": "bryncoch-north", "neighbourhood_name": "Bryn-coch North", "force_id": "south-wales", "lat": "51.6907", "lng": "-3.81513", "population": "0", "total_crimes": 3, "categories": {"violent-crime": 2, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "bryncoch-north", "neighbourhood_name": "Bryn-coch North", "force_id": "south-wales", "lat": "51.6907", "lng": "-3.81513", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 2, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

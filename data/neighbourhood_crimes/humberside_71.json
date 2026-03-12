@@ -1,1 +1,1 @@
-{"neighbourhood_id": "71", "neighbourhood_name": "Waltham", "force_id": "humberside", "lat": "53.499", "lng": "-0.107296", "population": "0", "total_crimes": 8, "categories": {"burglary": 2, "other-theft": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "71", "neighbourhood_name": "Waltham", "force_id": "humberside", "lat": "53.499", "lng": "-0.107296", "population": 12098, "total_crimes": 8, "categories": {"burglary": 2, "other-theft": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.66}

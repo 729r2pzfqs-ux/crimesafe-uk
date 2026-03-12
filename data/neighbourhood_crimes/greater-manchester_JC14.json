@@ -1,1 +1,1 @@
-{"neighbourhood_id": "JC14", "neighbourhood_name": "Heatons", "force_id": "greater-manchester", "lat": "53.4215", "lng": "-2.19059", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "JC14", "neighbourhood_name": "Heatons", "force_id": "greater-manchester", "lat": "53.4215", "lng": "-2.19059", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

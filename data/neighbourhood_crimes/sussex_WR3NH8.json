@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WR3NH8", "neighbourhood_name": "Broadfield", "force_id": "sussex", "lat": "51.0954", "lng": "-0.206651", "population": "12678", "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "WR3NH8", "neighbourhood_name": "Broadfield", "force_id": "sussex", "lat": "51.0954", "lng": "-0.206651", "population": 12098, "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

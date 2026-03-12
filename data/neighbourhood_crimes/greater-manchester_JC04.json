@@ -1,1 +1,1 @@
-{"neighbourhood_id": "JC04", "neighbourhood_name": "Hillgate and Heaviley", "force_id": "greater-manchester", "lat": "53.3997", "lng": "-2.14316", "population": "0", "total_crimes": 3, "categories": {"violent-crime": 2, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "JC04", "neighbourhood_name": "Hillgate and Heaviley", "force_id": "greater-manchester", "lat": "53.3997", "lng": "-2.14316", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 2, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

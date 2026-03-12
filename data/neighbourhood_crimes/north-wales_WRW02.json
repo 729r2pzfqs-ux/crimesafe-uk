@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WRW02", "neighbourhood_name": "Overton", "force_id": "north-wales", "lat": "52.9437", "lng": "-2.87245", "population": "3139", "total_crimes": 7, "categories": {"criminal-damage-arson": 1, "violent-crime": 6}, "date": "2026-01"}
+{"neighbourhood_id": "WRW02", "neighbourhood_name": "Overton", "force_id": "north-wales", "lat": "52.9437", "lng": "-2.87245", "population": 12098, "total_crimes": 7, "categories": {"criminal-damage-arson": 1, "violent-crime": 6}, "date": "2026-01", "crime_rate_per_1000": 0.58}

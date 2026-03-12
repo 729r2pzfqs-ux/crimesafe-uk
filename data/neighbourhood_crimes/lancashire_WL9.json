@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WL9", "neighbourhood_name": "Rural North East", "force_id": "lancashire", "lat": "53.59", "lng": "-2.74693", "population": "0", "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "public-order": 2}, "date": "2026-01"}
+{"neighbourhood_id": "WL9", "neighbourhood_name": "Rural North East", "force_id": "lancashire", "lat": "53.59", "lng": "-2.74693", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "public-order": 2}, "date": "2026-01", "crime_rate_per_1000": 0.25}

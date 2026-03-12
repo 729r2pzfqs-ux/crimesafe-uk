@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GSW12", "neighbourhood_name": "Abersoch", "force_id": "north-wales", "lat": "52.8307", "lng": "-4.50387", "population": "900", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "GSW12", "neighbourhood_name": "Abersoch", "force_id": "north-wales", "lat": "52.8307", "lng": "-4.50387", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "york-outer-east", "neighbourhood_name": "York Outer (East)", "force_id": "north-yorkshire", "lat": "53.9331", "lng": "-1.01168", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "york-outer-east", "neighbourhood_name": "York Outer (East)", "force_id": "north-yorkshire", "lat": "53.9331", "lng": "-1.01168", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

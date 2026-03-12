@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GSW18", "neighbourhood_name": "Criccieth", "force_id": "north-wales", "lat": "52.926", "lng": "-4.23366", "population": "1826", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "GSW18", "neighbourhood_name": "Criccieth", "force_id": "north-wales", "lat": "52.926", "lng": "-4.23366", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

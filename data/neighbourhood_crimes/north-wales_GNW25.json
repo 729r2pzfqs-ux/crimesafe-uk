@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GNW25", "neighbourhood_name": "Groeslon", "force_id": "north-wales", "lat": "53.0927", "lng": "-4.29927", "population": "1635", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01"}
+{"neighbourhood_id": "GNW25", "neighbourhood_name": "Groeslon", "force_id": "north-wales", "lat": "53.0927", "lng": "-4.29927", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

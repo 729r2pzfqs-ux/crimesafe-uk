@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DEV.4090", "neighbourhood_name": "Seaton Rural", "force_id": "devon-and-cornwall", "lat": "50.7326", "lng": "-3.08086", "population": "0", "total_crimes": 6, "categories": {"vehicle-crime": 1, "violent-crime": 4, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "DEV.4090", "neighbourhood_name": "Seaton Rural", "force_id": "devon-and-cornwall", "lat": "50.7326", "lng": "-3.08086", "population": 12098, "total_crimes": 6, "categories": {"vehicle-crime": 1, "violent-crime": 4, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.5}

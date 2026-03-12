@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NA8", "neighbourhood_name": "Waterhouses Rural", "force_id": "staffordshire", "lat": "53.0944", "lng": "-1.93802", "population": "0", "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NA8", "neighbourhood_name": "Waterhouses Rural", "force_id": "staffordshire", "lat": "53.0944", "lng": "-1.93802", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

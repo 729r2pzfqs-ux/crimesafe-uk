@@ -1,1 +1,1 @@
-{"neighbourhood_id": "F01", "neighbourhood_name": "Harpenden and Rural", "force_id": "hertfordshire", "lat": "51.7894", "lng": "-0.34189", "population": "0", "total_crimes": 3, "categories": {"vehicle-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "F01", "neighbourhood_name": "Harpenden and Rural", "force_id": "hertfordshire", "lat": "51.7894", "lng": "-0.34189", "population": 12098, "total_crimes": 3, "categories": {"vehicle-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.25}

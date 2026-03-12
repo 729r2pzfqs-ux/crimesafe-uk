@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WY11", "neighbourhood_name": "Calder", "force_id": "lancashire", "lat": "53.9089", "lng": "-2.73796", "population": "0", "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01"}
+{"neighbourhood_id": "WY11", "neighbourhood_name": "Calder", "force_id": "lancashire", "lat": "53.9089", "lng": "-2.73796", "population": 12098, "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

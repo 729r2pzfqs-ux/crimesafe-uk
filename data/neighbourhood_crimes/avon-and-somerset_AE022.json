@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AE022", "neighbourhood_name": "Wells Rural", "force_id": "avon-and-somerset", "lat": "51.2437", "lng": "-2.62946", "population": "0", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "AE022", "neighbourhood_name": "Wells Rural", "force_id": "avon-and-somerset", "lat": "51.2437", "lng": "-2.62946", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

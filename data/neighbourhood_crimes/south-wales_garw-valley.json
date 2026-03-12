@@ -1,1 +1,1 @@
-{"neighbourhood_id": "garw-valley", "neighbourhood_name": "Garw Valley", "force_id": "south-wales", "lat": "51.5993", "lng": "-3.58351", "population": "0", "total_crimes": 3, "categories": {"shoplifting": 2, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "garw-valley", "neighbourhood_name": "Garw Valley", "force_id": "south-wales", "lat": "51.5993", "lng": "-3.58351", "population": 12098, "total_crimes": 3, "categories": {"shoplifting": 2, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

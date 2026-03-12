@@ -1,1 +1,1 @@
-{"neighbourhood_id": "XB77", "neighbourhood_name": "West Downs", "force_id": "kent", "lat": "51.3092", "lng": "0.717538", "population": "0", "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "XB77", "neighbourhood_name": "West Downs", "force_id": "kent", "lat": "51.3092", "lng": "0.717538", "population": 12098, "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "G12", "neighbourhood_name": "Caister and Coastal Villages", "force_id": "norfolk", "lat": "52.6567", "lng": "1.68938", "population": "0", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "G12", "neighbourhood_name": "Caister and Coastal Villages", "force_id": "norfolk", "lat": "52.6567", "lng": "1.68938", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

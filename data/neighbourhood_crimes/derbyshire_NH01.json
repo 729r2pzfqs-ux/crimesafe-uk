@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NH01", "neighbourhood_name": "Hadfield and Tintwistle", "force_id": "derbyshire", "lat": "53.4919", "lng": "-1.89215", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "NH01", "neighbourhood_name": "Hadfield and Tintwistle", "force_id": "derbyshire", "lat": "53.4919", "lng": "-1.89215", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AC25", "neighbourhood_name": "China Town", "force_id": "greater-manchester", "lat": "53.4783", "lng": "-2.24062", "population": "0", "total_crimes": 6, "categories": {"public-order": 1, "violent-crime": 5}, "date": "2026-01"}
+{"neighbourhood_id": "AC25", "neighbourhood_name": "China Town", "force_id": "greater-manchester", "lat": "53.4783", "lng": "-2.24062", "population": 12098, "total_crimes": 6, "categories": {"public-order": 1, "violent-crime": 5}, "date": "2026-01", "crime_rate_per_1000": 0.5}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "A063", "neighbourhood_name": "Drefach", "force_id": "dyfed-powys", "lat": "51.8009", "lng": "-4.13876", "population": "0", "total_crimes": 7, "categories": {"criminal-damage-arson": 1, "violent-crime": 6}, "date": "2026-01"}
+{"neighbourhood_id": "A063", "neighbourhood_name": "Drefach", "force_id": "dyfed-powys", "lat": "51.8009", "lng": "-4.13876", "population": 12098, "total_crimes": 7, "categories": {"criminal-damage-arson": 1, "violent-crime": 6}, "date": "2026-01", "crime_rate_per_1000": 0.58}

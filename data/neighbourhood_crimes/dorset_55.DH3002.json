@@ -1,1 +1,1 @@
-{"neighbourhood_id": "55.DH3002", "neighbourhood_name": "East Dorset Urban", "force_id": "dorset", "lat": "50.8299", "lng": "-1.92092", "population": "0", "total_crimes": 1, "categories": {"vehicle-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "55.DH3002", "neighbourhood_name": "East Dorset Urban", "force_id": "dorset", "lat": "50.8299", "lng": "-1.92092", "population": 12098, "total_crimes": 1, "categories": {"vehicle-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

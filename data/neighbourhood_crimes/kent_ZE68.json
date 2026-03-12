@@ -1,1 +1,1 @@
-{"neighbourhood_id": "ZE68", "neighbourhood_name": "North Downs East", "force_id": "kent", "lat": "51.1405", "lng": "1.14234", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "ZE68", "neighbourhood_name": "North Downs East", "force_id": "kent", "lat": "51.1405", "lng": "1.14234", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

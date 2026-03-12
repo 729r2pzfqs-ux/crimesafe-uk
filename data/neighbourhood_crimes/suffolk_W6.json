@@ -1,1 +1,1 @@
-{"neighbourhood_id": "W6", "neighbourhood_name": "Bury St Edmunds Rural North", "force_id": "suffolk", "lat": "52.3238", "lng": "0.777735", "population": "0", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "W6", "neighbourhood_name": "Bury St Edmunds Rural North", "force_id": "suffolk", "lat": "52.3238", "lng": "0.777735", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

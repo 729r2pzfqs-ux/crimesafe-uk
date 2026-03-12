@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NC24", "neighbourhood_name": "Spalding Rural North", "force_id": "lincolnshire", "lat": "52.8443", "lng": "-0.170976", "population": "0", "total_crimes": 3, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NC24", "neighbourhood_name": "Spalding Rural North", "force_id": "lincolnshire", "lat": "52.8443", "lng": "-0.170976", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

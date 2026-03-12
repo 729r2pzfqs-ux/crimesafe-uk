@@ -1,1 +1,1 @@
-{"neighbourhood_id": "as", "neighbourhood_name": "Alcester South", "force_id": "warwickshire", "lat": "52.202", "lng": "-1.81432", "population": "0", "total_crimes": 2, "categories": {"burglary": 1, "public-order": 1}, "date": "2026-01"}
+{"neighbourhood_id": "as", "neighbourhood_name": "Alcester South", "force_id": "warwickshire", "lat": "52.202", "lng": "-1.81432", "population": 12098, "total_crimes": 2, "categories": {"burglary": 1, "public-order": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NC45", "neighbourhood_name": "Bourne and Billingborough", "force_id": "lincolnshire", "lat": "52.8318", "lng": "-0.349341", "population": "0", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NC45", "neighbourhood_name": "Bourne and Billingborough", "force_id": "lincolnshire", "lat": "52.8318", "lng": "-0.349341", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CP83", "neighbourhood_name": "Penyrheol", "force_id": "gwent", "lat": "51.5851", "lng": "-3.24923", "population": "11530", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "CP83", "neighbourhood_name": "Penyrheol", "force_id": "gwent", "lat": "51.5851", "lng": "-3.24923", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NB101", "neighbourhood_name": "Chelmsford South", "force_id": "essex", "lat": "51.6863", "lng": "0.500081", "population": "1", "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 2}, "date": "2026-01"}
+{"neighbourhood_id": "NB101", "neighbourhood_name": "Chelmsford South", "force_id": "essex", "lat": "51.6863", "lng": "0.500081", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 2}, "date": "2026-01", "crime_rate_per_1000": 0.25}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "A012", "neighbourhood_name": "Cynwyl Elfed", "force_id": "dyfed-powys", "lat": "51.91", "lng": "-4.36831", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "A012", "neighbourhood_name": "Cynwyl Elfed", "force_id": "dyfed-powys", "lat": "51.91", "lng": "-4.36831", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

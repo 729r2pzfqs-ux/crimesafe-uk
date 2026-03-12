@@ -1,1 +1,1 @@
-{"neighbourhood_id": "YMW23", "neighbourhood_name": "Bryngwran", "force_id": "north-wales", "lat": "53.2602", "lng": "-4.44103", "population": "1679", "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "YMW23", "neighbourhood_name": "Bryngwran", "force_id": "north-wales", "lat": "53.2602", "lng": "-4.44103", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}

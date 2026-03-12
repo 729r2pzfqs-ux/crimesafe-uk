@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E05012447", "neighbourhood_name": "Loftus", "force_id": "cleveland", "lat": "54.5311", "lng": "-0.854117", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "E05012447", "neighbourhood_name": "Loftus", "force_id": "cleveland", "lat": "54.5311", "lng": "-0.854117", "population": 6367, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

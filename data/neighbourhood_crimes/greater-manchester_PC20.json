@@ -1,1 +1,1 @@
-{"neighbourhood_id": "PC20", "neighbourhood_name": "Castleton", "force_id": "greater-manchester", "lat": "53.5809", "lng": "-2.17515", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "PC20", "neighbourhood_name": "Castleton", "force_id": "greater-manchester", "lat": "53.5809", "lng": "-2.17515", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

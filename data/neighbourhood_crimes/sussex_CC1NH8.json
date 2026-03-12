@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CC1NH8", "neighbourhood_name": "Pankhurst", "force_id": "sussex", "lat": "50.8298", "lng": "-0.115484", "population": "1035", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "CC1NH8", "neighbourhood_name": "Pankhurst", "force_id": "sussex", "lat": "50.8298", "lng": "-0.115484", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

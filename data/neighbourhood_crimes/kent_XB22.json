@@ -1,1 +1,1 @@
-{"neighbourhood_id": "XB22", "neighbourhood_name": "Hartlip, Newington and Upchurch", "force_id": "kent", "lat": "51.3775", "lng": "0.649183", "population": "0", "total_crimes": 4, "categories": {"burglary": 2, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "XB22", "neighbourhood_name": "Hartlip, Newington and Upchurch", "force_id": "kent", "lat": "51.3775", "lng": "0.649183", "population": 12098, "total_crimes": 4, "categories": {"burglary": 2, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.33}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "B210", "neighbourhood_name": "Llanfarian", "force_id": "dyfed-powys", "lat": "52.3729", "lng": "-4.05612", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "B210", "neighbourhood_name": "Llanfarian", "force_id": "dyfed-powys", "lat": "52.3729", "lng": "-4.05612", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

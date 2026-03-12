@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AC07", "neighbourhood_name": "Castlefield", "force_id": "greater-manchester", "lat": "53.4763", "lng": "-2.25646", "population": "0", "total_crimes": 6, "categories": {"other-theft": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "AC07", "neighbourhood_name": "Castlefield", "force_id": "greater-manchester", "lat": "53.4763", "lng": "-2.25646", "population": 12098, "total_crimes": 6, "categories": {"other-theft": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.5}

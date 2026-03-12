@@ -1,1 +1,1 @@
-{"neighbourhood_id": "CG85", "neighbourhood_name": "Pengam", "force_id": "gwent", "lat": "51.6672", "lng": "-3.21716", "population": "3842", "total_crimes": 2, "categories": {"drugs": 1, "other-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "CG85", "neighbourhood_name": "Pengam", "force_id": "gwent", "lat": "51.6672", "lng": "-3.21716", "population": 12098, "total_crimes": 2, "categories": {"drugs": 1, "other-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

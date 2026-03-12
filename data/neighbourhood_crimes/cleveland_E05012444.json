@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E05012444", "neighbourhood_name": "Hutton", "force_id": "cleveland", "lat": "54.5171", "lng": "-1.11096", "population": "0", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E05012444", "neighbourhood_name": "Hutton", "force_id": "cleveland", "lat": "54.5171", "lng": "-1.11096", "population": 5714, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.18}

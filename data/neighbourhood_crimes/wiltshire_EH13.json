@@ -1,1 +1,1 @@
-{"neighbourhood_id": "EH13", "neighbourhood_name": "Marlborough Rural West", "force_id": "wiltshire", "lat": "51.4445", "lng": "-1.78481", "population": "0", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "EH13", "neighbourhood_name": "Marlborough Rural West", "force_id": "wiltshire", "lat": "51.4445", "lng": "-1.78481", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

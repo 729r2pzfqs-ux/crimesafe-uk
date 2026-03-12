@@ -1,1 +1,1 @@
-{"neighbourhood_id": "EH3NH9", "neighbourhood_name": "Ashdown", "force_id": "sussex", "lat": "50.8825", "lng": "0.540538", "population": "5244", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "EH3NH9", "neighbourhood_name": "Ashdown", "force_id": "sussex", "lat": "50.8825", "lng": "0.540538", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

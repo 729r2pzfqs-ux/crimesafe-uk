@@ -1,1 +1,1 @@
-{"neighbourhood_id": "llangyfelach", "neighbourhood_name": "Llangyfelach", "force_id": "south-wales", "lat": "51.7135", "lng": "-3.96338", "population": "0", "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "llangyfelach", "neighbourhood_name": "Llangyfelach", "force_id": "south-wales", "lat": "51.7135", "lng": "-3.96338", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

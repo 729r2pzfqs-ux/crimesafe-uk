@@ -1,1 +1,1 @@
-{"neighbourhood_id": "XA62", "neighbourhood_name": "All Saints", "force_id": "kent", "lat": "51.4627", "lng": "0.653076", "population": "0", "total_crimes": 4, "categories": {"anti-social-behaviour": 2, "other-theft": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "XA62", "neighbourhood_name": "All Saints", "force_id": "kent", "lat": "51.4627", "lng": "0.653076", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 2, "other-theft": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.33}

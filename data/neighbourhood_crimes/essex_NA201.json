@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NA201", "neighbourhood_name": "Dunmow and Felsted", "force_id": "essex", "lat": "51.8841", "lng": "0.421299", "population": "0", "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NA201", "neighbourhood_name": "Dunmow and Felsted", "force_id": "essex", "lat": "51.8841", "lng": "0.421299", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

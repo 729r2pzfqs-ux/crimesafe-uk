@@ -1,1 +1,1 @@
-{"neighbourhood_id": "EC06", "neighbourhood_name": "MRI", "force_id": "greater-manchester", "lat": "53.4609", "lng": "-2.22438", "population": "0", "total_crimes": 1, "categories": {"drugs": 1}, "date": "2026-01"}
+{"neighbourhood_id": "EC06", "neighbourhood_name": "MRI", "force_id": "greater-manchester", "lat": "53.4609", "lng": "-2.22438", "population": 12098, "total_crimes": 1, "categories": {"drugs": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

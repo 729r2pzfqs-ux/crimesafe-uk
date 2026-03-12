@@ -1,1 +1,1 @@
-{"neighbourhood_id": "YMW18", "neighbourhood_name": "Brynteg", "force_id": "north-wales", "lat": "53.3209", "lng": "-4.24683", "population": "1823", "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "YMW18", "neighbourhood_name": "Brynteg", "force_id": "north-wales", "lat": "53.3209", "lng": "-4.24683", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.33}

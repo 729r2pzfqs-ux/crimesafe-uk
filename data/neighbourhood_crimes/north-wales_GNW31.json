@@ -1,1 +1,1 @@
-{"neighbourhood_id": "GNW31", "neighbourhood_name": "Cwm-y-Glo", "force_id": "north-wales", "lat": "53.1383", "lng": "-4.19963", "population": "936", "total_crimes": 5, "categories": {"criminal-damage-arson": 2, "violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "GNW31", "neighbourhood_name": "Cwm-y-Glo", "force_id": "north-wales", "lat": "53.1383", "lng": "-4.19963", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 2, "violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.41}

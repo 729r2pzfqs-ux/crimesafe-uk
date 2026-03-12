@@ -1,1 +1,1 @@
-{"neighbourhood_id": "B12", "neighbourhood_name": "Swaffham", "force_id": "norfolk", "lat": "52.6158", "lng": "0.693586", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "B12", "neighbourhood_name": "Swaffham", "force_id": "norfolk", "lat": "52.6158", "lng": "0.693586", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

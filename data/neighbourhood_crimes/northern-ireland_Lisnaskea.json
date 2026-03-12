@@ -1,1 +1,1 @@
-{"neighbourhood_id": "Lisnaskea", "neighbourhood_name": "Lisnaskea", "force_id": "northern-ireland", "lat": "54.2569", "lng": "-7.37921", "population": "12345", "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01"}
+{"neighbourhood_id": "Lisnaskea", "neighbourhood_name": "Lisnaskea", "force_id": "northern-ireland", "lat": "54.2569", "lng": "-7.37921", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

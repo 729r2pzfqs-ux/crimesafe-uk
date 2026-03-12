@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DEV.4005", "neighbourhood_name": "Totnes West", "force_id": "devon-and-cornwall", "lat": "50.419", "lng": "-3.79778", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "DEV.4005", "neighbourhood_name": "Totnes West", "force_id": "devon-and-cornwall", "lat": "50.419", "lng": "-3.79778", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

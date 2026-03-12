@@ -1,1 +1,1 @@
-{"neighbourhood_id": "LOCW5APP", "neighbourhood_name": "Appleby", "force_id": "cumbria", "lat": "54.5853", "lng": "-2.51266", "population": "0", "total_crimes": 4, "categories": {"criminal-damage-arson": 4}, "date": "2026-01"}
+{"neighbourhood_id": "LOCW5APP", "neighbourhood_name": "Appleby", "force_id": "cumbria", "lat": "54.5853", "lng": "-2.51266", "population": 12098, "total_crimes": 4, "categories": {"criminal-damage-arson": 4}, "date": "2026-01", "crime_rate_per_1000": 0.33}

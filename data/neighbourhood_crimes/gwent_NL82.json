@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NL82", "neighbourhood_name": "Tredegar Park", "force_id": "gwent", "lat": "51.5606", "lng": "-3.01892", "population": "3387", "total_crimes": 2, "categories": {"possession-of-weapons": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NL82", "neighbourhood_name": "Tredegar Park", "force_id": "gwent", "lat": "51.5606", "lng": "-3.01892", "population": 12098, "total_crimes": 2, "categories": {"possession-of-weapons": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

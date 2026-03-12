@@ -404,41 +404,44 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
     return html
 
 def load_crime_scores():
-    """Load crime data and calculate scores."""
+    """Load crime data and calculate per-capita percentile scores."""
     crime_dir = 'data/neighbourhood_crimes'
     
-    CRIME_WEIGHTS = {
-        'violent-crime': 2.0, 'robbery': 1.8, 'burglary': 1.5,
-        'vehicle-crime': 1.3, 'criminal-damage-arson': 1.2,
-        'drugs': 1.1, 'public-order': 1.0, 'shoplifting': 0.8,
-        'other-theft': 0.9, 'theft-from-the-person': 1.0,
-        'bicycle-theft': 0.7, 'anti-social-behaviour': 0.5,
-        'possession-of-weapons': 1.5, 'other-crime': 1.0
-    }
-    
-    all_weighted = []
+    all_rates = []
     crime_data = {}
     
     for fname in os.listdir(crime_dir):
         if not fname.endswith('.json'):
             continue
         with open(f'{crime_dir}/{fname}') as f:
-            data = json.load(f)
-        
-        force_id = data.get('force_id', '')
-        nb_id = data.get('neighbourhood_id', '')
-        categories = data.get('categories', {})
-        total_crimes = data.get('total_crimes', 0)
-        
-        weighted = sum(count * CRIME_WEIGHTS.get(cat, 1.0) for cat, count in categories.items())
-        key = f'{force_id}_{nb_id}'
-        crime_data[key] = {'weighted': weighted, 'total_crimes': total_crimes}
-        all_weighted.append((key, weighted))
+            # Handle both single JSON and NDJSON formats
+            content = f.read().strip()
+            for line in content.split('\n'):
+                if not line.strip():
+                    continue
+                try:
+                    data = json.loads(line)
+                except:
+                    continue
+                
+                force_id = data.get('force_id', '')
+                nb_id = data.get('neighbourhood_id', '')
+                total_crimes = data.get('total_crimes', 0)
+                
+                # Use per-capita rate for fairer scoring
+                rate = data.get('crime_rate_per_1000')
+                if rate is None:
+                    pop = data.get('population', 12098)
+                    rate = (total_crimes / pop) * 1000 if pop > 0 else 0
+                
+                key = f'{force_id}_{nb_id}'
+                crime_data[key] = {'crime_rate': rate, 'total_crimes': total_crimes}
+                all_rates.append((key, rate))
     
-    # Assign percentile scores
-    all_weighted.sort(key=lambda x: x[1])
-    total = len(all_weighted)
-    for i, (key, _) in enumerate(all_weighted):
+    # Assign percentile scores based on crime rate (lower rate = safer = higher score)
+    all_rates.sort(key=lambda x: x[1])
+    total = len(all_rates)
+    for i, (key, _) in enumerate(all_rates):
         percentile = (i / max(1, total - 1)) * 100
         score = round(100 - percentile)
         crime_data[key]['score'] = score

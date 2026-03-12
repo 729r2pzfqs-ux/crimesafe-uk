@@ -1,1 +1,1 @@
-{"neighbourhood_id": "RV7", "neighbourhood_name": "Clayton-le-dale &amp; Salesbury", "force_id": "lancashire", "lat": "53.8031", "lng": "-2.50468", "population": "0", "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-01"}
+{"neighbourhood_id": "RV7", "neighbourhood_name": "Clayton-le-dale &amp; Salesbury", "force_id": "lancashire", "lat": "53.8031", "lng": "-2.50468", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-01", "crime_rate_per_1000": 0.25}

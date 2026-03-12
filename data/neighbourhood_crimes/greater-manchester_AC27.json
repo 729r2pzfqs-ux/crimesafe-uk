@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AC27", "neighbourhood_name": "The Village", "force_id": "greater-manchester", "lat": "53.4767", "lng": "-2.23697", "population": "0", "total_crimes": 6, "categories": {"drugs": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "AC27", "neighbourhood_name": "The Village", "force_id": "greater-manchester", "lat": "53.4767", "lng": "-2.23697", "population": 12098, "total_crimes": 6, "categories": {"drugs": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.5}

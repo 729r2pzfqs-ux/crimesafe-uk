@@ -1,1 +1,1 @@
-{"neighbourhood_id": "JC20", "neighbourhood_name": "Bramhall South and Woodford", "force_id": "greater-manchester", "lat": "53.3488", "lng": "-2.16836", "population": "0", "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01"}
+{"neighbourhood_id": "JC20", "neighbourhood_name": "Bramhall South and Woodford", "force_id": "greater-manchester", "lat": "53.3488", "lng": "-2.16836", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

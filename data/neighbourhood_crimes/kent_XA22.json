@@ -1,1 +1,1 @@
-{"neighbourhood_id": "XA22", "neighbourhood_name": "Strood Rural", "force_id": "kent", "lat": "51.4435", "lng": "0.503011", "population": "0", "total_crimes": 6, "categories": {"burglary": 1, "vehicle-crime": 1, "violent-crime": 4}, "date": "2026-01"}
+{"neighbourhood_id": "XA22", "neighbourhood_name": "Strood Rural", "force_id": "kent", "lat": "51.4435", "lng": "0.503011", "population": 12098, "total_crimes": 6, "categories": {"burglary": 1, "vehicle-crime": 1, "violent-crime": 4}, "date": "2026-01", "crime_rate_per_1000": 0.5}

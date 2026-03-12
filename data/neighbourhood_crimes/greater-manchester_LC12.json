@@ -1,1 +1,1 @@
-{"neighbourhood_id": "LC12", "neighbourhood_name": "Leigh South", "force_id": "greater-manchester", "lat": "53.4835", "lng": "-2.50409", "population": "0", "total_crimes": 2, "categories": {"shoplifting": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "LC12", "neighbourhood_name": "Leigh South", "force_id": "greater-manchester", "lat": "53.4835", "lng": "-2.50409", "population": 12098, "total_crimes": 2, "categories": {"shoplifting": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

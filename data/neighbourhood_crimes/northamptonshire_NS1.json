@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NS1", "neighbourhood_name": "Deanshanger and Grange Park", "force_id": "northamptonshire", "lat": "52.1403", "lng": "-0.885549", "population": "0", "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "NS1", "neighbourhood_name": "Deanshanger and Grange Park", "force_id": "northamptonshire", "lat": "52.1403", "lng": "-0.885549", "population": 12098, "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.17}

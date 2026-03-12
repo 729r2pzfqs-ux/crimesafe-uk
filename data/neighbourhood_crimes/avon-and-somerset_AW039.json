@@ -1,1 +1,1 @@
-{"neighbourhood_id": "AW039", "neighbourhood_name": "Sedgemoor North East", "force_id": "avon-and-somerset", "lat": "51.2535", "lng": "-2.82243", "population": "0", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01"}
+{"neighbourhood_id": "AW039", "neighbourhood_name": "Sedgemoor North East", "force_id": "avon-and-somerset", "lat": "51.2535", "lng": "-2.82243", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

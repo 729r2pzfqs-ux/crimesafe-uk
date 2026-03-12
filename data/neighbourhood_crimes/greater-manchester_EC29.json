@@ -1,1 +1,1 @@
-{"neighbourhood_id": "EC29", "neighbourhood_name": "Benchill", "force_id": "greater-manchester", "lat": "53.3939", "lng": "-2.26486", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-01"}
+{"neighbourhood_id": "EC29", "neighbourhood_name": "Benchill", "force_id": "greater-manchester", "lat": "53.3939", "lng": "-2.26486", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}

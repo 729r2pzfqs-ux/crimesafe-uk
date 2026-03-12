@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DEV.4078", "neighbourhood_name": "Tiverton Rural", "force_id": "devon-and-cornwall", "lat": "50.9104", "lng": "-3.51997", "population": "0", "total_crimes": 6, "categories": {"violent-crime": 6}, "date": "2026-01"}
+{"neighbourhood_id": "DEV.4078", "neighbourhood_name": "Tiverton Rural", "force_id": "devon-and-cornwall", "lat": "50.9104", "lng": "-3.51997", "population": 12098, "total_crimes": 6, "categories": {"violent-crime": 6}, "date": "2026-01", "crime_rate_per_1000": 0.5}

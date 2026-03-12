@@ -1,1 +1,1 @@
-{"neighbourhood_id": "YMW13", "neighbourhood_name": "Llanbadrig", "force_id": "north-wales", "lat": "53.4164", "lng": "-4.44304", "population": "1392", "total_crimes": 2, "categories": {"anti-social-behaviour": 2}, "date": "2026-01"}
+{"neighbourhood_id": "YMW13", "neighbourhood_name": "Llanbadrig", "force_id": "north-wales", "lat": "53.4164", "lng": "-4.44304", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "E05012456", "neighbourhood_name": "South Bank", "force_id": "cleveland", "lat": "54.5945", "lng": "-1.14316", "population": "0", "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "drugs": 1}, "date": "2026-01"}
+{"neighbourhood_id": "E05012456", "neighbourhood_name": "South Bank", "force_id": "cleveland", "lat": "54.5945", "lng": "-1.14316", "population": 5238, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "drugs": 1}, "date": "2026-01", "crime_rate_per_1000": 0.57}

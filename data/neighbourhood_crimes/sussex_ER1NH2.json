@@ -1,1 +1,1 @@
-{"neighbourhood_id": "ER1NH2", "neighbourhood_name": "Kewhurst", "force_id": "sussex", "lat": "50.8454", "lng": "0.450906", "population": "4714", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "ER1NH2", "neighbourhood_name": "Kewhurst", "force_id": "sussex", "lat": "50.8454", "lng": "0.450906", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}

@@ -1,1 +1,1 @@
-{"neighbourhood_id": "pontardawe", "neighbourhood_name": "Pontardawe", "force_id": "south-wales", "lat": "51.7436", "lng": "-3.878", "population": "0", "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01"}
+{"neighbourhood_id": "pontardawe", "neighbourhood_name": "Pontardawe", "force_id": "south-wales", "lat": "51.7436", "lng": "-3.878", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}
