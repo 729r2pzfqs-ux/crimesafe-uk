@@ -68,8 +68,11 @@
         </p>
 
         <div class="search-box">
-            <input type="text" id="postcodeInput" placeholder="Enter postcode (e.g., SW1A 1AA)" autocomplete="off">
-            <button onclick="searchPostcode()">Search</button>
+            <div style="position: relative; flex: 1; min-width: 200px;">
+                <input type="text" id="postcodeInput" placeholder="Enter postcode or street name..." autocomplete="off" style="width: 100%;">
+                <div id="searchDropdown" style="position: absolute; top: 100%; left: 0; right: 0; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); max-height: 300px; overflow-y: auto; z-index: 1000; display: none; box-shadow: var(--shadow-lg);"></div>
+            </div>
+            <button onclick="doSearch()">Search</button>
         </div>
 
         <div class="stats-bar" id="statsBar" style="display: none;">
@@ -275,6 +278,122 @@
                     displayCrimes(crimes, month);
                 }, 500);
             }
+        });
+
+        // Load streets for autocomplete
+        let streets = [];
+        async function loadStreets() {
+            try {
+                const resp = await fetch('/data/top_streets.json');
+                if (resp.ok) {
+                    streets = await resp.json();
+                    console.log('Loaded', streets.length, 'streets');
+                }
+            } catch (e) {
+                console.error('Failed to load streets:', e);
+            }
+        }
+        loadStreets();
+
+        // Autocomplete
+        const input = document.getElementById('postcodeInput');
+        const dropdown = document.getElementById('searchDropdown');
+        
+        input.addEventListener('input', () => {
+            const query = input.value.trim().toLowerCase();
+            if (query.length < 2) {
+                dropdown.style.display = 'none';
+                return;
+            }
+            
+            // Check if it looks like a postcode
+            const postcodePattern = /^[a-z]{1,2}[0-9]/i;
+            const isPostcode = postcodePattern.test(query);
+            
+            let results = [];
+            
+            // Add street matches
+            const streetMatches = streets.filter(s => 
+                s.name.toLowerCase().includes(query)
+            ).slice(0, 8);
+            
+            streetMatches.forEach(s => {
+                results.push({
+                    type: 'street',
+                    name: s.name,
+                    city: s.city || 'UK',
+                    lat: s.lat,
+                    lng: s.lng
+                });
+            });
+            
+            // Add postcode suggestion if looks like postcode
+            if (isPostcode && query.length >= 3) {
+                results.unshift({
+                    type: 'postcode',
+                    name: query.toUpperCase(),
+                    city: 'Search postcode'
+                });
+            }
+            
+            if (results.length === 0) {
+                dropdown.style.display = 'none';
+                return;
+            }
+            
+            dropdown.innerHTML = results.map(r => `
+                <div class="dropdown-item" data-type="${r.type}" data-name="${r.name}" data-lat="${r.lat || ''}" data-lng="${r.lng || ''}" style="padding: 12px 16px; cursor: pointer; border-bottom: 1px solid var(--color-divider);">
+                    <div style="font-weight: 500;">${r.type === 'postcode' ? '📍 ' : '🛣️ '}${r.name}</div>
+                    <div style="font-size: 12px; color: var(--color-text-muted);">${r.city}</div>
+                </div>
+            `).join('');
+            dropdown.style.display = 'block';
+            
+            dropdown.querySelectorAll('.dropdown-item').forEach(item => {
+                item.addEventListener('click', () => selectResult(item));
+                item.addEventListener('mouseover', () => item.style.background = 'var(--color-surface-offset)');
+                item.addEventListener('mouseout', () => item.style.background = '');
+            });
+        });
+        
+        function selectResult(item) {
+            const type = item.dataset.type;
+            const name = item.dataset.name;
+            const lat = item.dataset.lat;
+            const lng = item.dataset.lng;
+            
+            input.value = name;
+            dropdown.style.display = 'none';
+            
+            if (type === 'street' && lat && lng) {
+                map.setView([parseFloat(lat), parseFloat(lng)], 15);
+                fetchCrimes(parseFloat(lat), parseFloat(lng)).then(({crimes, month}) => {
+                    displayCrimes(crimes, month);
+                });
+            } else if (type === 'postcode') {
+                searchPostcode();
+            }
+        }
+        
+        function doSearch() {
+            const query = input.value.trim();
+            if (!query) return;
+            
+            // Check if it's a street name we know
+            const street = streets.find(s => s.name.toLowerCase() === query.toLowerCase());
+            if (street && street.lat && street.lng) {
+                map.setView([parseFloat(street.lat), parseFloat(street.lng)], 15);
+                fetchCrimes(parseFloat(street.lat), parseFloat(street.lng)).then(({crimes, month}) => {
+                    displayCrimes(crimes, month);
+                });
+            } else {
+                // Assume postcode
+                searchPostcode();
+            }
+        }
+
+        input.addEventListener('blur', () => {
+            setTimeout(() => dropdown.style.display = 'none', 200);
         });
 
         // Theme toggle
