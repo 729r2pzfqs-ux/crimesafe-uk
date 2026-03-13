@@ -170,7 +170,8 @@
                     dropdown.classList.add('active');
                     
                     dropdown.querySelectorAll('.search-item').forEach(function(item) {
-                        item.onclick = function() {
+                        item.onmousedown = function(e) {
+                            e.preventDefault();
                             input.value = item.getAttribute('data-name');
                             setData({name: item.getAttribute('data-name'), slug: item.getAttribute('data-slug')});
                             dropdown.classList.remove('active');
