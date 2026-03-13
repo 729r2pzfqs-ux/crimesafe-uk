@@ -64,7 +64,8 @@
 
         <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Street Crime Map</h1>
         <p style="color: var(--color-text-muted); margin-bottom: var(--space-6);">
-            Interactive map showing exact crime locations. Search by postcode to explore your area.
+            Interactive map showing exact crime locations. Search by postcode or street name to explore your area.
+            <br><small>Data shows all crimes within a 1 mile radius of the searched location.</small>
         </p>
 
         <div class="search-box">
@@ -78,7 +79,7 @@
         <div class="stats-bar" id="statsBar" style="display: none;">
             <div class="stat">
                 <div class="stat-value" id="crimeCount">0</div>
-                <div class="stat-label">Crimes</div>
+                <div class="stat-label">Crimes (1 mile radius)</div>
             </div>
             <div class="stat">
                 <div class="stat-value" id="crimeMonth">-</div>
