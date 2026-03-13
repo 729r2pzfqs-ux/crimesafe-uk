@@ -464,3 +464,16 @@ a:hover { color: var(--color-primary-hover); }
 [data-theme="dark"] .map-card-img::after {
   background: linear-gradient(to bottom, transparent 50%, rgba(255,255,255,0.2));
 }
+
+/* Dark mode input text */
+[data-theme="dark"] input,
+[data-theme="dark"] .search-input {
+  color: var(--color-text);
+}
+
+/* Dark mode input text */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea {
+  color: var(--color-text);
+  background: var(--color-surface);
+}
