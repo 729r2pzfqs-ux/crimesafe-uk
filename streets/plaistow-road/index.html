@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaistow Road Crime Statistics | Safety & Crime Rates | CrimeSafe</title>
+    <meta name="description" content="Is Plaistow Road safe? View real-time crime statistics, safety scores, and recent incidents for Plaistow Road, London. Updated monthly with official UK police data.">
+    <link rel="canonical" href="https://crimesafe.uk/streets/plaistow-road/">
+    
+    <meta property="og:title" content="Plaistow Road Crime Statistics | CrimeSafe">
+    <meta property="og:description" content="Real-time crime data and safety information for Plaistow Road, London">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://crimesafe.uk/streets/plaistow-road/">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Plaistow Road Crime Statistics",
+        "description": "Crime statistics and safety information for Plaistow Road, London",
+        "url": "https://crimesafe.uk/streets/plaistow-road/",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "CrimeSafe",
+            "url": "https://crimesafe.uk"
+        },
+        "about": {
+            "@type": "Place",
+            "name": "Plaistow Road",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Plaistow Road",
+                "addressLocality": "London",
+                "addressCountry": "GB"
+            }
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        surface: '#f8fafc',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root { --color-primary: #2563eb; --color-surface: #f8fafc; }
+        .dark { --color-surface: #1e293b; }
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .crime-card { background: white; border-radius: 12px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .dark .crime-card { background: #334155; }
+        .loading { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 min-h-screen">
+    <header class="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="/" class="flex items-center gap-2">
+                <span class="text-2xl">🛡️</span>
+                <span class="font-bold text-xl text-slate-900 dark:text-white">CrimeSafe</span>
+            </a>
+            <nav class="hidden md:flex gap-6">
+                <a href="/london/" class="text-slate-600 hover:text-primary dark:text-slate-300">London</a>
+                <a href="/search/" class="text-slate-600 hover:text-primary dark:text-slate-300">Search</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <!-- Breadcrumb -->
+        <nav class="text-sm text-slate-500 mb-6">
+            <a href="/" class="hover:text-primary">Home</a>
+            <span class="mx-2">›</span>
+            <a href="/streets/" class="hover:text-primary">Streets</a>
+            <span class="mx-2">›</span>
+            <span class="text-slate-900 dark:text-white">Plaistow Road</span>
+        </nav>
+
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-2">
+            Plaistow Road Crime Statistics
+        </h1>
+        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8">
+            London, United Kingdom
+        </p>
+
+        <!-- Safety Score Card -->
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+            <div class="crime-card">
+                <div class="text-sm text-slate-500 mb-1">Safety Score</div>
+                <div id="safetyScore" class="text-4xl font-bold text-primary loading">--</div>
+                <div class="text-sm text-slate-500">out of 100</div>
+            </div>
+            <div class="crime-card">
+                <div class="text-sm text-slate-500 mb-1">Crimes (Last Month)</div>
+                <div id="crimeCount" class="text-4xl font-bold text-slate-900 dark:text-white loading">--</div>
+                <div class="text-sm text-slate-500">within 1 mile</div>
+            </div>
+            <div class="crime-card">
+                <div class="text-sm text-slate-500 mb-1">Most Common</div>
+                <div id="topCrime" class="text-xl font-bold text-slate-900 dark:text-white loading">--</div>
+                <div class="text-sm text-slate-500">crime type</div>
+            </div>
+        </div>
+
+        <!-- Crime Types -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Crime Breakdown</h2>
+            <div id="crimeTypes" class="crime-card">
+                <div class="loading text-slate-500">Loading crime data...</div>
+            </div>
+        </section>
+
+        <!-- Recent Crimes -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Recent Incidents</h2>
+            <div id="recentCrimes" class="space-y-3">
+                <div class="crime-card loading text-slate-500">Loading recent incidents...</div>
+            </div>
+        </section>
+
+        <!-- Safety Tips -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Safety Tips for Plaistow Road</h2>
+            <div class="crime-card">
+                <ul class="space-y-3 text-slate-700 dark:text-slate-300">
+                    <li class="flex gap-2"><span>✓</span> Stay aware of your surroundings, especially at night</li>
+                    <li class="flex gap-2"><span>✓</span> Keep valuables secure and out of sight</li>
+                    <li class="flex gap-2"><span>✓</span> Stick to well-lit areas when walking after dark</li>
+                    <li class="flex gap-2"><span>✓</span> Report suspicious activity to local police</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FAQ Schema -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="crime-card">
+                    <h3 class="font-bold text-slate-900 dark:text-white mb-2">Is Plaistow Road safe?</h3>
+                    <p class="text-slate-600 dark:text-slate-400">
+                        Plaistow Road has varying safety levels depending on the time of day and specific location. 
+                        Check our real-time crime data above for the most current safety information.
+                    </p>
+                </div>
+                <div class="crime-card">
+                    <h3 class="font-bold text-slate-900 dark:text-white mb-2">What crimes are most common on Plaistow Road?</h3>
+                    <p class="text-slate-600 dark:text-slate-400">
+                        The crime breakdown above shows the types of incidents reported in this area. 
+                        Data is sourced from official UK Police records and updated monthly.
+                    </p>
+                </div>
+                <div class="crime-card">
+                    <h3 class="font-bold text-slate-900 dark:text-white mb-2">Is Plaistow Road safe at night?</h3>
+                    <p class="text-slate-600 dark:text-slate-400">
+                        Like many urban areas, Plaistow Road may have different safety profiles at night. 
+                        We recommend staying in well-lit areas and being aware of your surroundings.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-100 dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 py-8 mt-12">
+        <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>Data sourced from UK Police API. Updated monthly.</p>
+            <p class="mt-2">© 2026 CrimeSafe UK</p>
+        </div>
+    </footer>
+
+    <script>
+        const LAT = 51.532621;
+        const LNG = 0.015042;
+        
+        async function loadCrimeData() {
+            try {
+                // Get latest available month
+                const now = new Date();
+                let year = now.getFullYear();
+                let month = now.getMonth(); // 0-indexed, so current month - 1 for API
+                if (month === 0) { year--; month = 12; }
+                const dateStr = `${year}-${String(month).padStart(2, '0')}`;
+                
+                const resp = await fetch(`https://data.police.uk/api/crimes-street/all-crime?lat=${LAT}&lng=${LNG}&date=${dateStr}`);
+                
+                if (!resp.ok) {
+                    // Try previous month if current not available
+                    month--;
+                    if (month === 0) { year--; month = 12; }
+                    const prevDate = `${year}-${String(month).padStart(2, '0')}`;
+                    const resp2 = await fetch(`https://data.police.uk/api/crimes-street/all-crime?lat=${LAT}&lng=${LNG}&date=${prevDate}`);
+                    if (!resp2.ok) throw new Error('No data');
+                    return await resp2.json();
+                }
+                
+                return await resp.json();
+            } catch (err) {
+                console.error('Error loading crime data:', err);
+                return [];
+            }
+        }
+        
+        function getCrimeColor(category) {
+            const colors = {
+                'violent-crime': '#dc2626',
+                'robbery': '#dc2626',
+                'burglary': '#ea580c',
+                'vehicle-crime': '#ca8a04',
+                'theft-from-the-person': '#ca8a04',
+                'shoplifting': '#65a30d',
+                'anti-social-behaviour': '#0891b2',
+                'public-order': '#7c3aed',
+                'drugs': '#be185d',
+                'other-crime': '#64748b'
+            };
+            return colors[category] || '#64748b';
+        }
+        
+        function formatCrimeType(category) {
+            return category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        }
+        
+        async function init() {
+            const crimes = await loadCrimeData();
+            
+            // Update crime count
+            document.getElementById('crimeCount').textContent = crimes.length;
+            document.getElementById('crimeCount').classList.remove('loading');
+            
+            // Calculate safety score (inverse of crime rate, normalized)
+            const score = Math.max(0, Math.min(100, Math.round(100 - (crimes.length / 10))));
+            document.getElementById('safetyScore').textContent = score;
+            document.getElementById('safetyScore').classList.remove('loading');
+            document.getElementById('safetyScore').style.color = score >= 60 ? '#16a34a' : score >= 40 ? '#ca8a04' : '#dc2626';
+            
+            // Count crime types
+            const types = {};
+            crimes.forEach(c => {
+                types[c.category] = (types[c.category] || 0) + 1;
+            });
+            
+            // Sort by count
+            const sorted = Object.entries(types).sort((a, b) => b[1] - a[1]);
+            
+            // Update top crime
+            if (sorted.length > 0) {
+                document.getElementById('topCrime').textContent = formatCrimeType(sorted[0][0]);
+            }
+            document.getElementById('topCrime').classList.remove('loading');
+            
+            // Render crime types
+            const typesHtml = sorted.slice(0, 8).map(([type, count]) => `
+                <div class="flex items-center justify-between py-2 border-b border-slate-100 dark:border-slate-600 last:border-0">
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 rounded-full" style="background: ${getCrimeColor(type)}"></div>
+                        <span class="text-slate-700 dark:text-slate-300">${formatCrimeType(type)}</span>
+                    </div>
+                    <span class="font-bold text-slate-900 dark:text-white">${count}</span>
+                </div>
+            `).join('');
+            document.getElementById('crimeTypes').innerHTML = typesHtml || '<p class="text-slate-500">No crime data available</p>';
+            
+            // Render recent crimes
+            const recentHtml = crimes.slice(0, 10).map(c => `
+                <div class="crime-card flex items-start gap-3">
+                    <div class="w-3 h-3 rounded-full mt-1.5" style="background: ${getCrimeColor(c.category)}"></div>
+                    <div>
+                        <div class="font-medium text-slate-900 dark:text-white">${formatCrimeType(c.category)}</div>
+                        <div class="text-sm text-slate-500">${c.location?.street?.name || 'Unknown location'} · ${c.month}</div>
+                    </div>
+                </div>
+            `).join('');
+            document.getElementById('recentCrimes').innerHTML = recentHtml || '<div class="crime-card text-slate-500">No recent incidents</div>';
+        }
+        
+        init();
+        lucide.createIcons();
+    </script>
+</body>
+</html>
