@@ -65,13 +65,13 @@
         function renderStreets(list, limit = 100) {
             const el = document.getElementById('streetList');
             const toShow = showingAll ? list : list.slice(0, limit);
-            el.innerHTML = toShow.map(s => \`
+            el.innerHTML = toShow.map(s => `
                 <a href="/streets/\${s.slug}/" class="card" style="padding: var(--space-4); text-decoration: none;">
                     <div style="font-weight: 600;">\${s.name}</div>
                     <div style="font-size: var(--text-sm); color: var(--color-text-muted);">\${s.city}</div>
                     <div style="margin-top: var(--space-2);">Safety: <strong style="color: \${s.score >= 60 ? 'var(--color-success)' : s.score >= 40 ? 'var(--color-warning)' : 'var(--color-error)'};">\${s.score}/100</strong></div>
                 </a>
-            \`).join('');
+            `).join('');
             document.getElementById('showMore').style.display = list.length > limit && !showingAll ? 'block' : 'none';
         }
         
