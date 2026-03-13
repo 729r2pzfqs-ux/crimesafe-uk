@@ -92,11 +92,13 @@
                 const resp = await fetch('/data/rankings.json');
                 if (resp.ok) {
                     const data = await resp.json();
-                    neighbourhoods = (data.neighbourhoods || []).map(n => ({
+                    // data is an array directly
+                    neighbourhoods = data.map(n => ({
                         name: n.name,
-                        slug: n.slug || n.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+                        slug: n.nb_slug || n.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
                         score: n.score
                     }));
+                    console.log('Loaded', neighbourhoods.length, 'neighbourhoods');
                 }
             } catch (e) {
                 console.error('Failed to load neighbourhoods:', e);
