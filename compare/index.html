@@ -3,321 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
-    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
-    <title>Compare Neighbourhoods — CrimeSafe UK</title>
-    <meta name="description" content="Compare crime rates between UK neighbourhoods. Side-by-side safety score comparisons.">
+    <title>Compare Neighbourhoods | Side-by-Side Crime Comparison | CrimeSafe UK</title>
+    <meta name="description" content="Compare crime rates between any two UK neighbourhoods. See safety scores, crime types, and statistics side-by-side.">
+    <link rel="canonical" href="https://crimesafe.uk/compare/">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#01696F">
+    <style>
+        .compare-form { display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-8); }
+        .compare-input { position: relative; flex: 1; min-width: 200px; }
+        .compare-input input { width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface); font-size: var(--text-base); }
+        .compare-input input:focus { outline: none; border-color: var(--color-primary); }
+        .compare-vs { font-weight: 700; color: var(--color-text-muted); }
+        .compare-btn { padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; border: none; }
+        .compare-btn:hover { background: var(--color-primary-hover); }
+        .compare-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .dropdown { position: absolute; top: 100%; left: 0; right: 0; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); max-height: 300px; overflow-y: auto; z-index: 100; display: none; box-shadow: var(--shadow-lg); }
+        .dropdown.open { display: block; }
+        .dropdown-item { padding: var(--space-3) var(--space-4); cursor: pointer; border-bottom: 1px solid var(--color-divider); }
+        .dropdown-item:hover { background: var(--color-surface-offset); }
+        .dropdown-item:last-child { border-bottom: none; }
+        .comparison-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-4); }
+    </style>
 </head>
 <body>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
                 <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
-                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
-                  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
-                  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="160" fill="currentColor">UK</text>
                 </svg>
                 <span>CrimeSafe UK</span>
             </a>
             <div class="nav-links">
                 <a href="/">Home</a>
+                <a href="/streets/">Streets</a>
+                <a href="/compare/">Compare</a>
                 <a href="/forces/">Forces</a>
-                <a href="/districts/">Districts</a>
-                <a href="/safest/">Rankings</a>
-                <a href="/about/">About</a>
-                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button id="themeToggle" class="theme-toggle">🌙</button>
             </div>
         </div>
     </nav>
 
-    <main>
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="/">Home</a> › Compare
+    <main class="container" style="padding-top: var(--space-8); padding-bottom: var(--space-16);">
+        <nav class="breadcrumb" style="margin-bottom: var(--space-6);">
+            <a href="/">Home</a> › <span>Compare</span>
+        </nav>
+
+        <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Compare Neighbourhoods</h1>
+        <p style="color: var(--color-text-muted); margin-bottom: var(--space-6);">
+            Compare crime rates and safety scores between any two UK neighbourhoods.
+        </p>
+
+        <div class="compare-form">
+            <div class="compare-input">
+                <input type="text" id="area1" placeholder="First area..." autocomplete="off">
+                <div class="dropdown" id="dropdown1"></div>
             </div>
+            <span class="compare-vs">vs</span>
+            <div class="compare-input">
+                <input type="text" id="area2" placeholder="Second area..." autocomplete="off">
+                <div class="dropdown" id="dropdown2"></div>
+            </div>
+            <button class="compare-btn" id="compareBtn" onclick="doCompare()" disabled>Compare</button>
         </div>
-        
-        <section class="hero" style="padding: var(--space-8) 0;">
-            <div class="container">
-                <h1>Compare Neighbourhoods</h1>
-                <p class="hero-sub">Side-by-side crime rate comparisons</p>
-            </div>
-        </section>
-        
-        <section style="padding-bottom: var(--space-12);">
-            <div class="container">
-                <h2 style="margin-bottom: var(--space-6);">Popular Comparisons</h2>
-                <div class="force-grid">
 
-                    <a href="/compare/upminster-vs-darwin/" class="force-card">
-                        <h3>Upminster vs Darwin</h3>
-                        <div class="meta">Score 69 vs 64</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-harefield-village/" class="force-card">
-                        <h3>Upminster vs Harefield Village</h3>
-                        <div class="meta">Score 69 vs 61</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-chelsfield/" class="force-card">
-                        <h3>Upminster vs Chelsfield</h3>
-                        <div class="meta">Score 69 vs 57</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-carshalton-south-and-clockhouse/" class="force-card">
-                        <h3>Upminster vs Carshalton South and Clockhouse</h3>
-                        <div class="meta">Score 69 vs 57</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-chessington-south-and-malden-rushett/" class="force-card">
-                        <h3>Upminster vs Chessington South and Malden Rushett</h3>
-                        <div class="meta">Score 69 vs 56</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-ickenham-and-south-harefield/" class="force-card">
-                        <h3>Upminster vs Ickenham and South Harefield</h3>
-                        <div class="meta">Score 69 vs 56</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Upminster vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 69 vs 55</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Upminster vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 69 vs 54</div>
-                    </a>
-
-                    <a href="/compare/upminster-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Upminster vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 69 vs 54</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-harefield-village/" class="force-card">
-                        <h3>Darwin vs Harefield Village</h3>
-                        <div class="meta">Score 64 vs 61</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-chelsfield/" class="force-card">
-                        <h3>Darwin vs Chelsfield</h3>
-                        <div class="meta">Score 64 vs 57</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-carshalton-south-and-clockhouse/" class="force-card">
-                        <h3>Darwin vs Carshalton South and Clockhouse</h3>
-                        <div class="meta">Score 64 vs 57</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-chessington-south-and-malden-rushett/" class="force-card">
-                        <h3>Darwin vs Chessington South and Malden Rushett</h3>
-                        <div class="meta">Score 64 vs 56</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-ickenham-and-south-harefield/" class="force-card">
-                        <h3>Darwin vs Ickenham and South Harefield</h3>
-                        <div class="meta">Score 64 vs 56</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Darwin vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 64 vs 55</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Darwin vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 64 vs 54</div>
-                    </a>
-
-                    <a href="/compare/darwin-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Darwin vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 64 vs 54</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-chelsfield/" class="force-card">
-                        <h3>Harefield Village vs Chelsfield</h3>
-                        <div class="meta">Score 61 vs 57</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-carshalton-south-and-clockhouse/" class="force-card">
-                        <h3>Harefield Village vs Carshalton South and Clockhouse</h3>
-                        <div class="meta">Score 61 vs 57</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-chessington-south-and-malden-rushett/" class="force-card">
-                        <h3>Harefield Village vs Chessington South and Malden Rushett</h3>
-                        <div class="meta">Score 61 vs 56</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-ickenham-and-south-harefield/" class="force-card">
-                        <h3>Harefield Village vs Ickenham and South Harefield</h3>
-                        <div class="meta">Score 61 vs 56</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Harefield Village vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 61 vs 55</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Harefield Village vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 61 vs 54</div>
-                    </a>
-
-                    <a href="/compare/harefield-village-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Harefield Village vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 61 vs 54</div>
-                    </a>
-
-                    <a href="/compare/chelsfield-vs-carshalton-south-and-clockhouse/" class="force-card">
-                        <h3>Chelsfield vs Carshalton South and Clockhouse</h3>
-                        <div class="meta">Score 57 vs 57</div>
-                    </a>
-
-                    <a href="/compare/chelsfield-vs-chessington-south-and-malden-rushett/" class="force-card">
-                        <h3>Chelsfield vs Chessington South and Malden Rushett</h3>
-                        <div class="meta">Score 57 vs 56</div>
-                    </a>
-
-                    <a href="/compare/chelsfield-vs-ickenham-and-south-harefield/" class="force-card">
-                        <h3>Chelsfield vs Ickenham and South Harefield</h3>
-                        <div class="meta">Score 57 vs 56</div>
-                    </a>
-
-                    <a href="/compare/chelsfield-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Chelsfield vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 57 vs 55</div>
-                    </a>
-
-                    <a href="/compare/chelsfield-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Chelsfield vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 57 vs 54</div>
-                    </a>
-
-                    <a href="/compare/chelsfield-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Chelsfield vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 57 vs 54</div>
-                    </a>
-
-                    <a href="/compare/carshalton-south-and-clockhouse-vs-chessington-south-and-malden-rushett/" class="force-card">
-                        <h3>Carshalton South and Clockhouse vs Chessington South and Malden Rushett</h3>
-                        <div class="meta">Score 57 vs 56</div>
-                    </a>
-
-                    <a href="/compare/carshalton-south-and-clockhouse-vs-ickenham-and-south-harefield/" class="force-card">
-                        <h3>Carshalton South and Clockhouse vs Ickenham and South Harefield</h3>
-                        <div class="meta">Score 57 vs 56</div>
-                    </a>
-
-                    <a href="/compare/carshalton-south-and-clockhouse-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Carshalton South and Clockhouse vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 57 vs 55</div>
-                    </a>
-
-                    <a href="/compare/carshalton-south-and-clockhouse-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Carshalton South and Clockhouse vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 57 vs 54</div>
-                    </a>
-
-                    <a href="/compare/carshalton-south-and-clockhouse-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Carshalton South and Clockhouse vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 57 vs 54</div>
-                    </a>
-
-                    <a href="/compare/chessington-south-and-malden-rushett-vs-ickenham-and-south-harefield/" class="force-card">
-                        <h3>Chessington South and Malden Rushett vs Ickenham and South Harefield</h3>
-                        <div class="meta">Score 56 vs 56</div>
-                    </a>
-
-                    <a href="/compare/chessington-south-and-malden-rushett-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Chessington South and Malden Rushett vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 56 vs 55</div>
-                    </a>
-
-                    <a href="/compare/chessington-south-and-malden-rushett-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Chessington South and Malden Rushett vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 56 vs 54</div>
-                    </a>
-
-                    <a href="/compare/chessington-south-and-malden-rushett-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Chessington South and Malden Rushett vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 56 vs 54</div>
-                    </a>
-
-                    <a href="/compare/ickenham-and-south-harefield-vs-totteridge-and-woodside/" class="force-card">
-                        <h3>Ickenham and South Harefield vs Totteridge and Woodside</h3>
-                        <div class="meta">Score 56 vs 55</div>
-                    </a>
-
-                    <a href="/compare/ickenham-and-south-harefield-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Ickenham and South Harefield vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 56 vs 54</div>
-                    </a>
-
-                    <a href="/compare/ickenham-and-south-harefield-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Ickenham and South Harefield vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 56 vs 54</div>
-                    </a>
-
-                    <a href="/compare/totteridge-and-woodside-vs-ham-petersham-and-richmond-riverside/" class="force-card">
-                        <h3>Totteridge and Woodside vs Ham, Petersham and Richmond Riverside</h3>
-                        <div class="meta">Score 55 vs 54</div>
-                    </a>
-
-                    <a href="/compare/totteridge-and-woodside-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Totteridge and Woodside vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 55 vs 54</div>
-                    </a>
-
-                    <a href="/compare/ham-petersham-and-richmond-riverside-vs-hayes-and-coney-hall/" class="force-card">
-                        <h3>Ham, Petersham and Richmond Riverside vs Hayes and Coney Hall</h3>
-                        <div class="meta">Score 54 vs 54</div>
-                    </a>
-
-                    <a href="/compare/longsight-vs-atherleigh/" class="force-card">
-                        <h3>Longsight vs Atherleigh</h3>
-                        <div class="meta">Score 81 vs 81</div>
-                    </a>
-
-                    <a href="/compare/longsight-vs-ashton-st-michaels/" class="force-card">
-                        <h3>Longsight vs Ashton St. Michael's</h3>
-                        <div class="meta">Score 81 vs 81</div>
-                    </a>
-
-                    <a href="/compare/longsight-vs-irwell-riverside/" class="force-card">
-                        <h3>Longsight vs Irwell Riverside</h3>
-                        <div class="meta">Score 81 vs 80</div>
-                    </a>
-
-                    <a href="/compare/longsight-vs-bramhall-south-and-woodford/" class="force-card">
-                        <h3>Longsight vs Bramhall South and Woodford</h3>
-                        <div class="meta">Score 81 vs 80</div>
-                    </a>
-
-                    <a href="/compare/longsight-vs-ordsall/" class="force-card">
-                        <h3>Longsight vs Ordsall</h3>
-                        <div class="meta">Score 81 vs 80</div>
-                    </a>
-
-                </div>
-            </div>
-        </section>
+        <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Popular Comparisons</h2>
+        <div class="comparison-grid" id="popularList">
+            <!-- Populated by JS -->
+        </div>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
-        </div>
-    </footer>
-    <script src="/script.js"></script>
+    <script>
+        // Sample neighbourhoods for autocomplete
+        let neighbourhoods = [];
+        let selected1 = null, selected2 = null;
+
+        // Load neighbourhood data
+        async function loadNeighbourhoods() {
+            try {
+                const resp = await fetch('/data/rankings.json');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    neighbourhoods = (data.neighbourhoods || []).map(n => ({
+                        name: n.name,
+                        slug: n.slug || n.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+                        score: n.score
+                    }));
+                }
+            } catch (e) {
+                console.error('Failed to load neighbourhoods:', e);
+            }
+        }
+
+        function slugify(name) {
+            return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        }
+
+        function setupAutocomplete(inputId, dropdownId, onSelect) {
+            const input = document.getElementById(inputId);
+            const dropdown = document.getElementById(dropdownId);
+
+            input.addEventListener('input', () => {
+                const query = input.value.toLowerCase();
+                if (query.length < 2) {
+                    dropdown.classList.remove('open');
+                    return;
+                }
+
+                const matches = neighbourhoods.filter(n => 
+                    n.name.toLowerCase().includes(query)
+                ).slice(0, 10);
+
+                if (matches.length === 0) {
+                    dropdown.classList.remove('open');
+                    return;
+                }
+
+                dropdown.innerHTML = matches.map(n => 
+                    `<div class="dropdown-item" data-slug="${n.slug}" data-name="${n.name}">${n.name} <span style="color:var(--color-text-muted)">(${n.score}/100)</span></div>`
+                ).join('');
+                dropdown.classList.add('open');
+
+                dropdown.querySelectorAll('.dropdown-item').forEach(item => {
+                    item.addEventListener('click', () => {
+                        input.value = item.dataset.name;
+                        onSelect({ name: item.dataset.name, slug: item.dataset.slug });
+                        dropdown.classList.remove('open');
+                        updateButton();
+                    });
+                });
+            });
+
+            input.addEventListener('blur', () => {
+                setTimeout(() => dropdown.classList.remove('open'), 200);
+            });
+        }
+
+        function updateButton() {
+            document.getElementById('compareBtn').disabled = !(selected1 && selected2);
+        }
+
+        function doCompare() {
+            if (!selected1 || !selected2) return;
+            const url = `/compare/${selected1.slug}-vs-${selected2.slug}/`;
+            window.location.href = url;
+        }
+
+        // Load popular comparisons from existing folders
+        async function loadPopularComparisons() {
+            const popular = [
+                { a: 'Abbey Road', b: 'Arsenal', slugA: 'abbey-road', slugB: 'arsenal' },
+                { a: 'Abbey Road', b: 'Balham', slugA: 'abbey-road', slugB: 'balham' },
+                { a: 'Abbey Road', b: 'Barnes', slugA: 'abbey-road', slugB: 'barnes' },
+                { a: 'Abbey Road', b: 'Brixton', slugA: 'abbey-road', slugB: 'brixton-hill' },
+                { a: 'Abbey Road', b: 'Camden Town', slugA: 'abbey-road', slugB: 'camden-town-with-primrose-hill' },
+                { a: 'Abbey Road', b: 'Fulham', slugA: 'abbey-road', slugB: 'fulham-reach' }
+            ];
+
+            const list = document.getElementById('popularList');
+            list.innerHTML = popular.map(p => `
+                <a href="/compare/${p.slugA}-vs-${p.slugB}/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                    <div style="font-weight: 600;">${p.a} vs ${p.b}</div>
+                    <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+                </a>
+            `).join('');
+        }
+
+        // Initialize
+        loadNeighbourhoods();
+        loadPopularComparisons();
+        
+        setupAutocomplete('area1', 'dropdown1', (item) => { selected1 = item; });
+        setupAutocomplete('area2', 'dropdown2', (item) => { selected2 = item; });
+
+        // Theme
+        const toggle = document.getElementById('themeToggle');
+        const saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.setAttribute('data-theme', saved);
+        toggle?.addEventListener('click', () => {
+            const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
+    </script>
 </body>
 </html>
