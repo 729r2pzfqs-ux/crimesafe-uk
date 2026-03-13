@@ -13,22 +13,6 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
-    <style>
-        .compare-form { display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-8); }
-        .compare-input { position: relative; flex: 1; min-width: 200px; }
-        .compare-input input { width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface); font-size: var(--text-base); }
-        .compare-input input:focus { outline: none; border-color: var(--color-primary); }
-        .compare-vs { font-weight: 700; color: var(--color-text-muted); }
-        .compare-btn { padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; border: none; }
-        .compare-btn:hover { background: var(--color-primary-hover); }
-        .compare-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-        .dropdown { position: absolute; top: 100%; left: 0; right: 0; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); max-height: 300px; overflow-y: auto; z-index: 100; display: none; box-shadow: var(--shadow-lg); }
-        .dropdown.open { display: block; }
-        .dropdown-item { padding: var(--space-3) var(--space-4); cursor: pointer; border-bottom: 1px solid var(--color-divider); }
-        .dropdown-item:hover { background: var(--color-surface-offset); }
-        .dropdown-item:last-child { border-bottom: none; }
-        .comparison-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-4); }
-    </style>
 </head>
 <body>
     <nav class="nav">
@@ -44,7 +28,7 @@
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/streets/">Streets</a>
-                <a href="/compare/">Compare</a>
+                <a href="/compare/" class="active">Compare</a>
                 <a href="/forces/">Forces</a>
                 <button id="themeToggle" class="theme-toggle">🌙</button>
             </div>
@@ -61,132 +45,129 @@
             Compare crime rates and safety scores between any two UK neighbourhoods.
         </p>
 
-        <div class="compare-form">
-            <div class="compare-input">
-                <input type="text" id="area1" placeholder="First area..." autocomplete="off">
-                <div class="dropdown" id="dropdown1"></div>
+        <div class="compare-wrap" style="display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-4);">
+            <div class="compare-input-wrap" style="position: relative; flex: 1; min-width: 200px;">
+                <input type="text" class="search-input" id="compareCity1" placeholder="First area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
+                <div class="search-dropdown" id="compareDropdown1"></div>
             </div>
-            <span class="compare-vs">vs</span>
-            <div class="compare-input">
-                <input type="text" id="area2" placeholder="Second area..." autocomplete="off">
-                <div class="dropdown" id="dropdown2"></div>
+            <span class="compare-vs" style="font-weight: 700; color: var(--color-text-muted);">vs</span>
+            <div class="compare-input-wrap" style="position: relative; flex: 1; min-width: 200px;">
+                <input type="text" class="search-input" id="compareCity2" placeholder="Second area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
+                <div class="search-dropdown" id="compareDropdown2"></div>
             </div>
-            <button class="compare-btn" id="compareBtn" onclick="doCompare()" disabled>Compare</button>
+            <button class="compare-btn" id="compareBtn" disabled style="padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; border: none; opacity: 0.5;">Compare</button>
         </div>
+        
         <p style="text-align: center; color: var(--color-text-muted); margin-bottom: var(--space-8);">Compare UK cities or neighbourhoods in London, Manchester &amp; Birmingham</p>
 
         <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Popular Comparisons</h2>
-        <div class="comparison-grid" id="popularList">
-            <!-- Populated by JS -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4);">
+            <a href="/compare/abbey-road-vs-arsenal/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                <div style="font-weight: 600;">Abbey Road vs Arsenal</div>
+                <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+            </a>
+            <a href="/compare/abbey-road-vs-balham/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                <div style="font-weight: 600;">Abbey Road vs Balham</div>
+                <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+            </a>
+            <a href="/compare/abbey-road-vs-barnes/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                <div style="font-weight: 600;">Abbey Road vs Barnes</div>
+                <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+            </a>
+            <a href="/compare/arsenal-vs-barnhill/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                <div style="font-weight: 600;">Arsenal vs Barnhill</div>
+                <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+            </a>
+            <a href="/compare/brixton-hill-vs-brixton-north/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                <div style="font-weight: 600;">Brixton Hill vs Brixton North</div>
+                <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+            </a>
+            <a href="/compare/camden-town-with-primrose-hill-vs-cantelowes/" class="card" style="padding: var(--space-4); text-decoration: none;">
+                <div style="font-weight: 600;">Camden Town vs Cantelowes</div>
+                <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
+            </a>
         </div>
     </main>
 
+    <script src="/neighbourhoods_search.js"></script>
     <script>
-        // Sample neighbourhoods for autocomplete
-        let neighbourhoods = [];
-        let selected1 = null, selected2 = null;
+        const compareCity1 = document.getElementById('compareCity1');
+        const compareCity2 = document.getElementById('compareCity2');
+        const compareDropdown1 = document.getElementById('compareDropdown1');
+        const compareDropdown2 = document.getElementById('compareDropdown2');
+        const compareBtn = document.getElementById('compareBtn');
 
-        // Load neighbourhood data
-        async function loadNeighbourhoods() {
-            try {
-                const resp = await fetch('/data/rankings.json');
-                if (resp.ok) {
-                    const data = await resp.json();
-                    // data is an array directly
-                    neighbourhoods = data.map(n => ({
-                        name: n.name,
-                        slug: n.nb_slug || n.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
-                        score: n.score
-                    }));
-                    console.log('Loaded', neighbourhoods.length, 'neighbourhoods');
-                }
-            } catch (e) {
-                console.error('Failed to load neighbourhoods:', e);
-            }
-        }
+        let compareData1 = null;
+        let compareData2 = null;
 
-        function slugify(name) {
-            return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        }
-
-        function setupAutocomplete(inputId, dropdownId, onSelect) {
-            const input = document.getElementById(inputId);
-            const dropdown = document.getElementById(dropdownId);
-
-            input.addEventListener('input', () => {
-                const query = input.value.toLowerCase();
-                if (query.length < 2) {
-                    dropdown.classList.remove('open');
+        function setupCompareInput(input, dropdown, setData) {
+            if (!input || !dropdown) return;
+            
+            input.addEventListener('input', function() {
+                const q = this.value.toLowerCase().trim();
+                setData(null);
+                updateCompareBtn();
+                
+                if (!q || q.length < 2) {
+                    dropdown.classList.remove('active');
                     return;
                 }
-
-                const matches = neighbourhoods.filter(n => 
-                    n.name.toLowerCase().includes(query)
-                ).slice(0, 10);
-
-                if (matches.length === 0) {
-                    dropdown.classList.remove('open');
+                
+                // Search neighbourhoods
+                const results = (window.NEIGHBOURHOODS_DATA || [])
+                    .filter(n => n[0].toLowerCase().includes(q))
+                    .slice(0, 10);
+                
+                if (results.length === 0) {
+                    dropdown.classList.remove('active');
                     return;
                 }
-
-                dropdown.innerHTML = matches.map(n => 
-                    `<div class="dropdown-item" data-slug="${n.slug}" data-name="${n.name}">${n.name} <span style="color:var(--color-text-muted)">(${n.score}/100)</span></div>`
-                ).join('');
-                dropdown.classList.add('open');
-
-                dropdown.querySelectorAll('.dropdown-item').forEach(item => {
+                
+                dropdown.innerHTML = results.map(n => `
+                    <div class="search-item" data-name="${n[0]}" data-slug="${n[1]}" data-score="${n[2]}">
+                        <div>
+                            <div style="font-weight: 500;">${n[0]}</div>
+                            <div style="font-size: 12px; color: var(--color-text-muted);">Score: ${n[2]}/100</div>
+                        </div>
+                    </div>
+                `).join('');
+                dropdown.classList.add('active');
+                
+                dropdown.querySelectorAll('.search-item').forEach(item => {
                     item.addEventListener('click', () => {
                         input.value = item.dataset.name;
-                        onSelect({ name: item.dataset.name, slug: item.dataset.slug });
-                        dropdown.classList.remove('open');
-                        updateButton();
+                        setData({ name: item.dataset.name, slug: item.dataset.slug });
+                        dropdown.classList.remove('active');
+                        updateCompareBtn();
                     });
                 });
             });
-
+            
             input.addEventListener('blur', () => {
-                setTimeout(() => dropdown.classList.remove('open'), 200);
+                setTimeout(() => dropdown.classList.remove('active'), 200);
             });
         }
 
-        function updateButton() {
-            document.getElementById('compareBtn').disabled = !(selected1 && selected2);
+        function updateCompareBtn() {
+            if (compareBtn) {
+                const enabled = compareData1 && compareData2;
+                compareBtn.disabled = !enabled;
+                compareBtn.style.opacity = enabled ? '1' : '0.5';
+            }
         }
 
-        function doCompare() {
-            if (!selected1 || !selected2) return;
-            const url = `/compare/${selected1.slug}-vs-${selected2.slug}/`;
-            window.location.href = url;
+        setupCompareInput(compareCity1, compareDropdown1, d => compareData1 = d);
+        setupCompareInput(compareCity2, compareDropdown2, d => compareData2 = d);
+
+        if (compareBtn) {
+            compareBtn.addEventListener('click', () => {
+                if (compareData1 && compareData2) {
+                    window.location.href = `/compare/${compareData1.slug}-vs-${compareData2.slug}/`;
+                }
+            });
         }
 
-        // Load popular comparisons from existing folders
-        async function loadPopularComparisons() {
-            const popular = [
-                { a: 'Abbey Road', b: 'Arsenal', slugA: 'abbey-road', slugB: 'arsenal' },
-                { a: 'Abbey Road', b: 'Balham', slugA: 'abbey-road', slugB: 'balham' },
-                { a: 'Abbey Road', b: 'Barnes', slugA: 'abbey-road', slugB: 'barnes' },
-                { a: 'Abbey Road', b: 'Brixton', slugA: 'abbey-road', slugB: 'brixton-hill' },
-                { a: 'Abbey Road', b: 'Camden Town', slugA: 'abbey-road', slugB: 'camden-town-with-primrose-hill' },
-                { a: 'Abbey Road', b: 'Fulham', slugA: 'abbey-road', slugB: 'fulham-reach' }
-            ];
-
-            const list = document.getElementById('popularList');
-            list.innerHTML = popular.map(p => `
-                <a href="/compare/${p.slugA}-vs-${p.slugB}/" class="card" style="padding: var(--space-4); text-decoration: none;">
-                    <div style="font-weight: 600;">${p.a} vs ${p.b}</div>
-                    <div style="color: var(--color-text-muted); font-size: var(--text-sm);">View comparison →</div>
-                </a>
-            `).join('');
-        }
-
-        // Initialize
-        loadNeighbourhoods();
-        loadPopularComparisons();
-        
-        setupAutocomplete('area1', 'dropdown1', (item) => { selected1 = item; });
-        setupAutocomplete('area2', 'dropdown2', (item) => { selected2 = item; });
-
-        // Theme
+        // Theme toggle
         const toggle = document.getElementById('themeToggle');
         const saved = localStorage.getItem('theme');
         if (saved) document.documentElement.setAttribute('data-theme', saved);
