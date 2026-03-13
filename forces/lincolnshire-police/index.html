@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Lincolnshire Police — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics for 58 neighbourhoods in Lincolnshire Police">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a><a href="/city/">City</a>
+                <a href="/districts/">Districts</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › <a href="/forces/">Forces</a><a href="/city/">City</a> › Lincolnshire Police
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>Lincolnshire Police</h1>
+                <p class="hero-sub">58 neighbourhoods covered</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Neighbourhoods</h2>
+                </div>
+                <div class="force-grid">
+
+                    <a href="/neighbourhood/lincolnshire-police/alford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Alford</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/boston-rural-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Boston Rural East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/boston-rural-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Boston Rural West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/boston-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Boston Town Centre</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/boston-town-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Boston Town East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/boston-town-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Boston Town West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/bourne-and-billingborough/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bourne and Billingborough</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/caistor/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Caistor</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/cliff-villages/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Cliff Villages</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/gainsborough-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gainsborough Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/gainsborough-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gainsborough Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/gainsborough-town-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gainsborough Town North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/gainsborough-town-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gainsborough Town South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/gainsborough-uphills/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gainsborough Uphills</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/grantham-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Grantham Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/grantham-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Grantham Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/grantham-town-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Grantham Town Centre</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/grantham-town-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Grantham Town East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/grantham-town-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Grantham Town West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/holbeach-town-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Holbeach Town and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/horncastle-and-wragby/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Horncastle and Wragby</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/hykeham-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hykeham Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/hykeham-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hykeham Town</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/ingoldmells-and-chapel-st-leonards/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Ingoldmells and Chapel St. Leonards</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-abbey/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Abbey</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-birchwood/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Birchwood</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-boultham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Boultham</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-bracebridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Bracebridge</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-carholme/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Carholme</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-city-centre/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln City Centre</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-glebe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Glebe</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-hartsholme/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Hartsholme</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-minster-and-castle/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Minster and Castle</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-moorland/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Moorland</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/lincoln-park-ward/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lincoln Park Ward</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/louth-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Louth Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/louth-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Louth Town</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/mablethorpe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Mablethorpe</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/market-deeping-and-uffington/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Market Deeping and Uffington</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/market-rasen/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Market Rasen</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/nettleham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Nettleham</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/skegness/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Skegness</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/sleaford-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Sleaford Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/sleaford-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Sleaford Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/sleaford-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Sleaford Town</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/spalding-estates/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Spalding Estates</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/spalding-rural-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Spalding Rural East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/spalding-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Spalding Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/spalding-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Spalding Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/spalding-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Spalding Town</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/spilsby/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Spilsby</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/stamford-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Stamford Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/stamford-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Stamford Town</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/the-suttons/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">The Suttons</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/wainfleet-and-burgh-le-marsh/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Wainfleet and Burgh Le Marsh</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/washingborough-and-metheringham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Washingborough and Metheringham</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/welton-and-hemswell/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Welton and Hemswell</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/lincolnshire-police/woodhall-spa-coningsby-and-tattershall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Woodhall Spa, Coningsby and Tattershall</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/forces_search.js"></script>
+    <script src="/neighbourhoods_search.js"></script>
+    <script src="/force_map.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

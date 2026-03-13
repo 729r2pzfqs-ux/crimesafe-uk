@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Suffolk Constabulary — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics for 50 neighbourhoods in Suffolk Constabulary">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a><a href="/city/">City</a>
+                <a href="/districts/">Districts</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › <a href="/forces/">Forces</a><a href="/city/">City</a> › Suffolk Constabulary
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>Suffolk Constabulary</h1>
+                <p class="hero-sub">50 neighbourhoods covered</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Neighbourhoods</h2>
+                </div>
+                <div class="force-grid">
+
+                    <a href="/neighbourhood/suffolk-constabulary/alexandra/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Alexandra</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/beccles-and-worlingham/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Beccles and Worlingham</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/brandon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Brandon</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/bridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bridge</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/bungay-and-wainford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bungay and Wainford</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/bury-st-edmunds-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bury St Edmunds Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/bury-st-edmunds-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bury St Edmunds Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/bury-st-edmunds-town-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bury St Edmunds Town North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/bury-st-edmunds-town-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bury St Edmunds Town South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/carlton-colville-amp-kessingland/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Carlton Colville &amp; Kessingland</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/claydon-copdock-and-peninsula/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Claydon, Copdock and Peninsula</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/deben-and-orford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Deben and Orford</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/debenham-and-eye/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Debenham and Eye</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/felixstowe/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Felixstowe</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/framlingham-and-yoxford/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Framlingham and Yoxford</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/gainsborough-and-holywells/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gainsborough and Holywells</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/gipping/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gipping</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/great-cornard/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Great Cornard</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/gunton-oulton-and-lothingland/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gunton, Oulton and Lothingland</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/hadleigh-and-nayland/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hadleigh and Nayland</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/halesworth-and-southwold/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Halesworth and Southwold</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/harbour/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Harbour</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/haverhill-rural-and-suffolk-south-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Haverhill Rural and Suffolk South West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/haverhill-town-north-and-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Haverhill Town - North and West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/haverhill-town-south-and-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Haverhill Town - South and East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/kesgrave-and-bixley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Kesgrave and Bixley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/kirkley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Kirkley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/lakenheath-and-the-rows/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lakenheath and the Rows</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/leiston-saxmundham-and-aldeburgh/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Leiston, Saxmundham and Aldeburgh</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/manor-and-red-lodge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Manor and Red Lodge</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/martlesham-and-orwell/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Martlesham and Orwell</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/mid-suffolk-north-and-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Mid-Suffolk North and East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/mid-suffolk-south-and-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Mid-Suffolk South and West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/mildenhall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Mildenhall</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/newmarket/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Newmarket</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/normanston/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Normanston</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/pakefield-and-whitton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Pakefield and Whitton</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/priory-heath/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Priory Heath</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/rushmere-and-st-johns/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Rushmere and St. Johns</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/st-margarets/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">St Margaret's</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/stoke-park-and-sprites/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Stoke Park and Sprites</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/stowmarket/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Stowmarket</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/sudbury-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Sudbury Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/sudbury-town-north-and-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Sudbury Town - North and East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/sudbury-town-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Sudbury Town - South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/waldingfield-boxford-and-bures/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Waldingfield, Boxford and Bures</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/westgate-and-st-margaretrsquos/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Westgate and St. Margaret&rsquo;s</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/whitehouse/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Whitehouse</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/whitton-and-castle-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Whitton and Castle Hill</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/suffolk-constabulary/woodbridge-and-wickham-market/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Woodbridge and Wickham Market</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/forces_search.js"></script>
+    <script src="/neighbourhoods_search.js"></script>
+    <script src="/force_map.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
