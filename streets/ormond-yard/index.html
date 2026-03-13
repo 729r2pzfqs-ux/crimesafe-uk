@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ormond Yard Crime Statistics | Safety & Crime Rates | CrimeSafe</title>
-    <meta name="description" content="Is Ormond Yard safe? View real-time crime statistics, safety scores, and recent incidents for Ormond Yard, London. Updated monthly with official UK police data.">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Ormond Yard Crime Statistics | Is Ormond Yard Safe? | CrimeSafe UK</title>
+    <meta name="description" content="Is Ormond Yard safe? View real-time crime statistics, safety score of 0/100, and recent incidents for Ormond Yard, London. Updated with official UK police data.">
     <link rel="canonical" href="https://crimesafe.uk/streets/ormond-yard/">
     
-    <meta property="og:title" content="Ormond Yard Crime Statistics | CrimeSafe">
-    <meta property="og:description" content="Real-time crime data and safety information for Ormond Yard, London">
+    <meta property="og:title" content="Ormond Yard Crime Statistics | CrimeSafe UK">
+    <meta property="og:description" content="Safety score: 0/100. 5048 crimes recorded. View detailed crime breakdown for Ormond Yard.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://crimesafe.uk/streets/ormond-yard/">
+    
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#01696F">
     
     <script type="application/ld+json">
     {
@@ -21,10 +32,10 @@
         "url": "https://crimesafe.uk/streets/ormond-yard/",
         "isPartOf": {
             "@type": "WebSite",
-            "name": "CrimeSafe",
+            "name": "CrimeSafe UK",
             "url": "https://crimesafe.uk"
         },
-        "about": {
+        "mainEntity": {
             "@type": "Place",
             "name": "Ormond Yard",
             "address": {
@@ -36,135 +47,225 @@
         }
     }
     </script>
-    
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="icon" href="/favicon.ico">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#2563eb',
-                        surface: '#f8fafc',
-                    }
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is Ormond Yard safe?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ormond Yard has a safety score of 0/100 based on recent crime data. There were 5048 crimes recorded in the area last month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the crime rate on Ormond Yard?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "5048 crimes were reported near Ormond Yard in the most recent month. The most common crime type is Theft From The Person."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Ormond Yard safe at night?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Like many urban areas, safety on Ormond Yard varies by time of day. We recommend staying in well-lit areas and being aware of your surroundings, especially after dark."
                 }
             }
-        }
+        ]
+    }
     </script>
-    <style>
-        :root { --color-primary: #2563eb; --color-surface: #f8fafc; }
-        .dark { --color-surface: #1e293b; }
-        body { font-family: system-ui, -apple-system, sans-serif; }
-        .crime-card { background: white; border-radius: 12px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-        .dark .crime-card { background: #334155; }
-        .loading { animation: pulse 2s infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-    </style>
 </head>
-<body class="bg-slate-50 dark:bg-slate-900 min-h-screen">
-    <header class="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2">
-                <span class="text-2xl">🛡️</span>
-                <span class="font-bold text-xl text-slate-900 dark:text-white">CrimeSafe</span>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
             </a>
-            <nav class="hidden md:flex gap-6">
-                <a href="/london/" class="text-slate-600 hover:text-primary dark:text-slate-300">London</a>
-                <a href="/search/" class="text-slate-600 hover:text-primary dark:text-slate-300">Search</a>
-            </nav>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/streets/">Streets</a>
+                <a href="/forces/">Forces</a>
+                <a href="/maps/">Maps</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main class="max-w-6xl mx-auto px-4 py-8">
-        <!-- Breadcrumb -->
-        <nav class="text-sm text-slate-500 mb-6">
-            <a href="/" class="hover:text-primary">Home</a>
-            <span class="mx-2">›</span>
-            <a href="/streets/" class="hover:text-primary">Streets</a>
-            <span class="mx-2">›</span>
-            <span class="text-slate-900 dark:text-white">Ormond Yard</span>
+    <main class="container" style="padding-top: var(--space-8); padding-bottom: var(--space-16);">
+        <nav class="breadcrumb" style="margin-bottom: var(--space-6);">
+            <a href="/">Home</a> › <a href="/streets/">Streets</a> › <span>Ormond Yard</span>
         </nav>
 
-        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-2">
-            Ormond Yard Crime Statistics
-        </h1>
-        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8">
-            London, United Kingdom
-        </p>
+        <header style="margin-bottom: var(--space-8);">
+            <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Ormond Yard Crime Statistics</h1>
+            <p style="color: var(--color-text-muted); font-size: var(--text-lg);">London, United Kingdom</p>
+        </header>
 
-        <!-- Safety Score Card -->
-        <div class="grid md:grid-cols-3 gap-6 mb-8">
-            <div class="crime-card">
-                <div class="text-sm text-slate-500 mb-1">Safety Score</div>
-                <div id="safetyScore" class="text-4xl font-bold text-primary loading">--</div>
-                <div class="text-sm text-slate-500">out of 100</div>
+        <div class="kpi-grid" style="margin-bottom: var(--space-8);">
+            <div class="kpi-card">
+                <div class="kpi-label">Safety Score</div>
+                <div class="kpi-value" style="color: var(--color-error);">0</div>
+                <div class="kpi-detail">out of 100</div>
             </div>
-            <div class="crime-card">
-                <div class="text-sm text-slate-500 mb-1">Crimes (Last Month)</div>
-                <div id="crimeCount" class="text-4xl font-bold text-slate-900 dark:text-white loading">--</div>
-                <div class="text-sm text-slate-500">within 1 mile</div>
+            <div class="kpi-card">
+                <div class="kpi-label">Total Crimes</div>
+                <div class="kpi-value">5048</div>
+                <div class="kpi-detail">within 1 mile (2026-01)</div>
             </div>
-            <div class="crime-card">
-                <div class="text-sm text-slate-500 mb-1">Most Common</div>
-                <div id="topCrime" class="text-xl font-bold text-slate-900 dark:text-white loading">--</div>
-                <div class="text-sm text-slate-500">crime type</div>
+            <div class="kpi-card">
+                <div class="kpi-label">Most Common</div>
+                <div class="kpi-value" style="font-size: var(--text-lg);">Theft From The Person</div>
+                <div class="kpi-detail">crime type</div>
             </div>
         </div>
 
-        <!-- Crime Types -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Crime Breakdown</h2>
-            <div id="crimeTypes" class="crime-card">
-                <div class="loading text-slate-500">Loading crime data...</div>
+        <section style="margin-bottom: var(--space-8);">
+            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Crime Breakdown</h2>
+            <div class="card" style="padding: var(--space-5);">
+                <div style="display: flex; flex-direction: column; gap: var(--space-3);">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #ca8a04;"></span>
+                <span>Theft From The Person</span>
+            </div>
+            <strong>1581</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #64748b;"></span>
+                <span>Other Theft</span>
+            </div>
+            <strong>932</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #dc2626;"></span>
+                <span>Violent Crime</span>
+            </div>
+            <strong>619</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #0891b2;"></span>
+                <span>Anti Social Behaviour</span>
+            </div>
+            <strong>528</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #65a30d;"></span>
+                <span>Shoplifting</span>
+            </div>
+            <strong>521</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #dc2626;"></span>
+                <span>Robbery</span>
+            </div>
+            <strong>187</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #7c3aed;"></span>
+                <span>Public Order</span>
+            </div>
+            <strong>177</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #be185d;"></span>
+                <span>Drugs</span>
+            </div>
+            <strong>158</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #ea580c;"></span>
+                <span>Burglary</span>
+            </div>
+            <strong>110</strong>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
+            <div style="display: flex; align-items: center; gap: var(--space-2);">
+                <span style="width: 12px; height: 12px; border-radius: 50%; background: #ca8a04;"></span>
+                <span>Vehicle Crime</span>
+            </div>
+            <strong>82</strong>
+        </div></div>
             </div>
         </section>
 
-        <!-- Recent Crimes -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Recent Incidents</h2>
-            <div id="recentCrimes" class="space-y-3">
-                <div class="crime-card loading text-slate-500">Loading recent incidents...</div>
+        <section style="margin-bottom: var(--space-8);">
+            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Is Ormond Yard Safe?</h2>
+            <div class="card" style="padding: var(--space-5);">
+                <p style="margin-bottom: var(--space-4);">
+                    Based on the latest police data, <strong>Ormond Yard</strong> has a safety score of 
+                    <strong style="color: var(--color-error);">0/100</strong>. 
+                    This area has significantly elevated crime rates. Please exercise caution.
+                </p>
+                <p>
+                    The most common crime type in this area is <strong>Theft From The Person</strong>, 
+                    accounting for a significant portion of recorded incidents.
+                </p>
             </div>
         </section>
 
-        <!-- Safety Tips -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Safety Tips for Ormond Yard</h2>
-            <div class="crime-card">
-                <ul class="space-y-3 text-slate-700 dark:text-slate-300">
-                    <li class="flex gap-2"><span>✓</span> Stay aware of your surroundings, especially at night</li>
-                    <li class="flex gap-2"><span>✓</span> Keep valuables secure and out of sight</li>
-                    <li class="flex gap-2"><span>✓</span> Stick to well-lit areas when walking after dark</li>
-                    <li class="flex gap-2"><span>✓</span> Report suspicious activity to local police</li>
+        <section style="margin-bottom: var(--space-8);">
+            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Safety Tips for Ormond Yard</h2>
+            <div class="card" style="padding: var(--space-5);">
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3);">
+                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
+                        <span style="color: var(--color-success);">✓</span>
+                        <span>Stay aware of your surroundings, especially at night</span>
+                    </li>
+                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
+                        <span style="color: var(--color-success);">✓</span>
+                        <span>Keep valuables secure and out of sight</span>
+                    </li>
+                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
+                        <span style="color: var(--color-success);">✓</span>
+                        <span>Stick to well-lit areas when walking after dark</span>
+                    </li>
+                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
+                        <span style="color: var(--color-success);">✓</span>
+                        <span>Report suspicious activity to local police (dial 101 for non-emergencies)</span>
+                    </li>
                 </ul>
             </div>
         </section>
 
-        <!-- FAQ Schema -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Frequently Asked Questions</h2>
-            <div class="space-y-4">
-                <div class="crime-card">
-                    <h3 class="font-bold text-slate-900 dark:text-white mb-2">Is Ormond Yard safe?</h3>
-                    <p class="text-slate-600 dark:text-slate-400">
-                        Ormond Yard has varying safety levels depending on the time of day and specific location. 
-                        Check our real-time crime data above for the most current safety information.
+        <section>
+            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
+            <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+                <div class="card" style="padding: var(--space-5);">
+                    <h3 style="font-weight: 600; margin-bottom: var(--space-2);">Is Ormond Yard safe?</h3>
+                    <p style="color: var(--color-text-muted);">
+                        Ormond Yard has a safety score of 0/100 based on recent crime data. 
+                        There were 5048 crimes recorded in the area last month.
                     </p>
                 </div>
-                <div class="crime-card">
-                    <h3 class="font-bold text-slate-900 dark:text-white mb-2">What crimes are most common on Ormond Yard?</h3>
-                    <p class="text-slate-600 dark:text-slate-400">
-                        The crime breakdown above shows the types of incidents reported in this area. 
-                        Data is sourced from official UK Police records and updated monthly.
+                <div class="card" style="padding: var(--space-5);">
+                    <h3 style="font-weight: 600; margin-bottom: var(--space-2);">What crimes are most common on Ormond Yard?</h3>
+                    <p style="color: var(--color-text-muted);">
+                        The most frequently reported crime type is Theft From The Person. 
+                        See the crime breakdown above for full details.
                     </p>
                 </div>
-                <div class="crime-card">
-                    <h3 class="font-bold text-slate-900 dark:text-white mb-2">Is Ormond Yard safe at night?</h3>
-                    <p class="text-slate-600 dark:text-slate-400">
-                        Like many urban areas, Ormond Yard may have different safety profiles at night. 
+                <div class="card" style="padding: var(--space-5);">
+                    <h3 style="font-weight: 600; margin-bottom: var(--space-2);">Is Ormond Yard safe at night?</h3>
+                    <p style="color: var(--color-text-muted);">
+                        Like many urban areas, safety on Ormond Yard may vary by time of day. 
                         We recommend staying in well-lit areas and being aware of your surroundings.
                     </p>
                 </div>
@@ -172,120 +273,31 @@
         </section>
     </main>
 
-    <footer class="bg-slate-100 dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 py-8 mt-12">
-        <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
-            <p>Data sourced from UK Police API. Updated monthly.</p>
-            <p class="mt-2">© 2026 CrimeSafe UK</p>
+    <footer style="border-top: 1px solid var(--color-divider); padding: var(--space-8) 0; text-align: center;">
+        <div class="container">
+            <p style="color: var(--color-text-muted); font-size: var(--text-sm);">
+                Data sourced from UK Police API. Last updated: 2026-03-13T16:17:13.404721.
+            </p>
+            <p style="color: var(--color-text-faint); font-size: var(--text-xs); margin-top: var(--space-2);">
+                © 2026 CrimeSafe UK
+            </p>
         </div>
     </footer>
 
     <script>
-        const LAT = 51.508202;
-        const LNG = -0.136410;
-        
-        async function loadCrimeData() {
-            try {
-                // Get latest available month
-                const now = new Date();
-                let year = now.getFullYear();
-                let month = now.getMonth(); // 0-indexed, so current month - 1 for API
-                if (month === 0) { year--; month = 12; }
-                const dateStr = `${year}-${String(month).padStart(2, '0')}`;
-                
-                const resp = await fetch(`https://data.police.uk/api/crimes-street/all-crime?lat=${LAT}&lng=${LNG}&date=${dateStr}`);
-                
-                if (!resp.ok) {
-                    // Try previous month if current not available
-                    month--;
-                    if (month === 0) { year--; month = 12; }
-                    const prevDate = `${year}-${String(month).padStart(2, '0')}`;
-                    const resp2 = await fetch(`https://data.police.uk/api/crimes-street/all-crime?lat=${LAT}&lng=${LNG}&date=${prevDate}`);
-                    if (!resp2.ok) throw new Error('No data');
-                    return await resp2.json();
-                }
-                
-                return await resp.json();
-            } catch (err) {
-                console.error('Error loading crime data:', err);
-                return [];
-            }
-        }
-        
-        function getCrimeColor(category) {
-            const colors = {
-                'violent-crime': '#dc2626',
-                'robbery': '#dc2626',
-                'burglary': '#ea580c',
-                'vehicle-crime': '#ca8a04',
-                'theft-from-the-person': '#ca8a04',
-                'shoplifting': '#65a30d',
-                'anti-social-behaviour': '#0891b2',
-                'public-order': '#7c3aed',
-                'drugs': '#be185d',
-                'other-crime': '#64748b'
-            };
-            return colors[category] || '#64748b';
-        }
-        
-        function formatCrimeType(category) {
-            return category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-        }
-        
-        async function init() {
-            const crimes = await loadCrimeData();
-            
-            // Update crime count
-            document.getElementById('crimeCount').textContent = crimes.length;
-            document.getElementById('crimeCount').classList.remove('loading');
-            
-            // Calculate safety score (inverse of crime rate, normalized)
-            const score = Math.max(0, Math.min(100, Math.round(100 - (crimes.length / 10))));
-            document.getElementById('safetyScore').textContent = score;
-            document.getElementById('safetyScore').classList.remove('loading');
-            document.getElementById('safetyScore').style.color = score >= 60 ? '#16a34a' : score >= 40 ? '#ca8a04' : '#dc2626';
-            
-            // Count crime types
-            const types = {};
-            crimes.forEach(c => {
-                types[c.category] = (types[c.category] || 0) + 1;
-            });
-            
-            // Sort by count
-            const sorted = Object.entries(types).sort((a, b) => b[1] - a[1]);
-            
-            // Update top crime
-            if (sorted.length > 0) {
-                document.getElementById('topCrime').textContent = formatCrimeType(sorted[0][0]);
-            }
-            document.getElementById('topCrime').classList.remove('loading');
-            
-            // Render crime types
-            const typesHtml = sorted.slice(0, 8).map(([type, count]) => `
-                <div class="flex items-center justify-between py-2 border-b border-slate-100 dark:border-slate-600 last:border-0">
-                    <div class="flex items-center gap-2">
-                        <div class="w-3 h-3 rounded-full" style="background: ${getCrimeColor(type)}"></div>
-                        <span class="text-slate-700 dark:text-slate-300">${formatCrimeType(type)}</span>
-                    </div>
-                    <span class="font-bold text-slate-900 dark:text-white">${count}</span>
-                </div>
-            `).join('');
-            document.getElementById('crimeTypes').innerHTML = typesHtml || '<p class="text-slate-500">No crime data available</p>';
-            
-            // Render recent crimes
-            const recentHtml = crimes.slice(0, 10).map(c => `
-                <div class="crime-card flex items-start gap-3">
-                    <div class="w-3 h-3 rounded-full mt-1.5" style="background: ${getCrimeColor(c.category)}"></div>
-                    <div>
-                        <div class="font-medium text-slate-900 dark:text-white">${formatCrimeType(c.category)}</div>
-                        <div class="text-sm text-slate-500">${c.location?.street?.name || 'Unknown location'} · ${c.month}</div>
-                    </div>
-                </div>
-            `).join('');
-            document.getElementById('recentCrimes').innerHTML = recentHtml || '<div class="crime-card text-slate-500">No recent incidents</div>';
-        }
-        
-        init();
-        lucide.createIcons();
+        // Theme toggle
+        const toggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        const saved = localStorage.getItem('theme');
+        if (saved) html.setAttribute('data-theme', saved);
+        toggle?.addEventListener('click', () => {
+            const current = html.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
+        if (html.getAttribute('data-theme') === 'dark') toggle.textContent = '☀️';
     </script>
 </body>
 </html>
