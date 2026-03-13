@@ -352,6 +352,9 @@ def main():
         )
         
         # Write file
+        # Skip if slug would create index
+        if slug == "" or slug == "index":
+            continue
         page_dir = STREETS_DIR / slug
         page_dir.mkdir(parents=True, exist_ok=True)
         (page_dir / 'index.html').write_text(html)
