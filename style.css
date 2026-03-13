@@ -449,3 +449,18 @@ a:hover { color: var(--color-primary-hover); }
     box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   }
 }
+
+/* Dark mode map tiles */
+[data-theme="dark"] .card img[src*="tile.openstreetmap"],
+[data-theme="dark"] .card img[alt*="map"],
+[data-theme="dark"] .map-preview {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
+}
+
+/* Dark mode for map card backgrounds */
+[data-theme="dark"] .map-card-img {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9);
+}
+[data-theme="dark"] .map-card-img::after {
+  background: linear-gradient(to bottom, transparent 50%, rgba(255,255,255,0.2));
+}
