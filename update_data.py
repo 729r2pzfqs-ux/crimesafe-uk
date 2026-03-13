@@ -84,7 +84,9 @@ def regenerate_site():
         "generate_neighbourhoods.py",
         "generate_districts.py",
         "generate_rankings.py",
-        "generate_london_comparisons.py"
+        "generate_london_comparisons.py",
+        "scripts/fetch_street_data.py",
+        "scripts/generate_street_pages.py"
     ]
     
     for script in scripts:
