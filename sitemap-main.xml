@@ -1044,4 +1044,22 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://crimesafe.uk/blog/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://crimesafe.uk/blog/is-london-safe-to-live/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://crimesafe.uk/blog/safest-places-to-live-uk-2026/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
