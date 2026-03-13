@@ -205,5 +205,22 @@
             <p class="footer-copy">© 2026 CrimeSafe UK. Data from <a href="https://data.police.uk" target="_blank">Police UK</a>.</p>
         </div>
     </footer>
+
+    <script>
+    (function(){
+        var toggle = document.getElementById('themeToggle');
+        var saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.setAttribute('data-theme', saved);
+        if (toggle) {
+            toggle.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
+            toggle.onclick = function() {
+                var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+                toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+            };
+        }
+    })();
+    </script>
 </body>
 </html>
