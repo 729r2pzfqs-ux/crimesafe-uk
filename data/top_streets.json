@@ -264,14 +264,6 @@
     "city": "Nottingham"
   },
   {
-    "name": "",
-    "slug": "",
-    "crimes": 67,
-    "lat": "53.958528",
-    "lng": "-1.083246",
-    "city": "York"
-  },
-  {
     "name": "Dyott Street",
     "slug": "dyott-street",
     "crimes": 66,

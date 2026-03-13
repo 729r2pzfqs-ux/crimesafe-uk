@@ -794,30 +794,6 @@
         "top_crime": "violent-crime"
       }
     },
-    "": {
-      "name": "",
-      "city": "York",
-      "lat": "53.958528",
-      "lng": "-1.083246",
-      "month": "2026-01",
-      "stats": {
-        "total": 615,
-        "types": {
-          "violent-crime": 224,
-          "anti-social-behaviour": 155,
-          "shoplifting": 72,
-          "other-theft": 31,
-          "public-order": 30,
-          "criminal-damage-arson": 26,
-          "burglary": 21,
-          "drugs": 18,
-          "bicycle-theft": 12,
-          "vehicle-crime": 11
-        },
-        "score": 94,
-        "top_crime": "violent-crime"
-      }
-    },
     "dyott-street": {
       "name": "Dyott Street",
       "city": "London",
