@@ -99,30 +99,33 @@
     <script src="/neighbourhoods_search.js"></script>
     <script>
     (function() {
-        // Wait for both DOM and data
-        let data1 = null, data2 = null;
+        var data1 = null, data2 = null;
+        
+        function getScoreColor(score) {
+            if (score === null || score === undefined) return 'var(--color-text-muted)';
+            if (score >= 70) return '#16a34a';
+            if (score >= 40) return '#ca8a04';
+            return '#dc2626';
+        }
         
         function init() {
-            const input1 = document.getElementById('input1');
-            const input2 = document.getElementById('input2');
-            const dropdown1 = document.getElementById('dropdown1');
-            const dropdown2 = document.getElementById('dropdown2');
-            const btn = document.getElementById('compareBtn');
+            var input1 = document.getElementById('input1');
+            var input2 = document.getElementById('input2');
+            var dropdown1 = document.getElementById('dropdown1');
+            var dropdown2 = document.getElementById('dropdown2');
+            var btn = document.getElementById('compareBtn');
             
-            if (!input1 || !input2) {
-                console.error('Inputs not found');
-                return;
-            }
+            if (!input1 || !input2) return;
             
             function updateBtn() {
-                const ok = data1 && data2;
+                var ok = data1 && data2;
                 btn.disabled = !ok;
                 btn.style.opacity = ok ? '1' : '0.5';
             }
             
             function setup(input, dropdown, setData) {
                 input.addEventListener('input', function() {
-                    const q = this.value.toLowerCase().trim();
+                    var q = this.value.toLowerCase().trim();
                     setData(null);
                     updateBtn();
                     
@@ -131,24 +134,38 @@
                         return;
                     }
                     
-                    const searchData = window.SEARCH_DATA || [];
-                    if (!searchData.length) {
-                        console.warn('No SEARCH_DATA');
-                        return;
-                    }
+                    var searchData = window.SEARCH_DATA || [];
+                    if (!searchData.length) return;
                     
-                    const results = searchData.filter(n => n[0].toLowerCase().includes(q)).slice(0, 10);
+                    // Filter and sort alphabetically
+                    var results = searchData
+                        .filter(function(n) { return n[0].toLowerCase().includes(q); })
+                        .sort(function(a, b) { return a[0].localeCompare(b[0]); })
+                        .slice(0, 10);
                     
                     if (!results.length) {
                         dropdown.classList.remove('active');
                         return;
                     }
                     
-                    dropdown.innerHTML = results.map(n => 
-                        '<div class="search-item" data-name="' + n[0] + '" data-slug="' + n[1] + '">' +
-                        '<div><div style="font-weight:500">' + n[0] + '</div>' +
-                        '<div style="font-size:12px;color:var(--color-text-muted)">' + (n[3]||'') + ' · Score: ' + (n[4]||0) + '/100</div></div></div>'
-                    ).join('');
+                    // SEARCH_DATA: [name, force, score, force_slug, nb_slug]
+                    dropdown.innerHTML = results.map(function(n) {
+                        var name = n[0];
+                        var force = n[1] || '';
+                        var score = n[2];
+                        var forceSlug = n[3];
+                        var nbSlug = n[4];
+                        var scoreColor = getScoreColor(score);
+                        var scoreText = (score !== null && score !== undefined) ? score + '/100' : 'N/A';
+                        
+                        return '<div class="search-item" data-name="' + name + '" data-slug="' + nbSlug + '">' +
+                            '<div class="search-item-content">' +
+                            '<span class="search-item-name">' + name + '</span>' +
+                            '<span class="search-item-meta">' + force + '</span>' +
+                            '</div>' +
+                            '<span class="search-item-score" style="color:' + scoreColor + '">' + scoreText + '</span>' +
+                            '</div>';
+                    }).join('');
                     dropdown.classList.add('active');
                     
                     dropdown.querySelectorAll('.search-item').forEach(function(item) {
@@ -174,8 +191,6 @@
                     window.location.href = '/compare/' + data1.slug + '-vs-' + data2.slug + '/';
                 }
             };
-            
-            console.log('Compare initialized, SEARCH_DATA:', (window.SEARCH_DATA||[]).length);
         }
         
         if (document.readyState === 'loading') {
