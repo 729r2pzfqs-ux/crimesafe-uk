@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Street Crime Map | Interactive UK Crime Locations | CrimeSafe UK</title>
+    <meta name="description" content="Interactive map showing exact crime locations across the UK. Search by postcode, see crime types, and explore street-level crime data.">
+    <link rel="canonical" href="https://crimesafe.uk/maps/street-crime/">
+    
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="theme-color" content="#01696F">
+    
+    <style>
+        #map { height: calc(100vh - 200px); min-height: 500px; width: 100%; border-radius: var(--radius-lg); }
+        .search-box { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); flex-wrap: wrap; }
+        .search-box input { flex: 1; min-width: 200px; padding: var(--space-3); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface); }
+        .search-box button { padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; }
+        .search-box button:hover { background: var(--color-primary-hover); }
+        .legend { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); padding: var(--space-4); background: var(--color-surface); border-radius: var(--radius-lg); }
+        .legend-item { display: flex; align-items: center; gap: var(--space-2); font-size: var(--text-sm); }
+        .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+        .stats-bar { display: flex; gap: var(--space-6); margin-bottom: var(--space-4); flex-wrap: wrap; }
+        .stat { text-align: center; }
+        .stat-value { font-size: var(--text-xl); font-weight: 700; color: var(--color-primary); }
+        .stat-label { font-size: var(--text-sm); color: var(--color-text-muted); }
+        .loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: var(--color-surface); padding: var(--space-4) var(--space-6); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); z-index: 1000; }
+        .crime-popup { min-width: 200px; }
+        .crime-popup h4 { margin: 0 0 8px 0; color: var(--color-text); }
+        .crime-popup p { margin: 4px 0; font-size: 13px; color: var(--color-text-muted); }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/streets/">Streets</a>
+                <a href="/maps/">Maps</a>
+                <button id="themeToggle" class="theme-toggle">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-top: var(--space-6); padding-bottom: var(--space-8);">
+        <nav class="breadcrumb" style="margin-bottom: var(--space-4);">
+            <a href="/">Home</a> › <a href="/maps/">Maps</a> › <span>Street Crime</span>
+        </nav>
+
+        <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Street Crime Map</h1>
+        <p style="color: var(--color-text-muted); margin-bottom: var(--space-6);">
+            Interactive map showing exact crime locations. Search by postcode to explore your area.
+        </p>
+
+        <div class="search-box">
+            <input type="text" id="postcodeInput" placeholder="Enter postcode (e.g., SW1A 1AA)" autocomplete="off">
+            <button onclick="searchPostcode()">Search</button>
+        </div>
+
+        <div class="stats-bar" id="statsBar" style="display: none;">
+            <div class="stat">
+                <div class="stat-value" id="crimeCount">0</div>
+                <div class="stat-label">Crimes</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="crimeMonth">-</div>
+                <div class="stat-label">Month</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="topCrime">-</div>
+                <div class="stat-label">Most Common</div>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div id="map"></div>
+            <div class="loading" id="loading" style="display: none;">Loading crimes...</div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item"><div class="legend-dot" style="background: #dc2626;"></div> Violent Crime</div>
+            <div class="legend-item"><div class="legend-dot" style="background: #ea580c;"></div> Burglary</div>
+            <div class="legend-item"><div class="legend-dot" style="background: #ca8a04;"></div> Vehicle Crime</div>
+            <div class="legend-item"><div class="legend-dot" style="background: #65a30d;"></div> Shoplifting</div>
+            <div class="legend-item"><div class="legend-dot" style="background: #0891b2;"></div> Anti-social</div>
+            <div class="legend-item"><div class="legend-dot" style="background: #7c3aed;"></div> Drugs</div>
+            <div class="legend-item"><div class="legend-dot" style="background: #64748b;"></div> Other</div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script>
+        // Crime colors
+        const crimeColors = {
+            'violent-crime': '#dc2626',
+            'robbery': '#dc2626',
+            'burglary': '#ea580c',
+            'vehicle-crime': '#ca8a04',
+            'theft-from-the-person': '#ca8a04',
+            'bicycle-theft': '#ca8a04',
+            'shoplifting': '#65a30d',
+            'anti-social-behaviour': '#0891b2',
+            'public-order': '#7c3aed',
+            'drugs': '#7c3aed',
+            'possession-of-weapons': '#be185d',
+            'criminal-damage-arson': '#f97316',
+            'other-theft': '#64748b',
+            'other-crime': '#64748b'
+        };
+
+        function getCrimeColor(category) {
+            return crimeColors[category] || '#64748b';
+        }
+
+        function formatCrimeType(category) {
+            return category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        }
+
+        // Initialize map centered on UK
+        const map = L.map('map').setView([53.5, -2], 6);
+        
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap &copy; CARTO',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Marker cluster group
+        let markers = L.markerClusterGroup({
+            maxClusterRadius: 50,
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: true
+        });
+        map.addLayer(markers);
+
+        // Get latest available month
+        function getLatestMonth() {
+            const now = new Date();
+            let year = now.getFullYear();
+            let month = now.getMonth() - 1; // API is ~2 months behind
+            if (month < 1) { year--; month += 12; }
+            return `${year}-${String(month).padStart(2, '0')}`;
+        }
+
+        // Fetch crimes for location
+        async function fetchCrimes(lat, lng) {
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block';
+            
+            const date = getLatestMonth();
+            
+            try {
+                const resp = await fetch(`https://data.police.uk/api/crimes-street/all-crime?lat=${lat}&lng=${lng}&date=${date}`);
+                if (!resp.ok) {
+                    // Try previous month
+                    let [y, m] = date.split('-').map(Number);
+                    m--;
+                    if (m < 1) { y--; m = 12; }
+                    const prevDate = `${y}-${String(m).padStart(2, '0')}`;
+                    const resp2 = await fetch(`https://data.police.uk/api/crimes-street/all-crime?lat=${lat}&lng=${lng}&date=${prevDate}`);
+                    if (!resp2.ok) throw new Error('No data');
+                    return { crimes: await resp2.json(), month: prevDate };
+                }
+                return { crimes: await resp.json(), month: date };
+            } catch (e) {
+                console.error('Error fetching crimes:', e);
+                return { crimes: [], month: date };
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+
+        // Display crimes on map
+        function displayCrimes(crimes, month) {
+            markers.clearLayers();
+            
+            // Count crime types
+            const types = {};
+            crimes.forEach(c => {
+                types[c.category] = (types[c.category] || 0) + 1;
+            });
+            
+            // Update stats
+            document.getElementById('statsBar').style.display = 'flex';
+            document.getElementById('crimeCount').textContent = crimes.length.toLocaleString();
+            document.getElementById('crimeMonth').textContent = month;
+            
+            const topType = Object.entries(types).sort((a,b) => b[1] - a[1])[0];
+            if (topType) {
+                document.getElementById('topCrime').textContent = formatCrimeType(topType[0]);
+            }
+            
+            // Add markers
+            crimes.forEach(crime => {
+                const lat = parseFloat(crime.location.latitude);
+                const lng = parseFloat(crime.location.longitude);
+                const color = getCrimeColor(crime.category);
+                
+                const icon = L.divIcon({
+                    className: 'crime-marker',
+                    html: `<div style="width:12px;height:12px;background:${color};border-radius:50%;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3);"></div>`,
+                    iconSize: [12, 12],
+                    iconAnchor: [6, 6]
+                });
+                
+                const marker = L.marker([lat, lng], { icon });
+                
+                const street = crime.location.street?.name || 'Unknown location';
+                const outcome = crime.outcome_status?.category || 'Under investigation';
+                
+                marker.bindPopup(`
+                    <div class="crime-popup">
+                        <h4 style="color:${color}">${formatCrimeType(crime.category)}</h4>
+                        <p><strong>Location:</strong> ${street}</p>
+                        <p><strong>Date:</strong> ${crime.month}</p>
+                        <p><strong>Outcome:</strong> ${outcome}</p>
+                    </div>
+                `);
+                
+                markers.addLayer(marker);
+            });
+        }
+
+        // Search by postcode
+        async function searchPostcode() {
+            const input = document.getElementById('postcodeInput').value.trim();
+            if (!input) return;
+            
+            try {
+                const resp = await fetch(`https://api.postcodes.io/postcodes/${encodeURIComponent(input)}`);
+                if (!resp.ok) throw new Error('Invalid postcode');
+                
+                const data = await resp.json();
+                const { latitude, longitude } = data.result;
+                
+                map.setView([latitude, longitude], 15);
+                
+                const { crimes, month } = await fetchCrimes(latitude, longitude);
+                displayCrimes(crimes, month);
+                
+            } catch (e) {
+                alert('Could not find that postcode. Please try again.');
+            }
+        }
+
+        // Enter key to search
+        document.getElementById('postcodeInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') searchPostcode();
+        });
+
+        // Load crimes when map moves (optional - can be intensive)
+        let moveTimeout;
+        map.on('moveend', () => {
+            if (map.getZoom() >= 14) {
+                clearTimeout(moveTimeout);
+                moveTimeout = setTimeout(async () => {
+                    const center = map.getCenter();
+                    const { crimes, month } = await fetchCrimes(center.lat, center.lng);
+                    displayCrimes(crimes, month);
+                }, 500);
+            }
+        });
+
+        // Theme toggle
+        const toggle = document.getElementById('themeToggle');
+        const saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.setAttribute('data-theme', saved);
+        toggle?.addEventListener('click', () => {
+            const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
+    </script>
+</body>
+</html>
