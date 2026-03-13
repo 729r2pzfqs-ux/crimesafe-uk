@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>Crime & Safety Blog | CrimeSafe UK</title>
+    <meta name="description" content="Expert guides on UK crime statistics, safety tips, and neighbourhood reviews. Find out if your area is safe to live.">
+    <link rel="canonical" href="https://crimesafe.uk/blog/">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="theme-color" content="#01696F">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "CrimeSafe UK Blog",
+        "description": "Expert guides on UK crime and safety",
+        "url": "https://crimesafe.uk/blog/"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none">
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+                    <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+                    <text x="256" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+                </svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/streets/">Streets</a>
+                <a href="/forces/">Forces</a>
+                <a href="/city/">Cities</a>
+                <a href="/maps/">Maps</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <a href="/faq/">FAQ</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-top: var(--space-8); padding-bottom: var(--space-16);">
+        <nav class="breadcrumb" style="margin-bottom: var(--space-6);">
+            <a href="/">Home</a> › <span>Blog</span>
+        </nav>
+
+        <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Crime & Safety Blog</h1>
+        <p style="color: var(--color-text-muted); margin-bottom: var(--space-8);">
+            Expert guides, safety tips, and neighbourhood reviews based on official UK police data.
+        </p>
+
+        <div style="display: grid; gap: var(--space-6);">
+            <a href="/blog/is-london-safe-to-live/" class="card" style="padding: var(--space-6); text-decoration: none;">
+                <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-2);">March 2026</div>
+                <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-2);">Is London Safe to Live? A Complete 2026 Guide</h2>
+                <p style="color: var(--color-text-muted);">Explore crime statistics, safest boroughs, and what to expect when moving to London.</p>
+            </a>
+            
+            <a href="/blog/safest-places-to-live-uk-2026/" class="card" style="padding: var(--space-6); text-decoration: none;">
+                <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-2);">March 2026</div>
+                <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-2);">Safest Places to Live in the UK 2026</h2>
+                <p style="color: var(--color-text-muted);">Discover the top 10 safest cities and towns based on official crime data.</p>
+            </a>
+            
+            <a href="/blog/uk-crime-statistics-explained/" class="card" style="padding: var(--space-6); text-decoration: none;">
+                <div style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-2);">March 2026</div>
+                <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-2);">UK Crime Statistics Explained: What the Numbers Mean</h2>
+                <p style="color: var(--color-text-muted);">Understanding crime rates, safety scores, and how to interpret police data.</p>
+            </a>
+        </div>
+    </main>
+
+    <script>
+        const toggle = document.getElementById('themeToggle');
+        const saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.setAttribute('data-theme', saved);
+        toggle?.addEventListener('click', () => {
+            const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
+    </script>
+</body>
+</html>
