@@ -13,22 +13,8 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://crimesafe.uk/"
-            }, {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Compare",
-                "item": "https://crimesafe.uk/compare/"
-            }]
-    }
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://crimesafe.uk/"},{"@type":"ListItem","position":2,"name":"Compare","item":"https://crimesafe.uk/compare/"}]}
     </script>
 </head>
 <body>
@@ -66,17 +52,17 @@
             Compare crime rates and safety scores between any two UK neighbourhoods.
         </p>
 
-        <div class="compare-wrap" style="display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-4);">
-            <div class="compare-input-wrap" style="position: relative; flex: 1; min-width: 200px;">
-                <input type="text" class="search-input" id="compareCity1" placeholder="First area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
-                <div class="search-dropdown" id="compareDropdown1"></div>
+        <div style="display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-4);">
+            <div style="position: relative; flex: 1; min-width: 200px;">
+                <input type="text" id="input1" placeholder="First area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
+                <div id="dropdown1" class="search-dropdown"></div>
             </div>
-            <span class="compare-vs" style="font-weight: 700; color: var(--color-text-muted);">vs</span>
-            <div class="compare-input-wrap" style="position: relative; flex: 1; min-width: 200px;">
-                <input type="text" class="search-input" id="compareCity2" placeholder="Second area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
-                <div class="search-dropdown" id="compareDropdown2"></div>
+            <span style="font-weight: 700; color: var(--color-text-muted);">vs</span>
+            <div style="position: relative; flex: 1; min-width: 200px;">
+                <input type="text" id="input2" placeholder="Second area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
+                <div id="dropdown2" class="search-dropdown"></div>
             </div>
-            <button class="compare-btn" id="compareBtn" disabled style="padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; border: none; opacity: 0.5;">Compare</button>
+            <button id="compareBtn" disabled style="padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; border: none; opacity: 0.5;">Compare</button>
         </div>
         
         <p style="text-align: center; color: var(--color-text-muted); margin-bottom: var(--space-8);">Compare UK cities or neighbourhoods in London, Manchester &amp; Birmingham</p>
@@ -112,103 +98,103 @@
 
     <script src="/neighbourhoods_search.js"></script>
     <script>
-        // Wait for DOM and SEARCH_DATA
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('SEARCH_DATA loaded:', (window.SEARCH_DATA || []).length, 'items');
-        });
+    (function() {
+        // Wait for both DOM and data
+        let data1 = null, data2 = null;
         
-        const compareCity1 = document.getElementById('compareCity1');
-        const compareCity2 = document.getElementById('compareCity2');
-        const compareDropdown1 = document.getElementById('compareDropdown1');
-        const compareDropdown2 = document.getElementById('compareDropdown2');
-        const compareBtn = document.getElementById('compareBtn');
-
-        let compareData1 = null;
-        let compareData2 = null;
-
-        function setupCompareInput(input, dropdown, setData) {
-            if (!input || !dropdown) return;
+        function init() {
+            const input1 = document.getElementById('input1');
+            const input2 = document.getElementById('input2');
+            const dropdown1 = document.getElementById('dropdown1');
+            const dropdown2 = document.getElementById('dropdown2');
+            const btn = document.getElementById('compareBtn');
             
-            input.addEventListener('input', function() {
-                const q = this.value.toLowerCase().trim();
-                setData(null);
-                updateCompareBtn();
-                
-                if (!q || q.length < 2) {
-                    dropdown.classList.remove('active');
-                    return;
-                }
-                
-                // Search neighbourhoods
-                const data = window.SEARCH_DATA || [];
-                if (data.length === 0) {
-                    console.warn('SEARCH_DATA not loaded');
-                    dropdown.classList.remove('active');
-                    return;
-                }
-                const results = data
-                    .filter(n => n[0].toLowerCase().includes(q))
-                    .slice(0, 10);
-                
-                if (results.length === 0) {
-                    dropdown.classList.remove('active');
-                    return;
-                }
-                
-                dropdown.innerHTML = results.map(n => `
-                    <div class="search-item" data-name="${n[0]}" data-slug="${n[1]}" data-score="${n[4]}">
-                        <div>
-                            <div style="font-weight: 500;">${n[0]}</div>
-                            <div style="font-size: 12px; color: var(--color-text-muted);">${n[3]} · Score: ${n[4]}/100</div>
-                        </div>
-                    </div>
-                `).join('');
-                dropdown.classList.add('active');
-                
-                dropdown.querySelectorAll('.search-item').forEach(item => {
-                    item.addEventListener('click', () => {
-                        input.value = item.dataset.name;
-                        setData({ name: item.dataset.name, slug: item.dataset.slug });
+            if (!input1 || !input2) {
+                console.error('Inputs not found');
+                return;
+            }
+            
+            function updateBtn() {
+                const ok = data1 && data2;
+                btn.disabled = !ok;
+                btn.style.opacity = ok ? '1' : '0.5';
+            }
+            
+            function setup(input, dropdown, setData) {
+                input.addEventListener('input', function() {
+                    const q = this.value.toLowerCase().trim();
+                    setData(null);
+                    updateBtn();
+                    
+                    if (q.length < 2) {
                         dropdown.classList.remove('active');
-                        updateCompareBtn();
+                        return;
+                    }
+                    
+                    const searchData = window.SEARCH_DATA || [];
+                    if (!searchData.length) {
+                        console.warn('No SEARCH_DATA');
+                        return;
+                    }
+                    
+                    const results = searchData.filter(n => n[0].toLowerCase().includes(q)).slice(0, 10);
+                    
+                    if (!results.length) {
+                        dropdown.classList.remove('active');
+                        return;
+                    }
+                    
+                    dropdown.innerHTML = results.map(n => 
+                        '<div class="search-item" data-name="' + n[0] + '" data-slug="' + n[1] + '">' +
+                        '<div><div style="font-weight:500">' + n[0] + '</div>' +
+                        '<div style="font-size:12px;color:var(--color-text-muted)">' + (n[3]||'') + ' · Score: ' + (n[4]||0) + '/100</div></div></div>'
+                    ).join('');
+                    dropdown.classList.add('active');
+                    
+                    dropdown.querySelectorAll('.search-item').forEach(function(item) {
+                        item.onclick = function() {
+                            input.value = item.getAttribute('data-name');
+                            setData({name: item.getAttribute('data-name'), slug: item.getAttribute('data-slug')});
+                            dropdown.classList.remove('active');
+                            updateBtn();
+                        };
                     });
                 });
-            });
-            
-            input.addEventListener('blur', () => {
-                setTimeout(() => dropdown.classList.remove('active'), 200);
-            });
-        }
-
-        function updateCompareBtn() {
-            if (compareBtn) {
-                const enabled = compareData1 && compareData2;
-                compareBtn.disabled = !enabled;
-                compareBtn.style.opacity = enabled ? '1' : '0.5';
+                
+                input.addEventListener('blur', function() {
+                    setTimeout(function() { dropdown.classList.remove('active'); }, 200);
+                });
             }
-        }
-
-        setupCompareInput(compareCity1, compareDropdown1, d => compareData1 = d);
-        setupCompareInput(compareCity2, compareDropdown2, d => compareData2 = d);
-
-        if (compareBtn) {
-            compareBtn.addEventListener('click', () => {
-                if (compareData1 && compareData2) {
-                    window.location.href = `/compare/${compareData1.slug}-vs-${compareData2.slug}/`;
+            
+            setup(input1, dropdown1, function(d) { data1 = d; });
+            setup(input2, dropdown2, function(d) { data2 = d; });
+            
+            btn.onclick = function() {
+                if (data1 && data2) {
+                    window.location.href = '/compare/' + data1.slug + '-vs-' + data2.slug + '/';
                 }
-            });
+            };
+            
+            console.log('Compare initialized, SEARCH_DATA:', (window.SEARCH_DATA||[]).length);
         }
-
-        // Theme toggle
-        const toggle = document.getElementById('themeToggle');
-        const saved = localStorage.getItem('theme');
+        
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+        
+        // Theme
+        var toggle = document.getElementById('themeToggle');
+        var saved = localStorage.getItem('theme');
         if (saved) document.documentElement.setAttribute('data-theme', saved);
-        toggle?.addEventListener('click', () => {
-            const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        if (toggle) toggle.onclick = function() {
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', next);
             localStorage.setItem('theme', next);
             toggle.textContent = next === 'dark' ? '☀️' : '🌙';
-        });
+        };
+    })();
     </script>
 </body>
 </html>
