@@ -99,10 +99,13 @@
     <script src="/neighbourhoods_search.js"></script>
     <script>
     (function() {
+        // Data structure: [name, district, score, force-slug, neighbourhood-slug]
+        // n[0] = name, n[1] = district, n[2] = score, n[3] = force-slug, n[4] = neighbourhood-slug
+        
         var data1 = null, data2 = null;
         
         function getScoreColor(score) {
-            if (score === null || score === undefined) return 'var(--color-text-muted)';
+            if (score === null || score === undefined) return '#64748b';
             if (score >= 70) return '#16a34a';
             if (score >= 40) return '#ca8a04';
             return '#dc2626';
@@ -139,7 +142,7 @@
                     
                     // Filter and sort alphabetically
                     var results = searchData
-                        .filter(function(n) { return n[0].toLowerCase().includes(q); })
+                        .filter(function(n) { return n[0].toLowerCase().indexOf(q) !== -1; })
                         .sort(function(a, b) { return a[0].localeCompare(b[0]); })
                         .slice(0, 10);
                     
@@ -148,23 +151,21 @@
                         return;
                     }
                     
-                    // SEARCH_DATA: [name, force, score, force_slug, nb_slug]
                     dropdown.innerHTML = results.map(function(n) {
                         var name = n[0];
-                        var force = n[1] || '';
+                        var district = n[1] || '';
                         var score = n[2];
-                        var forceSlug = n[3];
-                        var nbSlug = n[4];
+                        var slug = n[4]; // neighbourhood-slug
                         var scoreColor = getScoreColor(score);
                         var scoreText = (score !== null && score !== undefined) ? score + '/100' : 'N/A';
                         
-                        return '<div class="search-item" data-name="' + name + '" data-slug="' + nbSlug + '">' +
-                            '<div class="search-item-content">' +
-                            '<span class="search-item-name">' + name + '</span>' +
-                            '<span class="search-item-meta">' + force + '</span>' +
+                        return '<div class="search-item" data-name="' + name + '" data-slug="' + slug + '" style="display:flex;justify-content:space-between;align-items:center;">' +
+                            '<div style="flex:1;">' +
+                                '<div style="font-weight:500;">' + name + '</div>' +
+                                '<div style="font-size:12px;color:var(--color-text-muted);">' + district + '</div>' +
                             '</div>' +
-                            '<span class="search-item-score" style="color:' + scoreColor + '">' + scoreText + '</span>' +
-                            '</div>';
+                            '<div style="background:' + scoreColor + ';color:white;padding:4px 8px;border-radius:6px;font-size:12px;font-weight:600;">' + scoreText + '</div>' +
+                        '</div>';
                     }).join('');
                     dropdown.classList.add('active');
                     
@@ -203,12 +204,15 @@
         var toggle = document.getElementById('themeToggle');
         var saved = localStorage.getItem('theme');
         if (saved) document.documentElement.setAttribute('data-theme', saved);
-        if (toggle) toggle.onclick = function() {
-            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', next);
-            localStorage.setItem('theme', next);
-            toggle.textContent = next === 'dark' ? '☀️' : '🌙';
-        };
+        if (toggle) {
+            toggle.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
+            toggle.onclick = function() {
+                var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+                toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+            };
+        }
     })();
     </script>
 </body>
