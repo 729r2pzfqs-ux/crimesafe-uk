@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <title>West Mercia Police — CrimeSafe UK</title>
+    <meta name="description" content="Crime statistics for 82 neighbourhoods in West Mercia Police">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#01696F">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/>
+  <path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="160" fill="currentColor">UK</text>
+</svg>
+                <span>CrimeSafe UK</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/forces/">Forces</a><a href="/city/">City</a>
+                <a href="/districts/">Districts</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> › <a href="/forces/">Forces</a><a href="/city/">City</a> › West Mercia Police
+            </div>
+        </div>
+        
+        <section class="hero" style="padding: var(--space-8) 0;">
+            <div class="container">
+                <h1>West Mercia Police</h1>
+                <p class="hero-sub">82 neighbourhoods covered</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Neighbourhoods</h2>
+                </div>
+                <div class="force-grid">
+
+                    <a href="/neighbourhood/west-mercia-police/abbey/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Abbey</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/alvechurch-and-wythall/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Alvechurch and Wythall</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/arboretum-and-claines/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Arboretum and Claines</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/arleston-and-college/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Arleston and College</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/batchley-and-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Batchley and Central</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/battenhall-and-nunnery/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Battenhall and Nunnery</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/belmont-southside/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Belmont Southside</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bewdley-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bewdley and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bishops-castle-and-craven-arms-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bishops Castle and Craven Arms Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bridgnorth/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bridgnorth</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/broadwaters/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Broadwaters</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bromsgrove-north-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bromsgrove North and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bromsgrove-south-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bromsgrove South and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bromsgrove-st-johns/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bromsgrove St Johns</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/bromyard/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Bromyard</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/brookside/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Brookside</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/broseley-and-much-wenlock/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Broseley and Much Wenlock</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/castlefields-and-bagley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Castlefields and Bagley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/cathedral/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Cathedral</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/chase-and-priory/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Chase and Priory</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/church-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Church Hill</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/church-stretton-and-craven-arms/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Church Stretton and Craven Arms</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/cleobury-and-highley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Cleobury and Highley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/cuckoo-oak-and-ironbridge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Cuckoo Oak and Ironbridge</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/dawley-and-malinslee/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Dawley and Malinslee</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/donnington-and-trench/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Donnington and Trench</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/droitwich-town-east-and-rural-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Droitwich Town East and Rural East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/droitwich-town-west-and-rural-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Droitwich Town West and Rural West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/ellesmere-town-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Ellesmere Town and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/evesham-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Evesham Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/evesham-town-north-and-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Evesham Town North and Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/evesham-town-south-and-rural-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Evesham Town South and Rural West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/golden-valley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Golden Valley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/gorse-hill-and-rainbow-hill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Gorse Hill and Rainbow Hill</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/greenhill/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Greenhill</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/greenlands-and-lodge-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Greenlands and Lodge Park</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/hadley-and-leegomery/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hadley and Leegomery</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/hagley-and-rubery/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hagley and Rubery</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/harlescott-and-sundorne/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Harlescott and Sundorne</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/headless-cross-and-oakenshaw/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Headless Cross and Oakenshaw</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/hereford-city-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hereford City North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/hereford-city-southside-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hereford City Southside and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/hereford-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Hereford Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/kempsey-and-alfrick/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Kempsey and Alfrick</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/ketley-and-oakengates/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Ketley and Oakengates</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/kidderminster-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Kidderminster East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/kidderminster-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Kidderminster North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/kington-and-weobley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Kington and Weobley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/lawley-and-overdale/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Lawley and Overdale</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/ledbury/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Ledbury</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/leominster/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Leominster</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/link-and-dyson/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Link and Dyson</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/ludlow-town-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Ludlow Town and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/market-drayton-town-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Market Drayton Town and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/martley-and-tenbury/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Martley and Tenbury</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/meole-copthorne-and-sutton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Meole Copthorne and Sutton</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/newport/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Newport</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/oldington-foley-and-sutton-park/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Oldington, Foley and Sutton Park</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/oswestry-central/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Oswestry Central</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/oswestry-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Oswestry Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/oswestry-rural-south/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Oswestry Rural South</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/pershore-rural-south-and-rural-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Pershore Rural South and Rural North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/pershore-town/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Pershore Town</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/pickersleigh/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Pickersleigh</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/redditch-south-west-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Redditch South West and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/ross-on-wye/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Ross-on-Wye</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/shifnal-and-albrighton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Shifnal and Albrighton</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/shrewsbury-rural-east/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Shrewsbury Rural East</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/shrewsbury-rural-west/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Shrewsbury Rural West</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/shrewsbury-town-centre-and-monkmoor/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Shrewsbury Town Centre and Monkmoor</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/st-georges-and-priorslee/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">St Georges and Priorslee</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/st-johns-and-bedwardine/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">St Johns and Bedwardine</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/stourport/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Stourport</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/the-nedge/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">The Nedge</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/upton/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Upton</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/warndon/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Warndon</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/wellington-north/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Wellington North</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/wellington-west-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Wellington West and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/wem-town-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Wem Town and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/whitchurch-town-and-rural/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Whitchurch Town and Rural</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/winyates-and-matchborough/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Winyates and Matchborough</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                    <a href="/neighbourhood/west-mercia-police/woodside-and-madeley/" class="force-card" style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h3 style="margin: 0;">Woodside and Madeley</h3>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: var(--text-sm);"><span style="color: var(--color-text-muted);">—</span></div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/forces_search.js"></script>
+    <script src="/neighbourhoods_search.js"></script>
+    <script src="/force_map.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
