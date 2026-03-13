@@ -112,6 +112,11 @@
 
     <script src="/neighbourhoods_search.js"></script>
     <script>
+        // Wait for DOM and SEARCH_DATA
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('SEARCH_DATA loaded:', (window.SEARCH_DATA || []).length, 'items');
+        });
+        
         const compareCity1 = document.getElementById('compareCity1');
         const compareCity2 = document.getElementById('compareCity2');
         const compareDropdown1 = document.getElementById('compareDropdown1');
@@ -135,7 +140,13 @@
                 }
                 
                 // Search neighbourhoods
-                const results = (window.SEARCH_DATA || [])
+                const data = window.SEARCH_DATA || [];
+                if (data.length === 0) {
+                    console.warn('SEARCH_DATA not loaded');
+                    dropdown.classList.remove('active');
+                    return;
+                }
+                const results = data
                     .filter(n => n[0].toLowerCase().includes(q))
                     .slice(0, 10);
                 
