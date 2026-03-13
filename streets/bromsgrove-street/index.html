@@ -50,6 +50,32 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://crimesafe.uk/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Streets",
+                "item": "https://crimesafe.uk/streets/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Bromsgrove Street",
+                "item": "https://crimesafe.uk/streets/bromsgrove-street/"
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
             {
@@ -289,6 +315,17 @@
                         We recommend staying in well-lit areas and being aware of your surroundings.
                     </p>
                 </div>
+            </div>
+        </section>
+    <section style="margin-bottom: var(--space-8);">
+            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Explore More Streets</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--space-3);">
+                <a href="/streets/oxford-street/" class="card" style="padding: var(--space-3); text-decoration: none; font-size: var(--text-sm);">Oxford Street</a>
+                <a href="/streets/leicester-square/" class="card" style="padding: var(--space-3); text-decoration: none; font-size: var(--text-sm);">Leicester Square</a>
+                <a href="/streets/camden-high-street/" class="card" style="padding: var(--space-3); text-decoration: none; font-size: var(--text-sm);">Camden High Street</a>
+                <a href="/streets/brick-lane/" class="card" style="padding: var(--space-3); text-decoration: none; font-size: var(--text-sm);">Brick Lane</a>
+                <a href="/streets/soho-street/" class="card" style="padding: var(--space-3); text-decoration: none; font-size: var(--text-sm);">Soho Street</a>
+                <a href="/streets/" class="card" style="padding: var(--space-3); text-decoration: none; font-size: var(--text-sm); background: var(--color-primary); color: white;">View All Streets →</a>
             </div>
         </section>
     </main>
