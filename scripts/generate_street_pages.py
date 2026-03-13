@@ -352,10 +352,20 @@ def main():
         top_crime = stats.get('top_crime', 'anti-social-behaviour')
         
         # Generate HTML
+        # Get lat/lng
+        if slug in cache:
+            lat = cache[slug].get('lat', '51.5074')
+            lng = cache[slug].get('lng', '-0.1278')
+        else:
+            lat = '51.5074'
+            lng = '-0.1278'
+        
         html = TEMPLATE.format(
             street_name=name,
             slug=slug,
             city=city,
+            lat=lat,
+            lng=lng,
             score=score,
             score_color=get_score_color(score),
             total_crimes=total_crimes,
