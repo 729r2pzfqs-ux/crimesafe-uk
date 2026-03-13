@@ -107,7 +107,11 @@ TEMPLATE = '''<!DOCTYPE html>
                 <a href="/">Home</a>
                 <a href="/streets/">Streets</a>
                 <a href="/forces/">Forces</a>
+                <a href="/city/">Cities</a>
                 <a href="/maps/">Maps</a>
+                <a href="/safest/">Rankings</a>
+                <a href="/about/">About</a>
+                <a href="/faq/">FAQ</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
         </div>
