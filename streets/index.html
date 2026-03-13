@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
-    <title> Crime Statistics | Is  Safe? | CrimeSafe UK</title>
-    <meta name="description" content="Is  safe? View real-time crime statistics, safety score of 38/100, and recent incidents for , York. Updated with official UK police data.">
-    <link rel="canonical" href="https://crimesafe.uk/streets//">
+    <title>UK Street Crime Statistics | Search Any Street | CrimeSafe UK</title>
+    <meta name="description" content="Search crime statistics for any street in the UK. View safety scores, crime rates, and recent incidents for 500+ streets. Real-time data from UK Police.">
+    <link rel="canonical" href="https://crimesafe.uk/streets/">
     
-    <meta property="og:title" content=" Crime Statistics | CrimeSafe UK">
-    <meta property="og:description" content="Safety score: 38/100. 615 crimes recorded. View detailed crime breakdown for .">
+    <meta property="og:title" content="UK Street Crime Statistics | CrimeSafe UK">
+    <meta property="og:description" content="Search crime statistics for streets across the UK. View safety scores and crime data.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://crimesafe.uk/streets//">
+    <meta property="og:url" content="https://crimesafe.uk/streets/">
     
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
@@ -26,57 +26,10 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": " Crime Statistics",
-        "description": "Crime statistics and safety information for , York",
-        "url": "https://crimesafe.uk/streets//",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "CrimeSafe UK",
-            "url": "https://crimesafe.uk"
-        },
-        "mainEntity": {
-            "@type": "Place",
-            "name": "",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "",
-                "addressLocality": "York",
-                "addressCountry": "GB"
-            }
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Is  safe?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": " has a safety score of 38/100 based on recent crime data. There were 615 crimes recorded in the area last month."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the crime rate on ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "615 crimes were reported near  in the most recent month. The most common crime type is Violent Crime."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is  safe at night?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Like many urban areas, safety on  varies by time of day. We recommend staying in well-lit areas and being aware of your surroundings, especially after dark."
-                }
-            }
-        ]
+        "@type": "CollectionPage",
+        "name": "UK Street Crime Statistics",
+        "description": "Search crime statistics for streets across the UK",
+        "url": "https://crimesafe.uk/streets/"
     }
     </script>
 </head>
@@ -93,7 +46,7 @@
             </a>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/streets/">Streets</a>
+                <a href="/streets/" class="active">Streets</a>
                 <a href="/forces/">Forces</a>
                 <a href="/maps/">Maps</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
@@ -103,180 +56,33 @@
 
     <main class="container" style="padding-top: var(--space-8); padding-bottom: var(--space-16);">
         <nav class="breadcrumb" style="margin-bottom: var(--space-6);">
-            <a href="/">Home</a> › <a href="/streets/">Streets</a> › <span></span>
+            <a href="/">Home</a> › <span>Streets</span>
         </nav>
 
         <header style="margin-bottom: var(--space-8);">
-            <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);"> Crime Statistics</h1>
-            <p style="color: var(--color-text-muted); font-size: var(--text-lg);">York, United Kingdom</p>
+            <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">UK Street Crime Statistics</h1>
+            <p style="color: var(--color-text-muted); font-size: var(--text-lg);">
+                Search for any street to view crime statistics, safety scores, and recent incidents.
+            </p>
         </header>
 
-        <div class="kpi-grid" style="margin-bottom: var(--space-8);">
-            <div class="kpi-card">
-                <div class="kpi-label">Safety Score</div>
-                <div class="kpi-value" style="color: var(--color-error);">38</div>
-                <div class="kpi-detail">out of 100</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Total Crimes</div>
-                <div class="kpi-value">615</div>
-                <div class="kpi-detail">within 1 mile (2026-01)</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Most Common</div>
-                <div class="kpi-value" style="font-size: var(--text-lg);">Violent Crime</div>
-                <div class="kpi-detail">crime type</div>
-            </div>
+        <div style="margin-bottom: var(--space-8);">
+            <input type="text" id="streetSearch" placeholder="Search for a street..." 
+                   style="width: 100%; max-width: 500px; padding: var(--space-3) var(--space-4); 
+                          border-radius: var(--radius-lg); border: 1px solid var(--color-border);
+                          background: var(--color-surface); color: var(--color-text);
+                          font-size: var(--text-base);">
         </div>
 
-        <section style="margin-bottom: var(--space-8);">
-            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Crime Breakdown</h2>
-            <div class="card" style="padding: var(--space-5);">
-                <div style="display: flex; flex-direction: column; gap: var(--space-3);">
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #dc2626;"></span>
-                <span>Violent Crime</span>
-            </div>
-            <strong>224</strong>
+        <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Popular Streets</h2>
+        <div id="streetList" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4);">
         </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #0891b2;"></span>
-                <span>Anti Social Behaviour</span>
-            </div>
-            <strong>155</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #65a30d;"></span>
-                <span>Shoplifting</span>
-            </div>
-            <strong>72</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #64748b;"></span>
-                <span>Other Theft</span>
-            </div>
-            <strong>31</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #7c3aed;"></span>
-                <span>Public Order</span>
-            </div>
-            <strong>30</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #64748b;"></span>
-                <span>Criminal Damage Arson</span>
-            </div>
-            <strong>26</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #ea580c;"></span>
-                <span>Burglary</span>
-            </div>
-            <strong>21</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #be185d;"></span>
-                <span>Drugs</span>
-            </div>
-            <strong>18</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #64748b;"></span>
-                <span>Bicycle Theft</span>
-            </div>
-            <strong>12</strong>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-divider);">
-            <div style="display: flex; align-items: center; gap: var(--space-2);">
-                <span style="width: 12px; height: 12px; border-radius: 50%; background: #ca8a04;"></span>
-                <span>Vehicle Crime</span>
-            </div>
-            <strong>11</strong>
-        </div></div>
-            </div>
-        </section>
-
-        <section style="margin-bottom: var(--space-8);">
-            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Is  Safe?</h2>
-            <div class="card" style="padding: var(--space-5);">
-                <p style="margin-bottom: var(--space-4);">
-                    Based on the latest police data, <strong></strong> has a safety score of 
-                    <strong style="color: var(--color-error);">38/100</strong>. 
-                    This area has higher than average crime rates. Extra caution is advised.
-                </p>
-                <p>
-                    The most common crime type in this area is <strong>Violent Crime</strong>, 
-                    accounting for a significant portion of recorded incidents.
-                </p>
-            </div>
-        </section>
-
-        <section style="margin-bottom: var(--space-8);">
-            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Safety Tips for </h2>
-            <div class="card" style="padding: var(--space-5);">
-                <ul style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3);">
-                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
-                        <span style="color: var(--color-success);">✓</span>
-                        <span>Stay aware of your surroundings, especially at night</span>
-                    </li>
-                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
-                        <span style="color: var(--color-success);">✓</span>
-                        <span>Keep valuables secure and out of sight</span>
-                    </li>
-                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
-                        <span style="color: var(--color-success);">✓</span>
-                        <span>Stick to well-lit areas when walking after dark</span>
-                    </li>
-                    <li style="display: flex; gap: var(--space-2); align-items: flex-start;">
-                        <span style="color: var(--color-success);">✓</span>
-                        <span>Report suspicious activity to local police (dial 101 for non-emergencies)</span>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Frequently Asked Questions</h2>
-            <div style="display: flex; flex-direction: column; gap: var(--space-4);">
-                <div class="card" style="padding: var(--space-5);">
-                    <h3 style="font-weight: 600; margin-bottom: var(--space-2);">Is  safe?</h3>
-                    <p style="color: var(--color-text-muted);">
-                         has a safety score of 38/100 based on recent crime data. 
-                        There were 615 crimes recorded in the area last month.
-                    </p>
-                </div>
-                <div class="card" style="padding: var(--space-5);">
-                    <h3 style="font-weight: 600; margin-bottom: var(--space-2);">What crimes are most common on ?</h3>
-                    <p style="color: var(--color-text-muted);">
-                        The most frequently reported crime type is Violent Crime. 
-                        See the crime breakdown above for full details.
-                    </p>
-                </div>
-                <div class="card" style="padding: var(--space-5);">
-                    <h3 style="font-weight: 600; margin-bottom: var(--space-2);">Is  safe at night?</h3>
-                    <p style="color: var(--color-text-muted);">
-                        Like many urban areas, safety on  may vary by time of day. 
-                        We recommend staying in well-lit areas and being aware of your surroundings.
-                    </p>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer style="border-top: 1px solid var(--color-divider); padding: var(--space-8) 0; text-align: center;">
         <div class="container">
             <p style="color: var(--color-text-muted); font-size: var(--text-sm);">
-                Data sourced from UK Police API. Last updated: 2026-03-13T16:17:13.404721.
+                Data sourced from UK Police API. Updated monthly.
             </p>
             <p style="color: var(--color-text-faint); font-size: var(--text-xs); margin-top: var(--space-2);">
                 © 2026 CrimeSafe UK
@@ -285,6 +91,27 @@
     </footer>
 
     <script>
+        const streets = [{"name": "Gresse Street", "slug": "gresse-street", "city": "London", "score": 0}, {"name": "Dering Street", "slug": "dering-street", "city": "London", "score": 0}, {"name": "Hills Place", "slug": "hills-place", "city": "London", "score": 0}, {"name": "Argyll Street", "slug": "argyll-street", "city": "London", "score": 0}, {"name": "Glasshouse Street", "slug": "glasshouse-street", "city": "London", "score": 0}, {"name": "Soho Street", "slug": "soho-street", "city": "London", "score": 0}, {"name": "High Street", "slug": "high-street", "city": "London", "score": 0}, {"name": "Moor Street", "slug": "moor-street", "city": "London", "score": 0}, {"name": "Worcester Street", "slug": "worcester-street", "city": "Birmingham", "score": 0}, {"name": "Little Newport Street", "slug": "little-newport-street", "city": "London", "score": 0}, {"name": "Market Place", "slug": "market-place", "city": "London", "score": 0}, {"name": "John Prince's Street", "slug": "john-princes-street", "city": "London", "score": 0}, {"name": "New Street", "slug": "new-street", "city": "London", "score": 0}, {"name": "Blenheim Street", "slug": "blenheim-street", "city": "London", "score": 0}, {"name": "Great Windmill Street", "slug": "great-windmill-street", "city": "London", "score": 0}, {"name": "Old Compton Street", "slug": "old-compton-street", "city": "London", "score": 0}, {"name": "Leicester Street", "slug": "leicester-street", "city": "London", "score": 0}, {"name": "Leicester Square", "slug": "leicester-square", "city": "London", "score": 0}, {"name": "Macclesfield Street", "slug": "macclesfield-street", "city": "London", "score": 0}, {"name": "Denman Street", "slug": "denman-street", "city": "London", "score": 0}, {"name": "Dansey Place", "slug": "dansey-place", "city": "London", "score": 0}, {"name": "Romilly Street", "slug": "romilly-street", "city": "London", "score": 0}, {"name": "William Iv Street", "slug": "william-iv-street", "city": "London", "score": 0}, {"name": "Greek Street", "slug": "greek-street", "city": "London", "score": 0}, {"name": "Hanover Street", "slug": "hanover-street", "city": "London", "score": 0}, {"name": "Hitchcock Lane", "slug": "hitchcock-lane", "city": "London", "score": 0}, {"name": "East Gates", "slug": "east-gates", "city": "Leicester", "score": 0}, {"name": "Park/open Space", "slug": "park/open-space", "city": "London", "score": 0}, {"name": "Princes Street", "slug": "princes-street", "city": "London", "score": 0}, {"name": "Little Marlborough Street", "slug": "little-marlborough-street", "city": "London", "score": 0}, {"name": "West Street", "slug": "west-street", "city": "London", "score": 0}, {"name": "Shaftesbury Avenue", "slug": "shaftesbury-avenue", "city": "London", "score": 0}, {"name": "Maypole Yard", "slug": "maypole-yard", "city": "Nottingham", "score": 0}, {"name": "Dyott Street", "slug": "dyott-street", "city": "London", "score": 0}, {"name": "Denmark Street", "slug": "denmark-street", "city": "London", "score": 0}, {"name": "North End", "slug": "north-end", "city": "London", "score": 0}, {"name": "Theme/adventure Park", "slug": "theme/adventure-park", "city": "London", "score": 0}, {"name": "Strand", "slug": "strand", "city": "London", "score": 0}, {"name": "Bond Street", "slug": "bond-street", "city": "London", "score": 0}, {"name": "Hollen Street", "slug": "hollen-street", "city": "London", "score": 0}, {"name": "Cranbourn Street", "slug": "cranbourn-street", "city": "London", "score": 0}, {"name": "Pall Mall", "slug": "pall-mall", "city": "London", "score": 0}, {"name": "Lisle Street", "slug": "lisle-street", "city": "London", "score": 0}, {"name": "Corner House Street", "slug": "corner-house-street", "city": "London", "score": 0}, {"name": "Duncan Street", "slug": "duncan-street", "city": "Leeds", "score": 0}, {"name": "Cannon Street", "slug": "cannon-street", "city": "Bristol", "score": 0}, {"name": "Bridge Street", "slug": "bridge-street", "city": "London", "score": 0}, {"name": "Central Road", "slug": "central-road", "city": "Leeds", "score": 0}, {"name": "New Burlington Place", "slug": "new-burlington-place", "city": "London", "score": 0}, {"name": "Tramway Avenue", "slug": "tramway-avenue", "city": "London", "score": 0}, {"name": "Paradise Street", "slug": "paradise-street", "city": "Liverpool", "score": 0}, {"name": "Gerrard Street", "slug": "gerrard-street", "city": "London", "score": 0}, {"name": "Brixton", "slug": "brixton", "city": "London", "score": 0}, {"name": "Frith Street", "slug": "frith-street", "city": "London", "score": 0}, {"name": "Howick Place", "slug": "howick-place", "city": "London", "score": 0}, {"name": "Whitfield Place", "slug": "whitfield-place", "city": "London", "score": 0}, {"name": "Rainford Gardens", "slug": "rainford-gardens", "city": "Liverpool", "score": 0}, {"name": "Dean Street", "slug": "dean-street", "city": "London", "score": 0}, {"name": "Castle Street", "slug": "castle-street", "city": "Liverpool", "score": 0}, {"name": "Shelton Street", "slug": "shelton-street", "city": "London", "score": 0}, {"name": "Sidney Street", "slug": "sidney-street", "city": "Leeds", "score": 0}, {"name": "George Street", "slug": "george-street", "city": "London", "score": 0}, {"name": "Coventry Street", "slug": "coventry-street", "city": "London", "score": 0}, {"name": "Russell Street", "slug": "russell-street", "city": "London", "score": 0}, {"name": "Tottenham Court Road", "slug": "tottenham-court-road", "city": "London", "score": 0}, {"name": "Upper John Street", "slug": "upper-john-street", "city": "London", "score": 0}, {"name": "Ferry Terminal", "slug": "ferry-terminal", "city": "London", "score": 0}, {"name": "Bourchier Street", "slug": "bourchier-street", "city": "London", "score": 0}, {"name": "Craig's Court", "slug": "craigs-court", "city": "London", "score": 0}, {"name": "Southampton Street", "slug": "southampton-street", "city": "London", "score": 0}, {"name": "Temple Street", "slug": "temple-street", "city": "London", "score": 0}, {"name": "Church Street", "slug": "church-street", "city": "London", "score": 0}, {"name": "Lower Basinghall Street", "slug": "lower-basinghall-street", "city": "Leeds", "score": 0}, {"name": "Vigo Street", "slug": "vigo-street", "city": "London", "score": 0}, {"name": "Upper James Street", "slug": "upper-james-street", "city": "London", "score": 0}, {"name": "Downing Street", "slug": "downing-street", "city": "London", "score": 0}, {"name": "Sackville Street", "slug": "sackville-street", "city": "London", "score": 0}, {"name": "Carnaby Street", "slug": "carnaby-street", "city": "London", "score": 0}, {"name": "Red Place", "slug": "red-place", "city": "London", "score": 0}, {"name": "New Bond Street", "slug": "new-bond-street", "city": "London", "score": 0}, {"name": "Queen Street", "slug": "queen-street", "city": "London", "score": 0}, {"name": "East Parade", "slug": "east-parade", "city": "Leeds", "score": 0}, {"name": "Angel Row", "slug": "angel-row", "city": "Nottingham", "score": 0}, {"name": "Long Acre", "slug": "long-acre", "city": "London", "score": 0}, {"name": "Gerrard Place", "slug": "gerrard-place", "city": "London", "score": 0}, {"name": "Rose Street", "slug": "rose-street", "city": "London", "score": 0}, {"name": "Duke Street", "slug": "duke-street", "city": "Leeds", "score": 0}, {"name": "The Horsefair", "slug": "the-horsefair", "city": "Bristol", "score": 0}, {"name": "Gate Street", "slug": "gate-street", "city": "London", "score": 0}, {"name": "St James's Market", "slug": "st-jamess-market", "city": "London", "score": 0}, {"name": "Weighhouse Street", "slug": "weighhouse-street", "city": "London", "score": 0}, {"name": "Grafton Place", "slug": "grafton-place", "city": "London", "score": 0}, {"name": "Clare Street", "slug": "clare-street", "city": "London", "score": 0}, {"name": "King Street", "slug": "king-street", "city": "London", "score": 0}, {"name": "Bishopsgate", "slug": "bishopsgate", "city": "London", "score": 0}, {"name": "Broadwick Street", "slug": "broadwick-street", "city": "London", "score": 0}, {"name": "Buckingham Street", "slug": "buckingham-street", "city": "London", "score": 0}, {"name": "Neal Street", "slug": "neal-street", "city": "London", "score": 0}, {"name": "Foundry Street", "slug": "foundry-street", "city": "Leeds", "score": 0}, {"name": "North Street", "slug": "north-street", "city": "Liverpool", "score": 0}, {"name": "Fleet Street", "slug": "fleet-street", "city": "London", "score": 0}, {"name": "Gower Street", "slug": "gower-street", "city": "London", "score": 0}, {"name": "Rockingham Gate", "slug": "rockingham-gate", "city": "Sheffield", "score": 0}, {"name": "James Street", "slug": "james-street", "city": "London", "score": 0}, {"name": "Holborn", "slug": "holborn", "city": "London", "score": 0}, {"name": "Phoenix Street", "slug": "phoenix-street", "city": "London", "score": 0}, {"name": "Prince Of Wales Passage", "slug": "prince-of-wales-passage", "city": "London", "score": 0}, {"name": "Buckingham Mews", "slug": "buckingham-mews", "city": "London", "score": 0}, {"name": "Wellington Street", "slug": "wellington-street", "city": "London", "score": 0}, {"name": "Parker Street", "slug": "parker-street", "city": "London", "score": 0}, {"name": "Bedford Street", "slug": "bedford-street", "city": "London", "score": 0}, {"name": "Percy Street", "slug": "percy-street", "city": "London", "score": 0}, {"name": "Little Russell Street", "slug": "little-russell-street", "city": "London", "score": 0}, {"name": "Earnshaw Street", "slug": "earnshaw-street", "city": "London", "score": 0}, {"name": "Great Chapel Street", "slug": "great-chapel-street", "city": "London", "score": 0}, {"name": "St Margaret Street", "slug": "st-margaret-street", "city": "London", "score": 0}, {"name": "Charing Cross Road", "slug": "charing-cross-road", "city": "London", "score": 0}, {"name": "London Euston", "slug": "london-euston", "city": "London", "score": 0}, {"name": "Docklands Light Railway", "slug": "docklands-light-railway", "city": "London", "score": 0}, {"name": "Surrey Street", "slug": "surrey-street", "city": "London", "score": 0}, {"name": "Albion Street", "slug": "albion-street", "city": "London", "score": 0}, {"name": "Lord Street", "slug": "lord-street", "city": "Liverpool", "score": 0}, {"name": "Market Street", "slug": "market-street", "city": "Nottingham", "score": 0}, {"name": "Heol Eglwys Fair", "slug": "heol-eglwys-fair", "city": "Cardiff", "score": 0}, {"name": "Margaret Street", "slug": "margaret-street", "city": "London", "score": 0}, {"name": "Embankment Place", "slug": "embankment-place", "city": "London", "score": 0}, {"name": "Old Bond Street", "slug": "old-bond-street", "city": "London", "score": 0}, {"name": "Charles Ii Street", "slug": "charles-ii-street", "city": "London", "score": 0}, {"name": "Catton Street", "slug": "catton-street", "city": "London", "score": 0}, {"name": "Service Route No 1", "slug": "service-route-no-1", "city": "London", "score": 0}, {"name": "Callowhill Court", "slug": "callowhill-court", "city": "Bristol", "score": 0}, {"name": "Henrietta Street", "slug": "henrietta-street", "city": "London", "score": 0}, {"name": "Victoria Avenue", "slug": "victoria-avenue", "city": "London", "score": 0}, {"name": "Bath Street", "slug": "bath-street", "city": "London", "score": 0}, {"name": "Clapham Common South Side", "slug": "clapham-common-south-side", "city": "London", "score": 0}, {"name": "Regency Wharf", "slug": "regency-wharf", "city": "Birmingham", "score": 0}, {"name": "South Parade", "slug": "south-parade", "city": "Leeds", "score": 0}, {"name": "Albany Courtyard", "slug": "albany-courtyard", "city": "London", "score": 0}, {"name": "Great Queen Street", "slug": "great-queen-street", "city": "London", "score": 0}, {"name": "Covent Garden", "slug": "covent-garden", "city": "London", "score": 0}, {"name": "Cork St Mews", "slug": "cork-st-mews", "city": "London", "score": 0}, {"name": "Apple Tree Yard", "slug": "apple-tree-yard", "city": "London", "score": 0}, {"name": "Camden Road", "slug": "camden-road", "city": "London", "score": 0}, {"name": "Little Somerset Street", "slug": "little-somerset-street", "city": "London", "score": 0}, {"name": "Bennett's Hill", "slug": "bennetts-hill", "city": "Birmingham", "score": 0}, {"name": "Navigation Street", "slug": "navigation-street", "city": "Birmingham", "score": 0}, {"name": "Lawton Street", "slug": "lawton-street", "city": "Liverpool", "score": 0}, {"name": "Marsh Street", "slug": "marsh-street", "city": "Bristol", "score": 0}, {"name": "Bedford Place", "slug": "bedford-place", "city": "London", "score": 0}, {"name": "St Giles High Street", "slug": "st-giles-high-street", "city": "London", "score": 0}, {"name": "Midford Place", "slug": "midford-place", "city": "London", "score": 0}, {"name": "Russell Square", "slug": "russell-square", "city": "London", "score": 0}, {"name": "Liverpool Street", "slug": "liverpool-street", "city": "London", "score": 0}, {"name": "Park Street", "slug": "park-street", "city": "London", "score": 0}, {"name": "Merrion Way", "slug": "merrion-way", "city": "Leeds", "score": 0}, {"name": "Back Lime Street", "slug": "back-lime-street", "city": "Liverpool", "score": 0}, {"name": "Montague Street", "slug": "montague-street", "city": "London", "score": 0}, {"name": "Peter Street", "slug": "peter-street", "city": "London", "score": 0}, {"name": "Stratford Place", "slug": "stratford-place", "city": "London", "score": 0}, {"name": "Maples Place", "slug": "maples-place", "city": "London", "score": 0}, {"name": "East Mount Street", "slug": "east-mount-street", "city": "London", "score": 0}, {"name": "Hargwyne Street", "slug": "hargwyne-street", "city": "London", "score": 0}, {"name": "Goodge Street", "slug": "goodge-street", "city": "London", "score": 0}, {"name": "Ham Yard", "slug": "ham-yard", "city": "London", "score": 0}, {"name": "Drury Lane", "slug": "drury-lane", "city": "London", "score": 0}, {"name": "Mercer Street", "slug": "mercer-street", "city": "London", "score": 0}, {"name": "Coach And Horses Yard", "slug": "coach-and-horses-yard", "city": "London", "score": 0}, {"name": "Whitcomb Street", "slug": "whitcomb-street", "city": "London", "score": 0}, {"name": "Winnett Street", "slug": "winnett-street", "city": "London", "score": 0}, {"name": "Manette Street", "slug": "manette-street", "city": "London", "score": 0}, {"name": "Grosvenor Street", "slug": "grosvenor-street", "city": "London", "score": 0}, {"name": "Service Route No 3", "slug": "service-route-no-3", "city": "London", "score": 0}, {"name": "Masshouse Lane", "slug": "masshouse-lane", "city": "Birmingham", "score": 0}, {"name": "Lawley Middleway", "slug": "lawley-middleway", "city": "Birmingham", "score": 0}, {"name": "College Lane", "slug": "college-lane", "city": "Liverpool", "score": 0}, {"name": "Furnival Gate", "slug": "furnival-gate", "city": "Sheffield", "score": 0}, {"name": "Bridewell Street", "slug": "bridewell-street", "city": "Bristol", "score": 0}, {"name": "Marble Arch", "slug": "marble-arch", "city": "London", "score": 0}, {"name": "Charles Square", "slug": "charles-square", "city": "London", "score": 0}, {"name": "Plumbers Row", "slug": "plumbers-row", "city": "London", "score": 0}, {"name": "Penn Street", "slug": "penn-street", "city": "London", "score": 0}, {"name": "Whitechapel", "slug": "whitechapel", "city": "London", "score": 0}, {"name": "Brighton Terrace", "slug": "brighton-terrace", "city": "London", "score": 0}, {"name": "Edgeley Lane", "slug": "edgeley-lane", "city": "London", "score": 0}, {"name": "Shirley Road", "slug": "shirley-road", "city": "London", "score": 0}, {"name": "Campbell Road", "slug": "campbell-road", "city": "London", "score": 0}, {"name": "Cheapside", "slug": "cheapside", "city": "Birmingham", "score": 0}, {"name": "Mill Hill", "slug": "mill-hill", "city": "Leeds", "score": 0}, {"name": "Leeds Coach Station", "slug": "leeds-coach-station", "city": "Leeds", "score": 0}, {"name": "Berkeley Avenue", "slug": "berkeley-avenue", "city": "Bristol", "score": 0}, {"name": "South Molton Lane", "slug": "south-molton-lane", "city": "London", "score": 0}, {"name": "Chapone Place", "slug": "chapone-place", "city": "London", "score": 0}, {"name": "Bloomsbury Square", "slug": "bloomsbury-square", "city": "London", "score": 0}, {"name": "Grafton Street", "slug": "grafton-street", "city": "London", "score": 0}, {"name": "Addington Street", "slug": "addington-street", "city": "London", "score": 0}, {"name": "Half Moon Street", "slug": "half-moon-street", "city": "London", "score": 0}, {"name": "Irving Street", "slug": "irving-street", "city": "London", "score": 0}, {"name": "Hamilton Mews", "slug": "hamilton-mews", "city": "London", "score": 0}, {"name": "Essex Street", "slug": "essex-street", "city": "London", "score": 0}, {"name": "Porter Street", "slug": "porter-street", "city": "London", "score": 0}, {"name": "Lumley Street", "slug": "lumley-street", "city": "London", "score": 0}, {"name": "Camden Town", "slug": "camden-town", "city": "London", "score": 0}, {"name": "Brick Lane", "slug": "brick-lane", "city": "London", "score": 0}, {"name": "Circus Place", "slug": "circus-place", "city": "London", "score": 0}, {"name": "Rivington Street", "slug": "rivington-street", "city": "London", "score": 0}, {"name": "Byron Street", "slug": "byron-street", "city": "Leeds", "score": 0}, {"name": "Wood Street", "slug": "wood-street", "city": "Liverpool", "score": 0}, {"name": "Lincoln Street", "slug": "lincoln-street", "city": "Bristol", "score": 0}, {"name": "Arthur Street", "slug": "arthur-street", "city": "Nottingham", "score": 0}, {"name": "Clinton Street West", "slug": "clinton-street-west", "city": "Nottingham", "score": 0}, {"name": "Fox Lane", "slug": "fox-lane", "city": "Leicester", "score": 0}, {"name": "Trinity Lane", "slug": "trinity-lane", "city": "Leicester", "score": 0}, {"name": "Pear Place", "slug": "pear-place", "city": "London", "score": 0}, {"name": "Monmouth Street", "slug": "monmouth-street", "city": "London", "score": 0}, {"name": "London Waterloo", "slug": "london-waterloo", "city": "London", "score": 0}, {"name": "Carlisle Street", "slug": "carlisle-street", "city": "London", "score": 0}, {"name": "Seymour Street", "slug": "seymour-street", "city": "London", "score": 0}, {"name": "Green Street", "slug": "green-street", "city": "London", "score": 0}, {"name": "Kent Street", "slug": "kent-street", "city": "London", "score": 0}, {"name": "Hyde Road", "slug": "hyde-road", "city": "London", "score": 0}, {"name": "Corbet Court", "slug": "corbet-court", "city": "London", "score": 0}, {"name": "Ezra Street", "slug": "ezra-street", "city": "London", "score": 0}, {"name": "Granby Street", "slug": "granby-street", "city": "London", "score": 0}, {"name": "College Road", "slug": "college-road", "city": "London", "score": 0}, {"name": "Robert Street", "slug": "robert-street", "city": "London", "score": 0}, {"name": "Leopold Street", "slug": "leopold-street", "city": "Sheffield", "score": 0}, {"name": "Thurland Street", "slug": "thurland-street", "city": "Nottingham", "score": 0}, {"name": "Cottage Terrace", "slug": "cottage-terrace", "city": "Nottingham", "score": 0}, {"name": "Garrick Street", "slug": "garrick-street", "city": "London", "score": 0}, {"name": "Fitzmaurice Place", "slug": "fitzmaurice-place", "city": "London", "score": 0}, {"name": "Dryden Street", "slug": "dryden-street", "city": "London", "score": 0}, {"name": "Dufour's Place", "slug": "dufours-place", "city": "London", "score": 0}, {"name": "Savoy Way", "slug": "savoy-way", "city": "London", "score": 0}, {"name": "Charlotte Street", "slug": "charlotte-street", "city": "London", "score": 0}, {"name": "Waterloo Road", "slug": "waterloo-road", "city": "London", "score": 0}, {"name": "Richmond Mews", "slug": "richmond-mews", "city": "London", "score": 0}, {"name": "Windmill Street", "slug": "windmill-street", "city": "London", "score": 0}, {"name": "Maiden Lane", "slug": "maiden-lane", "city": "London", "score": 0}, {"name": "New Row", "slug": "new-row", "city": "London", "score": 0}, {"name": "Newburgh Street", "slug": "newburgh-street", "city": "London", "score": 0}, {"name": "Smith's Court", "slug": "smiths-court", "city": "London", "score": 0}, {"name": "Baker Street", "slug": "baker-street", "city": "London", "score": 0}, {"name": "Stratford City Bus Station", "slug": "stratford-city-bus-station", "city": "London", "score": 0}, {"name": "Station Street", "slug": "station-street", "city": "London", "score": 0}, {"name": "Hamfrith Road", "slug": "hamfrith-road", "city": "London", "score": 0}, {"name": "Knox Road", "slug": "knox-road", "city": "London", "score": 0}, {"name": "Midhurst Avenue", "slug": "midhurst-avenue", "city": "London", "score": 0}, {"name": "Dingwall Avenue", "slug": "dingwall-avenue", "city": "London", "score": 0}, {"name": "Dingwall Road", "slug": "dingwall-road", "city": "London", "score": 0}, {"name": "Shadwell Street", "slug": "shadwell-street", "city": "Birmingham", "score": 0}, {"name": "Bromsgrove Street", "slug": "bromsgrove-street", "city": "Birmingham", "score": 0}, {"name": "St Nicholas Place", "slug": "st-nicholas-place", "city": "Liverpool", "score": 0}, {"name": "Spaniel Row", "slug": "spaniel-row", "city": "Nottingham", "score": 0}, {"name": "Brintons Terrace", "slug": "brintons-terrace", "city": "Southampton", "score": 0}, {"name": "Bolton Street", "slug": "bolton-street", "city": "London", "score": 0}, {"name": "Cygnet Street", "slug": "cygnet-street", "city": "London", "score": 0}, {"name": "Columbia Road", "slug": "columbia-road", "city": "London", "score": 0}, {"name": "The Oval", "slug": "the-oval", "city": "London", "score": 0}, {"name": "Moor Lane", "slug": "moor-lane", "city": "London", "score": 0}, {"name": "Union Road", "slug": "union-road", "city": "London", "score": 0}, {"name": "St John's Road", "slug": "st-johns-road", "city": "Leeds", "score": 0}, {"name": "York Street", "slug": "york-street", "city": "Sheffield", "score": 0}, {"name": "Waterloo Place", "slug": "waterloo-place", "city": "Bristol", "score": 0}, {"name": "Cranbury Place", "slug": "cranbury-place", "city": "Southampton", "score": 0}, {"name": "Adeline Place", "slug": "adeline-place", "city": "London", "score": 0}, {"name": "Langham Place", "slug": "langham-place", "city": "London", "score": 0}, {"name": "Earlham Street", "slug": "earlham-street", "city": "London", "score": 0}, {"name": "Yarmouth Place", "slug": "yarmouth-place", "city": "London", "score": 0}, {"name": "Ganton Street", "slug": "ganton-street", "city": "London", "score": 0}, {"name": "Dunn's Passage", "slug": "dunns-passage", "city": "London", "score": 0}, {"name": "Marsden Street", "slug": "marsden-street", "city": "London", "score": 0}, {"name": "London King's Cross", "slug": "london-kings-cross", "city": "London", "score": 0}, {"name": "Pratt Mews", "slug": "pratt-mews", "city": "London", "score": 0}, {"name": "Camden High Street", "slug": "camden-high-street", "city": "London", "score": 0}, {"name": "Levehurst Way", "slug": "levehurst-way", "city": "London", "score": 0}, {"name": "Thornton Street", "slug": "thornton-street", "city": "London", "score": 0}, {"name": "St Mary's Row", "slug": "st-marys-row", "city": "Birmingham", "score": 0}, {"name": "Bath Passage", "slug": "bath-passage", "city": "Birmingham", "score": 0}, {"name": "Abbey Street", "slug": "abbey-street", "city": "Leeds", "score": 0}, {"name": "East Street", "slug": "east-street", "city": "Leeds", "score": 0}, {"name": "Pitfall Street", "slug": "pitfall-street", "city": "Leeds", "score": 0}, {"name": "Old Bread Street", "slug": "old-bread-street", "city": "Bristol", "score": 0}, {"name": "Corn Street", "slug": "corn-street", "city": "Bristol", "score": 0}, {"name": "Heol Y Tollty", "slug": "heol-y-tollty", "city": "Cardiff", "score": 0}, {"name": "Sandacre Street", "slug": "sandacre-street", "city": "Leicester", "score": 0}, {"name": "Waterloo Terrace", "slug": "waterloo-terrace", "city": "Southampton", "score": 0}, {"name": "Dover Street", "slug": "dover-street", "city": "London", "score": 0}, {"name": "Burleigh Street", "slug": "burleigh-street", "city": "London", "score": 0}, {"name": "Gray Street", "slug": "gray-street", "city": "London", "score": 0}, {"name": "Castle Lane", "slug": "castle-lane", "city": "London", "score": 0}, {"name": "Grenville Street", "slug": "grenville-street", "city": "London", "score": 0}, {"name": "Broadfield Lane", "slug": "broadfield-lane", "city": "London", "score": 0}, {"name": "Martha's Buildings", "slug": "marthas-buildings", "city": "London", "score": 0}, {"name": "Fieldgate Street", "slug": "fieldgate-street", "city": "London", "score": 0}, {"name": "Rushmead", "slug": "rushmead", "city": "London", "score": 0}, {"name": "Andrews Road", "slug": "andrews-road", "city": "London", "score": 0}, {"name": "Osborn Street", "slug": "osborn-street", "city": "London", "score": 0}, {"name": "Sandy's Row", "slug": "sandys-row", "city": "London", "score": 0}, {"name": "The Grove", "slug": "the-grove", "city": "London", "score": 0}, {"name": "Luxembourg Mews", "slug": "luxembourg-mews", "city": "London", "score": 0}, {"name": "Wellington Road", "slug": "wellington-road", "city": "London", "score": 0}, {"name": "Devonshire Road", "slug": "devonshire-road", "city": "London", "score": 0}, {"name": "Broad Street", "slug": "broad-street", "city": "Birmingham", "score": 0}, {"name": "Carver Street", "slug": "carver-street", "city": "Birmingham", "score": 0}, {"name": "Harrison Street", "slug": "harrison-street", "city": "Leeds", "score": 0}, {"name": "Crown Street", "slug": "crown-street", "city": "Leeds", "score": 0}, {"name": "Lands Lane", "slug": "lands-lane", "city": "Leeds", "score": 0}, {"name": "Regent Street", "slug": "regent-street", "city": "Leeds", "score": 0}, {"name": "Preston Street", "slug": "preston-street", "city": "Liverpool", "score": 0}, {"name": "Dale Street", "slug": "dale-street", "city": "Liverpool", "score": 0}, {"name": "St George's Place", "slug": "st-georges-place", "city": "Liverpool", "score": 0}, {"name": "Queensway Entrance (mersey Tunnel)", "slug": "queensway-entrance-(mersey-tunnel)", "city": "Liverpool", "score": 0}, {"name": "Upper Newington", "slug": "upper-newington", "city": "Liverpool", "score": 0}, {"name": "Leece Street", "slug": "leece-street", "city": "Liverpool", "score": 0}, {"name": "Norfolk Street", "slug": "norfolk-street", "city": "Liverpool", "score": 0}, {"name": "North Church Street", "slug": "north-church-street", "city": "Sheffield", "score": 0}, {"name": "Pinstone Street", "slug": "pinstone-street", "city": "Sheffield", "score": 0}, {"name": "Carlisle Place", "slug": "carlisle-place", "city": "London", "score": 0}, {"name": "Northumberland Avenue", "slug": "northumberland-avenue", "city": "London", "score": 0}, {"name": "Procter Street", "slug": "procter-street", "city": "London", "score": 0}, {"name": "Trafalgar Square", "slug": "trafalgar-square", "city": "London", "score": 0}, {"name": "Catherine Street", "slug": "catherine-street", "city": "London", "score": 0}, {"name": "Charing Cross", "slug": "charing-cross", "city": "London", "score": 0}, {"name": "Pollen Street", "slug": "pollen-street", "city": "London", "score": 0}, {"name": "Southampton Row", "slug": "southampton-row", "city": "London", "score": 0}, {"name": "Duck Lane", "slug": "duck-lane", "city": "London", "score": 0}, {"name": "Hopkins Street", "slug": "hopkins-street", "city": "London", "score": 0}, {"name": "Ashburton Place", "slug": "ashburton-place", "city": "London", "score": 0}, {"name": "Archer Street", "slug": "archer-street", "city": "London", "score": 0}, {"name": "Howland Mews East", "slug": "howland-mews-east", "city": "London", "score": 0}, {"name": "Watercress Place", "slug": "watercress-place", "city": "London", "score": 0}, {"name": "Clapham North", "slug": "clapham-north", "city": "London", "score": 0}, {"name": "Kidderminster Place", "slug": "kidderminster-place", "city": "London", "score": 0}, {"name": "Newgate", "slug": "newgate", "city": "London", "score": 0}, {"name": "Bow Street", "slug": "bow-street", "city": "Birmingham", "score": 0}, {"name": "Lower Severn Street", "slug": "lower-severn-street", "city": "Birmingham", "score": 0}, {"name": "Swallow Street", "slug": "swallow-street", "city": "Birmingham", "score": 0}, {"name": "Temple Row West", "slug": "temple-row-west", "city": "Birmingham", "score": 0}, {"name": "Great Hampton Row", "slug": "great-hampton-row", "city": "Birmingham", "score": 0}, {"name": "Blundell Street", "slug": "blundell-street", "city": "Leeds", "score": 0}, {"name": "Roe Alley", "slug": "roe-alley", "city": "Liverpool", "score": 0}, {"name": "Trent Street", "slug": "trent-street", "city": "Nottingham", "score": 0}, {"name": "Cairns Street", "slug": "cairns-street", "city": "Nottingham", "score": 0}, {"name": "Causeway Lane", "slug": "causeway-lane", "city": "Leicester", "score": 0}, {"name": "Pratt Walk", "slug": "pratt-walk", "city": "London", "score": 0}, {"name": "St Martin's Lane", "slug": "st-martins-lane", "city": "London", "score": 0}, {"name": "Upper Ground", "slug": "upper-ground", "city": "London", "score": 0}, {"name": "The Cut", "slug": "the-cut", "city": "London", "score": 0}, {"name": "Stourcliffe Street", "slug": "stourcliffe-street", "city": "London", "score": 0}, {"name": "Queen Square", "slug": "queen-square", "city": "London", "score": 0}, {"name": "Rousden Street", "slug": "rousden-street", "city": "London", "score": 0}, {"name": "Elizabeth Mews", "slug": "elizabeth-mews", "city": "London", "score": 0}, {"name": "Galway Street", "slug": "galway-street", "city": "London", "score": 0}, {"name": "Quaker Street", "slug": "quaker-street", "city": "London", "score": 0}, {"name": "Arbutus Street", "slug": "arbutus-street", "city": "London", "score": 0}, {"name": "De Beauvoir Crescent", "slug": "de-beauvoir-crescent", "city": "London", "score": 0}, {"name": "Rivington Place", "slug": "rivington-place", "city": "London", "score": 0}, {"name": "Lamb Street", "slug": "lamb-street", "city": "London", "score": 0}, {"name": "Old Street", "slug": "old-street", "city": "London", "score": 0}, {"name": "Atlantic Road", "slug": "atlantic-road", "city": "London", "score": 0}, {"name": "Alma Street", "slug": "alma-street", "city": "London", "score": 0}, {"name": "York Road", "slug": "york-road", "city": "London", "score": 0}, {"name": "Victoria Road", "slug": "victoria-road", "city": "London", "score": 0}, {"name": "Cecil Street", "slug": "cecil-street", "city": "Birmingham", "score": 0}, {"name": "Waterloo Street", "slug": "waterloo-street", "city": "Birmingham", "score": 0}, {"name": "Brook Street", "slug": "brook-street", "city": "Birmingham", "score": 0}, {"name": "David Lewis Street", "slug": "david-lewis-street", "city": "Liverpool", "score": 0}, {"name": "Argyle Street", "slug": "argyle-street", "city": "Liverpool", "score": 0}, {"name": "Vernon Street", "slug": "vernon-street", "city": "Liverpool", "score": 0}, {"name": "Stanley Street", "slug": "stanley-street", "city": "Liverpool", "score": 0}, {"name": "Bishop Street", "slug": "bishop-street", "city": "Sheffield", "score": 0}, {"name": "Ashfield Place", "slug": "ashfield-place", "city": "Bristol", "score": 0}, {"name": "Fairfax Street", "slug": "fairfax-street", "city": "Bristol", "score": 0}, {"name": "Carts Lane", "slug": "carts-lane", "city": "Leicester", "score": 0}, {"name": "Spring Gardens", "slug": "spring-gardens", "city": "London", "score": 0}, {"name": "Ormond Yard", "slug": "ormond-yard", "city": "London", "score": 0}, {"name": "Wardour Street", "slug": "wardour-street", "city": "London", "score": 0}, {"name": "John Adam Street", "slug": "john-adam-street", "city": "London", "score": 0}, {"name": "Lower James Street", "slug": "lower-james-street", "city": "London", "score": 0}, {"name": "Lower Robert Street", "slug": "lower-robert-street", "city": "London", "score": 0}, {"name": "Cornwall Road", "slug": "cornwall-road", "city": "London", "score": 0}, {"name": "Riding House Street", "slug": "riding-house-street", "city": "London", "score": 0}, {"name": "Savoy Court", "slug": "savoy-court", "city": "London", "score": 0}, {"name": "Foubert's Place", "slug": "fouberts-place", "city": "London", "score": 0}, {"name": "Sherwood Street", "slug": "sherwood-street", "city": "London", "score": 0}, {"name": "Southampton Buildings", "slug": "southampton-buildings", "city": "London", "score": 0}, {"name": "Ashley Place", "slug": "ashley-place", "city": "London", "score": 0}, {"name": "Morwell Street", "slug": "morwell-street", "city": "London", "score": 0}, {"name": "Hanway Place", "slug": "hanway-place", "city": "London", "score": 0}, {"name": "Cockspur Street", "slug": "cockspur-street", "city": "London", "score": 0}, {"name": "Derby Street", "slug": "derby-street", "city": "London", "score": 0}, {"name": "Barlow Place", "slug": "barlow-place", "city": "London", "score": 0}, {"name": "Clifford Street", "slug": "clifford-street", "city": "London", "score": 0}, {"name": "Beak Street", "slug": "beak-street", "city": "London", "score": 0}, {"name": "Endsleigh Gardens", "slug": "endsleigh-gardens", "city": "London", "score": 0}, {"name": "Great Portland Street", "slug": "great-portland-street", "city": "London", "score": 0}, {"name": "College Place", "slug": "college-place", "city": "London", "score": 0}, {"name": "Beaconsfield Street", "slug": "beaconsfield-street", "city": "London", "score": 0}, {"name": "Camden Street", "slug": "camden-street", "city": "London", "score": 0}, {"name": "Ainsley Street", "slug": "ainsley-street", "city": "London", "score": 0}, {"name": "Collingwood Street", "slug": "collingwood-street", "city": "London", "score": 0}, {"name": "Redchurch Street", "slug": "redchurch-street", "city": "London", "score": 0}, {"name": "Valentia Place", "slug": "valentia-place", "city": "London", "score": 0}, {"name": "Plaistow Road", "slug": "plaistow-road", "city": "London", "score": 0}, {"name": "Oxford Road", "slug": "oxford-road", "city": "London", "score": 0}, {"name": "Fell Road", "slug": "fell-road", "city": "London", "score": 0}, {"name": "Middle Street", "slug": "middle-street", "city": "London", "score": 0}, {"name": "Keeley Road", "slug": "keeley-road", "city": "London", "score": 0}, {"name": "Freemasons Place", "slug": "freemasons-place", "city": "London", "score": 0}, {"name": "Holloway Circus Queensway", "slug": "holloway-circus-queensway", "city": "Birmingham", "score": 0}, {"name": "Well Lane", "slug": "well-lane", "city": "Birmingham", "score": 0}, {"name": "Newhall Street", "slug": "newhall-street", "city": "Birmingham", "score": 0}, {"name": "Staniforth Street", "slug": "staniforth-street", "city": "Birmingham", "score": 0}, {"name": "Lower Loveday Street", "slug": "lower-loveday-street", "city": "Birmingham", "score": 0}, {"name": "Lower Tower Street", "slug": "lower-tower-street", "city": "Birmingham", "score": 0}, {"name": "Dartmouth Middleway", "slug": "dartmouth-middleway", "city": "Birmingham", "score": 0}, {"name": "Ladywell Walk", "slug": "ladywell-walk", "city": "Birmingham", "score": 0}, {"name": "Union Street", "slug": "union-street", "city": "Liverpool", "score": 0}, {"name": "Castle Hill", "slug": "castle-hill", "city": "Liverpool", "score": 0}, {"name": "Fitzalan Square", "slug": "fitzalan-square", "city": "Sheffield", "score": 0}, {"name": "Old Market Street", "slug": "old-market-street", "city": "Bristol", "score": 0}, {"name": "Broad Weir", "slug": "broad-weir", "city": "Bristol", "score": 0}, {"name": "Canon's Road", "slug": "canons-road", "city": "Bristol", "score": 0}, {"name": "Wheeler Gate", "slug": "wheeler-gate", "city": "Nottingham", "score": 0}, {"name": "Windsor Lane", "slug": "windsor-lane", "city": "Cardiff", "score": 0}, {"name": "Heol Tyr Brodyr", "slug": "heol-tyr-brodyr", "city": "Cardiff", "score": 0}, {"name": "Caxton Street", "slug": "caxton-street", "city": "London", "score": 0}, {"name": "Orange Street", "slug": "orange-street", "city": "London", "score": 0}, {"name": "Brewer Street", "slug": "brewer-street", "city": "London", "score": 0}, {"name": "Craven Street", "slug": "craven-street", "city": "London", "score": 0}, {"name": "Chicheley Street", "slug": "chicheley-street", "city": "London", "score": 0}, {"name": "Carrington Street", "slug": "carrington-street", "city": "London", "score": 0}, {"name": "Bird Street", "slug": "bird-street", "city": "London", "score": 0}, {"name": "Wrotham Road", "slug": "wrotham-road", "city": "London", "score": 0}, {"name": "Chalk Farm Road", "slug": "chalk-farm-road", "city": "London", "score": 0}, {"name": "Baroness Road", "slug": "baroness-road", "city": "London", "score": 0}, {"name": "New North Road", "slug": "new-north-road", "city": "London", "score": 0}, {"name": "New Goulston Street", "slug": "new-goulston-street", "city": "London", "score": 0}, {"name": "Piccadilly", "slug": "piccadilly", "city": "London", "score": 0}, {"name": "King's Road", "slug": "kings-road", "city": "London", "score": 0}, {"name": "Kensington High Street", "slug": "kensington-high-street", "city": "London", "score": 0}, {"name": "Moira Terrace", "slug": "moira-terrace", "city": "Cardiff", "score": 1}, {"name": "Milton Road", "slug": "milton-road", "city": "London", "score": 1}, {"name": "North Luton Place", "slug": "north-luton-place", "city": "Cardiff", "score": 3}, {"name": "Ogle Road", "slug": "ogle-road", "city": "Southampton", "score": 4}, {"name": "Scullards Lane", "slug": "scullards-lane", "city": "Southampton", "score": 6}, {"name": "Northumberland Street", "slug": "northumberland-street", "city": "Birmingham", "score": 6}, {"name": "Trafalgar Way", "slug": "trafalgar-way", "city": "London", "score": 6}, {"name": "Tresillian Terrace", "slug": "tresillian-terrace", "city": "Cardiff", "score": 6}, {"name": "Hurst Street", "slug": "hurst-street", "city": "London", "score": 10}, {"name": "Herne Hill", "slug": "herne-hill", "city": "London", "score": 14}, {"name": "Burges", "slug": "burges", "city": "Coventry", "score": 17}, {"name": "Ironmonger Row", "slug": "ironmonger-row", "city": "Coventry", "score": 17}, {"name": "St John's Street", "slug": "st-johns-street", "city": "Coventry", "score": 18}, {"name": "Brunswick Road", "slug": "brunswick-road", "city": "Sheffield", "score": 18}, {"name": "Oxford Street", "slug": "oxford-street", "city": "Sheffield", "score": 21}, {"name": "South Loudoun Place", "slug": "south-loudoun-place", "city": "Cardiff", "score": 21}, {"name": "Strathnairn Street", "slug": "strathnairn-street", "city": "Cardiff", "score": 24}, {"name": "Alfred Street", "slug": "alfred-street", "city": "Reading", "score": 27}, {"name": "Violet Row", "slug": "violet-row", "city": "Cardiff", "score": 28}, {"name": "Friar Street", "slug": "friar-street", "city": "Reading", "score": 29}, {"name": "Station Road", "slug": "station-road", "city": "Reading", "score": 30}, {"name": "Basin Street", "slug": "basin-street", "city": "Portsmouth", "score": 30}, {"name": "", "slug": "", "city": "York", "score": 38}, {"name": "Blake Street", "slug": "blake-street", "city": "York", "score": 39}, {"name": "Gonville Place", "slug": "gonville-place", "city": "Cambridge", "score": 42}, {"name": "Post Office Terrace", "slug": "post-office-terrace", "city": "Cambridge", "score": 48}, {"name": "Thomas Street", "slug": "thomas-street", "city": "Birmingham", "score": 48}, {"name": "Monument", "slug": "monument", "city": "Newcastle", "score": 51}, {"name": "Shield Street", "slug": "shield-street", "city": "Newcastle", "score": 51}, {"name": "Nelson Street", "slug": "nelson-street", "city": "Newcastle", "score": 51}, {"name": "Clayton Street West", "slug": "clayton-street-west", "city": "Newcastle", "score": 51}, {"name": "Marlborough Crescent", "slug": "marlborough-crescent", "city": "Newcastle", "score": 51}, {"name": "St John Street", "slug": "st-john-street", "city": "Newcastle", "score": 52}, {"name": "Market Hill", "slug": "market-hill", "city": "Cambridge", "score": 52}, {"name": "Forth Place", "slug": "forth-place", "city": "Newcastle", "score": 52}, {"name": "Queens Lane", "slug": "queens-lane", "city": "Newcastle", "score": 52}, {"name": "Grainger Street", "slug": "grainger-street", "city": "Newcastle", "score": 52}, {"name": "Wheeler Street", "slug": "wheeler-street", "city": "Cambridge", "score": 52}, {"name": "The Plain", "slug": "the-plain", "city": "Oxford", "score": 53}, {"name": "Haymarket", "slug": "haymarket", "city": "Newcastle", "score": 54}, {"name": "Kingsmead Square", "slug": "kingsmead-square", "city": "Bath", "score": 55}, {"name": "Westgate Buildings", "slug": "westgate-buildings", "city": "Bath", "score": 55}, {"name": "Stone Street", "slug": "stone-street", "city": "Brighton", "score": 99}, {"name": "Pavilion Buildings", "slug": "pavilion-buildings", "city": "Brighton", "score": 99}, {"name": "York Place", "slug": "york-place", "city": "Brighton", "score": 99}, {"name": "Cannon Place", "slug": "cannon-place", "city": "Brighton", "score": 99}, {"name": "Cambridge Road", "slug": "cambridge-road", "city": "Brighton", "score": 99}, {"name": "Hampton Place", "slug": "hampton-place", "city": "Brighton", "score": 99}];
+        
+        function renderStreets(filtered) {
+            const list = document.getElementById('streetList');
+            list.innerHTML = filtered.slice(0, 100).map(s => `
+                <a href="/streets/${s.slug}/" class="card" style="padding: var(--space-4); text-decoration: none; transition: box-shadow 0.2s;">
+                    <div style="font-weight: 600; color: var(--color-text);">${s.name}</div>
+                    <div style="font-size: var(--text-sm); color: var(--color-text-muted);">${s.city || 'UK'}</div>
+                    ${s.score !== undefined ? `<div style="margin-top: var(--space-2); font-size: var(--text-sm);">Safety: <strong style="color: ${s.score >= 60 ? 'var(--color-success)' : s.score >= 40 ? 'var(--color-warning)' : 'var(--color-error)'};">${s.score}/100</strong></div>` : ''}
+                </a>
+            `).join('');
+        }
+        
+        document.getElementById('streetSearch').addEventListener('input', (e) => {
+            const q = e.target.value.toLowerCase();
+            const filtered = streets.filter(s => s.name.toLowerCase().includes(q));
+            renderStreets(filtered);
+        });
+        
+        renderStreets(streets);
+        
         // Theme toggle
         const toggle = document.getElementById('themeToggle');
         const html = document.documentElement;
