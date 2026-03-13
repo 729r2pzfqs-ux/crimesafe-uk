@@ -22,7 +22,7 @@
           "burglary": 125,
           "vehicle-crime": 103
         },
-        "score": 0,
+        "score": 1,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -46,7 +46,7 @@
           "burglary": 112,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 31,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -70,7 +70,7 @@
           "burglary": 119,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 3,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -94,7 +94,7 @@
           "burglary": 118,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 6,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -118,7 +118,7 @@
           "burglary": 115,
           "vehicle-crime": 84
         },
-        "score": 0,
+        "score": 4,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -142,7 +142,7 @@
           "burglary": 122,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 9,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -166,7 +166,7 @@
           "burglary": 49,
           "robbery": 47
         },
-        "score": 0,
+        "score": 75,
         "top_crime": "violent-crime"
       }
     },
@@ -190,7 +190,7 @@
           "burglary": 120,
           "criminal-damage-arson": 82
         },
-        "score": 0,
+        "score": 14,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -214,7 +214,7 @@
           "anti-social-behaviour": 54,
           "possession-of-weapons": 32
         },
-        "score": 0,
+        "score": 60,
         "top_crime": "violent-crime"
       }
     },
@@ -238,7 +238,7 @@
           "burglary": 127,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 18,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -262,7 +262,7 @@
           "burglary": 119,
           "vehicle-crime": 104
         },
-        "score": 0,
+        "score": 1,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -286,7 +286,7 @@
           "burglary": 123,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 21,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -310,7 +310,7 @@
           "bicycle-theft": 80,
           "robbery": 67
         },
-        "score": 0,
+        "score": 41,
         "top_crime": "other-theft"
       }
     },
@@ -334,7 +334,7 @@
           "burglary": 109,
           "vehicle-crime": 98
         },
-        "score": 0,
+        "score": 32,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -358,7 +358,7 @@
           "burglary": 114,
           "vehicle-crime": 82
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -382,7 +382,7 @@
           "burglary": 124,
           "vehicle-crime": 81
         },
-        "score": 0,
+        "score": 23,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -406,7 +406,7 @@
           "burglary": 118,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 12,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -430,7 +430,7 @@
           "burglary": 122,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 8,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -454,7 +454,7 @@
           "burglary": 115,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 15,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -478,7 +478,7 @@
           "burglary": 116,
           "vehicle-crime": 82
         },
-        "score": 0,
+        "score": 6,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -502,7 +502,7 @@
           "burglary": 115,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -526,7 +526,7 @@
           "burglary": 119,
           "criminal-damage-arson": 81
         },
-        "score": 0,
+        "score": 16,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -550,7 +550,7 @@
           "burglary": 121,
           "criminal-damage-arson": 75
         },
-        "score": 0,
+        "score": 22,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -574,7 +574,7 @@
           "burglary": 120,
           "vehicle-crime": 82
         },
-        "score": 0,
+        "score": 13,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -598,7 +598,7 @@
           "burglary": 118,
           "vehicle-crime": 97
         },
-        "score": 0,
+        "score": 18,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -622,7 +622,7 @@
           "robbery": 43,
           "burglary": 41
         },
-        "score": 0,
+        "score": 78,
         "top_crime": "violent-crime"
       }
     },
@@ -646,7 +646,7 @@
           "vehicle-crime": 33,
           "robbery": 24
         },
-        "score": 0,
+        "score": 61,
         "top_crime": "violent-crime"
       }
     },
@@ -670,7 +670,7 @@
           "burglary": 90,
           "criminal-damage-arson": 75
         },
-        "score": 0,
+        "score": 31,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -694,7 +694,7 @@
           "burglary": 119,
           "vehicle-crime": 98
         },
-        "score": 0,
+        "score": 26,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -718,7 +718,7 @@
           "burglary": 117,
           "vehicle-crime": 94
         },
-        "score": 0,
+        "score": 14,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -742,7 +742,7 @@
           "burglary": 124,
           "criminal-damage-arson": 77
         },
-        "score": 0,
+        "score": 20,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -766,7 +766,7 @@
           "burglary": 124,
           "criminal-damage-arson": 81
         },
-        "score": 0,
+        "score": 19,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -790,7 +790,7 @@
           "robbery": 45,
           "burglary": 40
         },
-        "score": 0,
+        "score": 60,
         "top_crime": "violent-crime"
       }
     },
@@ -814,7 +814,7 @@
           "bicycle-theft": 12,
           "vehicle-crime": 11
         },
-        "score": 38,
+        "score": 94,
         "top_crime": "violent-crime"
       }
     },
@@ -838,7 +838,7 @@
           "burglary": 127,
           "vehicle-crime": 90
         },
-        "score": 0,
+        "score": 17,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -862,7 +862,7 @@
           "burglary": 127,
           "vehicle-crime": 90
         },
-        "score": 0,
+        "score": 8,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -886,7 +886,7 @@
           "burglary": 40,
           "robbery": 39
         },
-        "score": 0,
+        "score": 80,
         "top_crime": "violent-crime"
       }
     },
@@ -910,7 +910,7 @@
           "burglary": 72,
           "criminal-damage-arson": 58
         },
-        "score": 0,
+        "score": 36,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -934,7 +934,7 @@
           "burglary": 114,
           "criminal-damage-arson": 73
         },
-        "score": 0,
+        "score": 30,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -958,7 +958,7 @@
           "burglary": 107,
           "vehicle-crime": 102
         },
-        "score": 0,
+        "score": 33,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -982,7 +982,7 @@
           "burglary": 119,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 7,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1006,7 +1006,7 @@
           "burglary": 127,
           "criminal-damage-arson": 78
         },
-        "score": 0,
+        "score": 18,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1030,7 +1030,7 @@
           "burglary": 116,
           "vehicle-crime": 75
         },
-        "score": 0,
+        "score": 13,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1054,7 +1054,7 @@
           "burglary": 120,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 6,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1078,7 +1078,7 @@
           "burglary": 110,
           "criminal-damage-arson": 73
         },
-        "score": 0,
+        "score": 24,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1102,7 +1102,7 @@
           "vehicle-crime": 43,
           "theft-from-the-person": 39
         },
-        "score": 0,
+        "score": 74,
         "top_crime": "violent-crime"
       }
     },
@@ -1126,7 +1126,7 @@
           "robbery": 57,
           "drugs": 44
         },
-        "score": 0,
+        "score": 49,
         "top_crime": "violent-crime"
       }
     },
@@ -1150,7 +1150,7 @@
           "burglary": 74,
           "criminal-damage-arson": 70
         },
-        "score": 0,
+        "score": 36,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1174,7 +1174,7 @@
           "vehicle-crime": 41,
           "theft-from-the-person": 39
         },
-        "score": 0,
+        "score": 75,
         "top_crime": "violent-crime"
       }
     },
@@ -1198,7 +1198,7 @@
           "burglary": 116,
           "vehicle-crime": 93
         },
-        "score": 0,
+        "score": 20,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1222,7 +1222,7 @@
           "burglary": 45,
           "robbery": 43
         },
-        "score": 0,
+        "score": 73,
         "top_crime": "violent-crime"
       }
     },
@@ -1246,7 +1246,7 @@
           "burglary": 33,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 66,
         "top_crime": "violent-crime"
       }
     },
@@ -1270,7 +1270,7 @@
           "burglary": 116,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 15,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1294,7 +1294,7 @@
           "burglary": 63,
           "public-order": 61
         },
-        "score": 0,
+        "score": 73,
         "top_crime": "violent-crime"
       }
     },
@@ -1318,7 +1318,7 @@
           "burglary": 116,
           "vehicle-crime": 83
         },
-        "score": 0,
+        "score": 9,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1342,7 +1342,7 @@
           "burglary": 56,
           "vehicle-crime": 56
         },
-        "score": 0,
+        "score": 43,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1366,7 +1366,7 @@
           "burglary": 115,
           "vehicle-crime": 102
         },
-        "score": 0,
+        "score": 32,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1390,7 +1390,7 @@
           "burglary": 32,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 67,
         "top_crime": "violent-crime"
       }
     },
@@ -1414,7 +1414,7 @@
           "burglary": 118,
           "vehicle-crime": 92
         },
-        "score": 0,
+        "score": 1,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1438,7 +1438,7 @@
           "burglary": 31,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 72,
         "top_crime": "violent-crime"
       }
     },
@@ -1462,7 +1462,7 @@
           "burglary": 121,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 24,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1486,7 +1486,7 @@
           "theft-from-the-person": 38,
           "vehicle-crime": 36
         },
-        "score": 0,
+        "score": 72,
         "top_crime": "violent-crime"
       }
     },
@@ -1510,7 +1510,7 @@
           "drugs": 78,
           "robbery": 64
         },
-        "score": 0,
+        "score": 47,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1534,7 +1534,7 @@
           "burglary": 117,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 10,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1558,7 +1558,7 @@
           "burglary": 120,
           "criminal-damage-arson": 75
         },
-        "score": 0,
+        "score": 26,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1606,7 +1606,7 @@
           "burglary": 116,
           "vehicle-crime": 90
         },
-        "score": 0,
+        "score": 8,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1630,7 +1630,7 @@
           "criminal-damage-arson": 61,
           "burglary": 57
         },
-        "score": 0,
+        "score": 45,
         "top_crime": "violent-crime"
       }
     },
@@ -1654,7 +1654,7 @@
           "vehicle-crime": 10,
           "possession-of-weapons": 6
         },
-        "score": 51,
+        "score": 96,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -1678,7 +1678,7 @@
           "burglary": 114,
           "vehicle-crime": 87
         },
-        "score": 0,
+        "score": 4,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1702,7 +1702,7 @@
           "burglary": 110,
           "criminal-damage-arson": 71
         },
-        "score": 0,
+        "score": 24,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1726,7 +1726,7 @@
           "burglary": 119,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 26,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1750,7 +1750,7 @@
           "vehicle-crime": 66,
           "criminal-damage-arson": 61
         },
-        "score": 0,
+        "score": 55,
         "top_crime": "violent-crime"
       }
     },
@@ -1774,7 +1774,7 @@
           "public-order": 45,
           "burglary": 36
         },
-        "score": 10,
+        "score": 91,
         "top_crime": "violent-crime"
       }
     },
@@ -1798,7 +1798,7 @@
           "burglary": 49,
           "criminal-damage-arson": 42
         },
-        "score": 0,
+        "score": 73,
         "top_crime": "violent-crime"
       }
     },
@@ -1822,7 +1822,7 @@
           "vehicle-crime": 46,
           "theft-from-the-person": 37
         },
-        "score": 0,
+        "score": 75,
         "top_crime": "violent-crime"
       }
     },
@@ -1846,7 +1846,7 @@
           "burglary": 119,
           "vehicle-crime": 86
         },
-        "score": 0,
+        "score": 5,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1870,7 +1870,7 @@
           "burglary": 116,
           "vehicle-crime": 90
         },
-        "score": 0,
+        "score": 9,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1894,7 +1894,7 @@
           "burglary": 86,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 33,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1918,7 +1918,7 @@
           "burglary": 116,
           "vehicle-crime": 87
         },
-        "score": 0,
+        "score": 2,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1942,7 +1942,7 @@
           "burglary": 116,
           "vehicle-crime": 94
         },
-        "score": 0,
+        "score": 16,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1966,7 +1966,7 @@
           "vehicle-crime": 108,
           "burglary": 97
         },
-        "score": 0,
+        "score": 37,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -1990,7 +1990,7 @@
           "burglary": 114,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 27,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2014,7 +2014,7 @@
           "vehicle-crime": 112,
           "burglary": 105
         },
-        "score": 0,
+        "score": 33,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2038,7 +2038,7 @@
           "vehicle-crime": 48,
           "theft-from-the-person": 37
         },
-        "score": 0,
+        "score": 77,
         "top_crime": "violent-crime"
       }
     },
@@ -2062,7 +2062,7 @@
           "robbery": 46,
           "burglary": 41
         },
-        "score": 0,
+        "score": 57,
         "top_crime": "violent-crime"
       }
     },
@@ -2086,7 +2086,7 @@
           "burglary": 129,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 6,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2110,7 +2110,7 @@
           "burglary": 122,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 14,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2134,7 +2134,7 @@
           "burglary": 127,
           "criminal-damage-arson": 78
         },
-        "score": 0,
+        "score": 17,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2158,7 +2158,7 @@
           "theft-from-the-person": 40,
           "robbery": 37
         },
-        "score": 0,
+        "score": 74,
         "top_crime": "violent-crime"
       }
     },
@@ -2182,7 +2182,7 @@
           "robbery": 56,
           "drugs": 46
         },
-        "score": 0,
+        "score": 50,
         "top_crime": "violent-crime"
       }
     },
@@ -2206,7 +2206,7 @@
           "burglary": 115,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 30,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2230,7 +2230,7 @@
           "burglary": 115,
           "vehicle-crime": 80
         },
-        "score": 0,
+        "score": 3,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2254,7 +2254,7 @@
           "burglary": 105,
           "vehicle-crime": 104
         },
-        "score": 0,
+        "score": 34,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2278,7 +2278,7 @@
           "robbery": 104,
           "criminal-damage-arson": 70
         },
-        "score": 0,
+        "score": 38,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2302,7 +2302,7 @@
           "vehicle-crime": 72,
           "criminal-damage-arson": 57
         },
-        "score": 0,
+        "score": 70,
         "top_crime": "violent-crime"
       }
     },
@@ -2326,7 +2326,7 @@
           "burglary": 112,
           "vehicle-crime": 79
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2350,7 +2350,7 @@
           "bicycle-theft": 83,
           "robbery": 68
         },
-        "score": 0,
+        "score": 41,
         "top_crime": "other-theft"
       }
     },
@@ -2374,7 +2374,7 @@
           "burglary": 115,
           "vehicle-crime": 91
         },
-        "score": 0,
+        "score": 4,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2398,7 +2398,7 @@
           "burglary": 117,
           "criminal-damage-arson": 74
         },
-        "score": 0,
+        "score": 27,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2422,7 +2422,7 @@
           "burglary": 128,
           "criminal-damage-arson": 82
         },
-        "score": 0,
+        "score": 5,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2446,7 +2446,7 @@
           "vehicle-crime": 42,
           "theft-from-the-person": 37
         },
-        "score": 0,
+        "score": 76,
         "top_crime": "violent-crime"
       }
     },
@@ -2470,7 +2470,7 @@
           "burglary": 34,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 60,
         "top_crime": "violent-crime"
       }
     },
@@ -2494,7 +2494,7 @@
           "burglary": 94,
           "criminal-damage-arson": 59
         },
-        "score": 0,
+        "score": 35,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2518,7 +2518,7 @@
           "burglary": 122,
           "vehicle-crime": 98
         },
-        "score": 0,
+        "score": 25,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2542,7 +2542,7 @@
           "burglary": 32,
           "other-crime": 25
         },
-        "score": 0,
+        "score": 85,
         "top_crime": "violent-crime"
       }
     },
@@ -2566,7 +2566,7 @@
           "burglary": 126,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 12,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2590,7 +2590,7 @@
           "burglary": 119,
           "criminal-damage-arson": 80
         },
-        "score": 0,
+        "score": 28,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2614,7 +2614,7 @@
           "burglary": 127,
           "vehicle-crime": 85
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2638,7 +2638,7 @@
           "drugs": 88,
           "vehicle-crime": 68
         },
-        "score": 0,
+        "score": 39,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2662,7 +2662,7 @@
           "vehicle-crime": 86,
           "burglary": 67
         },
-        "score": 0,
+        "score": 39,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2686,7 +2686,7 @@
           "burglary": 120,
           "criminal-damage-arson": 74
         },
-        "score": 0,
+        "score": 27,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2710,7 +2710,7 @@
           "burglary": 121,
           "criminal-damage-arson": 82
         },
-        "score": 0,
+        "score": 25,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2734,7 +2734,7 @@
           "burglary": 120,
           "criminal-damage-arson": 74
         },
-        "score": 0,
+        "score": 24,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2782,7 +2782,7 @@
           "burglary": 128,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 10,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2806,7 +2806,7 @@
           "burglary": 127,
           "vehicle-crime": 87
         },
-        "score": 0,
+        "score": 19,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2830,7 +2830,7 @@
           "burglary": 121,
           "vehicle-crime": 102
         },
-        "score": 0,
+        "score": 3,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2854,7 +2854,7 @@
           "burglary": 76,
           "criminal-damage-arson": 68
         },
-        "score": 0,
+        "score": 36,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2878,7 +2878,7 @@
           "burglary": 123,
           "criminal-damage-arson": 78
         },
-        "score": 0,
+        "score": 21,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2902,7 +2902,7 @@
           "drugs": 81,
           "vehicle-crime": 62
         },
-        "score": 0,
+        "score": 40,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2926,7 +2926,7 @@
           "criminal-damage-arson": 42,
           "burglary": 41
         },
-        "score": 0,
+        "score": 78,
         "top_crime": "violent-crime"
       }
     },
@@ -2941,7 +2941,7 @@
         "types": {
           "violent-crime": 2
         },
-        "score": 99,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -2965,7 +2965,7 @@
           "burglary": 112,
           "criminal-damage-arson": 67
         },
-        "score": 0,
+        "score": 34,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -2989,7 +2989,7 @@
           "robbery": 39,
           "theft-from-the-person": 38
         },
-        "score": 0,
+        "score": 80,
         "top_crime": "violent-crime"
       }
     },
@@ -3013,7 +3013,7 @@
           "burglary": 32,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 68,
         "top_crime": "violent-crime"
       }
     },
@@ -3037,7 +3037,7 @@
           "possession-of-weapons": 7,
           "vehicle-crime": 7
         },
-        "score": 52,
+        "score": 97,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -3061,7 +3061,7 @@
           "robbery": 46,
           "burglary": 41
         },
-        "score": 0,
+        "score": 58,
         "top_crime": "violent-crime"
       }
     },
@@ -3085,7 +3085,7 @@
           "drugs": 38,
           "other-crime": 25
         },
-        "score": 0,
+        "score": 89,
         "top_crime": "violent-crime"
       }
     },
@@ -3109,7 +3109,7 @@
           "burglary": 123,
           "vehicle-crime": 104
         },
-        "score": 0,
+        "score": 4,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3133,7 +3133,7 @@
           "burglary": 105,
           "criminal-damage-arson": 68
         },
-        "score": 0,
+        "score": 32,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3157,7 +3157,7 @@
           "burglary": 113,
           "vehicle-crime": 95
         },
-        "score": 0,
+        "score": 17,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3181,7 +3181,7 @@
           "burglary": 112,
           "criminal-damage-arson": 77
         },
-        "score": 0,
+        "score": 16,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3205,7 +3205,7 @@
           "burglary": 118,
           "vehicle-crime": 80
         },
-        "score": 0,
+        "score": 29,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3229,7 +3229,7 @@
           "criminal-damage-arson": 40,
           "robbery": 39
         },
-        "score": 0,
+        "score": 78,
         "top_crime": "violent-crime"
       }
     },
@@ -3253,7 +3253,7 @@
           "robbery": 57,
           "drugs": 46
         },
-        "score": 0,
+        "score": 49,
         "top_crime": "violent-crime"
       }
     },
@@ -3277,7 +3277,7 @@
           "robbery": 28,
           "drugs": 27
         },
-        "score": 18,
+        "score": 92,
         "top_crime": "violent-crime"
       }
     },
@@ -3301,7 +3301,7 @@
           "burglary": 121,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 23,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3325,7 +3325,7 @@
           "bicycle-theft": 82,
           "robbery": 66
         },
-        "score": 0,
+        "score": 42,
         "top_crime": "other-theft"
       }
     },
@@ -3349,7 +3349,7 @@
           "bicycle-theft": 71,
           "robbery": 70
         },
-        "score": 0,
+        "score": 44,
         "top_crime": "violent-crime"
       }
     },
@@ -3373,7 +3373,7 @@
           "drugs": 52,
           "robbery": 49
         },
-        "score": 0,
+        "score": 83,
         "top_crime": "violent-crime"
       }
     },
@@ -3397,7 +3397,7 @@
           "anti-social-behaviour": 55,
           "possession-of-weapons": 37
         },
-        "score": 0,
+        "score": 61,
         "top_crime": "violent-crime"
       }
     },
@@ -3421,7 +3421,7 @@
           "vehicle-crime": 43,
           "theft-from-the-person": 37
         },
-        "score": 0,
+        "score": 76,
         "top_crime": "violent-crime"
       }
     },
@@ -3445,7 +3445,7 @@
           "other-crime": 20,
           "bicycle-theft": 19
         },
-        "score": 29,
+        "score": 94,
         "top_crime": "violent-crime"
       }
     },
@@ -3469,7 +3469,7 @@
           "robbery": 9,
           "other-crime": 6
         },
-        "score": 55,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -3493,7 +3493,7 @@
           "burglary": 107,
           "vehicle-crime": 86
         },
-        "score": 0,
+        "score": 5,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3517,7 +3517,7 @@
           "burglary": 120,
           "criminal-damage-arson": 81
         },
-        "score": 0,
+        "score": 22,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3541,7 +3541,7 @@
           "burglary": 129,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 8,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3565,7 +3565,7 @@
           "burglary": 118,
           "vehicle-crime": 99
         },
-        "score": 0,
+        "score": 13,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3589,7 +3589,7 @@
           "burglary": 111,
           "vehicle-crime": 82
         },
-        "score": 0,
+        "score": 2,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3613,7 +3613,7 @@
           "burglary": 66,
           "criminal-damage-arson": 55
         },
-        "score": 0,
+        "score": 63,
         "top_crime": "violent-crime"
       }
     },
@@ -3637,7 +3637,7 @@
           "bicycle-theft": 59,
           "robbery": 58
         },
-        "score": 0,
+        "score": 46,
         "top_crime": "other-theft"
       }
     },
@@ -3661,7 +3661,7 @@
           "burglary": 54,
           "possession-of-weapons": 35
         },
-        "score": 0,
+        "score": 58,
         "top_crime": "violent-crime"
       }
     },
@@ -3685,7 +3685,7 @@
           "burglary": 57,
           "possession-of-weapons": 38
         },
-        "score": 0,
+        "score": 57,
         "top_crime": "violent-crime"
       }
     },
@@ -3709,7 +3709,7 @@
           "burglary": 35,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 59,
         "top_crime": "violent-crime"
       }
     },
@@ -3733,7 +3733,7 @@
           "robbery": 58,
           "drugs": 38
         },
-        "score": 0,
+        "score": 52,
         "top_crime": "violent-crime"
       }
     },
@@ -3757,7 +3757,7 @@
           "other-crime": 21,
           "bicycle-theft": 18
         },
-        "score": 30,
+        "score": 94,
         "top_crime": "violent-crime"
       }
     },
@@ -3781,7 +3781,7 @@
           "burglary": 22,
           "theft-from-the-person": 16
         },
-        "score": 6,
+        "score": 91,
         "top_crime": "violent-crime"
       }
     },
@@ -3805,7 +3805,7 @@
           "burglary": 124,
           "vehicle-crime": 88
         },
-        "score": 0,
+        "score": 23,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3829,7 +3829,7 @@
           "burglary": 128,
           "vehicle-crime": 88
         },
-        "score": 0,
+        "score": 21,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3853,7 +3853,7 @@
           "burglary": 118,
           "vehicle-crime": 103
         },
-        "score": 0,
+        "score": 29,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3877,7 +3877,7 @@
           "burglary": 118,
           "criminal-damage-arson": 84
         },
-        "score": 0,
+        "score": 28,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -3901,7 +3901,7 @@
           "bicycle-theft": 76,
           "robbery": 67
         },
-        "score": 0,
+        "score": 42,
         "top_crime": "other-theft"
       }
     },
@@ -3925,7 +3925,7 @@
           "burglary": 37,
           "robbery": 36
         },
-        "score": 0,
+        "score": 83,
         "top_crime": "violent-crime"
       }
     },
@@ -3949,7 +3949,7 @@
           "vehicle-crime": 39,
           "robbery": 38
         },
-        "score": 0,
+        "score": 71,
         "top_crime": "violent-crime"
       }
     },
@@ -3973,7 +3973,7 @@
           "burglary": 34,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 58,
         "top_crime": "violent-crime"
       }
     },
@@ -3997,7 +3997,7 @@
           "robbery": 27,
           "drugs": 26
         },
-        "score": 17,
+        "score": 92,
         "top_crime": "violent-crime"
       }
     },
@@ -4021,7 +4021,7 @@
           "burglary": 124,
           "vehicle-crime": 95
         },
-        "score": 0,
+        "score": 14,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4045,7 +4045,7 @@
           "burglary": 114,
           "vehicle-crime": 86
         },
-        "score": 0,
+        "score": 1,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4069,7 +4069,7 @@
           "burglary": 106,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 34,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4093,7 +4093,7 @@
           "vehicle-crime": 61,
           "criminal-damage-arson": 56
         },
-        "score": 0,
+        "score": 52,
         "top_crime": "violent-crime"
       }
     },
@@ -4117,7 +4117,7 @@
           "vehicle-crime": 62,
           "criminal-damage-arson": 58
         },
-        "score": 0,
+        "score": 50,
         "top_crime": "violent-crime"
       }
     },
@@ -4141,7 +4141,7 @@
           "public-order": 66,
           "burglary": 63
         },
-        "score": 0,
+        "score": 66,
         "top_crime": "violent-crime"
       }
     },
@@ -4165,7 +4165,7 @@
           "drugs": 27,
           "bicycle-theft": 24
         },
-        "score": 1,
+        "score": 90,
         "top_crime": "violent-crime"
       }
     },
@@ -4213,7 +4213,7 @@
           "burglary": 112,
           "criminal-damage-arson": 82
         },
-        "score": 0,
+        "score": 7,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4237,7 +4237,7 @@
           "burglary": 119,
           "criminal-damage-arson": 82
         },
-        "score": 0,
+        "score": 22,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4261,7 +4261,7 @@
           "burglary": 123,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4285,7 +4285,7 @@
           "burglary": 115,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 25,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4309,7 +4309,7 @@
           "burglary": 118,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 13,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4333,7 +4333,7 @@
           "burglary": 112,
           "criminal-damage-arson": 83
         },
-        "score": 0,
+        "score": 10,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4357,7 +4357,7 @@
           "burglary": 123,
           "vehicle-crime": 88
         },
-        "score": 0,
+        "score": 6,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4381,7 +4381,7 @@
           "burglary": 109,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 32,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4405,7 +4405,7 @@
           "criminal-damage-arson": 38,
           "burglary": 37
         },
-        "score": 0,
+        "score": 80,
         "top_crime": "violent-crime"
       }
     },
@@ -4429,7 +4429,7 @@
           "burglary": 46,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 73,
         "top_crime": "violent-crime"
       }
     },
@@ -4453,7 +4453,7 @@
           "burglary": 33,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 85,
         "top_crime": "violent-crime"
       }
     },
@@ -4477,7 +4477,7 @@
           "burglary": 33,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 65,
         "top_crime": "violent-crime"
       }
     },
@@ -4501,7 +4501,7 @@
           "burglary": 26,
           "other-crime": 25
         },
-        "score": 0,
+        "score": 85,
         "top_crime": "violent-crime"
       }
     },
@@ -4525,7 +4525,7 @@
           "robbery": 55,
           "drugs": 42
         },
-        "score": 0,
+        "score": 50,
         "top_crime": "violent-crime"
       }
     },
@@ -4549,7 +4549,7 @@
           "robbery": 92,
           "burglary": 89
         },
-        "score": 0,
+        "score": 39,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4573,7 +4573,7 @@
           "bicycle-theft": 75,
           "vehicle-crime": 70
         },
-        "score": 0,
+        "score": 48,
         "top_crime": "violent-crime"
       }
     },
@@ -4597,7 +4597,7 @@
           "vehicle-crime": 61,
           "bicycle-theft": 52
         },
-        "score": 0,
+        "score": 47,
         "top_crime": "violent-crime"
       }
     },
@@ -4621,7 +4621,7 @@
           "vehicle-crime": 87,
           "robbery": 63
         },
-        "score": 0,
+        "score": 51,
         "top_crime": "violent-crime"
       }
     },
@@ -4645,7 +4645,7 @@
           "vehicle-crime": 60,
           "criminal-damage-arson": 57
         },
-        "score": 0,
+        "score": 49,
         "top_crime": "violent-crime"
       }
     },
@@ -4669,7 +4669,7 @@
           "burglary": 66,
           "public-order": 60
         },
-        "score": 0,
+        "score": 71,
         "top_crime": "violent-crime"
       }
     },
@@ -4693,7 +4693,7 @@
           "criminal-damage-arson": 67,
           "robbery": 59
         },
-        "score": 0,
+        "score": 72,
         "top_crime": "violent-crime"
       }
     },
@@ -4717,7 +4717,7 @@
           "burglary": 47,
           "robbery": 47
         },
-        "score": 0,
+        "score": 62,
         "top_crime": "violent-crime"
       }
     },
@@ -4741,7 +4741,7 @@
           "theft-from-the-person": 36,
           "burglary": 35
         },
-        "score": 0,
+        "score": 83,
         "top_crime": "violent-crime"
       }
     },
@@ -4765,7 +4765,7 @@
           "anti-social-behaviour": 42,
           "possession-of-weapons": 31
         },
-        "score": 0,
+        "score": 77,
         "top_crime": "violent-crime"
       }
     },
@@ -4789,7 +4789,7 @@
           "vehicle-crime": 46,
           "theft-from-the-person": 38
         },
-        "score": 0,
+        "score": 75,
         "top_crime": "violent-crime"
       }
     },
@@ -4813,7 +4813,7 @@
           "theft-from-the-person": 40,
           "vehicle-crime": 40
         },
-        "score": 0,
+        "score": 73,
         "top_crime": "violent-crime"
       }
     },
@@ -4837,7 +4837,7 @@
           "robbery": 49,
           "bicycle-theft": 35
         },
-        "score": 0,
+        "score": 55,
         "top_crime": "violent-crime"
       }
     },
@@ -4861,7 +4861,7 @@
           "drugs": 27,
           "bicycle-theft": 22
         },
-        "score": 3,
+        "score": 90,
         "top_crime": "violent-crime"
       }
     },
@@ -4885,7 +4885,7 @@
           "drugs": 15,
           "vehicle-crime": 13
         },
-        "score": 52,
+        "score": 97,
         "top_crime": "violent-crime"
       }
     },
@@ -4909,7 +4909,7 @@
           "burglary": 106,
           "vehicle-crime": 99
         },
-        "score": 0,
+        "score": 33,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4933,7 +4933,7 @@
           "burglary": 118,
           "vehicle-crime": 95
         },
-        "score": 0,
+        "score": 4,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4957,7 +4957,7 @@
           "burglary": 120,
           "criminal-damage-arson": 86
         },
-        "score": 0,
+        "score": 21,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -4981,7 +4981,7 @@
           "burglary": 114,
           "vehicle-crime": 99
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5005,7 +5005,7 @@
           "burglary": 69,
           "criminal-damage-arson": 63
         },
-        "score": 0,
+        "score": 38,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5029,7 +5029,7 @@
           "vehicle-crime": 110,
           "burglary": 102
         },
-        "score": 0,
+        "score": 32,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5053,7 +5053,7 @@
           "burglary": 118,
           "criminal-damage-arson": 75
         },
-        "score": 0,
+        "score": 20,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5077,7 +5077,7 @@
           "vehicle-crime": 107,
           "burglary": 73
         },
-        "score": 0,
+        "score": 37,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5101,7 +5101,7 @@
           "burglary": 96,
           "criminal-damage-arson": 63
         },
-        "score": 0,
+        "score": 35,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5125,7 +5125,7 @@
           "drugs": 86,
           "robbery": 84
         },
-        "score": 0,
+        "score": 40,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5149,7 +5149,7 @@
           "vehicle-crime": 106,
           "burglary": 104
         },
-        "score": 0,
+        "score": 35,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5173,7 +5173,7 @@
           "burglary": 54,
           "criminal-damage-arson": 49
         },
-        "score": 0,
+        "score": 77,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -5197,7 +5197,7 @@
           "bicycle-theft": 79,
           "criminal-damage-arson": 60
         },
-        "score": 0,
+        "score": 44,
         "top_crime": "violent-crime"
       }
     },
@@ -5221,7 +5221,7 @@
           "robbery": 75,
           "bicycle-theft": 67
         },
-        "score": 0,
+        "score": 42,
         "top_crime": "other-theft"
       }
     },
@@ -5245,7 +5245,7 @@
           "bicycle-theft": 73,
           "robbery": 63
         },
-        "score": 0,
+        "score": 47,
         "top_crime": "violent-crime"
       }
     },
@@ -5269,7 +5269,7 @@
           "robbery": 45,
           "theft-from-the-person": 41
         },
-        "score": 0,
+        "score": 68,
         "top_crime": "violent-crime"
       }
     },
@@ -5293,7 +5293,7 @@
           "burglary": 35,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 58,
         "top_crime": "violent-crime"
       }
     },
@@ -5317,7 +5317,7 @@
           "possession-of-weapons": 8,
           "robbery": 6
         },
-        "score": 52,
+        "score": 96,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -5341,7 +5341,7 @@
           "burglary": 28,
           "other-crime": 21
         },
-        "score": 21,
+        "score": 93,
         "top_crime": "violent-crime"
       }
     },
@@ -5365,7 +5365,7 @@
           "drugs": 38,
           "robbery": 31
         },
-        "score": 0,
+        "score": 89,
         "top_crime": "violent-crime"
       }
     },
@@ -5389,7 +5389,7 @@
           "burglary": 44,
           "robbery": 42
         },
-        "score": 0,
+        "score": 55,
         "top_crime": "violent-crime"
       }
     },
@@ -5413,7 +5413,7 @@
           "robbery": 40,
           "burglary": 39
         },
-        "score": 0,
+        "score": 64,
         "top_crime": "violent-crime"
       }
     },
@@ -5428,7 +5428,7 @@
         "types": {
           "violent-crime": 3
         },
-        "score": 99,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -5452,7 +5452,7 @@
           "vehicle-crime": 33,
           "robbery": 24
         },
-        "score": 0,
+        "score": 60,
         "top_crime": "violent-crime"
       }
     },
@@ -5476,7 +5476,7 @@
           "vehicle-crime": 38,
           "robbery": 25
         },
-        "score": 0,
+        "score": 56,
         "top_crime": "violent-crime"
       }
     },
@@ -5500,7 +5500,7 @@
           "burglary": 62,
           "criminal-damage-arson": 55
         },
-        "score": 0,
+        "score": 40,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5524,7 +5524,7 @@
           "burglary": 128,
           "vehicle-crime": 82
         },
-        "score": 0,
+        "score": 16,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5548,7 +5548,7 @@
           "burglary": 63,
           "criminal-damage-arson": 59
         },
-        "score": 0,
+        "score": 39,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5572,7 +5572,7 @@
           "burglary": 121,
           "vehicle-crime": 97
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5596,7 +5596,7 @@
           "burglary": 90,
           "drugs": 83
         },
-        "score": 0,
+        "score": 39,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5620,7 +5620,7 @@
           "vehicle-crime": 110,
           "burglary": 91
         },
-        "score": 0,
+        "score": 38,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5644,7 +5644,7 @@
           "robbery": 66,
           "vehicle-crime": 65
         },
-        "score": 0,
+        "score": 53,
         "top_crime": "violent-crime"
       }
     },
@@ -5668,7 +5668,7 @@
           "vehicle-crime": 88,
           "robbery": 64
         },
-        "score": 0,
+        "score": 52,
         "top_crime": "violent-crime"
       }
     },
@@ -5692,7 +5692,7 @@
           "robbery": 77,
           "bicycle-theft": 69
         },
-        "score": 0,
+        "score": 43,
         "top_crime": "other-theft"
       }
     },
@@ -5716,7 +5716,7 @@
           "bicycle-theft": 71,
           "vehicle-crime": 63
         },
-        "score": 0,
+        "score": 48,
         "top_crime": "violent-crime"
       }
     },
@@ -5740,7 +5740,7 @@
           "bicycle-theft": 73,
           "robbery": 63
         },
-        "score": 0,
+        "score": 46,
         "top_crime": "violent-crime"
       }
     },
@@ -5764,7 +5764,7 @@
           "burglary": 37,
           "theft-from-the-person": 35
         },
-        "score": 0,
+        "score": 84,
         "top_crime": "violent-crime"
       }
     },
@@ -5788,7 +5788,7 @@
           "robbery": 36,
           "theft-from-the-person": 35
         },
-        "score": 0,
+        "score": 87,
         "top_crime": "violent-crime"
       }
     },
@@ -5812,7 +5812,7 @@
           "drugs": 12,
           "robbery": 7
         },
-        "score": 51,
+        "score": 96,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -5836,7 +5836,7 @@
           "burglary": 27,
           "other-crime": 26
         },
-        "score": 0,
+        "score": 85,
         "top_crime": "violent-crime"
       }
     },
@@ -5860,7 +5860,7 @@
           "robbery": 41,
           "burglary": 39
         },
-        "score": 0,
+        "score": 64,
         "top_crime": "violent-crime"
       }
     },
@@ -5884,7 +5884,7 @@
           "burglary": 48,
           "robbery": 45
         },
-        "score": 0,
+        "score": 54,
         "top_crime": "violent-crime"
       }
     },
@@ -5908,7 +5908,7 @@
           "other-crime": 22,
           "drugs": 19
         },
-        "score": 28,
+        "score": 93,
         "top_crime": "violent-crime"
       }
     },
@@ -5932,7 +5932,7 @@
           "theft-from-the-person": 18,
           "burglary": 13
         },
-        "score": 48,
+        "score": 95,
         "top_crime": "violent-crime"
       }
     },
@@ -5956,7 +5956,7 @@
           "burglary": 127,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 17,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -5980,7 +5980,7 @@
           "burglary": 114,
           "vehicle-crime": 107
         },
-        "score": 0,
+        "score": 29,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6004,7 +6004,7 @@
           "burglary": 122,
           "criminal-damage-arson": 84
         },
-        "score": 0,
+        "score": 10,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6028,7 +6028,7 @@
           "burglary": 116,
           "vehicle-crime": 92
         },
-        "score": 0,
+        "score": 16,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6052,7 +6052,7 @@
           "burglary": 113,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 31,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6100,7 +6100,7 @@
           "burglary": 60,
           "criminal-damage-arson": 56
         },
-        "score": 0,
+        "score": 40,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6124,7 +6124,7 @@
           "burglary": 115,
           "vehicle-crime": 97
         },
-        "score": 0,
+        "score": 3,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6172,7 +6172,7 @@
           "burglary": 122,
           "criminal-damage-arson": 78
         },
-        "score": 0,
+        "score": 26,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6196,7 +6196,7 @@
           "burglary": 125,
           "criminal-damage-arson": 77
         },
-        "score": 0,
+        "score": 20,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6220,7 +6220,7 @@
           "burglary": 116,
           "vehicle-crime": 93
         },
-        "score": 0,
+        "score": 17,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6244,7 +6244,7 @@
           "burglary": 112,
           "vehicle-crime": 84
         },
-        "score": 0,
+        "score": 5,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6268,7 +6268,7 @@
           "drugs": 81,
           "robbery": 81
         },
-        "score": 0,
+        "score": 41,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6292,7 +6292,7 @@
           "burglary": 41,
           "robbery": 41
         },
-        "score": 0,
+        "score": 77,
         "top_crime": "violent-crime"
       }
     },
@@ -6316,7 +6316,7 @@
           "robbery": 41,
           "burglary": 40
         },
-        "score": 0,
+        "score": 78,
         "top_crime": "violent-crime"
       }
     },
@@ -6340,7 +6340,7 @@
           "burglary": 47,
           "robbery": 45
         },
-        "score": 0,
+        "score": 56,
         "top_crime": "violent-crime"
       }
     },
@@ -6364,7 +6364,7 @@
           "burglary": 43,
           "robbery": 42
         },
-        "score": 0,
+        "score": 71,
         "top_crime": "violent-crime"
       }
     },
@@ -6388,7 +6388,7 @@
           "theft-from-the-person": 33,
           "burglary": 32
         },
-        "score": 0,
+        "score": 86,
         "top_crime": "violent-crime"
       }
     },
@@ -6412,7 +6412,7 @@
           "burglary": 41,
           "robbery": 36
         },
-        "score": 0,
+        "score": 82,
         "top_crime": "violent-crime"
       }
     },
@@ -6436,7 +6436,7 @@
           "burglary": 41,
           "theft-from-the-person": 38
         },
-        "score": 0,
+        "score": 82,
         "top_crime": "violent-crime"
       }
     },
@@ -6460,7 +6460,7 @@
           "burglary": 47,
           "theft-from-the-person": 32
         },
-        "score": 0,
+        "score": 68,
         "top_crime": "violent-crime"
       }
     },
@@ -6484,7 +6484,7 @@
           "anti-social-behaviour": 51,
           "robbery": 32
         },
-        "score": 0,
+        "score": 68,
         "top_crime": "violent-crime"
       }
     },
@@ -6508,7 +6508,7 @@
           "theft-from-the-person": 29,
           "burglary": 28
         },
-        "score": 0,
+        "score": 79,
         "top_crime": "violent-crime"
       }
     },
@@ -6532,7 +6532,7 @@
           "vehicle-crime": 8,
           "possession-of-weapons": 6
         },
-        "score": 51,
+        "score": 96,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -6556,7 +6556,7 @@
           "robbery": 45,
           "burglary": 39
         },
-        "score": 0,
+        "score": 63,
         "top_crime": "violent-crime"
       }
     },
@@ -6580,7 +6580,7 @@
           "drugs": 27,
           "bicycle-theft": 19
         },
-        "score": 21,
+        "score": 93,
         "top_crime": "violent-crime"
       }
     },
@@ -6604,7 +6604,7 @@
           "burglary": 31,
           "bicycle-theft": 23
         },
-        "score": 0,
+        "score": 88,
         "top_crime": "violent-crime"
       }
     },
@@ -6628,7 +6628,7 @@
           "burglary": 105,
           "vehicle-crime": 105
         },
-        "score": 0,
+        "score": 26,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6652,7 +6652,7 @@
           "bicycle-theft": 81,
           "robbery": 61
         },
-        "score": 0,
+        "score": 44,
         "top_crime": "violent-crime"
       }
     },
@@ -6676,7 +6676,7 @@
           "bicycle-theft": 77,
           "vehicle-crime": 63
         },
-        "score": 0,
+        "score": 47,
         "top_crime": "violent-crime"
       }
     },
@@ -6700,7 +6700,7 @@
           "vehicle-crime": 79,
           "robbery": 59
         },
-        "score": 0,
+        "score": 63,
         "top_crime": "violent-crime"
       }
     },
@@ -6724,7 +6724,7 @@
           "robbery": 71,
           "bicycle-theft": 63
         },
-        "score": 0,
+        "score": 43,
         "top_crime": "other-theft"
       }
     },
@@ -6748,7 +6748,7 @@
           "criminal-damage-arson": 69,
           "public-order": 69
         },
-        "score": 0,
+        "score": 62,
         "top_crime": "violent-crime"
       }
     },
@@ -6772,7 +6772,7 @@
           "drugs": 33,
           "other-crime": 31
         },
-        "score": 0,
+        "score": 87,
         "top_crime": "violent-crime"
       }
     },
@@ -6796,7 +6796,7 @@
           "burglary": 27,
           "other-crime": 25
         },
-        "score": 0,
+        "score": 86,
         "top_crime": "violent-crime"
       }
     },
@@ -6820,7 +6820,7 @@
           "robbery": 51,
           "drugs": 49
         },
-        "score": 0,
+        "score": 54,
         "top_crime": "violent-crime"
       }
     },
@@ -6835,7 +6835,7 @@
         "types": {
           "violent-crime": 2
         },
-        "score": 99,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -6859,7 +6859,7 @@
           "burglary": 31,
           "bicycle-theft": 25
         },
-        "score": 0,
+        "score": 89,
         "top_crime": "violent-crime"
       }
     },
@@ -6883,7 +6883,7 @@
           "burglary": 129,
           "vehicle-crime": 102
         },
-        "score": 0,
+        "score": 8,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6907,7 +6907,7 @@
           "burglary": 122,
           "vehicle-crime": 104
         },
-        "score": 0,
+        "score": 25,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6931,7 +6931,7 @@
           "burglary": 128,
           "criminal-damage-arson": 81
         },
-        "score": 0,
+        "score": 15,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6955,7 +6955,7 @@
           "vehicle-crime": 110,
           "burglary": 96
         },
-        "score": 0,
+        "score": 33,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -6979,7 +6979,7 @@
           "burglary": 116,
           "vehicle-crime": 94
         },
-        "score": 0,
+        "score": 18,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7003,7 +7003,7 @@
           "burglary": 124,
           "vehicle-crime": 88
         },
-        "score": 0,
+        "score": 15,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7027,7 +7027,7 @@
           "criminal-damage-arson": 55,
           "drugs": 53
         },
-        "score": 0,
+        "score": 83,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7051,7 +7051,7 @@
           "burglary": 78,
           "vehicle-crime": 76
         },
-        "score": 0,
+        "score": 46,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7075,7 +7075,7 @@
           "robbery": 58,
           "burglary": 52
         },
-        "score": 0,
+        "score": 57,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7099,7 +7099,7 @@
           "burglary": 52,
           "robbery": 50
         },
-        "score": 0,
+        "score": 69,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7123,7 +7123,7 @@
           "public-order": 67,
           "criminal-damage-arson": 60
         },
-        "score": 0,
+        "score": 61,
         "top_crime": "violent-crime"
       }
     },
@@ -7147,7 +7147,7 @@
           "public-order": 71,
           "burglary": 66
         },
-        "score": 0,
+        "score": 66,
         "top_crime": "violent-crime"
       }
     },
@@ -7171,7 +7171,7 @@
           "burglary": 49,
           "theft-from-the-person": 32
         },
-        "score": 0,
+        "score": 66,
         "top_crime": "violent-crime"
       }
     },
@@ -7195,7 +7195,7 @@
           "anti-social-behaviour": 53,
           "possession-of-weapons": 33
         },
-        "score": 0,
+        "score": 64,
         "top_crime": "violent-crime"
       }
     },
@@ -7219,7 +7219,7 @@
           "vehicle-crime": 57,
           "theft-from-the-person": 33
         },
-        "score": 0,
+        "score": 79,
         "top_crime": "violent-crime"
       }
     },
@@ -7243,7 +7243,7 @@
           "theft-from-the-person": 39,
           "vehicle-crime": 37
         },
-        "score": 0,
+        "score": 80,
         "top_crime": "violent-crime"
       }
     },
@@ -7267,7 +7267,7 @@
           "vehicle-crime": 44,
           "theft-from-the-person": 39
         },
-        "score": 0,
+        "score": 76,
         "top_crime": "violent-crime"
       }
     },
@@ -7291,7 +7291,7 @@
           "vehicle-crime": 12,
           "possession-of-weapons": 6
         },
-        "score": 54,
+        "score": 98,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7315,7 +7315,7 @@
           "vehicle-crime": 8,
           "possession-of-weapons": 7
         },
-        "score": 52,
+        "score": 97,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7339,7 +7339,7 @@
           "robbery": 55,
           "drugs": 46
         },
-        "score": 0,
+        "score": 53,
         "top_crime": "violent-crime"
       }
     },
@@ -7363,7 +7363,7 @@
           "robbery": 58,
           "drugs": 41
         },
-        "score": 0,
+        "score": 51,
         "top_crime": "violent-crime"
       }
     },
@@ -7387,7 +7387,7 @@
           "drugs": 38,
           "bicycle-theft": 24
         },
-        "score": 0,
+        "score": 89,
         "top_crime": "violent-crime"
       }
     },
@@ -7411,7 +7411,7 @@
           "vehicle-crime": 32,
           "robbery": 24
         },
-        "score": 0,
+        "score": 67,
         "top_crime": "violent-crime"
       }
     },
@@ -7435,7 +7435,7 @@
           "burglary": 34,
           "other-crime": 23
         },
-        "score": 0,
+        "score": 87,
         "top_crime": "violent-crime"
       }
     },
@@ -7459,7 +7459,7 @@
           "bicycle-theft": 12,
           "vehicle-crime": 12
         },
-        "score": 39,
+        "score": 94,
         "top_crime": "violent-crime"
       }
     },
@@ -7483,7 +7483,7 @@
           "burglary": 111,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 22,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7507,7 +7507,7 @@
           "burglary": 118,
           "criminal-damage-arson": 73
         },
-        "score": 0,
+        "score": 29,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7531,7 +7531,7 @@
           "burglary": 59,
           "criminal-damage-arson": 55
         },
-        "score": 0,
+        "score": 41,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7555,7 +7555,7 @@
           "vehicle-crime": 79,
           "burglary": 64
         },
-        "score": 0,
+        "score": 40,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7579,7 +7579,7 @@
           "burglary": 120,
           "vehicle-crime": 76
         },
-        "score": 0,
+        "score": 35,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -7603,7 +7603,7 @@
           "vehicle-crime": 74,
           "criminal-damage-arson": 60
         },
-        "score": 0,
+        "score": 49,
         "top_crime": "violent-crime"
       }
     },
@@ -7627,7 +7627,7 @@
           "bicycle-theft": 76,
           "robbery": 69
         },
-        "score": 0,
+        "score": 44,
         "top_crime": "violent-crime"
       }
     },
@@ -7651,7 +7651,7 @@
           "vehicle-crime": 57,
           "bicycle-theft": 51
         },
-        "score": 0,
+        "score": 48,
         "top_crime": "violent-crime"
       }
     },
@@ -7675,7 +7675,7 @@
           "bicycle-theft": 60,
           "robbery": 60
         },
-        "score": 0,
+        "score": 51,
         "top_crime": "violent-crime"
       }
     },
@@ -7699,7 +7699,7 @@
           "vehicle-crime": 76,
           "robbery": 56
         },
-        "score": 0,
+        "score": 66,
         "top_crime": "violent-crime"
       }
     },
@@ -7723,7 +7723,7 @@
           "bicycle-theft": 64,
           "robbery": 61
         },
-        "score": 0,
+        "score": 46,
         "top_crime": "violent-crime"
       }
     },
@@ -7747,7 +7747,7 @@
           "bicycle-theft": 76,
           "robbery": 64
         },
-        "score": 0,
+        "score": 43,
         "top_crime": "other-theft"
       }
     },
@@ -7771,7 +7771,7 @@
           "burglary": 46,
           "robbery": 43
         },
-        "score": 0,
+        "score": 69,
         "top_crime": "violent-crime"
       }
     },
@@ -7795,7 +7795,7 @@
           "burglary": 53,
           "robbery": 49
         },
-        "score": 0,
+        "score": 61,
         "top_crime": "violent-crime"
       }
     },
@@ -7819,7 +7819,7 @@
           "shoplifting": 35,
           "burglary": 34
         },
-        "score": 0,
+        "score": 89,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -7843,7 +7843,7 @@
           "burglary": 43,
           "theft-from-the-person": 39
         },
-        "score": 0,
+        "score": 81,
         "top_crime": "violent-crime"
       }
     },
@@ -7867,7 +7867,7 @@
           "anti-social-behaviour": 43,
           "possession-of-weapons": 32
         },
-        "score": 0,
+        "score": 70,
         "top_crime": "violent-crime"
       }
     },
@@ -7891,7 +7891,7 @@
           "burglary": 38,
           "possession-of-weapons": 30
         },
-        "score": 0,
+        "score": 84,
         "top_crime": "violent-crime"
       }
     },
@@ -7915,7 +7915,7 @@
           "theft-from-the-person": 38,
           "vehicle-crime": 35
         },
-        "score": 0,
+        "score": 72,
         "top_crime": "violent-crime"
       }
     },
@@ -7939,7 +7939,7 @@
           "vehicle-crime": 39,
           "theft-from-the-person": 38
         },
-        "score": 0,
+        "score": 75,
         "top_crime": "violent-crime"
       }
     },
@@ -7963,7 +7963,7 @@
           "vehicle-crime": 38,
           "theft-from-the-person": 37
         },
-        "score": 0,
+        "score": 74,
         "top_crime": "violent-crime"
       }
     },
@@ -7987,7 +7987,7 @@
           "robbery": 44,
           "theft-from-the-person": 42
         },
-        "score": 0,
+        "score": 65,
         "top_crime": "violent-crime"
       }
     },
@@ -8011,7 +8011,7 @@
           "burglary": 33,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 62,
         "top_crime": "violent-crime"
       }
     },
@@ -8035,7 +8035,7 @@
           "burglary": 32,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 69,
         "top_crime": "violent-crime"
       }
     },
@@ -8059,7 +8059,7 @@
           "burglary": 34,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 59,
         "top_crime": "violent-crime"
       }
     },
@@ -8083,7 +8083,7 @@
           "burglary": 33,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 60,
         "top_crime": "violent-crime"
       }
     },
@@ -8107,7 +8107,7 @@
           "burglary": 35,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 57,
         "top_crime": "violent-crime"
       }
     },
@@ -8131,7 +8131,7 @@
           "theft-from-the-person": 31,
           "vehicle-crime": 29
         },
-        "score": 0,
+        "score": 56,
         "top_crime": "violent-crime"
       }
     },
@@ -8155,7 +8155,7 @@
           "theft-from-the-person": 28,
           "vehicle-crime": 28
         },
-        "score": 0,
+        "score": 76,
         "top_crime": "violent-crime"
       }
     },
@@ -8179,7 +8179,7 @@
           "vehicle-crime": 8,
           "possession-of-weapons": 6
         },
-        "score": 52,
+        "score": 97,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -8203,7 +8203,7 @@
           "burglary": 25,
           "other-crime": 25
         },
-        "score": 0,
+        "score": 86,
         "top_crime": "violent-crime"
       }
     },
@@ -8227,7 +8227,7 @@
           "burglary": 26,
           "other-crime": 26
         },
-        "score": 0,
+        "score": 84,
         "top_crime": "violent-crime"
       }
     },
@@ -8251,7 +8251,7 @@
           "theft-from-the-person": 17,
           "burglary": 14
         },
-        "score": 52,
+        "score": 96,
         "top_crime": "violent-crime"
       }
     },
@@ -8275,7 +8275,7 @@
           "drugs": 50,
           "criminal-damage-arson": 47
         },
-        "score": 0,
+        "score": 54,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8299,7 +8299,7 @@
           "burglary": 113,
           "criminal-damage-arson": 70
         },
-        "score": 0,
+        "score": 30,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8323,7 +8323,7 @@
           "burglary": 119,
           "criminal-damage-arson": 79
         },
-        "score": 0,
+        "score": 30,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8347,7 +8347,7 @@
           "burglary": 114,
           "criminal-damage-arson": 72
         },
-        "score": 0,
+        "score": 19,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8371,7 +8371,7 @@
           "burglary": 119,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 28,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8395,7 +8395,7 @@
           "burglary": 110,
           "criminal-damage-arson": 71
         },
-        "score": 0,
+        "score": 24,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8419,7 +8419,7 @@
           "burglary": 118,
           "vehicle-crime": 97
         },
-        "score": 0,
+        "score": 20,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8443,7 +8443,7 @@
           "burglary": 119,
           "criminal-damage-arson": 83
         },
-        "score": 0,
+        "score": 23,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8467,7 +8467,7 @@
           "burglary": 115,
           "vehicle-crime": 99
         },
-        "score": 0,
+        "score": 2,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8491,7 +8491,7 @@
           "burglary": 113,
           "vehicle-crime": 88
         },
-        "score": 0,
+        "score": 5,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8515,7 +8515,7 @@
           "vehicle-crime": 108,
           "burglary": 107
         },
-        "score": 0,
+        "score": 29,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8539,7 +8539,7 @@
           "burglary": 114,
           "vehicle-crime": 83
         },
-        "score": 0,
+        "score": 7,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8563,7 +8563,7 @@
           "burglary": 123,
           "vehicle-crime": 103
         },
-        "score": 0,
+        "score": 12,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -8587,7 +8587,7 @@
           "shoplifting": 81,
           "robbery": 61
         },
-        "score": 0,
+        "score": 55,
         "top_crime": "violent-crime"
       }
     },
@@ -8611,7 +8611,7 @@
           "criminal-damage-arson": 67,
           "public-order": 61
         },
-        "score": 0,
+        "score": 70,
         "top_crime": "violent-crime"
       }
     },
@@ -8635,7 +8635,7 @@
           "theft-from-the-person": 39,
           "robbery": 38
         },
-        "score": 0,
+        "score": 79,
         "top_crime": "violent-crime"
       }
     },
@@ -8659,7 +8659,7 @@
           "theft-from-the-person": 38,
           "burglary": 37
         },
-        "score": 0,
+        "score": 81,
         "top_crime": "violent-crime"
       }
     },
@@ -8683,7 +8683,7 @@
           "anti-social-behaviour": 54,
           "possession-of-weapons": 34
         },
-        "score": 0,
+        "score": 65,
         "top_crime": "violent-crime"
       }
     },
@@ -8707,7 +8707,7 @@
           "burglary": 56,
           "possession-of-weapons": 37
         },
-        "score": 0,
+        "score": 57,
         "top_crime": "violent-crime"
       }
     },
@@ -8731,7 +8731,7 @@
           "burglary": 57,
           "possession-of-weapons": 38
         },
-        "score": 0,
+        "score": 56,
         "top_crime": "violent-crime"
       }
     },
@@ -8755,7 +8755,7 @@
           "burglary": 52,
           "possession-of-weapons": 34
         },
-        "score": 0,
+        "score": 59,
         "top_crime": "violent-crime"
       }
     },
@@ -8779,7 +8779,7 @@
           "burglary": 36,
           "possession-of-weapons": 33
         },
-        "score": 0,
+        "score": 82,
         "top_crime": "violent-crime"
       }
     },
@@ -8803,7 +8803,7 @@
           "possession-of-weapons": 24,
           "burglary": 22
         },
-        "score": 6,
+        "score": 91,
         "top_crime": "violent-crime"
       }
     },
@@ -8827,7 +8827,7 @@
           "vehicle-crime": 51,
           "theft-from-the-person": 39
         },
-        "score": 0,
+        "score": 74,
         "top_crime": "violent-crime"
       }
     },
@@ -8851,7 +8851,7 @@
           "burglary": 34,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 60,
         "top_crime": "violent-crime"
       }
     },
@@ -8875,7 +8875,7 @@
           "burglary": 27,
           "other-crime": 21
         },
-        "score": 18,
+        "score": 92,
         "top_crime": "violent-crime"
       }
     },
@@ -8899,7 +8899,7 @@
           "robbery": 37,
           "burglary": 29
         },
-        "score": 0,
+        "score": 77,
         "top_crime": "violent-crime"
       }
     },
@@ -8923,7 +8923,7 @@
           "burglary": 42,
           "robbery": 38
         },
-        "score": 0,
+        "score": 59,
         "top_crime": "violent-crime"
       }
     },
@@ -8947,7 +8947,7 @@
           "other-crime": 22,
           "drugs": 19
         },
-        "score": 24,
+        "score": 93,
         "top_crime": "violent-crime"
       }
     },
@@ -8962,7 +8962,7 @@
         "types": {
           "violent-crime": 2
         },
-        "score": 99,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -8977,7 +8977,7 @@
         "types": {
           "violent-crime": 2
         },
-        "score": 99,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -9001,7 +9001,7 @@
           "vehicle-crime": 30,
           "robbery": 25
         },
-        "score": 0,
+        "score": 65,
         "top_crime": "violent-crime"
       }
     },
@@ -9025,7 +9025,7 @@
           "other-crime": 20,
           "bicycle-theft": 19
         },
-        "score": 27,
+        "score": 93,
         "top_crime": "violent-crime"
       }
     },
@@ -9049,7 +9049,7 @@
           "burglary": 22,
           "theft-from-the-person": 17
         },
-        "score": 4,
+        "score": 90,
         "top_crime": "violent-crime"
       }
     },
@@ -9073,7 +9073,7 @@
           "criminal-damage-arson": 59,
           "burglary": 58
         },
-        "score": 0,
+        "score": 46,
         "top_crime": "violent-crime"
       }
     },
@@ -9097,7 +9097,7 @@
           "burglary": 123,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 19,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -9121,7 +9121,7 @@
           "burglary": 76,
           "criminal-damage-arson": 60
         },
-        "score": 0,
+        "score": 37,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -9145,7 +9145,7 @@
           "burglary": 62,
           "criminal-damage-arson": 56
         },
-        "score": 0,
+        "score": 41,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -9169,7 +9169,7 @@
           "drugs": 80,
           "robbery": 75
         },
-        "score": 0,
+        "score": 42,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -9193,7 +9193,7 @@
           "burglary": 121,
           "criminal-damage-arson": 83
         },
-        "score": 0,
+        "score": 30,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -9217,7 +9217,7 @@
           "burglary": 58,
           "criminal-damage-arson": 57
         },
-        "score": 0,
+        "score": 68,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -9241,7 +9241,7 @@
           "burglary": 51,
           "drugs": 49
         },
-        "score": 0,
+        "score": 87,
         "top_crime": "violent-crime"
       }
     },
@@ -9265,7 +9265,7 @@
           "bicycle-theft": 71,
           "criminal-damage-arson": 70
         },
-        "score": 0,
+        "score": 45,
         "top_crime": "violent-crime"
       }
     },
@@ -9289,7 +9289,7 @@
           "bicycle-theft": 76,
           "criminal-damage-arson": 63
         },
-        "score": 0,
+        "score": 43,
         "top_crime": "violent-crime"
       }
     },
@@ -9313,7 +9313,7 @@
           "shoplifting": 84,
           "robbery": 62
         },
-        "score": 0,
+        "score": 54,
         "top_crime": "violent-crime"
       }
     },
@@ -9337,7 +9337,7 @@
           "vehicle-crime": 87,
           "robbery": 65
         },
-        "score": 0,
+        "score": 51,
         "top_crime": "violent-crime"
       }
     },
@@ -9361,7 +9361,7 @@
           "bicycle-theft": 78,
           "vehicle-crime": 63
         },
-        "score": 0,
+        "score": 47,
         "top_crime": "violent-crime"
       }
     },
@@ -9385,7 +9385,7 @@
           "bicycle-theft": 82,
           "robbery": 64
         },
-        "score": 0,
+        "score": 43,
         "top_crime": "violent-crime"
       }
     },
@@ -9409,7 +9409,7 @@
           "bicycle-theft": 74,
           "robbery": 69
         },
-        "score": 0,
+        "score": 45,
         "top_crime": "violent-crime"
       }
     },
@@ -9433,7 +9433,7 @@
           "burglary": 61,
           "public-order": 61
         },
-        "score": 0,
+        "score": 78,
         "top_crime": "violent-crime"
       }
     },
@@ -9457,7 +9457,7 @@
           "public-order": 42,
           "burglary": 34
         },
-        "score": 14,
+        "score": 92,
         "top_crime": "violent-crime"
       }
     },
@@ -9481,7 +9481,7 @@
           "public-order": 45,
           "burglary": 40
         },
-        "score": 1,
+        "score": 90,
         "top_crime": "violent-crime"
       }
     },
@@ -9505,7 +9505,7 @@
           "burglary": 45,
           "robbery": 35
         },
-        "score": 0,
+        "score": 73,
         "top_crime": "violent-crime"
       }
     },
@@ -9529,7 +9529,7 @@
           "burglary": 43,
           "criminal-damage-arson": 43
         },
-        "score": 0,
+        "score": 69,
         "top_crime": "violent-crime"
       }
     },
@@ -9553,7 +9553,7 @@
           "burglary": 44,
           "robbery": 42
         },
-        "score": 0,
+        "score": 70,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -9577,7 +9577,7 @@
           "possession-of-weapons": 14,
           "other-crime": 13
         },
-        "score": 48,
+        "score": 95,
         "top_crime": "violent-crime"
       }
     },
@@ -9601,7 +9601,7 @@
           "burglary": 40,
           "possession-of-weapons": 30
         },
-        "score": 0,
+        "score": 81,
         "top_crime": "violent-crime"
       }
     },
@@ -9625,7 +9625,7 @@
           "burglary": 54,
           "possession-of-weapons": 35
         },
-        "score": 0,
+        "score": 58,
         "top_crime": "violent-crime"
       }
     },
@@ -9649,7 +9649,7 @@
           "burglary": 52,
           "possession-of-weapons": 38
         },
-        "score": 0,
+        "score": 66,
         "top_crime": "violent-crime"
       }
     },
@@ -9673,7 +9673,7 @@
           "burglary": 33,
           "theft-from-the-person": 30
         },
-        "score": 0,
+        "score": 64,
         "top_crime": "violent-crime"
       }
     },
@@ -9697,7 +9697,7 @@
           "theft-from-the-person": 29,
           "vehicle-crime": 25
         },
-        "score": 0,
+        "score": 69,
         "top_crime": "violent-crime"
       }
     },
@@ -9721,7 +9721,7 @@
           "burglary": 32,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 70,
         "top_crime": "violent-crime"
       }
     },
@@ -9745,7 +9745,7 @@
           "burglary": 31,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 67,
         "top_crime": "violent-crime"
       }
     },
@@ -9769,7 +9769,7 @@
           "possession-of-weapons": 8,
           "vehicle-crime": 7
         },
-        "score": 51,
+        "score": 95,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -9793,7 +9793,7 @@
           "possession-of-weapons": 8,
           "vehicle-crime": 7
         },
-        "score": 51,
+        "score": 95,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -9817,7 +9817,7 @@
           "burglary": 32,
           "other-crime": 23
         },
-        "score": 0,
+        "score": 86,
         "top_crime": "violent-crime"
       }
     },
@@ -9841,7 +9841,7 @@
           "robbery": 50,
           "drugs": 46
         },
-        "score": 0,
+        "score": 64,
         "top_crime": "violent-crime"
       }
     },
@@ -9865,7 +9865,7 @@
           "robbery": 56,
           "drugs": 44
         },
-        "score": 0,
+        "score": 50,
         "top_crime": "violent-crime"
       }
     },
@@ -9889,7 +9889,7 @@
           "vehicle-crime": 33,
           "robbery": 25
         },
-        "score": 0,
+        "score": 59,
         "top_crime": "violent-crime"
       }
     },
@@ -9913,7 +9913,7 @@
           "robbery": 27,
           "drugs": 25
         },
-        "score": 17,
+        "score": 92,
         "top_crime": "violent-crime"
       }
     },
@@ -9937,7 +9937,7 @@
           "vehicle-crime": 18,
           "other-crime": 13
         },
-        "score": 53,
+        "score": 97,
         "top_crime": "violent-crime"
       }
     },
@@ -9961,7 +9961,7 @@
           "robbery": 9,
           "other-crime": 6
         },
-        "score": 55,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -9985,7 +9985,7 @@
           "burglary": 110,
           "criminal-damage-arson": 73
         },
-        "score": 0,
+        "score": 23,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10009,7 +10009,7 @@
           "burglary": 110,
           "vehicle-crime": 82
         },
-        "score": 0,
+        "score": 3,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10033,7 +10033,7 @@
           "burglary": 115,
           "vehicle-crime": 96
         },
-        "score": 0,
+        "score": 2,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10057,7 +10057,7 @@
           "burglary": 115,
           "criminal-damage-arson": 75
         },
-        "score": 0,
+        "score": 28,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10081,7 +10081,7 @@
           "burglary": 114,
           "vehicle-crime": 86
         },
-        "score": 0,
+        "score": 11,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10105,7 +10105,7 @@
           "burglary": 113,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 27,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10129,7 +10129,7 @@
           "burglary": 68,
           "criminal-damage-arson": 60
         },
-        "score": 0,
+        "score": 38,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10153,7 +10153,7 @@
           "burglary": 122,
           "vehicle-crime": 108
         },
-        "score": 0,
+        "score": 15,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10177,7 +10177,7 @@
           "burglary": 114,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 31,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10201,7 +10201,7 @@
           "burglary": 116,
           "vehicle-crime": 93
         },
-        "score": 0,
+        "score": 14,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10225,7 +10225,7 @@
           "burglary": 113,
           "vehicle-crime": 85
         },
-        "score": 0,
+        "score": 8,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10249,7 +10249,7 @@
           "burglary": 107,
           "criminal-damage-arson": 70
         },
-        "score": 0,
+        "score": 35,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10273,7 +10273,7 @@
           "drugs": 56,
           "criminal-damage-arson": 53
         },
-        "score": 0,
+        "score": 52,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10297,7 +10297,7 @@
           "burglary": 128,
           "vehicle-crime": 101
         },
-        "score": 0,
+        "score": 1,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10321,7 +10321,7 @@
           "burglary": 126,
           "vehicle-crime": 97
         },
-        "score": 0,
+        "score": 10,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10345,7 +10345,7 @@
           "burglary": 115,
           "criminal-damage-arson": 73
         },
-        "score": 0,
+        "score": 22,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10369,7 +10369,7 @@
           "vehicle-crime": 116,
           "burglary": 85
         },
-        "score": 0,
+        "score": 36,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10393,7 +10393,7 @@
           "burglary": 114,
           "vehicle-crime": 99
         },
-        "score": 0,
+        "score": 24,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10417,7 +10417,7 @@
           "burglary": 115,
           "vehicle-crime": 95
         },
-        "score": 0,
+        "score": 21,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10441,7 +10441,7 @@
           "burglary": 116,
           "vehicle-crime": 90
         },
-        "score": 0,
+        "score": 7,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10465,7 +10465,7 @@
           "drugs": 109,
           "criminal-damage-arson": 67
         },
-        "score": 0,
+        "score": 37,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10489,7 +10489,7 @@
           "burglary": 122,
           "vehicle-crime": 110
         },
-        "score": 0,
+        "score": 28,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -10513,7 +10513,7 @@
           "robbery": 65,
           "criminal-damage-arson": 63
         },
-        "score": 0,
+        "score": 53,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -10537,7 +10537,7 @@
           "robbery": 80,
           "burglary": 63
         },
-        "score": 0,
+        "score": 48,
         "top_crime": "violent-crime"
       }
     },
@@ -10561,7 +10561,7 @@
           "robbery": 60,
           "burglary": 53
         },
-        "score": 0,
+        "score": 56,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -10585,7 +10585,7 @@
           "vehicle-crime": 60,
           "criminal-damage-arson": 58
         },
-        "score": 0,
+        "score": 53,
         "top_crime": "violent-crime"
       }
     },
@@ -10609,7 +10609,7 @@
           "criminal-damage-arson": 57,
           "vehicle-crime": 56
         },
-        "score": 0,
+        "score": 52,
         "top_crime": "violent-crime"
       }
     },
@@ -10633,7 +10633,7 @@
           "bicycle-theft": 82,
           "robbery": 61
         },
-        "score": 0,
+        "score": 45,
         "top_crime": "violent-crime"
       }
     },
@@ -10657,7 +10657,7 @@
           "public-order": 63,
           "burglary": 58
         },
-        "score": 0,
+        "score": 80,
         "top_crime": "violent-crime"
       }
     },
@@ -10681,7 +10681,7 @@
           "burglary": 49,
           "criminal-damage-arson": 47
         },
-        "score": 0,
+        "score": 79,
         "top_crime": "violent-crime"
       }
     },
@@ -10705,7 +10705,7 @@
           "burglary": 41,
           "robbery": 38
         },
-        "score": 0,
+        "score": 76,
         "top_crime": "violent-crime"
       }
     },
@@ -10729,7 +10729,7 @@
           "theft-from-the-person": 35,
           "robbery": 33
         },
-        "score": 6,
+        "score": 91,
         "top_crime": "violent-crime"
       }
     },
@@ -10753,7 +10753,7 @@
           "robbery": 36,
           "burglary": 35
         },
-        "score": 0,
+        "score": 84,
         "top_crime": "violent-crime"
       }
     },
@@ -10777,7 +10777,7 @@
           "burglary": 37,
           "robbery": 36
         },
-        "score": 0,
+        "score": 84,
         "top_crime": "violent-crime"
       }
     },
@@ -10801,7 +10801,7 @@
           "robbery": 40,
           "burglary": 39
         },
-        "score": 0,
+        "score": 82,
         "top_crime": "violent-crime"
       }
     },
@@ -10825,7 +10825,7 @@
           "burglary": 38,
           "theft-from-the-person": 30
         },
-        "score": 0,
+        "score": 85,
         "top_crime": "violent-crime"
       }
     },
@@ -10849,7 +10849,7 @@
           "anti-social-behaviour": 56,
           "possession-of-weapons": 36
         },
-        "score": 0,
+        "score": 61,
         "top_crime": "violent-crime"
       }
     },
@@ -10873,7 +10873,7 @@
           "burglary": 50,
           "theft-from-the-person": 31
         },
-        "score": 0,
+        "score": 67,
         "top_crime": "violent-crime"
       }
     },
@@ -10897,7 +10897,7 @@
           "burglary": 53,
           "possession-of-weapons": 36
         },
-        "score": 0,
+        "score": 62,
         "top_crime": "violent-crime"
       }
     },
@@ -10921,7 +10921,7 @@
           "burglary": 38,
           "possession-of-weapons": 29
         },
-        "score": 0,
+        "score": 81,
         "top_crime": "violent-crime"
       }
     },
@@ -10945,7 +10945,7 @@
           "burglary": 44,
           "possession-of-weapons": 31
         },
-        "score": 0,
+        "score": 71,
         "top_crime": "violent-crime"
       }
     },
@@ -10969,7 +10969,7 @@
           "burglary": 40,
           "possession-of-weapons": 27
         },
-        "score": 0,
+        "score": 82,
         "top_crime": "violent-crime"
       }
     },
@@ -10993,7 +10993,7 @@
           "burglary": 33,
           "theft-from-the-person": 23
         },
-        "score": 0,
+        "score": 87,
         "top_crime": "violent-crime"
       }
     },
@@ -11017,7 +11017,7 @@
           "anti-social-behaviour": 52,
           "robbery": 33
         },
-        "score": 0,
+        "score": 65,
         "top_crime": "violent-crime"
       }
     },
@@ -11041,7 +11041,7 @@
           "burglary": 31,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 78,
         "top_crime": "violent-crime"
       }
     },
@@ -11065,7 +11065,7 @@
           "burglary": 31,
           "theft-from-the-person": 29
         },
-        "score": 0,
+        "score": 71,
         "top_crime": "violent-crime"
       }
     },
@@ -11089,7 +11089,7 @@
           "burglary": 29,
           "other-crime": 25
         },
-        "score": 0,
+        "score": 88,
         "top_crime": "violent-crime"
       }
     },
@@ -11113,7 +11113,7 @@
           "robbery": 55,
           "drugs": 49
         },
-        "score": 0,
+        "score": 51,
         "top_crime": "violent-crime"
       }
     },
@@ -11137,7 +11137,7 @@
           "robbery": 56,
           "drugs": 46
         },
-        "score": 0,
+        "score": 50,
         "top_crime": "violent-crime"
       }
     },
@@ -11161,7 +11161,7 @@
           "robbery": 56,
           "bicycle-theft": 36
         },
-        "score": 0,
+        "score": 53,
         "top_crime": "violent-crime"
       }
     },
@@ -11185,7 +11185,7 @@
           "robbery": 46,
           "burglary": 37
         },
-        "score": 0,
+        "score": 61,
         "top_crime": "violent-crime"
       }
     },
@@ -11209,7 +11209,7 @@
           "drugs": 36,
           "bicycle-theft": 22
         },
-        "score": 6,
+        "score": 91,
         "top_crime": "violent-crime"
       }
     },
@@ -11233,7 +11233,7 @@
           "drugs": 33,
           "bicycle-theft": 27
         },
-        "score": 0,
+        "score": 88,
         "top_crime": "violent-crime"
       }
     },
@@ -11257,7 +11257,7 @@
           "drugs": 30,
           "bicycle-theft": 26
         },
-        "score": 0,
+        "score": 88,
         "top_crime": "violent-crime"
       }
     },
@@ -11272,7 +11272,7 @@
         "types": {
           "violent-crime": 2
         },
-        "score": 99,
+        "score": 98,
         "top_crime": "violent-crime"
       }
     },
@@ -11296,7 +11296,7 @@
           "robbery": 16,
           "burglary": 11
         },
-        "score": 30,
+        "score": 94,
         "top_crime": "violent-crime"
       }
     },
@@ -11320,7 +11320,7 @@
           "theft-from-the-person": 17,
           "vehicle-crime": 15
         },
-        "score": 42,
+        "score": 95,
         "top_crime": "shoplifting"
       }
     },
@@ -11344,7 +11344,7 @@
           "burglary": 76,
           "vehicle-crime": 69
         },
-        "score": 0,
+        "score": 38,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11368,7 +11368,7 @@
           "burglary": 118,
           "criminal-damage-arson": 76
         },
-        "score": 0,
+        "score": 19,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11392,7 +11392,7 @@
           "burglary": 112,
           "vehicle-crime": 84
         },
-        "score": 0,
+        "score": 7,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11416,7 +11416,7 @@
           "burglary": 112,
           "criminal-damage-arson": 69
         },
-        "score": 0,
+        "score": 31,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11440,7 +11440,7 @@
           "burglary": 69,
           "criminal-damage-arson": 58
         },
-        "score": 0,
+        "score": 37,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11464,7 +11464,7 @@
           "vehicle-crime": 111,
           "burglary": 95
         },
-        "score": 0,
+        "score": 34,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11488,7 +11488,7 @@
           "vehicle-crime": 105,
           "burglary": 103
         },
-        "score": 0,
+        "score": 34,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11512,7 +11512,7 @@
           "robbery": 63,
           "burglary": 57
         },
-        "score": 0,
+        "score": 55,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -11536,7 +11536,7 @@
           "drugs": 60,
           "criminal-damage-arson": 50
         },
-        "score": 0,
+        "score": 83,
         "top_crime": "anti-social-behaviour"
       }
     },
@@ -11560,7 +11560,7 @@
           "bicycle-theft": 71,
           "robbery": 66
         },
-        "score": 0,
+        "score": 48,
         "top_crime": "violent-crime"
       }
     },
@@ -11584,7 +11584,7 @@
           "vehicle-crime": 88,
           "bicycle-theft": 68
         },
-        "score": 0,
+        "score": 49,
         "top_crime": "violent-crime"
       }
     },
@@ -11608,7 +11608,7 @@
           "bicycle-theft": 71,
           "robbery": 68
         },
-        "score": 0,
+        "score": 42,
         "top_crime": "other-theft"
       }
     },
@@ -11632,7 +11632,7 @@
           "burglary": 113,
           "vehicle-crime": 80
         },
-        "score": 0,
+        "score": 2,
         "top_crime": "theft-from-the-person"
       }
     },
@@ -11656,7 +11656,7 @@
           "criminal-damage-arson": 38,
           "drugs": 36
         },
-        "score": 0,
+        "score": 86,
         "top_crime": "violent-crime"
       }
     },
@@ -11680,7 +11680,7 @@
           "criminal-damage-arson": 49,
           "drugs": 47
         },
-        "score": 0,
+        "score": 88,
         "top_crime": "anti-social-behaviour"
       }
     }
