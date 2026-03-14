@@ -165,22 +165,24 @@ function setupCompareInput(input, dropdown, setData) {
             </div>
         `).join('');
         
-        dropdown.querySelectorAll('.search-item').forEach(item => {
-            item.addEventListener('mousedown', (e) => {
-                e.preventDefault();
-                input.value = item.dataset.name;
-                setData({
-                    force: item.dataset.force,
-                    nb: item.dataset.nb,
-                    name: item.dataset.name,
-                    score: item.dataset.score
-                });
-                dropdown.classList.remove('active');
-                updateCompareBtn();
-            });
-        });
-        
         dropdown.classList.add('active');
+    });
+    
+    // Event delegation for dropdown clicks
+    dropdown.addEventListener('mousedown', (e) => {
+        const item = e.target.closest('.search-item');
+        if (item) {
+            e.preventDefault();
+            input.value = item.dataset.name;
+            setData({
+                force: item.dataset.force,
+                nb: item.dataset.nb,
+                name: item.dataset.name,
+                score: item.dataset.score
+            });
+            dropdown.classList.remove('active');
+            updateCompareBtn();
+        }
     });
     
     input.addEventListener('blur', () => setTimeout(() => dropdown.classList.remove('active'), 200));
