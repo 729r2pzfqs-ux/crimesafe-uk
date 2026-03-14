@@ -144,15 +144,11 @@ function setupCompareInput(input, dropdown, setData) {
         }
         
         // Filter to only forces with comparison pages + add cities
-        const neighbourhoods = (typeof NEIGHBOURHOODS_SEARCH !== 'undefined' ? NEIGHBOURHOODS_SEARCH : [])
-            .filter(n => n[2] !== null && COMPARE_FORCES.includes(n[3]) && (n[0].toLowerCase().includes(q) || n[1].toLowerCase().includes(q)))
-            .slice(0, 6);
-        
-        const cities = COMPARE_CITIES
-            .filter(c => c[0].toLowerCase().includes(q))
-            .slice(0, 4);
-        
-        const results = [...cities, ...neighbourhoods].slice(0, 8);
+        // Use filtered COMPARE_DATA (759 neighbourhoods with comparison pages)
+        const searchData = typeof COMPARE_DATA !== 'undefined' ? COMPARE_DATA : [];
+        const results = searchData
+            .filter(n => n[0].toLowerCase().indexOf(q) !== -1)
+            .slice(0, 10);
         
         if (!results.length) {
             dropdown.classList.remove('active');
@@ -160,7 +156,7 @@ function setupCompareInput(input, dropdown, setData) {
         }
         
         dropdown.innerHTML = results.map(n => `
-            <div class="search-item" data-force="${n[3]}" data-nb="${n[4]}" data-name="${n[0]}, ${n[1]}" data-score="${n[2]}">
+            <div class="search-item" data-force="${n[3]}" data-nb="${n[4]}" data-name="${n[0]}" data-score="${n[2]}">
                 <div class="search-item-content">
                     <span class="search-item-name">${n[0]}</span>
                     <span class="search-item-meta">${n[1]}</span>
@@ -170,7 +166,8 @@ function setupCompareInput(input, dropdown, setData) {
         `).join('');
         
         dropdown.querySelectorAll('.search-item').forEach(item => {
-            item.addEventListener('click', () => {
+            item.addEventListener('mousedown', (e) => {
+                e.preventDefault();
                 input.value = item.dataset.name;
                 setData({
                     force: item.dataset.force,
