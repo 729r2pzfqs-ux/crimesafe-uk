@@ -148,7 +148,7 @@ function setupCompareInput(input, dropdown, setData) {
         const searchData = typeof COMPARE_DATA !== 'undefined' ? COMPARE_DATA : [];
         const results = searchData
             .filter(n => n[0].toLowerCase().indexOf(q) !== -1)
-            .slice(0, 10);
+            .slice(0, 5);
         
         if (!results.length) {
             dropdown.classList.remove('active');
