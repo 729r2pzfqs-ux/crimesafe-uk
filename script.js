@@ -168,11 +168,12 @@ function setupCompareInput(input, dropdown, setData) {
         dropdown.classList.add('active');
     });
     
-    // Event delegation for dropdown clicks
-    dropdown.addEventListener('mousedown', (e) => {
+    // Event delegation for dropdown clicks (mousedown for desktop, touchend for mobile)
+    function handleSelect(e) {
         const item = e.target.closest('.search-item');
         if (item) {
             e.preventDefault();
+            e.stopPropagation();
             input.value = item.dataset.name;
             setData({
                 force: item.dataset.force,
@@ -181,9 +182,12 @@ function setupCompareInput(input, dropdown, setData) {
                 score: item.dataset.score
             });
             dropdown.classList.remove('active');
+            dropdown.innerHTML = '';
             updateCompareBtn();
         }
-    });
+    }
+    dropdown.addEventListener('mousedown', handleSelect);
+    dropdown.addEventListener('touchend', handleSelect);
     
     input.addEventListener('blur', () => setTimeout(() => dropdown.classList.remove('active'), 200));
 }
