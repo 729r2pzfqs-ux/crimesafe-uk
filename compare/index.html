@@ -190,7 +190,9 @@
             
             btn.addEventListener('click', function() {
                 if (data1 && data2) {
-                    window.location.href = '/compare/' + data1.slug + '-vs-' + data2.slug + '/';
+                    // Sort alphabetically to match existing page URLs
+                    const slugs = [data1.slug, data2.slug].sort();
+                    window.location.href = '/compare/' + slugs[0] + '-vs-' + slugs[1] + '/';
                 }
             });
         }
