@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://crimesafe.uk/"},{"@type":"ListItem","position":2,"name":"Compare","item":"https://crimesafe.uk/compare/"}]}
-    </script>
 </head>
 <body>
     <nav class="nav">
@@ -54,18 +51,18 @@
 
         <div style="display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-4);">
             <div style="position: relative; flex: 1; min-width: 200px;">
-                <input type="text" id="input1" placeholder="First area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
+                <input type="text" id="input1" placeholder="First area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text);">
                 <div id="dropdown1" class="search-dropdown"></div>
             </div>
             <span style="font-weight: 700; color: var(--color-text-muted);">vs</span>
             <div style="position: relative; flex: 1; min-width: 200px;">
-                <input type="text" id="input2" placeholder="Second area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);">
+                <input type="text" id="input2" placeholder="Second area..." autocomplete="off" style="width: 100%; padding: var(--space-3) var(--space-4); border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text);">
                 <div id="dropdown2" class="search-dropdown"></div>
             </div>
             <button id="compareBtn" disabled style="padding: var(--space-3) var(--space-6); background: var(--color-primary); color: white; border-radius: var(--radius-lg); font-weight: 600; cursor: pointer; border: none; opacity: 0.5;">Compare</button>
         </div>
         
-        <p style="text-align: center; color: var(--color-text-muted); margin-bottom: var(--space-8);">Compare UK cities or neighbourhoods in London, Manchester &amp; Birmingham</p>
+        <p style="text-align: center; color: var(--color-text-muted); margin-bottom: var(--space-8);">Compare 759 UK neighbourhoods</p>
 
         <h2 style="font-size: var(--text-xl); margin-bottom: var(--space-4);">Popular Comparisons</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4);">
@@ -96,12 +93,9 @@
         </div>
     </main>
 
-    <script src="/neighbourhoods_search.js"></script>
+    <script src="/compare_search.js"></script>
     <script>
     (function() {
-        // Data structure: [name, district, score, force-slug, neighbourhood-slug]
-        // n[0] = name, n[1] = district, n[2] = score, n[3] = force-slug, n[4] = neighbourhood-slug
-        
         var data1 = null, data2 = null;
         
         function getScoreColor(score) {
@@ -134,20 +128,21 @@
                     
                     if (q.length < 2) {
                         dropdown.classList.remove('active');
+                        dropdown.innerHTML = '';
                         return;
                     }
                     
-                    var searchData = window.SEARCH_DATA || [];
+                    var searchData = window.COMPARE_DATA || [];
                     if (!searchData.length) return;
                     
-                    // Filter and sort alphabetically
+                    // Filter and sort alphabetically - data: [name, district, score, force-slug, neighbourhood-slug]
                     var results = searchData
                         .filter(function(n) { return n[0].toLowerCase().indexOf(q) !== -1; })
-                        .sort(function(a, b) { return a[0].localeCompare(b[0]); })
                         .slice(0, 10);
                     
                     if (!results.length) {
                         dropdown.classList.remove('active');
+                        dropdown.innerHTML = '';
                         return;
                     }
                     
@@ -155,11 +150,11 @@
                         var name = n[0];
                         var district = n[1] || '';
                         var score = n[2];
-                        var slug = n[4]; // neighbourhood-slug
+                        var slug = n[4];
                         var scoreColor = getScoreColor(score);
                         var scoreText = (score !== null && score !== undefined) ? score + '/100' : 'N/A';
                         
-                        return '<div class="search-item" data-name="' + name + '" data-slug="' + slug + '" style="display:flex;justify-content:space-between;align-items:center;">' +
+                        return '<div class="search-item" data-name="' + name + '" data-slug="' + slug + '">' +
                             '<div style="flex:1;">' +
                                 '<div style="font-weight:500;">' + name + '</div>' +
                                 '<div style="font-size:12px;color:var(--color-text-muted);">' + district + '</div>' +
@@ -168,31 +163,36 @@
                         '</div>';
                     }).join('');
                     dropdown.classList.add('active');
-                    
-                    dropdown.querySelectorAll('.search-item').forEach(function(item) {
-                        item.onmousedown = function(e) {
-                            e.preventDefault();
-                            input.value = item.getAttribute('data-name');
-                            setData({name: item.getAttribute('data-name'), slug: item.getAttribute('data-slug')});
-                            dropdown.classList.remove('active');
-                            updateBtn();
-                        };
-                    });
+                });
+                
+                // Use event delegation for clicks
+                dropdown.addEventListener('mousedown', function(e) {
+                    var item = e.target.closest('.search-item');
+                    if (item) {
+                        e.preventDefault();
+                        input.value = item.getAttribute('data-name');
+                        setData({name: item.getAttribute('data-name'), slug: item.getAttribute('data-slug')});
+                        dropdown.classList.remove('active');
+                        dropdown.innerHTML = '';
+                        updateBtn();
+                    }
                 });
                 
                 input.addEventListener('blur', function() {
-                    setTimeout(function() { dropdown.classList.remove('active'); }, 200);
+                    setTimeout(function() { 
+                        dropdown.classList.remove('active'); 
+                    }, 200);
                 });
             }
             
             setup(input1, dropdown1, function(d) { data1 = d; });
             setup(input2, dropdown2, function(d) { data2 = d; });
             
-            btn.onclick = function() {
+            btn.addEventListener('click', function() {
                 if (data1 && data2) {
                     window.location.href = '/compare/' + data1.slug + '-vs-' + data2.slug + '/';
                 }
-            };
+            });
         }
         
         if (document.readyState === 'loading') {
@@ -201,18 +201,18 @@
             init();
         }
         
-        // Theme
+        // Theme toggle
         var toggle = document.getElementById('themeToggle');
         var saved = localStorage.getItem('theme');
         if (saved) document.documentElement.setAttribute('data-theme', saved);
         if (toggle) {
             toggle.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
-            toggle.onclick = function() {
+            toggle.addEventListener('click', function() {
                 var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
                 document.documentElement.setAttribute('data-theme', next);
                 localStorage.setItem('theme', next);
                 toggle.textContent = next === 'dark' ? '☀️' : '🌙';
-            };
+            });
         }
     })();
     </script>
