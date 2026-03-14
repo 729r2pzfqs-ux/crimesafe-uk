@@ -155,8 +155,8 @@ function setupCompareInput(input, dropdown, setData) {
             return;
         }
         
-        dropdown.innerHTML = results.map(n => `
-            <div class="search-item" data-force="${n[3]}" data-nb="${n[4]}" data-name="${n[0]}" data-score="${n[2]}">
+        dropdown.innerHTML = results.map((n, i) => `
+            <div class="search-item" data-force="${n[3]}" data-nb="${n[4]}" data-name="${n[0]}" data-score="${n[2]}" data-idx="${i}">
                 <div class="search-item-content">
                     <span class="search-item-name">${n[0]}</span>
                     <span class="search-item-meta">${n[1]}</span>
@@ -166,28 +166,26 @@ function setupCompareInput(input, dropdown, setData) {
         `).join('');
         
         dropdown.classList.add('active');
+        
+        // Add click handlers to items
+        dropdown.querySelectorAll('.search-item').forEach(item => {
+            item.onclick = function(e) {
+                e.preventDefault();
+                input.value = this.dataset.name;
+                setData({
+                    force: this.dataset.force,
+                    nb: this.dataset.nb,
+                    name: this.dataset.name,
+                    score: this.dataset.score
+                });
+                dropdown.classList.remove('active');
+                dropdown.innerHTML = '';
+                updateCompareBtn();
+            };
+        });
     });
     
-    // Event delegation for dropdown clicks (mousedown for desktop, touchend for mobile)
-    function handleSelect(e) {
-        const item = e.target.closest('.search-item');
-        if (item) {
-            e.preventDefault();
-            e.stopPropagation();
-            input.value = item.dataset.name;
-            setData({
-                force: item.dataset.force,
-                nb: item.dataset.nb,
-                name: item.dataset.name,
-                score: item.dataset.score
-            });
-            dropdown.classList.remove('active');
-            dropdown.innerHTML = '';
-            updateCompareBtn();
-        }
-    }
-    dropdown.addEventListener('mousedown', handleSelect);
-    dropdown.addEventListener('touchend', handleSelect);
+    // Click handling is done via onclick on items (set when creating HTML)
     
     input.addEventListener('blur', () => setTimeout(() => dropdown.classList.remove('active'), 200));
 }
