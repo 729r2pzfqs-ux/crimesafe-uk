@@ -7,10 +7,145 @@ Uses percentile-based scoring for even distribution
 import json
 import os
 import re
+import math
 from generate_site import get_header, get_footer, slugify, CRIME_WEIGHTS
 
 DATA_DIR = "data"
 OUTPUT_DIR = "."
+
+# Global forces lookup for internal links
+forces = {}
+
+# District mapping
+DISTRICT_LOOKUP = {}
+
+# City mapping for neighbourhoods (based on police force areas)
+CITY_MAPPING = {
+    'metropolitan': 'london',
+    'west-midlands': 'birmingham',
+    'greater-manchester': 'manchester',
+    'west-yorkshire': 'leeds',
+    'merseyside': 'liverpool',
+    'south-yorkshire': 'sheffield',
+    'avon-and-somerset': 'bristol',
+    'west-mercia': 'coventry',
+    'northumbria': 'newcastle',
+    'hampshire': 'southampton',
+    'thames-valley': 'oxford',
+    'nottinghamshire': 'nottingham',
+    'leicestershire': 'leicester',
+    'south-wales': 'cardiff',
+    'sussex': 'brighton',
+    'humberside': 'hull',
+}
+
+def haversine_distance(lat1, lon1, lat2, lon2):
+    """Calculate distance between two points in km"""
+    R = 6371
+    lat1, lon1, lat2, lon2 = map(float, [lat1, lon1, lat2, lon2])
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon/2)**2
+    return R * 2 * math.asin(math.sqrt(a))
+
+def find_nearby_neighbourhoods(target_key, all_crime_data, max_distance=10, limit=6):
+    """Find nearby neighbourhoods within max_distance km"""
+    target = all_crime_data.get(target_key)
+    if not target or 'lat' not in target or 'lng' not in target:
+        return []
+    
+    target_lat = float(target['lat'])
+    target_lng = float(target['lng'])
+    
+    nearby = []
+    for key, data in all_crime_data.items():
+        if key == target_key:
+            continue
+        if 'lat' not in data or 'lng' not in data:
+            continue
+        try:
+            dist = haversine_distance(target_lat, target_lng, float(data['lat']), float(data['lng']))
+            if dist <= max_distance:
+                nearby.append((key, data, dist))
+        except:
+            continue
+    
+    nearby.sort(key=lambda x: x[2])
+    return nearby[:limit]
+
+def load_district_mapping():
+    """Load district to neighbourhood mapping"""
+    global DISTRICT_LOOKUP
+    try:
+        with open('data/districts.json', 'r') as f:
+            districts = json.load(f)
+        for d in districts:
+            force_id = d['force_id']
+            district_slug = d['district'].lower().replace(' ', '-')
+            for nb in d.get('neighbourhoods', []):
+                nb_id = nb['id']
+                key = f"{force_id}_{nb_id}"
+                DISTRICT_LOOKUP[key] = {
+                    'district_name': d['district'].title(),
+                    'district_slug': district_slug
+                }
+    except:
+        pass
+
+def build_internal_links_html(nb_name, nearby, district_info, city_slug):
+    """Build the internal links HTML section"""
+    parts = []
+    
+    # Nearby neighbourhoods
+    if nearby and len(nearby) > 0:
+        links = []
+        for key, data, dist in nearby[:6]:
+            nb_n = data.get('neighbourhood_name', key.split('_')[1] if '_' in key else key)
+            f_id = data.get('force_id', key.split('_')[0])
+            force_info = forces.get(f_id, {})
+            force_name_lookup = force_info.get('name', f_id) if force_info else f_id
+            f_slug = slugify(force_name_lookup)
+            nb_s = slugify(nb_n)
+            links.append('<a href="/neighbourhood/' + f_slug + '/' + nb_s + '/" style="color: var(--color-primary);">' + nb_n + '</a>')
+        nearby_html = '<div style="margin-bottom: var(--space-3);"><span style="font-size: var(--text-sm); color: var(--color-text-muted);">Nearby: </span>' + ' · '.join(links) + '</div>'
+        parts.append(nearby_html)
+    
+    # District link
+    if district_info:
+        d_slug = district_info['district_slug']
+        d_name = district_info['district_name']
+        parts.append('<div style="margin-bottom: var(--space-3);"><span style="font-size: var(--text-sm); color: var(--color-text-muted);">District: </span><a href="/district/' + d_slug + '/" style="color: var(--color-primary);">' + d_name + '</a></div>')
+    
+    # City link
+    if city_slug:
+        city_name = city_slug.replace('-', ' ').title()
+        parts.append('<div style="margin-bottom: var(--space-3);"><span style="font-size: var(--text-sm); color: var(--color-text-muted);">City: </span><a href="/city/' + city_slug + '/" style="color: var(--color-primary);">' + city_name + '</a></div>')
+    
+    # Compare links
+    if nearby and len(nearby) >= 2:
+        compare_links = []
+        for key, data, dist in nearby[:3]:
+            nb_n = data.get('neighbourhood_name', key.split('_')[1] if '_' in key else key)
+            nb_s = slugify(nb_n)
+            slug1 = slugify(nb_name)
+            if slug1 < nb_s:
+                compare_url = '/compare/' + slug1 + '-vs-' + nb_s + '/'
+            else:
+                compare_url = '/compare/' + nb_s + '-vs-' + slug1 + '/'
+            compare_links.append('<a href="' + compare_url + '" style="color: var(--color-primary);">vs ' + nb_n + '</a>')
+        parts.append('<div><span style="font-size: var(--text-sm); color: var(--color-text-muted);">Compare: </span>' + ' · '.join(compare_links) + '</div>')
+    else:
+        parts.append('<div><span style="font-size: var(--text-sm); color: var(--color-text-muted);">Compare: </span><a href="/compare/" style="color: var(--color-primary);">Find similar areas</a></div>')
+    
+    if not parts:
+        return ''
+    
+    return '''
+                <div class="kpi-card" style="margin-top: var(--space-6); text-align: left; padding: var(--space-5);">
+                    <h3 style="color: var(--color-primary); margin-bottom: var(--space-4); font-size: var(--text-base);">Explore More</h3>
+                    ''' + '\n                    '.join(parts) + '''
+                </div>
+'''
 
 def get_grade(score):
     if score >= 80: return "A", "Very Safe"
@@ -61,7 +196,7 @@ def calculate_percentile_scores(all_crime_data):
     
     return scores
 
-def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_data=None, safety_score=None, regional_score=None):
+def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_data=None, safety_score=None, regional_score=None, internal_links_html=''):
     """Generate a neighbourhood detail page with full content"""
     
     # Calculate stats - show data even for 0 crimes (safest areas!)
@@ -262,6 +397,8 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                 }}
                 </script>
                 
+                {internal_links_html}
+                
                 <!-- CTA -->
                 <div style="background: linear-gradient(135deg, var(--color-primary), #0f766e); color: white; text-align: center; padding: var(--space-8); border-radius: var(--radius-lg); margin-top: var(--space-6);">
                     <h3 style="margin-bottom: var(--space-2);">Compare {nb_name}</h3>
@@ -306,12 +443,17 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
 
 
 def main():
+    global forces
     print("Loading data...")
     
     # Load forces
     with open(f"{DATA_DIR}/forces.json") as f:
         forces_data = json.load(f)
     forces = {f['id']: f for f in forces_data['forces']}
+    
+    # Load district mapping for internal links
+    load_district_mapping()
+    print(f"Loaded {len(DISTRICT_LOOKUP)} district mappings")
     
     # Load all crime data from neighbourhood_crimes
     all_crime_data = {}
@@ -378,11 +520,17 @@ def main():
         regional_key = f"{force_id}_{crime_data.get('neighbourhood_id', '')}"
         regional_score = regional_scores.get(regional_key)
         
+        # Build internal links
+        nearby = find_nearby_neighbourhoods(key, all_crime_data, max_distance=10, limit=6)
+        district_info = DISTRICT_LOOKUP.get(key)
+        city_slug = CITY_MAPPING.get(force_id)
+        internal_links_html = build_internal_links_html(nb_name, nearby, district_info, city_slug)
+        
         # Generate page
         out_dir = f"{OUTPUT_DIR}/neighbourhood/{force_slug}/{nb_slug}"
         os.makedirs(out_dir, exist_ok=True)
         
-        html = generate_neighbourhood_page(force['name'], force_slug, nb_name, nb_slug, crime_data, safety_score, regional_score)
+        html = generate_neighbourhood_page(force['name'], force_slug, nb_name, nb_slug, crime_data, safety_score, regional_score, internal_links_html)
         with open(f"{out_dir}/index.html", 'w') as f:
             f.write(html)
         
