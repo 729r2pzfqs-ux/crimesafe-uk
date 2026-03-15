@@ -39,6 +39,9 @@ CITY_MAPPING = {
     'humberside': 'hull',
 }
 
+# Forces that have compare pages (London only - Metropolitan Police)
+FORCES_WITH_COMPARE = {'metropolitan'}
+
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate distance between two points in km"""
     R = 6371
@@ -92,7 +95,7 @@ def load_district_mapping():
     except:
         pass
 
-def build_internal_links_html(nb_name, nearby, district_info, city_slug):
+def build_internal_links_html(nb_name, nearby, district_info, city_slug, force_id=None):
     """Build the internal links HTML section"""
     parts = []
     
@@ -121,10 +124,14 @@ def build_internal_links_html(nb_name, nearby, district_info, city_slug):
         city_name = city_slug.replace('-', ' ').title()
         parts.append('<div style="margin-bottom: var(--space-3);"><span style="font-size: var(--text-sm); color: var(--color-text-muted);">City: </span><a href="/city/' + city_slug + '/" style="color: var(--color-primary);">' + city_name + '</a></div>')
     
-    # Compare links
-    if nearby and len(nearby) >= 2:
+    # Compare links - only for London, Birmingham, Manchester (forces with compare pages)
+    if force_id in FORCES_WITH_COMPARE and nearby and len(nearby) >= 2:
         compare_links = []
         for key, data, dist in nearby[:3]:
+            # Only link to comparisons within same force (same city)
+            other_force = data.get('force_id', '')
+            if other_force != force_id:
+                continue
             nb_n = data.get('neighbourhood_name', key.split('_')[1] if '_' in key else key)
             nb_s = slugify(nb_n)
             slug1 = slugify(nb_name)
@@ -133,8 +140,11 @@ def build_internal_links_html(nb_name, nearby, district_info, city_slug):
             else:
                 compare_url = '/compare/' + nb_s + '-vs-' + slug1 + '/'
             compare_links.append('<a href="' + compare_url + '" style="color: var(--color-primary);">vs ' + nb_n + '</a>')
-        parts.append('<div><span style="font-size: var(--text-sm); color: var(--color-text-muted);">Compare: </span>' + ' · '.join(compare_links) + '</div>')
-    else:
+        if compare_links:
+            parts.append('<div><span style="font-size: var(--text-sm); color: var(--color-text-muted);">Compare: </span>' + ' · '.join(compare_links) + '</div>')
+    
+    # For areas without compare pages, just link to general compare page
+    if force_id not in FORCES_WITH_COMPARE:
         parts.append('<div><span style="font-size: var(--text-sm); color: var(--color-text-muted);">Compare: </span><a href="/compare/" style="color: var(--color-primary);">Find similar areas</a></div>')
     
     if not parts:
@@ -524,7 +534,7 @@ def main():
         nearby = find_nearby_neighbourhoods(key, all_crime_data, max_distance=10, limit=6)
         district_info = DISTRICT_LOOKUP.get(key)
         city_slug = CITY_MAPPING.get(force_id)
-        internal_links_html = build_internal_links_html(nb_name, nearby, district_info, city_slug)
+        internal_links_html = build_internal_links_html(nb_name, nearby, district_info, city_slug, force_id)
         
         # Generate page
         out_dir = f"{OUTPUT_DIR}/neighbourhood/{force_slug}/{nb_slug}"
