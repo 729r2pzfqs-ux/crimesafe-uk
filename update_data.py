@@ -107,8 +107,9 @@ def update_month_label(new_date):
     """Update the month label in generators based on new data date"""
     import re
     
-    # Parse date (format: "2026-01")
-    year, month = new_date.split("-")
+    # Parse date (format: "2026-01" or "2026-01-01")
+    parts = new_date.split("-")
+    year, month = parts[0], parts[1]
     month = int(month)
     
     month_names = [
