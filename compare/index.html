@@ -176,23 +176,32 @@
                     dropdown.classList.add('active');
                 });
                 
-                // Use event delegation for clicks
-                dropdown.addEventListener('mousedown', function(e) {
+                // Use event delegation for clicks (pointerdown works on touch + mouse)
+                function handleSelect(e) {
                     var item = e.target.closest('.search-item');
                     if (item) {
                         e.preventDefault();
+                        e.stopPropagation();
                         input.value = item.getAttribute('data-name');
                         setData({name: item.getAttribute('data-name'), slug: item.getAttribute('data-slug')});
                         dropdown.classList.remove('active');
                         dropdown.innerHTML = '';
                         updateBtn();
                     }
+                }
+                dropdown.addEventListener('pointerdown', handleSelect);
+                dropdown.addEventListener('touchend', function(e) {
+                    var item = e.target.closest('.search-item');
+                    if (item) {
+                        e.preventDefault();
+                        handleSelect(e);
+                    }
                 });
                 
                 input.addEventListener('blur', function() {
                     setTimeout(function() { 
                         dropdown.classList.remove('active'); 
-                    }, 200);
+                    }, 300);
                 });
             }
             
