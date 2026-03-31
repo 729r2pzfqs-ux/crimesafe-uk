@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
+    <meta property="og:title" content="Compare Neighbourhoods | CrimeSafe UK">
+    <meta property="og:description" content="Compare crime rates between any two UK neighbourhoods. See safety scores, crime types, and statistics side-by-side.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://crimesafe.uk/compare/">
+    <meta property="og:site_name" content="CrimeSafe UK">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Compare Neighbourhoods | CrimeSafe UK">
+    <meta name="twitter:description" content="Compare crime rates between any two UK neighbourhoods. See safety scores, crime types, and statistics side-by-side.">
 </head>
 <body>
     <nav class="nav">
@@ -29,6 +37,7 @@
                 <a href="/">Home</a>
                 <a href="/streets/">Streets</a>
                 <a href="/forces/">Forces</a>
+                <a href="/postcode/">Postcodes</a>
                 <a href="/city/">Cities</a>
                 <a href="/maps/">Maps</a>
                 <a href="/safest/">Rankings</a>
@@ -137,7 +146,7 @@
                     
                     // Filter and sort alphabetically - data: [name, district, score, force-slug, neighbourhood-slug]
                     var results = searchData
-                        .filter(function(n) { return n[0].toLowerCase().indexOf(q) !== -1; })
+                        .filter(function(n) { return n[0].toLowerCase().indexOf(q) !== -1 || n[1].toLowerCase().indexOf(q) !== -1; })
                         .slice(0, 5);
                     
                     if (!results.length) {
