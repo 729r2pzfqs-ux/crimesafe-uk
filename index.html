@@ -124,39 +124,48 @@
         <section style="padding: var(--space-8) 0;">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">UK Crime Rankings</h2>
+                    <h2 class="section-title">Explore</h2>
                 </div>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-6);">
-                    <a href="/safest/" class="kpi-card" style="text-decoration: none; text-align: center; padding: var(--space-6);">
-                        <div style="margin-bottom: var(--space-2);">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                                <path d="m9 12 2 2 4-4"/>
-                            </svg>
+                    <a href="/streets/" class="kpi-card" style="text-decoration: none; padding: var(--space-6); position: relative; overflow: hidden; border: none; background: linear-gradient(135deg, #01696f 0%, #0a8b93 100%); color: white; border-radius: var(--radius-xl); transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 32px rgba(1,105,111,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-3);">
+                            <div style="background: rgba(255,255,255,0.2); border-radius: var(--radius-lg); padding: var(--space-3); display: flex; align-items: center; justify-content: center;">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                            </div>
+                            <div style="font-size: var(--text-xl); font-weight: 700;">Streets</div>
                         </div>
-                        <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Safest Places</div>
-                        <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Top 100 lowest crime neighbourhoods in the UK</div>
+                        <div style="opacity: 0.9; font-size: var(--text-sm); line-height: 1.5;">Search street-level crime data across the UK</div>
+                        <div style="margin-top: var(--space-4); font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.8;">Explore streets &rarr;</div>
                     </a>
-                    <a href="/dangerous/" class="kpi-card" style="text-decoration: none; text-align: center; padding: var(--space-6);">
-                        <div style="margin-bottom: var(--space-2);">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                                <line x1="12" y1="8" x2="12" y2="12"/>
-                                <line x1="12" y1="16" x2="12.01" y2="16"/>
-                            </svg>
+                    <a href="/maps/" class="kpi-card" style="text-decoration: none; padding: var(--space-6); position: relative; overflow: hidden; border: none; background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; border-radius: var(--radius-xl); transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 32px rgba(30,64,175,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-3);">
+                            <div style="background: rgba(255,255,255,0.2); border-radius: var(--radius-lg); padding: var(--space-3); display: flex; align-items: center; justify-content: center;">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/>
+                                    <line x1="8" y1="2" x2="8" y2="18"/>
+                                    <line x1="16" y1="6" x2="16" y2="22"/>
+                                </svg>
+                            </div>
+                            <div style="font-size: var(--text-xl); font-weight: 700;">Crime Maps</div>
                         </div>
-                        <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Highest Crime Areas</div>
-                        <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Top 100 highest crime neighbourhoods</div>
+                        <div style="opacity: 0.9; font-size: var(--text-sm); line-height: 1.5;">Interactive maps showing crime rates by area</div>
+                        <div style="margin-top: var(--space-4); font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.8;">View maps &rarr;</div>
                     </a>
-                    <a href="/postcode/" class="kpi-card" style="text-decoration: none; text-align: center; padding: var(--space-6);">
-                        <div style="margin-bottom: var(--space-2);">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
+                    <a href="/postcode/" class="kpi-card" style="text-decoration: none; padding: var(--space-6); position: relative; overflow: hidden; border: none; background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%); color: white; border-radius: var(--radius-xl); transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 32px rgba(124,58,237,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+                        <div style="display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-3);">
+                            <div style="background: rgba(255,255,255,0.2); border-radius: var(--radius-lg); padding: var(--space-3); display: flex; align-items: center; justify-content: center;">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div style="font-size: var(--text-xl); font-weight: 700;">Postcode Lookup</div>
                         </div>
-                        <div style="font-size: var(--text-xl); font-weight: 700; color: var(--color-primary);">Postcode Lookup</div>
-                        <div style="color: var(--color-text-muted); margin-top: var(--space-2);">Find crime statistics by UK postcode</div>
+                        <div style="opacity: 0.9; font-size: var(--text-sm); line-height: 1.5;">Find crime statistics by UK postcode</div>
+                        <div style="margin-top: var(--space-4); font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.8;">Search postcodes &rarr;</div>
                     </a>
                 </div>
             </div>
