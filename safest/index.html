@@ -7,8 +7,7 @@
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <!-- GA loaded after cookie consent -->
     <title>Safest Places to Live in the UK 2026 — CrimeSafe UK</title>
     <link rel="canonical" href="https://crimesafe.uk/safest/">
     <meta name="description" content="Top 100 safest neighbourhoods in the UK ranked by crime rate. Find the lowest crime areas to live in England, Wales, and Northern Ireland.">
@@ -906,5 +905,39 @@
         </div>
     </footer>
     <script src="/script.js"></script>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" style="display:none; position:fixed; bottom:0; left:0; right:0; background:var(--surface); border-top:1px solid var(--border); padding:var(--space-4) var(--space-5); z-index:9999; box-shadow:0 -4px 12px rgba(0,0,0,0.1);">
+        <div style="max-width:var(--content-wide); margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); flex-wrap:wrap;">
+            <p style="margin:0; font-size:var(--text-sm); color:var(--color-text-muted); flex:1; min-width:200px;">We use cookies for analytics to improve your experience. No personal data is shared with third parties.</p>
+            <div style="display:flex; gap:var(--space-3);">
+                <button onclick="acceptCookies()" style="background:var(--color-primary); color:white; border:none; padding:var(--space-2) var(--space-5); border-radius:var(--radius-md); cursor:pointer; font-size:var(--text-sm); font-weight:600;">Accept</button>
+                <button onclick="declineCookies()" style="background:transparent; color:var(--color-text-muted); border:1px solid var(--border); padding:var(--space-2) var(--space-5); border-radius:var(--radius-md); cursor:pointer; font-size:var(--text-sm);">Decline</button>
+            </div>
+        </div>
+    </div>
+    <script>
+    function loadGA(){
+        var s=document.createElement('script');
+        s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9';
+        document.head.appendChild(s);
+        window.dataLayer=window.dataLayer||[];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js',new Date());gtag('config','G-CK531DR9X9');
+    }
+    function acceptCookies(){
+        localStorage.setItem('cookie_consent','accepted');
+        document.getElementById('cookieConsent').style.display='none';
+        loadGA();
+    }
+    function declineCookies(){
+        localStorage.setItem('cookie_consent','declined');
+        document.getElementById('cookieConsent').style.display='none';
+    }
+    (function(){
+        var consent=localStorage.getItem('cookie_consent');
+        if(consent==='accepted'){loadGA();}
+        else if(!consent){document.getElementById('cookieConsent').style.display='block';}
+    })();
+    </script>
 </body>
 </html>
