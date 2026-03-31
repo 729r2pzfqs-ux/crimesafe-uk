@@ -147,7 +147,7 @@ function setupCompareInput(input, dropdown, setData) {
         // Use filtered COMPARE_DATA (759 neighbourhoods with comparison pages)
         const searchData = typeof COMPARE_DATA !== 'undefined' ? COMPARE_DATA : [];
         const results = searchData
-            .filter(n => n[0].toLowerCase().indexOf(q) !== -1)
+            .filter(n => n[0].toLowerCase().indexOf(q) !== -1 || n[1].toLowerCase().indexOf(q) !== -1)
             .slice(0, 5);
         
         if (!results.length) {
@@ -167,27 +167,30 @@ function setupCompareInput(input, dropdown, setData) {
         
         dropdown.classList.add('active');
         
-        // Add click handlers to items
+        // Add click/touch handlers to items (pointerdown works on mobile + desktop)
         dropdown.querySelectorAll('.search-item').forEach(item => {
-            item.onclick = function(e) {
+            function handleSelect(e) {
                 e.preventDefault();
-                input.value = this.dataset.name;
+                e.stopPropagation();
+                input.value = item.dataset.name;
                 setData({
-                    force: this.dataset.force,
-                    nb: this.dataset.nb,
-                    name: this.dataset.name,
-                    score: this.dataset.score
+                    force: item.dataset.force,
+                    nb: item.dataset.nb,
+                    name: item.dataset.name,
+                    score: item.dataset.score
                 });
                 dropdown.classList.remove('active');
                 dropdown.innerHTML = '';
                 updateCompareBtn();
-            };
+            }
+            item.addEventListener('pointerdown', handleSelect);
+            item.addEventListener('touchend', function(e) { e.preventDefault(); handleSelect(e); });
         });
     });
     
     // Click handling is done via onclick on items (set when creating HTML)
     
-    input.addEventListener('blur', () => setTimeout(() => dropdown.classList.remove('active'), 200));
+    input.addEventListener('blur', () => setTimeout(() => dropdown.classList.remove('active'), 300));
 }
 
 function updateCompareBtn() {
