@@ -71,6 +71,29 @@
         </nav>
 
         <h1 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">UK Street Crime Statistics</h1>
+        <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">Search crime statistics for streets across the UK. Data sourced from the UK Police API, updated monthly.</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6); padding: var(--space-5); background: var(--color-primary-highlight); border-radius: var(--radius-lg);">
+            <div style="text-align: center;">
+                <div style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-primary);">4,929</div>
+                <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-primary);">44</div>
+                <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Police Forces</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-primary);">14</div>
+                <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Crime Categories</div>
+            </div>
+        </div>
+
+        <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-5); margin-bottom: var(--space-6);">
+            <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-3);">How Street Crime Data Works</h2>
+            <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-3);">Our street-level crime data comes directly from the UK Police API, which aggregates reports from 44 police forces across England, Wales, and Northern Ireland. Each street is assigned a safety score from 0 to 100 based on the volume and severity of reported incidents relative to similar areas.</p>
+            <p style="color: var(--color-text-muted); line-height: 1.7;">Scores above 70 indicate lower-than-average crime rates, while scores below 30 suggest higher crime activity. Use the search below to find specific streets and compare safety across different areas.</p>
+        </div>
+
         <p style="color: var(--color-text-muted); margin-bottom: var(--space-6);">
             Search crime statistics for streets across the UK. Data from UK Police API.
         </p>
