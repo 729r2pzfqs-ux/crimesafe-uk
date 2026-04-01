@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <script>
+    var saved=localStorage.getItem('theme');
+    var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme=saved||(prefersDark?'dark':'light');
+    document.documentElement.setAttribute('data-theme',theme);
+    </script>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -73,5 +79,6 @@
             <p>&copy; 2026 CrimeSafe UK</p>
         </div>
     </footer>
-</body>
+
+    <script src="/script.js"></script></body>
 </html>
