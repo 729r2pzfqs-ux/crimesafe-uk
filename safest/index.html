@@ -26,6 +26,12 @@
     <meta name="twitter:description" content="Rankings of the safest neighbourhoods in the UK based on police crime data.">
 </head>
 <body>
+    <script>
+    var saved=localStorage.getItem('theme');
+    var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme=saved||(prefersDark?'dark':'light');
+    document.documentElement.setAttribute('data-theme',theme);
+    </script>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
