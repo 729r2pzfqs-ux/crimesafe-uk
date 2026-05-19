@@ -1,1 +1,1 @@
-{"neighbourhood_id": "12BL03", "neighbourhood_name": "Basingstoke Rural West", "force_id": "hampshire", "lat": "51.2981", "lng": "-1.26491", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-01", "crime_rate_per_1000": 0.08}
+{"neighbourhood_id": "12BL03", "neighbourhood_name": "Basingstoke Rural West", "force_id": "hampshire", "lat": "51.2981", "lng": "-1.26491", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 1, "other-crime": 1}, "date": "2026-03"}

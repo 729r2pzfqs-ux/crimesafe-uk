@@ -1,1 +1,1 @@
-{"neighbourhood_id": "NB86", "neighbourhood_name": "Shaftesbury", "force_id": "gwent", "lat": "51.6005", "lng": "-3.0007", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-01", "crime_rate_per_1000": 0.17}
+{"neighbourhood_id": "NB86", "neighbourhood_name": "Shaftesbury", "force_id": "gwent", "lat": "51.6005", "lng": "-3.0007", "population": 12098, "total_crimes": 4, "categories": {"shoplifting": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}

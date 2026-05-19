@@ -1,1 +1,1 @@
-{"neighbourhood_id": "ES2NH28", "neighbourhood_name": "Seaford North", "force_id": "sussex", "lat": "50.7889", "lng": "0.122006", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}
+{"neighbourhood_id": "ES2NH28", "neighbourhood_name": "Seaford North", "force_id": "sussex", "lat": "50.7889", "lng": "0.122006", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 11}, "date": "2026-03"}

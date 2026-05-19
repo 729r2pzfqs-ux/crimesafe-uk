@@ -1,1 +1,1 @@
-{"neighbourhood_id": "11TR02", "neighbourhood_name": "Romsey North", "force_id": "hampshire", "lat": "51.0392", "lng": "-1.51464", "population": 12098, "total_crimes": 3, "categories": {"burglary": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-01", "crime_rate_per_1000": 0.25}
+{"neighbourhood_id": "11TR02", "neighbourhood_name": "Romsey North", "force_id": "hampshire", "lat": "51.0392", "lng": "-1.51464", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "other-theft": 1, "other-crime": 3}, "date": "2026-03"}

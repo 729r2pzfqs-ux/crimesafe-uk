@@ -29,7 +29,14 @@ def fetch_json(url, retries=3):
                 return None
     return None
 
-def fetch_force_crimes(force_id, date="2026-01"):
+def get_latest_date():
+    """Get the latest available crime data date from the API"""
+    data = fetch_json(f"{API_BASE}/crime-last-updated")
+    if data and data.get('date'):
+        return data['date'][:7]  # "2026-03-01" -> "2026-03"
+    return "2026-03"
+
+def fetch_force_crimes(force_id, date=None):
     """Fetch all crimes for a force (no location data)"""
     # crimes-no-location gives force-level totals
     url = f"{API_BASE}/crimes-no-location?category=all-crime&force={force_id}&date={date}"
@@ -47,7 +54,7 @@ def fetch_neighbourhood_with_centroid(force_id, neighbourhood_id):
         }
     return None
 
-def fetch_crimes_at_point(lat, lng, date="2026-01"):
+def fetch_crimes_at_point(lat, lng, date=None):
     """Fetch crimes near a point (1 mile radius) - fast!"""
     url = f"{API_BASE}/crimes-street/all-crime?lat={lat}&lng={lng}&date={date}"
     return fetch_json(url)
@@ -56,45 +63,58 @@ def main():
     print("Loading forces data...")
     with open(f"{DATA_DIR}/forces.json") as f:
         forces_data = json.load(f)
-    
+
     os.makedirs(f"{DATA_DIR}/neighbourhood_crimes", exist_ok=True)
-    
+
+    # Get latest date from API
+    latest_date = get_latest_date()
+    print(f"Latest available data: {latest_date}")
+
     total = sum(len(f['neighbourhoods']) for f in forces_data['forces'])
     processed = 0
     success = 0
-    
+    failed = 0
+
     for force in forces_data['forces']:
         force_id = force['id']
         force_name = force['name']
-        
+
         print(f"\n{force_name} ({len(force['neighbourhoods'])} neighbourhoods)...")
-        
+
         for nb in force['neighbourhoods']:
             nb_id = nb['id']
             nb_name = nb['name']
             processed += 1
-            
+
             # Cache file
             cache_file = f"{DATA_DIR}/neighbourhood_crimes/{force_id}_{nb_id}.json"
             if os.path.exists(cache_file):
-                success += 1
-                continue
-            
+                # Check if already has latest date
+                try:
+                    with open(cache_file) as f:
+                        existing = json.load(f)
+                    if existing.get('date') == latest_date:
+                        success += 1
+                        continue
+                except:
+                    pass
+
             # Get neighbourhood centroid
             details = fetch_neighbourhood_with_centroid(force_id, nb_id)
             if not details or not details.get('lat'):
                 print(f"  [{processed}/{total}] {nb_name}: no centroid")
+                failed += 1
                 continue
-            
+
             # Fetch crimes at centroid (1 mile radius)
-            crimes = fetch_crimes_at_point(details['lat'], details['lng'])
-            
+            crimes = fetch_crimes_at_point(details['lat'], details['lng'], date=latest_date)
+
             if crimes is not None:
                 # Aggregate by category
                 counts = defaultdict(int)
                 for crime in crimes:
                     counts[crime.get('category', 'other')] += 1
-                
+
                 result = {
                     "neighbourhood_id": nb_id,
                     "neighbourhood_name": nb_name,
@@ -104,22 +124,25 @@ def main():
                     "population": details.get('population'),
                     "total_crimes": len(crimes),
                     "categories": dict(counts),
-                    "date": "2026-01"
+                    "date": latest_date
                 }
-                
+
                 with open(cache_file, 'w') as f:
                     json.dump(result, f)
-                
+
                 success += 1
-                print(f"  [{processed}/{total}] {nb_name}: {len(crimes)} crimes")
+                if processed % 100 == 0 or processed == total:
+                    print(f"  [{processed}/{total}] {nb_name}: {len(crimes)} crimes")
             else:
                 print(f"  [{processed}/{total}] {nb_name}: fetch failed")
-            
+                failed += 1
+
             time.sleep(0.15)  # Rate limit
-    
+
     print(f"\n{'='*50}")
     print(f"Processed: {processed}/{total}")
     print(f"Success: {success}")
+    print(f"Failed: {failed}")
 
 if __name__ == "__main__":
     main()

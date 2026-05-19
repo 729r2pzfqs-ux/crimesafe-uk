@@ -1,1 +1,1 @@
-{"neighbourhood_id": "EW1NH5", "neighbourhood_name": "Rotherfield", "force_id": "sussex", "lat": "51.0422", "lng": "0.199846", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}
+{"neighbourhood_id": "EW1NH5", "neighbourhood_name": "Rotherfield", "force_id": "sussex", "lat": "51.0422", "lng": "0.199846", "population": 12098, "total_crimes": 17, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 4, "drugs": 2, "other-theft": 1, "public-order": 2, "violent-crime": 5}, "date": "2026-03"}

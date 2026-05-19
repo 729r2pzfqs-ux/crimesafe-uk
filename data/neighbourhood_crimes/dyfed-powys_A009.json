@@ -1,1 +1,1 @@
-{"neighbourhood_id": "A009", "neighbourhood_name": "Whitland", "force_id": "dyfed-powys", "lat": "51.8352", "lng": "-4.64936", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}
+{"neighbourhood_id": "A009", "neighbourhood_name": "Whitland", "force_id": "dyfed-powys", "lat": "51.8352", "lng": "-4.64936", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 1, "other-crime": 1}, "date": "2026-03"}

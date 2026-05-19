@@ -1,1 +1,1 @@
-{"neighbourhood_id": "N382", "neighbourhood_name": "Wantage and Grove", "force_id": "thames-valley", "lat": "51.5848", "lng": "-1.35801", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}
+{"neighbourhood_id": "N382", "neighbourhood_name": "Wantage and Grove", "force_id": "thames-valley", "lat": "51.5848", "lng": "-1.35801", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "public-order": 1, "violent-crime": 1}, "date": "2026-03"}

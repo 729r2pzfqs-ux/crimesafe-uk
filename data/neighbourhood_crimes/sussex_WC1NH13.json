@@ -1,1 +1,1 @@
-{"neighbourhood_id": "WC1NH13", "neighbourhood_name": "Funtington", "force_id": "sussex", "lat": "50.898", "lng": "-0.882236", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}
+{"neighbourhood_id": "WC1NH13", "neighbourhood_name": "Funtington", "force_id": "sussex", "lat": "50.898", "lng": "-0.882236", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}

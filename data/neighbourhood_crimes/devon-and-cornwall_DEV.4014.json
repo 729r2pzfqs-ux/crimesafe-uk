@@ -1,1 +1,1 @@
-{"neighbourhood_id": "DEV.4014", "neighbourhood_name": "Okehampton Rural East", "force_id": "devon-and-cornwall", "lat": "50.7244", "lng": "-3.89055", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-01", "crime_rate_per_1000": 0.0}
+{"neighbourhood_id": "DEV.4014", "neighbourhood_name": "Okehampton Rural East", "force_id": "devon-and-cornwall", "lat": "50.7244", "lng": "-3.89055", "population": 12098, "total_crimes": 3, "categories": {"drugs": 1, "theft-from-the-person": 1, "violent-crime": 1}, "date": "2026-03"}

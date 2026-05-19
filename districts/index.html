@@ -5,31 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
     <!-- Google Analytics -->
-    <!-- GA loaded after cookie consent -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>UK Districts — CrimeSafe UK</title>
-    <link rel="canonical" href="https://crimesafe.uk/districts/">
     <meta name="description" content="Browse crime statistics by district across the UK">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#01696F">
-    <meta property="og:title" content="Districts | CrimeSafe UK">
-    <meta property="og:description" content="Browse crime statistics by district across the UK.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://crimesafe.uk/districts/">
-    <meta property="og:site_name" content="CrimeSafe UK">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Districts | CrimeSafe UK">
-    <meta name="twitter:description" content="Browse crime statistics by district across the UK.">
 </head>
 <body>
-    <script>
-    var saved=localStorage.getItem('theme');
-    var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var theme=saved||(prefersDark?'dark':'light');
-    document.documentElement.setAttribute('data-theme',theme);
-    </script>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -40,19 +26,11 @@
                 </svg>
                 <span>CrimeSafe UK</span>
             </a>
-            <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-            </button>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/streets/">Streets</a>
                 <a href="/forces/">Forces</a>
-                <a href="/postcode/">Postcodes</a>
-                <a href="/city/">Cities</a>
-                <a href="/maps/">Maps</a>
-                <a href="/safest/">Rankings</a>
+                <a href="/districts/">Districts</a>
                 <a href="/about/">About</a>
-                <a href="/faq/">FAQ</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
         </div>
@@ -484,45 +462,11 @@
     <footer class="footer">
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: March 2026</p>
         </div>
     </footer>
     <script src="/forces_search.js"></script>
     <script src="/neighbourhoods_search.js"></script>
     <script src="/script.js"></script>
-    <!-- Cookie Consent Banner -->
-    <div id="cookieConsent" style="display:none; position:fixed; bottom:0; left:0; right:0; background:var(--surface); border-top:1px solid var(--border); padding:var(--space-4) var(--space-5); z-index:9999; box-shadow:0 -4px 12px rgba(0,0,0,0.1);">
-        <div style="max-width:var(--content-wide); margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); flex-wrap:wrap;">
-            <p style="margin:0; font-size:var(--text-sm); color:var(--color-text-muted); flex:1; min-width:200px;">We use cookies for analytics to improve your experience. No personal data is shared with third parties.</p>
-            <div style="display:flex; gap:var(--space-3);">
-                <button onclick="acceptCookies()" style="background:var(--color-primary); color:white; border:none; padding:var(--space-2) var(--space-5); border-radius:var(--radius-md); cursor:pointer; font-size:var(--text-sm); font-weight:600;">Accept</button>
-                <button onclick="declineCookies()" style="background:transparent; color:var(--color-text-muted); border:1px solid var(--border); padding:var(--space-2) var(--space-5); border-radius:var(--radius-md); cursor:pointer; font-size:var(--text-sm);">Decline</button>
-            </div>
-        </div>
-    </div>
-    <script>
-    function loadGA(){
-        var s=document.createElement('script');
-        s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9';
-        document.head.appendChild(s);
-        window.dataLayer=window.dataLayer||[];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js',new Date());gtag('config','G-CK531DR9X9');
-    }
-    function acceptCookies(){
-        localStorage.setItem('cookie_consent','accepted');
-        document.getElementById('cookieConsent').style.display='none';
-        loadGA();
-    }
-    function declineCookies(){
-        localStorage.setItem('cookie_consent','declined');
-        document.getElementById('cookieConsent').style.display='none';
-    }
-    (function(){
-        var consent=localStorage.getItem('cookie_consent');
-        if(consent==='accepted'){loadGA();}
-        else if(!consent){document.getElementById('cookieConsent').style.display='block';}
-    })();
-    </script>
 </body>
 </html>

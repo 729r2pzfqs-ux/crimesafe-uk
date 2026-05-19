@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
     <!-- Google Analytics -->
-    <!-- GA loaded after cookie consent -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>All Police Forces — CrimeSafe UK</title>
-    <link rel="canonical" href="https://crimesafe.uk/forces/">
     <meta name="description" content="Browse all 44 UK police forces">
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
@@ -20,22 +20,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#01696F">
-    <meta property="og:title" content="Police Forces | CrimeSafe UK">
-    <meta property="og:description" content="Browse UK police forces and their crime statistics. Coverage across England, Wales, and Northern Ireland.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://crimesafe.uk/forces/">
-    <meta property="og:site_name" content="CrimeSafe UK">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Police Forces | CrimeSafe UK">
-    <meta name="twitter:description" content="Browse UK police forces and their crime statistics. Coverage across England, Wales, and Northern Ireland.">
 </head>
 <body>
-    <script>
-    var saved=localStorage.getItem('theme');
-    var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var theme=saved||(prefersDark?'dark':'light');
-    document.documentElement.setAttribute('data-theme',theme);
-    </script>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -46,19 +32,12 @@
 </svg>
                 <span>CrimeSafe UK</span>
             </a>
-            <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-            </button>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/streets/">Streets</a>
-                <a href="/forces/">Forces</a>
-                <a href="/postcode/">Postcodes</a>
-                <a href="/city/">Cities</a>
-                <a href="/maps/">Maps</a>
+                <a href="/forces/">Forces</a><a href="/city/">City</a>
+                <a href="/districts/">Districts</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
-                <a href="/faq/">FAQ</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
         </div>
@@ -75,27 +54,6 @@
             <div class="container">
                 <h1>UK Police Forces</h1>
                 <p class="hero-sub">44 forces covering England, Wales, and Northern Ireland</p>
-                
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-4); margin: var(--space-6) 0; padding: var(--space-5); background: var(--color-primary-highlight); border-radius: var(--radius-lg);">
-                    <div style="text-align: center;">
-                        <div style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-primary);">44</div>
-                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Police Forces</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-primary);">4,929</div>
-                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Neighbourhoods</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-primary);">Monthly</div>
-                        <div style="font-size: var(--text-sm); color: var(--color-text-muted);">Data Updates</div>
-                    </div>
-                </div>
-
-                <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-5); margin-bottom: var(--space-6);">
-                    <h2 style="font-size: var(--text-lg); margin-bottom: var(--space-3);">About UK Police Forces</h2>
-                    <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-3);">The UK has 44 territorial police forces responsible for law enforcement across England, Wales, and Northern Ireland. Each force covers a specific geographic area and reports crime data monthly through data.police.uk.</p>
-                    <p style="color: var(--color-text-muted); line-height: 1.7;">Click on any force below to see detailed crime statistics, neighbourhood safety scores, and trends for their area. The Metropolitan Police Service is the largest, covering Greater London with 679 neighbourhoods, while the City of London Police is the smallest with just 6.</p>
-                </div>
             </div>
         </section>
         
@@ -339,39 +297,5 @@
     <script src="/neighbourhoods_search.js"></script>
     <script src="/force_map.js"></script>
     <script src="/script.js"></script>
-    <!-- Cookie Consent Banner -->
-    <div id="cookieConsent" style="display:none; position:fixed; bottom:0; left:0; right:0; background:var(--surface); border-top:1px solid var(--border); padding:var(--space-4) var(--space-5); z-index:9999; box-shadow:0 -4px 12px rgba(0,0,0,0.1);">
-        <div style="max-width:var(--content-wide); margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); flex-wrap:wrap;">
-            <p style="margin:0; font-size:var(--text-sm); color:var(--color-text-muted); flex:1; min-width:200px;">We use cookies for analytics to improve your experience. No personal data is shared with third parties.</p>
-            <div style="display:flex; gap:var(--space-3);">
-                <button onclick="acceptCookies()" style="background:var(--color-primary); color:white; border:none; padding:var(--space-2) var(--space-5); border-radius:var(--radius-md); cursor:pointer; font-size:var(--text-sm); font-weight:600;">Accept</button>
-                <button onclick="declineCookies()" style="background:transparent; color:var(--color-text-muted); border:1px solid var(--border); padding:var(--space-2) var(--space-5); border-radius:var(--radius-md); cursor:pointer; font-size:var(--text-sm);">Decline</button>
-            </div>
-        </div>
-    </div>
-    <script>
-    function loadGA(){
-        var s=document.createElement('script');
-        s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9';
-        document.head.appendChild(s);
-        window.dataLayer=window.dataLayer||[];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js',new Date());gtag('config','G-CK531DR9X9');
-    }
-    function acceptCookies(){
-        localStorage.setItem('cookie_consent','accepted');
-        document.getElementById('cookieConsent').style.display='none';
-        loadGA();
-    }
-    function declineCookies(){
-        localStorage.setItem('cookie_consent','declined');
-        document.getElementById('cookieConsent').style.display='none';
-    }
-    (function(){
-        var consent=localStorage.getItem('cookie_consent');
-        if(consent==='accepted'){loadGA();}
-        else if(!consent){document.getElementById('cookieConsent').style.display='block';}
-    })();
-    </script>
 </body>
 </html>
