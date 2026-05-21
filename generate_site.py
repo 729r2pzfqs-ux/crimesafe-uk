@@ -100,6 +100,7 @@ def get_footer():
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/forces_search.js"></script>
     <script src="/neighbourhoods_search.js"></script>
+    <script src="/compare_search.js"></script>
     <script src="/force_map.js"></script>
     <script src="/script.js"></script>
 </body>
