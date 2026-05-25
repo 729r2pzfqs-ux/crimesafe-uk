@@ -1,5 +1,38 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+(function(){
+  var p = window.location.pathname;
+
+  // 1. Double-dash neighbourhood slugs → single-dash
+  if (p.indexOf('--') !== -1) {
+    var fixed = p.replace(/--+/g, '-');
+    window.location.replace(fixed);
+    return;
+  }
+
+  // 2. Postcode patterns: /postcode/XX99/ or bare /XX99 → /postcode/xx99/
+  var pcMatch = p.match(/^\/(?:postcode\/)?([a-zA-Z]{1,2}\d{1,2}[a-zA-Z]?)\/?$/);
+  if (pcMatch) {
+    var code = pcMatch[1].toLowerCase();
+    window.location.replace('/postcode/' + code + '/');
+    return;
+  }
+
+  // 3. Numbered paths like /100, /200 etc → home
+  if (/^\/\d+\/?$/.test(p)) {
+    window.location.replace('/');
+    return;
+  }
+
+  // 4. Neighbourhood without force slug → try search
+  var nbMatch = p.match(/^\/neighbourhood\/([^/]+)\/?$/);
+  if (nbMatch) {
+    window.location.replace('/?q=' + encodeURIComponent(nbMatch[1].replace(/-/g, ' ')));
+    return;
+  }
+})();
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
 <title>Page Not Found | CrimeSafe UK</title>
