@@ -1,0 +1,7 @@
+# crimesafe.uk
+
+## About
+CrimeSafe UK provides UK crime statistics, safety scores, and neighbourhood crime data. Search by city, postcode, or street to find crime rates and safety information across England and Wales.
+
+## URLs
+- Homepage: https://crimesafe.uk/
