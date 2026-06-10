@@ -32,12 +32,19 @@
 </svg>
                 <span>CrimeSafe UK</span>
             </a>
+            <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/forces/">Forces</a><a href="/city/">City</a>
-                <a href="/districts/">Districts</a>
+                <a href="/streets/">Streets</a>
+                <a href="/forces/">Forces</a>
+                <a href="/postcode/">Postcodes</a>
+                <a href="/city/">Cities</a>
+                <a href="/maps/">Maps</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
+                <a href="/faq/">FAQ</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
         </div>
@@ -396,12 +403,13 @@
     <footer class="footer">
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: March 2026</p>
         </div>
     </footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/forces_search.js"></script>
     <script src="/neighbourhoods_search.js"></script>
+    <script src="/compare_search.js"></script>
     <script src="/force_map.js"></script>
     <script src="/script.js"></script>
 </body>
