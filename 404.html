@@ -4,18 +4,29 @@
 (function(){
   var p = window.location.pathname;
 
-  // 1. Double-dash neighbourhood slugs → single-dash
+  // Prevent redirect loops
+  var lk='csuk404_'+p;
+  try{if(sessionStorage.getItem(lk)){sessionStorage.removeItem(lk);return;}sessionStorage.setItem(lk,'1');}catch(e){}
+
+  // 1. Double/triple-dash slugs → single-dash
   if (p.indexOf('--') !== -1) {
     var fixed = p.replace(/--+/g, '-');
     window.location.replace(fixed);
     return;
   }
 
-  // 2. Postcode patterns: /postcode/XX99/ or bare /XX99 → /postcode/xx99/
-  var pcMatch = p.match(/^\/(?:postcode\/)?([a-zA-Z]{1,2}\d{1,2}[a-zA-Z]?)\/?$/);
-  if (pcMatch) {
-    var code = pcMatch[1].toLowerCase();
+  // 2. Postcode patterns: bare /XX99 → /postcode/xx99/ (only if NOT already at /postcode/)
+  var pcBare = p.match(/^\/([a-zA-Z]{1,2}\d{1,2}[a-zA-Z]?)\/?$/);
+  if (pcBare) {
+    var code = pcBare[1].toLowerCase();
     window.location.replace('/postcode/' + code + '/');
+    return;
+  }
+
+  // 2b. Postcode at /postcode/XX99/ that doesn't exist → redirect to postcode index
+  var pcFull = p.match(/^\/postcode\/([a-zA-Z]{1,2}\d{1,2}[a-zA-Z]?)\/?$/);
+  if (pcFull) {
+    window.location.replace('/postcode/');
     return;
   }
 
@@ -29,6 +40,19 @@
   var nbMatch = p.match(/^\/neighbourhood\/([^/]+)\/?$/);
   if (nbMatch) {
     window.location.replace('/?q=' + encodeURIComponent(nbMatch[1].replace(/-/g, ' ')));
+    return;
+  }
+
+  // 5. Missing neighbourhood page → redirect to force page
+  var nb2Match = p.match(/^\/neighbourhood\/([^/]+)\/([^/]+)\/?$/);
+  if (nb2Match) {
+    window.location.replace('/neighbourhood/' + nb2Match[1] + '/');
+    return;
+  }
+
+  // 6. District page not found → home
+  if (p.indexOf('/district/') === 0) {
+    window.location.replace('/');
     return;
   }
 })();
