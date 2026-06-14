@@ -128,7 +128,7 @@ const COMPARE_CITIES = [
 ];
 
 // Forces with comparison pages
-const COMPARE_FORCES = ['metropolitan-police-service', 'greater-manchester-police', 'west-midlands-police'];
+const COMPARE_FORCES = ['metropolitan-police-service', 'greater-manchester-police', 'west-midlands-police', 'west-yorkshire-police', 'merseyside-police', 'south-yorkshire-police', 'nottinghamshire-police', 'northumbria-police'];
 
 function setupCompareInput(input, dropdown, setData) {
     if (!input || !dropdown) return;
@@ -218,20 +218,15 @@ if (compareCity1 && compareCity2) {
                 return;
             }
             
-            // Same force - neighbourhood comparison (alphabetical sort)
-            if (compareData1.force === compareData2.force && compareData1.force !== 'city') {
+            // Neighbourhood comparison (alphabetical sort) - all at /compare/slug-vs-slug/
+            if (compareData1.force !== 'city' && compareData2.force !== 'city') {
                 const slugs = [compareData1.nb, compareData2.nb].sort();
-                // London (Met Police) comparisons are at /compare/{slug}-vs-{slug}/ (no force prefix)
-                if (compareData1.force === 'metropolitan-police-service') {
-                    window.location.href = `/compare/${slugs[0]}-vs-${slugs[1]}/`;
-                } else {
-                    window.location.href = `/compare/${compareData1.force}/${slugs[0]}-vs-${slugs[1]}/`;
-                }
+                window.location.href = `/compare/${slugs[0]}-vs-${slugs[1]}/`;
                 return;
             }
             
-            // Different forces - redirect to city comparison if available
-            alert('Please compare neighbourhoods from the same city, or compare cities directly.');
+            // Fallback
+            alert('Please select two neighbourhoods or two cities to compare.');
         });
     }
 }
