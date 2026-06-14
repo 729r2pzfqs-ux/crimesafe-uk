@@ -1,0 +1,75 @@
+name: Enrich Compare Pages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Enrich compare pages
+        run: |
+          echo "=== Starting compare page enrichment ==="
+          COUNT=0
+          SKIP=0
+          
+          find ./compare -name "index.html" -type f | while IFS= read -r file; do
+            # Skip if already enriched (check for our marker)
+            if grep -q 'faq-section' "$file" 2>/dev/null; then
+              SKIP=$((SKIP + 1))
+              continue
+            fi
+            
+            # Extract area names from the title tag
+            TITLE=$(grep -oP '<title>\K[^<]+' "$file" 2>/dev/null | head -1)
+            if [ -z "$TITLE" ]; then
+              continue
+            fi
+            
+            # Parse "Area1 vs Area2 — CrimeSafe UK"
+            AREA1=$(echo "$TITLE" | sed 's/ vs .*//' | sed 's/^ *//' | sed 's/ *$//')
+            AREA2=$(echo "$TITLE" | sed 's/.* vs //' | sed 's/ —.*//' | sed 's/ *$//')
+            
+            if [ -z "$AREA1" ] || [ -z "$AREA2" ]; then
+              continue
+            fi
+            
+            # Extract scores if present
+            SCORE1=$(grep -oP "(?<=$AREA1</h2>).*?font-size:3rem.*?>(\\d+)" "$file" 2>/dev/null | grep -oP '\d+' | head -1)
+            SCORE2=$(grep -oP "(?<=$AREA2</h2>).*?font-size:3rem.*?>(\\d+)" "$file" 2>/dev/null | grep -oP '\d+' | head -1)
+            
+            # Build FAQ schema
+            FAQ_SCHEMA='<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is '"$AREA1"' or '"$AREA2"' safer?","acceptedAnswer":{"@type":"Answer","text":"Based on the latest crime data from March 2026, '"$AREA2"' and '"$AREA1"' have been compared using official police statistics. Check the safety scores above to see which area has lower crime rates."}},{"@type":"Question","name":"How are crime safety scores calculated?","acceptedAnswer":{"@type":"Answer","text":"Safety scores are calculated using official crime data from data.police.uk. Scores range from 0-100, where 100 is the safest. The score considers total crime volume, crime types, and population density."}},{"@type":"Question","name":"Where does the crime data come from?","acceptedAnswer":{"@type":"Answer","text":"All crime data on CrimeSafe UK comes from the official UK Police API (data.police.uk), which is updated monthly by all 44 police forces in England and Wales."}}]}</script>'
+            
+            # Build enrichment content (FAQ section + related links)
+            ENRICHMENT='<section id="faq-section" style="padding:var(--space-8) 0"><div class="container" style="max-width:1000px"><div class="kpi-card" style="padding:var(--space-6)"><h3 style="color:var(--color-primary);margin-bottom:var(--space-4)">Frequently Asked Questions</h3><div style="display:flex;flex-direction:column;gap:var(--space-4)"><div><strong>Is '"$AREA1"' or '"$AREA2"' safer?</strong><p style="color:var(--color-text-muted);margin-top:var(--space-2)">Compare the safety scores above to see which area has lower crime rates based on official March 2026 data from data.police.uk.</p></div><div><strong>How are safety scores calculated?</strong><p style="color:var(--color-text-muted);margin-top:var(--space-2)">Scores range from 0-100 (100 = safest) and consider total crime volume, crime types, and area demographics using official UK police data.</p></div><div><strong>How often is the data updated?</strong><p style="color:var(--color-text-muted);margin-top:var(--space-2)">Crime data is updated monthly from the UK Police API. Our latest data covers March 2026.</p></div></div></div><div style="margin-top:var(--space-6)"><h3 style="color:var(--color-primary);margin-bottom:var(--space-4)">Explore More</h3><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-4)"><a href="/safest/" class="card" style="padding:var(--space-4);text-decoration:none;text-align:center"><strong>UK Safety Rankings</strong><p style="color:var(--color-text-muted);margin:0;font-size:var(--text-sm)">See the safest areas nationwide</p></a><a href="/compare/" class="card" style="padding:var(--space-4);text-decoration:none;text-align:center"><strong>Compare More Areas</strong><p style="color:var(--color-text-muted);margin:0;font-size:var(--text-sm)">Compare any two neighbourhoods</p></a><a href="/maps/" class="card" style="padding:var(--space-4);text-decoration:none;text-align:center"><strong>Crime Maps</strong><p style="color:var(--color-text-muted);margin:0;font-size:var(--text-sm)">Interactive crime heatmaps</p></a></div></div></div></section>'
+            
+            # Insert FAQ schema before </head>
+            sed -i "s|</head>|${FAQ_SCHEMA}</head>|" "$file" 2>/dev/null
+            
+            # Insert enrichment content before </main>
+            sed -i "s|</main>|${ENRICHMENT}</main>|" "$file" 2>/dev/null
+            
+            COUNT=$((COUNT + 1))
+            if [ $((COUNT % 10000)) -eq 0 ] && [ $COUNT -gt 0 ]; then
+              echo "Enriched $COUNT compare pages..."
+            fi
+          done
+          
+          echo "=== Done! Enriched: $COUNT, Skipped: $SKIP ==="
+      
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          CHANGED=$(git diff --cached --numstat | wc -l)
+          echo "Changed files: $CHANGED"
+          git commit -m "Enrich compare pages with FAQ schema + related links" || echo "Nothing to commit"
+          git push
