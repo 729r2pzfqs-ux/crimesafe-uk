@@ -1,0 +1,91 @@
+name: Add Canonical Tags
+
+on:
+  workflow_dispatch:
+
+jobs:
+  add-canonical-tags:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Maximize disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghcrunner
+          df -h /
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Add canonical tags to all HTML files
+        run: |
+          python3 << 'PYEOF'
+          import os, re, sys, time
+
+          DOMAIN = "https://crimesafe.uk"
+          
+          def path_to_canonical(rel_path):
+              if rel_path == "index.html":
+                  return f"{DOMAIN}/"
+              elif rel_path.endswith("/index.html"):
+                  return f"{DOMAIN}/{rel_path[:-10]}"
+              else:
+                  return f"{DOMAIN}/{rel_path}"
+
+          print("Scanning for HTML files...")
+          start = time.time()
+          html_files = []
+          for dirpath, dirnames, filenames in os.walk("."):
+              dirnames[:] = [d for d in dirnames if not d.startswith('.')]
+              for fname in filenames:
+                  if fname.endswith('.html'):
+                      html_files.append(os.path.join(dirpath, fname))
+
+          print(f"Found {len(html_files)} HTML files in {time.time()-start:.1f}s")
+          sys.stdout.flush()
+          
+          modified = skipped = errors = 0
+          head_pat = re.compile(r'(<head[^>]*>)', re.IGNORECASE)
+          
+          start = time.time()
+          for i, fp in enumerate(html_files):
+              if (i+1) % 10000 == 0:
+                  elapsed = time.time() - start
+                  rate = (i+1)/elapsed
+                  print(f"Progress: {i+1}/{len(html_files)} (mod={modified}, skip={skipped}, err={errors}) {rate:.0f}f/s ETA {(len(html_files)-i-1)/rate:.0f}s")
+                  sys.stdout.flush()
+              try:
+                  with open(fp, 'r', encoding='utf-8', errors='replace') as f:
+                      c = f.read()
+                  if 'rel="canonical"' in c or "rel='canonical'" in c:
+                      skipped += 1; continue
+                  rp = fp[2:] if fp.startswith('./') else fp
+                  tag = f'<link rel="canonical" href="{path_to_canonical(rp)}">'
+                  m = head_pat.search(c)
+                  if m:
+                      with open(fp, 'w', encoding='utf-8') as f:
+                          f.write(c[:m.end()] + "\n" + tag + c[m.end():])
+                      modified += 1
+                  else:
+                      errors += 1
+              except Exception as e:
+                  errors += 1
+
+          print(f"\nDONE in {time.time()-start:.1f}s: {len(html_files)} total, {modified} modified, {skipped} skipped, {errors} errors")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          changed=$(git diff --cached --numstat | wc -l)
+          echo "Committing $changed files..."
+          git commit -m "Add canonical tags to all HTML pages ($changed files)"
+          git push
+          echo "DONE!"
