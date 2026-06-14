@@ -111,26 +111,7 @@ const compareBtn = document.getElementById('compareBtn');
 let compareData1 = null;
 let compareData2 = null;
 
-// Cities for comparison
-const COMPARE_CITIES = [
-    ["London", "City", 52, "city", "london"],
-    ["Birmingham", "City", 44, "city", "birmingham"],
-    ["Manchester", "City", 39, "city", "manchester"],
-    ["Leeds", "City", 49, "city", "leeds"],
-    ["Liverpool", "City", 42, "city", "liverpool"],
-    ["Sheffield", "City", 47, "city", "sheffield"],
-    ["Bristol", "City", 52, "city", "bristol"],
-    ["Newcastle", "City", 45, "city", "newcastle"],
-    ["Nottingham", "City", 43, "city", "nottingham"],
-    ["Cardiff", "City", 41, "city", "cardiff"],
-    ["Leicester", "City", 46, "city", "leicester"],
-    ["Coventry", "City", 44, "city", "coventry"],
-];
-
-// Forces with comparison pages
-const COMPARE_FORCES = ['metropolitan-police-service', 'greater-manchester-police', 'west-midlands-police', 'west-yorkshire-police', 'merseyside-police', 'south-yorkshire-police', 'nottinghamshire-police', 'northumbria-police'];
-
-function setupCompareInput(input, dropdown, setData) {
+function setupCompareInput(input, dropdown, setData, getOtherData) {
     if (!input || !dropdown) return;
     
     input.addEventListener('input', function() {
@@ -143,15 +124,22 @@ function setupCompareInput(input, dropdown, setData) {
             return;
         }
         
-        // Filter to only forces with comparison pages + add cities
-        // Use filtered COMPARE_DATA (759 neighbourhoods with comparison pages)
         const searchData = typeof COMPARE_DATA !== 'undefined' ? COMPARE_DATA : [];
-        const results = searchData
-            .filter(n => n[0].toLowerCase().indexOf(q) !== -1 || n[1].toLowerCase().indexOf(q) !== -1)
-            .slice(0, 5);
+        const otherData = getOtherData();
+        
+        let results = searchData
+            .filter(n => n[0].toLowerCase().indexOf(q) !== -1 || n[1].toLowerCase().indexOf(q) !== -1);
+        
+        // If the other input has a selection, only show same-force neighbourhoods
+        if (otherData && otherData.force) {
+            results = results.filter(n => n[3] === otherData.force && n[4] !== otherData.nb);
+        }
+        
+        results = results.slice(0, 8);
         
         if (!results.length) {
-            dropdown.classList.remove('active');
+            dropdown.innerHTML = '<div class="search-item" style="justify-content:center;color:var(--color-text-muted);">No matching neighbourhoods</div>';
+            dropdown.classList.add('active');
             return;
         }
         
@@ -167,7 +155,6 @@ function setupCompareInput(input, dropdown, setData) {
         
         dropdown.classList.add('active');
         
-        // Add click/touch handlers to items (pointerdown works on mobile + desktop)
         dropdown.querySelectorAll('.search-item').forEach(item => {
             function handleSelect(e) {
                 e.preventDefault();
@@ -188,45 +175,28 @@ function setupCompareInput(input, dropdown, setData) {
         });
     });
     
-    // Click handling is done via onclick on items (set when creating HTML)
-    
     input.addEventListener('blur', () => setTimeout(() => dropdown.classList.remove('active'), 300));
 }
 
 function updateCompareBtn() {
     if (compareBtn) {
-        compareBtn.disabled = !compareData1 || !compareData2;
+        const canCompare = compareData1 && compareData2 && compareData1.force === compareData2.force && compareData1.nb !== compareData2.nb;
+        compareBtn.disabled = !canCompare;
     }
 }
 
 if (compareCity1 && compareCity2) {
-    setupCompareInput(compareCity1, compareDropdown1, d => compareData1 = d);
-    setupCompareInput(compareCity2, compareDropdown2, d => compareData2 = d);
+    setupCompareInput(compareCity1, compareDropdown1, d => compareData1 = d, () => compareData2);
+    setupCompareInput(compareCity2, compareDropdown2, d => compareData2 = d, () => compareData1);
     
     if (compareBtn) {
         compareBtn.addEventListener('click', () => {
             if (!compareData1 || !compareData2) return;
+            if (compareData1.force !== compareData2.force) return;
             
-            // City vs City - use original order from COMPARE_CITIES
-            if (compareData1.force === 'city' && compareData2.force === 'city') {
-                const cityOrder = COMPARE_CITIES.map(c => c[4]);
-                const idx1 = cityOrder.indexOf(compareData1.nb);
-                const idx2 = cityOrder.indexOf(compareData2.nb);
-                const first = idx1 < idx2 ? compareData1.nb : compareData2.nb;
-                const second = idx1 < idx2 ? compareData2.nb : compareData1.nb;
-                window.location.href = `/compare/city/${first}-vs-${second}/`;
-                return;
-            }
-            
-            // Neighbourhood comparison (alphabetical sort) - all at /compare/slug-vs-slug/
-            if (compareData1.force !== 'city' && compareData2.force !== 'city') {
-                const slugs = [compareData1.nb, compareData2.nb].sort();
-                window.location.href = `/compare/${slugs[0]}-vs-${slugs[1]}/`;
-                return;
-            }
-            
-            // Fallback
-            alert('Please select two neighbourhoods or two cities to compare.');
+            // Neighbourhood comparison (alphabetical sort)
+            const slugs = [compareData1.nb, compareData2.nb].sort();
+            window.location.href = `/compare/${slugs[0]}-vs-${slugs[1]}/`;
         });
     }
 }
