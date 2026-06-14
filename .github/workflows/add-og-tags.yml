@@ -1,0 +1,86 @@
+name: Add OG and Twitter Card Tags
+
+on:
+  workflow_dispatch:
+
+jobs:
+  add-og-tags:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Add OG and Twitter Card tags
+        run: |
+          echo "=== Starting OG/Twitter tag injection ==="
+          DOMAIN="https://crimesafe.uk"
+          COUNT=0
+          SKIP=0
+          ERRORS=0
+          
+          find . -name "*.html" -type f ! -path "./.github/*" | while IFS= read -r file; do
+            # Skip if already has OG tags
+            if grep -q 'property="og:title"' "$file" 2>/dev/null; then
+              SKIP=$((SKIP + 1))
+              continue
+            fi
+            
+            # Derive URL from path
+            rel="${file#./}"
+            path="${rel%index.html}"
+            if [ -z "$path" ]; then
+              URL="${DOMAIN}/"
+            else
+              URL="${DOMAIN}/${path}"
+            fi
+            
+            # Extract title
+            TITLE=$(grep -oP '<title>\K[^<]+' "$file" 2>/dev/null | head -1)
+            if [ -z "$TITLE" ]; then
+              TITLE="CrimeSafe UK - Crime Statistics"
+            fi
+            # Escape quotes in title
+            TITLE=$(echo "$TITLE" | sed 's/"/\&quot;/g')
+            
+            # Extract meta description
+            DESC=$(grep -oP 'name="description"\s+content="\K[^"]+' "$file" 2>/dev/null | head -1)
+            if [ -z "$DESC" ]; then
+              DESC="Check crime statistics, safety ratings, and crime trends for areas across the UK."
+            fi
+            
+            # Build OG + Twitter tags
+            TAGS='<meta property="og:type" content="website">\n<meta property="og:url" content="'"${URL}"'">\n<meta property="og:title" content="'"${TITLE}"'">\n<meta property="og:description" content="'"${DESC}"'">\n<meta property="og:site_name" content="CrimeSafe UK">\n<meta name="twitter:card" content="summary">\n<meta name="twitter:title" content="'"${TITLE}"'">\n<meta name="twitter:description" content="'"${DESC}"'">'
+            
+            # Insert after the canonical tag line (which we just added)
+            if grep -q 'rel="canonical"' "$file" 2>/dev/null; then
+              sed -i '/rel="canonical"/a '"${TAGS}" "$file" 2>/dev/null
+            else
+              # Fallback: insert after <head>
+              sed -i 's|<head>|<head>\n'"${TAGS}"'|' "$file" 2>/dev/null
+            fi
+            
+            if [ $? -eq 0 ]; then
+              COUNT=$((COUNT + 1))
+            else
+              ERRORS=$((ERRORS + 1))
+            fi
+            
+            if [ $((COUNT % 10000)) -eq 0 ] && [ $COUNT -gt 0 ]; then
+              echo "Processed $COUNT files..."
+            fi
+          done
+          
+          echo "=== Done! Modified: $COUNT, Skipped: $SKIP, Errors: $ERRORS ==="
+      
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          CHANGED=$(git diff --cached --numstat | wc -l)
+          echo "Changed files: $CHANGED"
+          git commit -m "Add Open Graph + Twitter Card meta tags to all pages" || echo "Nothing to commit"
+          git push
