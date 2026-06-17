@@ -1,1 +1,29 @@
-{"neighbourhood_id": "2SW01", "neighbourhood_name": "Shirley and Freemantle", "force_id": "hampshire", "lat": "50.9182", "lng": "-1.42551", "population": 12098, "total_crimes": 621, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 8, "burglary": 24, "criminal-damage-arson": 40, "drugs": 40, "other-theft": 53, "possession-of-weapons": 14, "public-order": 51, "robbery": 18, "shoplifting": 68, "theft-from-the-person": 1, "vehicle-crime": 24, "violent-crime": 200, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2SW01",
+  "neighbourhood_name": "Shirley and Freemantle",
+  "force_id": "hampshire",
+  "lat": "50.9182",
+  "lng": "-1.42551",
+  "population": 31951,
+  "total_crimes": 621,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 8,
+    "burglary": 24,
+    "criminal-damage-arson": 40,
+    "drugs": 40,
+    "other-theft": 53,
+    "possession-of-weapons": 14,
+    "public-order": 51,
+    "robbery": 18,
+    "shoplifting": 68,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 24,
+    "violent-crime": 200,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "XB72", "neighbourhood_name": "Sheerness", "force_id": "kent", "lat": "51.4333", "lng": "0.760919", "population": 12098, "total_crimes": 272, "categories": {"anti-social-behaviour": 58, "bicycle-theft": 3, "burglary": 3, "criminal-damage-arson": 34, "drugs": 12, "other-theft": 11, "possession-of-weapons": 1, "public-order": 11, "robbery": 1, "shoplifting": 29, "vehicle-crime": 4, "violent-crime": 100, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB72",
+  "neighbourhood_name": "Sheerness",
+  "force_id": "kent",
+  "lat": "51.4333",
+  "lng": "0.760919",
+  "population": 13475,
+  "total_crimes": 272,
+  "categories": {
+    "anti-social-behaviour": 58,
+    "bicycle-theft": 3,
+    "burglary": 3,
+    "criminal-damage-arson": 34,
+    "drugs": 12,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 29,
+    "vehicle-crime": 4,
+    "violent-crime": 100,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

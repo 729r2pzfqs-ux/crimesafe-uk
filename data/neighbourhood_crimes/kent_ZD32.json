@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ZD32", "neighbourhood_name": "Mill Hill", "force_id": "kent", "lat": "51.2127", "lng": "1.3772", "population": 12098, "total_crimes": 91, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 12, "drugs": 5, "other-theft": 7, "possession-of-weapons": 1, "vehicle-crime": 3, "violent-crime": 38, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZD32",
+  "neighbourhood_name": "Mill Hill",
+  "force_id": "kent",
+  "lat": "51.2127",
+  "lng": "1.3772",
+  "population": 7959,
+  "total_crimes": 91,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 12,
+    "drugs": 5,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 38,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

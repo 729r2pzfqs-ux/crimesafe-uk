@@ -1,1 +1,17 @@
-{"neighbourhood_id": "pontardawe", "neighbourhood_name": "Pontardawe", "force_id": "south-wales", "lat": "51.7436", "lng": "-3.878", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "vehicle-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "pontardawe",
+  "neighbourhood_name": "Pontardawe",
+  "force_id": "south-wales",
+  "lat": "51.7436",
+  "lng": "-3.878",
+  "population": 5731,
+  "total_crimes": 2,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "vehicle-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

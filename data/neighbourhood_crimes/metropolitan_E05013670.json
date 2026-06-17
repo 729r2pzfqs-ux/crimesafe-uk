@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013670", "neighbourhood_name": "South Hampstead", "force_id": "metropolitan", "lat": "51.5434", "lng": "-0.184114", "population": 12098, "total_crimes": 1277, "categories": {"anti-social-behaviour": 288, "bicycle-theft": 17, "burglary": 69, "criminal-damage-arson": 42, "drugs": 47, "other-theft": 101, "possession-of-weapons": 8, "public-order": 74, "robbery": 49, "shoplifting": 124, "theft-from-the-person": 106, "vehicle-crime": 73, "violent-crime": 270, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013670",
+  "neighbourhood_name": "South Hampstead",
+  "force_id": "metropolitan",
+  "lat": "51.5434",
+  "lng": "-0.184114",
+  "population": 13978,
+  "total_crimes": 1277,
+  "categories": {
+    "anti-social-behaviour": 288,
+    "bicycle-theft": 17,
+    "burglary": 69,
+    "criminal-damage-arson": 42,
+    "drugs": 47,
+    "other-theft": 101,
+    "possession-of-weapons": 8,
+    "public-order": 74,
+    "robbery": 49,
+    "shoplifting": 124,
+    "theft-from-the-person": 106,
+    "vehicle-crime": 73,
+    "violent-crime": 270,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 91.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

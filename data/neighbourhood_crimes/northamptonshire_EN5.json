@@ -1,1 +1,14 @@
-{"neighbourhood_id": "EN5", "neighbourhood_name": "Oundle", "force_id": "northamptonshire", "lat": "52.5509", "lng": "-0.538074", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EN5",
+  "neighbourhood_name": "Oundle",
+  "force_id": "northamptonshire",
+  "lat": "52.5509",
+  "lng": "-0.538074",
+  "population": 12856,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

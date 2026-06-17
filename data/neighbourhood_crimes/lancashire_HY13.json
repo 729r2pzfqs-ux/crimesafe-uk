@@ -1,1 +1,29 @@
-{"neighbourhood_id": "HY13", "neighbourhood_name": "Peel", "force_id": "lancashire", "lat": "53.7556", "lng": "-2.35884", "population": 12098, "total_crimes": 399, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 22, "drugs": 7, "other-theft": 16, "possession-of-weapons": 4, "public-order": 25, "robbery": 4, "shoplifting": 32, "theft-from-the-person": 2, "vehicle-crime": 28, "violent-crime": 167, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY13",
+  "neighbourhood_name": "Peel",
+  "force_id": "lancashire",
+  "lat": "53.7556",
+  "lng": "-2.35884",
+  "population": 4362,
+  "total_crimes": 399,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 22,
+    "drugs": 7,
+    "other-theft": 16,
+    "possession-of-weapons": 4,
+    "public-order": 25,
+    "robbery": 4,
+    "shoplifting": 32,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 28,
+    "violent-crime": 167,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 91.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

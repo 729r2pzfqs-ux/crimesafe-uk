@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013669N", "neighbourhood_name": "St Pancras and Somers Town", "force_id": "metropolitan", "lat": "51.5342", "lng": "-0.133816", "population": 12098, "total_crimes": 2161, "categories": {"anti-social-behaviour": 429, "bicycle-theft": 37, "burglary": 69, "criminal-damage-arson": 75, "drugs": 102, "other-theft": 287, "possession-of-weapons": 7, "public-order": 122, "robbery": 74, "shoplifting": 130, "theft-from-the-person": 356, "vehicle-crime": 64, "violent-crime": 399, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013669N",
+  "neighbourhood_name": "St Pancras and Somers Town",
+  "force_id": "metropolitan",
+  "lat": "51.5342",
+  "lng": "-0.133816",
+  "population": 15520,
+  "total_crimes": 2161,
+  "categories": {
+    "anti-social-behaviour": 429,
+    "bicycle-theft": 37,
+    "burglary": 69,
+    "criminal-damage-arson": 75,
+    "drugs": 102,
+    "other-theft": 287,
+    "possession-of-weapons": 7,
+    "public-order": 122,
+    "robbery": 74,
+    "shoplifting": 130,
+    "theft-from-the-person": 356,
+    "vehicle-crime": 64,
+    "violent-crime": 399,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 139.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

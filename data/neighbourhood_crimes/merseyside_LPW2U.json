@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LPW2U", "neighbourhood_name": "Pensby and Thingwall", "force_id": "merseyside", "lat": "53.3544", "lng": "-3.09619", "population": 12098, "total_crimes": 45, "categories": {"anti-social-behaviour": 2, "burglary": 2, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 2, "possession-of-weapons": 1, "public-order": 4, "vehicle-crime": 1, "violent-crime": 25, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW2U",
+  "neighbourhood_name": "Pensby and Thingwall",
+  "force_id": "merseyside",
+  "lat": "53.3544",
+  "lng": "-3.09619",
+  "population": 12231,
+  "total_crimes": 45,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 25,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

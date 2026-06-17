@@ -1,1 +1,26 @@
-{"neighbourhood_id": "A23", "neighbourhood_name": "South and West Lynn", "force_id": "norfolk", "lat": "52.7341", "lng": "0.399821", "population": 12098, "total_crimes": 82, "categories": {"anti-social-behaviour": 6, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 6, "drugs": 6, "other-theft": 8, "public-order": 2, "shoplifting": 14, "vehicle-crime": 3, "violent-crime": 31, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A23",
+  "neighbourhood_name": "South and West Lynn",
+  "force_id": "norfolk",
+  "lat": "52.7341",
+  "lng": "0.399821",
+  "population": 5708,
+  "total_crimes": 82,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 6,
+    "drugs": 6,
+    "other-theft": 8,
+    "public-order": 2,
+    "shoplifting": 14,
+    "vehicle-crime": 3,
+    "violent-crime": 31,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013501N", "neighbourhood_name": "Harlesden and Kensal Green", "force_id": "metropolitan", "lat": "51.5376", "lng": "-0.241152", "population": 12098, "total_crimes": 834, "categories": {"anti-social-behaviour": 217, "bicycle-theft": 7, "burglary": 28, "criminal-damage-arson": 45, "drugs": 54, "other-theft": 48, "possession-of-weapons": 9, "public-order": 48, "robbery": 28, "shoplifting": 38, "theft-from-the-person": 23, "vehicle-crime": 63, "violent-crime": 216, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013501N",
+  "neighbourhood_name": "Harlesden and Kensal Green",
+  "force_id": "metropolitan",
+  "lat": "51.5376",
+  "lng": "-0.241152",
+  "population": 20706,
+  "total_crimes": 834,
+  "categories": {
+    "anti-social-behaviour": 217,
+    "bicycle-theft": 7,
+    "burglary": 28,
+    "criminal-damage-arson": 45,
+    "drugs": 54,
+    "other-theft": 48,
+    "possession-of-weapons": 9,
+    "public-order": 48,
+    "robbery": 28,
+    "shoplifting": 38,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 63,
+    "violent-crime": 216,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

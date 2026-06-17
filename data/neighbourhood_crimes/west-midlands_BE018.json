@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BE018", "neighbourhood_name": "Sheldon", "force_id": "west-midlands", "lat": "52.4645", "lng": "-1.7815", "population": 12098, "total_crimes": 379, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 31, "drugs": 11, "other-theft": 23, "possession-of-weapons": 6, "public-order": 11, "robbery": 16, "shoplifting": 62, "theft-from-the-person": 1, "vehicle-crime": 42, "violent-crime": 138, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE018",
+  "neighbourhood_name": "Sheldon",
+  "force_id": "west-midlands",
+  "lat": "52.4645",
+  "lng": "-1.7815",
+  "population": 22193,
+  "total_crimes": 379,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 31,
+    "drugs": 11,
+    "other-theft": 23,
+    "possession-of-weapons": 6,
+    "public-order": 11,
+    "robbery": 16,
+    "shoplifting": 62,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 42,
+    "violent-crime": 138,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014096N", "neighbourhood_name": "Brixton North", "force_id": "metropolitan", "lat": "51.4669", "lng": "-0.112098", "population": 12098, "total_crimes": 1614, "categories": {"anti-social-behaviour": 281, "bicycle-theft": 29, "burglary": 58, "criminal-damage-arson": 64, "drugs": 62, "other-theft": 131, "possession-of-weapons": 18, "public-order": 74, "robbery": 60, "shoplifting": 187, "theft-from-the-person": 136, "vehicle-crime": 108, "violent-crime": 392, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014096N",
+  "neighbourhood_name": "Brixton North",
+  "force_id": "metropolitan",
+  "lat": "51.4669",
+  "lng": "-0.112098",
+  "population": 15290,
+  "total_crimes": 1614,
+  "categories": {
+    "anti-social-behaviour": 281,
+    "bicycle-theft": 29,
+    "burglary": 58,
+    "criminal-damage-arson": 64,
+    "drugs": 62,
+    "other-theft": 131,
+    "possession-of-weapons": 18,
+    "public-order": 74,
+    "robbery": 60,
+    "shoplifting": 187,
+    "theft-from-the-person": 136,
+    "vehicle-crime": 108,
+    "violent-crime": 392,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 105.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

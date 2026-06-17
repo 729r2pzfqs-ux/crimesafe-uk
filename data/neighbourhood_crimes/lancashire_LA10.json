@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LA10", "neighbourhood_name": "Bowerham", "force_id": "lancashire", "lat": "54.037", "lng": "-2.78112", "population": 12098, "total_crimes": 104, "categories": {"anti-social-behaviour": 16, "burglary": 4, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 10, "public-order": 14, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 37, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA10",
+  "neighbourhood_name": "Bowerham",
+  "force_id": "lancashire",
+  "lat": "54.037",
+  "lng": "-2.78112",
+  "population": 5009,
+  "total_crimes": 104,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 4,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 10,
+    "public-order": 14,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 37,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

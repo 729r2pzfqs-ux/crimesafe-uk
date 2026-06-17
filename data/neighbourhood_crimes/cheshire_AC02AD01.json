@@ -1,1 +1,27 @@
-{"neighbourhood_id": "AC02AD01", "neighbourhood_name": "Saughall, Mollington and Elton", "force_id": "cheshire", "lat": "53.262", "lng": "-2.88688", "population": "0", "total_crimes": 145, "categories": {"anti-social-behaviour": 14, "burglary": 3, "criminal-damage-arson": 6, "drugs": 7, "other-theft": 10, "possession-of-weapons": 1, "public-order": 15, "robbery": 1, "shoplifting": 43, "vehicle-crime": 4, "violent-crime": 40, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC02AD01",
+  "neighbourhood_name": "Saughall, Mollington and Elton",
+  "force_id": "cheshire",
+  "lat": "53.262",
+  "lng": "-2.88688",
+  "population": 7765,
+  "total_crimes": 145,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 3,
+    "criminal-damage-arson": 6,
+    "drugs": 7,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 43,
+    "vehicle-crime": 4,
+    "violent-crime": 40,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

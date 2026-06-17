@@ -1,1 +1,22 @@
-{"neighbourhood_id": "YB73", "neighbourhood_name": "Snodland West &amp; Holborough Lakes", "force_id": "kent", "lat": "51.3385", "lng": "0.417968", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 3, "vehicle-crime": 1, "violent-crime": 5, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB73",
+  "neighbourhood_name": "Snodland West &amp; Holborough Lakes",
+  "force_id": "kent",
+  "lat": "51.3385",
+  "lng": "0.417968",
+  "population": 3363,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 5,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

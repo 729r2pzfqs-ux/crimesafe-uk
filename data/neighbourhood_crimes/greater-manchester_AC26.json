@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AC26", "neighbourhood_name": "Commercial District", "force_id": "greater-manchester", "lat": "53.4831", "lng": "-2.24588", "population": 12098, "total_crimes": 10, "categories": {"other-theft": 3, "theft-from-the-person": 2, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC26",
+  "neighbourhood_name": "Commercial District",
+  "force_id": "greater-manchester",
+  "lat": "53.4831",
+  "lng": "-2.24588",
+  "population": 1588,
+  "total_crimes": 10,
+  "categories": {
+    "other-theft": 3,
+    "theft-from-the-person": 2,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

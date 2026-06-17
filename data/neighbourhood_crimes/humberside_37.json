@@ -1,1 +1,14 @@
-{"neighbourhood_id": "37", "neighbourhood_name": "Howden", "force_id": "humberside", "lat": "53.7475", "lng": "-0.907581", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "37",
+  "neighbourhood_name": "Howden",
+  "force_id": "humberside",
+  "lat": "53.7475",
+  "lng": "-0.907581",
+  "population": 5277,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

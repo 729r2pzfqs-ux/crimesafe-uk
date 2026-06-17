@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013801N", "neighbourhood_name": "Marylebone", "force_id": "metropolitan", "lat": "51.5188", "lng": "-0.155203", "population": 12098, "total_crimes": 3033, "categories": {"anti-social-behaviour": 383, "bicycle-theft": 25, "burglary": 107, "criminal-damage-arson": 80, "drugs": 85, "other-theft": 537, "possession-of-weapons": 7, "public-order": 102, "robbery": 88, "shoplifting": 427, "theft-from-the-person": 678, "vehicle-crime": 81, "violent-crime": 413, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013801N",
+  "neighbourhood_name": "Marylebone",
+  "force_id": "metropolitan",
+  "lat": "51.5188",
+  "lng": "-0.155203",
+  "population": 21819,
+  "total_crimes": 3033,
+  "categories": {
+    "anti-social-behaviour": 383,
+    "bicycle-theft": 25,
+    "burglary": 107,
+    "criminal-damage-arson": 80,
+    "drugs": 85,
+    "other-theft": 537,
+    "possession-of-weapons": 7,
+    "public-order": 102,
+    "robbery": 88,
+    "shoplifting": 427,
+    "theft-from-the-person": 678,
+    "vehicle-crime": 81,
+    "violent-crime": 413,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 139.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

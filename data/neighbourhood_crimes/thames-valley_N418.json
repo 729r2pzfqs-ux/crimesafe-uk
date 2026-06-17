@@ -1,1 +1,14 @@
-{"neighbourhood_id": "N418", "neighbourhood_name": "Waddesdon", "force_id": "thames-valley", "lat": "51.8528", "lng": "-0.97803", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N418",
+  "neighbourhood_name": "Waddesdon",
+  "force_id": "thames-valley",
+  "lat": "51.8528",
+  "lng": "-0.97803",
+  "population": 8174,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

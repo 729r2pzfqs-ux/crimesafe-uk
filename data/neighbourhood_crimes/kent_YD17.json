@@ -1,1 +1,27 @@
-{"neighbourhood_id": "YD17", "neighbourhood_name": "St John's", "force_id": "kent", "lat": "51.1461", "lng": "0.268263", "population": 12098, "total_crimes": 223, "categories": {"anti-social-behaviour": 42, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 25, "drugs": 11, "other-theft": 16, "public-order": 12, "robbery": 3, "shoplifting": 32, "vehicle-crime": 3, "violent-crime": 65, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YD17",
+  "neighbourhood_name": "St John's",
+  "force_id": "kent",
+  "lat": "51.1461",
+  "lng": "0.268263",
+  "population": 5672,
+  "total_crimes": 223,
+  "categories": {
+    "anti-social-behaviour": 42,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 25,
+    "drugs": 11,
+    "other-theft": 16,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 32,
+    "vehicle-crime": 3,
+    "violent-crime": 65,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

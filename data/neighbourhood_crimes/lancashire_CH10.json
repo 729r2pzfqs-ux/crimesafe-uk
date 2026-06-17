@@ -1,1 +1,19 @@
-{"neighbourhood_id": "CH10", "neighbourhood_name": "Chorley South East &amp; Heath Charnock", "force_id": "lancashire", "lat": "53.6351", "lng": "-2.60556", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 1, "vehicle-crime": 2, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH10",
+  "neighbourhood_name": "Chorley South East &amp; Heath Charnock",
+  "force_id": "lancashire",
+  "lat": "53.6351",
+  "lng": "-2.60556",
+  "population": 10359,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

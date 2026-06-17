@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013796N", "neighbourhood_name": "Hyde Park", "force_id": "metropolitan", "lat": "51.5123", "lng": "-0.168442", "population": 12098, "total_crimes": 2061, "categories": {"anti-social-behaviour": 291, "bicycle-theft": 26, "burglary": 80, "criminal-damage-arson": 71, "drugs": 62, "other-theft": 325, "possession-of-weapons": 6, "public-order": 74, "robbery": 56, "shoplifting": 262, "theft-from-the-person": 376, "vehicle-crime": 93, "violent-crime": 322, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013796N",
+  "neighbourhood_name": "Hyde Park",
+  "force_id": "metropolitan",
+  "lat": "51.5123",
+  "lng": "-0.168442",
+  "population": 11225,
+  "total_crimes": 2061,
+  "categories": {
+    "anti-social-behaviour": 291,
+    "bicycle-theft": 26,
+    "burglary": 80,
+    "criminal-damage-arson": 71,
+    "drugs": 62,
+    "other-theft": 325,
+    "possession-of-weapons": 6,
+    "public-order": 74,
+    "robbery": 56,
+    "shoplifting": 262,
+    "theft-from-the-person": 376,
+    "vehicle-crime": 93,
+    "violent-crime": 322,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 183.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

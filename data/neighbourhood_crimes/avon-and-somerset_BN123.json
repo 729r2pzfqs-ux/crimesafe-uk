@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BN123", "neighbourhood_name": "Henbury and Brentry", "force_id": "avon-and-somerset", "lat": "51.509", "lng": "-2.61947", "population": "0", "total_crimes": 260, "categories": {"anti-social-behaviour": 26, "burglary": 14, "criminal-damage-arson": 17, "drugs": 3, "other-theft": 15, "possession-of-weapons": 3, "public-order": 23, "robbery": 1, "shoplifting": 21, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 118, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BN123",
+  "neighbourhood_name": "Henbury and Brentry",
+  "force_id": "avon-and-somerset",
+  "lat": "51.509",
+  "lng": "-2.61947",
+  "population": 12914,
+  "total_crimes": 260,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 14,
+    "criminal-damage-arson": 17,
+    "drugs": 3,
+    "other-theft": 15,
+    "possession-of-weapons": 3,
+    "public-order": 23,
+    "robbery": 1,
+    "shoplifting": 21,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 118,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

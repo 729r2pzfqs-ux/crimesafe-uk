@@ -1,1 +1,25 @@
-{"neighbourhood_id": "NR10", "neighbourhood_name": "Belper Town", "force_id": "derbyshire", "lat": "53.031", "lng": "-1.47847", "population": 12098, "total_crimes": 72, "categories": {"anti-social-behaviour": 11, "burglary": 1, "criminal-damage-arson": 5, "other-theft": 1, "public-order": 7, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 30, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NR10",
+  "neighbourhood_name": "Belper Town",
+  "force_id": "derbyshire",
+  "lat": "53.031",
+  "lng": "-1.47847",
+  "population": 16439,
+  "total_crimes": 72,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "other-theft": 1,
+    "public-order": 7,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 30,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

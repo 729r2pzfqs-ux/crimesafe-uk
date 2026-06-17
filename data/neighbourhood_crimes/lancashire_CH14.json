@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CH14", "neighbourhood_name": "Eccleston, Heskin &amp; Charnock Richard", "force_id": "lancashire", "lat": "53.6382", "lng": "-2.70529", "population": 12098, "total_crimes": 23, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 2, "public-order": 1, "vehicle-crime": 1, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH14",
+  "neighbourhood_name": "Eccleston, Heskin &amp; Charnock Richard",
+  "force_id": "lancashire",
+  "lat": "53.6382",
+  "lng": "-2.70529",
+  "population": 7630,
+  "total_crimes": 23,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

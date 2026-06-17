@@ -1,1 +1,27 @@
-{"neighbourhood_id": "NC50", "neighbourhood_name": "Skegness", "force_id": "lincolnshire", "lat": "53.1503", "lng": "0.327725", "population": 12098, "total_crimes": 339, "categories": {"anti-social-behaviour": 66, "burglary": 11, "criminal-damage-arson": 20, "drugs": 12, "other-theft": 22, "possession-of-weapons": 2, "public-order": 32, "robbery": 3, "shoplifting": 33, "vehicle-crime": 9, "violent-crime": 126, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC50",
+  "neighbourhood_name": "Skegness",
+  "force_id": "lincolnshire",
+  "lat": "53.1503",
+  "lng": "0.327725",
+  "population": 18053,
+  "total_crimes": 339,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "burglary": 11,
+    "criminal-damage-arson": 20,
+    "drugs": 12,
+    "other-theft": 22,
+    "possession-of-weapons": 2,
+    "public-order": 32,
+    "robbery": 3,
+    "shoplifting": 33,
+    "vehicle-crime": 9,
+    "violent-crime": 126,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

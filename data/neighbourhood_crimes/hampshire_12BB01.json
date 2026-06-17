@@ -1,1 +1,28 @@
-{"neighbourhood_id": "12BB01", "neighbourhood_name": "Basingstoke South", "force_id": "hampshire", "lat": "51.2406", "lng": "-1.12101", "population": 12098, "total_crimes": 122, "categories": {"anti-social-behaviour": 26, "burglary": 5, "criminal-damage-arson": 11, "drugs": 3, "other-theft": 3, "possession-of-weapons": 1, "public-order": 9, "robbery": 2, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 42, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "12BB01",
+  "neighbourhood_name": "Basingstoke South",
+  "force_id": "hampshire",
+  "lat": "51.2406",
+  "lng": "-1.12101",
+  "population": 25853,
+  "total_crimes": 122,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 5,
+    "criminal-damage-arson": 11,
+    "drugs": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "robbery": 2,
+    "shoplifting": 16,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 42,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

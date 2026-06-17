@@ -1,1 +1,24 @@
-{"neighbourhood_id": "KE", "neighbourhood_name": "Sheffield South West", "force_id": "south-yorkshire", "lat": "53.3393", "lng": "-1.53013", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 7, "burglary": 4, "criminal-damage-arson": 1, "drugs": 2, "other-theft": 2, "public-order": 1, "robbery": 1, "shoplifting": 2, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KE",
+  "neighbourhood_name": "Sheffield South West",
+  "force_id": "south-yorkshire",
+  "lat": "53.3393",
+  "lng": "-1.53013",
+  "population": 127703,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 4,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 2,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 77
+}

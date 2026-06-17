@@ -1,1 +1,20 @@
-{"neighbourhood_id": "PLE7", "neighbourhood_name": "Peterlee (Blackhall)", "force_id": "durham", "lat": "54.7308", "lng": "-1.30421", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 8, "other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLE7",
+  "neighbourhood_name": "Peterlee (Blackhall)",
+  "force_id": "durham",
+  "lat": "54.7308",
+  "lng": "-1.30421",
+  "population": 4646,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

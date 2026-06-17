@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013795", "neighbourhood_name": "Harrow Road", "force_id": "metropolitan", "lat": "51.5278", "lng": "-0.19855", "population": 12098, "total_crimes": 1662, "categories": {"anti-social-behaviour": 456, "bicycle-theft": 32, "burglary": 84, "criminal-damage-arson": 67, "drugs": 82, "other-theft": 134, "possession-of-weapons": 7, "public-order": 78, "robbery": 43, "shoplifting": 140, "theft-from-the-person": 86, "vehicle-crime": 77, "violent-crime": 356, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013795",
+  "neighbourhood_name": "Harrow Road",
+  "force_id": "metropolitan",
+  "lat": "51.5278",
+  "lng": "-0.19855",
+  "population": 12649,
+  "total_crimes": 1662,
+  "categories": {
+    "anti-social-behaviour": 456,
+    "bicycle-theft": 32,
+    "burglary": 84,
+    "criminal-damage-arson": 67,
+    "drugs": 82,
+    "other-theft": 134,
+    "possession-of-weapons": 7,
+    "public-order": 78,
+    "robbery": 43,
+    "shoplifting": 140,
+    "theft-from-the-person": 86,
+    "vehicle-crime": 77,
+    "violent-crime": 356,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 131.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

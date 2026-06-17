@@ -1,1 +1,18 @@
-{"neighbourhood_id": "BE01", "neighbourhood_name": "Odd Rode", "force_id": "cheshire", "lat": "53.1253", "lng": "-2.24805", "population": "0", "total_crimes": 9, "categories": {"criminal-damage-arson": 2, "public-order": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE01",
+  "neighbourhood_name": "Odd Rode",
+  "force_id": "cheshire",
+  "lat": "53.1253",
+  "lng": "-2.24805",
+  "population": 6992,
+  "total_crimes": 9,
+  "categories": {
+    "criminal-damage-arson": 2,
+    "public-order": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

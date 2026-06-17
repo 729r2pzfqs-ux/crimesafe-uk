@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013924N", "neighbourhood_name": "Stratford", "force_id": "metropolitan", "lat": "51.5355", "lng": "-0.00373962", "population": 12098, "total_crimes": 1339, "categories": {"anti-social-behaviour": 294, "bicycle-theft": 16, "burglary": 36, "criminal-damage-arson": 55, "drugs": 53, "other-theft": 118, "possession-of-weapons": 7, "public-order": 76, "robbery": 48, "shoplifting": 186, "theft-from-the-person": 106, "vehicle-crime": 82, "violent-crime": 249, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013924N",
+  "neighbourhood_name": "Stratford",
+  "force_id": "metropolitan",
+  "lat": "51.5355",
+  "lng": "-0.00373962",
+  "population": 8952,
+  "total_crimes": 1339,
+  "categories": {
+    "anti-social-behaviour": 294,
+    "bicycle-theft": 16,
+    "burglary": 36,
+    "criminal-damage-arson": 55,
+    "drugs": 53,
+    "other-theft": 118,
+    "possession-of-weapons": 7,
+    "public-order": 76,
+    "robbery": 48,
+    "shoplifting": 186,
+    "theft-from-the-person": 106,
+    "vehicle-crime": 82,
+    "violent-crime": 249,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 149.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

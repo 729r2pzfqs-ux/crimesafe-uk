@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013661", "neighbourhood_name": "Highgate", "force_id": "metropolitan", "lat": "51.5631", "lng": "-0.156422", "population": 12098, "total_crimes": 667, "categories": {"anti-social-behaviour": 143, "bicycle-theft": 8, "burglary": 27, "criminal-damage-arson": 38, "drugs": 21, "other-theft": 41, "possession-of-weapons": 2, "public-order": 53, "robbery": 21, "shoplifting": 61, "theft-from-the-person": 37, "vehicle-crime": 40, "violent-crime": 170, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013661",
+  "neighbourhood_name": "Highgate",
+  "force_id": "metropolitan",
+  "lat": "51.5631",
+  "lng": "-0.156422",
+  "population": 13077,
+  "total_crimes": 667,
+  "categories": {
+    "anti-social-behaviour": 143,
+    "bicycle-theft": 8,
+    "burglary": 27,
+    "criminal-damage-arson": 38,
+    "drugs": 21,
+    "other-theft": 41,
+    "possession-of-weapons": 2,
+    "public-order": 53,
+    "robbery": 21,
+    "shoplifting": 61,
+    "theft-from-the-person": 37,
+    "vehicle-crime": 40,
+    "violent-crime": 170,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 51.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

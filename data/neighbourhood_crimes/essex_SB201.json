@@ -1,1 +1,22 @@
-{"neighbourhood_id": "SB201", "neighbourhood_name": "Hockley and Hullbridge", "force_id": "essex", "lat": "51.611", "lng": "0.651575", "population": 12098, "total_crimes": 29, "categories": {"anti-social-behaviour": 5, "other-theft": 4, "public-order": 3, "shoplifting": 1, "vehicle-crime": 4, "violent-crime": 10, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SB201",
+  "neighbourhood_name": "Hockley and Hullbridge",
+  "force_id": "essex",
+  "lat": "51.611",
+  "lng": "0.651575",
+  "population": 22585,
+  "total_crimes": 29,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "other-theft": 4,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 10,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

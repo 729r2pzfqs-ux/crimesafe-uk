@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05011232", "neighbourhood_name": "Thamesmead East", "force_id": "metropolitan", "lat": "51.5033", "lng": "0.135806", "population": 12098, "total_crimes": 267, "categories": {"anti-social-behaviour": 59, "burglary": 4, "criminal-damage-arson": 20, "drugs": 7, "other-theft": 11, "public-order": 16, "robbery": 7, "shoplifting": 4, "theft-from-the-person": 2, "vehicle-crime": 35, "violent-crime": 93, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011232",
+  "neighbourhood_name": "Thamesmead East",
+  "force_id": "metropolitan",
+  "lat": "51.5033",
+  "lng": "0.135806",
+  "population": 17115,
+  "total_crimes": 267,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "burglary": 4,
+    "criminal-damage-arson": 20,
+    "drugs": 7,
+    "other-theft": 11,
+    "public-order": 16,
+    "robbery": 7,
+    "shoplifting": 4,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 35,
+    "violent-crime": 93,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

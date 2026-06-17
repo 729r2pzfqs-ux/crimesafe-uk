@@ -1,1 +1,26 @@
-{"neighbourhood_id": "BC05", "neighbourhood_name": "Alsager", "force_id": "cheshire", "lat": "53.0978", "lng": "-2.30498", "population": "0", "total_crimes": 73, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 3, "possession-of-weapons": 1, "public-order": 9, "shoplifting": 3, "vehicle-crime": 3, "violent-crime": 38, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BC05",
+  "neighbourhood_name": "Alsager",
+  "force_id": "cheshire",
+  "lat": "53.0978",
+  "lng": "-2.30498",
+  "population": 12458,
+  "total_crimes": 73,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "shoplifting": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 38,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

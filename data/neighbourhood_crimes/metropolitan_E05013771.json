@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013771", "neighbourhood_name": "Wallington South", "force_id": "metropolitan", "lat": "51.354", "lng": "-0.148788", "population": 11049, "total_crimes": 258, "categories": {"anti-social-behaviour": 47, "bicycle-theft": 1, "burglary": 13, "criminal-damage-arson": 14, "drugs": 4, "other-theft": 8, "public-order": 26, "robbery": 1, "shoplifting": 46, "theft-from-the-person": 8, "vehicle-crime": 13, "violent-crime": 77}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013771",
+  "neighbourhood_name": "Wallington South",
+  "force_id": "metropolitan",
+  "lat": "51.354",
+  "lng": "-0.148788",
+  "population": 11261,
+  "total_crimes": 258,
+  "categories": {
+    "anti-social-behaviour": 47,
+    "bicycle-theft": 1,
+    "burglary": 13,
+    "criminal-damage-arson": 14,
+    "drugs": 4,
+    "other-theft": 8,
+    "public-order": 26,
+    "robbery": 1,
+    "shoplifting": 46,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 13,
+    "violent-crime": 77
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "HY2", "neighbourhood_name": "Rishton", "force_id": "lancashire", "lat": "53.7679", "lng": "-2.42829", "population": 12098, "total_crimes": 51, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 5, "public-order": 2, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 26, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY2",
+  "neighbourhood_name": "Rishton",
+  "force_id": "lancashire",
+  "lat": "53.7679",
+  "lng": "-2.42829",
+  "population": 6428,
+  "total_crimes": 51,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 5,
+    "public-order": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 26,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

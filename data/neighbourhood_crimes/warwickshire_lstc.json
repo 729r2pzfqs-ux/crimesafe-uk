@@ -1,1 +1,29 @@
-{"neighbourhood_id": "lstc", "neighbourhood_name": "Leamington Town Centre", "force_id": "warwickshire", "lat": "52.2895", "lng": "-1.53353", "population": 12098, "total_crimes": 380, "categories": {"anti-social-behaviour": 78, "bicycle-theft": 18, "burglary": 4, "criminal-damage-arson": 25, "drugs": 11, "other-theft": 29, "possession-of-weapons": 6, "public-order": 15, "robbery": 1, "shoplifting": 61, "theft-from-the-person": 4, "vehicle-crime": 17, "violent-crime": 105, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "lstc",
+  "neighbourhood_name": "Leamington Town Centre",
+  "force_id": "warwickshire",
+  "lat": "52.2895",
+  "lng": "-1.53353",
+  "population": 1864,
+  "total_crimes": 380,
+  "categories": {
+    "anti-social-behaviour": 78,
+    "bicycle-theft": 18,
+    "burglary": 4,
+    "criminal-damage-arson": 25,
+    "drugs": 11,
+    "other-theft": 29,
+    "possession-of-weapons": 6,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 61,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 17,
+    "violent-crime": 105,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 203.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

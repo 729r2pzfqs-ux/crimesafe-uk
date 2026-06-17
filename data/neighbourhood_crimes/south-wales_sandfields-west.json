@@ -1,1 +1,25 @@
-{"neighbourhood_id": "sandfields-west", "neighbourhood_name": "Sandfields West", "force_id": "south-wales", "lat": "51.6022", "lng": "-3.82608", "population": 12098, "total_crimes": 89, "categories": {"anti-social-behaviour": 20, "criminal-damage-arson": 9, "drugs": 2, "other-theft": 1, "possession-of-weapons": 1, "public-order": 7, "shoplifting": 8, "theft-from-the-person": 1, "violent-crime": 37, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "sandfields-west",
+  "neighbourhood_name": "Sandfields West",
+  "force_id": "south-wales",
+  "lat": "51.6022",
+  "lng": "-3.82608",
+  "population": 6871,
+  "total_crimes": 89,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "criminal-damage-arson": 9,
+    "drugs": 2,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "violent-crime": 37,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

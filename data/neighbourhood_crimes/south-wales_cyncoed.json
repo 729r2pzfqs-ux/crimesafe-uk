@@ -1,1 +1,27 @@
-{"neighbourhood_id": "cyncoed", "neighbourhood_name": "Cyncoed", "force_id": "south-wales", "lat": "51.5178", "lng": "-3.16719", "population": 12098, "total_crimes": 137, "categories": {"anti-social-behaviour": 19, "burglary": 4, "criminal-damage-arson": 14, "drugs": 3, "other-theft": 10, "possession-of-weapons": 1, "public-order": 14, "robbery": 2, "shoplifting": 7, "vehicle-crime": 15, "violent-crime": 45, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cyncoed",
+  "neighbourhood_name": "Cyncoed",
+  "force_id": "south-wales",
+  "lat": "51.5178",
+  "lng": "-3.16719",
+  "population": 13527,
+  "total_crimes": 137,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 4,
+    "criminal-damage-arson": 14,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 7,
+    "vehicle-crime": 15,
+    "violent-crime": 45,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

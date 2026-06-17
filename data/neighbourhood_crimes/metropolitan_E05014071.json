@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014071", "neighbourhood_name": "Whalebone", "force_id": "metropolitan", "lat": "51.5671", "lng": "0.141848", "population": 12098, "total_crimes": 465, "categories": {"anti-social-behaviour": 91, "bicycle-theft": 2, "burglary": 17, "criminal-damage-arson": 24, "drugs": 17, "other-theft": 28, "possession-of-weapons": 5, "public-order": 36, "robbery": 14, "shoplifting": 34, "theft-from-the-person": 4, "vehicle-crime": 47, "violent-crime": 142, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014071",
+  "neighbourhood_name": "Whalebone",
+  "force_id": "metropolitan",
+  "lat": "51.5671",
+  "lng": "0.141848",
+  "population": 11004,
+  "total_crimes": 465,
+  "categories": {
+    "anti-social-behaviour": 91,
+    "bicycle-theft": 2,
+    "burglary": 17,
+    "criminal-damage-arson": 24,
+    "drugs": 17,
+    "other-theft": 28,
+    "possession-of-weapons": 5,
+    "public-order": 36,
+    "robbery": 14,
+    "shoplifting": 34,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 47,
+    "violent-crime": 142,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

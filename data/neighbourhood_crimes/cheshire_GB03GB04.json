@@ -1,1 +1,18 @@
-{"neighbourhood_id": "GB03GB04", "neighbourhood_name": "Ditton and Hale", "force_id": "cheshire", "lat": "53.3407", "lng": "-2.79555", "population": "0", "total_crimes": 6, "categories": {"criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GB03GB04",
+  "neighbourhood_name": "Ditton and Hale",
+  "force_id": "cheshire",
+  "lat": "53.3407",
+  "lng": "-2.79555",
+  "population": 9112,
+  "total_crimes": 6,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

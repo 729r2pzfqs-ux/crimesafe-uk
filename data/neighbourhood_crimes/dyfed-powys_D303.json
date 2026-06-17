@@ -1,1 +1,25 @@
-{"neighbourhood_id": "D303", "neighbourhood_name": "Llandrindod - North", "force_id": "dyfed-powys", "lat": "52.2519", "lng": "-3.36697", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 4, "drugs": 4, "other-theft": 4, "possession-of-weapons": 1, "public-order": 7, "shoplifting": 3, "vehicle-crime": 1, "violent-crime": 30, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D303",
+  "neighbourhood_name": "Llandrindod - North",
+  "force_id": "dyfed-powys",
+  "lat": "52.2519",
+  "lng": "-3.36697",
+  "population": 2180,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 4,
+    "drugs": 4,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "shoplifting": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 30,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

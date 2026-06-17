@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BE110", "neighbourhood_name": "St Pauls", "force_id": "avon-and-somerset", "lat": "51.4645", "lng": "-2.58243", "population": "0", "total_crimes": 1675, "categories": {"anti-social-behaviour": 293, "bicycle-theft": 33, "burglary": 90, "criminal-damage-arson": 90, "drugs": 27, "other-theft": 114, "possession-of-weapons": 12, "public-order": 186, "robbery": 46, "shoplifting": 153, "theft-from-the-person": 18, "vehicle-crime": 78, "violent-crime": 512, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE110",
+  "neighbourhood_name": "St Pauls",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4645",
+  "lng": "-2.58243",
+  "population": 9743,
+  "total_crimes": 1675,
+  "categories": {
+    "anti-social-behaviour": 293,
+    "bicycle-theft": 33,
+    "burglary": 90,
+    "criminal-damage-arson": 90,
+    "drugs": 27,
+    "other-theft": 114,
+    "possession-of-weapons": 12,
+    "public-order": 186,
+    "robbery": 46,
+    "shoplifting": 153,
+    "theft-from-the-person": 18,
+    "vehicle-crime": 78,
+    "violent-crime": 512,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 171.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

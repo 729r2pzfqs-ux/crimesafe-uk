@@ -1,1 +1,23 @@
-{"neighbourhood_id": "24", "neighbourhood_name": "Minster and Woodmansey", "force_id": "humberside", "lat": "53.8305", "lng": "-0.404362", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 9, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 5, "public-order": 7, "shoplifting": 16, "vehicle-crime": 1, "violent-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "24",
+  "neighbourhood_name": "Minster and Woodmansey",
+  "force_id": "humberside",
+  "lat": "53.8305",
+  "lng": "-0.404362",
+  "population": 16490,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 5,
+    "public-order": 7,
+    "shoplifting": 16,
+    "vehicle-crime": 1,
+    "violent-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

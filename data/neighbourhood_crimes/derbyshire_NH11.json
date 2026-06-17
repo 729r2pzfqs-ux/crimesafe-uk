@@ -1,1 +1,20 @@
-{"neighbourhood_id": "NH11", "neighbourhood_name": "Buxton Rural East", "force_id": "derbyshire", "lat": "53.2813", "lng": "-1.85289", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "public-order": 2, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH11",
+  "neighbourhood_name": "Buxton Rural East",
+  "force_id": "derbyshire",
+  "lat": "53.2813",
+  "lng": "-1.85289",
+  "population": 2155,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "public-order": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

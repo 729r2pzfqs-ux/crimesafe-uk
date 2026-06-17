@@ -1,1 +1,17 @@
-{"neighbourhood_id": "E05008145", "neighbourhood_name": "Bridgnorth", "force_id": "west-mercia", "lat": "52.5145", "lng": "-2.35643", "population": 6194, "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05008145",
+  "neighbourhood_name": "Bridgnorth",
+  "force_id": "west-mercia",
+  "lat": "52.5145",
+  "lng": "-2.35643",
+  "population": 18653,
+  "total_crimes": 2,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

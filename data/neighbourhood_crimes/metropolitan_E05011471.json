@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011471", "neighbourhood_name": "New Addington South", "force_id": "metropolitan", "lat": "51.3412", "lng": "-0.012598", "population": 12098, "total_crimes": 147, "categories": {"anti-social-behaviour": 35, "burglary": 2, "criminal-damage-arson": 18, "drugs": 14, "other-theft": 5, "possession-of-weapons": 3, "public-order": 7, "robbery": 2, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 36, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011471",
+  "neighbourhood_name": "New Addington South",
+  "force_id": "metropolitan",
+  "lat": "51.3412",
+  "lng": "-0.012598",
+  "population": 11082,
+  "total_crimes": 147,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "burglary": 2,
+    "criminal-damage-arson": 18,
+    "drugs": 14,
+    "other-theft": 5,
+    "possession-of-weapons": 3,
+    "public-order": 7,
+    "robbery": 2,
+    "shoplifting": 16,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 36,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

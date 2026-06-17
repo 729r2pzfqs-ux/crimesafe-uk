@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05012450", "neighbourhood_name": "Normanby", "force_id": "cleveland", "lat": "54.5497", "lng": "-1.16194", "population": "0", "total_crimes": 306, "categories": {"anti-social-behaviour": 40, "burglary": 17, "criminal-damage-arson": 42, "drugs": 10, "other-theft": 20, "possession-of-weapons": 2, "public-order": 22, "robbery": 2, "shoplifting": 39, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 90, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012450",
+  "neighbourhood_name": "Normanby",
+  "force_id": "cleveland",
+  "lat": "54.5497",
+  "lng": "-1.16194",
+  "population": 7004,
+  "total_crimes": 306,
+  "categories": {
+    "anti-social-behaviour": 40,
+    "burglary": 17,
+    "criminal-damage-arson": 42,
+    "drugs": 10,
+    "other-theft": 20,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 2,
+    "shoplifting": 39,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 90,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

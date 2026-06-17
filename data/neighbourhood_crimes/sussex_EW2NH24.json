@@ -1,1 +1,22 @@
-{"neighbourhood_id": "EW2NH24", "neighbourhood_name": "Horam", "force_id": "sussex", "lat": "50.9322", "lng": "0.250572", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 1, "drugs": 2, "other-theft": 2, "public-order": 1, "shoplifting": 1, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW2NH24",
+  "neighbourhood_name": "Horam",
+  "force_id": "sussex",
+  "lat": "50.9322",
+  "lng": "0.250572",
+  "population": 2906,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 1,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

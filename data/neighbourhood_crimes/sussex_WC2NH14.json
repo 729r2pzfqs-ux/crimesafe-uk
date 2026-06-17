@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WC2NH14", "neighbourhood_name": "Selsey North and South", "force_id": "sussex", "lat": "50.7441", "lng": "-0.781763", "population": 12098, "total_crimes": 53, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 9, "other-theft": 3, "possession-of-weapons": 2, "public-order": 3, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 13, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC2NH14",
+  "neighbourhood_name": "Selsey North and South",
+  "force_id": "sussex",
+  "lat": "50.7441",
+  "lng": "-0.781763",
+  "population": 10668,
+  "total_crimes": 53,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 13,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009323", "neighbourhood_name": "Canary Wharf", "force_id": "metropolitan", "lat": "51.5016", "lng": "-0.0210598", "population": 12098, "total_crimes": 1085, "categories": {"anti-social-behaviour": 220, "bicycle-theft": 9, "burglary": 51, "criminal-damage-arson": 52, "drugs": 32, "other-theft": 81, "possession-of-weapons": 11, "public-order": 71, "robbery": 29, "shoplifting": 86, "theft-from-the-person": 44, "vehicle-crime": 106, "violent-crime": 284, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009323",
+  "neighbourhood_name": "Canary Wharf",
+  "force_id": "metropolitan",
+  "lat": "51.5016",
+  "lng": "-0.0210598",
+  "population": 16308,
+  "total_crimes": 1085,
+  "categories": {
+    "anti-social-behaviour": 220,
+    "bicycle-theft": 9,
+    "burglary": 51,
+    "criminal-damage-arson": 52,
+    "drugs": 32,
+    "other-theft": 81,
+    "possession-of-weapons": 11,
+    "public-order": 71,
+    "robbery": 29,
+    "shoplifting": 86,
+    "theft-from-the-person": 44,
+    "vehicle-crime": 106,
+    "violent-crime": 284,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,19 @@
-{"neighbourhood_id": "sully", "neighbourhood_name": "Sully", "force_id": "south-wales", "lat": "51.4071", "lng": "-3.20377", "population": 12098, "total_crimes": 10, "categories": {"burglary": 1, "public-order": 1, "violent-crime": 5, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "sully",
+  "neighbourhood_name": "Sully",
+  "force_id": "south-wales",
+  "lat": "51.4071",
+  "lng": "-3.20377",
+  "population": 4901,
+  "total_crimes": 10,
+  "categories": {
+    "burglary": 1,
+    "public-order": 1,
+    "violent-crime": 5,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

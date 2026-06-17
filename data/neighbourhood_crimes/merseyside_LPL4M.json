@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPL4M", "neighbourhood_name": "Penny Lane", "force_id": "merseyside", "lat": "53.3847", "lng": "-2.91532", "population": 12098, "total_crimes": 215, "categories": {"anti-social-behaviour": 27, "bicycle-theft": 5, "burglary": 3, "criminal-damage-arson": 19, "drugs": 10, "other-theft": 11, "possession-of-weapons": 1, "public-order": 25, "shoplifting": 2, "theft-from-the-person": 3, "vehicle-crime": 18, "violent-crime": 88, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4M",
+  "neighbourhood_name": "Penny Lane",
+  "force_id": "merseyside",
+  "lat": "53.3847",
+  "lng": "-2.91532",
+  "population": 6477,
+  "total_crimes": 215,
+  "categories": {
+    "anti-social-behaviour": 27,
+    "bicycle-theft": 5,
+    "burglary": 3,
+    "criminal-damage-arson": 19,
+    "drugs": 10,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 25,
+    "shoplifting": 2,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 18,
+    "violent-crime": 88,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "A061", "neighbourhood_name": "Carmarthen Town South", "force_id": "dyfed-powys", "lat": "51.8478", "lng": "-4.33062", "population": 12098, "total_crimes": 63, "categories": {"anti-social-behaviour": 4, "bicycle-theft": 1, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 3, "public-order": 4, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 38}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A061",
+  "neighbourhood_name": "Carmarthen Town South",
+  "force_id": "dyfed-powys",
+  "lat": "51.8478",
+  "lng": "-4.33062",
+  "population": 3825,
+  "total_crimes": 63,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 4,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 38
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

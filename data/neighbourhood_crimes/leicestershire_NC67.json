@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC67", "neighbourhood_name": "Riverside", "force_id": "leicestershire", "lat": "52.6274", "lng": "-1.13566", "population": 12098, "total_crimes": 1637, "categories": {"anti-social-behaviour": 217, "bicycle-theft": 20, "burglary": 34, "criminal-damage-arson": 108, "drugs": 85, "other-theft": 136, "possession-of-weapons": 26, "public-order": 194, "robbery": 23, "shoplifting": 176, "theft-from-the-person": 28, "vehicle-crime": 59, "violent-crime": 512, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC67",
+  "neighbourhood_name": "Riverside",
+  "force_id": "leicestershire",
+  "lat": "52.6274",
+  "lng": "-1.13566",
+  "population": 7729,
+  "total_crimes": 1637,
+  "categories": {
+    "anti-social-behaviour": 217,
+    "bicycle-theft": 20,
+    "burglary": 34,
+    "criminal-damage-arson": 108,
+    "drugs": 85,
+    "other-theft": 136,
+    "possession-of-weapons": 26,
+    "public-order": 194,
+    "robbery": 23,
+    "shoplifting": 176,
+    "theft-from-the-person": 28,
+    "vehicle-crime": 59,
+    "violent-crime": 512,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 211.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

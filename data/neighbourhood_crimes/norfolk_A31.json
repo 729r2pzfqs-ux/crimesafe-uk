@@ -1,1 +1,19 @@
-{"neighbourhood_id": "A31", "neighbourhood_name": "Terrington", "force_id": "norfolk", "lat": "52.7577", "lng": "0.270347", "population": 12098, "total_crimes": 6, "categories": {"criminal-damage-arson": 1, "public-order": 2, "shoplifting": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A31",
+  "neighbourhood_name": "Terrington",
+  "force_id": "norfolk",
+  "lat": "52.7577",
+  "lng": "0.270347",
+  "population": 19243,
+  "total_crimes": 6,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

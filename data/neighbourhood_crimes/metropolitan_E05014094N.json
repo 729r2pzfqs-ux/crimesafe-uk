@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014094N", "neighbourhood_name": "Woolwich Dockyard", "force_id": "metropolitan", "lat": "51.4911", "lng": "0.0536239", "population": 12098, "total_crimes": 680, "categories": {"anti-social-behaviour": 111, "bicycle-theft": 2, "burglary": 17, "criminal-damage-arson": 26, "drugs": 48, "other-theft": 48, "possession-of-weapons": 4, "public-order": 53, "robbery": 28, "shoplifting": 59, "theft-from-the-person": 19, "vehicle-crime": 37, "violent-crime": 214, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014094N",
+  "neighbourhood_name": "Woolwich Dockyard",
+  "force_id": "metropolitan",
+  "lat": "51.4911",
+  "lng": "0.0536239",
+  "population": 9626,
+  "total_crimes": 680,
+  "categories": {
+    "anti-social-behaviour": 111,
+    "bicycle-theft": 2,
+    "burglary": 17,
+    "criminal-damage-arson": 26,
+    "drugs": 48,
+    "other-theft": 48,
+    "possession-of-weapons": 4,
+    "public-order": 53,
+    "robbery": 28,
+    "shoplifting": 59,
+    "theft-from-the-person": 19,
+    "vehicle-crime": 37,
+    "violent-crime": 214,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 70.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

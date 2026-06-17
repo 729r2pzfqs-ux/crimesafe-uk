@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05008178", "neighbourhood_name": "Meole Copthorne and Sutton", "force_id": "west-mercia", "lat": "52.6973", "lng": "-2.76229", "population": 3698, "total_crimes": 205, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 21, "drugs": 8, "other-theft": 12, "possession-of-weapons": 3, "public-order": 12, "shoplifting": 21, "vehicle-crime": 2, "violent-crime": 88, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05008178",
+  "neighbourhood_name": "Meole Copthorne and Sutton",
+  "force_id": "west-mercia",
+  "lat": "52.6973",
+  "lng": "-2.76229",
+  "population": 19929,
+  "total_crimes": 205,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 21,
+    "drugs": 8,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 12,
+    "shoplifting": 21,
+    "vehicle-crime": 2,
+    "violent-crime": 88,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

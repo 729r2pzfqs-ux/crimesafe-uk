@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YC68", "neighbourhood_name": "Swanley Christchurch and Swanley Village", "force_id": "kent", "lat": "51.3975", "lng": "0.187493", "population": 12098, "total_crimes": 127, "categories": {"anti-social-behaviour": 17, "criminal-damage-arson": 11, "drugs": 8, "other-theft": 9, "public-order": 6, "robbery": 2, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 39, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC68",
+  "neighbourhood_name": "Swanley Christchurch and Swanley Village",
+  "force_id": "kent",
+  "lat": "51.3975",
+  "lng": "0.187493",
+  "population": 6300,
+  "total_crimes": 127,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "criminal-damage-arson": 11,
+    "drugs": 8,
+    "other-theft": 9,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 39,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

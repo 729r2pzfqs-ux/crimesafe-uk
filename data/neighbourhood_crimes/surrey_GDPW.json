@@ -1,1 +1,19 @@
-{"neighbourhood_id": "GDPW", "neighbourhood_name": "Pirbright, Worplesdon, Jacobs Well &amp; Normandy", "force_id": "surrey", "lat": "51.2718", "lng": "-0.628378", "population": 12098, "total_crimes": 8, "categories": {"criminal-damage-arson": 1, "other-theft": 1, "vehicle-crime": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDPW",
+  "neighbourhood_name": "Pirbright, Worplesdon, Jacobs Well &amp; Normandy",
+  "force_id": "surrey",
+  "lat": "51.2718",
+  "lng": "-0.628378",
+  "population": 12295,
+  "total_crimes": 8,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

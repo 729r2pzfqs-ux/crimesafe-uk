@@ -1,1 +1,29 @@
-{"neighbourhood_id": "12BB02", "neighbourhood_name": "Basingstoke Centre", "force_id": "hampshire", "lat": "51.2587", "lng": "-1.0888", "population": 12098, "total_crimes": 364, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 25, "drugs": 11, "other-theft": 30, "possession-of-weapons": 3, "public-order": 36, "robbery": 7, "shoplifting": 35, "theft-from-the-person": 2, "vehicle-crime": 11, "violent-crime": 143, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "12BB02",
+  "neighbourhood_name": "Basingstoke Centre",
+  "force_id": "hampshire",
+  "lat": "51.2587",
+  "lng": "-1.0888",
+  "population": 19843,
+  "total_crimes": 364,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 25,
+    "drugs": 11,
+    "other-theft": 30,
+    "possession-of-weapons": 3,
+    "public-order": 36,
+    "robbery": 7,
+    "shoplifting": 35,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 11,
+    "violent-crime": 143,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

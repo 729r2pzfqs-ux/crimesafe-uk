@@ -1,1 +1,18 @@
-{"neighbourhood_id": "EW2NH59", "neighbourhood_name": "Heathfield East", "force_id": "sussex", "lat": "50.9553", "lng": "0.303113", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW2NH59",
+  "neighbourhood_name": "Heathfield East",
+  "force_id": "sussex",
+  "lat": "50.9553",
+  "lng": "0.303113",
+  "population": 2614,
+  "total_crimes": 3,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

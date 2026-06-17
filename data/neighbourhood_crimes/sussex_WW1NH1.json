@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WW1NH1", "neighbourhood_name": "Worthing Central", "force_id": "sussex", "lat": "50.8134", "lng": "-0.373535", "population": 12098, "total_crimes": 553, "categories": {"anti-social-behaviour": 112, "bicycle-theft": 5, "burglary": 10, "criminal-damage-arson": 39, "drugs": 10, "other-theft": 30, "possession-of-weapons": 7, "public-order": 57, "robbery": 10, "shoplifting": 88, "theft-from-the-person": 8, "vehicle-crime": 6, "violent-crime": 163, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW1NH1",
+  "neighbourhood_name": "Worthing Central",
+  "force_id": "sussex",
+  "lat": "50.8134",
+  "lng": "-0.373535",
+  "population": 8419,
+  "total_crimes": 553,
+  "categories": {
+    "anti-social-behaviour": 112,
+    "bicycle-theft": 5,
+    "burglary": 10,
+    "criminal-damage-arson": 39,
+    "drugs": 10,
+    "other-theft": 30,
+    "possession-of-weapons": 7,
+    "public-order": 57,
+    "robbery": 10,
+    "shoplifting": 88,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 6,
+    "violent-crime": 163,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

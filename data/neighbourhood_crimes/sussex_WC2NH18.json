@@ -1,1 +1,18 @@
-{"neighbourhood_id": "WC2NH18", "neighbourhood_name": "West Wittering", "force_id": "sussex", "lat": "50.7874", "lng": "-0.869488", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 1, "public-order": 4, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC2NH18",
+  "neighbourhood_name": "West Wittering",
+  "force_id": "sussex",
+  "lat": "50.7874",
+  "lng": "-0.869488",
+  "population": 4492,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 4,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

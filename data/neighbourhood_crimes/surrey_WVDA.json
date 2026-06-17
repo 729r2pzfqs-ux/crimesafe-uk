@@ -1,1 +1,22 @@
-{"neighbourhood_id": "WVDA", "neighbourhood_name": "Dunsfold, Alfold &amp; Ellens Green", "force_id": "surrey", "lat": "51.1119", "lng": "-0.500814", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WVDA",
+  "neighbourhood_name": "Dunsfold, Alfold &amp; Ellens Green",
+  "force_id": "surrey",
+  "lat": "51.1119",
+  "lng": "-0.500814",
+  "population": 3384,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

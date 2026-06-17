@@ -1,1 +1,14 @@
-{"neighbourhood_id": "LOCW5KIR", "neighbourhood_name": "Kirkby Stephen and Upper Eden", "force_id": "cumbria", "lat": "54.4834", "lng": "-2.42678", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCW5KIR",
+  "neighbourhood_name": "Kirkby Stephen and Upper Eden",
+  "force_id": "cumbria",
+  "lat": "54.4834",
+  "lng": "-2.42678",
+  "population": 7604,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

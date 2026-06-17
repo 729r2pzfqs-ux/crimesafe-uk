@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013591", "neighbourhood_name": "Hermitage and Gardens", "force_id": "metropolitan", "lat": "51.578", "lng": "-0.0898924", "population": 12098, "total_crimes": 1076, "categories": {"anti-social-behaviour": 286, "bicycle-theft": 4, "burglary": 39, "criminal-damage-arson": 39, "drugs": 26, "other-theft": 66, "possession-of-weapons": 16, "public-order": 54, "robbery": 42, "shoplifting": 66, "theft-from-the-person": 90, "vehicle-crime": 67, "violent-crime": 270, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013591",
+  "neighbourhood_name": "Hermitage and Gardens",
+  "force_id": "metropolitan",
+  "lat": "51.578",
+  "lng": "-0.0898924",
+  "population": 7130,
+  "total_crimes": 1076,
+  "categories": {
+    "anti-social-behaviour": 286,
+    "bicycle-theft": 4,
+    "burglary": 39,
+    "criminal-damage-arson": 39,
+    "drugs": 26,
+    "other-theft": 66,
+    "possession-of-weapons": 16,
+    "public-order": 54,
+    "robbery": 42,
+    "shoplifting": 66,
+    "theft-from-the-person": 90,
+    "vehicle-crime": 67,
+    "violent-crime": 270,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 150.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

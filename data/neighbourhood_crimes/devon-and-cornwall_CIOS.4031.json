@@ -1,1 +1,19 @@
-{"neighbourhood_id": "CIOS.4031", "neighbourhood_name": "Lostwithiel &amp;amp; Fowey", "force_id": "devon-and-cornwall", "lat": "50.375", "lng": "-4.71741", "population": 12098, "total_crimes": 9, "categories": {"other-theft": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4031",
+  "neighbourhood_name": "Lostwithiel &amp;amp; Fowey",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.375",
+  "lng": "-4.71741",
+  "population": 8165,
+  "total_crimes": 9,
+  "categories": {
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

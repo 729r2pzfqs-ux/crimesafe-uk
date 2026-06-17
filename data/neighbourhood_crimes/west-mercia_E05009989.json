@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05009989", "neighbourhood_name": "St Georges and Priorslee", "force_id": "west-mercia", "lat": "52.7066", "lng": "-2.41826", "population": 12098, "total_crimes": 63, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 4, "possession-of-weapons": 1, "public-order": 6, "shoplifting": 6, "vehicle-crime": 2, "violent-crime": 24, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009989",
+  "neighbourhood_name": "St Georges and Priorslee",
+  "force_id": "west-mercia",
+  "lat": "52.7066",
+  "lng": "-2.41826",
+  "population": 20344,
+  "total_crimes": 63,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "shoplifting": 6,
+    "vehicle-crime": 2,
+    "violent-crime": 24,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

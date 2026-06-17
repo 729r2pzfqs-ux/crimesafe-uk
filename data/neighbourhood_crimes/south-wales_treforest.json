@@ -1,1 +1,27 @@
-{"neighbourhood_id": "treforest", "neighbourhood_name": "Treforest", "force_id": "south-wales", "lat": "51.5924", "lng": "-3.32393", "population": 12098, "total_crimes": 154, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 6, "drugs": 11, "other-theft": 8, "possession-of-weapons": 1, "public-order": 15, "robbery": 1, "shoplifting": 24, "vehicle-crime": 5, "violent-crime": 67, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "treforest",
+  "neighbourhood_name": "Treforest",
+  "force_id": "south-wales",
+  "lat": "51.5924",
+  "lng": "-3.32393",
+  "population": 5182,
+  "total_crimes": 154,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 11,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 24,
+    "vehicle-crime": 5,
+    "violent-crime": 67,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

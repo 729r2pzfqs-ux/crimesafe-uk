@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05009859", "neighbourhood_name": "Hemlington", "force_id": "cleveland", "lat": "54.5242", "lng": "-1.24067", "population": "0", "total_crimes": 238, "categories": {"anti-social-behaviour": 56, "burglary": 7, "criminal-damage-arson": 38, "drugs": 8, "other-theft": 8, "public-order": 17, "robbery": 1, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 79, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009859",
+  "neighbourhood_name": "Hemlington",
+  "force_id": "cleveland",
+  "lat": "54.5242",
+  "lng": "-1.24067",
+  "population": 5618,
+  "total_crimes": 238,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "burglary": 7,
+    "criminal-damage-arson": 38,
+    "drugs": 8,
+    "other-theft": 8,
+    "public-order": 17,
+    "robbery": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 79,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

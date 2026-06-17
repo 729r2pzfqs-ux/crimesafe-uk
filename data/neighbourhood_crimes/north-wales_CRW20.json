@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CRW20", "neighbourhood_name": "Uwchaled", "force_id": "north-wales", "lat": "53.03", "lng": "-3.57203", "population": 12098, "total_crimes": 1, "categories": {"shoplifting": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CRW20",
+  "neighbourhood_name": "Uwchaled",
+  "force_id": "north-wales",
+  "lat": "53.03",
+  "lng": "-3.57203",
+  "population": 1455,
+  "total_crimes": 1,
+  "categories": {
+    "shoplifting": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

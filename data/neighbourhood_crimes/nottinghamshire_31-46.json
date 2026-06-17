@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-46", "neighbourhood_name": "Radford &amp; Park", "force_id": "nottinghamshire", "lat": "52.9569", "lng": "-1.1678", "population": 12098, "total_crimes": 1739, "categories": {"anti-social-behaviour": 301, "bicycle-theft": 16, "burglary": 54, "criminal-damage-arson": 88, "drugs": 67, "other-theft": 107, "possession-of-weapons": 27, "public-order": 114, "robbery": 73, "shoplifting": 295, "theft-from-the-person": 42, "vehicle-crime": 57, "violent-crime": 473, "other-crime": 25}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-46",
+  "neighbourhood_name": "Radford &amp; Park",
+  "force_id": "nottinghamshire",
+  "lat": "52.9569",
+  "lng": "-1.1678",
+  "population": 21383,
+  "total_crimes": 1739,
+  "categories": {
+    "anti-social-behaviour": 301,
+    "bicycle-theft": 16,
+    "burglary": 54,
+    "criminal-damage-arson": 88,
+    "drugs": 67,
+    "other-theft": 107,
+    "possession-of-weapons": 27,
+    "public-order": 114,
+    "robbery": 73,
+    "shoplifting": 295,
+    "theft-from-the-person": 42,
+    "vehicle-crime": 57,
+    "violent-crime": 473,
+    "other-crime": 25
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 81.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

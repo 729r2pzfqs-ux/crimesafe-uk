@@ -1,1 +1,25 @@
-{"neighbourhood_id": "AC03", "neighbourhood_name": "Upton", "force_id": "cheshire", "lat": "53.2184", "lng": "-2.88331", "population": "0", "total_crimes": 97, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 10, "drugs": 1, "other-theft": 8, "possession-of-weapons": 1, "public-order": 14, "robbery": 2, "shoplifting": 4, "violent-crime": 46, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC03",
+  "neighbourhood_name": "Upton",
+  "force_id": "cheshire",
+  "lat": "53.2184",
+  "lng": "-2.88331",
+  "population": 11596,
+  "total_crimes": 97,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 10,
+    "drugs": 1,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 4,
+    "violent-crime": 46,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

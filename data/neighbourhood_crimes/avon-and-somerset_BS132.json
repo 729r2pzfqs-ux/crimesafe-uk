@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BS132", "neighbourhood_name": "Hengrove and Whitchurch", "force_id": "avon-and-somerset", "lat": "51.4124", "lng": "-2.57734", "population": "0", "total_crimes": 422, "categories": {"anti-social-behaviour": 85, "bicycle-theft": 3, "burglary": 11, "criminal-damage-arson": 22, "drugs": 5, "other-theft": 24, "possession-of-weapons": 1, "public-order": 30, "robbery": 7, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 11, "violent-crime": 197, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BS132",
+  "neighbourhood_name": "Hengrove and Whitchurch",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4124",
+  "lng": "-2.57734",
+  "population": 17373,
+  "total_crimes": 422,
+  "categories": {
+    "anti-social-behaviour": 85,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "criminal-damage-arson": 22,
+    "drugs": 5,
+    "other-theft": 24,
+    "possession-of-weapons": 1,
+    "public-order": 30,
+    "robbery": 7,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 11,
+    "violent-crime": 197,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

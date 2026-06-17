@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CIOS.4053", "neighbourhood_name": "Launceston", "force_id": "devon-and-cornwall", "lat": "50.6101", "lng": "-4.37135", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4053",
+  "neighbourhood_name": "Launceston",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.6101",
+  "lng": "-4.37135",
+  "population": 10571,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

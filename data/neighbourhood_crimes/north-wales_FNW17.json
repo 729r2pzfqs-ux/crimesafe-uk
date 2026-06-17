@@ -1,1 +1,23 @@
-{"neighbourhood_id": "FNW17", "neighbourhood_name": "Connah's Quay South", "force_id": "north-wales", "lat": "53.2078", "lng": "-3.07379", "population": 12098, "total_crimes": 63, "categories": {"anti-social-behaviour": 23, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 2, "public-order": 1, "shoplifting": 5, "violent-crime": 22, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW17",
+  "neighbourhood_name": "Connah's Quay South",
+  "force_id": "north-wales",
+  "lat": "53.2078",
+  "lng": "-3.07379",
+  "population": 5731,
+  "total_crimes": 63,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 5,
+    "violent-crime": 22,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

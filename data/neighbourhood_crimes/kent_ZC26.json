@@ -1,1 +1,18 @@
-{"neighbourhood_id": "ZC26", "neighbourhood_name": "Biddenden", "force_id": "kent", "lat": "51.1137", "lng": "0.643318", "population": 12098, "total_crimes": 9, "categories": {"anti-social-behaviour": 2, "vehicle-crime": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC26",
+  "neighbourhood_name": "Biddenden",
+  "force_id": "kent",
+  "lat": "51.1137",
+  "lng": "0.643318",
+  "population": 2600,
+  "total_crimes": 9,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

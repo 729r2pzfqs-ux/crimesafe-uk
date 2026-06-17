@@ -1,1 +1,26 @@
-{"neighbourhood_id": "XD60", "neighbourhood_name": "Bean &amp; Village Park", "force_id": "kent", "lat": "51.4258", "lng": "0.275911", "population": 12098, "total_crimes": 58, "categories": {"anti-social-behaviour": 18, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 4, "possession-of-weapons": 1, "public-order": 3, "shoplifting": 2, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 15, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD60",
+  "neighbourhood_name": "Bean &amp; Village Park",
+  "force_id": "kent",
+  "lat": "51.4258",
+  "lng": "0.275911",
+  "population": 3019,
+  "total_crimes": 58,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "shoplifting": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 15,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

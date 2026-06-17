@@ -1,1 +1,26 @@
-{"neighbourhood_id": "30", "neighbourhood_name": "Cottingham South", "force_id": "humberside", "lat": "53.775", "lng": "-0.419836", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 7, "bicycle-theft": 1, "burglary": 2, "criminal-damage-arson": 8, "drugs": 2, "other-theft": 1, "public-order": 3, "robbery": 1, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 26}, "date": "2026-03"}
+{
+  "neighbourhood_id": "30",
+  "neighbourhood_name": "Cottingham South",
+  "force_id": "humberside",
+  "lat": "53.775",
+  "lng": "-0.419836",
+  "population": 9643,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "bicycle-theft": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 8,
+    "drugs": 2,
+    "other-theft": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 26
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

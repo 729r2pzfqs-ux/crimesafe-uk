@@ -1,1 +1,22 @@
-{"neighbourhood_id": "CIOS.4051", "neighbourhood_name": "Bude Town", "force_id": "devon-and-cornwall", "lat": "50.8306", "lng": "-4.52602", "population": 12098, "total_crimes": 37, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 4, "other-theft": 2, "public-order": 1, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4051",
+  "neighbourhood_name": "Bude Town",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.8306",
+  "lng": "-4.52602",
+  "population": 10599,
+  "total_crimes": 37,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

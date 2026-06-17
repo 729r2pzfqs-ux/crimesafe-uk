@@ -1,1 +1,21 @@
-{"neighbourhood_id": "YB80", "neighbourhood_name": "Borough Green &amp; Platt", "force_id": "kent", "lat": "51.2815", "lng": "0.320855", "population": 12098, "total_crimes": 11, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB80",
+  "neighbourhood_name": "Borough Green &amp; Platt",
+  "force_id": "kent",
+  "lat": "51.2815",
+  "lng": "0.320855",
+  "population": 6146,
+  "total_crimes": 11,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

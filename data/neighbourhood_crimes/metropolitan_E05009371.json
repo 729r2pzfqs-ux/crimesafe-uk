@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009371", "neighbourhood_name": "De Beauvoir", "force_id": "metropolitan", "lat": "51.5416", "lng": "-0.0811327", "population": 10740, "total_crimes": 1554, "categories": {"anti-social-behaviour": 288, "bicycle-theft": 47, "burglary": 75, "criminal-damage-arson": 66, "drugs": 111, "other-theft": 111, "possession-of-weapons": 18, "public-order": 73, "robbery": 40, "shoplifting": 105, "theft-from-the-person": 178, "vehicle-crime": 67, "violent-crime": 366, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009371",
+  "neighbourhood_name": "De Beauvoir",
+  "force_id": "metropolitan",
+  "lat": "51.5416",
+  "lng": "-0.0811327",
+  "population": 8112,
+  "total_crimes": 1554,
+  "categories": {
+    "anti-social-behaviour": 288,
+    "bicycle-theft": 47,
+    "burglary": 75,
+    "criminal-damage-arson": 66,
+    "drugs": 111,
+    "other-theft": 111,
+    "possession-of-weapons": 18,
+    "public-order": 73,
+    "robbery": 40,
+    "shoplifting": 105,
+    "theft-from-the-person": 178,
+    "vehicle-crime": 67,
+    "violent-crime": 366,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 191.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

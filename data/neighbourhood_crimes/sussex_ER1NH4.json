@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ER1NH4", "neighbourhood_name": "Collington", "force_id": "sussex", "lat": "50.8376", "lng": "0.445369", "population": 12098, "total_crimes": 50, "categories": {"anti-social-behaviour": 11, "burglary": 1, "criminal-damage-arson": 2, "drugs": 3, "other-theft": 3, "public-order": 6, "shoplifting": 1, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER1NH4",
+  "neighbourhood_name": "Collington",
+  "force_id": "sussex",
+  "lat": "50.8376",
+  "lng": "0.445369",
+  "population": 4318,
+  "total_crimes": 50,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 6,
+    "shoplifting": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "DEV.4084", "neighbourhood_name": "Axminster Town", "force_id": "devon-and-cornwall", "lat": "50.7816", "lng": "-3.00494", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 1, "public-order": 2, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 29, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4084",
+  "neighbourhood_name": "Axminster Town",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.7816",
+  "lng": "-3.00494",
+  "population": 5089,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 29,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

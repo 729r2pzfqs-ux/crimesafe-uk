@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014057", "neighbourhood_name": "Becontree", "force_id": "metropolitan", "lat": "51.5577", "lng": "0.118007", "population": 8564, "total_crimes": 588, "categories": {"anti-social-behaviour": 107, "bicycle-theft": 2, "burglary": 32, "criminal-damage-arson": 26, "drugs": 9, "other-theft": 36, "possession-of-weapons": 3, "public-order": 31, "robbery": 19, "shoplifting": 61, "theft-from-the-person": 13, "vehicle-crime": 63, "violent-crime": 181, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014057",
+  "neighbourhood_name": "Becontree",
+  "force_id": "metropolitan",
+  "lat": "51.5577",
+  "lng": "0.118007",
+  "population": 8114,
+  "total_crimes": 588,
+  "categories": {
+    "anti-social-behaviour": 107,
+    "bicycle-theft": 2,
+    "burglary": 32,
+    "criminal-damage-arson": 26,
+    "drugs": 9,
+    "other-theft": 36,
+    "possession-of-weapons": 3,
+    "public-order": 31,
+    "robbery": 19,
+    "shoplifting": 61,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 63,
+    "violent-crime": 181,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 72.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

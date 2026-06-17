@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011252", "neighbourhood_name": "South Woodford", "force_id": "metropolitan", "lat": "51.5899", "lng": "0.0261047", "population": 10570, "total_crimes": 248, "categories": {"anti-social-behaviour": 39, "bicycle-theft": 2, "burglary": 18, "criminal-damage-arson": 11, "drugs": 8, "other-theft": 14, "possession-of-weapons": 2, "public-order": 12, "robbery": 9, "shoplifting": 28, "theft-from-the-person": 7, "vehicle-crime": 28, "violent-crime": 63, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011252",
+  "neighbourhood_name": "South Woodford",
+  "force_id": "metropolitan",
+  "lat": "51.5899",
+  "lng": "0.0261047",
+  "population": 10776,
+  "total_crimes": 248,
+  "categories": {
+    "anti-social-behaviour": 39,
+    "bicycle-theft": 2,
+    "burglary": 18,
+    "criminal-damage-arson": 11,
+    "drugs": 8,
+    "other-theft": 14,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 9,
+    "shoplifting": 28,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 28,
+    "violent-crime": 63,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

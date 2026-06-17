@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA37", "neighbourhood_name": "Twydall", "force_id": "kent", "lat": "51.3754", "lng": "0.582146", "population": 12098, "total_crimes": 186, "categories": {"anti-social-behaviour": 43, "bicycle-theft": 4, "burglary": 4, "criminal-damage-arson": 13, "drugs": 7, "other-theft": 23, "possession-of-weapons": 2, "public-order": 7, "robbery": 1, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 56, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA37",
+  "neighbourhood_name": "Twydall",
+  "force_id": "kent",
+  "lat": "51.3754",
+  "lng": "0.582146",
+  "population": 8829,
+  "total_crimes": 186,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "bicycle-theft": 4,
+    "burglary": 4,
+    "criminal-damage-arson": 13,
+    "drugs": 7,
+    "other-theft": 23,
+    "possession-of-weapons": 2,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 56,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

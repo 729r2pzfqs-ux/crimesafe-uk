@@ -1,1 +1,17 @@
-{"neighbourhood_id": "penclawdd", "neighbourhood_name": "Pen-clawdd", "force_id": "south-wales", "lat": "51.6355", "lng": "-4.12431", "population": 12098, "total_crimes": 6, "categories": {"other-theft": 2, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penclawdd",
+  "neighbourhood_name": "Pen-clawdd",
+  "force_id": "south-wales",
+  "lat": "51.6355",
+  "lng": "-4.12431",
+  "population": 3569,
+  "total_crimes": 6,
+  "categories": {
+    "other-theft": 2,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

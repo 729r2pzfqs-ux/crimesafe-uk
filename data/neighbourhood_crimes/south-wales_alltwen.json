@@ -1,1 +1,24 @@
-{"neighbourhood_id": "alltwen", "neighbourhood_name": "Allt-wen", "force_id": "south-wales", "lat": "51.711", "lng": "-3.84605", "population": 12098, "total_crimes": 39, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 1, "public-order": 6, "shoplifting": 2, "violent-crime": 19, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "alltwen",
+  "neighbourhood_name": "Allt-wen",
+  "force_id": "south-wales",
+  "lat": "51.711",
+  "lng": "-3.84605",
+  "population": 2786,
+  "total_crimes": 39,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 6,
+    "shoplifting": 2,
+    "violent-crime": 19,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

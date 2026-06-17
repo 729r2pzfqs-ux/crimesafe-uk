@@ -1,1 +1,27 @@
-{"neighbourhood_id": "EH3NH8", "neighbourhood_name": "Hollington", "force_id": "sussex", "lat": "50.8772", "lng": "0.538139", "population": 12098, "total_crimes": 171, "categories": {"anti-social-behaviour": 25, "burglary": 3, "criminal-damage-arson": 11, "drugs": 8, "other-theft": 11, "possession-of-weapons": 5, "public-order": 12, "robbery": 2, "shoplifting": 21, "vehicle-crime": 8, "violent-crime": 59, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EH3NH8",
+  "neighbourhood_name": "Hollington",
+  "force_id": "sussex",
+  "lat": "50.8772",
+  "lng": "0.538139",
+  "population": 6364,
+  "total_crimes": 171,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 3,
+    "criminal-damage-arson": 11,
+    "drugs": 8,
+    "other-theft": 11,
+    "possession-of-weapons": 5,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 21,
+    "vehicle-crime": 8,
+    "violent-crime": 59,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

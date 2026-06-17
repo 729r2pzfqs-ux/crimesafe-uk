@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05009860", "neighbourhood_name": "Kader", "force_id": "cleveland", "lat": "54.5373", "lng": "-1.25083", "population": "0", "total_crimes": 177, "categories": {"anti-social-behaviour": 46, "burglary": 6, "criminal-damage-arson": 27, "drugs": 3, "other-theft": 8, "public-order": 9, "robbery": 1, "shoplifting": 22, "vehicle-crime": 7, "violent-crime": 44, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009860",
+  "neighbourhood_name": "Kader",
+  "force_id": "cleveland",
+  "lat": "54.5373",
+  "lng": "-1.25083",
+  "population": 4847,
+  "total_crimes": 177,
+  "categories": {
+    "anti-social-behaviour": 46,
+    "burglary": 6,
+    "criminal-damage-arson": 27,
+    "drugs": 3,
+    "other-theft": 8,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 22,
+    "vehicle-crime": 7,
+    "violent-crime": 44,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 36.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

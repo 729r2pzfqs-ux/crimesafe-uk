@@ -1,1 +1,23 @@
-{"neighbourhood_id": "F4", "neighbourhood_name": "Cramlington", "force_id": "northumbria", "lat": "55.0873", "lng": "-1.55367", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 9, "drugs": 2, "public-order": 1, "robbery": 1, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "F4",
+  "neighbourhood_name": "Cramlington",
+  "force_id": "northumbria",
+  "lat": "55.0873",
+  "lng": "-1.55367",
+  "population": 45471,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "drugs": 2,
+    "public-order": 1,
+    "robbery": 1,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 30
+}

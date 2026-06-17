@@ -1,1 +1,27 @@
-{"neighbourhood_id": "N436", "neighbourhood_name": "Central Bletchley and Fenny Stratford", "force_id": "thames-valley", "lat": "51.9953", "lng": "-0.731152", "population": 12098, "total_crimes": 240, "categories": {"anti-social-behaviour": 18, "burglary": 9, "criminal-damage-arson": 11, "drugs": 5, "other-theft": 21, "public-order": 24, "robbery": 2, "shoplifting": 34, "theft-from-the-person": 1, "vehicle-crime": 16, "violent-crime": 97, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N436",
+  "neighbourhood_name": "Central Bletchley and Fenny Stratford",
+  "force_id": "thames-valley",
+  "lat": "51.9953",
+  "lng": "-0.731152",
+  "population": 16062,
+  "total_crimes": 240,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 9,
+    "criminal-damage-arson": 11,
+    "drugs": 5,
+    "other-theft": 21,
+    "public-order": 24,
+    "robbery": 2,
+    "shoplifting": 34,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 16,
+    "violent-crime": 97,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

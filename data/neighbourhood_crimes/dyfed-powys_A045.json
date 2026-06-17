@@ -1,1 +1,29 @@
-{"neighbourhood_id": "A045", "neighbourhood_name": "Tyisha", "force_id": "dyfed-powys", "lat": "51.6774", "lng": "-4.16047", "population": 12098, "total_crimes": 408, "categories": {"anti-social-behaviour": 82, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 46, "drugs": 14, "other-theft": 20, "possession-of-weapons": 6, "public-order": 38, "robbery": 2, "shoplifting": 42, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 125, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A045",
+  "neighbourhood_name": "Tyisha",
+  "force_id": "dyfed-powys",
+  "lat": "51.6774",
+  "lng": "-4.16047",
+  "population": 4211,
+  "total_crimes": 408,
+  "categories": {
+    "anti-social-behaviour": 82,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 46,
+    "drugs": 14,
+    "other-theft": 20,
+    "possession-of-weapons": 6,
+    "public-order": 38,
+    "robbery": 2,
+    "shoplifting": 42,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 125,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 96.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

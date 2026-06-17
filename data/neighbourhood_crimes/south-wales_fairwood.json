@@ -1,1 +1,18 @@
-{"neighbourhood_id": "fairwood", "neighbourhood_name": "Fairwood", "force_id": "south-wales", "lat": "51.618", "lng": "-4.0689", "population": 12098, "total_crimes": 3, "categories": {"public-order": 1, "shoplifting": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "fairwood",
+  "neighbourhood_name": "Fairwood",
+  "force_id": "south-wales",
+  "lat": "51.618",
+  "lng": "-4.0689",
+  "population": 2824,
+  "total_crimes": 3,
+  "categories": {
+    "public-order": 1,
+    "shoplifting": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

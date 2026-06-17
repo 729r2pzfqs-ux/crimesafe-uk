@@ -1,1 +1,26 @@
-{"neighbourhood_id": "RBTB", "neighbourhood_name": "Tattenhams, Burgh Heath &amp; Preston Estate", "force_id": "surrey", "lat": "51.3068", "lng": "-0.220201", "population": 12098, "total_crimes": 95, "categories": {"anti-social-behaviour": 15, "burglary": 1, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 12, "possession-of-weapons": 2, "public-order": 7, "shoplifting": 3, "vehicle-crime": 8, "violent-crime": 29, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RBTB",
+  "neighbourhood_name": "Tattenhams, Burgh Heath &amp; Preston Estate",
+  "force_id": "surrey",
+  "lat": "51.3068",
+  "lng": "-0.220201",
+  "population": 14472,
+  "total_crimes": 95,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 12,
+    "possession-of-weapons": 2,
+    "public-order": 7,
+    "shoplifting": 3,
+    "vehicle-crime": 8,
+    "violent-crime": 29,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "DA18", "neighbourhood_name": "Stratton Village", "force_id": "wiltshire", "lat": "51.5912", "lng": "-1.74773", "population": 12098, "total_crimes": 70, "categories": {"anti-social-behaviour": 11, "burglary": 1, "drugs": 1, "other-theft": 4, "possession-of-weapons": 2, "public-order": 8, "shoplifting": 9, "vehicle-crime": 4, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DA18",
+  "neighbourhood_name": "Stratton Village",
+  "force_id": "wiltshire",
+  "lat": "51.5912",
+  "lng": "-1.74773",
+  "population": 3533,
+  "total_crimes": 70,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 1,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "shoplifting": 9,
+    "vehicle-crime": 4,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

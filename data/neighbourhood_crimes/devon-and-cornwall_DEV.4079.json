@@ -1,1 +1,25 @@
-{"neighbourhood_id": "DEV.4079", "neighbourhood_name": "Tiverton Canal", "force_id": "devon-and-cornwall", "lat": "50.9002", "lng": "-3.46143", "population": 12098, "total_crimes": 57, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 9, "other-theft": 2, "public-order": 3, "robbery": 1, "shoplifting": 4, "vehicle-crime": 2, "violent-crime": 31, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4079",
+  "neighbourhood_name": "Tiverton Canal",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.9002",
+  "lng": "-3.46143",
+  "population": 4947,
+  "total_crimes": 57,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "other-theft": 2,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 2,
+    "violent-crime": 31,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

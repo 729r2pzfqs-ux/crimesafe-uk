@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WC1NH4", "neighbourhood_name": "Chichester West", "force_id": "sussex", "lat": "50.8441", "lng": "-0.795346", "population": 12098, "total_crimes": 197, "categories": {"anti-social-behaviour": 54, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 19, "drugs": 1, "other-theft": 8, "possession-of-weapons": 4, "public-order": 12, "robbery": 2, "shoplifting": 29, "vehicle-crime": 5, "violent-crime": 54, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC1NH4",
+  "neighbourhood_name": "Chichester West",
+  "force_id": "sussex",
+  "lat": "50.8441",
+  "lng": "-0.795346",
+  "population": 4955,
+  "total_crimes": 197,
+  "categories": {
+    "anti-social-behaviour": 54,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 19,
+    "drugs": 1,
+    "other-theft": 8,
+    "possession-of-weapons": 4,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 29,
+    "vehicle-crime": 5,
+    "violent-crime": 54,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

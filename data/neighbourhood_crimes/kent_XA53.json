@@ -1,1 +1,23 @@
-{"neighbourhood_id": "XA53", "neighbourhood_name": "Cuxton, Halling and Riverside", "force_id": "kent", "lat": "51.3674", "lng": "0.447184", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 6, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 2, "shoplifting": 3, "vehicle-crime": 4, "violent-crime": 4, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA53",
+  "neighbourhood_name": "Cuxton, Halling and Riverside",
+  "force_id": "kent",
+  "lat": "51.3674",
+  "lng": "0.447184",
+  "population": 6683,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 2,
+    "shoplifting": 3,
+    "vehicle-crime": 4,
+    "violent-crime": 4,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

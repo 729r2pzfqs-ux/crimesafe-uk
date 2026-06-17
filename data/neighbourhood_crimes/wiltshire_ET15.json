@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ET15", "neighbourhood_name": "Studley Green", "force_id": "wiltshire", "lat": "51.3198", "lng": "-2.22412", "population": 12098, "total_crimes": 230, "categories": {"anti-social-behaviour": 56, "bicycle-theft": 3, "burglary": 2, "criminal-damage-arson": 13, "drugs": 6, "other-theft": 8, "possession-of-weapons": 2, "public-order": 9, "robbery": 2, "shoplifting": 26, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 89, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ET15",
+  "neighbourhood_name": "Studley Green",
+  "force_id": "wiltshire",
+  "lat": "51.3198",
+  "lng": "-2.22412",
+  "population": 3731,
+  "total_crimes": 230,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "bicycle-theft": 3,
+    "burglary": 2,
+    "criminal-damage-arson": 13,
+    "drugs": 6,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "robbery": 2,
+    "shoplifting": 26,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 89,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 61.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

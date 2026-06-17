@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014075", "neighbourhood_name": "Charlton Village and Riverside", "force_id": "metropolitan", "lat": "51.4881", "lng": "0.0389304", "population": 7349, "total_crimes": 465, "categories": {"anti-social-behaviour": 53, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 14, "drugs": 32, "other-theft": 32, "possession-of-weapons": 5, "public-order": 33, "robbery": 15, "shoplifting": 63, "theft-from-the-person": 10, "vehicle-crime": 30, "violent-crime": 158, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014075",
+  "neighbourhood_name": "Charlton Village and Riverside",
+  "force_id": "metropolitan",
+  "lat": "51.4881",
+  "lng": "0.0389304",
+  "population": 7465,
+  "total_crimes": 465,
+  "categories": {
+    "anti-social-behaviour": 53,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 14,
+    "drugs": 32,
+    "other-theft": 32,
+    "possession-of-weapons": 5,
+    "public-order": 33,
+    "robbery": 15,
+    "shoplifting": 63,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 30,
+    "violent-crime": 158,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 62.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

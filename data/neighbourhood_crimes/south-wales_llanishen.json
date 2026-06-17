@@ -1,1 +1,28 @@
-{"neighbourhood_id": "llanishen", "neighbourhood_name": "Llanishen", "force_id": "south-wales", "lat": "51.5269", "lng": "-3.1864", "population": 12098, "total_crimes": 121, "categories": {"anti-social-behaviour": 5, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 15, "drugs": 5, "other-theft": 9, "possession-of-weapons": 1, "public-order": 18, "robbery": 2, "shoplifting": 13, "vehicle-crime": 7, "violent-crime": 35, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llanishen",
+  "neighbourhood_name": "Llanishen",
+  "force_id": "south-wales",
+  "lat": "51.5269",
+  "lng": "-3.1864",
+  "population": 10882,
+  "total_crimes": 121,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 15,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 2,
+    "shoplifting": 13,
+    "vehicle-crime": 7,
+    "violent-crime": 35,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

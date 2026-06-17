@@ -1,1 +1,29 @@
-{"neighbourhood_id": "GDPB", "neighbourhood_name": "Park Barn &amp; Westborough", "force_id": "surrey", "lat": "51.2479", "lng": "-0.603482", "population": 12098, "total_crimes": 149, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 12, "drugs": 5, "other-theft": 13, "possession-of-weapons": 2, "public-order": 14, "robbery": 2, "shoplifting": 11, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 50, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDPB",
+  "neighbourhood_name": "Park Barn &amp; Westborough",
+  "force_id": "surrey",
+  "lat": "51.2479",
+  "lng": "-0.603482",
+  "population": 9560,
+  "total_crimes": 149,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 12,
+    "drugs": 5,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 11,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 50,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "NC05", "neighbourhood_name": "Gainsborough Rural South", "force_id": "lincolnshire", "lat": "53.3133", "lng": "-0.66486", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 6, "public-order": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC05",
+  "neighbourhood_name": "Gainsborough Rural South",
+  "force_id": "lincolnshire",
+  "lat": "53.3133",
+  "lng": "-0.66486",
+  "population": 10403,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "public-order": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,20 @@
-{"neighbourhood_id": "RV15", "neighbourhood_name": "Mellor", "force_id": "lancashire", "lat": "53.7824", "lng": "-2.55041", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "vehicle-crime": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV15",
+  "neighbourhood_name": "Mellor",
+  "force_id": "lancashire",
+  "lat": "53.7824",
+  "lng": "-2.55041",
+  "population": 2527,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 2,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

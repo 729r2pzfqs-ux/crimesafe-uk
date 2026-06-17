@@ -1,1 +1,27 @@
-{"neighbourhood_id": "brackla-west", "neighbourhood_name": "Brackla West", "force_id": "south-wales", "lat": "51.5093", "lng": "-3.55672", "population": 12098, "total_crimes": 221, "categories": {"anti-social-behaviour": 19, "criminal-damage-arson": 17, "drugs": 12, "other-theft": 9, "possession-of-weapons": 1, "public-order": 26, "robbery": 1, "shoplifting": 23, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 98, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "brackla-west",
+  "neighbourhood_name": "Brackla West",
+  "force_id": "south-wales",
+  "lat": "51.5093",
+  "lng": "-3.55672",
+  "population": 2631,
+  "total_crimes": 221,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "criminal-damage-arson": 17,
+    "drugs": 12,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 26,
+    "robbery": 1,
+    "shoplifting": 23,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 98,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 84.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

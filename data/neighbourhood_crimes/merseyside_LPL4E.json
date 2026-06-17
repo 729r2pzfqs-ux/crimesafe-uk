@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL4E", "neighbourhood_name": "Princes Park", "force_id": "merseyside", "lat": "53.3905", "lng": "-2.95551", "population": 12098, "total_crimes": 665, "categories": {"anti-social-behaviour": 54, "bicycle-theft": 17, "burglary": 22, "criminal-damage-arson": 49, "drugs": 41, "other-theft": 48, "possession-of-weapons": 6, "public-order": 63, "robbery": 4, "shoplifting": 47, "theft-from-the-person": 2, "vehicle-crime": 28, "violent-crime": 276, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4E",
+  "neighbourhood_name": "Princes Park",
+  "force_id": "merseyside",
+  "lat": "53.3905",
+  "lng": "-2.95551",
+  "population": 9214,
+  "total_crimes": 665,
+  "categories": {
+    "anti-social-behaviour": 54,
+    "bicycle-theft": 17,
+    "burglary": 22,
+    "criminal-damage-arson": 49,
+    "drugs": 41,
+    "other-theft": 48,
+    "possession-of-weapons": 6,
+    "public-order": 63,
+    "robbery": 4,
+    "shoplifting": 47,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 28,
+    "violent-crime": 276,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 72.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013505", "neighbourhood_name": "Northwick Park", "force_id": "metropolitan", "lat": "51.568", "lng": "-0.317662", "population": 12098, "total_crimes": 334, "categories": {"anti-social-behaviour": 68, "burglary": 9, "criminal-damage-arson": 21, "drugs": 15, "other-theft": 28, "public-order": 19, "robbery": 8, "shoplifting": 20, "theft-from-the-person": 18, "vehicle-crime": 22, "violent-crime": 104, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013505",
+  "neighbourhood_name": "Northwick Park",
+  "force_id": "metropolitan",
+  "lat": "51.568",
+  "lng": "-0.317662",
+  "population": 10295,
+  "total_crimes": 334,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "burglary": 9,
+    "criminal-damage-arson": 21,
+    "drugs": 15,
+    "other-theft": 28,
+    "public-order": 19,
+    "robbery": 8,
+    "shoplifting": 20,
+    "theft-from-the-person": 18,
+    "vehicle-crime": 22,
+    "violent-crime": 104,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

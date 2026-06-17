@@ -1,1 +1,20 @@
-{"neighbourhood_id": "WCW06", "neighbourhood_name": "Mostyn", "force_id": "north-wales", "lat": "53.3131", "lng": "-3.85207", "population": 12098, "total_crimes": 45, "categories": {"anti-social-behaviour": 20, "criminal-damage-arson": 5, "public-order": 6, "shoplifting": 1, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW06",
+  "neighbourhood_name": "Mostyn",
+  "force_id": "north-wales",
+  "lat": "53.3131",
+  "lng": "-3.85207",
+  "population": 3770,
+  "total_crimes": 45,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "criminal-damage-arson": 5,
+    "public-order": 6,
+    "shoplifting": 1,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

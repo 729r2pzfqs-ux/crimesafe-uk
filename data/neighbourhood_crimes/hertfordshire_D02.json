@@ -1,1 +1,14 @@
-{"neighbourhood_id": "D02", "neighbourhood_name": "Hemel Hempstead North Rural, West and Central", "force_id": "hertfordshire", "lat": "51.7993", "lng": "-0.468782", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D02",
+  "neighbourhood_name": "Hemel Hempstead North Rural, West and Central",
+  "force_id": "hertfordshire",
+  "lat": "51.7993",
+  "lng": "-0.468782",
+  "population": 32216,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

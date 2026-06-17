@@ -1,1 +1,22 @@
-{"neighbourhood_id": "KEN", "neighbourhood_name": "Kenilworth", "force_id": "warwickshire", "lat": "52.3561", "lng": "-1.58887", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 3, "vehicle-crime": 2, "violent-crime": 8, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KEN",
+  "neighbourhood_name": "Kenilworth",
+  "force_id": "warwickshire",
+  "lat": "52.3561",
+  "lng": "-1.58887",
+  "population": 22578,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 8,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

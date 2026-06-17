@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DC15", "neighbourhood_name": "Rodbourne", "force_id": "wiltshire", "lat": "51.5701", "lng": "-1.80441", "population": 12098, "total_crimes": 321, "categories": {"anti-social-behaviour": 65, "bicycle-theft": 5, "burglary": 8, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 21, "possession-of-weapons": 4, "public-order": 33, "robbery": 1, "shoplifting": 34, "theft-from-the-person": 5, "vehicle-crime": 17, "violent-crime": 105, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DC15",
+  "neighbourhood_name": "Rodbourne",
+  "force_id": "wiltshire",
+  "lat": "51.5701",
+  "lng": "-1.80441",
+  "population": 10622,
+  "total_crimes": 321,
+  "categories": {
+    "anti-social-behaviour": 65,
+    "bicycle-theft": 5,
+    "burglary": 8,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 21,
+    "possession-of-weapons": 4,
+    "public-order": 33,
+    "robbery": 1,
+    "shoplifting": 34,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 17,
+    "violent-crime": 105,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

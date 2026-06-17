@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011246N", "neighbourhood_name": "Ilford Town", "force_id": "metropolitan", "lat": "51.5614", "lng": "0.0785111", "population": 12098, "total_crimes": 1003, "categories": {"anti-social-behaviour": 187, "bicycle-theft": 2, "burglary": 28, "criminal-damage-arson": 54, "drugs": 40, "other-theft": 75, "possession-of-weapons": 7, "public-order": 55, "robbery": 30, "shoplifting": 60, "theft-from-the-person": 96, "vehicle-crime": 73, "violent-crime": 283, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011246N",
+  "neighbourhood_name": "Ilford Town",
+  "force_id": "metropolitan",
+  "lat": "51.5614",
+  "lng": "0.0785111",
+  "population": 9904,
+  "total_crimes": 1003,
+  "categories": {
+    "anti-social-behaviour": 187,
+    "bicycle-theft": 2,
+    "burglary": 28,
+    "criminal-damage-arson": 54,
+    "drugs": 40,
+    "other-theft": 75,
+    "possession-of-weapons": 7,
+    "public-order": 55,
+    "robbery": 30,
+    "shoplifting": 60,
+    "theft-from-the-person": 96,
+    "vehicle-crime": 73,
+    "violent-crime": 283,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 101.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

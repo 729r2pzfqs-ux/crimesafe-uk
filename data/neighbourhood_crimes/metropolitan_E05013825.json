@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013825", "neighbourhood_name": "Village", "force_id": "metropolitan", "lat": "51.4256", "lng": "-0.229102", "population": 10160, "total_crimes": 89, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 9, "public-order": 2, "robbery": 4, "shoplifting": 13, "theft-from-the-person": 3, "vehicle-crime": 10, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013825",
+  "neighbourhood_name": "Village",
+  "force_id": "metropolitan",
+  "lat": "51.4256",
+  "lng": "-0.229102",
+  "population": 10020,
+  "total_crimes": 89,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 9,
+    "public-order": 2,
+    "robbery": 4,
+    "shoplifting": 13,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

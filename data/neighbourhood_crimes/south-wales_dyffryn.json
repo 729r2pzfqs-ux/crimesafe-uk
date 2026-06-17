@@ -1,1 +1,21 @@
-{"neighbourhood_id": "dyffryn", "neighbourhood_name": "Dyffryn", "force_id": "south-wales", "lat": "51.676", "lng": "-3.83494", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "public-order": 7, "vehicle-crime": 1, "violent-crime": 14, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "dyffryn",
+  "neighbourhood_name": "Dyffryn",
+  "force_id": "south-wales",
+  "lat": "51.676",
+  "lng": "-3.83494",
+  "population": 3095,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "public-order": 7,
+    "vehicle-crime": 1,
+    "violent-crime": 14,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DAR5", "neighbourhood_name": "Darlington (Cockerton)", "force_id": "durham", "lat": "54.5326", "lng": "-1.58214", "population": 12098, "total_crimes": 232, "categories": {"anti-social-behaviour": 52, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 21, "drugs": 3, "other-theft": 13, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 86, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DAR5",
+  "neighbourhood_name": "Darlington (Cockerton)",
+  "force_id": "durham",
+  "lat": "54.5326",
+  "lng": "-1.58214",
+  "population": 30414,
+  "total_crimes": 232,
+  "categories": {
+    "anti-social-behaviour": 52,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 21,
+    "drugs": 3,
+    "other-theft": 13,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 86,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 19
+}

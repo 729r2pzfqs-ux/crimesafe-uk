@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011480", "neighbourhood_name": "Selsdon and Addington Village", "force_id": "metropolitan", "lat": "51.3529", "lng": "-0.0481475", "population": 12098, "total_crimes": 106, "categories": {"anti-social-behaviour": 20, "burglary": 2, "criminal-damage-arson": 5, "drugs": 12, "other-theft": 6, "possession-of-weapons": 1, "public-order": 4, "robbery": 4, "shoplifting": 7, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 36, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011480",
+  "neighbourhood_name": "Selsdon and Addington Village",
+  "force_id": "metropolitan",
+  "lat": "51.3529",
+  "lng": "-0.0481475",
+  "population": 10702,
+  "total_crimes": 106,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 12,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "robbery": 4,
+    "shoplifting": 7,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 36,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

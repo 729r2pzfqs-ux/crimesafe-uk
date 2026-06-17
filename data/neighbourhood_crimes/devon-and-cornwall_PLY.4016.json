@@ -1,1 +1,29 @@
-{"neighbourhood_id": "PLY.4016", "neighbourhood_name": "Mutley", "force_id": "devon-and-cornwall", "lat": "50.3811", "lng": "-4.1313", "population": 12098, "total_crimes": 836, "categories": {"anti-social-behaviour": 112, "bicycle-theft": 2, "burglary": 13, "criminal-damage-arson": 47, "drugs": 40, "other-theft": 47, "possession-of-weapons": 12, "public-order": 64, "robbery": 4, "shoplifting": 69, "theft-from-the-person": 12, "vehicle-crime": 21, "violent-crime": 378, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4016",
+  "neighbourhood_name": "Mutley",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3811",
+  "lng": "-4.1313",
+  "population": 5423,
+  "total_crimes": 836,
+  "categories": {
+    "anti-social-behaviour": 112,
+    "bicycle-theft": 2,
+    "burglary": 13,
+    "criminal-damage-arson": 47,
+    "drugs": 40,
+    "other-theft": 47,
+    "possession-of-weapons": 12,
+    "public-order": 64,
+    "robbery": 4,
+    "shoplifting": 69,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 21,
+    "violent-crime": 378,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 154.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

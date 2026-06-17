@@ -1,1 +1,22 @@
-{"neighbourhood_id": "st-athan", "neighbourhood_name": "St. Athan", "force_id": "south-wales", "lat": "51.4041", "lng": "-3.41742", "population": 12098, "total_crimes": 18, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 3, "violent-crime": 7, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "st-athan",
+  "neighbourhood_name": "St. Athan",
+  "force_id": "south-wales",
+  "lat": "51.4041",
+  "lng": "-3.41742",
+  "population": 4775,
+  "total_crimes": 18,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 3,
+    "violent-crime": 7,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

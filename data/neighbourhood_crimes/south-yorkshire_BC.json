@@ -1,1 +1,26 @@
-{"neighbourhood_id": "BC", "neighbourhood_name": "Barnsley South East", "force_id": "south-yorkshire", "lat": "53.5376", "lng": "-1.31723", "population": 12098, "total_crimes": 178, "categories": {"anti-social-behaviour": 44, "burglary": 18, "criminal-damage-arson": 16, "drugs": 3, "other-theft": 10, "possession-of-weapons": 1, "public-order": 16, "shoplifting": 9, "vehicle-crime": 4, "violent-crime": 54, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BC",
+  "neighbourhood_name": "Barnsley South East",
+  "force_id": "south-yorkshire",
+  "lat": "53.5376",
+  "lng": "-1.31723",
+  "population": 23820,
+  "total_crimes": 178,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "burglary": 18,
+    "criminal-damage-arson": 16,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 16,
+    "shoplifting": 9,
+    "vehicle-crime": 4,
+    "violent-crime": 54,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

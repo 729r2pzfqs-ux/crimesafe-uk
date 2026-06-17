@@ -1,1 +1,24 @@
-{"neighbourhood_id": "E05010508", "neighbourhood_name": "Kidderminster North", "force_id": "west-mercia", "lat": "52.4136", "lng": "-2.2418", "population": 10382, "total_crimes": 40, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 3, "public-order": 3, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 20, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05010508",
+  "neighbourhood_name": "Kidderminster North",
+  "force_id": "west-mercia",
+  "lat": "52.4136",
+  "lng": "-2.2418",
+  "population": 18133,
+  "total_crimes": 40,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 20,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

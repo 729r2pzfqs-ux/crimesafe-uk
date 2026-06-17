@@ -1,1 +1,25 @@
-{"neighbourhood_id": "CE2NH5", "neighbourhood_name": "Moulsecoomb", "force_id": "sussex", "lat": "50.8527", "lng": "-0.0962109", "population": 12098, "total_crimes": 125, "categories": {"anti-social-behaviour": 37, "burglary": 4, "criminal-damage-arson": 10, "drugs": 10, "other-theft": 9, "possession-of-weapons": 2, "public-order": 8, "vehicle-crime": 1, "violent-crime": 42, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE2NH5",
+  "neighbourhood_name": "Moulsecoomb",
+  "force_id": "sussex",
+  "lat": "50.8527",
+  "lng": "-0.0962109",
+  "population": 7782,
+  "total_crimes": 125,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "burglary": 4,
+    "criminal-damage-arson": 10,
+    "drugs": 10,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 42,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

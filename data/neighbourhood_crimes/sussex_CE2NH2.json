@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CE2NH2", "neighbourhood_name": "Coldean", "force_id": "sussex", "lat": "50.8584", "lng": "-0.1158", "population": 12098, "total_crimes": 180, "categories": {"anti-social-behaviour": 51, "burglary": 6, "criminal-damage-arson": 16, "drugs": 14, "other-theft": 10, "possession-of-weapons": 4, "public-order": 10, "robbery": 2, "shoplifting": 3, "vehicle-crime": 1, "violent-crime": 60, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE2NH2",
+  "neighbourhood_name": "Coldean",
+  "force_id": "sussex",
+  "lat": "50.8584",
+  "lng": "-0.1158",
+  "population": 2751,
+  "total_crimes": 180,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "burglary": 6,
+    "criminal-damage-arson": 16,
+    "drugs": 14,
+    "other-theft": 10,
+    "possession-of-weapons": 4,
+    "public-order": 10,
+    "robbery": 2,
+    "shoplifting": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 60,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

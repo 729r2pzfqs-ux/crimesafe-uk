@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013640", "neighbourhood_name": "Friern Barnet", "force_id": "metropolitan", "lat": "51.6125", "lng": "-0.150809", "population": 19635, "total_crimes": 417, "categories": {"anti-social-behaviour": 72, "bicycle-theft": 2, "burglary": 19, "criminal-damage-arson": 21, "drugs": 16, "other-theft": 27, "possession-of-weapons": 3, "public-order": 10, "robbery": 20, "shoplifting": 55, "theft-from-the-person": 9, "vehicle-crime": 46, "violent-crime": 112, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013640",
+  "neighbourhood_name": "Friern Barnet",
+  "force_id": "metropolitan",
+  "lat": "51.6125",
+  "lng": "-0.150809",
+  "population": 20984,
+  "total_crimes": 417,
+  "categories": {
+    "anti-social-behaviour": 72,
+    "bicycle-theft": 2,
+    "burglary": 19,
+    "criminal-damage-arson": 21,
+    "drugs": 16,
+    "other-theft": 27,
+    "possession-of-weapons": 3,
+    "public-order": 10,
+    "robbery": 20,
+    "shoplifting": 55,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 46,
+    "violent-crime": 112,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

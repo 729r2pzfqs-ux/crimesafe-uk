@@ -1,1 +1,27 @@
-{"neighbourhood_id": "PLE6", "neighbourhood_name": "Peterlee (Horden)", "force_id": "durham", "lat": "54.7666", "lng": "-1.31095", "population": 12098, "total_crimes": 242, "categories": {"anti-social-behaviour": 35, "burglary": 6, "criminal-damage-arson": 28, "drugs": 5, "other-theft": 13, "possession-of-weapons": 2, "public-order": 9, "shoplifting": 57, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 76, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLE6",
+  "neighbourhood_name": "Peterlee (Horden)",
+  "force_id": "durham",
+  "lat": "54.7666",
+  "lng": "-1.31095",
+  "population": 7397,
+  "total_crimes": 242,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "burglary": 6,
+    "criminal-damage-arson": 28,
+    "drugs": 5,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "shoplifting": 57,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 76,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

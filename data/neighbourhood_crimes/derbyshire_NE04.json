@@ -1,1 +1,18 @@
-{"neighbourhood_id": "NE04", "neighbourhood_name": "Unstone and Rural", "force_id": "derbyshire", "lat": "53.2856", "lng": "-1.48818", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "public-order": 2, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE04",
+  "neighbourhood_name": "Unstone and Rural",
+  "force_id": "derbyshire",
+  "lat": "53.2856",
+  "lng": "-1.48818",
+  "population": 3750,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "public-order": 2,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

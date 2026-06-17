@@ -1,1 +1,24 @@
-{"neighbourhood_id": "FY16", "neighbourhood_name": "Warton - Fylde", "force_id": "lancashire", "lat": "53.747", "lng": "-2.90404", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 2, "possession-of-weapons": 1, "public-order": 2, "shoplifting": 1, "violent-crime": 11, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FY16",
+  "neighbourhood_name": "Warton - Fylde",
+  "force_id": "lancashire",
+  "lat": "53.747",
+  "lng": "-2.90404",
+  "population": 4376,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 11,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

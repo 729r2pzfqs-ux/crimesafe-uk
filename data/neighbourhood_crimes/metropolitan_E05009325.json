@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009325", "neighbourhood_name": "Lansbury", "force_id": "metropolitan", "lat": "51.5173", "lng": "-0.0101802", "population": 12098, "total_crimes": 1400, "categories": {"anti-social-behaviour": 272, "bicycle-theft": 12, "burglary": 66, "criminal-damage-arson": 58, "drugs": 75, "other-theft": 88, "possession-of-weapons": 15, "public-order": 75, "robbery": 36, "shoplifting": 138, "theft-from-the-person": 64, "vehicle-crime": 133, "violent-crime": 351, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009325",
+  "neighbourhood_name": "Lansbury",
+  "force_id": "metropolitan",
+  "lat": "51.5173",
+  "lng": "-0.0101802",
+  "population": 12952,
+  "total_crimes": 1400,
+  "categories": {
+    "anti-social-behaviour": 272,
+    "bicycle-theft": 12,
+    "burglary": 66,
+    "criminal-damage-arson": 58,
+    "drugs": 75,
+    "other-theft": 88,
+    "possession-of-weapons": 15,
+    "public-order": 75,
+    "robbery": 36,
+    "shoplifting": 138,
+    "theft-from-the-person": 64,
+    "vehicle-crime": 133,
+    "violent-crime": 351,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 108.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

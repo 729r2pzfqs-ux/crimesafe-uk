@@ -1,1 +1,22 @@
-{"neighbourhood_id": "IB05IB06", "neighbourhood_name": "Willaston, Thornton and Netherpool", "force_id": "cheshire", "lat": "53.2979", "lng": "-2.95715", "population": "0", "total_crimes": 27, "categories": {"anti-social-behaviour": 1, "burglary": 2, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 3, "public-order": 5, "violent-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "IB05IB06",
+  "neighbourhood_name": "Willaston, Thornton and Netherpool",
+  "force_id": "cheshire",
+  "lat": "53.2979",
+  "lng": "-2.95715",
+  "population": 7149,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 5,
+    "violent-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

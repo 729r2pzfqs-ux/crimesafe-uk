@@ -1,1 +1,17 @@
-{"neighbourhood_id": "D203", "neighbourhood_name": "Welshpool - Gungrog", "force_id": "dyfed-powys", "lat": "52.6847", "lng": "-3.12721", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "shoplifting": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D203",
+  "neighbourhood_name": "Welshpool - Gungrog",
+  "force_id": "dyfed-powys",
+  "lat": "52.6847",
+  "lng": "-3.12721",
+  "population": 2779,
+  "total_crimes": 2,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "shoplifting": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

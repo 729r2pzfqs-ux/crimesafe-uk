@@ -1,1 +1,20 @@
-{"neighbourhood_id": "glynneath-central-and-east", "neighbourhood_name": "Glynneath Central and East", "force_id": "south-wales", "lat": "51.7545", "lng": "-3.60893", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "violent-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "glynneath-central-and-east",
+  "neighbourhood_name": "Glynneath Central and East",
+  "force_id": "south-wales",
+  "lat": "51.7545",
+  "lng": "-3.60893",
+  "population": 1756,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "violent-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

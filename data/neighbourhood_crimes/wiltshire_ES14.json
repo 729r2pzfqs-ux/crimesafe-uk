@@ -1,1 +1,24 @@
-{"neighbourhood_id": "ES14", "neighbourhood_name": "Castle Road and Bishopdown", "force_id": "wiltshire", "lat": "51.0927", "lng": "-1.79346", "population": 12098, "total_crimes": 85, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 1, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 2, "public-order": 6, "shoplifting": 13, "vehicle-crime": 3, "violent-crime": 40}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES14",
+  "neighbourhood_name": "Castle Road and Bishopdown",
+  "force_id": "wiltshire",
+  "lat": "51.0927",
+  "lng": "-1.79346",
+  "population": 11121,
+  "total_crimes": 85,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 6,
+    "shoplifting": 13,
+    "vehicle-crime": 3,
+    "violent-crime": 40
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

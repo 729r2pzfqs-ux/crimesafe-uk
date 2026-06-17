@@ -1,1 +1,14 @@
-{"neighbourhood_id": "grassington", "neighbourhood_name": "Grassington", "force_id": "north-yorkshire", "lat": "54.1012", "lng": "-2.0506", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "grassington",
+  "neighbourhood_name": "Grassington",
+  "force_id": "north-yorkshire",
+  "lat": "54.1012",
+  "lng": "-2.0506",
+  "population": 8153,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

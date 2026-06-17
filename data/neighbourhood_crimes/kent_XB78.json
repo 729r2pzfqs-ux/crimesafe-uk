@@ -1,1 +1,27 @@
-{"neighbourhood_id": "XB78", "neighbourhood_name": "Woodstock", "force_id": "kent", "lat": "51.3282", "lng": "0.731649", "population": 12098, "total_crimes": 154, "categories": {"anti-social-behaviour": 47, "burglary": 1, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 11, "public-order": 9, "robbery": 1, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 47, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB78",
+  "neighbourhood_name": "Woodstock",
+  "force_id": "kent",
+  "lat": "51.3282",
+  "lng": "0.731649",
+  "population": 6668,
+  "total_crimes": 154,
+  "categories": {
+    "anti-social-behaviour": 47,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 11,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 47,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

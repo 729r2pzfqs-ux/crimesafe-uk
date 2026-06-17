@@ -1,1 +1,27 @@
-{"neighbourhood_id": "BW005", "neighbourhood_name": "Quinton", "force_id": "west-midlands", "lat": "52.4601", "lng": "-1.98733", "population": 12098, "total_crimes": 248, "categories": {"anti-social-behaviour": 6, "burglary": 9, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 17, "public-order": 19, "robbery": 3, "shoplifting": 44, "theft-from-the-person": 1, "vehicle-crime": 23, "violent-crime": 107, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW005",
+  "neighbourhood_name": "Quinton",
+  "force_id": "west-midlands",
+  "lat": "52.4601",
+  "lng": "-1.98733",
+  "population": 24225,
+  "total_crimes": 248,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 9,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 17,
+    "public-order": 19,
+    "robbery": 3,
+    "shoplifting": 44,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 23,
+    "violent-crime": 107,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

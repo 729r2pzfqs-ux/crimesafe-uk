@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013557", "neighbourhood_name": "Rayners Lane", "force_id": "metropolitan", "lat": "51.5698", "lng": "-0.375506", "population": 10001, "total_crimes": 307, "categories": {"anti-social-behaviour": 48, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 18, "drugs": 5, "other-theft": 20, "possession-of-weapons": 3, "public-order": 10, "robbery": 12, "shoplifting": 28, "theft-from-the-person": 7, "vehicle-crime": 46, "violent-crime": 90, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013557",
+  "neighbourhood_name": "Rayners Lane",
+  "force_id": "metropolitan",
+  "lat": "51.5698",
+  "lng": "-0.375506",
+  "population": 9744,
+  "total_crimes": 307,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 18,
+    "drugs": 5,
+    "other-theft": 20,
+    "possession-of-weapons": 3,
+    "public-order": 10,
+    "robbery": 12,
+    "shoplifting": 28,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 46,
+    "violent-crime": 90,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

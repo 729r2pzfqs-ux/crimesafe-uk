@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013919", "neighbourhood_name": "Plaistow South", "force_id": "metropolitan", "lat": "51.5236", "lng": "0.0319643", "population": 14983, "total_crimes": 1120, "categories": {"anti-social-behaviour": 204, "bicycle-theft": 11, "burglary": 33, "criminal-damage-arson": 51, "drugs": 41, "other-theft": 79, "possession-of-weapons": 14, "public-order": 68, "robbery": 30, "shoplifting": 65, "theft-from-the-person": 107, "vehicle-crime": 89, "violent-crime": 314, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013919",
+  "neighbourhood_name": "Plaistow South",
+  "force_id": "metropolitan",
+  "lat": "51.5236",
+  "lng": "0.0319643",
+  "population": 15747,
+  "total_crimes": 1120,
+  "categories": {
+    "anti-social-behaviour": 204,
+    "bicycle-theft": 11,
+    "burglary": 33,
+    "criminal-damage-arson": 51,
+    "drugs": 41,
+    "other-theft": 79,
+    "possession-of-weapons": 14,
+    "public-order": 68,
+    "robbery": 30,
+    "shoplifting": 65,
+    "theft-from-the-person": 107,
+    "vehicle-crime": 89,
+    "violent-crime": 314,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 71.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

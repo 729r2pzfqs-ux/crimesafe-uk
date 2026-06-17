@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPL3B", "neighbourhood_name": "Allerton", "force_id": "merseyside", "lat": "53.3756", "lng": "-2.89509", "population": 12098, "total_crimes": 107, "categories": {"anti-social-behaviour": 22, "burglary": 1, "criminal-damage-arson": 14, "drugs": 9, "other-theft": 3, "possession-of-weapons": 1, "public-order": 10, "robbery": 1, "shoplifting": 1, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 37, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL3B",
+  "neighbourhood_name": "Allerton",
+  "force_id": "merseyside",
+  "lat": "53.3756",
+  "lng": "-2.89509",
+  "population": 5922,
+  "total_crimes": 107,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 1,
+    "criminal-damage-arson": 14,
+    "drugs": 9,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 37,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

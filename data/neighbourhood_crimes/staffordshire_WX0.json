@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WX0", "neighbourhood_name": "Wombourne", "force_id": "staffordshire", "lat": "52.5369", "lng": "-2.18817", "population": 12098, "total_crimes": 62, "categories": {"anti-social-behaviour": 8, "burglary": 2, "criminal-damage-arson": 9, "drugs": 1, "other-theft": 1, "public-order": 7, "vehicle-crime": 4, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WX0",
+  "neighbourhood_name": "Wombourne",
+  "force_id": "staffordshire",
+  "lat": "52.5369",
+  "lng": "-2.18817",
+  "population": 17898,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 7,
+    "vehicle-crime": 4,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

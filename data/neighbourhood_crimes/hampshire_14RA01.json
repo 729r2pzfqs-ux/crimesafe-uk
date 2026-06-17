@@ -1,1 +1,28 @@
-{"neighbourhood_id": "14RA01", "neighbourhood_name": "Aldershot North", "force_id": "hampshire", "lat": "51.2542", "lng": "-0.76889", "population": 12098, "total_crimes": 164, "categories": {"anti-social-behaviour": 36, "burglary": 3, "criminal-damage-arson": 8, "drugs": 5, "other-theft": 9, "possession-of-weapons": 2, "public-order": 19, "robbery": 1, "shoplifting": 8, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 63, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "14RA01",
+  "neighbourhood_name": "Aldershot North",
+  "force_id": "hampshire",
+  "lat": "51.2542",
+  "lng": "-0.76889",
+  "population": 10440,
+  "total_crimes": 164,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 19,
+    "robbery": 1,
+    "shoplifting": 8,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 63,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

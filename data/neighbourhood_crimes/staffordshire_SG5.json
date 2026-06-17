@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SG5", "neighbourhood_name": "Meir North &amp; Weston Coyney", "force_id": "staffordshire", "lat": "52.9865", "lng": "-2.09674", "population": 12098, "total_crimes": 157, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 8, "drugs": 4, "other-theft": 8, "public-order": 14, "robbery": 2, "shoplifting": 2, "vehicle-crime": 7, "violent-crime": 80, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SG5",
+  "neighbourhood_name": "Meir North &amp; Weston Coyney",
+  "force_id": "staffordshire",
+  "lat": "52.9865",
+  "lng": "-2.09674",
+  "population": 11363,
+  "total_crimes": 157,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "other-theft": 8,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 80,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

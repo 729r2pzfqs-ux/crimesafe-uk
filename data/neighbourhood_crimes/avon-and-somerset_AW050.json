@@ -1,1 +1,14 @@
-{"neighbourhood_id": "AW050", "neighbourhood_name": "Exmoor", "force_id": "avon-and-somerset", "lat": "51.1187", "lng": "-3.55383", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW050",
+  "neighbourhood_name": "Exmoor",
+  "force_id": "avon-and-somerset",
+  "lat": "51.1187",
+  "lng": "-3.55383",
+  "population": 7560,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013681", "neighbourhood_name": "Grange Park", "force_id": "metropolitan", "lat": "51.6428", "lng": "-0.093203", "population": 7794, "total_crimes": 278, "categories": {"anti-social-behaviour": 49, "bicycle-theft": 2, "burglary": 35, "criminal-damage-arson": 17, "drugs": 4, "other-theft": 20, "public-order": 9, "robbery": 8, "shoplifting": 26, "theft-from-the-person": 11, "vehicle-crime": 31, "violent-crime": 65, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013681",
+  "neighbourhood_name": "Grange Park",
+  "force_id": "metropolitan",
+  "lat": "51.6428",
+  "lng": "-0.093203",
+  "population": 7832,
+  "total_crimes": 278,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "bicycle-theft": 2,
+    "burglary": 35,
+    "criminal-damage-arson": 17,
+    "drugs": 4,
+    "other-theft": 20,
+    "public-order": 9,
+    "robbery": 8,
+    "shoplifting": 26,
+    "theft-from-the-person": 11,
+    "vehicle-crime": 31,
+    "violent-crime": 65,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

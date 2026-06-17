@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AE035", "neighbourhood_name": "Crewkerne Rural", "force_id": "avon-and-somerset", "lat": "50.9013", "lng": "-2.77629", "population": "0", "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "violent-crime": 1, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AE035",
+  "neighbourhood_name": "Crewkerne Rural",
+  "force_id": "avon-and-somerset",
+  "lat": "50.9013",
+  "lng": "-2.77629",
+  "population": 4802,
+  "total_crimes": 5,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "violent-crime": 1,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

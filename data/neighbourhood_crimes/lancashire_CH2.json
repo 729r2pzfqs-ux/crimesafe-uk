@@ -1,1 +1,19 @@
-{"neighbourhood_id": "CH2", "neighbourhood_name": "Chorley North East", "force_id": "lancashire", "lat": "53.6878", "lng": "-2.57563", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH2",
+  "neighbourhood_name": "Chorley North East",
+  "force_id": "lancashire",
+  "lat": "53.6878",
+  "lng": "-2.57563",
+  "population": 6807,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

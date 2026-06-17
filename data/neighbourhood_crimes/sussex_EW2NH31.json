@@ -1,1 +1,17 @@
-{"neighbourhood_id": "EW2NH31", "neighbourhood_name": "Herstmonceux", "force_id": "sussex", "lat": "50.8862", "lng": "0.326752", "population": 12098, "total_crimes": 5, "categories": {"vehicle-crime": 2, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW2NH31",
+  "neighbourhood_name": "Herstmonceux",
+  "force_id": "sussex",
+  "lat": "50.8862",
+  "lng": "0.326752",
+  "population": 2694,
+  "total_crimes": 5,
+  "categories": {
+    "vehicle-crime": 2,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

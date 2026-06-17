@@ -1,1 +1,19 @@
-{"neighbourhood_id": "NL56", "neighbourhood_name": "Charnwood West", "force_id": "leicestershire", "lat": "52.7183", "lng": "-1.20224", "population": 12098, "total_crimes": 6, "categories": {"burglary": 2, "public-order": 2, "shoplifting": 1, "vehicle-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NL56",
+  "neighbourhood_name": "Charnwood West",
+  "force_id": "leicestershire",
+  "lat": "52.7183",
+  "lng": "-1.20224",
+  "population": 17013,
+  "total_crimes": 6,
+  "categories": {
+    "burglary": 2,
+    "public-order": 2,
+    "shoplifting": 1,
+    "vehicle-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

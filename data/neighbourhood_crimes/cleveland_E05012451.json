@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05012451", "neighbourhood_name": "Ormesby", "force_id": "cleveland", "lat": "54.5383", "lng": "-1.17973", "population": 6194, "total_crimes": 168, "categories": {"anti-social-behaviour": 36, "burglary": 9, "criminal-damage-arson": 24, "drugs": 5, "other-theft": 3, "possession-of-weapons": 1, "public-order": 9, "robbery": 3, "shoplifting": 9, "vehicle-crime": 7, "violent-crime": 52, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012451",
+  "neighbourhood_name": "Ormesby",
+  "force_id": "cleveland",
+  "lat": "54.5383",
+  "lng": "-1.17973",
+  "population": 6045,
+  "total_crimes": 168,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "burglary": 9,
+    "criminal-damage-arson": 24,
+    "drugs": 5,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "robbery": 3,
+    "shoplifting": 9,
+    "vehicle-crime": 7,
+    "violent-crime": 52,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

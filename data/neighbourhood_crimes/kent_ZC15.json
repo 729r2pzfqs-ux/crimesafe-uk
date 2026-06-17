@@ -1,1 +1,26 @@
-{"neighbourhood_id": "ZC15", "neighbourhood_name": "Park Farm North", "force_id": "kent", "lat": "51.1222", "lng": "0.871", "population": 12098, "total_crimes": 92, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 1, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 8, "public-order": 7, "robbery": 1, "shoplifting": 14, "vehicle-crime": 1, "violent-crime": 34, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC15",
+  "neighbourhood_name": "Park Farm North",
+  "force_id": "kent",
+  "lat": "51.1222",
+  "lng": "0.871",
+  "population": 2773,
+  "total_crimes": 92,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 8,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 14,
+    "vehicle-crime": 1,
+    "violent-crime": 34,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

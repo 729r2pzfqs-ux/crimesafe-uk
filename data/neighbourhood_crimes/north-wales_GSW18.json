@@ -1,1 +1,19 @@
-{"neighbourhood_id": "GSW18", "neighbourhood_name": "Criccieth", "force_id": "north-wales", "lat": "52.926", "lng": "-4.23366", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 1, "other-theft": 2, "violent-crime": 8, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW18",
+  "neighbourhood_name": "Criccieth",
+  "force_id": "north-wales",
+  "lat": "52.926",
+  "lng": "-4.23366",
+  "population": 1789,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 2,
+    "violent-crime": 8,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

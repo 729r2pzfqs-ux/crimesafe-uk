@@ -1,1 +1,18 @@
-{"neighbourhood_id": "LA26", "neighbourhood_name": "Warton - Lancaster", "force_id": "lancashire", "lat": "54.1496", "lng": "-2.75164", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA26",
+  "neighbourhood_name": "Warton - Lancaster",
+  "force_id": "lancashire",
+  "lat": "54.1496",
+  "lng": "-2.75164",
+  "population": 2292,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "55.CN3001", "neighbourhood_name": "Bournemouth North - East", "force_id": "dorset", "lat": "50.7481", "lng": "-1.86094", "population": 12098, "total_crimes": 343, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 3, "burglary": 11, "criminal-damage-arson": 18, "drugs": 5, "other-theft": 13, "public-order": 7, "robbery": 7, "shoplifting": 80, "theft-from-the-person": 3, "vehicle-crime": 30, "violent-crime": 89, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "55.CN3001",
+  "neighbourhood_name": "Bournemouth North - East",
+  "force_id": "dorset",
+  "lat": "50.7481",
+  "lng": "-1.86094",
+  "population": 61474,
+  "total_crimes": 343,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "criminal-damage-arson": 18,
+    "drugs": 5,
+    "other-theft": 13,
+    "public-order": 7,
+    "robbery": 7,
+    "shoplifting": 80,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 30,
+    "violent-crime": 89,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 36
+}

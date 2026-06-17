@@ -1,1 +1,21 @@
-{"neighbourhood_id": "EF11", "neighbourhood_name": "Corsham Town", "force_id": "wiltshire", "lat": "51.4355", "lng": "-2.17347", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "criminal-damage-arson": 1, "drugs": 1, "public-order": 4, "violent-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EF11",
+  "neighbourhood_name": "Corsham Town",
+  "force_id": "wiltshire",
+  "lat": "51.4355",
+  "lng": "-2.17347",
+  "population": 7396,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "public-order": 4,
+    "violent-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CamCity_East_City", "neighbourhood_name": "Cambridge East", "force_id": "cambridgeshire", "lat": "52.2025", "lng": "0.154826", "population": "0", "total_crimes": 358, "categories": {"anti-social-behaviour": 64, "bicycle-theft": 28, "burglary": 3, "criminal-damage-arson": 18, "drugs": 12, "other-theft": 24, "possession-of-weapons": 6, "public-order": 26, "shoplifting": 66, "theft-from-the-person": 1, "vehicle-crime": 26, "violent-crime": 78, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CamCity_East_City",
+  "neighbourhood_name": "Cambridge East",
+  "force_id": "cambridgeshire",
+  "lat": "52.2025",
+  "lng": "0.154826",
+  "population": 31814,
+  "total_crimes": 358,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "bicycle-theft": 28,
+    "burglary": 3,
+    "criminal-damage-arson": 18,
+    "drugs": 12,
+    "other-theft": 24,
+    "possession-of-weapons": 6,
+    "public-order": 26,
+    "shoplifting": 66,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 26,
+    "violent-crime": 78,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

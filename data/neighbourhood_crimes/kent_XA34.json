@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA34", "neighbourhood_name": "Gillingham South", "force_id": "kent", "lat": "51.3834", "lng": "0.546939", "population": 12098, "total_crimes": 958, "categories": {"anti-social-behaviour": 175, "bicycle-theft": 5, "burglary": 22, "criminal-damage-arson": 80, "drugs": 38, "other-theft": 47, "possession-of-weapons": 11, "public-order": 74, "robbery": 13, "shoplifting": 76, "theft-from-the-person": 6, "vehicle-crime": 31, "violent-crime": 346, "other-crime": 34}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA34",
+  "neighbourhood_name": "Gillingham South",
+  "force_id": "kent",
+  "lat": "51.3834",
+  "lng": "0.546939",
+  "population": 16923,
+  "total_crimes": 958,
+  "categories": {
+    "anti-social-behaviour": 175,
+    "bicycle-theft": 5,
+    "burglary": 22,
+    "criminal-damage-arson": 80,
+    "drugs": 38,
+    "other-theft": 47,
+    "possession-of-weapons": 11,
+    "public-order": 74,
+    "robbery": 13,
+    "shoplifting": 76,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 31,
+    "violent-crime": 346,
+    "other-crime": 34
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "N420", "neighbourhood_name": "Winslow and District", "force_id": "thames-valley", "lat": "51.9219", "lng": "-0.84147", "population": 12098, "total_crimes": 1, "categories": {"robbery": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N420",
+  "neighbourhood_name": "Winslow and District",
+  "force_id": "thames-valley",
+  "lat": "51.9219",
+  "lng": "-0.84147",
+  "population": 13458,
+  "total_crimes": 1,
+  "categories": {
+    "robbery": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

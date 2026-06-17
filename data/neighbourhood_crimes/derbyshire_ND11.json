@@ -1,1 +1,23 @@
-{"neighbourhood_id": "ND11", "neighbourhood_name": "Ashbourne", "force_id": "derbyshire", "lat": "53.0215", "lng": "-1.72178", "population": 12098, "total_crimes": 29, "categories": {"anti-social-behaviour": 5, "burglary": 3, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 1, "theft-from-the-person": 1, "violent-crime": 14, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ND11",
+  "neighbourhood_name": "Ashbourne",
+  "force_id": "derbyshire",
+  "lat": "53.0215",
+  "lng": "-1.72178",
+  "population": 9459,
+  "total_crimes": 29,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 3,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "theft-from-the-person": 1,
+    "violent-crime": 14,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

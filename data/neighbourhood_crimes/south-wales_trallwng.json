@@ -1,1 +1,26 @@
-{"neighbourhood_id": "trallwng", "neighbourhood_name": "Trallwng", "force_id": "south-wales", "lat": "51.6074", "lng": "-3.32023", "population": 12098, "total_crimes": 116, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 7, "drugs": 5, "other-theft": 9, "public-order": 18, "robbery": 1, "shoplifting": 24, "vehicle-crime": 4, "violent-crime": 34, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "trallwng",
+  "neighbourhood_name": "Trallwng",
+  "force_id": "south-wales",
+  "lat": "51.6074",
+  "lng": "-3.32023",
+  "population": 3748,
+  "total_crimes": 116,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 5,
+    "other-theft": 9,
+    "public-order": 18,
+    "robbery": 1,
+    "shoplifting": 24,
+    "vehicle-crime": 4,
+    "violent-crime": 34,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

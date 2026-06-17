@@ -1,1 +1,29 @@
-{"neighbourhood_id": "GA02", "neighbourhood_name": "Kingsway", "force_id": "cheshire", "lat": "53.3697", "lng": "-2.74169", "population": "0", "total_crimes": 293, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 22, "drugs": 9, "other-theft": 8, "possession-of-weapons": 3, "public-order": 38, "robbery": 2, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 125, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GA02",
+  "neighbourhood_name": "Kingsway",
+  "force_id": "cheshire",
+  "lat": "53.3697",
+  "lng": "-2.74169",
+  "population": 6780,
+  "total_crimes": 293,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 22,
+    "drugs": 9,
+    "other-theft": 8,
+    "possession-of-weapons": 3,
+    "public-order": 38,
+    "robbery": 2,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 125,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

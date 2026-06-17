@@ -1,1 +1,25 @@
-{"neighbourhood_id": "BD04", "neighbourhood_name": "Nantwich North and West", "force_id": "cheshire", "lat": "53.073", "lng": "-2.52016", "population": "0", "total_crimes": 130, "categories": {"anti-social-behaviour": 15, "burglary": 3, "criminal-damage-arson": 6, "drugs": 6, "other-theft": 6, "possession-of-weapons": 1, "public-order": 15, "shoplifting": 11, "vehicle-crime": 3, "violent-crime": 64}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD04",
+  "neighbourhood_name": "Nantwich North and West",
+  "force_id": "cheshire",
+  "lat": "53.073",
+  "lng": "-2.52016",
+  "population": 9179,
+  "total_crimes": 130,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 3,
+    "criminal-damage-arson": 6,
+    "drugs": 6,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "shoplifting": 11,
+    "vehicle-crime": 3,
+    "violent-crime": 64
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

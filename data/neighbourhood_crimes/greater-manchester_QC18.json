@@ -1,1 +1,14 @@
-{"neighbourhood_id": "QC18", "neighbourhood_name": "Shaw", "force_id": "greater-manchester", "lat": "53.5816", "lng": "-2.07529", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "QC18",
+  "neighbourhood_name": "Shaw",
+  "force_id": "greater-manchester",
+  "lat": "53.5816",
+  "lng": "-2.07529",
+  "population": 10123,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

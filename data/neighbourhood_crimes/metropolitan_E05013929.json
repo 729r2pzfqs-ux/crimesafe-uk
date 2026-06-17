@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013929", "neighbourhood_name": "Berrylands", "force_id": "metropolitan", "lat": "51.3929", "lng": "-0.28618", "population": 12098, "total_crimes": 324, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 3, "burglary": 15, "criminal-damage-arson": 17, "drugs": 11, "other-theft": 20, "possession-of-weapons": 1, "public-order": 18, "robbery": 3, "shoplifting": 38, "theft-from-the-person": 6, "vehicle-crime": 24, "violent-crime": 94, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013929",
+  "neighbourhood_name": "Berrylands",
+  "force_id": "metropolitan",
+  "lat": "51.3929",
+  "lng": "-0.28618",
+  "population": 4712,
+  "total_crimes": 324,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 3,
+    "burglary": 15,
+    "criminal-damage-arson": 17,
+    "drugs": 11,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 3,
+    "shoplifting": 38,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 24,
+    "violent-crime": 94,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 68.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

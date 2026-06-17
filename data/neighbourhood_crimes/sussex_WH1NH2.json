@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WH1NH2", "neighbourhood_name": "Roffey North and South", "force_id": "sussex", "lat": "51.077", "lng": "-0.296274", "population": 12098, "total_crimes": 67, "categories": {"anti-social-behaviour": 15, "burglary": 2, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 2, "possession-of-weapons": 1, "public-order": 1, "robbery": 2, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WH1NH2",
+  "neighbourhood_name": "Roffey North and South",
+  "force_id": "sussex",
+  "lat": "51.077",
+  "lng": "-0.296274",
+  "population": 13174,
+  "total_crimes": 67,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 2,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "robbery": 2,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011481", "neighbourhood_name": "Selsdon Vale and Forestdale", "force_id": "metropolitan", "lat": "51.3378", "lng": "-0.0399031", "population": 12098, "total_crimes": 71, "categories": {"anti-social-behaviour": 18, "burglary": 2, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 3, "possession-of-weapons": 1, "public-order": 6, "robbery": 3, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 19, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011481",
+  "neighbourhood_name": "Selsdon Vale and Forestdale",
+  "force_id": "metropolitan",
+  "lat": "51.3378",
+  "lng": "-0.0399031",
+  "population": 9673,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 3,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 19,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

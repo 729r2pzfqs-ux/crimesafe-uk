@@ -1,1 +1,21 @@
-{"neighbourhood_id": "ES2NH29", "neighbourhood_name": "Seaford East", "force_id": "sussex", "lat": "50.7732", "lng": "0.135377", "population": 12098, "total_crimes": 23, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "violent-crime": 10, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES2NH29",
+  "neighbourhood_name": "Seaford East",
+  "force_id": "sussex",
+  "lat": "50.7732",
+  "lng": "0.135377",
+  "population": 4796,
+  "total_crimes": 23,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "violent-crime": 10,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

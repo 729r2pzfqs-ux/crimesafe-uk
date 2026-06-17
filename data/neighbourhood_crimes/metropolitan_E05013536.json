@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013536", "neighbourhood_name": "South Acton", "force_id": "metropolitan", "lat": "51.5041", "lng": "-0.273306", "population": 19419, "total_crimes": 699, "categories": {"anti-social-behaviour": 173, "bicycle-theft": 5, "burglary": 39, "criminal-damage-arson": 41, "drugs": 16, "other-theft": 43, "possession-of-weapons": 2, "public-order": 49, "robbery": 17, "shoplifting": 73, "theft-from-the-person": 17, "vehicle-crime": 93, "violent-crime": 126, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013536",
+  "neighbourhood_name": "South Acton",
+  "force_id": "metropolitan",
+  "lat": "51.5041",
+  "lng": "-0.273306",
+  "population": 17190,
+  "total_crimes": 699,
+  "categories": {
+    "anti-social-behaviour": 173,
+    "bicycle-theft": 5,
+    "burglary": 39,
+    "criminal-damage-arson": 41,
+    "drugs": 16,
+    "other-theft": 43,
+    "possession-of-weapons": 2,
+    "public-order": 49,
+    "robbery": 17,
+    "shoplifting": 73,
+    "theft-from-the-person": 17,
+    "vehicle-crime": 93,
+    "violent-crime": 126,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "PLY.4023", "neighbourhood_name": "Manadon", "force_id": "devon-and-cornwall", "lat": "50.408", "lng": "-4.13946", "population": 12098, "total_crimes": 238, "categories": {"anti-social-behaviour": 22, "burglary": 4, "criminal-damage-arson": 26, "drugs": 9, "other-theft": 14, "possession-of-weapons": 6, "public-order": 11, "robbery": 1, "shoplifting": 18, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 117, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4023",
+  "neighbourhood_name": "Manadon",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.408",
+  "lng": "-4.13946",
+  "population": 4221,
+  "total_crimes": 238,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 4,
+    "criminal-damage-arson": 26,
+    "drugs": 9,
+    "other-theft": 14,
+    "possession-of-weapons": 6,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 18,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 117,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

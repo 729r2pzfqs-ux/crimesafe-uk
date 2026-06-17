@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WRW14", "neighbourhood_name": "Gwenfro", "force_id": "north-wales", "lat": "53.0574", "lng": "-3.04096", "population": 12098, "total_crimes": 60, "categories": {"anti-social-behaviour": 19, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 2, "public-order": 3, "robbery": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 25, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW14",
+  "neighbourhood_name": "Gwenfro",
+  "force_id": "north-wales",
+  "lat": "53.0574",
+  "lng": "-3.04096",
+  "population": 1759,
+  "total_crimes": 60,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 25,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

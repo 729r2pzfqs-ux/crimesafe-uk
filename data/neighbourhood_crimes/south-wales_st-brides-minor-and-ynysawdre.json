@@ -1,1 +1,24 @@
-{"neighbourhood_id": "st-brides-minor-and-ynysawdre", "neighbourhood_name": "St. Bride's Minor and Ynysawdre", "force_id": "south-wales", "lat": "51.5479", "lng": "-3.56876", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 2, "drugs": 3, "other-theft": 4, "possession-of-weapons": 1, "public-order": 11, "shoplifting": 4, "violent-crime": 28, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "st-brides-minor-and-ynysawdre",
+  "neighbourhood_name": "St. Bride's Minor and Ynysawdre",
+  "force_id": "south-wales",
+  "lat": "51.5479",
+  "lng": "-3.56876",
+  "population": 10553,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 2,
+    "drugs": 3,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 11,
+    "shoplifting": 4,
+    "violent-crime": 28,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

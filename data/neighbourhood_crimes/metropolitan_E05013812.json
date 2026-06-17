@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013812", "neighbourhood_name": "Colliers Wood", "force_id": "metropolitan", "lat": "51.4182", "lng": "-0.172846", "population": 11556, "total_crimes": 692, "categories": {"anti-social-behaviour": 140, "bicycle-theft": 10, "burglary": 18, "criminal-damage-arson": 31, "drugs": 22, "other-theft": 53, "possession-of-weapons": 5, "public-order": 49, "robbery": 14, "shoplifting": 64, "theft-from-the-person": 20, "vehicle-crime": 63, "violent-crime": 195, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013812",
+  "neighbourhood_name": "Colliers Wood",
+  "force_id": "metropolitan",
+  "lat": "51.4182",
+  "lng": "-0.172846",
+  "population": 8163,
+  "total_crimes": 692,
+  "categories": {
+    "anti-social-behaviour": 140,
+    "bicycle-theft": 10,
+    "burglary": 18,
+    "criminal-damage-arson": 31,
+    "drugs": 22,
+    "other-theft": 53,
+    "possession-of-weapons": 5,
+    "public-order": 49,
+    "robbery": 14,
+    "shoplifting": 64,
+    "theft-from-the-person": 20,
+    "vehicle-crime": 63,
+    "violent-crime": 195,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 84.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

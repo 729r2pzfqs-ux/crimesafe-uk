@@ -1,1 +1,17 @@
-{"neighbourhood_id": "TNBG", "neighbourhood_name": "Bletchingley, Nutfield &amp; Godstone", "force_id": "surrey", "lat": "51.2243", "lng": "-0.094865", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "TNBG",
+  "neighbourhood_name": "Bletchingley, Nutfield &amp; Godstone",
+  "force_id": "surrey",
+  "lat": "51.2243",
+  "lng": "-0.094865",
+  "population": 12380,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

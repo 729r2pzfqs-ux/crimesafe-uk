@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WR2NH6", "neighbourhood_name": "Furnace Green", "force_id": "sussex", "lat": "51.1027", "lng": "-0.171384", "population": 12098, "total_crimes": 190, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 13, "drugs": 9, "other-theft": 9, "possession-of-weapons": 6, "public-order": 15, "shoplifting": 9, "theft-from-the-person": 3, "vehicle-crime": 8, "violent-crime": 73, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WR2NH6",
+  "neighbourhood_name": "Furnace Green",
+  "force_id": "sussex",
+  "lat": "51.1027",
+  "lng": "-0.171384",
+  "population": 5744,
+  "total_crimes": 190,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 13,
+    "drugs": 9,
+    "other-theft": 9,
+    "possession-of-weapons": 6,
+    "public-order": 15,
+    "shoplifting": 9,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 8,
+    "violent-crime": 73,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

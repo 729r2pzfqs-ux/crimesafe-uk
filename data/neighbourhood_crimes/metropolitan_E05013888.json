@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013888", "neighbourhood_name": "Grove Green", "force_id": "metropolitan", "lat": "51.5633", "lng": "-0.00274827", "population": 12098, "total_crimes": 875, "categories": {"anti-social-behaviour": 229, "bicycle-theft": 7, "burglary": 38, "criminal-damage-arson": 47, "drugs": 57, "other-theft": 71, "possession-of-weapons": 5, "public-order": 27, "robbery": 19, "shoplifting": 48, "theft-from-the-person": 42, "vehicle-crime": 66, "violent-crime": 213, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013888",
+  "neighbourhood_name": "Grove Green",
+  "force_id": "metropolitan",
+  "lat": "51.5633",
+  "lng": "-0.00274827",
+  "population": 15972,
+  "total_crimes": 875,
+  "categories": {
+    "anti-social-behaviour": 229,
+    "bicycle-theft": 7,
+    "burglary": 38,
+    "criminal-damage-arson": 47,
+    "drugs": 57,
+    "other-theft": 71,
+    "possession-of-weapons": 5,
+    "public-order": 27,
+    "robbery": 19,
+    "shoplifting": 48,
+    "theft-from-the-person": 42,
+    "vehicle-crime": 66,
+    "violent-crime": 213,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 54.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

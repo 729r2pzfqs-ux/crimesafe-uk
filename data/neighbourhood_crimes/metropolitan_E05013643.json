@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013643", "neighbourhood_name": "Hendon", "force_id": "metropolitan", "lat": "51.5893", "lng": "-0.221912", "population": 12098, "total_crimes": 579, "categories": {"anti-social-behaviour": 125, "bicycle-theft": 8, "burglary": 20, "criminal-damage-arson": 16, "drugs": 41, "other-theft": 44, "possession-of-weapons": 1, "public-order": 31, "robbery": 13, "shoplifting": 53, "theft-from-the-person": 16, "vehicle-crime": 40, "violent-crime": 161, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013643",
+  "neighbourhood_name": "Hendon",
+  "force_id": "metropolitan",
+  "lat": "51.5893",
+  "lng": "-0.221912",
+  "population": 21516,
+  "total_crimes": 579,
+  "categories": {
+    "anti-social-behaviour": 125,
+    "bicycle-theft": 8,
+    "burglary": 20,
+    "criminal-damage-arson": 16,
+    "drugs": 41,
+    "other-theft": 44,
+    "possession-of-weapons": 1,
+    "public-order": 31,
+    "robbery": 13,
+    "shoplifting": 53,
+    "theft-from-the-person": 16,
+    "vehicle-crime": 40,
+    "violent-crime": 161,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

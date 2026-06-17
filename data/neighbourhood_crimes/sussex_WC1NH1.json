@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WC1NH1", "neighbourhood_name": "Chichester City", "force_id": "sussex", "lat": "50.8343", "lng": "-0.785391", "population": 12098, "total_crimes": 377, "categories": {"anti-social-behaviour": 100, "bicycle-theft": 5, "burglary": 10, "criminal-damage-arson": 30, "drugs": 2, "other-theft": 13, "possession-of-weapons": 7, "public-order": 34, "robbery": 4, "shoplifting": 70, "vehicle-crime": 8, "violent-crime": 90, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC1NH1",
+  "neighbourhood_name": "Chichester City",
+  "force_id": "sussex",
+  "lat": "50.8343",
+  "lng": "-0.785391",
+  "population": 2554,
+  "total_crimes": 377,
+  "categories": {
+    "anti-social-behaviour": 100,
+    "bicycle-theft": 5,
+    "burglary": 10,
+    "criminal-damage-arson": 30,
+    "drugs": 2,
+    "other-theft": 13,
+    "possession-of-weapons": 7,
+    "public-order": 34,
+    "robbery": 4,
+    "shoplifting": 70,
+    "vehicle-crime": 8,
+    "violent-crime": 90,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 147.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

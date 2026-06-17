@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013625", "neighbourhood_name": "Isleworth", "force_id": "metropolitan", "lat": "51.4649", "lng": "-0.330065", "population": 12098, "total_crimes": 300, "categories": {"anti-social-behaviour": 48, "burglary": 17, "criminal-damage-arson": 9, "drugs": 13, "other-theft": 22, "possession-of-weapons": 1, "public-order": 15, "robbery": 9, "shoplifting": 11, "theft-from-the-person": 10, "vehicle-crime": 31, "violent-crime": 109, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013625",
+  "neighbourhood_name": "Isleworth",
+  "force_id": "metropolitan",
+  "lat": "51.4649",
+  "lng": "-0.330065",
+  "population": 10797,
+  "total_crimes": 300,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "burglary": 17,
+    "criminal-damage-arson": 9,
+    "drugs": 13,
+    "other-theft": 22,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 9,
+    "shoplifting": 11,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 31,
+    "violent-crime": 109,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

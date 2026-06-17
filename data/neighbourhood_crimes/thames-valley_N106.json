@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N106", "neighbourhood_name": "Aylesbury Town Centre", "force_id": "thames-valley", "lat": "51.8149", "lng": "-0.811901", "population": 12098, "total_crimes": 483, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 4, "burglary": 4, "criminal-damage-arson": 23, "drugs": 28, "other-theft": 23, "possession-of-weapons": 2, "public-order": 45, "robbery": 8, "shoplifting": 101, "theft-from-the-person": 4, "vehicle-crime": 17, "violent-crime": 177, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N106",
+  "neighbourhood_name": "Aylesbury Town Centre",
+  "force_id": "thames-valley",
+  "lat": "51.8149",
+  "lng": "-0.811901",
+  "population": 5155,
+  "total_crimes": 483,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 4,
+    "burglary": 4,
+    "criminal-damage-arson": 23,
+    "drugs": 28,
+    "other-theft": 23,
+    "possession-of-weapons": 2,
+    "public-order": 45,
+    "robbery": 8,
+    "shoplifting": 101,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 17,
+    "violent-crime": 177,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 93.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

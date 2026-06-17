@@ -1,1 +1,22 @@
-{"neighbourhood_id": "GSW23", "neighbourhood_name": "Diffwys and Maenofferen", "force_id": "north-wales", "lat": "52.996", "lng": "-3.91643", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 4, "burglary": 1, "other-theft": 1, "public-order": 3, "vehicle-crime": 1, "violent-crime": 13, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW23",
+  "neighbourhood_name": "Diffwys and Maenofferen",
+  "force_id": "north-wales",
+  "lat": "52.996",
+  "lng": "-3.91643",
+  "population": 1145,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "other-theft": 1,
+    "public-order": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 13,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

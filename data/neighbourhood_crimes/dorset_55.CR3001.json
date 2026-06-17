@@ -1,1 +1,23 @@
-{"neighbourhood_id": "55.CR3001", "neighbourhood_name": "Poole North", "force_id": "dorset", "lat": "50.7613", "lng": "-1.95513", "population": 12098, "total_crimes": 44, "categories": {"anti-social-behaviour": 11, "criminal-damage-arson": 6, "drugs": 2, "other-theft": 4, "public-order": 1, "vehicle-crime": 1, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "55.CR3001",
+  "neighbourhood_name": "Poole North",
+  "force_id": "dorset",
+  "lat": "50.7613",
+  "lng": "-1.95513",
+  "population": 77929,
+  "total_crimes": 44,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "criminal-damage-arson": 6,
+    "drugs": 2,
+    "other-theft": 4,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 50
+}

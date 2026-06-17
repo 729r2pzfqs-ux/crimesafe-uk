@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05011245", "neighbourhood_name": "Hainault", "force_id": "metropolitan", "lat": "51.6101", "lng": "0.120898", "population": 15701, "total_crimes": 105, "categories": {"anti-social-behaviour": 28, "burglary": 3, "criminal-damage-arson": 7, "drugs": 3, "other-theft": 8, "public-order": 9, "robbery": 1, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 35, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011245",
+  "neighbourhood_name": "Hainault",
+  "force_id": "metropolitan",
+  "lat": "51.6101",
+  "lng": "0.120898",
+  "population": 14515,
+  "total_crimes": 105,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "burglary": 3,
+    "criminal-damage-arson": 7,
+    "drugs": 3,
+    "other-theft": 8,
+    "public-order": 9,
+    "robbery": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 35,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

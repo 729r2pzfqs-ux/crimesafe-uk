@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011466", "neighbourhood_name": "Coulsdon Town", "force_id": "metropolitan", "lat": "51.3162", "lng": "-0.145076", "population": 12098, "total_crimes": 127, "categories": {"anti-social-behaviour": 15, "burglary": 9, "criminal-damage-arson": 10, "drugs": 4, "other-theft": 10, "possession-of-weapons": 1, "public-order": 6, "robbery": 1, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 39, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011466",
+  "neighbourhood_name": "Coulsdon Town",
+  "force_id": "metropolitan",
+  "lat": "51.3162",
+  "lng": "-0.145076",
+  "population": 11818,
+  "total_crimes": 127,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 9,
+    "criminal-damage-arson": 10,
+    "drugs": 4,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 39,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

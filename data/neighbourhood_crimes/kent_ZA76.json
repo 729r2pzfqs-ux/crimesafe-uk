@@ -1,1 +1,23 @@
-{"neighbourhood_id": "ZA76", "neighbourhood_name": "Swalecliffe", "force_id": "kent", "lat": "51.3665", "lng": "1.06724", "population": 12098, "total_crimes": 37, "categories": {"anti-social-behaviour": 7, "burglary": 4, "criminal-damage-arson": 1, "other-theft": 4, "public-order": 2, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA76",
+  "neighbourhood_name": "Swalecliffe",
+  "force_id": "kent",
+  "lat": "51.3665",
+  "lng": "1.06724",
+  "population": 3044,
+  "total_crimes": 37,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 4,
+    "criminal-damage-arson": 1,
+    "other-theft": 4,
+    "public-order": 2,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

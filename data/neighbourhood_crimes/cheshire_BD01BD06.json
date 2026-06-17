@@ -1,1 +1,17 @@
-{"neighbourhood_id": "BD01BD06", "neighbourhood_name": "Audlem and Wybunbury", "force_id": "cheshire", "lat": "53.0054", "lng": "-2.49935", "population": "0", "total_crimes": 7, "categories": {"drugs": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD01BD06",
+  "neighbourhood_name": "Audlem and Wybunbury",
+  "force_id": "cheshire",
+  "lat": "53.0054",
+  "lng": "-2.49935",
+  "population": 8076,
+  "total_crimes": 7,
+  "categories": {
+    "drugs": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

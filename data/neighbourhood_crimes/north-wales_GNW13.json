@@ -1,1 +1,29 @@
-{"neighbourhood_id": "GNW13", "neighbourhood_name": "Garth", "force_id": "north-wales", "lat": "53.2333", "lng": "-4.12518", "population": 12098, "total_crimes": 162, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 1, "burglary": 7, "criminal-damage-arson": 17, "drugs": 8, "other-theft": 11, "possession-of-weapons": 1, "public-order": 10, "robbery": 1, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 57, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW13",
+  "neighbourhood_name": "Garth",
+  "force_id": "north-wales",
+  "lat": "53.2333",
+  "lng": "-4.12518",
+  "population": 1138,
+  "total_crimes": 162,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "bicycle-theft": 1,
+    "burglary": 7,
+    "criminal-damage-arson": 17,
+    "drugs": 8,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 57,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 142.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

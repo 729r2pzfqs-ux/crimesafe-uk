@@ -1,1 +1,19 @@
-{"neighbourhood_id": "ogmore-vale", "neighbourhood_name": "Ogmore Vale", "force_id": "south-wales", "lat": "51.6026", "lng": "-3.52853", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ogmore-vale",
+  "neighbourhood_name": "Ogmore Vale",
+  "force_id": "south-wales",
+  "lat": "51.6026",
+  "lng": "-3.52853",
+  "population": 3197,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

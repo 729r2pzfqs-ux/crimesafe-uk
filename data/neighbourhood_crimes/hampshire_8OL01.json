@@ -1,1 +1,28 @@
-{"neighbourhood_id": "8OL01", "neighbourhood_name": "Alton", "force_id": "hampshire", "lat": "51.1497", "lng": "-0.980059", "population": 12098, "total_crimes": 86, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 12, "drugs": 7, "other-theft": 5, "possession-of-weapons": 1, "public-order": 5, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 33, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "8OL01",
+  "neighbourhood_name": "Alton",
+  "force_id": "hampshire",
+  "lat": "51.1497",
+  "lng": "-0.980059",
+  "population": 13990,
+  "total_crimes": 86,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 12,
+    "drugs": 7,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 5,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 33,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

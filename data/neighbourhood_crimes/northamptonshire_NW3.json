@@ -1,1 +1,22 @@
-{"neighbourhood_id": "NW3", "neighbourhood_name": "Finedon", "force_id": "northamptonshire", "lat": "52.3254", "lng": "-0.656261", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 10, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 2, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NW3",
+  "neighbourhood_name": "Finedon",
+  "force_id": "northamptonshire",
+  "lat": "52.3254",
+  "lng": "-0.656261",
+  "population": 10493,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

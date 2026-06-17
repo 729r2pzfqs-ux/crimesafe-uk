@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013725N", "neighbourhood_name": "Ladywell", "force_id": "metropolitan", "lat": "51.4589", "lng": "-0.0225584", "population": 12098, "total_crimes": 1012, "categories": {"anti-social-behaviour": 171, "bicycle-theft": 12, "burglary": 34, "criminal-damage-arson": 40, "drugs": 57, "other-theft": 74, "possession-of-weapons": 12, "public-order": 70, "robbery": 30, "shoplifting": 113, "theft-from-the-person": 47, "vehicle-crime": 44, "violent-crime": 298, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013725N",
+  "neighbourhood_name": "Ladywell",
+  "force_id": "metropolitan",
+  "lat": "51.4589",
+  "lng": "-0.0225584",
+  "population": 12290,
+  "total_crimes": 1012,
+  "categories": {
+    "anti-social-behaviour": 171,
+    "bicycle-theft": 12,
+    "burglary": 34,
+    "criminal-damage-arson": 40,
+    "drugs": 57,
+    "other-theft": 74,
+    "possession-of-weapons": 12,
+    "public-order": 70,
+    "robbery": 30,
+    "shoplifting": 113,
+    "theft-from-the-person": 47,
+    "vehicle-crime": 44,
+    "violent-crime": 298,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 82.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

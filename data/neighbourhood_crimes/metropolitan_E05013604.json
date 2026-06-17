@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013604", "neighbourhood_name": "White Hart Lane", "force_id": "metropolitan", "lat": "51.6036", "lng": "-0.0890843", "population": 12098, "total_crimes": 876, "categories": {"anti-social-behaviour": 211, "bicycle-theft": 7, "burglary": 29, "criminal-damage-arson": 32, "drugs": 55, "other-theft": 60, "possession-of-weapons": 9, "public-order": 41, "robbery": 30, "shoplifting": 21, "theft-from-the-person": 37, "vehicle-crime": 58, "violent-crime": 280, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013604",
+  "neighbourhood_name": "White Hart Lane",
+  "force_id": "metropolitan",
+  "lat": "51.6036",
+  "lng": "-0.0890843",
+  "population": 13160,
+  "total_crimes": 876,
+  "categories": {
+    "anti-social-behaviour": 211,
+    "bicycle-theft": 7,
+    "burglary": 29,
+    "criminal-damage-arson": 32,
+    "drugs": 55,
+    "other-theft": 60,
+    "possession-of-weapons": 9,
+    "public-order": 41,
+    "robbery": 30,
+    "shoplifting": 21,
+    "theft-from-the-person": 37,
+    "vehicle-crime": 58,
+    "violent-crime": 280,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,19 @@
-{"neighbourhood_id": "WC1NH8", "neighbourhood_name": "Tangmere", "force_id": "sussex", "lat": "50.8304", "lng": "-0.720241", "population": 12098, "total_crimes": 9, "categories": {"drugs": 1, "possession-of-weapons": 1, "public-order": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC1NH8",
+  "neighbourhood_name": "Tangmere",
+  "force_id": "sussex",
+  "lat": "50.8304",
+  "lng": "-0.720241",
+  "population": 3158,
+  "total_crimes": 9,
+  "categories": {
+    "drugs": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

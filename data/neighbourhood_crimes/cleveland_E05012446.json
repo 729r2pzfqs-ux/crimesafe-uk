@@ -1,1 +1,19 @@
-{"neighbourhood_id": "E05012446", "neighbourhood_name": "Lockwood", "force_id": "cleveland", "lat": "54.5256", "lng": "-0.957359", "population": "0", "total_crimes": 7, "categories": {"burglary": 1, "criminal-damage-arson": 1, "other-theft": 2, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012446",
+  "neighbourhood_name": "Lockwood",
+  "force_id": "cleveland",
+  "lat": "54.5256",
+  "lng": "-0.957359",
+  "population": 1878,
+  "total_crimes": 7,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

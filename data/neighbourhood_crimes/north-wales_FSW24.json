@@ -1,1 +1,24 @@
-{"neighbourhood_id": "FSW24", "neighbourhood_name": "Mold West", "force_id": "north-wales", "lat": "53.1724", "lng": "-3.15268", "population": 12098, "total_crimes": 86, "categories": {"anti-social-behaviour": 17, "burglary": 2, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 4, "public-order": 4, "shoplifting": 19, "vehicle-crime": 1, "violent-crime": 31}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW24",
+  "neighbourhood_name": "Mold West",
+  "force_id": "north-wales",
+  "lat": "53.1724",
+  "lng": "-3.15268",
+  "population": 2736,
+  "total_crimes": 86,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 4,
+    "shoplifting": 19,
+    "vehicle-crime": 1,
+    "violent-crime": 31
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

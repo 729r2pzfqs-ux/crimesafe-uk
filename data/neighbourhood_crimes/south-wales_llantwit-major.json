@@ -1,1 +1,23 @@
-{"neighbourhood_id": "llantwit-major", "neighbourhood_name": "Llantwit Major", "force_id": "south-wales", "lat": "51.409", "lng": "-3.47556", "population": 12098, "total_crimes": 44, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 3, "shoplifting": 7, "violent-crime": 19, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llantwit-major",
+  "neighbourhood_name": "Llantwit Major",
+  "force_id": "south-wales",
+  "lat": "51.409",
+  "lng": "-3.47556",
+  "population": 10966,
+  "total_crimes": 44,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 3,
+    "shoplifting": 7,
+    "violent-crime": 19,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

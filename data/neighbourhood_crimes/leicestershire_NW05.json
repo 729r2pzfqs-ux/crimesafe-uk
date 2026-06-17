@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NW05", "neighbourhood_name": "Braunstone Park and Rowley Fields", "force_id": "leicestershire", "lat": "52.6203", "lng": "-1.176", "population": 12098, "total_crimes": 332, "categories": {"anti-social-behaviour": 48, "bicycle-theft": 1, "burglary": 11, "criminal-damage-arson": 56, "drugs": 14, "other-theft": 12, "possession-of-weapons": 7, "public-order": 21, "robbery": 1, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 23, "violent-crime": 120, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NW05",
+  "neighbourhood_name": "Braunstone Park and Rowley Fields",
+  "force_id": "leicestershire",
+  "lat": "52.6203",
+  "lng": "-1.176",
+  "population": 19751,
+  "total_crimes": 332,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "bicycle-theft": 1,
+    "burglary": 11,
+    "criminal-damage-arson": 56,
+    "drugs": 14,
+    "other-theft": 12,
+    "possession-of-weapons": 7,
+    "public-order": 21,
+    "robbery": 1,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 23,
+    "violent-crime": 120,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

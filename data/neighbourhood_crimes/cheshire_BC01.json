@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BC01", "neighbourhood_name": "Crewe East", "force_id": "cheshire", "lat": "53.1024", "lng": "-2.43043", "population": "0", "total_crimes": 358, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 7, "burglary": 7, "criminal-damage-arson": 20, "drugs": 23, "other-theft": 15, "possession-of-weapons": 3, "public-order": 31, "robbery": 3, "shoplifting": 59, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 141, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BC01",
+  "neighbourhood_name": "Crewe East",
+  "force_id": "cheshire",
+  "lat": "53.1024",
+  "lng": "-2.43043",
+  "population": 15461,
+  "total_crimes": 358,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 7,
+    "burglary": 7,
+    "criminal-damage-arson": 20,
+    "drugs": 23,
+    "other-theft": 15,
+    "possession-of-weapons": 3,
+    "public-order": 31,
+    "robbery": 3,
+    "shoplifting": 59,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 141,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

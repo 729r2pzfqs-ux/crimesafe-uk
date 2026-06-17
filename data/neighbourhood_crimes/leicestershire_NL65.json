@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NL65", "neighbourhood_name": "Loughborough East", "force_id": "leicestershire", "lat": "52.7764", "lng": "-1.2079", "population": 12098, "total_crimes": 447, "categories": {"anti-social-behaviour": 86, "bicycle-theft": 6, "burglary": 19, "criminal-damage-arson": 32, "drugs": 15, "other-theft": 25, "possession-of-weapons": 5, "public-order": 43, "robbery": 2, "shoplifting": 57, "theft-from-the-person": 4, "vehicle-crime": 25, "violent-crime": 116, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NL65",
+  "neighbourhood_name": "Loughborough East",
+  "force_id": "leicestershire",
+  "lat": "52.7764",
+  "lng": "-1.2079",
+  "population": 17061,
+  "total_crimes": 447,
+  "categories": {
+    "anti-social-behaviour": 86,
+    "bicycle-theft": 6,
+    "burglary": 19,
+    "criminal-damage-arson": 32,
+    "drugs": 15,
+    "other-theft": 25,
+    "possession-of-weapons": 5,
+    "public-order": 43,
+    "robbery": 2,
+    "shoplifting": 57,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 25,
+    "violent-crime": 116,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

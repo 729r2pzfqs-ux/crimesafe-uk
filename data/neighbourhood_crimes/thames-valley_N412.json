@@ -1,1 +1,28 @@
-{"neighbourhood_id": "N412", "neighbourhood_name": "Aylesbury North ", "force_id": "thames-valley", "lat": "51.842", "lng": "-0.835614", "population": 12098, "total_crimes": 56, "categories": {"anti-social-behaviour": 7, "bicycle-theft": 1, "criminal-damage-arson": 3, "drugs": 2, "other-theft": 3, "possession-of-weapons": 1, "public-order": 4, "robbery": 1, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 22, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N412",
+  "neighbourhood_name": "Aylesbury North ",
+  "force_id": "thames-valley",
+  "lat": "51.842",
+  "lng": "-0.835614",
+  "population": 10220,
+  "total_crimes": 56,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 2,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 22,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

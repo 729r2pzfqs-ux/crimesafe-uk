@@ -1,1 +1,14 @@
-{"neighbourhood_id": "QC17", "neighbourhood_name": "Royton South", "force_id": "greater-manchester", "lat": "53.5628", "lng": "-2.11583", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "QC17",
+  "neighbourhood_name": "Royton South",
+  "force_id": "greater-manchester",
+  "lat": "53.5628",
+  "lng": "-2.11583",
+  "population": 10794,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

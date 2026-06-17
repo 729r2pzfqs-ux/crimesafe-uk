@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SPEN8", "neighbourhood_name": "Spennymoor (Chilton Ward)", "force_id": "durham", "lat": "54.6603", "lng": "-1.55922", "population": 12098, "total_crimes": 77, "categories": {"anti-social-behaviour": 13, "burglary": 3, "criminal-damage-arson": 10, "drugs": 3, "other-theft": 3, "possession-of-weapons": 1, "public-order": 9, "robbery": 1, "shoplifting": 10, "vehicle-crime": 1, "violent-crime": 20, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPEN8",
+  "neighbourhood_name": "Spennymoor (Chilton Ward)",
+  "force_id": "durham",
+  "lat": "54.6603",
+  "lng": "-1.55922",
+  "population": 1896,
+  "total_crimes": 77,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "drugs": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 1,
+    "violent-crime": 20,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013639", "neighbourhood_name": "Finchley Church End", "force_id": "metropolitan", "lat": "51.599", "lng": "-0.203454", "population": 18041, "total_crimes": 390, "categories": {"anti-social-behaviour": 105, "bicycle-theft": 3, "burglary": 18, "criminal-damage-arson": 17, "drugs": 22, "other-theft": 21, "public-order": 20, "robbery": 1, "shoplifting": 34, "theft-from-the-person": 3, "vehicle-crime": 36, "violent-crime": 101, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013639",
+  "neighbourhood_name": "Finchley Church End",
+  "force_id": "metropolitan",
+  "lat": "51.599",
+  "lng": "-0.203454",
+  "population": 19511,
+  "total_crimes": 390,
+  "categories": {
+    "anti-social-behaviour": 105,
+    "bicycle-theft": 3,
+    "burglary": 18,
+    "criminal-damage-arson": 17,
+    "drugs": 22,
+    "other-theft": 21,
+    "public-order": 20,
+    "robbery": 1,
+    "shoplifting": 34,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 36,
+    "violent-crime": 101,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

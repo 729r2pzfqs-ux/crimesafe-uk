@@ -1,1 +1,14 @@
-{"neighbourhood_id": "LC02", "neighbourhood_name": "Atherton", "force_id": "greater-manchester", "lat": "53.5276", "lng": "-2.48387", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LC02",
+  "neighbourhood_name": "Atherton",
+  "force_id": "greater-manchester",
+  "lat": "53.5276",
+  "lng": "-2.48387",
+  "population": 22043,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

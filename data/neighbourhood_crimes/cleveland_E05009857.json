@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009857", "neighbourhood_name": "Central", "force_id": "cleveland", "lat": "54.5782", "lng": "-1.22582", "population": "0", "total_crimes": 756, "categories": {"anti-social-behaviour": 84, "bicycle-theft": 6, "burglary": 32, "criminal-damage-arson": 58, "drugs": 39, "other-theft": 36, "possession-of-weapons": 6, "public-order": 82, "robbery": 18, "shoplifting": 66, "theft-from-the-person": 7, "vehicle-crime": 32, "violent-crime": 259, "other-crime": 31}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009857",
+  "neighbourhood_name": "Central",
+  "force_id": "cleveland",
+  "lat": "54.5782",
+  "lng": "-1.22582",
+  "population": 7412,
+  "total_crimes": 756,
+  "categories": {
+    "anti-social-behaviour": 84,
+    "bicycle-theft": 6,
+    "burglary": 32,
+    "criminal-damage-arson": 58,
+    "drugs": 39,
+    "other-theft": 36,
+    "possession-of-weapons": 6,
+    "public-order": 82,
+    "robbery": 18,
+    "shoplifting": 66,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 32,
+    "violent-crime": 259,
+    "other-crime": 31
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 102.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

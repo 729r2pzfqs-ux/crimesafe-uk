@@ -1,1 +1,26 @@
-{"neighbourhood_id": "C003", "neighbourhood_name": "Haverfordwest - Portfield", "force_id": "dyfed-powys", "lat": "51.7989", "lng": "-4.99015", "population": 12098, "total_crimes": 187, "categories": {"anti-social-behaviour": 24, "burglary": 6, "criminal-damage-arson": 22, "drugs": 13, "other-theft": 4, "possession-of-weapons": 3, "public-order": 24, "shoplifting": 22, "vehicle-crime": 1, "violent-crime": 64, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C003",
+  "neighbourhood_name": "Haverfordwest - Portfield",
+  "force_id": "dyfed-powys",
+  "lat": "51.7989",
+  "lng": "-4.99015",
+  "population": 2383,
+  "total_crimes": 187,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 6,
+    "criminal-damage-arson": 22,
+    "drugs": 13,
+    "other-theft": 4,
+    "possession-of-weapons": 3,
+    "public-order": 24,
+    "shoplifting": 22,
+    "vehicle-crime": 1,
+    "violent-crime": 64,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 78.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AD07", "neighbourhood_name": "Tarvin and Kelsall", "force_id": "cheshire", "lat": "53.1956", "lng": "-2.70099", "population": "0", "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AD07",
+  "neighbourhood_name": "Tarvin and Kelsall",
+  "force_id": "cheshire",
+  "lat": "53.1956",
+  "lng": "-2.70099",
+  "population": 8501,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

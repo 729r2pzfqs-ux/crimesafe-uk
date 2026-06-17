@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011465N", "neighbourhood_name": "Broad Green", "force_id": "metropolitan", "lat": "51.3831", "lng": "-0.115871", "population": 12098, "total_crimes": 1016, "categories": {"anti-social-behaviour": 199, "bicycle-theft": 5, "burglary": 40, "criminal-damage-arson": 59, "drugs": 74, "other-theft": 62, "possession-of-weapons": 9, "public-order": 87, "robbery": 26, "shoplifting": 100, "theft-from-the-person": 22, "vehicle-crime": 57, "violent-crime": 265, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011465N",
+  "neighbourhood_name": "Broad Green",
+  "force_id": "metropolitan",
+  "lat": "51.3831",
+  "lng": "-0.115871",
+  "population": 17403,
+  "total_crimes": 1016,
+  "categories": {
+    "anti-social-behaviour": 199,
+    "bicycle-theft": 5,
+    "burglary": 40,
+    "criminal-damage-arson": 59,
+    "drugs": 74,
+    "other-theft": 62,
+    "possession-of-weapons": 9,
+    "public-order": 87,
+    "robbery": 26,
+    "shoplifting": 100,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 57,
+    "violent-crime": 265,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "BA1", "neighbourhood_name": "Gloucester City Centre", "force_id": "gloucestershire", "lat": "51.8693", "lng": "-2.25418", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BA1",
+  "neighbourhood_name": "Gloucester City Centre",
+  "force_id": "gloucestershire",
+  "lat": "51.8693",
+  "lng": "-2.25418",
+  "population": 3111,
+  "total_crimes": 3,
+  "categories": {
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

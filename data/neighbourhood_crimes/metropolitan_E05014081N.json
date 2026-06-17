@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014081N", "neighbourhood_name": "Greenwich Park", "force_id": "metropolitan", "lat": "51.477", "lng": "-0.00538896", "population": 12098, "total_crimes": 776, "categories": {"anti-social-behaviour": 157, "bicycle-theft": 11, "burglary": 24, "criminal-damage-arson": 40, "drugs": 28, "other-theft": 56, "possession-of-weapons": 3, "public-order": 57, "robbery": 15, "shoplifting": 90, "theft-from-the-person": 39, "vehicle-crime": 33, "violent-crime": 216, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014081N",
+  "neighbourhood_name": "Greenwich Park",
+  "force_id": "metropolitan",
+  "lat": "51.477",
+  "lng": "-0.00538896",
+  "population": 7816,
+  "total_crimes": 776,
+  "categories": {
+    "anti-social-behaviour": 157,
+    "bicycle-theft": 11,
+    "burglary": 24,
+    "criminal-damage-arson": 40,
+    "drugs": 28,
+    "other-theft": 56,
+    "possession-of-weapons": 3,
+    "public-order": 57,
+    "robbery": 15,
+    "shoplifting": 90,
+    "theft-from-the-person": 39,
+    "vehicle-crime": 33,
+    "violent-crime": 216,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 99.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

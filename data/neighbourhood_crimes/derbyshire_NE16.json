@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NE16", "neighbourhood_name": "Pleasley", "force_id": "derbyshire", "lat": "53.1821", "lng": "-1.25931", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 6, "burglary": 1, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 1, "public-order": 1, "vehicle-crime": 2, "violent-crime": 8, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE16",
+  "neighbourhood_name": "Pleasley",
+  "force_id": "derbyshire",
+  "lat": "53.1821",
+  "lng": "-1.25931",
+  "population": 4206,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 8,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,20 @@
-{"neighbourhood_id": "ZA63", "neighbourhood_name": "Chartham &amp; Stone Street", "force_id": "kent", "lat": "51.2379", "lng": "1.0373", "population": 12098, "total_crimes": 18, "categories": {"anti-social-behaviour": 5, "other-theft": 1, "public-order": 2, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA63",
+  "neighbourhood_name": "Chartham &amp; Stone Street",
+  "force_id": "kent",
+  "lat": "51.2379",
+  "lng": "1.0373",
+  "population": 7788,
+  "total_crimes": 18,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "other-theft": 1,
+    "public-order": 2,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

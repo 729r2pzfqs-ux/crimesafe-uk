@@ -1,1 +1,14 @@
-{"neighbourhood_id": "MC88", "neighbourhood_name": "The Elms", "force_id": "gwent", "lat": "51.5903", "lng": "-2.81207", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "MC88",
+  "neighbourhood_name": "The Elms",
+  "force_id": "gwent",
+  "lat": "51.5903",
+  "lng": "-2.81207",
+  "population": 4414,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

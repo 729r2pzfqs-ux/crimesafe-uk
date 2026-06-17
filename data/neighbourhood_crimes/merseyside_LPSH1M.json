@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPSH1M", "neighbourhood_name": "Haydock", "force_id": "merseyside", "lat": "53.4728", "lng": "-2.66127", "population": 12098, "total_crimes": 79, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 5, "drugs": 6, "other-theft": 7, "public-order": 5, "robbery": 1, "shoplifting": 9, "vehicle-crime": 5, "violent-crime": 25, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1M",
+  "neighbourhood_name": "Haydock",
+  "force_id": "merseyside",
+  "lat": "53.4728",
+  "lng": "-2.66127",
+  "population": 13039,
+  "total_crimes": 79,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 6,
+    "other-theft": 7,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 9,
+    "vehicle-crime": 5,
+    "violent-crime": 25,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

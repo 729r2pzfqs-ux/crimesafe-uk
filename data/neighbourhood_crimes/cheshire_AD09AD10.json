@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AD09AD10", "neighbourhood_name": "Tattenhall and Malpas", "force_id": "cheshire", "lat": "53.0822", "lng": "-2.73557", "population": "0", "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "burglary": 1, "other-theft": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AD09AD10",
+  "neighbourhood_name": "Tattenhall and Malpas",
+  "force_id": "cheshire",
+  "lat": "53.0822",
+  "lng": "-2.73557",
+  "population": 8769,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 1,
+    "other-theft": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

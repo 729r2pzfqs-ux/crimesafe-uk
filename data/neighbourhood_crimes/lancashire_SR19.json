@@ -1,1 +1,17 @@
-{"neighbourhood_id": "SR19", "neighbourhood_name": "Samlesbury &amp; Walton", "force_id": "lancashire", "lat": "53.7569", "lng": "-2.61514", "population": 12098, "total_crimes": 3, "categories": {"public-order": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR19",
+  "neighbourhood_name": "Samlesbury &amp; Walton",
+  "force_id": "lancashire",
+  "lat": "53.7569",
+  "lng": "-2.61514",
+  "population": 4230,
+  "total_crimes": 3,
+  "categories": {
+    "public-order": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

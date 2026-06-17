@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WKMA", "neighbourhood_name": "Maybury", "force_id": "surrey", "lat": "51.3211", "lng": "-0.542332", "population": 12098, "total_crimes": 212, "categories": {"anti-social-behaviour": 47, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 10, "drugs": 7, "other-theft": 17, "possession-of-weapons": 3, "public-order": 20, "shoplifting": 18, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 75, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WKMA",
+  "neighbourhood_name": "Maybury",
+  "force_id": "surrey",
+  "lat": "51.3211",
+  "lng": "-0.542332",
+  "population": 10544,
+  "total_crimes": 212,
+  "categories": {
+    "anti-social-behaviour": 47,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 10,
+    "drugs": 7,
+    "other-theft": 17,
+    "possession-of-weapons": 3,
+    "public-order": 20,
+    "shoplifting": 18,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 75,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

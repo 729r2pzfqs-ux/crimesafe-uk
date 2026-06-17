@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ET12", "neighbourhood_name": "Adcroft and Paxcroft", "force_id": "wiltshire", "lat": "51.325", "lng": "-2.19485", "population": 12098, "total_crimes": 266, "categories": {"anti-social-behaviour": 60, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 19, "drugs": 3, "other-theft": 13, "possession-of-weapons": 2, "public-order": 11, "robbery": 1, "shoplifting": 23, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 110, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ET12",
+  "neighbourhood_name": "Adcroft and Paxcroft",
+  "force_id": "wiltshire",
+  "lat": "51.325",
+  "lng": "-2.19485",
+  "population": 6565,
+  "total_crimes": 266,
+  "categories": {
+    "anti-social-behaviour": 60,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 19,
+    "drugs": 3,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 23,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 110,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

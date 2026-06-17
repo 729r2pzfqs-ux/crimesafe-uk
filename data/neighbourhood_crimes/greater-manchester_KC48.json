@@ -1,1 +1,16 @@
-{"neighbourhood_id": "KC48", "neighbourhood_name": "Tonge and The Haulgh", "force_id": "greater-manchester", "lat": "53.5833", "lng": "-2.41001", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KC48",
+  "neighbourhood_name": "Tonge and The Haulgh",
+  "force_id": "greater-manchester",
+  "lat": "53.5833",
+  "lng": "-2.41001",
+  "population": 15868,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

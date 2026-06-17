@@ -1,1 +1,25 @@
-{"neighbourhood_id": "DHAM7", "neighbourhood_name": "Durham (Coxhoe/Kelloe/Q Hill)", "force_id": "durham", "lat": "54.7177", "lng": "-1.47884", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 1, "public-order": 3, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 7, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DHAM7",
+  "neighbourhood_name": "Durham (Coxhoe/Kelloe/Q Hill)",
+  "force_id": "durham",
+  "lat": "54.7177",
+  "lng": "-1.47884",
+  "population": 5851,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 7,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

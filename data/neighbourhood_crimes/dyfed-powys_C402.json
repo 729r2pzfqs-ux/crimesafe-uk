@@ -1,1 +1,23 @@
-{"neighbourhood_id": "C402", "neighbourhood_name": "Penally", "force_id": "dyfed-powys", "lat": "51.6797", "lng": "-4.72762", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 3, "public-order": 2, "shoplifting": 1, "violent-crime": 8, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C402",
+  "neighbourhood_name": "Penally",
+  "force_id": "dyfed-powys",
+  "lat": "51.6797",
+  "lng": "-4.72762",
+  "population": 1784,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 8,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

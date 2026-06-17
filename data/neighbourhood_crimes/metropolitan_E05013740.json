@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013740", "neighbourhood_name": "Grove", "force_id": "metropolitan", "lat": "51.4978", "lng": "-0.229798", "population": 7597, "total_crimes": 1367, "categories": {"anti-social-behaviour": 298, "bicycle-theft": 14, "burglary": 47, "criminal-damage-arson": 67, "drugs": 64, "other-theft": 116, "possession-of-weapons": 5, "public-order": 92, "robbery": 19, "shoplifting": 200, "theft-from-the-person": 60, "vehicle-crime": 88, "violent-crime": 283, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013740",
+  "neighbourhood_name": "Grove",
+  "force_id": "metropolitan",
+  "lat": "51.4978",
+  "lng": "-0.229798",
+  "population": 7362,
+  "total_crimes": 1367,
+  "categories": {
+    "anti-social-behaviour": 298,
+    "bicycle-theft": 14,
+    "burglary": 47,
+    "criminal-damage-arson": 67,
+    "drugs": 64,
+    "other-theft": 116,
+    "possession-of-weapons": 5,
+    "public-order": 92,
+    "robbery": 19,
+    "shoplifting": 200,
+    "theft-from-the-person": 60,
+    "vehicle-crime": 88,
+    "violent-crime": 283,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 185.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

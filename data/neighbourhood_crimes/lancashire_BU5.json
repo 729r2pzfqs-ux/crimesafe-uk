@@ -1,1 +1,23 @@
-{"neighbourhood_id": "BU5", "neighbourhood_name": "Hapton with Park", "force_id": "lancashire", "lat": "53.7796", "lng": "-2.30532", "population": 12098, "total_crimes": 39, "categories": {"anti-social-behaviour": 4, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 8, "public-order": 2, "vehicle-crime": 5, "violent-crime": 14, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU5",
+  "neighbourhood_name": "Hapton with Park",
+  "force_id": "lancashire",
+  "lat": "53.7796",
+  "lng": "-2.30532",
+  "population": 5863,
+  "total_crimes": 39,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "public-order": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 14,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

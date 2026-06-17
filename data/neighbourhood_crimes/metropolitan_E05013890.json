@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013890", "neighbourhood_name": "Hatch Lane and Highams Park North", "force_id": "metropolitan", "lat": "51.6159", "lng": "0.0092369", "population": 12098, "total_crimes": 191, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 3, "burglary": 9, "criminal-damage-arson": 10, "drugs": 4, "other-theft": 14, "public-order": 10, "robbery": 5, "shoplifting": 7, "theft-from-the-person": 3, "vehicle-crime": 26, "violent-crime": 62, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013890",
+  "neighbourhood_name": "Hatch Lane and Highams Park North",
+  "force_id": "metropolitan",
+  "lat": "51.6159",
+  "lng": "0.0092369",
+  "population": 11610,
+  "total_crimes": 191,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 3,
+    "burglary": 9,
+    "criminal-damage-arson": 10,
+    "drugs": 4,
+    "other-theft": 14,
+    "public-order": 10,
+    "robbery": 5,
+    "shoplifting": 7,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 26,
+    "violent-crime": 62,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

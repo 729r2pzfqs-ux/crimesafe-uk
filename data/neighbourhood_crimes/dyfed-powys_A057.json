@@ -1,1 +1,14 @@
-{"neighbourhood_id": "A057", "neighbourhood_name": "Cynwyl Gaeo", "force_id": "dyfed-powys", "lat": "52.0604", "lng": "-3.97158", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A057",
+  "neighbourhood_name": "Cynwyl Gaeo",
+  "force_id": "dyfed-powys",
+  "lat": "52.0604",
+  "lng": "-3.97158",
+  "population": 1606,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

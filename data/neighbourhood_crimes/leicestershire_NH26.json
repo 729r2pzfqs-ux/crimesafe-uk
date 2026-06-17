@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NH26", "neighbourhood_name": "Greater Hinckley", "force_id": "leicestershire", "lat": "52.5472", "lng": "-1.37776", "population": 12098, "total_crimes": 252, "categories": {"anti-social-behaviour": 21, "burglary": 21, "criminal-damage-arson": 33, "drugs": 11, "other-theft": 21, "possession-of-weapons": 8, "public-order": 8, "robbery": 2, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 11, "violent-crime": 83, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH26",
+  "neighbourhood_name": "Greater Hinckley",
+  "force_id": "leicestershire",
+  "lat": "52.5472",
+  "lng": "-1.37776",
+  "population": 30909,
+  "total_crimes": 252,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 21,
+    "criminal-damage-arson": 33,
+    "drugs": 11,
+    "other-theft": 21,
+    "possession-of-weapons": 8,
+    "public-order": 8,
+    "robbery": 2,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 11,
+    "violent-crime": 83,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

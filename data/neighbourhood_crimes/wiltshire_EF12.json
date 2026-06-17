@@ -1,1 +1,22 @@
-{"neighbourhood_id": "EF12", "neighbourhood_name": "Corsham Rural", "force_id": "wiltshire", "lat": "51.4347", "lng": "-2.17923", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 4, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 1, "drugs": 1, "public-order": 4, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EF12",
+  "neighbourhood_name": "Corsham Rural",
+  "force_id": "wiltshire",
+  "lat": "51.4347",
+  "lng": "-2.17923",
+  "population": 11197,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "public-order": 4,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

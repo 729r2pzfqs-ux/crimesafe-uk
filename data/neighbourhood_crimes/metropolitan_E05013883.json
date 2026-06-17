@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013883", "neighbourhood_name": "Cathall", "force_id": "metropolitan", "lat": "51.5574", "lng": "-0.000637885", "population": 12098, "total_crimes": 975, "categories": {"anti-social-behaviour": 230, "bicycle-theft": 8, "burglary": 39, "criminal-damage-arson": 57, "drugs": 56, "other-theft": 75, "possession-of-weapons": 6, "public-order": 28, "robbery": 23, "shoplifting": 83, "theft-from-the-person": 53, "vehicle-crime": 80, "violent-crime": 232, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013883",
+  "neighbourhood_name": "Cathall",
+  "force_id": "metropolitan",
+  "lat": "51.5574",
+  "lng": "-0.000637885",
+  "population": 11341,
+  "total_crimes": 975,
+  "categories": {
+    "anti-social-behaviour": 230,
+    "bicycle-theft": 8,
+    "burglary": 39,
+    "criminal-damage-arson": 57,
+    "drugs": 56,
+    "other-theft": 75,
+    "possession-of-weapons": 6,
+    "public-order": 28,
+    "robbery": 23,
+    "shoplifting": 83,
+    "theft-from-the-person": 53,
+    "vehicle-crime": 80,
+    "violent-crime": 232,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 86.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

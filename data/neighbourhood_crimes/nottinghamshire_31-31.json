@@ -1,1 +1,21 @@
-{"neighbourhood_id": "31-31", "neighbourhood_name": "Gedling, Burton Joyce and Villages", "force_id": "nottinghamshire", "lat": "52.9858", "lng": "-1.05801", "population": 12098, "total_crimes": 18, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 1, "shoplifting": 2, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-31",
+  "neighbourhood_name": "Gedling, Burton Joyce and Villages",
+  "force_id": "nottinghamshire",
+  "lat": "52.9858",
+  "lng": "-1.05801",
+  "population": 23143,
+  "total_crimes": 18,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "shoplifting": 2,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

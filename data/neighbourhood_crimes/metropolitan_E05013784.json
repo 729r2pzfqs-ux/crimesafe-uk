@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013784", "neighbourhood_name": "North Richmond", "force_id": "metropolitan", "lat": "51.4674", "lng": "-0.296113", "population": 10139, "total_crimes": 282, "categories": {"anti-social-behaviour": 72, "bicycle-theft": 8, "burglary": 12, "criminal-damage-arson": 8, "drugs": 5, "other-theft": 20, "possession-of-weapons": 1, "public-order": 15, "robbery": 1, "shoplifting": 34, "theft-from-the-person": 14, "vehicle-crime": 30, "violent-crime": 62}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013784",
+  "neighbourhood_name": "North Richmond",
+  "force_id": "metropolitan",
+  "lat": "51.4674",
+  "lng": "-0.296113",
+  "population": 10423,
+  "total_crimes": 282,
+  "categories": {
+    "anti-social-behaviour": 72,
+    "bicycle-theft": 8,
+    "burglary": 12,
+    "criminal-damage-arson": 8,
+    "drugs": 5,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 34,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 30,
+    "violent-crime": 62
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

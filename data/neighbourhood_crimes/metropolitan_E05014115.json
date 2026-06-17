@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014115", "neighbourhood_name": "Streatham St Leonard's", "force_id": "metropolitan", "lat": "51.4291", "lng": "-0.132013", "population": 15814, "total_crimes": 591, "categories": {"anti-social-behaviour": 153, "bicycle-theft": 6, "burglary": 22, "criminal-damage-arson": 43, "drugs": 17, "other-theft": 50, "possession-of-weapons": 2, "public-order": 20, "robbery": 20, "shoplifting": 32, "theft-from-the-person": 20, "vehicle-crime": 48, "violent-crime": 151, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014115",
+  "neighbourhood_name": "Streatham St Leonard's",
+  "force_id": "metropolitan",
+  "lat": "51.4291",
+  "lng": "-0.132013",
+  "population": 17071,
+  "total_crimes": 591,
+  "categories": {
+    "anti-social-behaviour": 153,
+    "bicycle-theft": 6,
+    "burglary": 22,
+    "criminal-damage-arson": 43,
+    "drugs": 17,
+    "other-theft": 50,
+    "possession-of-weapons": 2,
+    "public-order": 20,
+    "robbery": 20,
+    "shoplifting": 32,
+    "theft-from-the-person": 20,
+    "vehicle-crime": 48,
+    "violent-crime": 151,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

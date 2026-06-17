@@ -1,1 +1,28 @@
-{"neighbourhood_id": "PLY.4032", "neighbourhood_name": "Keyham", "force_id": "devon-and-cornwall", "lat": "50.3867", "lng": "-4.18002", "population": 12098, "total_crimes": 361, "categories": {"anti-social-behaviour": 48, "burglary": 9, "criminal-damage-arson": 18, "drugs": 8, "other-theft": 10, "possession-of-weapons": 5, "public-order": 19, "robbery": 1, "shoplifting": 21, "theft-from-the-person": 4, "vehicle-crime": 13, "violent-crime": 194, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4032",
+  "neighbourhood_name": "Keyham",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3867",
+  "lng": "-4.18002",
+  "population": 6072,
+  "total_crimes": 361,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "burglary": 9,
+    "criminal-damage-arson": 18,
+    "drugs": 8,
+    "other-theft": 10,
+    "possession-of-weapons": 5,
+    "public-order": 19,
+    "robbery": 1,
+    "shoplifting": 21,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 13,
+    "violent-crime": 194,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

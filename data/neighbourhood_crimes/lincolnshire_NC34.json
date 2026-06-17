@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NC34", "neighbourhood_name": "Hykeham Town", "force_id": "lincolnshire", "lat": "53.1886", "lng": "-0.593817", "population": 12098, "total_crimes": 102, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 4, "burglary": 2, "criminal-damage-arson": 14, "other-theft": 5, "public-order": 6, "shoplifting": 8, "violent-crime": 36, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC34",
+  "neighbourhood_name": "Hykeham Town",
+  "force_id": "lincolnshire",
+  "lat": "53.1886",
+  "lng": "-0.593817",
+  "population": 16588,
+  "total_crimes": 102,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 4,
+    "burglary": 2,
+    "criminal-damage-arson": 14,
+    "other-theft": 5,
+    "public-order": 6,
+    "shoplifting": 8,
+    "violent-crime": 36,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

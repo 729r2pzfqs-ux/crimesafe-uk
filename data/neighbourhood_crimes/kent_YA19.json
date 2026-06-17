@@ -1,1 +1,19 @@
-{"neighbourhood_id": "YA19", "neighbourhood_name": "Boxley Downs", "force_id": "kent", "lat": "51.2989", "lng": "0.581642", "population": 12098, "total_crimes": 6, "categories": {"possession-of-weapons": 1, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA19",
+  "neighbourhood_name": "Boxley Downs",
+  "force_id": "kent",
+  "lat": "51.2989",
+  "lng": "0.581642",
+  "population": 4750,
+  "total_crimes": 6,
+  "categories": {
+    "possession-of-weapons": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011115", "neighbourhood_name": "St Giles", "force_id": "metropolitan", "lat": "51.4746", "lng": "-0.0833524", "population": 12098, "total_crimes": 1334, "categories": {"anti-social-behaviour": 257, "bicycle-theft": 29, "burglary": 53, "criminal-damage-arson": 66, "drugs": 63, "other-theft": 84, "possession-of-weapons": 10, "public-order": 73, "robbery": 51, "shoplifting": 149, "theft-from-the-person": 103, "vehicle-crime": 70, "violent-crime": 314, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011115",
+  "neighbourhood_name": "St Giles",
+  "force_id": "metropolitan",
+  "lat": "51.4746",
+  "lng": "-0.0833524",
+  "population": 13570,
+  "total_crimes": 1334,
+  "categories": {
+    "anti-social-behaviour": 257,
+    "bicycle-theft": 29,
+    "burglary": 53,
+    "criminal-damage-arson": 66,
+    "drugs": 63,
+    "other-theft": 84,
+    "possession-of-weapons": 10,
+    "public-order": 73,
+    "robbery": 51,
+    "shoplifting": 149,
+    "theft-from-the-person": 103,
+    "vehicle-crime": 70,
+    "violent-crime": 314,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 98.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

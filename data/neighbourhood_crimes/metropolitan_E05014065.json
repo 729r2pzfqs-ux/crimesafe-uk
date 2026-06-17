@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014065", "neighbourhood_name": "Mayesbrook", "force_id": "metropolitan", "lat": "51.5454", "lng": "0.115928", "population": 12098, "total_crimes": 426, "categories": {"anti-social-behaviour": 66, "bicycle-theft": 1, "burglary": 23, "criminal-damage-arson": 22, "drugs": 18, "other-theft": 21, "possession-of-weapons": 4, "public-order": 29, "robbery": 11, "shoplifting": 16, "theft-from-the-person": 12, "vehicle-crime": 41, "violent-crime": 155, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014065",
+  "neighbourhood_name": "Mayesbrook",
+  "force_id": "metropolitan",
+  "lat": "51.5454",
+  "lng": "0.115928",
+  "population": 12815,
+  "total_crimes": 426,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "bicycle-theft": 1,
+    "burglary": 23,
+    "criminal-damage-arson": 22,
+    "drugs": 18,
+    "other-theft": 21,
+    "possession-of-weapons": 4,
+    "public-order": 29,
+    "robbery": 11,
+    "shoplifting": 16,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 41,
+    "violent-crime": 155,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

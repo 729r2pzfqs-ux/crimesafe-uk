@@ -1,1 +1,27 @@
-{"neighbourhood_id": "YD15", "neighbourhood_name": "St James", "force_id": "kent", "lat": "51.1406", "lng": "0.271983", "population": 12098, "total_crimes": 229, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 1, "burglary": 5, "criminal-damage-arson": 25, "drugs": 10, "other-theft": 16, "public-order": 12, "robbery": 3, "shoplifting": 31, "vehicle-crime": 4, "violent-crime": 71, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YD15",
+  "neighbourhood_name": "St James",
+  "force_id": "kent",
+  "lat": "51.1406",
+  "lng": "0.271983",
+  "population": 9295,
+  "total_crimes": 229,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 1,
+    "burglary": 5,
+    "criminal-damage-arson": 25,
+    "drugs": 10,
+    "other-theft": 16,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 31,
+    "vehicle-crime": 4,
+    "violent-crime": 71,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

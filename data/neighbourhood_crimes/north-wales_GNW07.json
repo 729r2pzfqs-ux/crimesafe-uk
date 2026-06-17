@@ -1,1 +1,25 @@
-{"neighbourhood_id": "GNW07", "neighbourhood_name": "Glyder", "force_id": "north-wales", "lat": "53.2189", "lng": "-4.15187", "population": 12098, "total_crimes": 128, "categories": {"anti-social-behaviour": 17, "burglary": 5, "criminal-damage-arson": 8, "drugs": 5, "other-theft": 3, "public-order": 16, "robbery": 2, "shoplifting": 28, "violent-crime": 42, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW07",
+  "neighbourhood_name": "Glyder",
+  "force_id": "north-wales",
+  "lat": "53.2189",
+  "lng": "-4.15187",
+  "population": 1955,
+  "total_crimes": 128,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 5,
+    "criminal-damage-arson": 8,
+    "drugs": 5,
+    "other-theft": 3,
+    "public-order": 16,
+    "robbery": 2,
+    "shoplifting": 28,
+    "violent-crime": 42,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

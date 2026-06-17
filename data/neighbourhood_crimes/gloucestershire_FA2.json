@@ -1,1 +1,14 @@
-{"neighbourhood_id": "FA2", "neighbourhood_name": "Moreton-in-Marsh", "force_id": "gloucestershire", "lat": "52.0087", "lng": "-1.71486", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FA2",
+  "neighbourhood_name": "Moreton-in-Marsh",
+  "force_id": "gloucestershire",
+  "lat": "52.0087",
+  "lng": "-1.71486",
+  "population": 3841,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

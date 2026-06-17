@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DCW10", "neighbourhood_name": "Rhyl West", "force_id": "north-wales", "lat": "53.3206", "lng": "-3.49853", "population": 12098, "total_crimes": 369, "categories": {"anti-social-behaviour": 81, "bicycle-theft": 1, "burglary": 10, "criminal-damage-arson": 28, "drugs": 17, "other-theft": 20, "possession-of-weapons": 2, "public-order": 34, "robbery": 1, "shoplifting": 38, "theft-from-the-person": 3, "vehicle-crime": 9, "violent-crime": 122, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW10",
+  "neighbourhood_name": "Rhyl West",
+  "force_id": "north-wales",
+  "lat": "53.3206",
+  "lng": "-3.49853",
+  "population": 4895,
+  "total_crimes": 369,
+  "categories": {
+    "anti-social-behaviour": 81,
+    "bicycle-theft": 1,
+    "burglary": 10,
+    "criminal-damage-arson": 28,
+    "drugs": 17,
+    "other-theft": 20,
+    "possession-of-weapons": 2,
+    "public-order": 34,
+    "robbery": 1,
+    "shoplifting": 38,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 9,
+    "violent-crime": 122,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 75.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

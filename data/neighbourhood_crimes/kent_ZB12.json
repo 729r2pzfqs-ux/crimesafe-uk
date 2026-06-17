@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZB12", "neighbourhood_name": "Westbrook", "force_id": "kent", "lat": "51.3863", "lng": "1.3587", "population": 12098, "total_crimes": 148, "categories": {"anti-social-behaviour": 29, "burglary": 4, "criminal-damage-arson": 10, "drugs": 8, "other-theft": 10, "possession-of-weapons": 2, "public-order": 11, "robbery": 3, "shoplifting": 11, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 51, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB12",
+  "neighbourhood_name": "Westbrook",
+  "force_id": "kent",
+  "lat": "51.3863",
+  "lng": "1.3587",
+  "population": 4375,
+  "total_crimes": 148,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "burglary": 4,
+    "criminal-damage-arson": 10,
+    "drugs": 8,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "robbery": 3,
+    "shoplifting": 11,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 51,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

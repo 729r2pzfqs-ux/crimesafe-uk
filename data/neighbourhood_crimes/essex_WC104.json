@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WC104", "neighbourhood_name": "Chadwell St Mary and Tilbury", "force_id": "essex", "lat": "51.476", "lng": "0.392926", "population": 12098, "total_crimes": 46, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 1, "public-order": 2, "vehicle-crime": 9, "violent-crime": 20, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC104",
+  "neighbourhood_name": "Chadwell St Mary and Tilbury",
+  "force_id": "essex",
+  "lat": "51.476",
+  "lng": "0.392926",
+  "population": 32792,
+  "total_crimes": 46,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 20,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

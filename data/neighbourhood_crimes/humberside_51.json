@@ -1,1 +1,29 @@
-{"neighbourhood_id": "51", "neighbourhood_name": "Ings", "force_id": "humberside", "lat": "53.7716", "lng": "-0.285806", "population": 12098, "total_crimes": 348, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 31, "drugs": 5, "other-theft": 13, "possession-of-weapons": 3, "public-order": 25, "robbery": 2, "shoplifting": 57, "theft-from-the-person": 1, "vehicle-crime": 17, "violent-crime": 158, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "51",
+  "neighbourhood_name": "Ings",
+  "force_id": "humberside",
+  "lat": "53.7716",
+  "lng": "-0.285806",
+  "population": 7842,
+  "total_crimes": 348,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 31,
+    "drugs": 5,
+    "other-theft": 13,
+    "possession-of-weapons": 3,
+    "public-order": 25,
+    "robbery": 2,
+    "shoplifting": 57,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 17,
+    "violent-crime": 158,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

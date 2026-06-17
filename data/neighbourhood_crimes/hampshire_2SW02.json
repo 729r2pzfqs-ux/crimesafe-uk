@@ -1,1 +1,29 @@
-{"neighbourhood_id": "2SW02", "neighbourhood_name": "Coxford, Redbridge and Millbrook", "force_id": "hampshire", "lat": "50.9268", "lng": "-1.4514", "population": 12098, "total_crimes": 505, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 1, "burglary": 17, "criminal-damage-arson": 44, "drugs": 14, "other-theft": 33, "possession-of-weapons": 10, "public-order": 32, "robbery": 7, "shoplifting": 41, "theft-from-the-person": 3, "vehicle-crime": 23, "violent-crime": 202, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2SW02",
+  "neighbourhood_name": "Coxford, Redbridge and Millbrook",
+  "force_id": "hampshire",
+  "lat": "50.9268",
+  "lng": "-1.4514",
+  "population": 44764,
+  "total_crimes": 505,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 1,
+    "burglary": 17,
+    "criminal-damage-arson": 44,
+    "drugs": 14,
+    "other-theft": 33,
+    "possession-of-weapons": 10,
+    "public-order": 32,
+    "robbery": 7,
+    "shoplifting": 41,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 23,
+    "violent-crime": 202,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 29
+}

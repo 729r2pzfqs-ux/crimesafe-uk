@@ -1,1 +1,17 @@
-{"neighbourhood_id": "YA28", "neighbourhood_name": "Harrietsham, Lenham &amp; North Downs", "force_id": "kent", "lat": "51.2609", "lng": "0.69724", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA28",
+  "neighbourhood_name": "Harrietsham, Lenham &amp; North Downs",
+  "force_id": "kent",
+  "lat": "51.2609",
+  "lng": "0.69724",
+  "population": 5998,
+  "total_crimes": 2,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

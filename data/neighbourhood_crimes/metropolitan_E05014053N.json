@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014053N", "neighbourhood_name": "Abbey", "force_id": "metropolitan", "lat": "51.5361", "lng": "0.079293", "population": 12098, "total_crimes": 842, "categories": {"anti-social-behaviour": 187, "bicycle-theft": 5, "burglary": 26, "criminal-damage-arson": 39, "drugs": 68, "other-theft": 66, "possession-of-weapons": 5, "public-order": 51, "robbery": 37, "shoplifting": 26, "theft-from-the-person": 33, "vehicle-crime": 54, "violent-crime": 228, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014053N",
+  "neighbourhood_name": "Abbey",
+  "force_id": "metropolitan",
+  "lat": "51.5361",
+  "lng": "0.079293",
+  "population": 1974,
+  "total_crimes": 842,
+  "categories": {
+    "anti-social-behaviour": 187,
+    "bicycle-theft": 5,
+    "burglary": 26,
+    "criminal-damage-arson": 39,
+    "drugs": 68,
+    "other-theft": 66,
+    "possession-of-weapons": 5,
+    "public-order": 51,
+    "robbery": 37,
+    "shoplifting": 26,
+    "theft-from-the-person": 33,
+    "vehicle-crime": 54,
+    "violent-crime": 228,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 426.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "GNW27", "neighbourhood_name": "Talysarn", "force_id": "north-wales", "lat": "53.0668", "lng": "-4.23044", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW27",
+  "neighbourhood_name": "Talysarn",
+  "force_id": "north-wales",
+  "lat": "53.0668",
+  "lng": "-4.23044",
+  "population": 2036,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

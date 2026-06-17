@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SGA", "neighbourhood_name": "Hartshill &amp; Basford", "force_id": "staffordshire", "lat": "53.0124", "lng": "-2.19761", "population": 12098, "total_crimes": 474, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 9, "burglary": 19, "criminal-damage-arson": 42, "drugs": 17, "other-theft": 34, "possession-of-weapons": 6, "public-order": 54, "robbery": 8, "shoplifting": 25, "theft-from-the-person": 2, "vehicle-crime": 14, "violent-crime": 167, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SGA",
+  "neighbourhood_name": "Hartshill &amp; Basford",
+  "force_id": "staffordshire",
+  "lat": "53.0124",
+  "lng": "-2.19761",
+  "population": 6492,
+  "total_crimes": 474,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 9,
+    "burglary": 19,
+    "criminal-damage-arson": 42,
+    "drugs": 17,
+    "other-theft": 34,
+    "possession-of-weapons": 6,
+    "public-order": 54,
+    "robbery": 8,
+    "shoplifting": 25,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 14,
+    "violent-crime": 167,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

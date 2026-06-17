@@ -1,1 +1,19 @@
-{"neighbourhood_id": "PLE4", "neighbourhood_name": "Peterlee (Trimdon)", "force_id": "durham", "lat": "54.709", "lng": "-1.3725", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 4, "vehicle-crime": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLE4",
+  "neighbourhood_name": "Peterlee (Trimdon)",
+  "force_id": "durham",
+  "lat": "54.709",
+  "lng": "-1.3725",
+  "population": 1561,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

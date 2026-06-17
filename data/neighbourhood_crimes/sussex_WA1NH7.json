@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WA1NH7", "neighbourhood_name": "Hotham", "force_id": "sussex", "lat": "50.7889", "lng": "-0.666541", "population": 12098, "total_crimes": 337, "categories": {"anti-social-behaviour": 68, "bicycle-theft": 1, "burglary": 11, "criminal-damage-arson": 30, "drugs": 15, "other-theft": 18, "possession-of-weapons": 4, "public-order": 13, "robbery": 5, "shoplifting": 57, "theft-from-the-person": 2, "vehicle-crime": 8, "violent-crime": 103, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA1NH7",
+  "neighbourhood_name": "Hotham",
+  "force_id": "sussex",
+  "lat": "50.7889",
+  "lng": "-0.666541",
+  "population": 6905,
+  "total_crimes": 337,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "bicycle-theft": 1,
+    "burglary": 11,
+    "criminal-damage-arson": 30,
+    "drugs": 15,
+    "other-theft": 18,
+    "possession-of-weapons": 4,
+    "public-order": 13,
+    "robbery": 5,
+    "shoplifting": 57,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 103,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 48.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

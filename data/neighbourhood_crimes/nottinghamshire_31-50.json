@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-50", "neighbourhood_name": "Sherwood", "force_id": "nottinghamshire", "lat": "52.9846", "lng": "-1.14758", "population": 12098, "total_crimes": 372, "categories": {"anti-social-behaviour": 43, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 21, "drugs": 15, "other-theft": 15, "possession-of-weapons": 5, "public-order": 18, "robbery": 7, "shoplifting": 56, "theft-from-the-person": 3, "vehicle-crime": 13, "violent-crime": 146, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-50",
+  "neighbourhood_name": "Sherwood",
+  "force_id": "nottinghamshire",
+  "lat": "52.9846",
+  "lng": "-1.14758",
+  "population": 16084,
+  "total_crimes": 372,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 21,
+    "drugs": 15,
+    "other-theft": 15,
+    "possession-of-weapons": 5,
+    "public-order": 18,
+    "robbery": 7,
+    "shoplifting": 56,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 13,
+    "violent-crime": 146,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

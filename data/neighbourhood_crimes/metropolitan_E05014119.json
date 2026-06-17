@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014119", "neighbourhood_name": "West Dulwich", "force_id": "metropolitan", "lat": "51.4405", "lng": "-0.100215", "population": 8431, "total_crimes": 481, "categories": {"anti-social-behaviour": 90, "bicycle-theft": 11, "burglary": 20, "criminal-damage-arson": 29, "drugs": 19, "other-theft": 46, "possession-of-weapons": 5, "public-order": 28, "robbery": 11, "shoplifting": 25, "theft-from-the-person": 13, "vehicle-crime": 45, "violent-crime": 132, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014119",
+  "neighbourhood_name": "West Dulwich",
+  "force_id": "metropolitan",
+  "lat": "51.4405",
+  "lng": "-0.100215",
+  "population": 8289,
+  "total_crimes": 481,
+  "categories": {
+    "anti-social-behaviour": 90,
+    "bicycle-theft": 11,
+    "burglary": 20,
+    "criminal-damage-arson": 29,
+    "drugs": 19,
+    "other-theft": 46,
+    "possession-of-weapons": 5,
+    "public-order": 28,
+    "robbery": 11,
+    "shoplifting": 25,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 45,
+    "violent-crime": 132,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

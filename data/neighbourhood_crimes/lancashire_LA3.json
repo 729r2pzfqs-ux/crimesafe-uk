@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LA3", "neighbourhood_name": "Heysham Central", "force_id": "lancashire", "lat": "54.0509", "lng": "-2.88963", "population": 12098, "total_crimes": 118, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 14, "drugs": 2, "other-theft": 8, "possession-of-weapons": 1, "public-order": 2, "shoplifting": 12, "vehicle-crime": 8, "violent-crime": 42, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA3",
+  "neighbourhood_name": "Heysham Central",
+  "force_id": "lancashire",
+  "lat": "54.0509",
+  "lng": "-2.88963",
+  "population": 4798,
+  "total_crimes": 118,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 14,
+    "drugs": 2,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "shoplifting": 12,
+    "vehicle-crime": 8,
+    "violent-crime": 42,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

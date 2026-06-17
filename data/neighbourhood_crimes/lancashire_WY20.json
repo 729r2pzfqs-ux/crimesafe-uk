@@ -1,1 +1,21 @@
-{"neighbourhood_id": "WY20", "neighbourhood_name": "Preesall", "force_id": "lancashire", "lat": "53.9264", "lng": "-2.96194", "population": 12098, "total_crimes": 31, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 2, "public-order": 2, "shoplifting": 1, "violent-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WY20",
+  "neighbourhood_name": "Preesall",
+  "force_id": "lancashire",
+  "lat": "53.9264",
+  "lng": "-2.96194",
+  "population": 5648,
+  "total_crimes": 31,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "church-village", "neighbourhood_name": "Church Village", "force_id": "south-wales", "lat": "51.5702", "lng": "-3.32283", "population": 12098, "total_crimes": 50, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 4, "public-order": 8, "vehicle-crime": 3, "violent-crime": 23, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "church-village",
+  "neighbourhood_name": "Church Village",
+  "force_id": "south-wales",
+  "lat": "51.5702",
+  "lng": "-3.32283",
+  "population": 7209,
+  "total_crimes": 50,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 4,
+    "public-order": 8,
+    "vehicle-crime": 3,
+    "violent-crime": 23,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

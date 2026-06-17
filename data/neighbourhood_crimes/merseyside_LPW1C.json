@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPW1C", "neighbourhood_name": "New Brighton", "force_id": "merseyside", "lat": "53.4331", "lng": "-3.04579", "population": 12098, "total_crimes": 204, "categories": {"anti-social-behaviour": 38, "burglary": 10, "criminal-damage-arson": 21, "drugs": 7, "other-theft": 9, "possession-of-weapons": 1, "public-order": 18, "robbery": 3, "shoplifting": 12, "vehicle-crime": 3, "violent-crime": 78, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW1C",
+  "neighbourhood_name": "New Brighton",
+  "force_id": "merseyside",
+  "lat": "53.4331",
+  "lng": "-3.04579",
+  "population": 15733,
+  "total_crimes": 204,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "burglary": 10,
+    "criminal-damage-arson": 21,
+    "drugs": 7,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 3,
+    "shoplifting": 12,
+    "vehicle-crime": 3,
+    "violent-crime": 78,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SGC", "neighbourhood_name": "Springfields &amp; Trent Vale", "force_id": "staffordshire", "lat": "52.9918", "lng": "-2.20157", "population": 12098, "total_crimes": 270, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 4, "burglary": 9, "criminal-damage-arson": 23, "drugs": 4, "other-theft": 13, "possession-of-weapons": 2, "public-order": 24, "robbery": 5, "shoplifting": 28, "vehicle-crime": 10, "violent-crime": 112, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SGC",
+  "neighbourhood_name": "Springfields &amp; Trent Vale",
+  "force_id": "staffordshire",
+  "lat": "52.9918",
+  "lng": "-2.20157",
+  "population": 6894,
+  "total_crimes": 270,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 4,
+    "burglary": 9,
+    "criminal-damage-arson": 23,
+    "drugs": 4,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 24,
+    "robbery": 5,
+    "shoplifting": 28,
+    "vehicle-crime": 10,
+    "violent-crime": 112,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

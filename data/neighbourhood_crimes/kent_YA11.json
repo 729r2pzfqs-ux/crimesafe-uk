@@ -1,1 +1,29 @@
-{"neighbourhood_id": "YA11", "neighbourhood_name": "High Street", "force_id": "kent", "lat": "51.2696", "lng": "0.525145", "population": 12098, "total_crimes": 486, "categories": {"anti-social-behaviour": 80, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 43, "drugs": 15, "other-theft": 31, "possession-of-weapons": 8, "public-order": 19, "robbery": 5, "shoplifting": 59, "theft-from-the-person": 3, "vehicle-crime": 11, "violent-crime": 192, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA11",
+  "neighbourhood_name": "High Street",
+  "force_id": "kent",
+  "lat": "51.2696",
+  "lng": "0.525145",
+  "population": 7733,
+  "total_crimes": 486,
+  "categories": {
+    "anti-social-behaviour": 80,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 43,
+    "drugs": 15,
+    "other-theft": 31,
+    "possession-of-weapons": 8,
+    "public-order": 19,
+    "robbery": 5,
+    "shoplifting": 59,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 11,
+    "violent-crime": 192,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 62.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013818", "neighbourhood_name": "Longthornton", "force_id": "metropolitan", "lat": "51.4085", "lng": "-0.140678", "population": 13696, "total_crimes": 480, "categories": {"anti-social-behaviour": 100, "bicycle-theft": 5, "burglary": 23, "criminal-damage-arson": 30, "drugs": 23, "other-theft": 37, "possession-of-weapons": 5, "public-order": 24, "robbery": 15, "shoplifting": 13, "theft-from-the-person": 5, "vehicle-crime": 40, "violent-crime": 153, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013818",
+  "neighbourhood_name": "Longthornton",
+  "force_id": "metropolitan",
+  "lat": "51.4085",
+  "lng": "-0.140678",
+  "population": 12375,
+  "total_crimes": 480,
+  "categories": {
+    "anti-social-behaviour": 100,
+    "bicycle-theft": 5,
+    "burglary": 23,
+    "criminal-damage-arson": 30,
+    "drugs": 23,
+    "other-theft": 37,
+    "possession-of-weapons": 5,
+    "public-order": 24,
+    "robbery": 15,
+    "shoplifting": 13,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 40,
+    "violent-crime": 153,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

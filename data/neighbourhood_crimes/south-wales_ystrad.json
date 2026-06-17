@@ -1,1 +1,23 @@
-{"neighbourhood_id": "ystrad", "neighbourhood_name": "Ystrad", "force_id": "south-wales", "lat": "51.6452", "lng": "-3.48379", "population": 12098, "total_crimes": 55, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 6, "other-theft": 2, "public-order": 8, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 23, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ystrad",
+  "neighbourhood_name": "Ystrad",
+  "force_id": "south-wales",
+  "lat": "51.6452",
+  "lng": "-3.48379",
+  "population": 5754,
+  "total_crimes": 55,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 6,
+    "other-theft": 2,
+    "public-order": 8,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 23,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

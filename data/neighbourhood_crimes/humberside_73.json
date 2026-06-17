@@ -1,1 +1,28 @@
-{"neighbourhood_id": "73", "neighbourhood_name": "South", "force_id": "humberside", "lat": "53.5526", "lng": "-0.108221", "population": 12098, "total_crimes": 289, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 3, "burglary": 14, "criminal-damage-arson": 44, "drugs": 10, "other-theft": 7, "possession-of-weapons": 1, "public-order": 19, "robbery": 3, "shoplifting": 21, "vehicle-crime": 8, "violent-crime": 137, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "73",
+  "neighbourhood_name": "South",
+  "force_id": "humberside",
+  "lat": "53.5526",
+  "lng": "-0.108221",
+  "population": 12757,
+  "total_crimes": 289,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 3,
+    "burglary": 14,
+    "criminal-damage-arson": 44,
+    "drugs": 10,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 19,
+    "robbery": 3,
+    "shoplifting": 21,
+    "vehicle-crime": 8,
+    "violent-crime": 137,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

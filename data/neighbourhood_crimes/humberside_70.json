@@ -1,1 +1,26 @@
-{"neighbourhood_id": "70", "neighbourhood_name": "Scartho", "force_id": "humberside", "lat": "53.5347", "lng": "-0.0940283", "population": 12098, "total_crimes": 96, "categories": {"anti-social-behaviour": 3, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 7, "public-order": 7, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 46, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "70",
+  "neighbourhood_name": "Scartho",
+  "force_id": "humberside",
+  "lat": "53.5347",
+  "lng": "-0.0940283",
+  "population": 7598,
+  "total_crimes": 96,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 7,
+    "public-order": 7,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 46,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

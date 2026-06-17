@@ -1,1 +1,27 @@
-{"neighbourhood_id": "DEV.4081", "neighbourhood_name": "Tiverton Westexe", "force_id": "devon-and-cornwall", "lat": "50.9017", "lng": "-3.50019", "population": 12098, "total_crimes": 96, "categories": {"anti-social-behaviour": 9, "burglary": 5, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 11, "possession-of-weapons": 1, "public-order": 6, "robbery": 3, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 45, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4081",
+  "neighbourhood_name": "Tiverton Westexe",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.9017",
+  "lng": "-3.50019",
+  "population": 6066,
+  "total_crimes": 96,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 3,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 45,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

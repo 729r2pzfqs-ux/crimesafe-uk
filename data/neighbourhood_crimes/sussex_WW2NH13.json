@@ -1,1 +1,23 @@
-{"neighbourhood_id": "WW2NH13", "neighbourhood_name": "Offington", "force_id": "sussex", "lat": "50.8458", "lng": "-0.382067", "population": 12098, "total_crimes": 34, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 4, "public-order": 2, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW2NH13",
+  "neighbourhood_name": "Offington",
+  "force_id": "sussex",
+  "lat": "50.8458",
+  "lng": "-0.382067",
+  "population": 7938,
+  "total_crimes": 34,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 2,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EE3NH14", "neighbourhood_name": "Roselands and Bridgemere", "force_id": "sussex", "lat": "50.7832", "lng": "0.29409", "population": 12098, "total_crimes": 371, "categories": {"anti-social-behaviour": 74, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 23, "drugs": 19, "other-theft": 17, "possession-of-weapons": 2, "public-order": 31, "robbery": 7, "shoplifting": 48, "theft-from-the-person": 2, "vehicle-crime": 8, "violent-crime": 122, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE3NH14",
+  "neighbourhood_name": "Roselands and Bridgemere",
+  "force_id": "sussex",
+  "lat": "50.7832",
+  "lng": "0.29409",
+  "population": 5178,
+  "total_crimes": 371,
+  "categories": {
+    "anti-social-behaviour": 74,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 23,
+    "drugs": 19,
+    "other-theft": 17,
+    "possession-of-weapons": 2,
+    "public-order": 31,
+    "robbery": 7,
+    "shoplifting": 48,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 122,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 71.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

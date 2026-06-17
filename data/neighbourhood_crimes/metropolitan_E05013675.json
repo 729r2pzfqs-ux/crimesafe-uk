@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013675", "neighbourhood_name": "Bullsmoor", "force_id": "metropolitan", "lat": "51.6759", "lng": "-0.0442548", "population": 11456, "total_crimes": 457, "categories": {"anti-social-behaviour": 103, "burglary": 21, "criminal-damage-arson": 33, "drugs": 20, "other-theft": 26, "possession-of-weapons": 4, "public-order": 34, "robbery": 18, "shoplifting": 19, "theft-from-the-person": 8, "vehicle-crime": 24, "violent-crime": 137, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013675",
+  "neighbourhood_name": "Bullsmoor",
+  "force_id": "metropolitan",
+  "lat": "51.6759",
+  "lng": "-0.0442548",
+  "population": 11787,
+  "total_crimes": 457,
+  "categories": {
+    "anti-social-behaviour": 103,
+    "burglary": 21,
+    "criminal-damage-arson": 33,
+    "drugs": 20,
+    "other-theft": 26,
+    "possession-of-weapons": 4,
+    "public-order": 34,
+    "robbery": 18,
+    "shoplifting": 19,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 24,
+    "violent-crime": 137,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

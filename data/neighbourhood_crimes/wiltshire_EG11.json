@@ -1,1 +1,25 @@
-{"neighbourhood_id": "EG11", "neighbourhood_name": "Westbury Town", "force_id": "wiltshire", "lat": "51.2674", "lng": "-2.1944", "population": 12098, "total_crimes": 70, "categories": {"anti-social-behaviour": 21, "burglary": 4, "criminal-damage-arson": 6, "drugs": 2, "possession-of-weapons": 1, "public-order": 7, "robbery": 1, "shoplifting": 2, "vehicle-crime": 3, "violent-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EG11",
+  "neighbourhood_name": "Westbury Town",
+  "force_id": "wiltshire",
+  "lat": "51.2674",
+  "lng": "-2.1944",
+  "population": 12834,
+  "total_crimes": 70,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 4,
+    "criminal-damage-arson": 6,
+    "drugs": 2,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

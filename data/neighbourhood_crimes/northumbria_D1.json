@@ -1,1 +1,29 @@
-{"neighbourhood_id": "D1", "neighbourhood_name": "North Shields", "force_id": "northumbria", "lat": "55.0097", "lng": "-1.45954", "population": 12098, "total_crimes": 359, "categories": {"anti-social-behaviour": 82, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 37, "drugs": 7, "other-theft": 8, "possession-of-weapons": 2, "public-order": 23, "robbery": 4, "shoplifting": 51, "theft-from-the-person": 3, "vehicle-crime": 9, "violent-crime": 107, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D1",
+  "neighbourhood_name": "North Shields",
+  "force_id": "northumbria",
+  "lat": "55.0097",
+  "lng": "-1.45954",
+  "population": 46263,
+  "total_crimes": 359,
+  "categories": {
+    "anti-social-behaviour": 82,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 37,
+    "drugs": 7,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 23,
+    "robbery": 4,
+    "shoplifting": 51,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 9,
+    "violent-crime": 107,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 30
+}

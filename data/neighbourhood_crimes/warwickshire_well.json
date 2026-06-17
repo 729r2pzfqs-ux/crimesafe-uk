@@ -1,1 +1,17 @@
-{"neighbourhood_id": "well", "neighbourhood_name": "Wellesbourne", "force_id": "warwickshire", "lat": "52.1819", "lng": "-1.54478", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 3, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "well",
+  "neighbourhood_name": "Wellesbourne",
+  "force_id": "warwickshire",
+  "lat": "52.1819",
+  "lng": "-1.54478",
+  "population": 14718,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

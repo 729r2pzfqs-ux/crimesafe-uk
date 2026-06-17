@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LPSH1O", "neighbourhood_name": "Blackbrook", "force_id": "merseyside", "lat": "53.4647", "lng": "-2.69652", "population": 12098, "total_crimes": 163, "categories": {"anti-social-behaviour": 17, "criminal-damage-arson": 26, "drugs": 20, "other-theft": 12, "public-order": 8, "robbery": 1, "shoplifting": 3, "vehicle-crime": 6, "violent-crime": 64, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1O",
+  "neighbourhood_name": "Blackbrook",
+  "force_id": "merseyside",
+  "lat": "53.4647",
+  "lng": "-2.69652",
+  "population": 9195,
+  "total_crimes": 163,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "criminal-damage-arson": 26,
+    "drugs": 20,
+    "other-theft": 12,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 6,
+    "violent-crime": 64,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

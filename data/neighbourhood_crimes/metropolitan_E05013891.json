@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013891", "neighbourhood_name": "High Street", "force_id": "metropolitan", "lat": "51.5831", "lng": "-0.0296714", "population": 12098, "total_crimes": 857, "categories": {"anti-social-behaviour": 175, "bicycle-theft": 11, "burglary": 43, "criminal-damage-arson": 39, "drugs": 30, "other-theft": 74, "possession-of-weapons": 6, "public-order": 40, "robbery": 32, "shoplifting": 65, "theft-from-the-person": 66, "vehicle-crime": 59, "violent-crime": 204, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013891",
+  "neighbourhood_name": "High Street",
+  "force_id": "metropolitan",
+  "lat": "51.5831",
+  "lng": "-0.0296714",
+  "population": 10036,
+  "total_crimes": 857,
+  "categories": {
+    "anti-social-behaviour": 175,
+    "bicycle-theft": 11,
+    "burglary": 43,
+    "criminal-damage-arson": 39,
+    "drugs": 30,
+    "other-theft": 74,
+    "possession-of-weapons": 6,
+    "public-order": 40,
+    "robbery": 32,
+    "shoplifting": 65,
+    "theft-from-the-person": 66,
+    "vehicle-crime": 59,
+    "violent-crime": 204,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 85.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

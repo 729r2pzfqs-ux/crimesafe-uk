@@ -1,1 +1,26 @@
-{"neighbourhood_id": "C101", "neighbourhood_name": "Milford - East", "force_id": "dyfed-powys", "lat": "51.716", "lng": "-5.00931", "population": 12098, "total_crimes": 98, "categories": {"anti-social-behaviour": 8, "burglary": 10, "criminal-damage-arson": 6, "drugs": 4, "other-theft": 7, "possession-of-weapons": 3, "public-order": 9, "shoplifting": 1, "theft-from-the-person": 2, "violent-crime": 44, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C101",
+  "neighbourhood_name": "Milford - East",
+  "force_id": "dyfed-powys",
+  "lat": "51.716",
+  "lng": "-5.00931",
+  "population": 2355,
+  "total_crimes": 98,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 10,
+    "criminal-damage-arson": 6,
+    "drugs": 4,
+    "other-theft": 7,
+    "possession-of-weapons": 3,
+    "public-order": 9,
+    "shoplifting": 1,
+    "theft-from-the-person": 2,
+    "violent-crime": 44,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

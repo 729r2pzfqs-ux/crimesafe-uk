@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009391", "neighbourhood_name": "Chelsea Riverside", "force_id": "metropolitan", "lat": "51.4821", "lng": "-0.174894", "population": 12098, "total_crimes": 1059, "categories": {"anti-social-behaviour": 250, "bicycle-theft": 19, "burglary": 52, "criminal-damage-arson": 29, "drugs": 20, "other-theft": 129, "possession-of-weapons": 2, "public-order": 69, "robbery": 15, "shoplifting": 89, "theft-from-the-person": 56, "vehicle-crime": 104, "violent-crime": 220, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009391",
+  "neighbourhood_name": "Chelsea Riverside",
+  "force_id": "metropolitan",
+  "lat": "51.4821",
+  "lng": "-0.174894",
+  "population": 7731,
+  "total_crimes": 1059,
+  "categories": {
+    "anti-social-behaviour": 250,
+    "bicycle-theft": 19,
+    "burglary": 52,
+    "criminal-damage-arson": 29,
+    "drugs": 20,
+    "other-theft": 129,
+    "possession-of-weapons": 2,
+    "public-order": 69,
+    "robbery": 15,
+    "shoplifting": 89,
+    "theft-from-the-person": 56,
+    "vehicle-crime": 104,
+    "violent-crime": 220,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 137.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

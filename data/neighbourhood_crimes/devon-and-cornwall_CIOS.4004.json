@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CIOS.4004", "neighbourhood_name": "Illogan North", "force_id": "devon-and-cornwall", "lat": "50.2553", "lng": "-5.28092", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 1, "burglary": 2, "criminal-damage-arson": 1, "drugs": 2, "other-theft": 4, "public-order": 1, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4004",
+  "neighbourhood_name": "Illogan North",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.2553",
+  "lng": "-5.28092",
+  "population": 7195,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 4,
+    "public-order": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

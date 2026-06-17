@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CH4", "neighbourhood_name": "Chorley South West", "force_id": "lancashire", "lat": "53.6346", "lng": "-2.64298", "population": 12098, "total_crimes": 94, "categories": {"anti-social-behaviour": 13, "burglary": 6, "criminal-damage-arson": 7, "drugs": 2, "other-theft": 6, "possession-of-weapons": 1, "public-order": 4, "robbery": 2, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 42, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH4",
+  "neighbourhood_name": "Chorley South West",
+  "force_id": "lancashire",
+  "lat": "53.6346",
+  "lng": "-2.64298",
+  "population": 6279,
+  "total_crimes": 94,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 6,
+    "criminal-damage-arson": 7,
+    "drugs": 2,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "robbery": 2,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 42,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "CIOS.4064", "neighbourhood_name": "Torpoint", "force_id": "devon-and-cornwall", "lat": "50.3754", "lng": "-4.21488", "population": 12098, "total_crimes": 52, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 5, "other-theft": 1, "public-order": 2, "shoplifting": 6, "violent-crime": 32, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4064",
+  "neighbourhood_name": "Torpoint",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3754",
+  "lng": "-4.21488",
+  "population": 7515,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 5,
+    "other-theft": 1,
+    "public-order": 2,
+    "shoplifting": 6,
+    "violent-crime": 32,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

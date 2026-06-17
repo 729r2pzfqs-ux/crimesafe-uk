@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LA13", "neighbourhood_name": "Castle", "force_id": "lancashire", "lat": "54.0469", "lng": "-2.80109", "population": 12098, "total_crimes": 341, "categories": {"anti-social-behaviour": 70, "bicycle-theft": 5, "burglary": 18, "criminal-damage-arson": 21, "drugs": 10, "other-theft": 25, "public-order": 28, "robbery": 4, "shoplifting": 29, "vehicle-crime": 7, "violent-crime": 121, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA13",
+  "neighbourhood_name": "Castle",
+  "force_id": "lancashire",
+  "lat": "54.0469",
+  "lng": "-2.80109",
+  "population": 3843,
+  "total_crimes": 341,
+  "categories": {
+    "anti-social-behaviour": 70,
+    "bicycle-theft": 5,
+    "burglary": 18,
+    "criminal-damage-arson": 21,
+    "drugs": 10,
+    "other-theft": 25,
+    "public-order": 28,
+    "robbery": 4,
+    "shoplifting": 29,
+    "vehicle-crime": 7,
+    "violent-crime": 121,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 88.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

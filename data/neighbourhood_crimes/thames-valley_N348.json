@@ -1,1 +1,28 @@
-{"neighbourhood_id": "N348", "neighbourhood_name": "Ruscote, Neithrop and Hardwick", "force_id": "thames-valley", "lat": "52.0691", "lng": "-1.35369", "population": 12098, "total_crimes": 303, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 1, "burglary": 9, "criminal-damage-arson": 30, "drugs": 12, "other-theft": 7, "possession-of-weapons": 2, "public-order": 31, "robbery": 1, "shoplifting": 28, "vehicle-crime": 12, "violent-crime": 122, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N348",
+  "neighbourhood_name": "Ruscote, Neithrop and Hardwick",
+  "force_id": "thames-valley",
+  "lat": "52.0691",
+  "lng": "-1.35369",
+  "population": 22448,
+  "total_crimes": 303,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 1,
+    "burglary": 9,
+    "criminal-damage-arson": 30,
+    "drugs": 12,
+    "other-theft": 7,
+    "possession-of-weapons": 2,
+    "public-order": 31,
+    "robbery": 1,
+    "shoplifting": 28,
+    "vehicle-crime": 12,
+    "violent-crime": 122,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

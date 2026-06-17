@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NW2", "neighbourhood_name": "Wellingborough - South", "force_id": "northamptonshire", "lat": "52.2951", "lng": "-0.699593", "population": 12098, "total_crimes": 315, "categories": {"anti-social-behaviour": 66, "bicycle-theft": 4, "burglary": 11, "criminal-damage-arson": 19, "drugs": 12, "other-theft": 13, "possession-of-weapons": 7, "public-order": 20, "robbery": 7, "shoplifting": 29, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 110, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NW2",
+  "neighbourhood_name": "Wellingborough - South",
+  "force_id": "northamptonshire",
+  "lat": "52.2951",
+  "lng": "-0.699593",
+  "population": 11335,
+  "total_crimes": 315,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "bicycle-theft": 4,
+    "burglary": 11,
+    "criminal-damage-arson": 19,
+    "drugs": 12,
+    "other-theft": 13,
+    "possession-of-weapons": 7,
+    "public-order": 20,
+    "robbery": 7,
+    "shoplifting": 29,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 110,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

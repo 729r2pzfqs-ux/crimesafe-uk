@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013794", "neighbourhood_name": "Church Street", "force_id": "metropolitan", "lat": "51.5241", "lng": "-0.170373", "population": 12098, "total_crimes": 1657, "categories": {"anti-social-behaviour": 327, "bicycle-theft": 23, "burglary": 75, "criminal-damage-arson": 59, "drugs": 56, "other-theft": 219, "possession-of-weapons": 5, "public-order": 67, "robbery": 45, "shoplifting": 151, "theft-from-the-person": 274, "vehicle-crime": 70, "violent-crime": 272, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013794",
+  "neighbourhood_name": "Church Street",
+  "force_id": "metropolitan",
+  "lat": "51.5241",
+  "lng": "-0.170373",
+  "population": 13326,
+  "total_crimes": 1657,
+  "categories": {
+    "anti-social-behaviour": 327,
+    "bicycle-theft": 23,
+    "burglary": 75,
+    "criminal-damage-arson": 59,
+    "drugs": 56,
+    "other-theft": 219,
+    "possession-of-weapons": 5,
+    "public-order": 67,
+    "robbery": 45,
+    "shoplifting": 151,
+    "theft-from-the-person": 274,
+    "vehicle-crime": 70,
+    "violent-crime": 272,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 124.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

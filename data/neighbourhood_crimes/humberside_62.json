@@ -1,1 +1,29 @@
-{"neighbourhood_id": "62", "neighbourhood_name": "University", "force_id": "humberside", "lat": "53.7754", "lng": "-0.372133", "population": 12098, "total_crimes": 401, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 13, "burglary": 26, "criminal-damage-arson": 25, "drugs": 10, "other-theft": 22, "possession-of-weapons": 6, "public-order": 39, "robbery": 1, "shoplifting": 49, "theft-from-the-person": 1, "vehicle-crime": 16, "violent-crime": 168, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "62",
+  "neighbourhood_name": "University",
+  "force_id": "humberside",
+  "lat": "53.7754",
+  "lng": "-0.372133",
+  "population": 9540,
+  "total_crimes": 401,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 13,
+    "burglary": 26,
+    "criminal-damage-arson": 25,
+    "drugs": 10,
+    "other-theft": 22,
+    "possession-of-weapons": 6,
+    "public-order": 39,
+    "robbery": 1,
+    "shoplifting": 49,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 16,
+    "violent-crime": 168,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

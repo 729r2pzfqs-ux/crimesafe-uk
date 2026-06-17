@@ -1,1 +1,28 @@
-{"neighbourhood_id": "XA14", "neighbourhood_name": "Rochester West and Borstal", "force_id": "kent", "lat": "51.374", "lng": "0.485345", "population": 12098, "total_crimes": 117, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 14, "drugs": 3, "other-theft": 9, "possession-of-weapons": 1, "public-order": 2, "robbery": 1, "shoplifting": 3, "vehicle-crime": 7, "violent-crime": 40, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA14",
+  "neighbourhood_name": "Rochester West and Borstal",
+  "force_id": "kent",
+  "lat": "51.374",
+  "lng": "0.485345",
+  "population": 10912,
+  "total_crimes": 117,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 14,
+    "drugs": 3,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 7,
+    "violent-crime": 40,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

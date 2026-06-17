@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CW2NH1", "neighbourhood_name": "Central Hove", "force_id": "sussex", "lat": "50.8281", "lng": "-0.173469", "population": 12098, "total_crimes": 427, "categories": {"anti-social-behaviour": 109, "bicycle-theft": 7, "burglary": 13, "criminal-damage-arson": 28, "drugs": 21, "other-theft": 32, "possession-of-weapons": 3, "public-order": 36, "robbery": 1, "shoplifting": 48, "theft-from-the-person": 1, "vehicle-crime": 17, "violent-crime": 101, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CW2NH1",
+  "neighbourhood_name": "Central Hove",
+  "force_id": "sussex",
+  "lat": "50.8281",
+  "lng": "-0.173469",
+  "population": 8469,
+  "total_crimes": 427,
+  "categories": {
+    "anti-social-behaviour": 109,
+    "bicycle-theft": 7,
+    "burglary": 13,
+    "criminal-damage-arson": 28,
+    "drugs": 21,
+    "other-theft": 32,
+    "possession-of-weapons": 3,
+    "public-order": 36,
+    "robbery": 1,
+    "shoplifting": 48,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 17,
+    "violent-crime": 101,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 50.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

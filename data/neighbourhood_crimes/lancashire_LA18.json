@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LA18", "neighbourhood_name": "Marsh", "force_id": "lancashire", "lat": "54.0458", "lng": "-2.82195", "population": 12098, "total_crimes": 218, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 5, "burglary": 13, "criminal-damage-arson": 10, "drugs": 5, "other-theft": 18, "public-order": 17, "robbery": 3, "shoplifting": 28, "vehicle-crime": 6, "violent-crime": 66, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA18",
+  "neighbourhood_name": "Marsh",
+  "force_id": "lancashire",
+  "lat": "54.0458",
+  "lng": "-2.82195",
+  "population": 8764,
+  "total_crimes": 218,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 5,
+    "burglary": 13,
+    "criminal-damage-arson": 10,
+    "drugs": 5,
+    "other-theft": 18,
+    "public-order": 17,
+    "robbery": 3,
+    "shoplifting": 28,
+    "vehicle-crime": 6,
+    "violent-crime": 66,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

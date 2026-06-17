@@ -1,1 +1,26 @@
-{"neighbourhood_id": "penywaun", "neighbourhood_name": "Pen-y-waun", "force_id": "south-wales", "lat": "51.7275", "lng": "-3.49224", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 19, "burglary": 2, "criminal-damage-arson": 5, "drugs": 2, "other-theft": 3, "possession-of-weapons": 1, "public-order": 5, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 20, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penywaun",
+  "neighbourhood_name": "Pen-y-waun",
+  "force_id": "south-wales",
+  "lat": "51.7275",
+  "lng": "-3.49224",
+  "population": 3184,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 5,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 20,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

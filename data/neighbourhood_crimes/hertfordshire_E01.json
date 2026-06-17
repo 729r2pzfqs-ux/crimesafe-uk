@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E01", "neighbourhood_name": "Stevenage North", "force_id": "hertfordshire", "lat": "51.9128", "lng": "-0.197356", "population": 12098, "total_crimes": 449, "categories": {"anti-social-behaviour": 78, "bicycle-theft": 7, "burglary": 5, "criminal-damage-arson": 23, "drugs": 28, "other-theft": 25, "possession-of-weapons": 5, "public-order": 36, "robbery": 4, "shoplifting": 19, "theft-from-the-person": 3, "vehicle-crime": 16, "violent-crime": 188, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E01",
+  "neighbourhood_name": "Stevenage North",
+  "force_id": "hertfordshire",
+  "lat": "51.9128",
+  "lng": "-0.197356",
+  "population": 31620,
+  "total_crimes": 449,
+  "categories": {
+    "anti-social-behaviour": 78,
+    "bicycle-theft": 7,
+    "burglary": 5,
+    "criminal-damage-arson": 23,
+    "drugs": 28,
+    "other-theft": 25,
+    "possession-of-weapons": 5,
+    "public-order": 36,
+    "robbery": 4,
+    "shoplifting": 19,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 16,
+    "violent-crime": 188,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

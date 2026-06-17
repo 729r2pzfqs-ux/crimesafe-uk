@@ -1,1 +1,19 @@
-{"neighbourhood_id": "RO9", "neighbourhood_name": "Whitewell &amp; Stacksteads", "force_id": "lancashire", "lat": "53.711", "lng": "-2.24139", "population": 12098, "total_crimes": 17, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 2, "violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO9",
+  "neighbourhood_name": "Whitewell &amp; Stacksteads",
+  "force_id": "lancashire",
+  "lat": "53.711",
+  "lng": "-2.24139",
+  "population": 7193,
+  "total_crimes": 17,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

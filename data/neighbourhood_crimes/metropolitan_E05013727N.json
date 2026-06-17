@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013727N", "neighbourhood_name": "Lewisham Central", "force_id": "metropolitan", "lat": "51.4629", "lng": "-0.0119377", "population": 12098, "total_crimes": 929, "categories": {"anti-social-behaviour": 139, "bicycle-theft": 10, "burglary": 21, "criminal-damage-arson": 38, "drugs": 48, "other-theft": 67, "possession-of-weapons": 6, "public-order": 72, "robbery": 14, "shoplifting": 146, "theft-from-the-person": 43, "vehicle-crime": 37, "violent-crime": 280, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013727N",
+  "neighbourhood_name": "Lewisham Central",
+  "force_id": "metropolitan",
+  "lat": "51.4629",
+  "lng": "-0.0119377",
+  "population": 3388,
+  "total_crimes": 929,
+  "categories": {
+    "anti-social-behaviour": 139,
+    "bicycle-theft": 10,
+    "burglary": 21,
+    "criminal-damage-arson": 38,
+    "drugs": 48,
+    "other-theft": 67,
+    "possession-of-weapons": 6,
+    "public-order": 72,
+    "robbery": 14,
+    "shoplifting": 146,
+    "theft-from-the-person": 43,
+    "vehicle-crime": 37,
+    "violent-crime": 280,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 274.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

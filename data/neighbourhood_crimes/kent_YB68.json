@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YB68", "neighbourhood_name": "Judd", "force_id": "kent", "lat": "51.1912", "lng": "0.251862", "population": 12098, "total_crimes": 106, "categories": {"anti-social-behaviour": 16, "criminal-damage-arson": 13, "drugs": 3, "other-theft": 4, "public-order": 7, "robbery": 1, "shoplifting": 9, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 43, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB68",
+  "neighbourhood_name": "Judd",
+  "force_id": "kent",
+  "lat": "51.1912",
+  "lng": "0.251862",
+  "population": 7152,
+  "total_crimes": 106,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "criminal-damage-arson": 13,
+    "drugs": 3,
+    "other-theft": 4,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 43,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

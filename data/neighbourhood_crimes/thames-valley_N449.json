@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N449", "neighbourhood_name": "Oxford Cowley", "force_id": "thames-valley", "lat": "51.7375", "lng": "-1.20429", "population": 12098, "total_crimes": 237, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 10, "burglary": 5, "criminal-damage-arson": 21, "drugs": 24, "other-theft": 19, "possession-of-weapons": 1, "public-order": 11, "robbery": 3, "shoplifting": 26, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 73, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N449",
+  "neighbourhood_name": "Oxford Cowley",
+  "force_id": "thames-valley",
+  "lat": "51.7375",
+  "lng": "-1.20429",
+  "population": 17762,
+  "total_crimes": 237,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 10,
+    "burglary": 5,
+    "criminal-damage-arson": 21,
+    "drugs": 24,
+    "other-theft": 19,
+    "possession-of-weapons": 1,
+    "public-order": 11,
+    "robbery": 3,
+    "shoplifting": 26,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 73,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

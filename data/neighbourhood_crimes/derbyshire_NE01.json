@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NE01", "neighbourhood_name": "Killamarsh", "force_id": "derbyshire", "lat": "53.3209", "lng": "-1.31262", "population": 12098, "total_crimes": 43, "categories": {"anti-social-behaviour": 6, "burglary": 8, "criminal-damage-arson": 7, "other-theft": 1, "possession-of-weapons": 1, "public-order": 3, "vehicle-crime": 2, "violent-crime": 14, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE01",
+  "neighbourhood_name": "Killamarsh",
+  "force_id": "derbyshire",
+  "lat": "53.3209",
+  "lng": "-1.31262",
+  "population": 9541,
+  "total_crimes": 43,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 8,
+    "criminal-damage-arson": 7,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 14,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

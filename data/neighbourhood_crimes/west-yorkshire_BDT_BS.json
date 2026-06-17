@@ -1,1 +1,27 @@
-{"neighbourhood_id": "BDT_BS", "neighbourhood_name": "Bradford South", "force_id": "west-yorkshire", "lat": "53.7598", "lng": "-1.75685", "population": 12098, "total_crimes": 266, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 1, "burglary": 17, "criminal-damage-arson": 26, "drugs": 4, "other-theft": 10, "public-order": 17, "robbery": 4, "shoplifting": 16, "vehicle-crime": 47, "violent-crime": 87, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BDT_BS",
+  "neighbourhood_name": "Bradford South",
+  "force_id": "west-yorkshire",
+  "lat": "53.7598",
+  "lng": "-1.75685",
+  "population": 104785,
+  "total_crimes": 266,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 1,
+    "burglary": 17,
+    "criminal-damage-arson": 26,
+    "drugs": 4,
+    "other-theft": 10,
+    "public-order": 17,
+    "robbery": 4,
+    "shoplifting": 16,
+    "vehicle-crime": 47,
+    "violent-crime": 87,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 61
+}

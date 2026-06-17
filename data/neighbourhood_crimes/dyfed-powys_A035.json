@@ -1,1 +1,17 @@
-{"neighbourhood_id": "A035", "neighbourhood_name": "Glyn", "force_id": "dyfed-powys", "lat": "51.7428", "lng": "-4.18668", "population": 12098, "total_crimes": 2, "categories": {"public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A035",
+  "neighbourhood_name": "Glyn",
+  "force_id": "dyfed-powys",
+  "lat": "51.7428",
+  "lng": "-4.18668",
+  "population": 2177,
+  "total_crimes": 2,
+  "categories": {
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

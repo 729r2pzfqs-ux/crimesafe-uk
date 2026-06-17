@@ -1,1 +1,14 @@
-{"neighbourhood_id": "6LS03", "neighbourhood_name": "Wight Rural South", "force_id": "hampshire", "lat": "50.6352", "lng": "-1.31852", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "6LS03",
+  "neighbourhood_name": "Wight Rural South",
+  "force_id": "hampshire",
+  "lat": "50.6352",
+  "lng": "-1.31852",
+  "population": 12551,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

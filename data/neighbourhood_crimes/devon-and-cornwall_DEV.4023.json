@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DEV.4023", "neighbourhood_name": "Clifton-with-Maidenway", "force_id": "devon-and-cornwall", "lat": "50.4393", "lng": "-3.57665", "population": 12098, "total_crimes": 318, "categories": {"anti-social-behaviour": 49, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 30, "drugs": 2, "other-theft": 36, "possession-of-weapons": 3, "public-order": 16, "robbery": 3, "shoplifting": 33, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 124, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4023",
+  "neighbourhood_name": "Clifton-with-Maidenway",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4393",
+  "lng": "-3.57665",
+  "population": 7078,
+  "total_crimes": 318,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 30,
+    "drugs": 2,
+    "other-theft": 36,
+    "possession-of-weapons": 3,
+    "public-order": 16,
+    "robbery": 3,
+    "shoplifting": 33,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 124,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

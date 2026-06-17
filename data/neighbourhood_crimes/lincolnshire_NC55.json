@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NC55", "neighbourhood_name": "Louth Town", "force_id": "lincolnshire", "lat": "53.3672", "lng": "-0.000128517", "population": 12098, "total_crimes": 169, "categories": {"anti-social-behaviour": 52, "burglary": 3, "criminal-damage-arson": 13, "other-theft": 9, "possession-of-weapons": 1, "public-order": 13, "robbery": 3, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 59, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC55",
+  "neighbourhood_name": "Louth Town",
+  "force_id": "lincolnshire",
+  "lat": "53.3672",
+  "lng": "-0.000128517",
+  "population": 17637,
+  "total_crimes": 169,
+  "categories": {
+    "anti-social-behaviour": 52,
+    "burglary": 3,
+    "criminal-damage-arson": 13,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "robbery": 3,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 59,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

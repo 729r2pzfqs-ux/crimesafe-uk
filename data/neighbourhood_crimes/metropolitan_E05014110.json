@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014110", "neighbourhood_name": "Stockwell East", "force_id": "metropolitan", "lat": "51.4725", "lng": "-0.119544", "population": 11764, "total_crimes": 1782, "categories": {"anti-social-behaviour": 312, "bicycle-theft": 38, "burglary": 69, "criminal-damage-arson": 50, "drugs": 56, "other-theft": 150, "possession-of-weapons": 26, "public-order": 66, "robbery": 80, "shoplifting": 201, "theft-from-the-person": 213, "vehicle-crime": 93, "violent-crime": 404, "other-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014110",
+  "neighbourhood_name": "Stockwell East",
+  "force_id": "metropolitan",
+  "lat": "51.4725",
+  "lng": "-0.119544",
+  "population": 11585,
+  "total_crimes": 1782,
+  "categories": {
+    "anti-social-behaviour": 312,
+    "bicycle-theft": 38,
+    "burglary": 69,
+    "criminal-damage-arson": 50,
+    "drugs": 56,
+    "other-theft": 150,
+    "possession-of-weapons": 26,
+    "public-order": 66,
+    "robbery": 80,
+    "shoplifting": 201,
+    "theft-from-the-person": 213,
+    "vehicle-crime": 93,
+    "violent-crime": 404,
+    "other-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 153.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

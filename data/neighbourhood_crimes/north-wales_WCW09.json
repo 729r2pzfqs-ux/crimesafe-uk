@@ -1,1 +1,23 @@
-{"neighbourhood_id": "WCW09", "neighbourhood_name": "Deganwy", "force_id": "north-wales", "lat": "53.2975", "lng": "-3.8277", "population": 12098, "total_crimes": 33, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 1, "other-theft": 2, "public-order": 1, "vehicle-crime": 2, "violent-crime": 18, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW09",
+  "neighbourhood_name": "Deganwy",
+  "force_id": "north-wales",
+  "lat": "53.2975",
+  "lng": "-3.8277",
+  "population": 4890,
+  "total_crimes": 33,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "public-order": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 18,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

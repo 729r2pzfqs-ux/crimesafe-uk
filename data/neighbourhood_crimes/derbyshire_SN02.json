@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SN02", "neighbourhood_name": "Allestree and Darley", "force_id": "derbyshire", "lat": "52.9459", "lng": "-1.49204", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 13, "burglary": 1, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 3, "public-order": 8, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 24, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SN02",
+  "neighbourhood_name": "Allestree and Darley",
+  "force_id": "derbyshire",
+  "lat": "52.9459",
+  "lng": "-1.49204",
+  "population": 28803,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 8,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 24,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

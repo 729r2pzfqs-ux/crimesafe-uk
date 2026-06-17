@@ -1,1 +1,26 @@
-{"neighbourhood_id": "GDMB", "neighbourhood_name": "Merrow &amp; Burpham", "force_id": "surrey", "lat": "51.2507", "lng": "-0.537607", "population": 12098, "total_crimes": 66, "categories": {"anti-social-behaviour": 14, "burglary": 1, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 5, "public-order": 4, "robbery": 1, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 25, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDMB",
+  "neighbourhood_name": "Merrow &amp; Burpham",
+  "force_id": "surrey",
+  "lat": "51.2507",
+  "lng": "-0.537607",
+  "population": 22279,
+  "total_crimes": 66,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 5,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 25,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

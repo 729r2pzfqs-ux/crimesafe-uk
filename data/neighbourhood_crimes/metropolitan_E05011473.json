@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011473", "neighbourhood_name": "Norbury Park", "force_id": "metropolitan", "lat": "51.4143", "lng": "-0.110587", "population": 12098, "total_crimes": 436, "categories": {"anti-social-behaviour": 70, "bicycle-theft": 1, "burglary": 17, "criminal-damage-arson": 38, "drugs": 25, "other-theft": 20, "possession-of-weapons": 1, "public-order": 24, "robbery": 13, "shoplifting": 18, "theft-from-the-person": 8, "vehicle-crime": 54, "violent-crime": 137, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011473",
+  "neighbourhood_name": "Norbury Park",
+  "force_id": "metropolitan",
+  "lat": "51.4143",
+  "lng": "-0.110587",
+  "population": 9245,
+  "total_crimes": 436,
+  "categories": {
+    "anti-social-behaviour": 70,
+    "bicycle-theft": 1,
+    "burglary": 17,
+    "criminal-damage-arson": 38,
+    "drugs": 25,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 24,
+    "robbery": 13,
+    "shoplifting": 18,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 54,
+    "violent-crime": 137,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

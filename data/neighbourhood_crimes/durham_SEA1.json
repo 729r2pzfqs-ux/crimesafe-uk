@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SEA1", "neighbourhood_name": "Seaham (Seaham Town)", "force_id": "durham", "lat": "54.8285", "lng": "-1.33771", "population": 12098, "total_crimes": 142, "categories": {"anti-social-behaviour": 34, "burglary": 3, "criminal-damage-arson": 25, "drugs": 4, "other-theft": 7, "possession-of-weapons": 1, "public-order": 13, "robbery": 1, "shoplifting": 15, "vehicle-crime": 3, "violent-crime": 32, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SEA1",
+  "neighbourhood_name": "Seaham (Seaham Town)",
+  "force_id": "durham",
+  "lat": "54.8285",
+  "lng": "-1.33771",
+  "population": 7540,
+  "total_crimes": 142,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "burglary": 3,
+    "criminal-damage-arson": 25,
+    "drugs": 4,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 15,
+    "vehicle-crime": 3,
+    "violent-crime": 32,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

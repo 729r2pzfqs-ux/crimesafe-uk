@@ -1,1 +1,16 @@
-{"neighbourhood_id": "E11", "neighbourhood_name": "Reepham", "force_id": "norfolk", "lat": "52.7837", "lng": "1.10748", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E11",
+  "neighbourhood_name": "Reepham",
+  "force_id": "norfolk",
+  "lat": "52.7837",
+  "lng": "1.10748",
+  "population": 5905,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

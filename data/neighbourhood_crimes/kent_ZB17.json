@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ZB17", "neighbourhood_name": "Salmestone", "force_id": "kent", "lat": "51.3737", "lng": "1.38848", "population": 12098, "total_crimes": 284, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 24, "drugs": 14, "other-theft": 15, "possession-of-weapons": 6, "public-order": 16, "robbery": 4, "shoplifting": 22, "theft-from-the-person": 4, "vehicle-crime": 8, "violent-crime": 107, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB17",
+  "neighbourhood_name": "Salmestone",
+  "force_id": "kent",
+  "lat": "51.3737",
+  "lng": "1.38848",
+  "population": 5862,
+  "total_crimes": 284,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 24,
+    "drugs": 14,
+    "other-theft": 15,
+    "possession-of-weapons": 6,
+    "public-order": 16,
+    "robbery": 4,
+    "shoplifting": 22,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 8,
+    "violent-crime": 107,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 48.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

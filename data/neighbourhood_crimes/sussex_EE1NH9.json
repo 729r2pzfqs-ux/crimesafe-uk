@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EE1NH9", "neighbourhood_name": "Upperton", "force_id": "sussex", "lat": "50.7799", "lng": "0.275466", "population": 12098, "total_crimes": 585, "categories": {"anti-social-behaviour": 124, "bicycle-theft": 7, "burglary": 8, "criminal-damage-arson": 36, "drugs": 17, "other-theft": 22, "possession-of-weapons": 6, "public-order": 46, "robbery": 7, "shoplifting": 132, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 164, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE1NH9",
+  "neighbourhood_name": "Upperton",
+  "force_id": "sussex",
+  "lat": "50.7799",
+  "lng": "0.275466",
+  "population": 10639,
+  "total_crimes": 585,
+  "categories": {
+    "anti-social-behaviour": 124,
+    "bicycle-theft": 7,
+    "burglary": 8,
+    "criminal-damage-arson": 36,
+    "drugs": 17,
+    "other-theft": 22,
+    "possession-of-weapons": 6,
+    "public-order": 46,
+    "robbery": 7,
+    "shoplifting": 132,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 164,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

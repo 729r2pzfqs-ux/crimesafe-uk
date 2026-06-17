@@ -1,1 +1,28 @@
-{"neighbourhood_id": "KA02", "neighbourhood_name": "Halton Brook", "force_id": "cheshire", "lat": "53.3357", "lng": "-2.71451", "population": "0", "total_crimes": 265, "categories": {"anti-social-behaviour": 21, "burglary": 6, "criminal-damage-arson": 15, "drugs": 21, "other-theft": 15, "possession-of-weapons": 6, "public-order": 33, "robbery": 4, "shoplifting": 21, "theft-from-the-person": 2, "vehicle-crime": 4, "violent-crime": 113, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KA02",
+  "neighbourhood_name": "Halton Brook",
+  "force_id": "cheshire",
+  "lat": "53.3357",
+  "lng": "-2.71451",
+  "population": 6813,
+  "total_crimes": 265,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 6,
+    "criminal-damage-arson": 15,
+    "drugs": 21,
+    "other-theft": 15,
+    "possession-of-weapons": 6,
+    "public-order": 33,
+    "robbery": 4,
+    "shoplifting": 21,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 113,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

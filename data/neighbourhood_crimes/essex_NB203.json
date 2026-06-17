@@ -1,1 +1,14 @@
-{"neighbourhood_id": "NB203", "neighbourhood_name": "Southminster", "force_id": "essex", "lat": "51.6847", "lng": "0.853456", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB203",
+  "neighbourhood_name": "Southminster",
+  "force_id": "essex",
+  "lat": "51.6847",
+  "lng": "0.853456",
+  "population": 17424,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

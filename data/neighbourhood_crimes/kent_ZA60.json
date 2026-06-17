@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZA60", "neighbourhood_name": "Barton", "force_id": "kent", "lat": "51.2737", "lng": "1.10679", "population": 12098, "total_crimes": 171, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 3, "burglary": 3, "criminal-damage-arson": 14, "drugs": 5, "other-theft": 9, "public-order": 6, "robbery": 2, "shoplifting": 11, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 76, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA60",
+  "neighbourhood_name": "Barton",
+  "force_id": "kent",
+  "lat": "51.2737",
+  "lng": "1.10679",
+  "population": 12489,
+  "total_crimes": 171,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 3,
+    "burglary": 3,
+    "criminal-damage-arson": 14,
+    "drugs": 5,
+    "other-theft": 9,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 11,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 76,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

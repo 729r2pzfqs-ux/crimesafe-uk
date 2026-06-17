@@ -1,1 +1,26 @@
-{"neighbourhood_id": "6LE02", "neighbourhood_name": "Ryde", "force_id": "hampshire", "lat": "50.7233", "lng": "-1.17945", "population": 12098, "total_crimes": 127, "categories": {"anti-social-behaviour": 19, "burglary": 1, "criminal-damage-arson": 10, "other-theft": 9, "possession-of-weapons": 1, "public-order": 10, "robbery": 2, "shoplifting": 6, "vehicle-crime": 2, "violent-crime": 64, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "6LE02",
+  "neighbourhood_name": "Ryde",
+  "force_id": "hampshire",
+  "lat": "50.7233",
+  "lng": "-1.17945",
+  "population": 23326,
+  "total_crimes": 127,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 2,
+    "shoplifting": 6,
+    "vehicle-crime": 2,
+    "violent-crime": 64,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

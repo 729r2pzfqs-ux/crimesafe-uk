@@ -1,1 +1,29 @@
-{"neighbourhood_id": "5PN03", "neighbourhood_name": "Hilsea, Copnor, Drayton and Farlington", "force_id": "hampshire", "lat": "50.825", "lng": "-1.06531", "population": 12098, "total_crimes": 380, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 3, "burglary": 10, "criminal-damage-arson": 28, "drugs": 10, "other-theft": 20, "possession-of-weapons": 9, "public-order": 32, "robbery": 3, "shoplifting": 28, "theft-from-the-person": 3, "vehicle-crime": 22, "violent-crime": 134, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "5PN03",
+  "neighbourhood_name": "Hilsea, Copnor, Drayton and Farlington",
+  "force_id": "hampshire",
+  "lat": "50.825",
+  "lng": "-1.06531",
+  "population": 26961,
+  "total_crimes": 380,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 3,
+    "burglary": 10,
+    "criminal-damage-arson": 28,
+    "drugs": 10,
+    "other-theft": 20,
+    "possession-of-weapons": 9,
+    "public-order": 32,
+    "robbery": 3,
+    "shoplifting": 28,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 22,
+    "violent-crime": 134,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

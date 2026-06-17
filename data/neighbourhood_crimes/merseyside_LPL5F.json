@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL5F", "neighbourhood_name": "Waterfront South", "force_id": "merseyside", "lat": "53.3986", "lng": "-2.99069", "population": 12098, "total_crimes": 1660, "categories": {"anti-social-behaviour": 128, "bicycle-theft": 30, "burglary": 39, "criminal-damage-arson": 69, "drugs": 288, "other-theft": 111, "possession-of-weapons": 12, "public-order": 151, "robbery": 15, "shoplifting": 223, "theft-from-the-person": 43, "vehicle-crime": 18, "violent-crime": 503, "other-crime": 30}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL5F",
+  "neighbourhood_name": "Waterfront South",
+  "force_id": "merseyside",
+  "lat": "53.3986",
+  "lng": "-2.99069",
+  "population": 2998,
+  "total_crimes": 1660,
+  "categories": {
+    "anti-social-behaviour": 128,
+    "bicycle-theft": 30,
+    "burglary": 39,
+    "criminal-damage-arson": 69,
+    "drugs": 288,
+    "other-theft": 111,
+    "possession-of-weapons": 12,
+    "public-order": 151,
+    "robbery": 15,
+    "shoplifting": 223,
+    "theft-from-the-person": 43,
+    "vehicle-crime": 18,
+    "violent-crime": 503,
+    "other-crime": 30
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 553.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

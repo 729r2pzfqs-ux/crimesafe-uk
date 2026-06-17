@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NE11", "neighbourhood_name": "Rushey Mead", "force_id": "leicestershire", "lat": "52.6623", "lng": "-1.09678", "population": 12098, "total_crimes": 221, "categories": {"anti-social-behaviour": 37, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 18, "drugs": 5, "other-theft": 15, "public-order": 15, "robbery": 4, "shoplifting": 12, "theft-from-the-person": 1, "vehicle-crime": 11, "violent-crime": 83, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE11",
+  "neighbourhood_name": "Rushey Mead",
+  "force_id": "leicestershire",
+  "lat": "52.6623",
+  "lng": "-1.09678",
+  "population": 12930,
+  "total_crimes": 221,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 18,
+    "drugs": 5,
+    "other-theft": 15,
+    "public-order": 15,
+    "robbery": 4,
+    "shoplifting": 12,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 11,
+    "violent-crime": 83,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

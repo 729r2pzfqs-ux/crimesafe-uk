@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009400", "neighbourhood_name": "Pembridge", "force_id": "metropolitan", "lat": "51.5115", "lng": "-0.198657", "population": 12098, "total_crimes": 1552, "categories": {"anti-social-behaviour": 322, "bicycle-theft": 26, "burglary": 68, "criminal-damage-arson": 65, "drugs": 58, "other-theft": 200, "possession-of-weapons": 7, "public-order": 58, "robbery": 24, "shoplifting": 226, "theft-from-the-person": 95, "vehicle-crime": 81, "violent-crime": 301, "other-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009400",
+  "neighbourhood_name": "Pembridge",
+  "force_id": "metropolitan",
+  "lat": "51.5115",
+  "lng": "-0.198657",
+  "population": 5941,
+  "total_crimes": 1552,
+  "categories": {
+    "anti-social-behaviour": 322,
+    "bicycle-theft": 26,
+    "burglary": 68,
+    "criminal-damage-arson": 65,
+    "drugs": 58,
+    "other-theft": 200,
+    "possession-of-weapons": 7,
+    "public-order": 58,
+    "robbery": 24,
+    "shoplifting": 226,
+    "theft-from-the-person": 95,
+    "vehicle-crime": 81,
+    "violent-crime": 301,
+    "other-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 261.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

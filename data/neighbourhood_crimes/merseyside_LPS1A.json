@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPS1A", "neighbourhood_name": "Linacre", "force_id": "merseyside", "lat": "53.4526", "lng": "-3.01085", "population": 12098, "total_crimes": 310, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 3, "burglary": 3, "criminal-damage-arson": 22, "drugs": 11, "other-theft": 21, "possession-of-weapons": 2, "public-order": 22, "robbery": 1, "shoplifting": 32, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 148, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS1A",
+  "neighbourhood_name": "Linacre",
+  "force_id": "merseyside",
+  "lat": "53.4526",
+  "lng": "-3.01085",
+  "population": 12716,
+  "total_crimes": 310,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 3,
+    "burglary": 3,
+    "criminal-damage-arson": 22,
+    "drugs": 11,
+    "other-theft": 21,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 1,
+    "shoplifting": 32,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 148,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

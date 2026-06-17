@@ -1,1 +1,27 @@
-{"neighbourhood_id": "GNW22", "neighbourhood_name": "Seiont", "force_id": "north-wales", "lat": "53.13", "lng": "-4.27471", "population": 12098, "total_crimes": 129, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 5, "drugs": 5, "other-theft": 6, "possession-of-weapons": 3, "public-order": 13, "shoplifting": 23, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 45}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW22",
+  "neighbourhood_name": "Seiont",
+  "force_id": "north-wales",
+  "lat": "53.13",
+  "lng": "-4.27471",
+  "population": 3248,
+  "total_crimes": 129,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 5,
+    "drugs": 5,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 13,
+    "shoplifting": 23,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 45
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

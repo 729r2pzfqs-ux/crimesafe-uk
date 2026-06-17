@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CIOS.4047", "neighbourhood_name": "Padstow &amp;amp; St Merryn", "force_id": "devon-and-cornwall", "lat": "50.5199", "lng": "-4.96692", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4047",
+  "neighbourhood_name": "Padstow &amp;amp; St Merryn",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.5199",
+  "lng": "-4.96692",
+  "population": 7089,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

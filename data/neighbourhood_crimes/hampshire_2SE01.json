@@ -1,1 +1,27 @@
-{"neighbourhood_id": "2SE01", "neighbourhood_name": "Sholing and Bitterne", "force_id": "hampshire", "lat": "50.9019", "lng": "-1.34367", "population": 12098, "total_crimes": 337, "categories": {"anti-social-behaviour": 50, "burglary": 10, "criminal-damage-arson": 18, "drugs": 8, "other-theft": 15, "possession-of-weapons": 5, "public-order": 29, "robbery": 3, "shoplifting": 61, "vehicle-crime": 9, "violent-crime": 122, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2SE01",
+  "neighbourhood_name": "Sholing and Bitterne",
+  "force_id": "hampshire",
+  "lat": "50.9019",
+  "lng": "-1.34367",
+  "population": 27302,
+  "total_crimes": 337,
+  "categories": {
+    "anti-social-behaviour": 50,
+    "burglary": 10,
+    "criminal-damage-arson": 18,
+    "drugs": 8,
+    "other-theft": 15,
+    "possession-of-weapons": 5,
+    "public-order": 29,
+    "robbery": 3,
+    "shoplifting": 61,
+    "vehicle-crime": 9,
+    "violent-crime": 122,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

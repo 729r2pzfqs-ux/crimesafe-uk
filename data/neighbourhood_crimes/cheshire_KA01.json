@@ -1,1 +1,28 @@
-{"neighbourhood_id": "KA01", "neighbourhood_name": "Grange - Runcorn", "force_id": "cheshire", "lat": "53.3297", "lng": "-2.71996", "population": "0", "total_crimes": 238, "categories": {"anti-social-behaviour": 20, "burglary": 6, "criminal-damage-arson": 13, "drugs": 20, "other-theft": 10, "possession-of-weapons": 5, "public-order": 33, "robbery": 4, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 100, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KA01",
+  "neighbourhood_name": "Grange - Runcorn",
+  "force_id": "cheshire",
+  "lat": "53.3297",
+  "lng": "-2.71996",
+  "population": 6896,
+  "total_crimes": 238,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 6,
+    "criminal-damage-arson": 13,
+    "drugs": 20,
+    "other-theft": 10,
+    "possession-of-weapons": 5,
+    "public-order": 33,
+    "robbery": 4,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 100,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

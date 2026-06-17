@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05010507", "neighbourhood_name": "Oldington, Foley and Sutton Park", "force_id": "west-mercia", "lat": "52.373", "lng": "-2.26772", "population": 10102, "total_crimes": 166, "categories": {"anti-social-behaviour": 21, "burglary": 7, "criminal-damage-arson": 11, "drugs": 3, "other-theft": 6, "possession-of-weapons": 2, "public-order": 12, "robbery": 1, "shoplifting": 19, "vehicle-crime": 11, "violent-crime": 64, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05010507",
+  "neighbourhood_name": "Oldington, Foley and Sutton Park",
+  "force_id": "west-mercia",
+  "lat": "52.373",
+  "lng": "-2.26772",
+  "population": 11047,
+  "total_crimes": 166,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 7,
+    "criminal-damage-arson": 11,
+    "drugs": 3,
+    "other-theft": 6,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 19,
+    "vehicle-crime": 11,
+    "violent-crime": 64,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

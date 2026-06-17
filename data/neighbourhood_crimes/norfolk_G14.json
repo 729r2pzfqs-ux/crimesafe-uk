@@ -1,1 +1,28 @@
-{"neighbourhood_id": "G14", "neighbourhood_name": "South Yarmouth", "force_id": "norfolk", "lat": "52.5903", "lng": "1.73474", "population": 12098, "total_crimes": 231, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 22, "drugs": 7, "other-theft": 15, "possession-of-weapons": 6, "public-order": 17, "robbery": 1, "shoplifting": 3, "vehicle-crime": 3, "violent-crime": 115, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "G14",
+  "neighbourhood_name": "South Yarmouth",
+  "force_id": "norfolk",
+  "lat": "52.5903",
+  "lng": "1.73474",
+  "population": 9608,
+  "total_crimes": 231,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 22,
+    "drugs": 7,
+    "other-theft": 15,
+    "possession-of-weapons": 6,
+    "public-order": 17,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 115,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

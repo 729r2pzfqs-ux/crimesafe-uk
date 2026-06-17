@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014089", "neighbourhood_name": "Shooters Hill", "force_id": "metropolitan", "lat": "51.473", "lng": "0.0709544", "population": 11441, "total_crimes": 379, "categories": {"anti-social-behaviour": 79, "burglary": 13, "criminal-damage-arson": 19, "drugs": 17, "other-theft": 24, "possession-of-weapons": 3, "public-order": 28, "robbery": 6, "shoplifting": 11, "theft-from-the-person": 4, "vehicle-crime": 37, "violent-crime": 133, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014089",
+  "neighbourhood_name": "Shooters Hill",
+  "force_id": "metropolitan",
+  "lat": "51.473",
+  "lng": "0.0709544",
+  "population": 11397,
+  "total_crimes": 379,
+  "categories": {
+    "anti-social-behaviour": 79,
+    "burglary": 13,
+    "criminal-damage-arson": 19,
+    "drugs": 17,
+    "other-theft": 24,
+    "possession-of-weapons": 3,
+    "public-order": 28,
+    "robbery": 6,
+    "shoplifting": 11,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 37,
+    "violent-crime": 133,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

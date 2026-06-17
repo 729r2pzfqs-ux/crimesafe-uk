@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014074", "neighbourhood_name": "Charlton Hornfair", "force_id": "metropolitan", "lat": "51.4789", "lng": "0.0345593", "population": 12025, "total_crimes": 445, "categories": {"anti-social-behaviour": 63, "burglary": 15, "criminal-damage-arson": 15, "drugs": 22, "other-theft": 29, "possession-of-weapons": 3, "public-order": 29, "robbery": 12, "shoplifting": 64, "theft-from-the-person": 12, "vehicle-crime": 35, "violent-crime": 142, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014074",
+  "neighbourhood_name": "Charlton Hornfair",
+  "force_id": "metropolitan",
+  "lat": "51.4789",
+  "lng": "0.0345593",
+  "population": 11473,
+  "total_crimes": 445,
+  "categories": {
+    "anti-social-behaviour": 63,
+    "burglary": 15,
+    "criminal-damage-arson": 15,
+    "drugs": 22,
+    "other-theft": 29,
+    "possession-of-weapons": 3,
+    "public-order": 29,
+    "robbery": 12,
+    "shoplifting": 64,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 35,
+    "violent-crime": 142,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

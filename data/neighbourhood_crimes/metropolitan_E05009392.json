@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009392", "neighbourhood_name": "Colville", "force_id": "metropolitan", "lat": "51.5158", "lng": "-0.204507", "population": 12098, "total_crimes": 1722, "categories": {"anti-social-behaviour": 360, "bicycle-theft": 24, "burglary": 75, "criminal-damage-arson": 67, "drugs": 69, "other-theft": 190, "possession-of-weapons": 11, "public-order": 67, "robbery": 34, "shoplifting": 295, "theft-from-the-person": 86, "vehicle-crime": 81, "violent-crime": 343, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009392",
+  "neighbourhood_name": "Colville",
+  "force_id": "metropolitan",
+  "lat": "51.5158",
+  "lng": "-0.204507",
+  "population": 8956,
+  "total_crimes": 1722,
+  "categories": {
+    "anti-social-behaviour": 360,
+    "bicycle-theft": 24,
+    "burglary": 75,
+    "criminal-damage-arson": 67,
+    "drugs": 69,
+    "other-theft": 190,
+    "possession-of-weapons": 11,
+    "public-order": 67,
+    "robbery": 34,
+    "shoplifting": 295,
+    "theft-from-the-person": 86,
+    "vehicle-crime": 81,
+    "violent-crime": 343,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 192.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

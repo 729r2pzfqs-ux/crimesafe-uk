@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YB11", "neighbourhood_name": "Vauxhall", "force_id": "kent", "lat": "51.183", "lng": "0.277878", "population": 12098, "total_crimes": 162, "categories": {"anti-social-behaviour": 28, "criminal-damage-arson": 19, "drugs": 7, "other-theft": 6, "public-order": 12, "robbery": 1, "shoplifting": 16, "theft-from-the-person": 2, "vehicle-crime": 8, "violent-crime": 57, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB11",
+  "neighbourhood_name": "Vauxhall",
+  "force_id": "kent",
+  "lat": "51.183",
+  "lng": "0.277878",
+  "population": 7368,
+  "total_crimes": 162,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "criminal-damage-arson": 19,
+    "drugs": 7,
+    "other-theft": 6,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 16,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 57,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

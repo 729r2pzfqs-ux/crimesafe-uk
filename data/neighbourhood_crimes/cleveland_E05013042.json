@@ -1,1 +1,20 @@
-{"neighbourhood_id": "E05013042", "neighbourhood_name": "Hart", "force_id": "cleveland", "lat": "54.7087", "lng": "-1.27205", "population": 6612, "total_crimes": 35, "categories": {"anti-social-behaviour": 9, "burglary": 2, "other-theft": 1, "shoplifting": 17, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013042",
+  "neighbourhood_name": "Hart",
+  "force_id": "cleveland",
+  "lat": "54.7087",
+  "lng": "-1.27205",
+  "population": 6796,
+  "total_crimes": 35,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 2,
+    "other-theft": 1,
+    "shoplifting": 17,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "DS14", "neighbourhood_name": "Chiseldon and Badbury", "force_id": "wiltshire", "lat": "51.5148", "lng": "-1.7357", "population": 12098, "total_crimes": 15, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 1, "public-order": 1, "theft-from-the-person": 1, "violent-crime": 6, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DS14",
+  "neighbourhood_name": "Chiseldon and Badbury",
+  "force_id": "wiltshire",
+  "lat": "51.5148",
+  "lng": "-1.7357",
+  "population": 1742,
+  "total_crimes": 15,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "theft-from-the-person": 1,
+    "violent-crime": 6,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

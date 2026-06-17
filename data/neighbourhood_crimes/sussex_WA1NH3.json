@@ -1,1 +1,23 @@
-{"neighbourhood_id": "WA1NH3", "neighbourhood_name": "Aldwick West", "force_id": "sussex", "lat": "50.7802", "lng": "-0.717827", "population": 12098, "total_crimes": 53, "categories": {"anti-social-behaviour": 18, "criminal-damage-arson": 3, "other-theft": 3, "public-order": 8, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 14, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA1NH3",
+  "neighbourhood_name": "Aldwick West",
+  "force_id": "sussex",
+  "lat": "50.7802",
+  "lng": "-0.717827",
+  "population": 4893,
+  "total_crimes": 53,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "criminal-damage-arson": 3,
+    "other-theft": 3,
+    "public-order": 8,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 14,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

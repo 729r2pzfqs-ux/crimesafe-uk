@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LOCW4DAL", "neighbourhood_name": "Dalton", "force_id": "cumbria", "lat": "54.1497", "lng": "-3.20072", "population": 12098, "total_crimes": 44, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 4, "shoplifting": 2, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 22, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCW4DAL",
+  "neighbourhood_name": "Dalton",
+  "force_id": "cumbria",
+  "lat": "54.1497",
+  "lng": "-3.20072",
+  "population": 7084,
+  "total_crimes": 44,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 4,
+    "shoplifting": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 22,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

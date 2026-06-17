@@ -1,1 +1,19 @@
-{"neighbourhood_id": "ER2NH3", "neighbourhood_name": "Ticehurst, Etchingham, Flimwell, and Stonegate", "force_id": "sussex", "lat": "51.0384", "lng": "0.409184", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "public-order": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER2NH3",
+  "neighbourhood_name": "Ticehurst, Etchingham, Flimwell, and Stonegate",
+  "force_id": "sussex",
+  "lat": "51.0384",
+  "lng": "0.409184",
+  "population": 4757,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

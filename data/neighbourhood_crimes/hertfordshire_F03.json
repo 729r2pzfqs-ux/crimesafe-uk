@@ -1,1 +1,25 @@
-{"neighbourhood_id": "F03", "neighbourhood_name": "London Colney, St Stephens and St Albans East", "force_id": "hertfordshire", "lat": "51.7278", "lng": "-0.326763", "population": 12098, "total_crimes": 52, "categories": {"anti-social-behaviour": 11, "bicycle-theft": 1, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 6, "public-order": 3, "shoplifting": 1, "vehicle-crime": 8, "violent-crime": 17, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "F03",
+  "neighbourhood_name": "London Colney, St Stephens and St Albans East",
+  "force_id": "hertfordshire",
+  "lat": "51.7278",
+  "lng": "-0.326763",
+  "population": 44547,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 6,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 17,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 27
+}

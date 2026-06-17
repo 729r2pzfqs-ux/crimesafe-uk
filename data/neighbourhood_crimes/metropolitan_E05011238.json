@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05011238", "neighbourhood_name": "Churchfields", "force_id": "metropolitan", "lat": "51.6013", "lng": "0.0290607", "population": 18038, "total_crimes": 225, "categories": {"anti-social-behaviour": 45, "burglary": 12, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 20, "public-order": 9, "robbery": 8, "shoplifting": 8, "theft-from-the-person": 8, "vehicle-crime": 29, "violent-crime": 72, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011238",
+  "neighbourhood_name": "Churchfields",
+  "force_id": "metropolitan",
+  "lat": "51.6013",
+  "lng": "0.0290607",
+  "population": 18275,
+  "total_crimes": 225,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "burglary": 12,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 20,
+    "public-order": 9,
+    "robbery": 8,
+    "shoplifting": 8,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 29,
+    "violent-crime": 72,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

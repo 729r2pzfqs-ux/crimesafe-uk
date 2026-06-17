@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013538", "neighbourhood_name": "Southall Green", "force_id": "metropolitan", "lat": "51.5003", "lng": "-0.391412", "population": 17612, "total_crimes": 696, "categories": {"anti-social-behaviour": 208, "bicycle-theft": 2, "burglary": 22, "criminal-damage-arson": 39, "drugs": 34, "other-theft": 40, "possession-of-weapons": 6, "public-order": 26, "robbery": 10, "shoplifting": 36, "theft-from-the-person": 55, "vehicle-crime": 61, "violent-crime": 150, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013538",
+  "neighbourhood_name": "Southall Green",
+  "force_id": "metropolitan",
+  "lat": "51.5003",
+  "lng": "-0.391412",
+  "population": 16253,
+  "total_crimes": 696,
+  "categories": {
+    "anti-social-behaviour": 208,
+    "bicycle-theft": 2,
+    "burglary": 22,
+    "criminal-damage-arson": 39,
+    "drugs": 34,
+    "other-theft": 40,
+    "possession-of-weapons": 6,
+    "public-order": 26,
+    "robbery": 10,
+    "shoplifting": 36,
+    "theft-from-the-person": 55,
+    "vehicle-crime": 61,
+    "violent-crime": 150,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

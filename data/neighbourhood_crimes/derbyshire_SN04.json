@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SN04", "neighbourhood_name": "Derwent and Oakwood", "force_id": "derbyshire", "lat": "52.9344", "lng": "-1.43903", "population": 12098, "total_crimes": 272, "categories": {"anti-social-behaviour": 28, "burglary": 11, "criminal-damage-arson": 11, "drugs": 7, "other-theft": 19, "possession-of-weapons": 2, "public-order": 14, "shoplifting": 12, "theft-from-the-person": 2, "vehicle-crime": 21, "violent-crime": 138, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SN04",
+  "neighbourhood_name": "Derwent and Oakwood",
+  "force_id": "derbyshire",
+  "lat": "52.9344",
+  "lng": "-1.43903",
+  "population": 26557,
+  "total_crimes": 272,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "burglary": 11,
+    "criminal-damage-arson": 11,
+    "drugs": 7,
+    "other-theft": 19,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "shoplifting": 12,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 21,
+    "violent-crime": 138,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

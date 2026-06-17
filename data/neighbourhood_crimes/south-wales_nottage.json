@@ -1,1 +1,22 @@
-{"neighbourhood_id": "nottage", "neighbourhood_name": "Nottage", "force_id": "south-wales", "lat": "51.4981", "lng": "-3.69996", "population": 12098, "total_crimes": 16, "categories": {"burglary": 1, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 3, "public-order": 1, "vehicle-crime": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "nottage",
+  "neighbourhood_name": "Nottage",
+  "force_id": "south-wales",
+  "lat": "51.4981",
+  "lng": "-3.69996",
+  "population": 3225,
+  "total_crimes": 16,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

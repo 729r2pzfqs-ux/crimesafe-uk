@@ -1,1 +1,18 @@
-{"neighbourhood_id": "B203", "neighbourhood_name": "Borth", "force_id": "dyfed-powys", "lat": "52.4905", "lng": "-4.03353", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 1, "violent-crime": 4, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B203",
+  "neighbourhood_name": "Borth",
+  "force_id": "dyfed-powys",
+  "lat": "52.4905",
+  "lng": "-4.03353",
+  "population": 2045,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "violent-crime": 4,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

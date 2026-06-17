@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ne", "neighbourhood_name": "Nuneaton East", "force_id": "warwickshire", "lat": "52.524", "lng": "-1.44829", "population": 12098, "total_crimes": 317, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 11, "drugs": 9, "other-theft": 9, "possession-of-weapons": 3, "public-order": 21, "robbery": 3, "shoplifting": 40, "theft-from-the-person": 2, "vehicle-crime": 24, "violent-crime": 106, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ne",
+  "neighbourhood_name": "Nuneaton East",
+  "force_id": "warwickshire",
+  "lat": "52.524",
+  "lng": "-1.44829",
+  "population": 17313,
+  "total_crimes": 317,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 11,
+    "drugs": 9,
+    "other-theft": 9,
+    "possession-of-weapons": 3,
+    "public-order": 21,
+    "robbery": 3,
+    "shoplifting": 40,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 24,
+    "violent-crime": 106,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

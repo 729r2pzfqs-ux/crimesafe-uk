@@ -1,1 +1,20 @@
-{"neighbourhood_id": "tonyrefail-west", "neighbourhood_name": "Tonyrefail West", "force_id": "south-wales", "lat": "51.5802", "lng": "-3.43652", "population": 12098, "total_crimes": 59, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 5, "other-theft": 4, "public-order": 5, "violent-crime": 39}, "date": "2026-03"}
+{
+  "neighbourhood_id": "tonyrefail-west",
+  "neighbourhood_name": "Tonyrefail West",
+  "force_id": "south-wales",
+  "lat": "51.5802",
+  "lng": "-3.43652",
+  "population": 6864,
+  "total_crimes": 59,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 5,
+    "other-theft": 4,
+    "public-order": 5,
+    "violent-crime": 39
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

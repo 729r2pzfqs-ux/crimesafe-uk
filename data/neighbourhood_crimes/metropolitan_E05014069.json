@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014069", "neighbourhood_name": "Valence", "force_id": "metropolitan", "lat": "51.5589", "lng": "0.135828", "population": 16803, "total_crimes": 564, "categories": {"anti-social-behaviour": 98, "bicycle-theft": 2, "burglary": 32, "criminal-damage-arson": 34, "drugs": 16, "other-theft": 37, "possession-of-weapons": 6, "public-order": 42, "robbery": 20, "shoplifting": 36, "theft-from-the-person": 9, "vehicle-crime": 53, "violent-crime": 174, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014069",
+  "neighbourhood_name": "Valence",
+  "force_id": "metropolitan",
+  "lat": "51.5589",
+  "lng": "0.135828",
+  "population": 16279,
+  "total_crimes": 564,
+  "categories": {
+    "anti-social-behaviour": 98,
+    "bicycle-theft": 2,
+    "burglary": 32,
+    "criminal-damage-arson": 34,
+    "drugs": 16,
+    "other-theft": 37,
+    "possession-of-weapons": 6,
+    "public-order": 42,
+    "robbery": 20,
+    "shoplifting": 36,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 53,
+    "violent-crime": 174,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,14 @@
-{"neighbourhood_id": "D410", "neighbourhood_name": "Talybont-on-Usk", "force_id": "dyfed-powys", "lat": "51.8807", "lng": "-3.39163", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D410",
+  "neighbourhood_name": "Talybont-on-Usk",
+  "force_id": "dyfed-powys",
+  "lat": "51.8807",
+  "lng": "-3.39163",
+  "population": 1844,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "FNW03", "neighbourhood_name": "Trelawnyd and Gwaenysgor", "force_id": "north-wales", "lat": "53.3106", "lng": "-3.347", "population": 12098, "total_crimes": 7, "categories": {"violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW03",
+  "neighbourhood_name": "Trelawnyd and Gwaenysgor",
+  "force_id": "north-wales",
+  "lat": "53.3106",
+  "lng": "-3.347",
+  "population": 1832,
+  "total_crimes": 7,
+  "categories": {
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

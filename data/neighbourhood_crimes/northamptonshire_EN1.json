@@ -1,1 +1,27 @@
-{"neighbourhood_id": "EN1", "neighbourhood_name": "Rushden", "force_id": "northamptonshire", "lat": "52.2776", "lng": "-0.584654", "population": 12098, "total_crimes": 109, "categories": {"anti-social-behaviour": 19, "bicycle-theft": 3, "burglary": 11, "drugs": 4, "other-theft": 5, "possession-of-weapons": 4, "public-order": 10, "robbery": 1, "shoplifting": 1, "vehicle-crime": 4, "violent-crime": 44, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EN1",
+  "neighbourhood_name": "Rushden",
+  "force_id": "northamptonshire",
+  "lat": "52.2776",
+  "lng": "-0.584654",
+  "population": 24764,
+  "total_crimes": 109,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "drugs": 4,
+    "other-theft": 5,
+    "possession-of-weapons": 4,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 44,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

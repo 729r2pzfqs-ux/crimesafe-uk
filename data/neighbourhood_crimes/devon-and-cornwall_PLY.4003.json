@@ -1,1 +1,22 @@
-{"neighbourhood_id": "PLY.4003", "neighbourhood_name": "Elburton &amp;amp; Dunstone", "force_id": "devon-and-cornwall", "lat": "50.3649", "lng": "-4.06708", "population": 12098, "total_crimes": 43, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 7, "other-theft": 1, "public-order": 6, "vehicle-crime": 1, "violent-crime": 20, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4003",
+  "neighbourhood_name": "Elburton &amp;amp; Dunstone",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3649",
+  "lng": "-4.06708",
+  "population": 6415,
+  "total_crimes": 43,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 7,
+    "other-theft": 1,
+    "public-order": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 20,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

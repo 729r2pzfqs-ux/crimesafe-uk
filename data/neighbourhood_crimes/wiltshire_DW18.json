@@ -1,1 +1,26 @@
-{"neighbourhood_id": "DW18", "neighbourhood_name": "Shaw and Eastleaze", "force_id": "wiltshire", "lat": "51.5682", "lng": "-1.82882", "population": 12098, "total_crimes": 129, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 1, "criminal-damage-arson": 13, "drugs": 3, "other-theft": 10, "possession-of-weapons": 4, "public-order": 13, "shoplifting": 20, "vehicle-crime": 3, "violent-crime": 47, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DW18",
+  "neighbourhood_name": "Shaw and Eastleaze",
+  "force_id": "wiltshire",
+  "lat": "51.5682",
+  "lng": "-1.82882",
+  "population": 2899,
+  "total_crimes": 129,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 4,
+    "public-order": 13,
+    "shoplifting": 20,
+    "vehicle-crime": 3,
+    "violent-crime": 47,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

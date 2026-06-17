@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ely", "neighbourhood_name": "Ely", "force_id": "south-wales", "lat": "51.4763", "lng": "-3.25668", "population": 12098, "total_crimes": 318, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 21, "drugs": 15, "other-theft": 17, "possession-of-weapons": 5, "public-order": 35, "robbery": 2, "shoplifting": 25, "vehicle-crime": 7, "violent-crime": 138, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ely",
+  "neighbourhood_name": "Ely",
+  "force_id": "south-wales",
+  "lat": "51.4763",
+  "lng": "-3.25668",
+  "population": 15646,
+  "total_crimes": 318,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 21,
+    "drugs": 15,
+    "other-theft": 17,
+    "possession-of-weapons": 5,
+    "public-order": 35,
+    "robbery": 2,
+    "shoplifting": 25,
+    "vehicle-crime": 7,
+    "violent-crime": 138,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

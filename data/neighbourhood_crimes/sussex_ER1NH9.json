@@ -1,1 +1,24 @@
-{"neighbourhood_id": "ER1NH9", "neighbourhood_name": "Sidley", "force_id": "sussex", "lat": "50.8642", "lng": "0.469468", "population": 12098, "total_crimes": 87, "categories": {"anti-social-behaviour": 15, "criminal-damage-arson": 7, "drugs": 3, "other-theft": 9, "public-order": 4, "shoplifting": 6, "vehicle-crime": 2, "violent-crime": 38, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER1NH9",
+  "neighbourhood_name": "Sidley",
+  "force_id": "sussex",
+  "lat": "50.8642",
+  "lng": "0.469468",
+  "population": 6144,
+  "total_crimes": 87,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "criminal-damage-arson": 7,
+    "drugs": 3,
+    "other-theft": 9,
+    "public-order": 4,
+    "shoplifting": 6,
+    "vehicle-crime": 2,
+    "violent-crime": 38,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

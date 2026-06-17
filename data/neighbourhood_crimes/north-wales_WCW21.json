@@ -1,1 +1,21 @@
-{"neighbourhood_id": "WCW21", "neighbourhood_name": "Llysfaen", "force_id": "north-wales", "lat": "53.2816", "lng": "-3.66254", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 4, "other-theft": 1, "public-order": 4, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW21",
+  "neighbourhood_name": "Llysfaen",
+  "force_id": "north-wales",
+  "lat": "53.2816",
+  "lng": "-3.66254",
+  "population": 2851,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 4,
+    "other-theft": 1,
+    "public-order": 4,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

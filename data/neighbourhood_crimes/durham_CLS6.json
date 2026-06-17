@@ -1,1 +1,22 @@
-{"neighbourhood_id": "CLS6", "neighbourhood_name": "Chester-le-Street (East Villages)", "force_id": "durham", "lat": "54.8513", "lng": "-1.53814", "population": 12098, "total_crimes": 14, "categories": {"anti-social-behaviour": 2, "burglary": 3, "criminal-damage-arson": 3, "public-order": 1, "vehicle-crime": 1, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CLS6",
+  "neighbourhood_name": "Chester-le-Street (East Villages)",
+  "force_id": "durham",
+  "lat": "54.8513",
+  "lng": "-1.53814",
+  "population": 7280,
+  "total_crimes": 14,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 3,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

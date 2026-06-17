@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013599", "neighbourhood_name": "South Tottenham", "force_id": "metropolitan", "lat": "51.5826", "lng": "-0.0631511", "population": 12098, "total_crimes": 884, "categories": {"anti-social-behaviour": 205, "bicycle-theft": 4, "burglary": 28, "criminal-damage-arson": 39, "drugs": 22, "other-theft": 47, "possession-of-weapons": 10, "public-order": 40, "robbery": 37, "shoplifting": 59, "theft-from-the-person": 74, "vehicle-crime": 52, "violent-crime": 258, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013599",
+  "neighbourhood_name": "South Tottenham",
+  "force_id": "metropolitan",
+  "lat": "51.5826",
+  "lng": "-0.0631511",
+  "population": 18690,
+  "total_crimes": 884,
+  "categories": {
+    "anti-social-behaviour": 205,
+    "bicycle-theft": 4,
+    "burglary": 28,
+    "criminal-damage-arson": 39,
+    "drugs": 22,
+    "other-theft": 47,
+    "possession-of-weapons": 10,
+    "public-order": 40,
+    "robbery": 37,
+    "shoplifting": 59,
+    "theft-from-the-person": 74,
+    "vehicle-crime": 52,
+    "violent-crime": 258,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

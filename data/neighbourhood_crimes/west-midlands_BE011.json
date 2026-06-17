@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BE011", "neighbourhood_name": "Shard End", "force_id": "west-midlands", "lat": "52.486", "lng": "-1.77729", "population": 12098, "total_crimes": 389, "categories": {"anti-social-behaviour": 18, "burglary": 13, "criminal-damage-arson": 48, "drugs": 12, "other-theft": 23, "possession-of-weapons": 3, "public-order": 13, "robbery": 8, "shoplifting": 12, "theft-from-the-person": 4, "vehicle-crime": 28, "violent-crime": 201, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE011",
+  "neighbourhood_name": "Shard End",
+  "force_id": "west-midlands",
+  "lat": "52.486",
+  "lng": "-1.77729",
+  "population": 28630,
+  "total_crimes": 389,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 13,
+    "criminal-damage-arson": 48,
+    "drugs": 12,
+    "other-theft": 23,
+    "possession-of-weapons": 3,
+    "public-order": 13,
+    "robbery": 8,
+    "shoplifting": 12,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 28,
+    "violent-crime": 201,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CC2NH4", "neighbourhood_name": "Hanover", "force_id": "sussex", "lat": "50.8291", "lng": "-0.129271", "population": 12098, "total_crimes": 1529, "categories": {"anti-social-behaviour": 299, "bicycle-theft": 12, "burglary": 40, "criminal-damage-arson": 76, "drugs": 106, "other-theft": 104, "possession-of-weapons": 13, "public-order": 125, "robbery": 25, "shoplifting": 236, "theft-from-the-person": 13, "vehicle-crime": 18, "violent-crime": 423, "other-crime": 39}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CC2NH4",
+  "neighbourhood_name": "Hanover",
+  "force_id": "sussex",
+  "lat": "50.8291",
+  "lng": "-0.129271",
+  "population": 5832,
+  "total_crimes": 1529,
+  "categories": {
+    "anti-social-behaviour": 299,
+    "bicycle-theft": 12,
+    "burglary": 40,
+    "criminal-damage-arson": 76,
+    "drugs": 106,
+    "other-theft": 104,
+    "possession-of-weapons": 13,
+    "public-order": 125,
+    "robbery": 25,
+    "shoplifting": 236,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 18,
+    "violent-crime": 423,
+    "other-crime": 39
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 262.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

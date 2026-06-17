@@ -1,1 +1,26 @@
-{"neighbourhood_id": "BE", "neighbourhood_name": "Barnsley North", "force_id": "south-yorkshire", "lat": "53.5801", "lng": "-1.51318", "population": 12098, "total_crimes": 67, "categories": {"anti-social-behaviour": 13, "burglary": 4, "criminal-damage-arson": 2, "drugs": 3, "other-theft": 5, "possession-of-weapons": 1, "public-order": 8, "shoplifting": 7, "vehicle-crime": 5, "violent-crime": 16, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE",
+  "neighbourhood_name": "Barnsley North",
+  "force_id": "south-yorkshire",
+  "lat": "53.5801",
+  "lng": "-1.51318",
+  "population": 41647,
+  "total_crimes": 67,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 4,
+    "criminal-damage-arson": 2,
+    "drugs": 3,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "shoplifting": 7,
+    "vehicle-crime": 5,
+    "violent-crime": 16,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

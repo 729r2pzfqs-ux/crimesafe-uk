@@ -1,1 +1,19 @@
-{"neighbourhood_id": "N381", "neighbourhood_name": "Wallingford, Berinsfield and Cholsey", "force_id": "thames-valley", "lat": "51.6176", "lng": "-1.13925", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "other-theft": 1, "vehicle-crime": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N381",
+  "neighbourhood_name": "Wallingford, Berinsfield and Cholsey",
+  "force_id": "thames-valley",
+  "lat": "51.6176",
+  "lng": "-1.13925",
+  "population": 26903,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "other-theft": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

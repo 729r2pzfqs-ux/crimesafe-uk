@@ -1,1 +1,17 @@
-{"neighbourhood_id": "E05009849", "neighbourhood_name": "Bromsgrove South and Rural", "force_id": "west-mercia", "lat": "52.3162", "lng": "-2.01884", "population": 5305, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009849",
+  "neighbourhood_name": "Bromsgrove South and Rural",
+  "force_id": "west-mercia",
+  "lat": "52.3162",
+  "lng": "-2.01884",
+  "population": 20268,
+  "total_crimes": 2,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

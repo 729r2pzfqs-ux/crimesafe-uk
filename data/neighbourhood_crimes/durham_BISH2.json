@@ -1,1 +1,26 @@
-{"neighbourhood_id": "BISH2", "neighbourhood_name": "Bishop Auckland (West)", "force_id": "durham", "lat": "54.6228", "lng": "-1.71327", "population": 12098, "total_crimes": 53, "categories": {"anti-social-behaviour": 15, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 2, "possession-of-weapons": 2, "public-order": 2, "shoplifting": 5, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 15, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BISH2",
+  "neighbourhood_name": "Bishop Auckland (West)",
+  "force_id": "durham",
+  "lat": "54.6228",
+  "lng": "-1.71327",
+  "population": 2894,
+  "total_crimes": 53,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 2,
+    "public-order": 2,
+    "shoplifting": 5,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 15,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

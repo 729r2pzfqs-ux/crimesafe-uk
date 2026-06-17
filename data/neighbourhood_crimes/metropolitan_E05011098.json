@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011098", "neighbourhood_name": "Chaucer", "force_id": "metropolitan", "lat": "51.4986", "lng": "-0.0907394", "population": 10578, "total_crimes": 2364, "categories": {"anti-social-behaviour": 368, "bicycle-theft": 38, "burglary": 97, "criminal-damage-arson": 75, "drugs": 88, "other-theft": 311, "possession-of-weapons": 19, "public-order": 109, "robbery": 117, "shoplifting": 199, "theft-from-the-person": 485, "vehicle-crime": 54, "violent-crime": 385, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011098",
+  "neighbourhood_name": "Chaucer",
+  "force_id": "metropolitan",
+  "lat": "51.4986",
+  "lng": "-0.0907394",
+  "population": 14618,
+  "total_crimes": 2364,
+  "categories": {
+    "anti-social-behaviour": 368,
+    "bicycle-theft": 38,
+    "burglary": 97,
+    "criminal-damage-arson": 75,
+    "drugs": 88,
+    "other-theft": 311,
+    "possession-of-weapons": 19,
+    "public-order": 109,
+    "robbery": 117,
+    "shoplifting": 199,
+    "theft-from-the-person": 485,
+    "vehicle-crime": 54,
+    "violent-crime": 385,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 161.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

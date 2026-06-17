@@ -1,1 +1,19 @@
-{"neighbourhood_id": "YMW19", "neighbourhood_name": "Llanbedrgoch", "force_id": "north-wales", "lat": "53.3128", "lng": "-4.2302", "population": 12098, "total_crimes": 4, "categories": {"drugs": 1, "other-theft": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW19",
+  "neighbourhood_name": "Llanbedrgoch",
+  "force_id": "north-wales",
+  "lat": "53.3128",
+  "lng": "-4.2302",
+  "population": 1404,
+  "total_crimes": 4,
+  "categories": {
+    "drugs": 1,
+    "other-theft": 1,
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

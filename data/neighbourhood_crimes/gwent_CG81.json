@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CG81", "neighbourhood_name": "Bargoed", "force_id": "gwent", "lat": "51.6892", "lng": "-3.23889", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CG81",
+  "neighbourhood_name": "Bargoed",
+  "force_id": "gwent",
+  "lat": "51.6892",
+  "lng": "-3.23889",
+  "population": 6168,
+  "total_crimes": 1,
+  "categories": {
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

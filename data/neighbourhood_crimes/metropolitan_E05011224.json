@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011224", "neighbourhood_name": "East Wickham", "force_id": "metropolitan", "lat": "51.4679", "lng": "0.102806", "population": 16265, "total_crimes": 230, "categories": {"anti-social-behaviour": 36, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 13, "drugs": 7, "other-theft": 11, "public-order": 13, "robbery": 3, "shoplifting": 17, "theft-from-the-person": 3, "vehicle-crime": 42, "violent-crime": 68, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011224",
+  "neighbourhood_name": "East Wickham",
+  "force_id": "metropolitan",
+  "lat": "51.4679",
+  "lng": "0.102806",
+  "population": 16334,
+  "total_crimes": 230,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 13,
+    "drugs": 7,
+    "other-theft": 11,
+    "public-order": 13,
+    "robbery": 3,
+    "shoplifting": 17,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 42,
+    "violent-crime": 68,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "EW2NH30", "neighbourhood_name": "Hellingly", "force_id": "sussex", "lat": "50.8748", "lng": "0.224183", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 3, "other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW2NH30",
+  "neighbourhood_name": "Hellingly",
+  "force_id": "sussex",
+  "lat": "50.8748",
+  "lng": "0.224183",
+  "population": 2138,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "B1", "neighbourhood_name": "Riverside and West Shields", "force_id": "northumbria", "lat": "54.9822", "lng": "-1.43168", "population": 12098, "total_crimes": 345, "categories": {"anti-social-behaviour": 59, "burglary": 16, "criminal-damage-arson": 37, "drugs": 4, "other-theft": 18, "possession-of-weapons": 3, "public-order": 12, "robbery": 7, "shoplifting": 61, "theft-from-the-person": 3, "vehicle-crime": 3, "violent-crime": 110, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B1",
+  "neighbourhood_name": "Riverside and West Shields",
+  "force_id": "northumbria",
+  "lat": "54.9822",
+  "lng": "-1.43168",
+  "population": 51694,
+  "total_crimes": 345,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "burglary": 16,
+    "criminal-damage-arson": 37,
+    "drugs": 4,
+    "other-theft": 18,
+    "possession-of-weapons": 3,
+    "public-order": 12,
+    "robbery": 7,
+    "shoplifting": 61,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 110,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 36
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CIOS.4003", "neighbourhood_name": "Camborne West", "force_id": "devon-and-cornwall", "lat": "50.2173", "lng": "-5.3396", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4003",
+  "neighbourhood_name": "Camborne West",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.2173",
+  "lng": "-5.3396",
+  "population": 6974,
+  "total_crimes": 5,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

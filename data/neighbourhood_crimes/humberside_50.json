@@ -1,1 +1,29 @@
-{"neighbourhood_id": "50", "neighbourhood_name": "Drypool", "force_id": "humberside", "lat": "53.7509", "lng": "-0.320921", "population": 12098, "total_crimes": 466, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 7, "burglary": 20, "criminal-damage-arson": 44, "drugs": 19, "other-theft": 33, "possession-of-weapons": 3, "public-order": 54, "robbery": 3, "shoplifting": 63, "theft-from-the-person": 3, "vehicle-crime": 3, "violent-crime": 172, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "50",
+  "neighbourhood_name": "Drypool",
+  "force_id": "humberside",
+  "lat": "53.7509",
+  "lng": "-0.320921",
+  "population": 10994,
+  "total_crimes": 466,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 7,
+    "burglary": 20,
+    "criminal-damage-arson": 44,
+    "drugs": 19,
+    "other-theft": 33,
+    "possession-of-weapons": 3,
+    "public-order": 54,
+    "robbery": 3,
+    "shoplifting": 63,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 172,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

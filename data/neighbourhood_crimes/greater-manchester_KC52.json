@@ -1,1 +1,14 @@
-{"neighbourhood_id": "KC52", "neighbourhood_name": "Great Lever", "force_id": "greater-manchester", "lat": "53.5655", "lng": "-2.42483", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KC52",
+  "neighbourhood_name": "Great Lever",
+  "force_id": "greater-manchester",
+  "lat": "53.5655",
+  "lng": "-2.42483",
+  "population": 18080,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

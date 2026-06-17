@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CRW07", "neighbourhood_name": "Denbigh Upper/Henllan", "force_id": "north-wales", "lat": "53.1862", "lng": "-3.44273", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 2, "public-order": 3, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 27, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CRW07",
+  "neighbourhood_name": "Denbigh Upper/Henllan",
+  "force_id": "north-wales",
+  "lat": "53.1862",
+  "lng": "-3.44273",
+  "population": 3164,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 2,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 27,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

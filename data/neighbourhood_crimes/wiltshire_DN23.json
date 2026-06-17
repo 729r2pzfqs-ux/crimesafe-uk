@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DN23", "neighbourhood_name": "Abbey Meads", "force_id": "wiltshire", "lat": "51.596", "lng": "-1.79465", "population": 12098, "total_crimes": 221, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 20, "drugs": 3, "other-theft": 17, "possession-of-weapons": 4, "public-order": 21, "robbery": 2, "shoplifting": 26, "vehicle-crime": 5, "violent-crime": 81, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DN23",
+  "neighbourhood_name": "Abbey Meads",
+  "force_id": "wiltshire",
+  "lat": "51.596",
+  "lng": "-1.79465",
+  "population": 3058,
+  "total_crimes": 221,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 20,
+    "drugs": 3,
+    "other-theft": 17,
+    "possession-of-weapons": 4,
+    "public-order": 21,
+    "robbery": 2,
+    "shoplifting": 26,
+    "vehicle-crime": 5,
+    "violent-crime": 81,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 72.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

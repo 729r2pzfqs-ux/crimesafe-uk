@@ -1,1 +1,26 @@
-{"neighbourhood_id": "llanrumney", "neighbourhood_name": "Llanrumney", "force_id": "south-wales", "lat": "51.5178", "lng": "-3.1283", "population": 12098, "total_crimes": 270, "categories": {"anti-social-behaviour": 35, "burglary": 12, "criminal-damage-arson": 14, "drugs": 11, "other-theft": 12, "possession-of-weapons": 7, "public-order": 17, "shoplifting": 42, "vehicle-crime": 18, "violent-crime": 95, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llanrumney",
+  "neighbourhood_name": "Llanrumney",
+  "force_id": "south-wales",
+  "lat": "51.5178",
+  "lng": "-3.1283",
+  "population": 11828,
+  "total_crimes": 270,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "burglary": 12,
+    "criminal-damage-arson": 14,
+    "drugs": 11,
+    "other-theft": 12,
+    "possession-of-weapons": 7,
+    "public-order": 17,
+    "shoplifting": 42,
+    "vehicle-crime": 18,
+    "violent-crime": 95,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

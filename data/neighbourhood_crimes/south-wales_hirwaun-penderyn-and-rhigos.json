@@ -1,1 +1,18 @@
-{"neighbourhood_id": "hirwaun-penderyn-and-rhigos", "neighbourhood_name": "Hirwaun, Penderyn and Rhigos", "force_id": "south-wales", "lat": "51.7678", "lng": "-3.50515", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "hirwaun-penderyn-and-rhigos",
+  "neighbourhood_name": "Hirwaun, Penderyn and Rhigos",
+  "force_id": "south-wales",
+  "lat": "51.7678",
+  "lng": "-3.50515",
+  "population": 6116,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "HY10", "neighbourhood_name": "Milnshaw", "force_id": "lancashire", "lat": "53.7634", "lng": "-2.36453", "population": 12098, "total_crimes": 391, "categories": {"anti-social-behaviour": 80, "bicycle-theft": 2, "burglary": 15, "criminal-damage-arson": 23, "drugs": 8, "other-theft": 19, "possession-of-weapons": 3, "public-order": 28, "robbery": 3, "shoplifting": 33, "theft-from-the-person": 2, "vehicle-crime": 24, "violent-crime": 145, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY10",
+  "neighbourhood_name": "Milnshaw",
+  "force_id": "lancashire",
+  "lat": "53.7634",
+  "lng": "-2.36453",
+  "population": 4864,
+  "total_crimes": 391,
+  "categories": {
+    "anti-social-behaviour": 80,
+    "bicycle-theft": 2,
+    "burglary": 15,
+    "criminal-damage-arson": 23,
+    "drugs": 8,
+    "other-theft": 19,
+    "possession-of-weapons": 3,
+    "public-order": 28,
+    "robbery": 3,
+    "shoplifting": 33,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 24,
+    "violent-crime": 145,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 80.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

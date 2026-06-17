@@ -1,1 +1,22 @@
-{"neighbourhood_id": "J03", "neighbourhood_name": "Potters Bar and Shenley", "force_id": "hertfordshire", "lat": "51.6967", "lng": "-0.232547", "population": 12098, "total_crimes": 34, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 1, "drugs": 2, "other-theft": 17, "public-order": 4, "violent-crime": 2, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "J03",
+  "neighbourhood_name": "Potters Bar and Shenley",
+  "force_id": "hertfordshire",
+  "lat": "51.6967",
+  "lng": "-0.232547",
+  "population": 28034,
+  "total_crimes": 34,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 17,
+    "public-order": 4,
+    "violent-crime": 2,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

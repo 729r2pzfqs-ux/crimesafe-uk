@@ -1,1 +1,22 @@
-{"neighbourhood_id": "DCW13", "neighbourhood_name": "Dyserth", "force_id": "north-wales", "lat": "53.306", "lng": "-3.4077", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 3, "burglary": 1, "other-theft": 2, "public-order": 3, "shoplifting": 5, "violent-crime": 13, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW13",
+  "neighbourhood_name": "Dyserth",
+  "force_id": "north-wales",
+  "lat": "53.306",
+  "lng": "-3.4077",
+  "population": 2867,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "other-theft": 2,
+    "public-order": 3,
+    "shoplifting": 5,
+    "violent-crime": 13,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

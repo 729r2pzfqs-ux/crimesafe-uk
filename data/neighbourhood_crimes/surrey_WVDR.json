@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WVDR", "neighbourhood_name": "Ockford Ridge, Aarons Hill, Busbridge &amp; Godalming Town Centre", "force_id": "surrey", "lat": "51.1823", "lng": "-0.608801", "population": 12098, "total_crimes": 52, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 2, "public-order": 12, "shoplifting": 4, "theft-from-the-person": 1, "violent-crime": 25, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WVDR",
+  "neighbourhood_name": "Ockford Ridge, Aarons Hill, Busbridge &amp; Godalming Town Centre",
+  "force_id": "surrey",
+  "lat": "51.1823",
+  "lng": "-0.608801",
+  "population": 11274,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 12,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "violent-crime": 25,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

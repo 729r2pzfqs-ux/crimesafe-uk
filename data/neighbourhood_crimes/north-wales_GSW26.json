@@ -1,1 +1,20 @@
-{"neighbourhood_id": "GSW26", "neighbourhood_name": "Bala", "force_id": "north-wales", "lat": "52.9108", "lng": "-3.60139", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 3, "violent-crime": 6, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW26",
+  "neighbourhood_name": "Bala",
+  "force_id": "north-wales",
+  "lat": "52.9108",
+  "lng": "-3.60139",
+  "population": 2167,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "violent-crime": 6,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

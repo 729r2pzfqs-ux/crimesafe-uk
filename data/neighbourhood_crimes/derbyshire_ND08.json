@@ -1,1 +1,22 @@
-{"neighbourhood_id": "ND08", "neighbourhood_name": "Wirksworth and Middleton", "force_id": "derbyshire", "lat": "53.0864", "lng": "-1.56208", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 1, "burglary": 3, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 2, "shoplifting": 1, "violent-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ND08",
+  "neighbourhood_name": "Wirksworth and Middleton",
+  "force_id": "derbyshire",
+  "lat": "53.0864",
+  "lng": "-1.56208",
+  "population": 6138,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,17 @@
-{"neighbourhood_id": "YC74", "neighbourhood_name": "Crockenhill and Well Hill", "force_id": "kent", "lat": "51.3681", "lng": "0.165767", "population": 12098, "total_crimes": 15, "categories": {"criminal-damage-arson": 4, "violent-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC74",
+  "neighbourhood_name": "Crockenhill and Well Hill",
+  "force_id": "kent",
+  "lat": "51.3681",
+  "lng": "0.165767",
+  "population": 1964,
+  "total_crimes": 15,
+  "categories": {
+    "criminal-damage-arson": 4,
+    "violent-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

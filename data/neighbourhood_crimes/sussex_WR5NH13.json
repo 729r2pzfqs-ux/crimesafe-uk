@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WR5NH13", "neighbourhood_name": "Ifield", "force_id": "sussex", "lat": "51.1195", "lng": "-0.218163", "population": 12098, "total_crimes": 165, "categories": {"anti-social-behaviour": 34, "burglary": 5, "criminal-damage-arson": 13, "drugs": 3, "other-theft": 3, "possession-of-weapons": 6, "public-order": 13, "robbery": 1, "shoplifting": 6, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 68, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WR5NH13",
+  "neighbourhood_name": "Ifield",
+  "force_id": "sussex",
+  "lat": "51.1195",
+  "lng": "-0.218163",
+  "population": 9432,
+  "total_crimes": 165,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "burglary": 5,
+    "criminal-damage-arson": 13,
+    "drugs": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 6,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 6,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 68,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

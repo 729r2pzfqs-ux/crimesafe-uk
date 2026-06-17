@@ -1,1 +1,20 @@
-{"neighbourhood_id": "GDSR", "neighbourhood_name": "Send, Ripley, Wisley, Ockham, The Horsleys, The Clandons &amp; Effingham", "force_id": "surrey", "lat": "51.2833", "lng": "-0.468189", "population": 12098, "total_crimes": 10, "categories": {"anti-social-behaviour": 2, "burglary": 2, "public-order": 2, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDSR",
+  "neighbourhood_name": "Send, Ripley, Wisley, Ockham, The Horsleys, The Clandons &amp; Effingham",
+  "force_id": "surrey",
+  "lat": "51.2833",
+  "lng": "-0.468189",
+  "population": 18962,
+  "total_crimes": 10,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "public-order": 2,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

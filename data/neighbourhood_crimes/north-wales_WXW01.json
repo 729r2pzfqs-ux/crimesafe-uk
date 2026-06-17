@@ -1,1 +1,21 @@
-{"neighbourhood_id": "WXW01", "neighbourhood_name": "Esclusham", "force_id": "north-wales", "lat": "53.0297", "lng": "-3.02424", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW01",
+  "neighbourhood_name": "Esclusham",
+  "force_id": "north-wales",
+  "lat": "53.0297",
+  "lng": "-3.02424",
+  "population": 2755,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

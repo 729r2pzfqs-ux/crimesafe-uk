@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ED11", "neighbourhood_name": "Melksham Town", "force_id": "wiltshire", "lat": "51.376", "lng": "-2.13697", "population": 12098, "total_crimes": 154, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 7, "drugs": 2, "other-theft": 8, "possession-of-weapons": 1, "public-order": 12, "robbery": 1, "shoplifting": 15, "vehicle-crime": 4, "violent-crime": 51, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ED11",
+  "neighbourhood_name": "Melksham Town",
+  "force_id": "wiltshire",
+  "lat": "51.376",
+  "lng": "-2.13697",
+  "population": 15007,
+  "total_crimes": 154,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 7,
+    "drugs": 2,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 15,
+    "vehicle-crime": 4,
+    "violent-crime": 51,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

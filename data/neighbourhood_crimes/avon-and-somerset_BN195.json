@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BN195", "neighbourhood_name": "Clifton", "force_id": "avon-and-somerset", "lat": "51.4579", "lng": "-2.61982", "population": "0", "total_crimes": 597, "categories": {"anti-social-behaviour": 81, "bicycle-theft": 13, "burglary": 36, "criminal-damage-arson": 39, "drugs": 8, "other-theft": 46, "public-order": 45, "robbery": 12, "shoplifting": 61, "theft-from-the-person": 5, "vehicle-crime": 53, "violent-crime": 193, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BN195",
+  "neighbourhood_name": "Clifton",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4579",
+  "lng": "-2.61982",
+  "population": 13170,
+  "total_crimes": 597,
+  "categories": {
+    "anti-social-behaviour": 81,
+    "bicycle-theft": 13,
+    "burglary": 36,
+    "criminal-damage-arson": 39,
+    "drugs": 8,
+    "other-theft": 46,
+    "public-order": 45,
+    "robbery": 12,
+    "shoplifting": 61,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 53,
+    "violent-crime": 193,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 45.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "W11", "neighbourhood_name": "Haverhill Town - North and West", "force_id": "suffolk", "lat": "52.0857", "lng": "0.424229", "population": 12098, "total_crimes": 167, "categories": {"anti-social-behaviour": 10, "burglary": 5, "criminal-damage-arson": 24, "drugs": 5, "other-theft": 14, "possession-of-weapons": 4, "public-order": 16, "robbery": 1, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 64, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "W11",
+  "neighbourhood_name": "Haverhill Town - North and West",
+  "force_id": "suffolk",
+  "lat": "52.0857",
+  "lng": "0.424229",
+  "population": 13292,
+  "total_crimes": 167,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 5,
+    "criminal-damage-arson": 24,
+    "drugs": 5,
+    "other-theft": 14,
+    "possession-of-weapons": 4,
+    "public-order": 16,
+    "robbery": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 64,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

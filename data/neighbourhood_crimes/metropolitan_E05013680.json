@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013680", "neighbourhood_name": "Enfield Lock", "force_id": "metropolitan", "lat": "51.6721", "lng": "-0.0256067", "population": 17818, "total_crimes": 373, "categories": {"anti-social-behaviour": 94, "burglary": 23, "criminal-damage-arson": 27, "drugs": 14, "other-theft": 21, "possession-of-weapons": 3, "public-order": 27, "robbery": 6, "shoplifting": 2, "theft-from-the-person": 6, "vehicle-crime": 27, "violent-crime": 118, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013680",
+  "neighbourhood_name": "Enfield Lock",
+  "force_id": "metropolitan",
+  "lat": "51.6721",
+  "lng": "-0.0256067",
+  "population": 18508,
+  "total_crimes": 373,
+  "categories": {
+    "anti-social-behaviour": 94,
+    "burglary": 23,
+    "criminal-damage-arson": 27,
+    "drugs": 14,
+    "other-theft": 21,
+    "possession-of-weapons": 3,
+    "public-order": 27,
+    "robbery": 6,
+    "shoplifting": 2,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 27,
+    "violent-crime": 118,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

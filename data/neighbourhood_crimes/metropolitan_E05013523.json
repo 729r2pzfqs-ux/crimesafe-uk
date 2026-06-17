@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013523", "neighbourhood_name": "Greenford Broadway", "force_id": "metropolitan", "lat": "51.5317", "lng": "-0.364922", "population": 17657, "total_crimes": 413, "categories": {"anti-social-behaviour": 86, "bicycle-theft": 4, "burglary": 22, "criminal-damage-arson": 19, "drugs": 14, "other-theft": 26, "possession-of-weapons": 1, "public-order": 26, "robbery": 13, "shoplifting": 14, "theft-from-the-person": 10, "vehicle-crime": 41, "violent-crime": 131, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013523",
+  "neighbourhood_name": "Greenford Broadway",
+  "force_id": "metropolitan",
+  "lat": "51.5317",
+  "lng": "-0.364922",
+  "population": 15805,
+  "total_crimes": 413,
+  "categories": {
+    "anti-social-behaviour": 86,
+    "bicycle-theft": 4,
+    "burglary": 22,
+    "criminal-damage-arson": 19,
+    "drugs": 14,
+    "other-theft": 26,
+    "possession-of-weapons": 1,
+    "public-order": 26,
+    "robbery": 13,
+    "shoplifting": 14,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 41,
+    "violent-crime": 131,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

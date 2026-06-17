@@ -1,1 +1,27 @@
-{"neighbourhood_id": "F1", "neighbourhood_name": "Bedlington", "force_id": "northumbria", "lat": "55.1414", "lng": "-1.56902", "population": 12098, "total_crimes": 62, "categories": {"anti-social-behaviour": 14, "burglary": 3, "criminal-damage-arson": 7, "drugs": 2, "other-theft": 2, "public-order": 2, "robbery": 1, "shoplifting": 1, "theft-from-the-person": 3, "vehicle-crime": 2, "violent-crime": 24, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "F1",
+  "neighbourhood_name": "Bedlington",
+  "force_id": "northumbria",
+  "lat": "55.1414",
+  "lng": "-1.56902",
+  "population": 28013,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 3,
+    "criminal-damage-arson": 7,
+    "drugs": 2,
+    "other-theft": 2,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 1,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 24,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 19
+}

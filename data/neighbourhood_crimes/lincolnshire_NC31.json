@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC31", "neighbourhood_name": "Boston Town West", "force_id": "lincolnshire", "lat": "52.9818", "lng": "-0.044992", "population": 12098, "total_crimes": 283, "categories": {"anti-social-behaviour": 63, "bicycle-theft": 7, "burglary": 9, "criminal-damage-arson": 20, "drugs": 9, "other-theft": 17, "possession-of-weapons": 5, "public-order": 8, "robbery": 3, "shoplifting": 31, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 100, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC31",
+  "neighbourhood_name": "Boston Town West",
+  "force_id": "lincolnshire",
+  "lat": "52.9818",
+  "lng": "-0.044992",
+  "population": 10706,
+  "total_crimes": 283,
+  "categories": {
+    "anti-social-behaviour": 63,
+    "bicycle-theft": 7,
+    "burglary": 9,
+    "criminal-damage-arson": 20,
+    "drugs": 9,
+    "other-theft": 17,
+    "possession-of-weapons": 5,
+    "public-order": 8,
+    "robbery": 3,
+    "shoplifting": 31,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 100,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

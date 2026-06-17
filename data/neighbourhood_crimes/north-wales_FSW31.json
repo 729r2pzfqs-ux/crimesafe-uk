@@ -1,1 +1,21 @@
-{"neighbourhood_id": "FSW31", "neighbourhood_name": "Hope", "force_id": "north-wales", "lat": "53.1195", "lng": "-3.04137", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 4, "burglary": 1, "drugs": 1, "public-order": 1, "shoplifting": 4, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW31",
+  "neighbourhood_name": "Hope",
+  "force_id": "north-wales",
+  "lat": "53.1195",
+  "lng": "-3.04137",
+  "population": 2689,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "drugs": 1,
+    "public-order": 1,
+    "shoplifting": 4,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

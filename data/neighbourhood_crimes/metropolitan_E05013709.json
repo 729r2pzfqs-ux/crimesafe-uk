@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013709", "neighbourhood_name": "Mildmay", "force_id": "metropolitan", "lat": "51.5518", "lng": "-0.0874687", "population": 12098, "total_crimes": 1309, "categories": {"anti-social-behaviour": 253, "bicycle-theft": 42, "burglary": 57, "criminal-damage-arson": 72, "drugs": 83, "other-theft": 88, "possession-of-weapons": 13, "public-order": 75, "robbery": 41, "shoplifting": 80, "theft-from-the-person": 144, "vehicle-crime": 57, "violent-crime": 291, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013709",
+  "neighbourhood_name": "Mildmay",
+  "force_id": "metropolitan",
+  "lat": "51.5518",
+  "lng": "-0.0874687",
+  "population": 14722,
+  "total_crimes": 1309,
+  "categories": {
+    "anti-social-behaviour": 253,
+    "bicycle-theft": 42,
+    "burglary": 57,
+    "criminal-damage-arson": 72,
+    "drugs": 83,
+    "other-theft": 88,
+    "possession-of-weapons": 13,
+    "public-order": 75,
+    "robbery": 41,
+    "shoplifting": 80,
+    "theft-from-the-person": 144,
+    "vehicle-crime": 57,
+    "violent-crime": 291,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 88.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

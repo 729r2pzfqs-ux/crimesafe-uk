@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05007883", "neighbourhood_name": "Cathedral", "force_id": "west-mercia", "lat": "52.1897", "lng": "-2.21916", "population": 11497, "total_crimes": 508, "categories": {"anti-social-behaviour": 94, "bicycle-theft": 9, "burglary": 20, "criminal-damage-arson": 50, "drugs": 11, "other-theft": 28, "possession-of-weapons": 4, "public-order": 40, "robbery": 9, "shoplifting": 50, "theft-from-the-person": 2, "vehicle-crime": 12, "violent-crime": 174, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007883",
+  "neighbourhood_name": "Cathedral",
+  "force_id": "west-mercia",
+  "lat": "52.1897",
+  "lng": "-2.21916",
+  "population": 8567,
+  "total_crimes": 508,
+  "categories": {
+    "anti-social-behaviour": 94,
+    "bicycle-theft": 9,
+    "burglary": 20,
+    "criminal-damage-arson": 50,
+    "drugs": 11,
+    "other-theft": 28,
+    "possession-of-weapons": 4,
+    "public-order": 40,
+    "robbery": 9,
+    "shoplifting": 50,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 12,
+    "violent-crime": 174,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

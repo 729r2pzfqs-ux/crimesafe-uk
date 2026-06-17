@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013997", "neighbourhood_name": "Farnborough and Crofton", "force_id": "metropolitan", "lat": "51.369", "lng": "0.0700323", "population": 12098, "total_crimes": 128, "categories": {"anti-social-behaviour": 22, "burglary": 2, "criminal-damage-arson": 9, "drugs": 2, "other-theft": 7, "public-order": 12, "robbery": 3, "shoplifting": 15, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 43, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013997",
+  "neighbourhood_name": "Farnborough and Crofton",
+  "force_id": "metropolitan",
+  "lat": "51.369",
+  "lng": "0.0700323",
+  "population": 18603,
+  "total_crimes": 128,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 2,
+    "other-theft": 7,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 15,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 43,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

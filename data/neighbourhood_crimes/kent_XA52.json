@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA52", "neighbourhood_name": "Chatham Central &amp; Brompton", "force_id": "kent", "lat": "51.3827", "lng": "0.531859", "population": 12098, "total_crimes": 973, "categories": {"anti-social-behaviour": 181, "bicycle-theft": 7, "burglary": 22, "criminal-damage-arson": 79, "drugs": 39, "other-theft": 58, "possession-of-weapons": 15, "public-order": 66, "robbery": 19, "shoplifting": 73, "theft-from-the-person": 6, "vehicle-crime": 29, "violent-crime": 356, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA52",
+  "neighbourhood_name": "Chatham Central &amp; Brompton",
+  "force_id": "kent",
+  "lat": "51.3827",
+  "lng": "0.531859",
+  "population": 14618,
+  "total_crimes": 973,
+  "categories": {
+    "anti-social-behaviour": 181,
+    "bicycle-theft": 7,
+    "burglary": 22,
+    "criminal-damage-arson": 79,
+    "drugs": 39,
+    "other-theft": 58,
+    "possession-of-weapons": 15,
+    "public-order": 66,
+    "robbery": 19,
+    "shoplifting": 73,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 29,
+    "violent-crime": 356,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

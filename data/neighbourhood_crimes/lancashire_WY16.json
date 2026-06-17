@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WY16", "neighbourhood_name": "Hardhorn with High Cross", "force_id": "lancashire", "lat": "53.836", "lng": "-2.98778", "population": 12098, "total_crimes": 113, "categories": {"anti-social-behaviour": 11, "burglary": 3, "criminal-damage-arson": 8, "drugs": 4, "other-theft": 5, "public-order": 4, "shoplifting": 14, "vehicle-crime": 12, "violent-crime": 50, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WY16",
+  "neighbourhood_name": "Hardhorn with High Cross",
+  "force_id": "lancashire",
+  "lat": "53.836",
+  "lng": "-2.98778",
+  "population": 7753,
+  "total_crimes": 113,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "other-theft": 5,
+    "public-order": 4,
+    "shoplifting": 14,
+    "vehicle-crime": 12,
+    "violent-crime": 50,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

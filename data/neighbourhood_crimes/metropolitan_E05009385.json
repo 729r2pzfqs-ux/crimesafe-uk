@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009385", "neighbourhood_name": "Stoke Newington", "force_id": "metropolitan", "lat": "51.5609", "lng": "-0.0764168", "population": 11758, "total_crimes": 1211, "categories": {"anti-social-behaviour": 269, "bicycle-theft": 29, "burglary": 59, "criminal-damage-arson": 68, "drugs": 54, "other-theft": 71, "possession-of-weapons": 14, "public-order": 71, "robbery": 33, "shoplifting": 55, "theft-from-the-person": 126, "vehicle-crime": 53, "violent-crime": 294, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009385",
+  "neighbourhood_name": "Stoke Newington",
+  "force_id": "metropolitan",
+  "lat": "51.5609",
+  "lng": "-0.0764168",
+  "population": 12638,
+  "total_crimes": 1211,
+  "categories": {
+    "anti-social-behaviour": 269,
+    "bicycle-theft": 29,
+    "burglary": 59,
+    "criminal-damage-arson": 68,
+    "drugs": 54,
+    "other-theft": 71,
+    "possession-of-weapons": 14,
+    "public-order": 71,
+    "robbery": 33,
+    "shoplifting": 55,
+    "theft-from-the-person": 126,
+    "vehicle-crime": 53,
+    "violent-crime": 294,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 95.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

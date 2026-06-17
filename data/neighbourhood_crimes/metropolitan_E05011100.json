@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011100", "neighbourhood_name": "Dulwich Village", "force_id": "metropolitan", "lat": "51.451", "lng": "-0.086334", "population": 12098, "total_crimes": 370, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 9, "burglary": 17, "criminal-damage-arson": 20, "drugs": 6, "other-theft": 28, "possession-of-weapons": 2, "public-order": 16, "robbery": 9, "shoplifting": 27, "theft-from-the-person": 30, "vehicle-crime": 37, "violent-crime": 95, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011100",
+  "neighbourhood_name": "Dulwich Village",
+  "force_id": "metropolitan",
+  "lat": "51.451",
+  "lng": "-0.086334",
+  "population": 11113,
+  "total_crimes": 370,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 9,
+    "burglary": 17,
+    "criminal-damage-arson": 20,
+    "drugs": 6,
+    "other-theft": 28,
+    "possession-of-weapons": 2,
+    "public-order": 16,
+    "robbery": 9,
+    "shoplifting": 27,
+    "theft-from-the-person": 30,
+    "vehicle-crime": 37,
+    "violent-crime": 95,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

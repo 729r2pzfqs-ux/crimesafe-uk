@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL2D", "neighbourhood_name": "Old Swan East", "force_id": "merseyside", "lat": "53.4158", "lng": "-2.91073", "population": 12098, "total_crimes": 365, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 3, "burglary": 10, "criminal-damage-arson": 26, "drugs": 28, "other-theft": 17, "possession-of-weapons": 3, "public-order": 32, "robbery": 9, "shoplifting": 45, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 164, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL2D",
+  "neighbourhood_name": "Old Swan East",
+  "force_id": "merseyside",
+  "lat": "53.4158",
+  "lng": "-2.91073",
+  "population": 5333,
+  "total_crimes": 365,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 3,
+    "burglary": 10,
+    "criminal-damage-arson": 26,
+    "drugs": 28,
+    "other-theft": 17,
+    "possession-of-weapons": 3,
+    "public-order": 32,
+    "robbery": 9,
+    "shoplifting": 45,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 164,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 68.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

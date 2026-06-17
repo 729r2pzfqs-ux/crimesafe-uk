@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009382", "neighbourhood_name": "Shacklewell", "force_id": "metropolitan", "lat": "51.5525", "lng": "-0.0716768", "population": 9398, "total_crimes": 1458, "categories": {"anti-social-behaviour": 300, "bicycle-theft": 41, "burglary": 68, "criminal-damage-arson": 67, "drugs": 85, "other-theft": 95, "possession-of-weapons": 15, "public-order": 81, "robbery": 37, "shoplifting": 99, "theft-from-the-person": 167, "vehicle-crime": 73, "violent-crime": 319, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009382",
+  "neighbourhood_name": "Shacklewell",
+  "force_id": "metropolitan",
+  "lat": "51.5525",
+  "lng": "-0.0716768",
+  "population": 9719,
+  "total_crimes": 1458,
+  "categories": {
+    "anti-social-behaviour": 300,
+    "bicycle-theft": 41,
+    "burglary": 68,
+    "criminal-damage-arson": 67,
+    "drugs": 85,
+    "other-theft": 95,
+    "possession-of-weapons": 15,
+    "public-order": 81,
+    "robbery": 37,
+    "shoplifting": 99,
+    "theft-from-the-person": 167,
+    "vehicle-crime": 73,
+    "violent-crime": 319,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 150.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

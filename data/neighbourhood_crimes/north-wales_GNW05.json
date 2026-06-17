@@ -1,1 +1,22 @@
-{"neighbourhood_id": "GNW05", "neighbourhood_name": "Pentir", "force_id": "north-wales", "lat": "53.1959", "lng": "-4.16127", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "drugs": 1, "public-order": 8, "shoplifting": 6, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW05",
+  "neighbourhood_name": "Pentir",
+  "force_id": "north-wales",
+  "lat": "53.1959",
+  "lng": "-4.16127",
+  "population": 2886,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "public-order": 8,
+    "shoplifting": 6,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

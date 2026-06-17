@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013600", "neighbourhood_name": "Stroud Green", "force_id": "metropolitan", "lat": "51.5734", "lng": "-0.111788", "population": 11130, "total_crimes": 1291, "categories": {"anti-social-behaviour": 349, "bicycle-theft": 13, "burglary": 46, "criminal-damage-arson": 49, "drugs": 52, "other-theft": 86, "possession-of-weapons": 17, "public-order": 76, "robbery": 45, "shoplifting": 67, "theft-from-the-person": 104, "vehicle-crime": 78, "violent-crime": 304, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013600",
+  "neighbourhood_name": "Stroud Green",
+  "force_id": "metropolitan",
+  "lat": "51.5734",
+  "lng": "-0.111788",
+  "population": 10935,
+  "total_crimes": 1291,
+  "categories": {
+    "anti-social-behaviour": 349,
+    "bicycle-theft": 13,
+    "burglary": 46,
+    "criminal-damage-arson": 49,
+    "drugs": 52,
+    "other-theft": 86,
+    "possession-of-weapons": 17,
+    "public-order": 76,
+    "robbery": 45,
+    "shoplifting": 67,
+    "theft-from-the-person": 104,
+    "vehicle-crime": 78,
+    "violent-crime": 304,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 118.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

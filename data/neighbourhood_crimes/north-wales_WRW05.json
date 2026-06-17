@@ -1,1 +1,19 @@
-{"neighbourhood_id": "WRW05", "neighbourhood_name": "Rossett", "force_id": "north-wales", "lat": "53.1054", "lng": "-2.94538", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 2, "shoplifting": 1, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW05",
+  "neighbourhood_name": "Rossett",
+  "force_id": "north-wales",
+  "lat": "53.1054",
+  "lng": "-2.94538",
+  "population": 3094,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 2,
+    "shoplifting": 1,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

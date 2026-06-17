@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NA101", "neighbourhood_name": "Bocking and Braintree", "force_id": "essex", "lat": "51.8952", "lng": "0.556418", "population": 12098, "total_crimes": 71, "categories": {"anti-social-behaviour": 7, "burglary": 2, "criminal-damage-arson": 1, "drugs": 5, "other-theft": 5, "public-order": 8, "robbery": 1, "shoplifting": 4, "vehicle-crime": 2, "violent-crime": 34, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA101",
+  "neighbourhood_name": "Bocking and Braintree",
+  "force_id": "essex",
+  "lat": "51.8952",
+  "lng": "0.556418",
+  "population": 41388,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "drugs": 5,
+    "other-theft": 5,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 2,
+    "violent-crime": 34,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 23
+}

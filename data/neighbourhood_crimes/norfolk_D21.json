@@ -1,1 +1,16 @@
-{"neighbourhood_id": "D21", "neighbourhood_name": "Long Stratton", "force_id": "norfolk", "lat": "52.4974", "lng": "1.25905", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D21",
+  "neighbourhood_name": "Long Stratton",
+  "force_id": "norfolk",
+  "lat": "52.4974",
+  "lng": "1.25905",
+  "population": 11366,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

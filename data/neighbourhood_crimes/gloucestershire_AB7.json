@@ -1,1 +1,16 @@
-{"neighbourhood_id": "AB7", "neighbourhood_name": "Tivoli", "force_id": "gloucestershire", "lat": "51.8904", "lng": "-2.08188", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AB7",
+  "neighbourhood_name": "Tivoli",
+  "force_id": "gloucestershire",
+  "lat": "51.8904",
+  "lng": "-2.08188",
+  "population": 7376,
+  "total_crimes": 1,
+  "categories": {
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

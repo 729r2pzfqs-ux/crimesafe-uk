@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XC35", "neighbourhood_name": "Coldharbour &amp; Perry Street", "force_id": "kent", "lat": "51.4299", "lng": "0.351057", "population": 12098, "total_crimes": 287, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 3, "burglary": 11, "criminal-damage-arson": 27, "drugs": 9, "other-theft": 36, "possession-of-weapons": 4, "public-order": 8, "robbery": 2, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 17, "violent-crime": 113, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XC35",
+  "neighbourhood_name": "Coldharbour &amp; Perry Street",
+  "force_id": "kent",
+  "lat": "51.4299",
+  "lng": "0.351057",
+  "population": 9744,
+  "total_crimes": 287,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "criminal-damage-arson": 27,
+    "drugs": 9,
+    "other-theft": 36,
+    "possession-of-weapons": 4,
+    "public-order": 8,
+    "robbery": 2,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 17,
+    "violent-crime": 113,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

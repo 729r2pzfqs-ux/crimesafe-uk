@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013703", "neighbourhood_name": "Finsbury Park", "force_id": "metropolitan", "lat": "51.5624", "lng": "-0.109524", "population": 12098, "total_crimes": 1498, "categories": {"anti-social-behaviour": 365, "bicycle-theft": 24, "burglary": 43, "criminal-damage-arson": 77, "drugs": 80, "other-theft": 110, "possession-of-weapons": 17, "public-order": 88, "robbery": 55, "shoplifting": 79, "theft-from-the-person": 135, "vehicle-crime": 83, "violent-crime": 334, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013703",
+  "neighbourhood_name": "Finsbury Park",
+  "force_id": "metropolitan",
+  "lat": "51.5624",
+  "lng": "-0.109524",
+  "population": 15248,
+  "total_crimes": 1498,
+  "categories": {
+    "anti-social-behaviour": 365,
+    "bicycle-theft": 24,
+    "burglary": 43,
+    "criminal-damage-arson": 77,
+    "drugs": 80,
+    "other-theft": 110,
+    "possession-of-weapons": 17,
+    "public-order": 88,
+    "robbery": 55,
+    "shoplifting": 79,
+    "theft-from-the-person": 135,
+    "vehicle-crime": 83,
+    "violent-crime": 334,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 98.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

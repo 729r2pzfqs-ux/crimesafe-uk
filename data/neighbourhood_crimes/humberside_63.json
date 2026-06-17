@@ -1,1 +1,29 @@
-{"neighbourhood_id": "63", "neighbourhood_name": "Orchard Park", "force_id": "humberside", "lat": "53.7849", "lng": "-0.374641", "population": 12098, "total_crimes": 321, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 9, "burglary": 15, "criminal-damage-arson": 25, "drugs": 7, "other-theft": 19, "possession-of-weapons": 5, "public-order": 29, "robbery": 1, "shoplifting": 30, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 152, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "63",
+  "neighbourhood_name": "Orchard Park",
+  "force_id": "humberside",
+  "lat": "53.7849",
+  "lng": "-0.374641",
+  "population": 17067,
+  "total_crimes": 321,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 9,
+    "burglary": 15,
+    "criminal-damage-arson": 25,
+    "drugs": 7,
+    "other-theft": 19,
+    "possession-of-weapons": 5,
+    "public-order": 29,
+    "robbery": 1,
+    "shoplifting": 30,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 152,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

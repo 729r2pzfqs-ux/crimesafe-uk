@@ -1,1 +1,17 @@
-{"neighbourhood_id": "AB01AD08", "neighbourhood_name": "Dodleston, Huntington and Farndon", "force_id": "cheshire", "lat": "53.0985", "lng": "-2.88849", "population": "0", "total_crimes": 4, "categories": {"possession-of-weapons": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AB01AD08",
+  "neighbourhood_name": "Dodleston, Huntington and Farndon",
+  "force_id": "cheshire",
+  "lat": "53.0985",
+  "lng": "-2.88849",
+  "population": 6687,
+  "total_crimes": 4,
+  "categories": {
+    "possession-of-weapons": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

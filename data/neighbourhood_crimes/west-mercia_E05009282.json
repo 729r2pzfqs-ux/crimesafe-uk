@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05009282", "neighbourhood_name": "Oswestry Central", "force_id": "west-mercia", "lat": "52.8572", "lng": "-3.05835", "population": 9919, "total_crimes": 122, "categories": {"anti-social-behaviour": 16, "burglary": 2, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 12, "public-order": 10, "robbery": 1, "shoplifting": 14, "vehicle-crime": 1, "violent-crime": 57, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009282",
+  "neighbourhood_name": "Oswestry Central",
+  "force_id": "west-mercia",
+  "lat": "52.8572",
+  "lng": "-3.05835",
+  "population": 18190,
+  "total_crimes": 122,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 12,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 14,
+    "vehicle-crime": 1,
+    "violent-crime": 57,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

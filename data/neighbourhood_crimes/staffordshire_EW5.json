@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EW5", "neighbourhood_name": "Glascote", "force_id": "staffordshire", "lat": "52.6211", "lng": "-1.66992", "population": 12098, "total_crimes": 227, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 11, "drugs": 9, "other-theft": 11, "possession-of-weapons": 3, "public-order": 15, "robbery": 1, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 19, "violent-crime": 88, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW5",
+  "neighbourhood_name": "Glascote",
+  "force_id": "staffordshire",
+  "lat": "52.6211",
+  "lng": "-1.66992",
+  "population": 6522,
+  "total_crimes": 227,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 11,
+    "drugs": 9,
+    "other-theft": 11,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 19,
+    "violent-crime": 88,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

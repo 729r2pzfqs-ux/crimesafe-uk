@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013922", "neighbourhood_name": "Royal Albert", "force_id": "metropolitan", "lat": "51.503", "lng": "0.0612394", "population": 10387, "total_crimes": 580, "categories": {"anti-social-behaviour": 90, "bicycle-theft": 3, "burglary": 17, "criminal-damage-arson": 29, "drugs": 35, "other-theft": 42, "possession-of-weapons": 2, "public-order": 50, "robbery": 32, "shoplifting": 38, "theft-from-the-person": 21, "vehicle-crime": 56, "violent-crime": 153, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013922",
+  "neighbourhood_name": "Royal Albert",
+  "force_id": "metropolitan",
+  "lat": "51.503",
+  "lng": "0.0612394",
+  "population": 5669,
+  "total_crimes": 580,
+  "categories": {
+    "anti-social-behaviour": 90,
+    "bicycle-theft": 3,
+    "burglary": 17,
+    "criminal-damage-arson": 29,
+    "drugs": 35,
+    "other-theft": 42,
+    "possession-of-weapons": 2,
+    "public-order": 50,
+    "robbery": 32,
+    "shoplifting": 38,
+    "theft-from-the-person": 21,
+    "vehicle-crime": 56,
+    "violent-crime": 153,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 102.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009395", "neighbourhood_name": "Earl's Court", "force_id": "metropolitan", "lat": "51.491", "lng": "-0.195452", "population": 12098, "total_crimes": 1310, "categories": {"anti-social-behaviour": 337, "bicycle-theft": 20, "burglary": 75, "criminal-damage-arson": 58, "drugs": 34, "other-theft": 164, "possession-of-weapons": 3, "public-order": 72, "robbery": 18, "shoplifting": 84, "theft-from-the-person": 51, "vehicle-crime": 94, "violent-crime": 291, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009395",
+  "neighbourhood_name": "Earl's Court",
+  "force_id": "metropolitan",
+  "lat": "51.491",
+  "lng": "-0.195452",
+  "population": 10532,
+  "total_crimes": 1310,
+  "categories": {
+    "anti-social-behaviour": 337,
+    "bicycle-theft": 20,
+    "burglary": 75,
+    "criminal-damage-arson": 58,
+    "drugs": 34,
+    "other-theft": 164,
+    "possession-of-weapons": 3,
+    "public-order": 72,
+    "robbery": 18,
+    "shoplifting": 84,
+    "theft-from-the-person": 51,
+    "vehicle-crime": 94,
+    "violent-crime": 291,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 124.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

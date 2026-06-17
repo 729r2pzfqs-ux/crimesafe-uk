@@ -1,1 +1,29 @@
-{"neighbourhood_id": "PR8", "neighbourhood_name": "City Centre - Preston", "force_id": "lancashire", "lat": "53.757", "lng": "-2.70325", "population": 12098, "total_crimes": 729, "categories": {"anti-social-behaviour": 146, "bicycle-theft": 11, "burglary": 10, "criminal-damage-arson": 52, "drugs": 39, "other-theft": 49, "possession-of-weapons": 6, "public-order": 49, "robbery": 10, "shoplifting": 65, "theft-from-the-person": 9, "vehicle-crime": 35, "violent-crime": 235, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PR8",
+  "neighbourhood_name": "City Centre - Preston",
+  "force_id": "lancashire",
+  "lat": "53.757",
+  "lng": "-2.70325",
+  "population": 12562,
+  "total_crimes": 729,
+  "categories": {
+    "anti-social-behaviour": 146,
+    "bicycle-theft": 11,
+    "burglary": 10,
+    "criminal-damage-arson": 52,
+    "drugs": 39,
+    "other-theft": 49,
+    "possession-of-weapons": 6,
+    "public-order": 49,
+    "robbery": 10,
+    "shoplifting": 65,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 35,
+    "violent-crime": 235,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

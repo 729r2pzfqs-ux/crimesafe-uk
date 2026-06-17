@@ -1,1 +1,26 @@
-{"neighbourhood_id": "31-33", "neighbourhood_name": "Chilwell", "force_id": "nottinghamshire", "lat": "52.9105", "lng": "-1.24702", "population": 12098, "total_crimes": 145, "categories": {"anti-social-behaviour": 17, "burglary": 2, "criminal-damage-arson": 17, "drugs": 4, "possession-of-weapons": 2, "public-order": 12, "robbery": 1, "shoplifting": 24, "vehicle-crime": 11, "violent-crime": 50, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-33",
+  "neighbourhood_name": "Chilwell",
+  "force_id": "nottinghamshire",
+  "lat": "52.9105",
+  "lng": "-1.24702",
+  "population": 24096,
+  "total_crimes": 145,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 2,
+    "criminal-damage-arson": 17,
+    "drugs": 4,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 24,
+    "vehicle-crime": 11,
+    "violent-crime": 50,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

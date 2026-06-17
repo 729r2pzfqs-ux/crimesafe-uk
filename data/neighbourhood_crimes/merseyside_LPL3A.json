@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPL3A", "neighbourhood_name": "Belle Vale", "force_id": "merseyside", "lat": "53.3902", "lng": "-2.85146", "population": 12098, "total_crimes": 134, "categories": {"anti-social-behaviour": 13, "burglary": 4, "criminal-damage-arson": 14, "drugs": 6, "other-theft": 13, "possession-of-weapons": 5, "public-order": 11, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 53, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL3A",
+  "neighbourhood_name": "Belle Vale",
+  "force_id": "merseyside",
+  "lat": "53.3902",
+  "lng": "-2.85146",
+  "population": 12468,
+  "total_crimes": 134,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 4,
+    "criminal-damage-arson": 14,
+    "drugs": 6,
+    "other-theft": 13,
+    "possession-of-weapons": 5,
+    "public-order": 11,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 53,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

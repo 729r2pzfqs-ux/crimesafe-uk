@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N456", "neighbourhood_name": "Southcote and Norcot", "force_id": "thames-valley", "lat": "51.4462", "lng": "-1.0121", "population": 12098, "total_crimes": 286, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 1, "burglary": 9, "criminal-damage-arson": 21, "drugs": 3, "other-theft": 28, "possession-of-weapons": 2, "public-order": 18, "robbery": 6, "shoplifting": 6, "theft-from-the-person": 3, "vehicle-crime": 10, "violent-crime": 138, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N456",
+  "neighbourhood_name": "Southcote and Norcot",
+  "force_id": "thames-valley",
+  "lat": "51.4462",
+  "lng": "-1.0121",
+  "population": 18963,
+  "total_crimes": 286,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 1,
+    "burglary": 9,
+    "criminal-damage-arson": 21,
+    "drugs": 3,
+    "other-theft": 28,
+    "possession-of-weapons": 2,
+    "public-order": 18,
+    "robbery": 6,
+    "shoplifting": 6,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 138,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SH003", "neighbourhood_name": "Smith's Wood", "force_id": "west-midlands", "lat": "52.4932", "lng": "-1.76634", "population": 12098, "total_crimes": 362, "categories": {"anti-social-behaviour": 24, "burglary": 13, "criminal-damage-arson": 31, "drugs": 14, "other-theft": 19, "possession-of-weapons": 5, "public-order": 13, "robbery": 5, "shoplifting": 22, "theft-from-the-person": 2, "vehicle-crime": 30, "violent-crime": 178, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SH003",
+  "neighbourhood_name": "Smith's Wood",
+  "force_id": "west-midlands",
+  "lat": "52.4932",
+  "lng": "-1.76634",
+  "population": 36903,
+  "total_crimes": 362,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 13,
+    "criminal-damage-arson": 31,
+    "drugs": 14,
+    "other-theft": 19,
+    "possession-of-weapons": 5,
+    "public-order": 13,
+    "robbery": 5,
+    "shoplifting": 22,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 30,
+    "violent-crime": 178,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 24
+}

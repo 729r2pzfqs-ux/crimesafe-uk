@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NH08", "neighbourhood_name": "Buxton Rural West", "force_id": "derbyshire", "lat": "53.2568", "lng": "-1.91857", "population": 12098, "total_crimes": 155, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 21, "drugs": 4, "other-theft": 7, "public-order": 11, "robbery": 1, "shoplifting": 12, "theft-from-the-person": 2, "vehicle-crime": 4, "violent-crime": 54, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH08",
+  "neighbourhood_name": "Buxton Rural West",
+  "force_id": "derbyshire",
+  "lat": "53.2568",
+  "lng": "-1.91857",
+  "population": 2751,
+  "total_crimes": 155,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 21,
+    "drugs": 4,
+    "other-theft": 7,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 12,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 54,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

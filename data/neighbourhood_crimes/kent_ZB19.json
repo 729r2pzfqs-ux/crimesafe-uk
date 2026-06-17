@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ZB19", "neighbourhood_name": "Cliftonville West", "force_id": "kent", "lat": "51.3895", "lng": "1.3945", "population": 12098, "total_crimes": 426, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 5, "burglary": 9, "criminal-damage-arson": 29, "drugs": 28, "other-theft": 17, "possession-of-weapons": 9, "public-order": 36, "robbery": 7, "shoplifting": 30, "theft-from-the-person": 4, "vehicle-crime": 15, "violent-crime": 160, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB19",
+  "neighbourhood_name": "Cliftonville West",
+  "force_id": "kent",
+  "lat": "51.3895",
+  "lng": "1.3945",
+  "population": 10867,
+  "total_crimes": 426,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 5,
+    "burglary": 9,
+    "criminal-damage-arson": 29,
+    "drugs": 28,
+    "other-theft": 17,
+    "possession-of-weapons": 9,
+    "public-order": 36,
+    "robbery": 7,
+    "shoplifting": 30,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 15,
+    "violent-crime": 160,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

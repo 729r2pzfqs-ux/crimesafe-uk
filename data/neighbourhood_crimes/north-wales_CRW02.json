@@ -1,1 +1,14 @@
-{"neighbourhood_id": "CRW02", "neighbourhood_name": "Llansannan", "force_id": "north-wales", "lat": "53.1677", "lng": "-3.55819", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CRW02",
+  "neighbourhood_name": "Llansannan",
+  "force_id": "north-wales",
+  "lat": "53.1677",
+  "lng": "-3.55819",
+  "population": 1977,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

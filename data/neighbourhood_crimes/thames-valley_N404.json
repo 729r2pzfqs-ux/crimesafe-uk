@@ -1,1 +1,27 @@
-{"neighbourhood_id": "N404", "neighbourhood_name": "Chepping Wye Valley", "force_id": "thames-valley", "lat": "51.6249", "lng": "-0.703757", "population": 12098, "total_crimes": 101, "categories": {"anti-social-behaviour": 9, "burglary": 4, "criminal-damage-arson": 5, "drugs": 11, "other-theft": 4, "possession-of-weapons": 1, "public-order": 7, "robbery": 1, "shoplifting": 10, "vehicle-crime": 6, "violent-crime": 40, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N404",
+  "neighbourhood_name": "Chepping Wye Valley",
+  "force_id": "thames-valley",
+  "lat": "51.6249",
+  "lng": "-0.703757",
+  "population": 23248,
+  "total_crimes": 101,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 4,
+    "criminal-damage-arson": 5,
+    "drugs": 11,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 6,
+    "violent-crime": 40,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

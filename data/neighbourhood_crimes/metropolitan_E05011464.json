@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011464", "neighbourhood_name": "Bensham Manor", "force_id": "metropolitan", "lat": "51.3971", "lng": "-0.105848", "population": 12098, "total_crimes": 848, "categories": {"anti-social-behaviour": 145, "bicycle-theft": 5, "burglary": 36, "criminal-damage-arson": 71, "drugs": 35, "other-theft": 41, "possession-of-weapons": 9, "public-order": 61, "robbery": 12, "shoplifting": 29, "theft-from-the-person": 13, "vehicle-crime": 73, "violent-crime": 303, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011464",
+  "neighbourhood_name": "Bensham Manor",
+  "force_id": "metropolitan",
+  "lat": "51.3971",
+  "lng": "-0.105848",
+  "population": 16911,
+  "total_crimes": 848,
+  "categories": {
+    "anti-social-behaviour": 145,
+    "bicycle-theft": 5,
+    "burglary": 36,
+    "criminal-damage-arson": 71,
+    "drugs": 35,
+    "other-theft": 41,
+    "possession-of-weapons": 9,
+    "public-order": 61,
+    "robbery": 12,
+    "shoplifting": 29,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 73,
+    "violent-crime": 303,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 50.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

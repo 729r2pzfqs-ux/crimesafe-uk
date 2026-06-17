@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZC38", "neighbourhood_name": "Bybrook", "force_id": "kent", "lat": "51.1587", "lng": "0.887114", "population": 12098, "total_crimes": 212, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 16, "drugs": 4, "other-theft": 18, "public-order": 9, "robbery": 1, "shoplifting": 15, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 93, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC38",
+  "neighbourhood_name": "Bybrook",
+  "force_id": "kent",
+  "lat": "51.1587",
+  "lng": "0.887114",
+  "population": 2875,
+  "total_crimes": 212,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 16,
+    "drugs": 4,
+    "other-theft": 18,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 15,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 93,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

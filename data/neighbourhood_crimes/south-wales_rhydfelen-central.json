@@ -1,1 +1,27 @@
-{"neighbourhood_id": "rhydfelen-central", "neighbourhood_name": "Rhydfelen Central", "force_id": "south-wales", "lat": "51.5869", "lng": "-3.31125", "population": 12098, "total_crimes": 117, "categories": {"anti-social-behaviour": 9, "burglary": 6, "criminal-damage-arson": 6, "drugs": 5, "other-theft": 7, "possession-of-weapons": 1, "public-order": 12, "robbery": 2, "shoplifting": 5, "vehicle-crime": 5, "violent-crime": 56, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "rhydfelen-central",
+  "neighbourhood_name": "Rhydfelen Central",
+  "force_id": "south-wales",
+  "lat": "51.5869",
+  "lng": "-3.31125",
+  "population": 3497,
+  "total_crimes": 117,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 6,
+    "criminal-damage-arson": 6,
+    "drugs": 5,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 5,
+    "vehicle-crime": 5,
+    "violent-crime": 56,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "NB7", "neighbourhood_name": "Newcastle South", "force_id": "staffordshire", "lat": "52.9922", "lng": "-2.23057", "population": 12098, "total_crimes": 92, "categories": {"anti-social-behaviour": 25, "burglary": 2, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 4, "possession-of-weapons": 1, "public-order": 6, "robbery": 1, "shoplifting": 7, "vehicle-crime": 3, "violent-crime": 36, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB7",
+  "neighbourhood_name": "Newcastle South",
+  "force_id": "staffordshire",
+  "lat": "52.9922",
+  "lng": "-2.23057",
+  "population": 15535,
+  "total_crimes": 92,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 7,
+    "vehicle-crime": 3,
+    "violent-crime": 36,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

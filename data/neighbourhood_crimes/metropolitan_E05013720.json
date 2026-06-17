@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013720", "neighbourhood_name": "Downham", "force_id": "metropolitan", "lat": "51.425", "lng": "0.00315963", "population": 18977, "total_crimes": 462, "categories": {"anti-social-behaviour": 69, "burglary": 19, "criminal-damage-arson": 19, "drugs": 18, "other-theft": 29, "possession-of-weapons": 4, "public-order": 33, "robbery": 4, "shoplifting": 76, "theft-from-the-person": 7, "vehicle-crime": 58, "violent-crime": 121, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013720",
+  "neighbourhood_name": "Downham",
+  "force_id": "metropolitan",
+  "lat": "51.425",
+  "lng": "0.00315963",
+  "population": 18891,
+  "total_crimes": 462,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "burglary": 19,
+    "criminal-damage-arson": 19,
+    "drugs": 18,
+    "other-theft": 29,
+    "possession-of-weapons": 4,
+    "public-order": 33,
+    "robbery": 4,
+    "shoplifting": 76,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 58,
+    "violent-crime": 121,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

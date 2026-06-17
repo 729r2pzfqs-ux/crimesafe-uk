@@ -1,1 +1,26 @@
-{"neighbourhood_id": "B500", "neighbourhood_name": "Cardigan-Teifi", "force_id": "dyfed-powys", "lat": "52.076", "lng": "-4.66346", "population": 12098, "total_crimes": 41, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 3, "drugs": 4, "other-theft": 1, "public-order": 3, "robbery": 1, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 22, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B500",
+  "neighbourhood_name": "Cardigan-Teifi",
+  "force_id": "dyfed-powys",
+  "lat": "52.076",
+  "lng": "-4.66346",
+  "population": 1227,
+  "total_crimes": 41,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 4,
+    "other-theft": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 22,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,17 @@
-{"neighbourhood_id": "KC40", "neighbourhood_name": "Halliwell", "force_id": "greater-manchester", "lat": "53.5828", "lng": "-2.44342", "population": 12098, "total_crimes": 5, "categories": {"public-order": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KC40",
+  "neighbourhood_name": "Halliwell",
+  "force_id": "greater-manchester",
+  "lat": "53.5828",
+  "lng": "-2.44342",
+  "population": 14538,
+  "total_crimes": 5,
+  "categories": {
+    "public-order": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

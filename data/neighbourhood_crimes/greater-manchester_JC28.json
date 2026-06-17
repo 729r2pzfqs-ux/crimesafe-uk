@@ -1,1 +1,14 @@
-{"neighbourhood_id": "JC28", "neighbourhood_name": "High Lane", "force_id": "greater-manchester", "lat": "53.3764", "lng": "-2.0777", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "JC28",
+  "neighbourhood_name": "High Lane",
+  "force_id": "greater-manchester",
+  "lat": "53.3764",
+  "lng": "-2.0777",
+  "population": 4127,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

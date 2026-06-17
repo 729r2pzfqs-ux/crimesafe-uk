@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013672", "neighbourhood_name": "Arnos Grove", "force_id": "metropolitan", "lat": "51.6199", "lng": "-0.127207", "population": 9910, "total_crimes": 460, "categories": {"anti-social-behaviour": 94, "bicycle-theft": 1, "burglary": 19, "criminal-damage-arson": 20, "drugs": 23, "other-theft": 33, "possession-of-weapons": 1, "public-order": 24, "robbery": 6, "shoplifting": 55, "theft-from-the-person": 8, "vehicle-crime": 56, "violent-crime": 114, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013672",
+  "neighbourhood_name": "Arnos Grove",
+  "force_id": "metropolitan",
+  "lat": "51.6199",
+  "lng": "-0.127207",
+  "population": 9483,
+  "total_crimes": 460,
+  "categories": {
+    "anti-social-behaviour": 94,
+    "bicycle-theft": 1,
+    "burglary": 19,
+    "criminal-damage-arson": 20,
+    "drugs": 23,
+    "other-theft": 33,
+    "possession-of-weapons": 1,
+    "public-order": 24,
+    "robbery": 6,
+    "shoplifting": 55,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 56,
+    "violent-crime": 114,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 48.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

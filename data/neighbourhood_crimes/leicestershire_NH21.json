@@ -1,1 +1,22 @@
-{"neighbourhood_id": "NH21", "neighbourhood_name": "Blaby, Whetstone, Glen Parva and Cosby", "force_id": "leicestershire", "lat": "52.5601", "lng": "-1.1816", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 4, "other-theft": 5, "public-order": 6, "shoplifting": 1, "violent-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH21",
+  "neighbourhood_name": "Blaby, Whetstone, Glen Parva and Cosby",
+  "force_id": "leicestershire",
+  "lat": "52.5601",
+  "lng": "-1.1816",
+  "population": 23614,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "other-theft": 5,
+    "public-order": 6,
+    "shoplifting": 1,
+    "violent-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "EW1", "neighbourhood_name": "Mercian &amp; Spital", "force_id": "staffordshire", "lat": "52.6461", "lng": "-1.68372", "population": 12098, "total_crimes": 171, "categories": {"anti-social-behaviour": 18, "burglary": 8, "criminal-damage-arson": 8, "drugs": 7, "other-theft": 6, "possession-of-weapons": 1, "public-order": 9, "robbery": 3, "shoplifting": 10, "theft-from-the-person": 2, "vehicle-crime": 12, "violent-crime": 85, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1",
+  "neighbourhood_name": "Mercian &amp; Spital",
+  "force_id": "staffordshire",
+  "lat": "52.6461",
+  "lng": "-1.68372",
+  "population": 14657,
+  "total_crimes": 171,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 8,
+    "criminal-damage-arson": 8,
+    "drugs": 7,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "robbery": 3,
+    "shoplifting": 10,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 12,
+    "violent-crime": 85,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

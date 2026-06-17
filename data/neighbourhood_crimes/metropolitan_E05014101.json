@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014101", "neighbourhood_name": "Clapham Park", "force_id": "metropolitan", "lat": "51.4497", "lng": "-0.133979", "population": 12098, "total_crimes": 1074, "categories": {"anti-social-behaviour": 233, "bicycle-theft": 23, "burglary": 41, "criminal-damage-arson": 51, "drugs": 34, "other-theft": 79, "possession-of-weapons": 2, "public-order": 52, "robbery": 45, "shoplifting": 95, "theft-from-the-person": 72, "vehicle-crime": 100, "violent-crime": 228, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014101",
+  "neighbourhood_name": "Clapham Park",
+  "force_id": "metropolitan",
+  "lat": "51.4497",
+  "lng": "-0.133979",
+  "population": 10273,
+  "total_crimes": 1074,
+  "categories": {
+    "anti-social-behaviour": 233,
+    "bicycle-theft": 23,
+    "burglary": 41,
+    "criminal-damage-arson": 51,
+    "drugs": 34,
+    "other-theft": 79,
+    "possession-of-weapons": 2,
+    "public-order": 52,
+    "robbery": 45,
+    "shoplifting": 95,
+    "theft-from-the-person": 72,
+    "vehicle-crime": 100,
+    "violent-crime": 228,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 104.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

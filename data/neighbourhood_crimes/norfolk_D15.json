@@ -1,1 +1,17 @@
-{"neighbourhood_id": "D15", "neighbourhood_name": "Loddon", "force_id": "norfolk", "lat": "52.5249", "lng": "1.50367", "population": 12098, "total_crimes": 4, "categories": {"criminal-damage-arson": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D15",
+  "neighbourhood_name": "Loddon",
+  "force_id": "norfolk",
+  "lat": "52.5249",
+  "lng": "1.50367",
+  "population": 16854,
+  "total_crimes": 4,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

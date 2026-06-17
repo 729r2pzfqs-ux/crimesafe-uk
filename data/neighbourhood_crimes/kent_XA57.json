@@ -1,1 +1,28 @@
-{"neighbourhood_id": "XA57", "neighbourhood_name": "Lordswood and Walderslade", "force_id": "kent", "lat": "51.3464", "lng": "0.539602", "population": 12098, "total_crimes": 166, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 1, "burglary": 2, "criminal-damage-arson": 16, "drugs": 3, "other-theft": 10, "possession-of-weapons": 1, "public-order": 7, "robbery": 1, "shoplifting": 2, "vehicle-crime": 6, "violent-crime": 80, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA57",
+  "neighbourhood_name": "Lordswood and Walderslade",
+  "force_id": "kent",
+  "lat": "51.3464",
+  "lng": "0.539602",
+  "population": 13627,
+  "total_crimes": 166,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 16,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 6,
+    "violent-crime": 80,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

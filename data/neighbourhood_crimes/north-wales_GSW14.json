@@ -1,1 +1,25 @@
-{"neighbourhood_id": "GSW14", "neighbourhood_name": "Pwllheli South", "force_id": "north-wales", "lat": "52.8798", "lng": "-4.42424", "population": 12098, "total_crimes": 39, "categories": {"anti-social-behaviour": 11, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 3, "public-order": 1, "robbery": 1, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 12, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW14",
+  "neighbourhood_name": "Pwllheli South",
+  "force_id": "north-wales",
+  "lat": "52.8798",
+  "lng": "-4.42424",
+  "population": 2064,
+  "total_crimes": 39,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 3,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 12,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZB39", "neighbourhood_name": "Eastcliff", "force_id": "kent", "lat": "51.3362", "lng": "1.42221", "population": 12098, "total_crimes": 355, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 35, "drugs": 8, "other-theft": 24, "public-order": 11, "robbery": 2, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 161, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB39",
+  "neighbourhood_name": "Eastcliff",
+  "force_id": "kent",
+  "lat": "51.3362",
+  "lng": "1.42221",
+  "population": 8375,
+  "total_crimes": 355,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 35,
+    "drugs": 8,
+    "other-theft": 24,
+    "public-order": 11,
+    "robbery": 2,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 161,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

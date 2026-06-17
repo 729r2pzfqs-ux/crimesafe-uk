@@ -1,1 +1,14 @@
-{"neighbourhood_id": "E05008143", "neighbourhood_name": "Bishops Castle and Craven Arms Rural", "force_id": "west-mercia", "lat": "52.5049", "lng": "-3.01693", "population": 1501, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05008143",
+  "neighbourhood_name": "Bishops Castle and Craven Arms Rural",
+  "force_id": "west-mercia",
+  "lat": "52.5049",
+  "lng": "-3.01693",
+  "population": 9991,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

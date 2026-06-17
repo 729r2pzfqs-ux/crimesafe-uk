@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05012438", "neighbourhood_name": "Brotton", "force_id": "cleveland", "lat": "54.5728", "lng": "-0.930665", "population": "0", "total_crimes": 45, "categories": {"anti-social-behaviour": 10, "burglary": 1, "criminal-damage-arson": 5, "drugs": 2, "other-theft": 1, "public-order": 5, "robbery": 3, "shoplifting": 3, "vehicle-crime": 1, "violent-crime": 11, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012438",
+  "neighbourhood_name": "Brotton",
+  "force_id": "cleveland",
+  "lat": "54.5728",
+  "lng": "-0.930665",
+  "population": 6905,
+  "total_crimes": 45,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "other-theft": 1,
+    "public-order": 5,
+    "robbery": 3,
+    "shoplifting": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 11,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

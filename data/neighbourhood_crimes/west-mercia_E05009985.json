@@ -1,1 +1,16 @@
-{"neighbourhood_id": "E05009985", "neighbourhood_name": "Newport", "force_id": "west-mercia", "lat": "52.7738", "lng": "-2.41304", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009985",
+  "neighbourhood_name": "Newport",
+  "force_id": "west-mercia",
+  "lat": "52.7738",
+  "lng": "-2.41304",
+  "population": 19333,
+  "total_crimes": 1,
+  "categories": {
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "C424", "neighbourhood_name": "Amroth", "force_id": "dyfed-powys", "lat": "51.7505", "lng": "-4.66252", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "drugs": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C424",
+  "neighbourhood_name": "Amroth",
+  "force_id": "dyfed-powys",
+  "lat": "51.7505",
+  "lng": "-4.66252",
+  "population": 1213,
+  "total_crimes": 3,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "XD70", "neighbourhood_name": "Wilmington, Sutton-at-Hone &amp; Hawley", "force_id": "kent", "lat": "51.4147", "lng": "0.211837", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 1, "drugs": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 22, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD70",
+  "neighbourhood_name": "Wilmington, Sutton-at-Hone &amp; Hawley",
+  "force_id": "kent",
+  "lat": "51.4147",
+  "lng": "0.211837",
+  "population": 6863,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 22,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

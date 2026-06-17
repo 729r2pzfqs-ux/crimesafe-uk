@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013799", "neighbourhood_name": "Little Venice", "force_id": "metropolitan", "lat": "51.5242", "lng": "-0.180227", "population": 12098, "total_crimes": 1763, "categories": {"anti-social-behaviour": 424, "bicycle-theft": 30, "burglary": 88, "criminal-damage-arson": 65, "drugs": 73, "other-theft": 206, "possession-of-weapons": 5, "public-order": 82, "robbery": 38, "shoplifting": 158, "theft-from-the-person": 153, "vehicle-crime": 70, "violent-crime": 354, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013799",
+  "neighbourhood_name": "Little Venice",
+  "force_id": "metropolitan",
+  "lat": "51.5242",
+  "lng": "-0.180227",
+  "population": 9496,
+  "total_crimes": 1763,
+  "categories": {
+    "anti-social-behaviour": 424,
+    "bicycle-theft": 30,
+    "burglary": 88,
+    "criminal-damage-arson": 65,
+    "drugs": 73,
+    "other-theft": 206,
+    "possession-of-weapons": 5,
+    "public-order": 82,
+    "robbery": 38,
+    "shoplifting": 158,
+    "theft-from-the-person": 153,
+    "vehicle-crime": 70,
+    "violent-crime": 354,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 185.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

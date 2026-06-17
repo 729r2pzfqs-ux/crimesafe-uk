@@ -1,1 +1,22 @@
-{"neighbourhood_id": "SA102", "neighbourhood_name": "Billericay", "force_id": "essex", "lat": "51.6166", "lng": "0.440199", "population": 12098, "total_crimes": 30, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "vehicle-crime": 3, "violent-crime": 19, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SA102",
+  "neighbourhood_name": "Billericay",
+  "force_id": "essex",
+  "lat": "51.6166",
+  "lng": "0.440199",
+  "population": 43984,
+  "total_crimes": 30,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 19,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 28
+}

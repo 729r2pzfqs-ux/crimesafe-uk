@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CA", "neighbourhood_name": "Rotherham North", "force_id": "south-yorkshire", "lat": "53.4659", "lng": "-1.34716", "population": 12098, "total_crimes": 197, "categories": {"anti-social-behaviour": 22, "burglary": 14, "criminal-damage-arson": 13, "drugs": 5, "other-theft": 9, "possession-of-weapons": 2, "public-order": 7, "robbery": 1, "shoplifting": 50, "vehicle-crime": 8, "violent-crime": 58, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CA",
+  "neighbourhood_name": "Rotherham North",
+  "force_id": "south-yorkshire",
+  "lat": "53.4659",
+  "lng": "-1.34716",
+  "population": 71275,
+  "total_crimes": 197,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 14,
+    "criminal-damage-arson": 13,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 50,
+    "vehicle-crime": 8,
+    "violent-crime": 58,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 46
+}

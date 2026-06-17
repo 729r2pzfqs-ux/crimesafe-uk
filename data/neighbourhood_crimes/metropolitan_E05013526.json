@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013526", "neighbourhood_name": "Lady Margaret", "force_id": "metropolitan", "lat": "51.5243", "lng": "-0.369693", "population": 16085, "total_crimes": 574, "categories": {"anti-social-behaviour": 114, "bicycle-theft": 4, "burglary": 19, "criminal-damage-arson": 25, "drugs": 22, "other-theft": 34, "possession-of-weapons": 2, "public-order": 34, "robbery": 18, "shoplifting": 26, "theft-from-the-person": 38, "vehicle-crime": 48, "violent-crime": 186, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013526",
+  "neighbourhood_name": "Lady Margaret",
+  "force_id": "metropolitan",
+  "lat": "51.5243",
+  "lng": "-0.369693",
+  "population": 14332,
+  "total_crimes": 574,
+  "categories": {
+    "anti-social-behaviour": 114,
+    "bicycle-theft": 4,
+    "burglary": 19,
+    "criminal-damage-arson": 25,
+    "drugs": 22,
+    "other-theft": 34,
+    "possession-of-weapons": 2,
+    "public-order": 34,
+    "robbery": 18,
+    "shoplifting": 26,
+    "theft-from-the-person": 38,
+    "vehicle-crime": 48,
+    "violent-crime": 186,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

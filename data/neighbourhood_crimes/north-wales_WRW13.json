@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WRW13", "neighbourhood_name": "New Broughton", "force_id": "north-wales", "lat": "53.0591", "lng": "-3.02522", "population": 12098, "total_crimes": 95, "categories": {"anti-social-behaviour": 23, "criminal-damage-arson": 9, "drugs": 2, "other-theft": 5, "public-order": 5, "robbery": 1, "shoplifting": 11, "vehicle-crime": 2, "violent-crime": 34, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW13",
+  "neighbourhood_name": "New Broughton",
+  "force_id": "north-wales",
+  "lat": "53.0591",
+  "lng": "-3.02522",
+  "population": 3765,
+  "total_crimes": 95,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "criminal-damage-arson": 9,
+    "drugs": 2,
+    "other-theft": 5,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 11,
+    "vehicle-crime": 2,
+    "violent-crime": 34,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

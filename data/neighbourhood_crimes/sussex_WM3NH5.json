@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WM3NH5", "neighbourhood_name": "East Grinstead Town", "force_id": "sussex", "lat": "51.1275", "lng": "-0.0108822", "population": 12098, "total_crimes": 147, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 13, "drugs": 1, "other-theft": 7, "possession-of-weapons": 1, "public-order": 14, "shoplifting": 3, "vehicle-crime": 10, "violent-crime": 64, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WM3NH5",
+  "neighbourhood_name": "East Grinstead Town",
+  "force_id": "sussex",
+  "lat": "51.1275",
+  "lng": "-0.0108822",
+  "population": 3787,
+  "total_crimes": 147,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 1,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "shoplifting": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 64,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

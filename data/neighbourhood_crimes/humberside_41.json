@@ -1,1 +1,28 @@
-{"neighbourhood_id": "41", "neighbourhood_name": "Goole South", "force_id": "humberside", "lat": "53.6996", "lng": "-0.875863", "population": 12098, "total_crimes": 225, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 1, "burglary": 10, "criminal-damage-arson": 26, "drugs": 4, "other-theft": 13, "possession-of-weapons": 2, "public-order": 16, "robbery": 3, "shoplifting": 53, "vehicle-crime": 7, "violent-crime": 66, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "41",
+  "neighbourhood_name": "Goole South",
+  "force_id": "humberside",
+  "lat": "53.6996",
+  "lng": "-0.875863",
+  "population": 11157,
+  "total_crimes": 225,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 1,
+    "burglary": 10,
+    "criminal-damage-arson": 26,
+    "drugs": 4,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 16,
+    "robbery": 3,
+    "shoplifting": 53,
+    "vehicle-crime": 7,
+    "violent-crime": 66,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

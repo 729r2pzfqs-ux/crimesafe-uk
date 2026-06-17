@@ -1,1 +1,20 @@
-{"neighbourhood_id": "WA3NH40", "neighbourhood_name": "Clapham and Findon", "force_id": "sussex", "lat": "50.8665", "lng": "-0.420481", "population": 12098, "total_crimes": 11, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 2, "public-order": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA3NH40",
+  "neighbourhood_name": "Clapham and Findon",
+  "force_id": "sussex",
+  "lat": "50.8665",
+  "lng": "-0.420481",
+  "population": 2528,
+  "total_crimes": 11,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "public-order": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,19 @@
-{"neighbourhood_id": "NEW7", "neighbourhood_name": "Sedgefield", "force_id": "durham", "lat": "54.6414", "lng": "-1.44491", "population": 12098, "total_crimes": 14, "categories": {"criminal-damage-arson": 2, "public-order": 3, "shoplifting": 5, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NEW7",
+  "neighbourhood_name": "Sedgefield",
+  "force_id": "durham",
+  "lat": "54.6414",
+  "lng": "-1.44491",
+  "population": 5655,
+  "total_crimes": 14,
+  "categories": {
+    "criminal-damage-arson": 2,
+    "public-order": 3,
+    "shoplifting": 5,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

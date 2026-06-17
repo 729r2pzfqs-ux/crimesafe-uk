@@ -1,1 +1,27 @@
-{"neighbourhood_id": "81", "neighbourhood_name": "Haverstoe", "force_id": "humberside", "lat": "53.5473", "lng": "-0.0147273", "population": 12098, "total_crimes": 88, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 3, "burglary": 4, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 3, "public-order": 6, "robbery": 1, "shoplifting": 7, "vehicle-crime": 3, "violent-crime": 37, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "81",
+  "neighbourhood_name": "Haverstoe",
+  "force_id": "humberside",
+  "lat": "53.5473",
+  "lng": "-0.0147273",
+  "population": 9668,
+  "total_crimes": 88,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 3,
+    "burglary": 4,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 7,
+    "vehicle-crime": 3,
+    "violent-crime": 37,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

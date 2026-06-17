@@ -1,1 +1,14 @@
-{"neighbourhood_id": "B305", "neighbourhood_name": "Tregaron", "force_id": "dyfed-powys", "lat": "52.2014", "lng": "-3.86616", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B305",
+  "neighbourhood_name": "Tregaron",
+  "force_id": "dyfed-powys",
+  "lat": "52.2014",
+  "lng": "-3.86616",
+  "population": 1250,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

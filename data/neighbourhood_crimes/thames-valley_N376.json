@@ -1,1 +1,28 @@
-{"neighbourhood_id": "N376", "neighbourhood_name": "Abingdon Town", "force_id": "thames-valley", "lat": "51.6721", "lng": "-1.28442", "population": 12098, "total_crimes": 176, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 4, "criminal-damage-arson": 10, "drugs": 5, "other-theft": 11, "possession-of-weapons": 2, "public-order": 22, "robbery": 1, "shoplifting": 17, "theft-from-the-person": 2, "vehicle-crime": 4, "violent-crime": 68, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N376",
+  "neighbourhood_name": "Abingdon Town",
+  "force_id": "thames-valley",
+  "lat": "51.6721",
+  "lng": "-1.28442",
+  "population": 34569,
+  "total_crimes": 176,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "bicycle-theft": 4,
+    "criminal-damage-arson": 10,
+    "drugs": 5,
+    "other-theft": 11,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 1,
+    "shoplifting": 17,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 68,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 22
+}

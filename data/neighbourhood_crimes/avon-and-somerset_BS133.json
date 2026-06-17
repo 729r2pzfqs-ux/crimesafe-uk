@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BS133", "neighbourhood_name": "Stockwood", "force_id": "avon-and-somerset", "lat": "51.4158", "lng": "-2.54859", "population": "0", "total_crimes": 206, "categories": {"anti-social-behaviour": 33, "burglary": 2, "criminal-damage-arson": 9, "drugs": 4, "other-theft": 10, "possession-of-weapons": 2, "public-order": 18, "robbery": 4, "shoplifting": 9, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 97, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BS133",
+  "neighbourhood_name": "Stockwood",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4158",
+  "lng": "-2.54859",
+  "population": 12354,
+  "total_crimes": 206,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 4,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 18,
+    "robbery": 4,
+    "shoplifting": 9,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 97,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

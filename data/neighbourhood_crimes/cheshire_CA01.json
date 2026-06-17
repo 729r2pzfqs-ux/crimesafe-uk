@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CA01", "neighbourhood_name": "Congleton East", "force_id": "cheshire", "lat": "53.1631", "lng": "-2.17848", "population": "0", "total_crimes": 75, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 6, "drugs": 3, "other-theft": 2, "possession-of-weapons": 1, "public-order": 6, "shoplifting": 3, "violent-crime": 48, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CA01",
+  "neighbourhood_name": "Congleton East",
+  "force_id": "cheshire",
+  "lat": "53.1631",
+  "lng": "-2.17848",
+  "population": 12574,
+  "total_crimes": 75,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 3,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "shoplifting": 3,
+    "violent-crime": 48,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

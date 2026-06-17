@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013983", "neighbourhood_name": "St Edward's", "force_id": "metropolitan", "lat": "51.5797", "lng": "0.184854", "population": 12098, "total_crimes": 608, "categories": {"anti-social-behaviour": 121, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 36, "drugs": 29, "other-theft": 35, "possession-of-weapons": 8, "public-order": 41, "robbery": 21, "shoplifting": 59, "theft-from-the-person": 23, "vehicle-crime": 35, "violent-crime": 182, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013983",
+  "neighbourhood_name": "St Edward's",
+  "force_id": "metropolitan",
+  "lat": "51.5797",
+  "lng": "0.184854",
+  "population": 12692,
+  "total_crimes": 608,
+  "categories": {
+    "anti-social-behaviour": 121,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 36,
+    "drugs": 29,
+    "other-theft": 35,
+    "possession-of-weapons": 8,
+    "public-order": 41,
+    "robbery": 21,
+    "shoplifting": 59,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 35,
+    "violent-crime": 182,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "IB02IB03", "neighbourhood_name": "Neston and Parkgate", "force_id": "cheshire", "lat": "53.2909", "lng": "-3.07743", "population": "0", "total_crimes": 47, "categories": {"anti-social-behaviour": 3, "burglary": 3, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 2, "public-order": 3, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 22}, "date": "2026-03"}
+{
+  "neighbourhood_id": "IB02IB03",
+  "neighbourhood_name": "Neston and Parkgate",
+  "force_id": "cheshire",
+  "lat": "53.2909",
+  "lng": "-3.07743",
+  "population": 7971,
+  "total_crimes": 47,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 3,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 3,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 22
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

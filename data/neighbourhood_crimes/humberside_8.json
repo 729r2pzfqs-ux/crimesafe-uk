@@ -1,1 +1,28 @@
-{"neighbourhood_id": "8", "neighbourhood_name": "Ashby Central", "force_id": "humberside", "lat": "53.5672", "lng": "-0.643816", "population": 12098, "total_crimes": 298, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 2, "burglary": 24, "criminal-damage-arson": 23, "drugs": 9, "other-theft": 13, "possession-of-weapons": 2, "public-order": 19, "robbery": 6, "shoplifting": 33, "vehicle-crime": 8, "violent-crime": 108, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "8",
+  "neighbourhood_name": "Ashby Central",
+  "force_id": "humberside",
+  "lat": "53.5672",
+  "lng": "-0.643816",
+  "population": 9582,
+  "total_crimes": 298,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 2,
+    "burglary": 24,
+    "criminal-damage-arson": 23,
+    "drugs": 9,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 19,
+    "robbery": 6,
+    "shoplifting": 33,
+    "vehicle-crime": 8,
+    "violent-crime": 108,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

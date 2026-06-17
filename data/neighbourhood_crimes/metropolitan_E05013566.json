@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013566", "neighbourhood_name": "Colham and Cowley", "force_id": "metropolitan", "lat": "51.5258", "lng": "-0.46501", "population": 12098, "total_crimes": 377, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 1, "burglary": 8, "criminal-damage-arson": 26, "drugs": 10, "other-theft": 21, "possession-of-weapons": 3, "public-order": 36, "robbery": 5, "shoplifting": 24, "theft-from-the-person": 12, "vehicle-crime": 32, "violent-crime": 123, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013566",
+  "neighbourhood_name": "Colham and Cowley",
+  "force_id": "metropolitan",
+  "lat": "51.5258",
+  "lng": "-0.46501",
+  "population": 20953,
+  "total_crimes": 377,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 1,
+    "burglary": 8,
+    "criminal-damage-arson": 26,
+    "drugs": 10,
+    "other-theft": 21,
+    "possession-of-weapons": 3,
+    "public-order": 36,
+    "robbery": 5,
+    "shoplifting": 24,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 32,
+    "violent-crime": 123,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

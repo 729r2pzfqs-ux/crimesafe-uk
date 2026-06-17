@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WW2NH7", "neighbourhood_name": "Tarring", "force_id": "sussex", "lat": "50.824", "lng": "-0.396569", "population": 12098, "total_crimes": 343, "categories": {"anti-social-behaviour": 53, "bicycle-theft": 6, "burglary": 4, "criminal-damage-arson": 30, "drugs": 15, "other-theft": 21, "possession-of-weapons": 3, "public-order": 32, "robbery": 3, "shoplifting": 36, "vehicle-crime": 9, "violent-crime": 119, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW2NH7",
+  "neighbourhood_name": "Tarring",
+  "force_id": "sussex",
+  "lat": "50.824",
+  "lng": "-0.396569",
+  "population": 8572,
+  "total_crimes": 343,
+  "categories": {
+    "anti-social-behaviour": 53,
+    "bicycle-theft": 6,
+    "burglary": 4,
+    "criminal-damage-arson": 30,
+    "drugs": 15,
+    "other-theft": 21,
+    "possession-of-weapons": 3,
+    "public-order": 32,
+    "robbery": 3,
+    "shoplifting": 36,
+    "vehicle-crime": 9,
+    "violent-crime": 119,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

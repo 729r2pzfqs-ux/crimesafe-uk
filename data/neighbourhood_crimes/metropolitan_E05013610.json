@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013610", "neighbourhood_name": "Chiswick Homefields", "force_id": "metropolitan", "lat": "51.4861", "lng": "-0.259731", "population": 12098, "total_crimes": 506, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 10, "burglary": 33, "criminal-damage-arson": 12, "drugs": 7, "other-theft": 43, "public-order": 23, "robbery": 12, "shoplifting": 114, "theft-from-the-person": 7, "vehicle-crime": 91, "violent-crime": 78, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013610",
+  "neighbourhood_name": "Chiswick Homefields",
+  "force_id": "metropolitan",
+  "lat": "51.4861",
+  "lng": "-0.259731",
+  "population": 14379,
+  "total_crimes": 506,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 10,
+    "burglary": 33,
+    "criminal-damage-arson": 12,
+    "drugs": 7,
+    "other-theft": 43,
+    "public-order": 23,
+    "robbery": 12,
+    "shoplifting": 114,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 91,
+    "violent-crime": 78,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

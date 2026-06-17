@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SW02", "neighbourhood_name": "Littleover and Blagreaves", "force_id": "derbyshire", "lat": "52.9015", "lng": "-1.51879", "population": 12098, "total_crimes": 219, "categories": {"anti-social-behaviour": 23, "burglary": 3, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 6, "public-order": 19, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 140, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SW02",
+  "neighbourhood_name": "Littleover and Blagreaves",
+  "force_id": "derbyshire",
+  "lat": "52.9015",
+  "lng": "-1.51879",
+  "population": 27827,
+  "total_crimes": 219,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 3,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 6,
+    "public-order": 19,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 140,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

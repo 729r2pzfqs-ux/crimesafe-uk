@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013770", "neighbourhood_name": "Wallington North", "force_id": "metropolitan", "lat": "51.3683", "lng": "-0.150346", "population": 11957, "total_crimes": 330, "categories": {"anti-social-behaviour": 49, "burglary": 13, "criminal-damage-arson": 19, "drugs": 6, "other-theft": 12, "possession-of-weapons": 1, "public-order": 33, "robbery": 3, "shoplifting": 84, "theft-from-the-person": 8, "vehicle-crime": 25, "violent-crime": 77}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013770",
+  "neighbourhood_name": "Wallington North",
+  "force_id": "metropolitan",
+  "lat": "51.3683",
+  "lng": "-0.150346",
+  "population": 11988,
+  "total_crimes": 330,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "burglary": 13,
+    "criminal-damage-arson": 19,
+    "drugs": 6,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 33,
+    "robbery": 3,
+    "shoplifting": 84,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 25,
+    "violent-crime": 77
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

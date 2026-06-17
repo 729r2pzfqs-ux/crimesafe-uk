@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WA1NH5", "neighbourhood_name": "Marine - Bognor Regis", "force_id": "sussex", "lat": "50.7827", "lng": "-0.68333", "population": 12098, "total_crimes": 348, "categories": {"anti-social-behaviour": 70, "bicycle-theft": 1, "burglary": 13, "criminal-damage-arson": 31, "drugs": 10, "other-theft": 16, "possession-of-weapons": 3, "public-order": 10, "robbery": 6, "shoplifting": 73, "theft-from-the-person": 2, "vehicle-crime": 10, "violent-crime": 99, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA1NH5",
+  "neighbourhood_name": "Marine - Bognor Regis",
+  "force_id": "sussex",
+  "lat": "50.7827",
+  "lng": "-0.68333",
+  "population": 6117,
+  "total_crimes": 348,
+  "categories": {
+    "anti-social-behaviour": 70,
+    "bicycle-theft": 1,
+    "burglary": 13,
+    "criminal-damage-arson": 31,
+    "drugs": 10,
+    "other-theft": 16,
+    "possession-of-weapons": 3,
+    "public-order": 10,
+    "robbery": 6,
+    "shoplifting": 73,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 10,
+    "violent-crime": 99,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

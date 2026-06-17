@@ -1,1 +1,22 @@
-{"neighbourhood_id": "FSW30", "neighbourhood_name": "Caergwrle", "force_id": "north-wales", "lat": "53.1089", "lng": "-3.03887", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 6, "burglary": 1, "criminal-damage-arson": 2, "drugs": 1, "public-order": 1, "shoplifting": 4, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW30",
+  "neighbourhood_name": "Caergwrle",
+  "force_id": "north-wales",
+  "lat": "53.1089",
+  "lng": "-3.03887",
+  "population": 1601,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "public-order": 1,
+    "shoplifting": 4,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

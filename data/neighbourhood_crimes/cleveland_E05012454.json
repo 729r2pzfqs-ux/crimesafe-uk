@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05012454", "neighbourhood_name": "Skelton East", "force_id": "cleveland", "lat": "54.5656", "lng": "-0.964398", "population": 3750, "total_crimes": 103, "categories": {"anti-social-behaviour": 18, "burglary": 1, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 3, "public-order": 8, "robbery": 2, "shoplifting": 19, "vehicle-crime": 3, "violent-crime": 31, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012454",
+  "neighbourhood_name": "Skelton East",
+  "force_id": "cleveland",
+  "lat": "54.5656",
+  "lng": "-0.964398",
+  "population": 3744,
+  "total_crimes": 103,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 8,
+    "robbery": 2,
+    "shoplifting": 19,
+    "vehicle-crime": 3,
+    "violent-crime": 31,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014073", "neighbourhood_name": "Blackheath Westcombe", "force_id": "metropolitan", "lat": "51.4714", "lng": "0.015323", "population": 14097, "total_crimes": 343, "categories": {"anti-social-behaviour": 48, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 14, "drugs": 17, "other-theft": 30, "possession-of-weapons": 2, "public-order": 26, "robbery": 2, "shoplifting": 58, "theft-from-the-person": 9, "vehicle-crime": 30, "violent-crime": 93, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014073",
+  "neighbourhood_name": "Blackheath Westcombe",
+  "force_id": "metropolitan",
+  "lat": "51.4714",
+  "lng": "0.015323",
+  "population": 14552,
+  "total_crimes": 343,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 14,
+    "drugs": 17,
+    "other-theft": 30,
+    "possession-of-weapons": 2,
+    "public-order": 26,
+    "robbery": 2,
+    "shoplifting": 58,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 30,
+    "violent-crime": 93,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

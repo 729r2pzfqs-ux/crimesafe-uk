@@ -1,1 +1,26 @@
-{"neighbourhood_id": "ES2NH1", "neighbourhood_name": "Denton", "force_id": "sussex", "lat": "50.7943", "lng": "0.0625784", "population": 12098, "total_crimes": 147, "categories": {"anti-social-behaviour": 47, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 7, "drugs": 3, "other-theft": 8, "public-order": 12, "shoplifting": 14, "vehicle-crime": 4, "violent-crime": 46, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES2NH1",
+  "neighbourhood_name": "Denton",
+  "force_id": "sussex",
+  "lat": "50.7943",
+  "lng": "0.0625784",
+  "population": 3117,
+  "total_crimes": 147,
+  "categories": {
+    "anti-social-behaviour": 47,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 7,
+    "drugs": 3,
+    "other-theft": 8,
+    "public-order": 12,
+    "shoplifting": 14,
+    "vehicle-crime": 4,
+    "violent-crime": 46,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

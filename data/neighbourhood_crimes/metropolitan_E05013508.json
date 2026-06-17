@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013508", "neighbourhood_name": "Queensbury", "force_id": "metropolitan", "lat": "51.5896", "lng": "-0.276369", "population": 12098, "total_crimes": 461, "categories": {"anti-social-behaviour": 89, "bicycle-theft": 1, "burglary": 34, "criminal-damage-arson": 32, "drugs": 12, "other-theft": 33, "possession-of-weapons": 3, "public-order": 22, "robbery": 17, "shoplifting": 41, "theft-from-the-person": 15, "vehicle-crime": 28, "violent-crime": 127, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013508",
+  "neighbourhood_name": "Queensbury",
+  "force_id": "metropolitan",
+  "lat": "51.5896",
+  "lng": "-0.276369",
+  "population": 16371,
+  "total_crimes": 461,
+  "categories": {
+    "anti-social-behaviour": 89,
+    "bicycle-theft": 1,
+    "burglary": 34,
+    "criminal-damage-arson": 32,
+    "drugs": 12,
+    "other-theft": 33,
+    "possession-of-weapons": 3,
+    "public-order": 22,
+    "robbery": 17,
+    "shoplifting": 41,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 28,
+    "violent-crime": 127,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

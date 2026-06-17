@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZE60", "neighbourhood_name": "Broadmead", "force_id": "kent", "lat": "51.09", "lng": "1.16521", "population": 12098, "total_crimes": 425, "categories": {"anti-social-behaviour": 62, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 42, "drugs": 24, "other-theft": 19, "possession-of-weapons": 4, "public-order": 23, "shoplifting": 56, "theft-from-the-person": 1, "vehicle-crime": 18, "violent-crime": 155, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZE60",
+  "neighbourhood_name": "Broadmead",
+  "force_id": "kent",
+  "lat": "51.09",
+  "lng": "1.16521",
+  "population": 4584,
+  "total_crimes": 425,
+  "categories": {
+    "anti-social-behaviour": 62,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 42,
+    "drugs": 24,
+    "other-theft": 19,
+    "possession-of-weapons": 4,
+    "public-order": 23,
+    "shoplifting": 56,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 18,
+    "violent-crime": 155,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 92.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

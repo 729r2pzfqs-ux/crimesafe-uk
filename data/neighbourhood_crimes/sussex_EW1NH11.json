@@ -1,1 +1,22 @@
-{"neighbourhood_id": "EW1NH11", "neighbourhood_name": "Forest Row", "force_id": "sussex", "lat": "51.1054", "lng": "0.0449928", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 8, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 1, "shoplifting": 14, "vehicle-crime": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1NH11",
+  "neighbourhood_name": "Forest Row",
+  "force_id": "sussex",
+  "lat": "51.1054",
+  "lng": "0.0449928",
+  "population": 5594,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 14,
+    "vehicle-crime": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

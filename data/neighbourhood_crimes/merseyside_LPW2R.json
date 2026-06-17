@@ -1,1 +1,23 @@
-{"neighbourhood_id": "LPW2R", "neighbourhood_name": "Eastham", "force_id": "merseyside", "lat": "53.3172", "lng": "-2.95813", "population": 12098, "total_crimes": 40, "categories": {"anti-social-behaviour": 8, "burglary": 4, "criminal-damage-arson": 1, "drugs": 3, "other-theft": 2, "public-order": 4, "shoplifting": 4, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW2R",
+  "neighbourhood_name": "Eastham",
+  "force_id": "merseyside",
+  "lat": "53.3172",
+  "lng": "-2.95813",
+  "population": 14195,
+  "total_crimes": 40,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 4,
+    "criminal-damage-arson": 1,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 4,
+    "shoplifting": 4,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

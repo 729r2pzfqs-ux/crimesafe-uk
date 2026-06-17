@@ -1,1 +1,28 @@
-{"neighbourhood_id": "59", "neighbourhood_name": "West Carr", "force_id": "humberside", "lat": "53.7878", "lng": "-0.334104", "population": 12098, "total_crimes": 356, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 10, "burglary": 15, "criminal-damage-arson": 36, "drugs": 3, "other-theft": 19, "possession-of-weapons": 1, "public-order": 27, "robbery": 6, "shoplifting": 36, "vehicle-crime": 21, "violent-crime": 145, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "59",
+  "neighbourhood_name": "West Carr",
+  "force_id": "humberside",
+  "lat": "53.7878",
+  "lng": "-0.334104",
+  "population": 12419,
+  "total_crimes": 356,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "bicycle-theft": 10,
+    "burglary": 15,
+    "criminal-damage-arson": 36,
+    "drugs": 3,
+    "other-theft": 19,
+    "possession-of-weapons": 1,
+    "public-order": 27,
+    "robbery": 6,
+    "shoplifting": 36,
+    "vehicle-crime": 21,
+    "violent-crime": 145,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

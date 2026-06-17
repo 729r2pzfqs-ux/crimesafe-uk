@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009377N", "neighbourhood_name": "Hoxton East and Shoreditch", "force_id": "metropolitan", "lat": "51.5287", "lng": "-0.0826783", "population": 12098, "total_crimes": 2169, "categories": {"anti-social-behaviour": 350, "bicycle-theft": 71, "burglary": 89, "criminal-damage-arson": 80, "drugs": 134, "other-theft": 247, "possession-of-weapons": 16, "public-order": 115, "robbery": 68, "shoplifting": 235, "theft-from-the-person": 242, "vehicle-crime": 68, "violent-crime": 440, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009377N",
+  "neighbourhood_name": "Hoxton East and Shoreditch",
+  "force_id": "metropolitan",
+  "lat": "51.5287",
+  "lng": "-0.0826783",
+  "population": 10883,
+  "total_crimes": 2169,
+  "categories": {
+    "anti-social-behaviour": 350,
+    "bicycle-theft": 71,
+    "burglary": 89,
+    "criminal-damage-arson": 80,
+    "drugs": 134,
+    "other-theft": 247,
+    "possession-of-weapons": 16,
+    "public-order": 115,
+    "robbery": 68,
+    "shoplifting": 235,
+    "theft-from-the-person": 242,
+    "vehicle-crime": 68,
+    "violent-crime": 440,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 199.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "E05011249", "neighbourhood_name": "Monkhams", "force_id": "metropolitan", "lat": "51.6163", "lng": "0.024746", "population": 9245, "total_crimes": 138, "categories": {"anti-social-behaviour": 25, "burglary": 14, "criminal-damage-arson": 3, "other-theft": 14, "public-order": 9, "robbery": 2, "theft-from-the-person": 2, "vehicle-crime": 22, "violent-crime": 45, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011249",
+  "neighbourhood_name": "Monkhams",
+  "force_id": "metropolitan",
+  "lat": "51.6163",
+  "lng": "0.024746",
+  "population": 8827,
+  "total_crimes": 138,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 14,
+    "criminal-damage-arson": 3,
+    "other-theft": 14,
+    "public-order": 9,
+    "robbery": 2,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 22,
+    "violent-crime": 45,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

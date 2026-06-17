@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014082", "neighbourhood_name": "Greenwich Peninsula", "force_id": "metropolitan", "lat": "51.4956", "lng": "0.0133912", "population": 12927, "total_crimes": 587, "categories": {"anti-social-behaviour": 108, "bicycle-theft": 6, "burglary": 31, "criminal-damage-arson": 26, "drugs": 16, "other-theft": 56, "possession-of-weapons": 4, "public-order": 30, "robbery": 20, "shoplifting": 53, "theft-from-the-person": 39, "vehicle-crime": 47, "violent-crime": 149, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014082",
+  "neighbourhood_name": "Greenwich Peninsula",
+  "force_id": "metropolitan",
+  "lat": "51.4956",
+  "lng": "0.0133912",
+  "population": 4403,
+  "total_crimes": 587,
+  "categories": {
+    "anti-social-behaviour": 108,
+    "bicycle-theft": 6,
+    "burglary": 31,
+    "criminal-damage-arson": 26,
+    "drugs": 16,
+    "other-theft": 56,
+    "possession-of-weapons": 4,
+    "public-order": 30,
+    "robbery": 20,
+    "shoplifting": 53,
+    "theft-from-the-person": 39,
+    "vehicle-crime": 47,
+    "violent-crime": 149,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 133.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

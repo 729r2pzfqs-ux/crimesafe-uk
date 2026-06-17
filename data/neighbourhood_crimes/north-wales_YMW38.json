@@ -1,1 +1,18 @@
-{"neighbourhood_id": "YMW38", "neighbourhood_name": "Braint", "force_id": "north-wales", "lat": "53.2252", "lng": "-4.20011", "population": 12098, "total_crimes": 7, "categories": {"bicycle-theft": 1, "other-theft": 3, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW38",
+  "neighbourhood_name": "Braint",
+  "force_id": "north-wales",
+  "lat": "53.2252",
+  "lng": "-4.20011",
+  "population": 1484,
+  "total_crimes": 7,
+  "categories": {
+    "bicycle-theft": 1,
+    "other-theft": 3,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

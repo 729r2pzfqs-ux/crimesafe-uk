@@ -1,1 +1,16 @@
-{"neighbourhood_id": "NL84", "neighbourhood_name": "Gaer", "force_id": "gwent", "lat": "51.5733", "lng": "-3.021", "population": 12098, "total_crimes": 1, "categories": {"drugs": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NL84",
+  "neighbourhood_name": "Gaer",
+  "force_id": "gwent",
+  "lat": "51.5733",
+  "lng": "-3.021",
+  "population": 9133,
+  "total_crimes": 1,
+  "categories": {
+    "drugs": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

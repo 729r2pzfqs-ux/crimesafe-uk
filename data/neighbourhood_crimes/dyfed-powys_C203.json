@@ -1,1 +1,18 @@
-{"neighbourhood_id": "C203", "neighbourhood_name": "St. David's", "force_id": "dyfed-powys", "lat": "51.8939", "lng": "-5.26683", "population": 12098, "total_crimes": 4, "categories": {"criminal-damage-arson": 1, "shoplifting": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C203",
+  "neighbourhood_name": "St. David's",
+  "force_id": "dyfed-powys",
+  "lat": "51.8939",
+  "lng": "-5.26683",
+  "population": 1772,
+  "total_crimes": 4,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "shoplifting": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

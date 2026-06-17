@@ -1,1 +1,23 @@
-{"neighbourhood_id": "EW11", "neighbourhood_name": "Wilton", "force_id": "wiltshire", "lat": "51.078", "lng": "-1.8687", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 3, "burglary": 5, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 2, "shoplifting": 1, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW11",
+  "neighbourhood_name": "Wilton",
+  "force_id": "wiltshire",
+  "lat": "51.078",
+  "lng": "-1.8687",
+  "population": 4841,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 2,
+    "shoplifting": 1,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

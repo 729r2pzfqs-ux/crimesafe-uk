@@ -1,1 +1,26 @@
-{"neighbourhood_id": "cornelly", "neighbourhood_name": "Cornelly", "force_id": "south-wales", "lat": "51.5171", "lng": "-3.71179", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 5, "possession-of-weapons": 1, "public-order": 9, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 38, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cornelly",
+  "neighbourhood_name": "Cornelly",
+  "force_id": "south-wales",
+  "lat": "51.5171",
+  "lng": "-3.71179",
+  "population": 7605,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 38,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

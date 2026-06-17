@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CIOS.4014", "neighbourhood_name": "Penzance Town West", "force_id": "devon-and-cornwall", "lat": "50.1177", "lng": "-5.54253", "population": 12098, "total_crimes": 163, "categories": {"anti-social-behaviour": 25, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 14, "possession-of-weapons": 3, "public-order": 9, "robbery": 1, "shoplifting": 27, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 57, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4014",
+  "neighbourhood_name": "Penzance Town West",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.1177",
+  "lng": "-5.54253",
+  "population": 6784,
+  "total_crimes": 163,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 27,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 57,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SW03", "neighbourhood_name": "Abbey", "force_id": "derbyshire", "lat": "52.9138", "lng": "-1.49781", "population": 12098, "total_crimes": 974, "categories": {"anti-social-behaviour": 113, "bicycle-theft": 5, "burglary": 17, "criminal-damage-arson": 55, "drugs": 77, "other-theft": 59, "possession-of-weapons": 10, "public-order": 85, "robbery": 14, "shoplifting": 66, "theft-from-the-person": 14, "vehicle-crime": 30, "violent-crime": 406, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SW03",
+  "neighbourhood_name": "Abbey",
+  "force_id": "derbyshire",
+  "lat": "52.9138",
+  "lng": "-1.49781",
+  "population": 15490,
+  "total_crimes": 974,
+  "categories": {
+    "anti-social-behaviour": 113,
+    "bicycle-theft": 5,
+    "burglary": 17,
+    "criminal-damage-arson": 55,
+    "drugs": 77,
+    "other-theft": 59,
+    "possession-of-weapons": 10,
+    "public-order": 85,
+    "robbery": 14,
+    "shoplifting": 66,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 30,
+    "violent-crime": 406,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 62.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

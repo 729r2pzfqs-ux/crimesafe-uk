@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-53", "neighbourhood_name": "St Ann's", "force_id": "nottinghamshire", "lat": "52.9599", "lng": "-1.13608", "population": 12098, "total_crimes": 1577, "categories": {"anti-social-behaviour": 293, "bicycle-theft": 17, "burglary": 35, "criminal-damage-arson": 84, "drugs": 45, "other-theft": 92, "possession-of-weapons": 24, "public-order": 118, "robbery": 56, "shoplifting": 198, "theft-from-the-person": 46, "vehicle-crime": 47, "violent-crime": 493, "other-crime": 29}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-53",
+  "neighbourhood_name": "St Ann's",
+  "force_id": "nottinghamshire",
+  "lat": "52.9599",
+  "lng": "-1.13608",
+  "population": 14988,
+  "total_crimes": 1577,
+  "categories": {
+    "anti-social-behaviour": 293,
+    "bicycle-theft": 17,
+    "burglary": 35,
+    "criminal-damage-arson": 84,
+    "drugs": 45,
+    "other-theft": 92,
+    "possession-of-weapons": 24,
+    "public-order": 118,
+    "robbery": 56,
+    "shoplifting": 198,
+    "theft-from-the-person": 46,
+    "vehicle-crime": 47,
+    "violent-crime": 493,
+    "other-crime": 29
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 105.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

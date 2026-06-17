@@ -1,1 +1,16 @@
-{"neighbourhood_id": "A010", "neighbourhood_name": "Llanboidy", "force_id": "dyfed-powys", "lat": "51.8769", "lng": "-4.61617", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A010",
+  "neighbourhood_name": "Llanboidy",
+  "force_id": "dyfed-powys",
+  "lat": "51.8769",
+  "lng": "-4.61617",
+  "population": 2164,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

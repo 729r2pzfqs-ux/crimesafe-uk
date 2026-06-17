@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CD03", "neighbourhood_name": "Wilmslow East", "force_id": "cheshire", "lat": "53.3182", "lng": "-2.22373", "population": "0", "total_crimes": 56, "categories": {"anti-social-behaviour": 5, "burglary": 3, "drugs": 3, "other-theft": 3, "public-order": 8, "shoplifting": 8, "vehicle-crime": 1, "violent-crime": 23, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CD03",
+  "neighbourhood_name": "Wilmslow East",
+  "force_id": "cheshire",
+  "lat": "53.3182",
+  "lng": "-2.22373",
+  "population": 3325,
+  "total_crimes": 56,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 3,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 8,
+    "shoplifting": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 23,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

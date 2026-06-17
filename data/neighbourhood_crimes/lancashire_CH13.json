@@ -1,1 +1,19 @@
-{"neighbourhood_id": "CH13", "neighbourhood_name": "Croston, Mawdesley &amp; Euxton South", "force_id": "lancashire", "lat": "53.6537", "lng": "-2.74719", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "theft-from-the-person": 1, "violent-crime": 5, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH13",
+  "neighbourhood_name": "Croston, Mawdesley &amp; Euxton South",
+  "force_id": "lancashire",
+  "lat": "53.6537",
+  "lng": "-2.74719",
+  "population": 9228,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "theft-from-the-person": 1,
+    "violent-crime": 5,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "61", "neighbourhood_name": "Beverley and Newland", "force_id": "humberside", "lat": "53.7774", "lng": "-0.347511", "population": 12098, "total_crimes": 330, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 18, "burglary": 18, "criminal-damage-arson": 20, "drugs": 12, "other-theft": 21, "possession-of-weapons": 4, "public-order": 24, "robbery": 2, "shoplifting": 43, "theft-from-the-person": 3, "vehicle-crime": 20, "violent-crime": 117, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "61",
+  "neighbourhood_name": "Beverley and Newland",
+  "force_id": "humberside",
+  "lat": "53.7774",
+  "lng": "-0.347511",
+  "population": 16798,
+  "total_crimes": 330,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 18,
+    "burglary": 18,
+    "criminal-damage-arson": 20,
+    "drugs": 12,
+    "other-theft": 21,
+    "possession-of-weapons": 4,
+    "public-order": 24,
+    "robbery": 2,
+    "shoplifting": 43,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 20,
+    "violent-crime": 117,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

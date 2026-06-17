@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-44", "neighbourhood_name": "Leen Valley", "force_id": "nottinghamshire", "lat": "52.9663", "lng": "-1.20015", "population": 12098, "total_crimes": 385, "categories": {"anti-social-behaviour": 46, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 35, "drugs": 12, "other-theft": 25, "possession-of-weapons": 9, "public-order": 18, "robbery": 9, "shoplifting": 40, "theft-from-the-person": 1, "vehicle-crime": 19, "violent-crime": 154, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-44",
+  "neighbourhood_name": "Leen Valley",
+  "force_id": "nottinghamshire",
+  "lat": "52.9663",
+  "lng": "-1.20015",
+  "population": 9674,
+  "total_crimes": 385,
+  "categories": {
+    "anti-social-behaviour": 46,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 35,
+    "drugs": 12,
+    "other-theft": 25,
+    "possession-of-weapons": 9,
+    "public-order": 18,
+    "robbery": 9,
+    "shoplifting": 40,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 19,
+    "violent-crime": 154,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

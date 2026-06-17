@@ -1,1 +1,24 @@
-{"neighbourhood_id": "XD36", "neighbourhood_name": "Longfield, New Barn &amp; Southfleet", "force_id": "kent", "lat": "51.4091", "lng": "0.300779", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 3, "drugs": 2, "other-theft": 1, "public-order": 3, "shoplifting": 12, "violent-crime": 5, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD36",
+  "neighbourhood_name": "Longfield, New Barn &amp; Southfleet",
+  "force_id": "kent",
+  "lat": "51.4091",
+  "lng": "0.300779",
+  "population": 6542,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 2,
+    "other-theft": 1,
+    "public-order": 3,
+    "shoplifting": 12,
+    "violent-crime": 5,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

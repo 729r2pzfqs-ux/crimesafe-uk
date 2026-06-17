@@ -1,1 +1,14 @@
-{"neighbourhood_id": "NA82", "neighbourhood_name": "Ringland", "force_id": "gwent", "lat": "51.5928", "lng": "-2.93706", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA82",
+  "neighbourhood_name": "Ringland",
+  "force_id": "gwent",
+  "lat": "51.5928",
+  "lng": "-2.93706",
+  "population": 8344,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N428", "neighbourhood_name": "Bicester Town", "force_id": "thames-valley", "lat": "51.901", "lng": "-1.15443", "population": 12098, "total_crimes": 264, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 3, "burglary": 8, "criminal-damage-arson": 18, "drugs": 8, "other-theft": 12, "possession-of-weapons": 2, "public-order": 13, "robbery": 1, "shoplifting": 77, "theft-from-the-person": 4, "vehicle-crime": 14, "violent-crime": 85, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N428",
+  "neighbourhood_name": "Bicester Town",
+  "force_id": "thames-valley",
+  "lat": "51.901",
+  "lng": "-1.15443",
+  "population": 28281,
+  "total_crimes": 264,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 3,
+    "burglary": 8,
+    "criminal-damage-arson": 18,
+    "drugs": 8,
+    "other-theft": 12,
+    "possession-of-weapons": 2,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 77,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 14,
+    "violent-crime": 85,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

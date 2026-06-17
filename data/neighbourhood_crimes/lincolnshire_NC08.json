@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NC08", "neighbourhood_name": "Market Rasen", "force_id": "lincolnshire", "lat": "53.3941", "lng": "-0.336738", "population": 12098, "total_crimes": 62, "categories": {"anti-social-behaviour": 19, "burglary": 2, "criminal-damage-arson": 5, "other-theft": 3, "public-order": 2, "robbery": 2, "shoplifting": 14, "violent-crime": 12, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC08",
+  "neighbourhood_name": "Market Rasen",
+  "force_id": "lincolnshire",
+  "lat": "53.3941",
+  "lng": "-0.336738",
+  "population": 9103,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "other-theft": 3,
+    "public-order": 2,
+    "robbery": 2,
+    "shoplifting": 14,
+    "violent-crime": 12,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

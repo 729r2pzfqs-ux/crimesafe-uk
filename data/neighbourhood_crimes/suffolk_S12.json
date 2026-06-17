@@ -1,1 +1,26 @@
-{"neighbourhood_id": "S12", "neighbourhood_name": "Priory Heath", "force_id": "suffolk", "lat": "52.0352", "lng": "1.20155", "population": 12098, "total_crimes": 146, "categories": {"anti-social-behaviour": 12, "burglary": 8, "criminal-damage-arson": 14, "drugs": 2, "other-theft": 7, "possession-of-weapons": 3, "public-order": 3, "shoplifting": 19, "vehicle-crime": 15, "violent-crime": 60, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S12",
+  "neighbourhood_name": "Priory Heath",
+  "force_id": "suffolk",
+  "lat": "52.0352",
+  "lng": "1.20155",
+  "population": 8924,
+  "total_crimes": 146,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 8,
+    "criminal-damage-arson": 14,
+    "drugs": 2,
+    "other-theft": 7,
+    "possession-of-weapons": 3,
+    "public-order": 3,
+    "shoplifting": 19,
+    "vehicle-crime": 15,
+    "violent-crime": 60,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

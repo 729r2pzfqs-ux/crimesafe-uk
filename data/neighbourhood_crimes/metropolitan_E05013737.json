@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013737", "neighbourhood_name": "Coningham", "force_id": "metropolitan", "lat": "51.5033", "lng": "-0.236839", "population": 12930, "total_crimes": 1376, "categories": {"anti-social-behaviour": 310, "bicycle-theft": 12, "burglary": 40, "criminal-damage-arson": 59, "drugs": 60, "other-theft": 105, "possession-of-weapons": 5, "public-order": 87, "robbery": 15, "shoplifting": 210, "theft-from-the-person": 58, "vehicle-crime": 93, "violent-crime": 302, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013737",
+  "neighbourhood_name": "Coningham",
+  "force_id": "metropolitan",
+  "lat": "51.5033",
+  "lng": "-0.236839",
+  "population": 13250,
+  "total_crimes": 1376,
+  "categories": {
+    "anti-social-behaviour": 310,
+    "bicycle-theft": 12,
+    "burglary": 40,
+    "criminal-damage-arson": 59,
+    "drugs": 60,
+    "other-theft": 105,
+    "possession-of-weapons": 5,
+    "public-order": 87,
+    "robbery": 15,
+    "shoplifting": 210,
+    "theft-from-the-person": 58,
+    "vehicle-crime": 93,
+    "violent-crime": 302,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 103.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

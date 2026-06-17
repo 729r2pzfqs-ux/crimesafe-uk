@@ -1,1 +1,16 @@
-{"neighbourhood_id": "ZE72", "neighbourhood_name": "Walland &amp; Denge Marsh", "force_id": "kent", "lat": "50.9817", "lng": "0.882149", "population": 12098, "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZE72",
+  "neighbourhood_name": "Walland &amp; Denge Marsh",
+  "force_id": "kent",
+  "lat": "50.9817",
+  "lng": "0.882149",
+  "population": 7920,
+  "total_crimes": 1,
+  "categories": {
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

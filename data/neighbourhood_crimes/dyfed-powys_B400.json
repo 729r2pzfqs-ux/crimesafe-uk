@@ -1,1 +1,19 @@
-{"neighbourhood_id": "B400", "neighbourhood_name": "Aberaeron", "force_id": "dyfed-powys", "lat": "52.2392", "lng": "-4.25848", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 8, "public-order": 1, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B400",
+  "neighbourhood_name": "Aberaeron",
+  "force_id": "dyfed-powys",
+  "lat": "52.2392",
+  "lng": "-4.25848",
+  "population": 1322,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 8,
+    "public-order": 1,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

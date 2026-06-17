@@ -1,1 +1,19 @@
-{"neighbourhood_id": "B510", "neighbourhood_name": "Llandysul Town", "force_id": "dyfed-powys", "lat": "52.0554", "lng": "-4.32227", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 1, "public-order": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B510",
+  "neighbourhood_name": "Llandysul Town",
+  "force_id": "dyfed-powys",
+  "lat": "52.0554",
+  "lng": "-4.32227",
+  "population": 1411,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 1,
+    "violent-crime": 2,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

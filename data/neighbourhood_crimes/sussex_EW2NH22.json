@@ -1,1 +1,18 @@
-{"neighbourhood_id": "EW2NH22", "neighbourhood_name": "Heathfield North and Central", "force_id": "sussex", "lat": "50.9821", "lng": "0.273696", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "possession-of-weapons": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW2NH22",
+  "neighbourhood_name": "Heathfield North and Central",
+  "force_id": "sussex",
+  "lat": "50.9821",
+  "lng": "0.273696",
+  "population": 8327,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "possession-of-weapons": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

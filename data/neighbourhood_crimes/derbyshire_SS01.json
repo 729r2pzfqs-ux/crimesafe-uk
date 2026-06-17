@@ -1,1 +1,18 @@
-{"neighbourhood_id": "SS01", "neighbourhood_name": "Etwall, Hatton and Hilton", "force_id": "derbyshire", "lat": "52.8897", "lng": "-1.64428", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SS01",
+  "neighbourhood_name": "Etwall, Hatton and Hilton",
+  "force_id": "derbyshire",
+  "lat": "52.8897",
+  "lng": "-1.64428",
+  "population": 19827,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

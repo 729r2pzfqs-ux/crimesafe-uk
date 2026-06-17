@@ -1,1 +1,21 @@
-{"neighbourhood_id": "bedale", "neighbourhood_name": "Bedale", "force_id": "north-yorkshire", "lat": "54.294", "lng": "-1.57094", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 3, "other-theft": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "bedale",
+  "neighbourhood_name": "Bedale",
+  "force_id": "north-yorkshire",
+  "lat": "54.294",
+  "lng": "-1.57094",
+  "population": 10823,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

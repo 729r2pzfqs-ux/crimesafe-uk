@@ -1,1 +1,19 @@
-{"neighbourhood_id": "EU12", "neighbourhood_name": "Downton", "force_id": "wiltshire", "lat": "51.0045", "lng": "-1.75462", "population": 12098, "total_crimes": 9, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EU12",
+  "neighbourhood_name": "Downton",
+  "force_id": "wiltshire",
+  "lat": "51.0045",
+  "lng": "-1.75462",
+  "population": 8514,
+  "total_crimes": 9,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

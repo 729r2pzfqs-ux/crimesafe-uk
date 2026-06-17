@@ -1,1 +1,20 @@
-{"neighbourhood_id": "DD04", "neighbourhood_name": "Penketh and Cuerdley", "force_id": "cheshire", "lat": "53.3737", "lng": "-2.65449", "population": "0", "total_crimes": 26, "categories": {"other-theft": 2, "possession-of-weapons": 1, "public-order": 4, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DD04",
+  "neighbourhood_name": "Penketh and Cuerdley",
+  "force_id": "cheshire",
+  "lat": "53.3737",
+  "lng": "-2.65449",
+  "population": 8121,
+  "total_crimes": 26,
+  "categories": {
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

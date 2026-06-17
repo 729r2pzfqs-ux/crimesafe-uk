@@ -1,1 +1,19 @@
-{"neighbourhood_id": "LPS1D", "neighbourhood_name": "Manor", "force_id": "merseyside", "lat": "53.5082", "lng": "-3.02974", "population": 12098, "total_crimes": 14, "categories": {"anti-social-behaviour": 1, "other-theft": 2, "vehicle-crime": 2, "violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS1D",
+  "neighbourhood_name": "Manor",
+  "force_id": "merseyside",
+  "lat": "53.5082",
+  "lng": "-3.02974",
+  "population": 12687,
+  "total_crimes": 14,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

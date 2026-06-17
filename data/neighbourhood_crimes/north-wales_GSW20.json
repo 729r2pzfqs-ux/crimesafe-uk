@@ -1,1 +1,22 @@
-{"neighbourhood_id": "GSW20", "neighbourhood_name": "Porthmadog East", "force_id": "north-wales", "lat": "52.9323", "lng": "-4.11883", "population": 12098, "total_crimes": 38, "categories": {"anti-social-behaviour": 12, "burglary": 3, "criminal-damage-arson": 5, "public-order": 3, "shoplifting": 4, "violent-crime": 9, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW20",
+  "neighbourhood_name": "Porthmadog East",
+  "force_id": "north-wales",
+  "lat": "52.9323",
+  "lng": "-4.11883",
+  "population": 1878,
+  "total_crimes": 38,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 3,
+    "criminal-damage-arson": 5,
+    "public-order": 3,
+    "shoplifting": 4,
+    "violent-crime": 9,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SCB", "neighbourhood_name": "Etruria &amp; Hanley", "force_id": "staffordshire", "lat": "53.028", "lng": "-2.18981", "population": 12098, "total_crimes": 631, "categories": {"anti-social-behaviour": 152, "bicycle-theft": 4, "burglary": 23, "criminal-damage-arson": 53, "drugs": 26, "other-theft": 34, "possession-of-weapons": 6, "public-order": 55, "robbery": 14, "shoplifting": 49, "theft-from-the-person": 6, "vehicle-crime": 29, "violent-crime": 169, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SCB",
+  "neighbourhood_name": "Etruria &amp; Hanley",
+  "force_id": "staffordshire",
+  "lat": "53.028",
+  "lng": "-2.18981",
+  "population": 3727,
+  "total_crimes": 631,
+  "categories": {
+    "anti-social-behaviour": 152,
+    "bicycle-theft": 4,
+    "burglary": 23,
+    "criminal-damage-arson": 53,
+    "drugs": 26,
+    "other-theft": 34,
+    "possession-of-weapons": 6,
+    "public-order": 55,
+    "robbery": 14,
+    "shoplifting": 49,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 29,
+    "violent-crime": 169,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 169.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

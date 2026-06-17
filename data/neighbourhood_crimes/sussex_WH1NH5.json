@@ -1,1 +1,23 @@
-{"neighbourhood_id": "WH1NH5", "neighbourhood_name": "Broadbridge Heath and Southwater", "force_id": "sussex", "lat": "51.0439", "lng": "-0.348768", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 2, "burglary": 2, "drugs": 1, "other-theft": 2, "public-order": 1, "robbery": 1, "violent-crime": 6, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WH1NH5",
+  "neighbourhood_name": "Broadbridge Heath and Southwater",
+  "force_id": "sussex",
+  "lat": "51.0439",
+  "lng": "-0.348768",
+  "population": 13567,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 1,
+    "robbery": 1,
+    "violent-crime": 6,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

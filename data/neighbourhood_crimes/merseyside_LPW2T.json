@@ -1,1 +1,24 @@
-{"neighbourhood_id": "LPW2T", "neighbourhood_name": "Bebington ", "force_id": "merseyside", "lat": "53.3521", "lng": "-3.03126", "population": 12098, "total_crimes": 56, "categories": {"anti-social-behaviour": 12, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 1, "public-order": 4, "shoplifting": 3, "vehicle-crime": 3, "violent-crime": 25, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW2T",
+  "neighbourhood_name": "Bebington ",
+  "force_id": "merseyside",
+  "lat": "53.3521",
+  "lng": "-3.03126",
+  "population": 15473,
+  "total_crimes": 56,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 4,
+    "shoplifting": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 25,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

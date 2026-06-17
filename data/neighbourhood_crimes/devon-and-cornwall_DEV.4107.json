@@ -1,1 +1,21 @@
-{"neighbourhood_id": "DEV.4107", "neighbourhood_name": "South Molton", "force_id": "devon-and-cornwall", "lat": "51.0179", "lng": "-3.85253", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 4, "drugs": 1, "public-order": 2, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4107",
+  "neighbourhood_name": "South Molton",
+  "force_id": "devon-and-cornwall",
+  "lat": "51.0179",
+  "lng": "-3.85253",
+  "population": 5645,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "drugs": 1,
+    "public-order": 2,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

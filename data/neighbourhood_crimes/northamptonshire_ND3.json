@@ -1,1 +1,17 @@
-{"neighbourhood_id": "ND3", "neighbourhood_name": "Crick and Long Buckby", "force_id": "northamptonshire", "lat": "52.3259", "lng": "-1.1129", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ND3",
+  "neighbourhood_name": "Crick and Long Buckby",
+  "force_id": "northamptonshire",
+  "lat": "52.3259",
+  "lng": "-1.1129",
+  "population": 19855,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

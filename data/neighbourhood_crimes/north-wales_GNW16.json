@@ -1,1 +1,17 @@
-{"neighbourhood_id": "GNW16", "neighbourhood_name": "Llanrug", "force_id": "north-wales", "lat": "53.1492", "lng": "-4.19277", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW16",
+  "neighbourhood_name": "Llanrug",
+  "force_id": "north-wales",
+  "lat": "53.1492",
+  "lng": "-4.19277",
+  "population": 2011,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

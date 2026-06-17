@@ -1,1 +1,23 @@
-{"neighbourhood_id": "E21", "neighbourhood_name": "Sprowston", "force_id": "norfolk", "lat": "52.6618", "lng": "1.32834", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 7, "bicycle-theft": 1, "criminal-damage-arson": 6, "other-theft": 5, "public-order": 3, "shoplifting": 5, "violent-crime": 32, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E21",
+  "neighbourhood_name": "Sprowston",
+  "force_id": "norfolk",
+  "lat": "52.6618",
+  "lng": "1.32834",
+  "population": 20019,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 6,
+    "other-theft": 5,
+    "public-order": 3,
+    "shoplifting": 5,
+    "violent-crime": 32,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

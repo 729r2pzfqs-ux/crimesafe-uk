@@ -1,1 +1,17 @@
-{"neighbourhood_id": "NC54", "neighbourhood_name": "Louth Rural", "force_id": "lincolnshire", "lat": "53.4001", "lng": "-0.0294866", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC54",
+  "neighbourhood_name": "Louth Rural",
+  "force_id": "lincolnshire",
+  "lat": "53.4001",
+  "lng": "-0.0294866",
+  "population": 20862,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "vehicle-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "AN004", "neighbourhood_name": "Nailsea", "force_id": "avon-and-somerset", "lat": "51.424", "lng": "-2.77757", "population": "0", "total_crimes": 41, "categories": {"anti-social-behaviour": 6, "burglary": 1, "criminal-damage-arson": 8, "drugs": 3, "other-theft": 3, "public-order": 4, "shoplifting": 1, "violent-crime": 14, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AN004",
+  "neighbourhood_name": "Nailsea",
+  "force_id": "avon-and-somerset",
+  "lat": "51.424",
+  "lng": "-2.77757",
+  "population": 15522,
+  "total_crimes": 41,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 4,
+    "shoplifting": 1,
+    "violent-crime": 14,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

@@ -1,1 +1,21 @@
-{"neighbourhood_id": "FNW19", "neighbourhood_name": "Connah's Quay Wepre", "force_id": "north-wales", "lat": "53.23", "lng": "-3.03916", "population": 12098, "total_crimes": 10, "categories": {"anti-social-behaviour": 1, "burglary": 2, "criminal-damage-arson": 1, "other-theft": 4, "public-order": 1, "theft-from-the-person": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW19",
+  "neighbourhood_name": "Connah's Quay Wepre",
+  "force_id": "north-wales",
+  "lat": "53.23",
+  "lng": "-3.03916",
+  "population": 2304,
+  "total_crimes": 10,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 4,
+    "public-order": 1,
+    "theft-from-the-person": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

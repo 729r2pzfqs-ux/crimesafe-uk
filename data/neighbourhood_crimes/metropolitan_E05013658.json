@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013658", "neighbourhood_name": "Gospel Oak", "force_id": "metropolitan", "lat": "51.5525", "lng": "-0.157473", "population": 12098, "total_crimes": 970, "categories": {"anti-social-behaviour": 229, "bicycle-theft": 11, "burglary": 49, "criminal-damage-arson": 49, "drugs": 36, "other-theft": 68, "possession-of-weapons": 4, "public-order": 57, "robbery": 27, "shoplifting": 82, "theft-from-the-person": 83, "vehicle-crime": 47, "violent-crime": 217, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013658",
+  "neighbourhood_name": "Gospel Oak",
+  "force_id": "metropolitan",
+  "lat": "51.5525",
+  "lng": "-0.157473",
+  "population": 16040,
+  "total_crimes": 970,
+  "categories": {
+    "anti-social-behaviour": 229,
+    "bicycle-theft": 11,
+    "burglary": 49,
+    "criminal-damage-arson": 49,
+    "drugs": 36,
+    "other-theft": 68,
+    "possession-of-weapons": 4,
+    "public-order": 57,
+    "robbery": 27,
+    "shoplifting": 82,
+    "theft-from-the-person": 83,
+    "vehicle-crime": 47,
+    "violent-crime": 217,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 60.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

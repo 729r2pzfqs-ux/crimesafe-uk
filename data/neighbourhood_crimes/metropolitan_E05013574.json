@@ -1,1 +1,25 @@
-{"neighbourhood_id": "E05013574", "neighbourhood_name": "Northwood", "force_id": "metropolitan", "lat": "51.6054", "lng": "-0.437481", "population": 12098, "total_crimes": 75, "categories": {"anti-social-behaviour": 16, "burglary": 2, "criminal-damage-arson": 2, "other-theft": 4, "possession-of-weapons": 2, "public-order": 3, "shoplifting": 12, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013574",
+  "neighbourhood_name": "Northwood",
+  "force_id": "metropolitan",
+  "lat": "51.6054",
+  "lng": "-0.437481",
+  "population": 11263,
+  "total_crimes": 75,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 2,
+    "criminal-damage-arson": 2,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "shoplifting": 12,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

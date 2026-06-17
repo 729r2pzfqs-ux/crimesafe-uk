@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013906", "neighbourhood_name": "Canning Town North", "force_id": "metropolitan", "lat": "51.5223", "lng": "0.00434068", "population": 10592, "total_crimes": 1033, "categories": {"anti-social-behaviour": 188, "bicycle-theft": 2, "burglary": 43, "criminal-damage-arson": 58, "drugs": 62, "other-theft": 70, "possession-of-weapons": 16, "public-order": 64, "robbery": 25, "shoplifting": 77, "theft-from-the-person": 53, "vehicle-crime": 100, "violent-crime": 264, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013906",
+  "neighbourhood_name": "Canning Town North",
+  "force_id": "metropolitan",
+  "lat": "51.5223",
+  "lng": "0.00434068",
+  "population": 10585,
+  "total_crimes": 1033,
+  "categories": {
+    "anti-social-behaviour": 188,
+    "bicycle-theft": 2,
+    "burglary": 43,
+    "criminal-damage-arson": 58,
+    "drugs": 62,
+    "other-theft": 70,
+    "possession-of-weapons": 16,
+    "public-order": 64,
+    "robbery": 25,
+    "shoplifting": 77,
+    "theft-from-the-person": 53,
+    "vehicle-crime": 100,
+    "violent-crime": 264,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 97.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

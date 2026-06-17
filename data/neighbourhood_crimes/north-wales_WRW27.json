@@ -1,1 +1,19 @@
-{"neighbourhood_id": "WRW27", "neighbourhood_name": "Llangollen Rural", "force_id": "north-wales", "lat": "52.9711", "lng": "-3.10032", "population": 12098, "total_crimes": 10, "categories": {"anti-social-behaviour": 3, "burglary": 2, "public-order": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW27",
+  "neighbourhood_name": "Llangollen Rural",
+  "force_id": "north-wales",
+  "lat": "52.9711",
+  "lng": "-3.10032",
+  "population": 2024,
+  "total_crimes": 10,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 2,
+    "public-order": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

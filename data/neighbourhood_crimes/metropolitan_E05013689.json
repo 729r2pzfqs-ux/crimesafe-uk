@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013689", "neighbourhood_name": "Ponders End", "force_id": "metropolitan", "lat": "51.6436", "lng": "-0.0361486", "population": 11389, "total_crimes": 393, "categories": {"anti-social-behaviour": 80, "bicycle-theft": 5, "burglary": 36, "criminal-damage-arson": 12, "drugs": 31, "other-theft": 32, "possession-of-weapons": 3, "public-order": 17, "robbery": 7, "shoplifting": 9, "theft-from-the-person": 23, "vehicle-crime": 33, "violent-crime": 99, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013689",
+  "neighbourhood_name": "Ponders End",
+  "force_id": "metropolitan",
+  "lat": "51.6436",
+  "lng": "-0.0361486",
+  "population": 8241,
+  "total_crimes": 393,
+  "categories": {
+    "anti-social-behaviour": 80,
+    "bicycle-theft": 5,
+    "burglary": 36,
+    "criminal-damage-arson": 12,
+    "drugs": 31,
+    "other-theft": 32,
+    "possession-of-weapons": 3,
+    "public-order": 17,
+    "robbery": 7,
+    "shoplifting": 9,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 33,
+    "violent-crime": 99,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009870", "neighbourhood_name": "Park End and Beckfield", "force_id": "cleveland", "lat": "54.5519", "lng": "-1.18655", "population": "0", "total_crimes": 457, "categories": {"anti-social-behaviour": 54, "bicycle-theft": 5, "burglary": 16, "criminal-damage-arson": 70, "drugs": 20, "other-theft": 20, "possession-of-weapons": 4, "public-order": 36, "robbery": 10, "shoplifting": 51, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 142, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009870",
+  "neighbourhood_name": "Park End and Beckfield",
+  "force_id": "cleveland",
+  "lat": "54.5519",
+  "lng": "-1.18655",
+  "population": 7375,
+  "total_crimes": 457,
+  "categories": {
+    "anti-social-behaviour": 54,
+    "bicycle-theft": 5,
+    "burglary": 16,
+    "criminal-damage-arson": 70,
+    "drugs": 20,
+    "other-theft": 20,
+    "possession-of-weapons": 4,
+    "public-order": 36,
+    "robbery": 10,
+    "shoplifting": 51,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 142,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 62.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

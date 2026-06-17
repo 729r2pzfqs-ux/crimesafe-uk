@@ -1,1 +1,27 @@
-{"neighbourhood_id": "ZB34", "neighbourhood_name": "Bradstowe", "force_id": "kent", "lat": "51.3646", "lng": "1.43902", "population": 12098, "total_crimes": 117, "categories": {"anti-social-behaviour": 19, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 18, "drugs": 2, "other-theft": 4, "public-order": 4, "robbery": 1, "shoplifting": 7, "vehicle-crime": 4, "violent-crime": 50, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB34",
+  "neighbourhood_name": "Bradstowe",
+  "force_id": "kent",
+  "lat": "51.3646",
+  "lng": "1.43902",
+  "population": 4214,
+  "total_crimes": 117,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 18,
+    "drugs": 2,
+    "other-theft": 4,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 7,
+    "vehicle-crime": 4,
+    "violent-crime": 50,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

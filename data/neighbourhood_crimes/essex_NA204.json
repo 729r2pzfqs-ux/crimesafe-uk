@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NA204", "neighbourhood_name": "Uttlesford South", "force_id": "essex", "lat": "51.8625", "lng": "0.264869", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 2, "public-order": 2, "robbery": 1, "vehicle-crime": 2, "violent-crime": 7, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA204",
+  "neighbourhood_name": "Uttlesford South",
+  "force_id": "essex",
+  "lat": "51.8625",
+  "lng": "0.264869",
+  "population": 27884,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 2,
+    "robbery": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 7,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

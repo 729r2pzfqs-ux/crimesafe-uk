@@ -1,1 +1,19 @@
-{"neighbourhood_id": "D109", "neighbourhood_name": "Dolforwyn", "force_id": "dyfed-powys", "lat": "52.5538", "lng": "-3.25393", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "possession-of-weapons": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D109",
+  "neighbourhood_name": "Dolforwyn",
+  "force_id": "dyfed-powys",
+  "lat": "52.5538",
+  "lng": "-3.25393",
+  "population": 2010,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "possession-of-weapons": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

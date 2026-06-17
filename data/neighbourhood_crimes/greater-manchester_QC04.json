@@ -1,1 +1,16 @@
-{"neighbourhood_id": "QC04", "neighbourhood_name": "Failsworth East", "force_id": "greater-manchester", "lat": "53.5061", "lng": "-2.13884", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "QC04",
+  "neighbourhood_name": "Failsworth East",
+  "force_id": "greater-manchester",
+  "lat": "53.5061",
+  "lng": "-2.13884",
+  "population": 9062,
+  "total_crimes": 1,
+  "categories": {
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

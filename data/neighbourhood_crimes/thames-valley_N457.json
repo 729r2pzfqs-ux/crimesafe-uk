@@ -1,1 +1,28 @@
-{"neighbourhood_id": "N457", "neighbourhood_name": "Britwell and Haymill", "force_id": "thames-valley", "lat": "51.5294", "lng": "-0.638851", "population": 12098, "total_crimes": 298, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 17, "drugs": 8, "other-theft": 26, "possession-of-weapons": 2, "public-order": 22, "robbery": 2, "shoplifting": 30, "vehicle-crime": 22, "violent-crime": 134, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N457",
+  "neighbourhood_name": "Britwell and Haymill",
+  "force_id": "thames-valley",
+  "lat": "51.5294",
+  "lng": "-0.638851",
+  "population": 18468,
+  "total_crimes": 298,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 17,
+    "drugs": 8,
+    "other-theft": 26,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 2,
+    "shoplifting": 30,
+    "vehicle-crime": 22,
+    "violent-crime": 134,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

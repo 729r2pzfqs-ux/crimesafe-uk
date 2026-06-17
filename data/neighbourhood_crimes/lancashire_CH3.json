@@ -1,1 +1,22 @@
-{"neighbourhood_id": "CH3", "neighbourhood_name": "Coppull", "force_id": "lancashire", "lat": "53.6182", "lng": "-2.66076", "population": 12098, "total_crimes": 42, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 3, "public-order": 2, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 25, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH3",
+  "neighbourhood_name": "Coppull",
+  "force_id": "lancashire",
+  "lat": "53.6182",
+  "lng": "-2.66076",
+  "population": 8437,
+  "total_crimes": 42,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 3,
+    "public-order": 2,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 25,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,14 @@
-{"neighbourhood_id": "ripon-rural", "neighbourhood_name": "Ripon Rural", "force_id": "north-yorkshire", "lat": "54.1406", "lng": "-1.62688", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ripon-rural",
+  "neighbourhood_name": "Ripon Rural",
+  "force_id": "north-yorkshire",
+  "lat": "54.1406",
+  "lng": "-1.62688",
+  "population": 11953,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

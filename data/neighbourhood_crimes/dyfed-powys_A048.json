@@ -1,1 +1,25 @@
-{"neighbourhood_id": "A048", "neighbourhood_name": "Bynea", "force_id": "dyfed-powys", "lat": "51.6761", "lng": "-4.1025", "population": 12098, "total_crimes": 57, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 10, "drugs": 1, "other-theft": 5, "public-order": 3, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 30, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A048",
+  "neighbourhood_name": "Bynea",
+  "force_id": "dyfed-powys",
+  "lat": "51.6761",
+  "lng": "-4.1025",
+  "population": 4671,
+  "total_crimes": 57,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 3,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 30,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

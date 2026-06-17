@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SR3", "neighbourhood_name": "Broad Oak", "force_id": "lancashire", "lat": "53.7433", "lng": "-2.72957", "population": 12098, "total_crimes": 88, "categories": {"anti-social-behaviour": 19, "burglary": 3, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 4, "possession-of-weapons": 2, "public-order": 5, "robbery": 1, "shoplifting": 1, "vehicle-crime": 6, "violent-crime": 33, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR3",
+  "neighbourhood_name": "Broad Oak",
+  "force_id": "lancashire",
+  "lat": "53.7433",
+  "lng": "-2.72957",
+  "population": 5640,
+  "total_crimes": 88,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 3,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 33,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DT12", "neighbourhood_name": "Shrivenham Road Area", "force_id": "wiltshire", "lat": "51.567", "lng": "-1.76537", "population": 12098, "total_crimes": 520, "categories": {"anti-social-behaviour": 103, "bicycle-theft": 3, "burglary": 10, "criminal-damage-arson": 44, "drugs": 16, "other-theft": 19, "possession-of-weapons": 9, "public-order": 47, "robbery": 5, "shoplifting": 60, "theft-from-the-person": 5, "vehicle-crime": 20, "violent-crime": 171, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DT12",
+  "neighbourhood_name": "Shrivenham Road Area",
+  "force_id": "wiltshire",
+  "lat": "51.567",
+  "lng": "-1.76537",
+  "population": 2253,
+  "total_crimes": 520,
+  "categories": {
+    "anti-social-behaviour": 103,
+    "bicycle-theft": 3,
+    "burglary": 10,
+    "criminal-damage-arson": 44,
+    "drugs": 16,
+    "other-theft": 19,
+    "possession-of-weapons": 9,
+    "public-order": 47,
+    "robbery": 5,
+    "shoplifting": 60,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 20,
+    "violent-crime": 171,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 230.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

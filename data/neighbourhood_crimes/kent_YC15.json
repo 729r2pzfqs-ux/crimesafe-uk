@@ -1,1 +1,25 @@
-{"neighbourhood_id": "YC15", "neighbourhood_name": "Sevenoaks Eastern", "force_id": "kent", "lat": "51.2818", "lng": "0.201336", "population": 12098, "total_crimes": 104, "categories": {"anti-social-behaviour": 15, "burglary": 4, "criminal-damage-arson": 12, "drugs": 4, "other-theft": 8, "public-order": 5, "shoplifting": 17, "theft-from-the-person": 1, "vehicle-crime": 11, "violent-crime": 27}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC15",
+  "neighbourhood_name": "Sevenoaks Eastern",
+  "force_id": "kent",
+  "lat": "51.2818",
+  "lng": "0.201336",
+  "population": 4390,
+  "total_crimes": 104,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 4,
+    "criminal-damage-arson": 12,
+    "drugs": 4,
+    "other-theft": 8,
+    "public-order": 5,
+    "shoplifting": 17,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 11,
+    "violent-crime": 27
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

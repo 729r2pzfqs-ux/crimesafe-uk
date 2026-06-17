@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013813", "neighbourhood_name": "Cricket Green", "force_id": "metropolitan", "lat": "51.3976", "lng": "-0.160595", "population": 12843, "total_crimes": 302, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 16, "drugs": 20, "other-theft": 21, "public-order": 17, "robbery": 3, "shoplifting": 1, "theft-from-the-person": 4, "vehicle-crime": 18, "violent-crime": 111, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013813",
+  "neighbourhood_name": "Cricket Green",
+  "force_id": "metropolitan",
+  "lat": "51.3976",
+  "lng": "-0.160595",
+  "population": 12269,
+  "total_crimes": 302,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 16,
+    "drugs": 20,
+    "other-theft": 21,
+    "public-order": 17,
+    "robbery": 3,
+    "shoplifting": 1,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 18,
+    "violent-crime": 111,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

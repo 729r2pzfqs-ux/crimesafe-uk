@@ -1,1 +1,28 @@
-{"neighbourhood_id": "YA12", "neighbourhood_name": "Fant &amp; Oakwood", "force_id": "kent", "lat": "51.2658", "lng": "0.501941", "population": 12098, "total_crimes": 327, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 34, "drugs": 1, "other-theft": 22, "public-order": 7, "robbery": 1, "shoplifting": 29, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 148, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA12",
+  "neighbourhood_name": "Fant &amp; Oakwood",
+  "force_id": "kent",
+  "lat": "51.2658",
+  "lng": "0.501941",
+  "population": 12476,
+  "total_crimes": 327,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 34,
+    "drugs": 1,
+    "other-theft": 22,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 29,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 148,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

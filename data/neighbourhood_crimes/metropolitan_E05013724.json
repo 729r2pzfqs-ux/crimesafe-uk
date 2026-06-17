@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013724", "neighbourhood_name": "Hither Green", "force_id": "metropolitan", "lat": "51.4438", "lng": "0.00180296", "population": 19902, "total_crimes": 629, "categories": {"anti-social-behaviour": 95, "bicycle-theft": 6, "burglary": 22, "criminal-damage-arson": 41, "drugs": 33, "other-theft": 29, "possession-of-weapons": 6, "public-order": 41, "robbery": 18, "shoplifting": 23, "theft-from-the-person": 18, "vehicle-crime": 51, "violent-crime": 238, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013724",
+  "neighbourhood_name": "Hither Green",
+  "force_id": "metropolitan",
+  "lat": "51.4438",
+  "lng": "0.00180296",
+  "population": 20459,
+  "total_crimes": 629,
+  "categories": {
+    "anti-social-behaviour": 95,
+    "bicycle-theft": 6,
+    "burglary": 22,
+    "criminal-damage-arson": 41,
+    "drugs": 33,
+    "other-theft": 29,
+    "possession-of-weapons": 6,
+    "public-order": 41,
+    "robbery": 18,
+    "shoplifting": 23,
+    "theft-from-the-person": 18,
+    "vehicle-crime": 51,
+    "violent-crime": 238,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "BU10", "neighbourhood_name": "Whittlefield &amp; Ightenhill", "force_id": "lancashire", "lat": "53.8056", "lng": "-2.28228", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 5, "burglary": 5, "criminal-damage-arson": 5, "other-theft": 4, "possession-of-weapons": 1, "robbery": 1, "shoplifting": 4, "vehicle-crime": 6, "violent-crime": 33, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU10",
+  "neighbourhood_name": "Whittlefield &amp; Ightenhill",
+  "force_id": "lancashire",
+  "lat": "53.8056",
+  "lng": "-2.28228",
+  "population": 5620,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 5,
+    "criminal-damage-arson": 5,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 6,
+    "violent-crime": 33,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

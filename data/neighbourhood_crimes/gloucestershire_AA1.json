@@ -1,1 +1,14 @@
-{"neighbourhood_id": "AA1", "neighbourhood_name": "Hesters Way", "force_id": "gloucestershire", "lat": "51.9107", "lng": "-2.1134", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AA1",
+  "neighbourhood_name": "Hesters Way",
+  "force_id": "gloucestershire",
+  "lat": "51.9107",
+  "lng": "-2.1134",
+  "population": 8272,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

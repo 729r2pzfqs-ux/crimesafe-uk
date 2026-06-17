@@ -1,1 +1,18 @@
-{"neighbourhood_id": "GSW35", "neighbourhood_name": "Dolgellau North", "force_id": "north-wales", "lat": "52.7289", "lng": "-3.89411", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW35",
+  "neighbourhood_name": "Dolgellau North",
+  "force_id": "north-wales",
+  "lat": "52.7289",
+  "lng": "-3.89411",
+  "population": 1185,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "NL57", "neighbourhood_name": "Mountsorrel", "force_id": "leicestershire", "lat": "52.7308", "lng": "-1.14603", "population": 12098, "total_crimes": 69, "categories": {"anti-social-behaviour": 14, "criminal-damage-arson": 16, "other-theft": 1, "public-order": 4, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 29, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NL57",
+  "neighbourhood_name": "Mountsorrel",
+  "force_id": "leicestershire",
+  "lat": "52.7308",
+  "lng": "-1.14603",
+  "population": 9241,
+  "total_crimes": 69,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "criminal-damage-arson": 16,
+    "other-theft": 1,
+    "public-order": 4,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 29,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

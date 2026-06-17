@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E6", "neighbourhood_name": "Newcastle Central", "force_id": "northumbria", "lat": "54.9751", "lng": "-1.60746", "population": 12098, "total_crimes": 1055, "categories": {"anti-social-behaviour": 246, "bicycle-theft": 9, "burglary": 36, "criminal-damage-arson": 44, "drugs": 33, "other-theft": 53, "possession-of-weapons": 10, "public-order": 68, "robbery": 20, "shoplifting": 182, "theft-from-the-person": 24, "vehicle-crime": 27, "violent-crime": 294, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E6",
+  "neighbourhood_name": "Newcastle Central",
+  "force_id": "northumbria",
+  "lat": "54.9751",
+  "lng": "-1.60746",
+  "population": 16210,
+  "total_crimes": 1055,
+  "categories": {
+    "anti-social-behaviour": 246,
+    "bicycle-theft": 9,
+    "burglary": 36,
+    "criminal-damage-arson": 44,
+    "drugs": 33,
+    "other-theft": 53,
+    "possession-of-weapons": 10,
+    "public-order": 68,
+    "robbery": 20,
+    "shoplifting": 182,
+    "theft-from-the-person": 24,
+    "vehicle-crime": 27,
+    "violent-crime": 294,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

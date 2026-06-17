@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011240N", "neighbourhood_name": "Clementswood", "force_id": "metropolitan", "lat": "51.5548", "lng": "0.0800307", "population": 12098, "total_crimes": 1080, "categories": {"anti-social-behaviour": 213, "bicycle-theft": 5, "burglary": 31, "criminal-damage-arson": 64, "drugs": 54, "other-theft": 76, "possession-of-weapons": 4, "public-order": 63, "robbery": 33, "shoplifting": 48, "theft-from-the-person": 100, "vehicle-crime": 79, "violent-crime": 295, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011240N",
+  "neighbourhood_name": "Clementswood",
+  "force_id": "metropolitan",
+  "lat": "51.5548",
+  "lng": "0.0800307",
+  "population": 14573,
+  "total_crimes": 1080,
+  "categories": {
+    "anti-social-behaviour": 213,
+    "bicycle-theft": 5,
+    "burglary": 31,
+    "criminal-damage-arson": 64,
+    "drugs": 54,
+    "other-theft": 76,
+    "possession-of-weapons": 4,
+    "public-order": 63,
+    "robbery": 33,
+    "shoplifting": 48,
+    "theft-from-the-person": 100,
+    "vehicle-crime": 79,
+    "violent-crime": 295,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 74.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

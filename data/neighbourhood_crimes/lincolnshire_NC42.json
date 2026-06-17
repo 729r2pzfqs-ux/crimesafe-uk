@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC42", "neighbourhood_name": "Grantham Town West", "force_id": "lincolnshire", "lat": "52.9047", "lng": "-0.655243", "population": 12098, "total_crimes": 342, "categories": {"anti-social-behaviour": 60, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 23, "drugs": 4, "other-theft": 12, "possession-of-weapons": 3, "public-order": 50, "robbery": 2, "shoplifting": 67, "theft-from-the-person": 1, "vehicle-crime": 14, "violent-crime": 89, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC42",
+  "neighbourhood_name": "Grantham Town West",
+  "force_id": "lincolnshire",
+  "lat": "52.9047",
+  "lng": "-0.655243",
+  "population": 17769,
+  "total_crimes": 342,
+  "categories": {
+    "anti-social-behaviour": 60,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 23,
+    "drugs": 4,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 50,
+    "robbery": 2,
+    "shoplifting": 67,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 14,
+    "violent-crime": 89,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

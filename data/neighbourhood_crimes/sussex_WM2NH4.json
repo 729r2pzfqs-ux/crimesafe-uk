@@ -1,1 +1,20 @@
-{"neighbourhood_id": "WM2NH4", "neighbourhood_name": "Bolney, Albourne, Warninglid, Pyecombe and Poynings", "force_id": "sussex", "lat": "50.9542", "lng": "-0.191219", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WM2NH4",
+  "neighbourhood_name": "Bolney, Albourne, Warninglid, Pyecombe and Poynings",
+  "force_id": "sussex",
+  "lat": "50.9542",
+  "lng": "-0.191219",
+  "population": 2982,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

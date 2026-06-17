@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05009992", "neighbourhood_name": "The Nedge", "force_id": "west-mercia", "lat": "52.666", "lng": "-2.43014", "population": 12098, "total_crimes": 162, "categories": {"anti-social-behaviour": 16, "burglary": 2, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 8, "possession-of-weapons": 2, "public-order": 14, "robbery": 2, "shoplifting": 34, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 65, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009992",
+  "neighbourhood_name": "The Nedge",
+  "force_id": "west-mercia",
+  "lat": "52.666",
+  "lng": "-2.43014",
+  "population": 9633,
+  "total_crimes": 162,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 34,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 65,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

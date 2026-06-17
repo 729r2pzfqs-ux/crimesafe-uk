@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EP4", "neighbourhood_name": "Winshill &amp; Stapenhill", "force_id": "staffordshire", "lat": "52.7977", "lng": "-1.61311", "population": 12098, "total_crimes": 217, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 11, "drugs": 9, "other-theft": 12, "possession-of-weapons": 3, "public-order": 21, "robbery": 3, "shoplifting": 33, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 78, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EP4",
+  "neighbourhood_name": "Winshill &amp; Stapenhill",
+  "force_id": "staffordshire",
+  "lat": "52.7977",
+  "lng": "-1.61311",
+  "population": 21661,
+  "total_crimes": 217,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 11,
+    "drugs": 9,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 21,
+    "robbery": 3,
+    "shoplifting": 33,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 78,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013595N", "neighbourhood_name": "Noel Park", "force_id": "metropolitan", "lat": "51.5939", "lng": "-0.107468", "population": 12098, "total_crimes": 961, "categories": {"anti-social-behaviour": 235, "bicycle-theft": 7, "burglary": 25, "criminal-damage-arson": 33, "drugs": 48, "other-theft": 68, "possession-of-weapons": 10, "public-order": 66, "robbery": 30, "shoplifting": 62, "theft-from-the-person": 46, "vehicle-crime": 49, "violent-crime": 272, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013595N",
+  "neighbourhood_name": "Noel Park",
+  "force_id": "metropolitan",
+  "lat": "51.5939",
+  "lng": "-0.107468",
+  "population": 14905,
+  "total_crimes": 961,
+  "categories": {
+    "anti-social-behaviour": 235,
+    "bicycle-theft": 7,
+    "burglary": 25,
+    "criminal-damage-arson": 33,
+    "drugs": 48,
+    "other-theft": 68,
+    "possession-of-weapons": 10,
+    "public-order": 66,
+    "robbery": 30,
+    "shoplifting": 62,
+    "theft-from-the-person": 46,
+    "vehicle-crime": 49,
+    "violent-crime": 272,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 64.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

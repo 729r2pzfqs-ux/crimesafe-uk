@@ -1,1 +1,25 @@
-{"neighbourhood_id": "selby-south", "neighbourhood_name": "Selby (South)", "force_id": "north-yorkshire", "lat": "53.7723", "lng": "-1.04953", "population": 12098, "total_crimes": 55, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 4, "possession-of-weapons": 1, "public-order": 3, "shoplifting": 5, "vehicle-crime": 4, "violent-crime": 14, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "selby-south",
+  "neighbourhood_name": "Selby (South)",
+  "force_id": "north-yorkshire",
+  "lat": "53.7723",
+  "lng": "-1.04953",
+  "population": 26678,
+  "total_crimes": 55,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "shoplifting": 5,
+    "vehicle-crime": 4,
+    "violent-crime": 14,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

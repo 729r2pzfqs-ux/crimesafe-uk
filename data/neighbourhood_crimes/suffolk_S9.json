@@ -1,1 +1,29 @@
-{"neighbourhood_id": "S9", "neighbourhood_name": "Westgate and St. Margaret&rsquo;s", "force_id": "suffolk", "lat": "52.0694", "lng": "1.15147", "population": 12098, "total_crimes": 362, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 4, "burglary": 9, "criminal-damage-arson": 23, "drugs": 5, "other-theft": 25, "possession-of-weapons": 6, "public-order": 20, "robbery": 3, "shoplifting": 103, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 135, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S9",
+  "neighbourhood_name": "Westgate and St. Margaret&rsquo;s",
+  "force_id": "suffolk",
+  "lat": "52.0694",
+  "lng": "1.15147",
+  "population": 19001,
+  "total_crimes": 362,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 4,
+    "burglary": 9,
+    "criminal-damage-arson": 23,
+    "drugs": 5,
+    "other-theft": 25,
+    "possession-of-weapons": 6,
+    "public-order": 20,
+    "robbery": 3,
+    "shoplifting": 103,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 135,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

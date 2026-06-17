@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013587", "neighbourhood_name": "Bruce Castle", "force_id": "metropolitan", "lat": "51.6013", "lng": "-0.0771606", "population": 5314, "total_crimes": 1010, "categories": {"anti-social-behaviour": 219, "bicycle-theft": 6, "burglary": 32, "criminal-damage-arson": 46, "drugs": 48, "other-theft": 64, "possession-of-weapons": 9, "public-order": 51, "robbery": 42, "shoplifting": 25, "theft-from-the-person": 60, "vehicle-crime": 80, "violent-crime": 320, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013587",
+  "neighbourhood_name": "Bruce Castle",
+  "force_id": "metropolitan",
+  "lat": "51.6013",
+  "lng": "-0.0771606",
+  "population": 12653,
+  "total_crimes": 1010,
+  "categories": {
+    "anti-social-behaviour": 219,
+    "bicycle-theft": 6,
+    "burglary": 32,
+    "criminal-damage-arson": 46,
+    "drugs": 48,
+    "other-theft": 64,
+    "possession-of-weapons": 9,
+    "public-order": 51,
+    "robbery": 42,
+    "shoplifting": 25,
+    "theft-from-the-person": 60,
+    "vehicle-crime": 80,
+    "violent-crime": 320,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 79.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

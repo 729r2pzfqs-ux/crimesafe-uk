@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-51", "neighbourhood_name": "City Centre", "force_id": "nottinghamshire", "lat": "52.9498", "lng": "-1.14415", "population": 12098, "total_crimes": 1551, "categories": {"anti-social-behaviour": 298, "bicycle-theft": 20, "burglary": 27, "criminal-damage-arson": 71, "drugs": 45, "other-theft": 98, "possession-of-weapons": 23, "public-order": 113, "robbery": 57, "shoplifting": 232, "theft-from-the-person": 44, "vehicle-crime": 36, "violent-crime": 464, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-51",
+  "neighbourhood_name": "City Centre",
+  "force_id": "nottinghamshire",
+  "lat": "52.9498",
+  "lng": "-1.14415",
+  "population": 17565,
+  "total_crimes": 1551,
+  "categories": {
+    "anti-social-behaviour": 298,
+    "bicycle-theft": 20,
+    "burglary": 27,
+    "criminal-damage-arson": 71,
+    "drugs": 45,
+    "other-theft": 98,
+    "possession-of-weapons": 23,
+    "public-order": 113,
+    "robbery": 57,
+    "shoplifting": 232,
+    "theft-from-the-person": 44,
+    "vehicle-crime": 36,
+    "violent-crime": 464,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 88.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

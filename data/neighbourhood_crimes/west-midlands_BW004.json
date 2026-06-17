@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BW004", "neighbourhood_name": "Harborne", "force_id": "west-midlands", "lat": "52.4644", "lng": "-1.96021", "population": 12098, "total_crimes": 277, "categories": {"anti-social-behaviour": 8, "burglary": 14, "criminal-damage-arson": 22, "drugs": 6, "other-theft": 13, "possession-of-weapons": 4, "public-order": 20, "robbery": 6, "shoplifting": 36, "theft-from-the-person": 4, "vehicle-crime": 19, "violent-crime": 118, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW004",
+  "neighbourhood_name": "Harborne",
+  "force_id": "west-midlands",
+  "lat": "52.4644",
+  "lng": "-1.96021",
+  "population": 28777,
+  "total_crimes": 277,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 14,
+    "criminal-damage-arson": 22,
+    "drugs": 6,
+    "other-theft": 13,
+    "possession-of-weapons": 4,
+    "public-order": 20,
+    "robbery": 6,
+    "shoplifting": 36,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 19,
+    "violent-crime": 118,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

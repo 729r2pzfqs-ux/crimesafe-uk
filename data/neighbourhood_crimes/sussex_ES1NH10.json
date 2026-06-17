@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ES1NH10", "neighbourhood_name": "Wallands Park", "force_id": "sussex", "lat": "50.8781", "lng": "0.00132764", "population": 12098, "total_crimes": 138, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 5, "possession-of-weapons": 1, "public-order": 11, "robbery": 1, "shoplifting": 14, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 42, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES1NH10",
+  "neighbourhood_name": "Wallands Park",
+  "force_id": "sussex",
+  "lat": "50.8781",
+  "lng": "0.00132764",
+  "population": 3189,
+  "total_crimes": 138,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 14,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 42,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

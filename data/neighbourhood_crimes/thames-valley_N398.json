@@ -1,1 +1,22 @@
-{"neighbourhood_id": "N398", "neighbourhood_name": "Fields", "force_id": "thames-valley", "lat": "51.3945", "lng": "-0.936349", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 2, "burglary": 1, "other-theft": 1, "public-order": 1, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N398",
+  "neighbourhood_name": "Fields",
+  "force_id": "thames-valley",
+  "lat": "51.3945",
+  "lng": "-0.936349",
+  "population": 13101,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

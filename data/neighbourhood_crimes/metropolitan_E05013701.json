@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013701", "neighbourhood_name": "Canonbury", "force_id": "metropolitan", "lat": "51.5423", "lng": "-0.0920403", "population": 12098, "total_crimes": 1663, "categories": {"anti-social-behaviour": 326, "bicycle-theft": 46, "burglary": 73, "criminal-damage-arson": 73, "drugs": 103, "other-theft": 123, "possession-of-weapons": 20, "public-order": 94, "robbery": 52, "shoplifting": 132, "theft-from-the-person": 187, "vehicle-crime": 56, "violent-crime": 362, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013701",
+  "neighbourhood_name": "Canonbury",
+  "force_id": "metropolitan",
+  "lat": "51.5423",
+  "lng": "-0.0920403",
+  "population": 13119,
+  "total_crimes": 1663,
+  "categories": {
+    "anti-social-behaviour": 326,
+    "bicycle-theft": 46,
+    "burglary": 73,
+    "criminal-damage-arson": 73,
+    "drugs": 103,
+    "other-theft": 123,
+    "possession-of-weapons": 20,
+    "public-order": 94,
+    "robbery": 52,
+    "shoplifting": 132,
+    "theft-from-the-person": 187,
+    "vehicle-crime": 56,
+    "violent-crime": 362,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 126.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

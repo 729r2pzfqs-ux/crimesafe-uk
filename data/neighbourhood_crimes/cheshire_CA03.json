@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CA03", "neighbourhood_name": "Congleton West and Town Centre", "force_id": "cheshire", "lat": "53.1666", "lng": "-2.22489", "population": "0", "total_crimes": 138, "categories": {"anti-social-behaviour": 19, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 10, "drugs": 3, "other-theft": 6, "possession-of-weapons": 3, "public-order": 15, "robbery": 3, "shoplifting": 11, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 55, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CA03",
+  "neighbourhood_name": "Congleton West and Town Centre",
+  "force_id": "cheshire",
+  "lat": "53.1666",
+  "lng": "-2.22489",
+  "population": 14249,
+  "total_crimes": 138,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "drugs": 3,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "robbery": 3,
+    "shoplifting": 11,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 55,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

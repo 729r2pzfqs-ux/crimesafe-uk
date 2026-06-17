@@ -1,1 +1,18 @@
-{"neighbourhood_id": "FSW01", "neighbourhood_name": "Brynford", "force_id": "north-wales", "lat": "53.2545", "lng": "-3.22085", "population": 12098, "total_crimes": 11, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW01",
+  "neighbourhood_name": "Brynford",
+  "force_id": "north-wales",
+  "lat": "53.2545",
+  "lng": "-3.22085",
+  "population": 2114,
+  "total_crimes": 11,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

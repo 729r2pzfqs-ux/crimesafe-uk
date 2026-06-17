@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LOCC1CAC", "neighbourhood_name": "Carlisle Central", "force_id": "cumbria", "lat": "54.9065", "lng": "-2.94067", "population": 12098, "total_crimes": 179, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 11, "drugs": 7, "other-theft": 7, "public-order": 14, "shoplifting": 37, "theft-from-the-person": 2, "vehicle-crime": 4, "violent-crime": 71, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCC1CAC",
+  "neighbourhood_name": "Carlisle Central",
+  "force_id": "cumbria",
+  "lat": "54.9065",
+  "lng": "-2.94067",
+  "population": 12893,
+  "total_crimes": 179,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 11,
+    "drugs": 7,
+    "other-theft": 7,
+    "public-order": 14,
+    "shoplifting": 37,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 71,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

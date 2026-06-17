@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014012", "neighbourhood_name": "Falconbrook", "force_id": "metropolitan", "lat": "51.4662", "lng": "-0.174203", "population": 12098, "total_crimes": 832, "categories": {"anti-social-behaviour": 213, "bicycle-theft": 23, "burglary": 58, "criminal-damage-arson": 35, "drugs": 23, "other-theft": 72, "possession-of-weapons": 4, "public-order": 46, "robbery": 13, "shoplifting": 51, "theft-from-the-person": 22, "vehicle-crime": 67, "violent-crime": 195, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014012",
+  "neighbourhood_name": "Falconbrook",
+  "force_id": "metropolitan",
+  "lat": "51.4662",
+  "lng": "-0.174203",
+  "population": 12132,
+  "total_crimes": 832,
+  "categories": {
+    "anti-social-behaviour": 213,
+    "bicycle-theft": 23,
+    "burglary": 58,
+    "criminal-damage-arson": 35,
+    "drugs": 23,
+    "other-theft": 72,
+    "possession-of-weapons": 4,
+    "public-order": 46,
+    "robbery": 13,
+    "shoplifting": 51,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 67,
+    "violent-crime": 195,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 68.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "osgoldcross", "neighbourhood_name": "Osgoldcross", "force_id": "north-yorkshire", "lat": "53.6754", "lng": "-1.15209", "population": 12098, "total_crimes": 4, "categories": {"violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "osgoldcross",
+  "neighbourhood_name": "Osgoldcross",
+  "force_id": "north-yorkshire",
+  "lat": "53.6754",
+  "lng": "-1.15209",
+  "population": 8820,
+  "total_crimes": 4,
+  "categories": {
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,17 @@
-{"neighbourhood_id": "PE9", "neighbourhood_name": "Fence &amp; Higham", "force_id": "lancashire", "lat": "53.8265", "lng": "-2.27443", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 2, "other-theft": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PE9",
+  "neighbourhood_name": "Fence &amp; Higham",
+  "force_id": "lancashire",
+  "lat": "53.8265",
+  "lng": "-2.27443",
+  "population": 3016,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "other-theft": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

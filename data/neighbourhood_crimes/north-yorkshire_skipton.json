@@ -1,1 +1,18 @@
-{"neighbourhood_id": "skipton", "neighbourhood_name": "Skipton", "force_id": "north-yorkshire", "lat": "53.9777", "lng": "-1.99947", "population": 12098, "total_crimes": 4, "categories": {"criminal-damage-arson": 1, "public-order": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "skipton",
+  "neighbourhood_name": "Skipton",
+  "force_id": "north-yorkshire",
+  "lat": "53.9777",
+  "lng": "-1.99947",
+  "population": 14626,
+  "total_crimes": 4,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

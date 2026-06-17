@@ -1,1 +1,23 @@
-{"neighbourhood_id": "A021", "neighbourhood_name": "Garnant", "force_id": "dyfed-powys", "lat": "51.804", "lng": "-3.90136", "population": 12098, "total_crimes": 34, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 3, "public-order": 1, "violent-crime": 23, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A021",
+  "neighbourhood_name": "Garnant",
+  "force_id": "dyfed-powys",
+  "lat": "51.804",
+  "lng": "-3.90136",
+  "population": 2167,
+  "total_crimes": 34,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 1,
+    "violent-crime": 23,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

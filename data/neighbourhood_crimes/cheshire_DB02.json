@@ -1,1 +1,26 @@
-{"neighbourhood_id": "DB02", "neighbourhood_name": "Latchford East", "force_id": "cheshire", "lat": "53.384", "lng": "-2.559", "population": "0", "total_crimes": 137, "categories": {"anti-social-behaviour": 14, "burglary": 1, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 7, "possession-of-weapons": 2, "public-order": 11, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 81, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DB02",
+  "neighbourhood_name": "Latchford East",
+  "force_id": "cheshire",
+  "lat": "53.384",
+  "lng": "-2.559",
+  "population": 6664,
+  "total_crimes": 137,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 7,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 81,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

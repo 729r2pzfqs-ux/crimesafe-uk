@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ZC19", "neighbourhood_name": "Norman", "force_id": "kent", "lat": "51.1333", "lng": "0.869436", "population": 12098, "total_crimes": 260, "categories": {"anti-social-behaviour": 39, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 23, "drugs": 15, "other-theft": 14, "possession-of-weapons": 6, "public-order": 17, "robbery": 3, "shoplifting": 29, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 95, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC19",
+  "neighbourhood_name": "Norman",
+  "force_id": "kent",
+  "lat": "51.1333",
+  "lng": "0.869436",
+  "population": 3140,
+  "total_crimes": 260,
+  "categories": {
+    "anti-social-behaviour": 39,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 23,
+    "drugs": 15,
+    "other-theft": 14,
+    "possession-of-weapons": 6,
+    "public-order": 17,
+    "robbery": 3,
+    "shoplifting": 29,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 95,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 82.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

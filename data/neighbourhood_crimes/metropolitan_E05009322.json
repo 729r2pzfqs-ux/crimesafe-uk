@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009322", "neighbourhood_name": "Bromley South", "force_id": "metropolitan", "lat": "51.5209", "lng": "-0.0175615", "population": 12098, "total_crimes": 1319, "categories": {"anti-social-behaviour": 278, "bicycle-theft": 12, "burglary": 57, "criminal-damage-arson": 55, "drugs": 50, "other-theft": 82, "possession-of-weapons": 13, "public-order": 76, "robbery": 39, "shoplifting": 103, "theft-from-the-person": 75, "vehicle-crime": 123, "violent-crime": 336, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009322",
+  "neighbourhood_name": "Bromley South",
+  "force_id": "metropolitan",
+  "lat": "51.5209",
+  "lng": "-0.0175615",
+  "population": 3741,
+  "total_crimes": 1319,
+  "categories": {
+    "anti-social-behaviour": 278,
+    "bicycle-theft": 12,
+    "burglary": 57,
+    "criminal-damage-arson": 55,
+    "drugs": 50,
+    "other-theft": 82,
+    "possession-of-weapons": 13,
+    "public-order": 76,
+    "robbery": 39,
+    "shoplifting": 103,
+    "theft-from-the-person": 75,
+    "vehicle-crime": 123,
+    "violent-crime": 336,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 352.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

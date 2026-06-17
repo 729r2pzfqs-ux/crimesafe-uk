@@ -1,1 +1,27 @@
-{"neighbourhood_id": "KA04", "neighbourhood_name": "Mersey", "force_id": "cheshire", "lat": "53.3388", "lng": "-2.74187", "population": "0", "total_crimes": 116, "categories": {"anti-social-behaviour": 11, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 8, "drugs": 8, "other-theft": 10, "possession-of-weapons": 1, "public-order": 17, "robbery": 2, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 51}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KA04",
+  "neighbourhood_name": "Mersey",
+  "force_id": "cheshire",
+  "lat": "53.3388",
+  "lng": "-2.74187",
+  "population": 5308,
+  "total_crimes": 116,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 8,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 17,
+    "robbery": 2,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 51
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

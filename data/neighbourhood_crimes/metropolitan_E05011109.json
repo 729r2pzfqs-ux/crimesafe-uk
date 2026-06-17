@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011109", "neighbourhood_name": "Old Kent Road", "force_id": "metropolitan", "lat": "51.4835", "lng": "-0.0653773", "population": 15947, "total_crimes": 1197, "categories": {"anti-social-behaviour": 278, "bicycle-theft": 27, "burglary": 53, "criminal-damage-arson": 57, "drugs": 49, "other-theft": 92, "possession-of-weapons": 5, "public-order": 61, "robbery": 45, "shoplifting": 31, "theft-from-the-person": 110, "vehicle-crime": 75, "violent-crime": 300, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011109",
+  "neighbourhood_name": "Old Kent Road",
+  "force_id": "metropolitan",
+  "lat": "51.4835",
+  "lng": "-0.0653773",
+  "population": 14175,
+  "total_crimes": 1197,
+  "categories": {
+    "anti-social-behaviour": 278,
+    "bicycle-theft": 27,
+    "burglary": 53,
+    "criminal-damage-arson": 57,
+    "drugs": 49,
+    "other-theft": 92,
+    "possession-of-weapons": 5,
+    "public-order": 61,
+    "robbery": 45,
+    "shoplifting": 31,
+    "theft-from-the-person": 110,
+    "vehicle-crime": 75,
+    "violent-crime": 300,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 84.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

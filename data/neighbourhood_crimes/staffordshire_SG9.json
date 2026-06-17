@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SG9", "neighbourhood_name": "Hanley Park &amp; Shelton", "force_id": "staffordshire", "lat": "53.0126", "lng": "-2.18298", "population": 12098, "total_crimes": 645, "categories": {"anti-social-behaviour": 119, "bicycle-theft": 10, "burglary": 29, "criminal-damage-arson": 48, "drugs": 31, "other-theft": 40, "possession-of-weapons": 11, "public-order": 67, "robbery": 14, "shoplifting": 40, "theft-from-the-person": 3, "vehicle-crime": 24, "violent-crime": 197, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SG9",
+  "neighbourhood_name": "Hanley Park &amp; Shelton",
+  "force_id": "staffordshire",
+  "lat": "53.0126",
+  "lng": "-2.18298",
+  "population": 13667,
+  "total_crimes": 645,
+  "categories": {
+    "anti-social-behaviour": 119,
+    "bicycle-theft": 10,
+    "burglary": 29,
+    "criminal-damage-arson": 48,
+    "drugs": 31,
+    "other-theft": 40,
+    "possession-of-weapons": 11,
+    "public-order": 67,
+    "robbery": 14,
+    "shoplifting": 40,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 24,
+    "violent-crime": 197,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

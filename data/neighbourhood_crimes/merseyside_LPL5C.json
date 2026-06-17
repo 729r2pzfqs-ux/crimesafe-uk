@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL5C", "neighbourhood_name": "City Centre North", "force_id": "merseyside", "lat": "53.4071", "lng": "-2.98878", "population": 12098, "total_crimes": 1799, "categories": {"anti-social-behaviour": 131, "bicycle-theft": 29, "burglary": 39, "criminal-damage-arson": 76, "drugs": 310, "other-theft": 123, "possession-of-weapons": 12, "public-order": 177, "robbery": 15, "shoplifting": 235, "theft-from-the-person": 46, "vehicle-crime": 20, "violent-crime": 525, "other-crime": 61}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL5C",
+  "neighbourhood_name": "City Centre North",
+  "force_id": "merseyside",
+  "lat": "53.4071",
+  "lng": "-2.98878",
+  "population": 3697,
+  "total_crimes": 1799,
+  "categories": {
+    "anti-social-behaviour": 131,
+    "bicycle-theft": 29,
+    "burglary": 39,
+    "criminal-damage-arson": 76,
+    "drugs": 310,
+    "other-theft": 123,
+    "possession-of-weapons": 12,
+    "public-order": 177,
+    "robbery": 15,
+    "shoplifting": 235,
+    "theft-from-the-person": 46,
+    "vehicle-crime": 20,
+    "violent-crime": 525,
+    "other-crime": 61
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 486.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

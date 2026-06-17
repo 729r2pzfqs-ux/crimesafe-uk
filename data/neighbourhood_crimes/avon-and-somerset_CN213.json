@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CN213", "neighbourhood_name": "Filton", "force_id": "avon-and-somerset", "lat": "51.5175", "lng": "-2.56963", "population": "0", "total_crimes": 247, "categories": {"anti-social-behaviour": 28, "bicycle-theft": 3, "burglary": 7, "criminal-damage-arson": 21, "drugs": 8, "other-theft": 6, "possession-of-weapons": 2, "public-order": 26, "robbery": 6, "shoplifting": 30, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 96, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CN213",
+  "neighbourhood_name": "Filton",
+  "force_id": "avon-and-somerset",
+  "lat": "51.5175",
+  "lng": "-2.56963",
+  "population": 15853,
+  "total_crimes": 247,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "bicycle-theft": 3,
+    "burglary": 7,
+    "criminal-damage-arson": 21,
+    "drugs": 8,
+    "other-theft": 6,
+    "possession-of-weapons": 2,
+    "public-order": 26,
+    "robbery": 6,
+    "shoplifting": 30,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 96,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

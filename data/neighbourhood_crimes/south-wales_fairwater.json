@@ -1,1 +1,28 @@
-{"neighbourhood_id": "fairwater", "neighbourhood_name": "Fairwater", "force_id": "south-wales", "lat": "51.4947", "lng": "-3.2442", "population": 12098, "total_crimes": 248, "categories": {"anti-social-behaviour": 27, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 22, "drugs": 10, "other-theft": 6, "possession-of-weapons": 4, "public-order": 29, "robbery": 4, "shoplifting": 23, "vehicle-crime": 19, "violent-crime": 79, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "fairwater",
+  "neighbourhood_name": "Fairwater",
+  "force_id": "south-wales",
+  "lat": "51.4947",
+  "lng": "-3.2442",
+  "population": 13074,
+  "total_crimes": 248,
+  "categories": {
+    "anti-social-behaviour": 27,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 22,
+    "drugs": 10,
+    "other-theft": 6,
+    "possession-of-weapons": 4,
+    "public-order": 29,
+    "robbery": 4,
+    "shoplifting": 23,
+    "vehicle-crime": 19,
+    "violent-crime": 79,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

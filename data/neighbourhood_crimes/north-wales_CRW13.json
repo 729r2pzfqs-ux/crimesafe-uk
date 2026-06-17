@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CRW13", "neighbourhood_name": "Llanarmon-yn-Ial/Llandegla", "force_id": "north-wales", "lat": "53.0898", "lng": "-3.19378", "population": 12098, "total_crimes": 3, "categories": {"other-theft": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CRW13",
+  "neighbourhood_name": "Llanarmon-yn-Ial/Llandegla",
+  "force_id": "north-wales",
+  "lat": "53.0898",
+  "lng": "-3.19378",
+  "population": 2519,
+  "total_crimes": 3,
+  "categories": {
+    "other-theft": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

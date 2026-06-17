@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BS143", "neighbourhood_name": "Windmill", "force_id": "avon-and-somerset", "lat": "51.4405", "lng": "-2.58628", "population": "0", "total_crimes": 835, "categories": {"anti-social-behaviour": 170, "bicycle-theft": 21, "burglary": 32, "criminal-damage-arson": 44, "drugs": 16, "other-theft": 73, "possession-of-weapons": 4, "public-order": 79, "robbery": 19, "shoplifting": 31, "theft-from-the-person": 4, "vehicle-crime": 49, "violent-crime": 282, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BS143",
+  "neighbourhood_name": "Windmill",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4405",
+  "lng": "-2.58628",
+  "population": 14696,
+  "total_crimes": 835,
+  "categories": {
+    "anti-social-behaviour": 170,
+    "bicycle-theft": 21,
+    "burglary": 32,
+    "criminal-damage-arson": 44,
+    "drugs": 16,
+    "other-theft": 73,
+    "possession-of-weapons": 4,
+    "public-order": 79,
+    "robbery": 19,
+    "shoplifting": 31,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 49,
+    "violent-crime": 282,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,14 @@
-{"neighbourhood_id": "GSW38", "neighbourhood_name": "Bryn-crug/Llanfihangel", "force_id": "north-wales", "lat": "52.6444", "lng": "-3.96042", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW38",
+  "neighbourhood_name": "Bryn-crug/Llanfihangel",
+  "force_id": "north-wales",
+  "lat": "52.6444",
+  "lng": "-3.96042",
+  "population": 2177,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

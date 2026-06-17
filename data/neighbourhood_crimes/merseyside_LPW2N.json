@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPW2N", "neighbourhood_name": "Claughton", "force_id": "merseyside", "lat": "53.3867", "lng": "-3.05897", "population": 12098, "total_crimes": 200, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 15, "drugs": 6, "other-theft": 7, "public-order": 18, "robbery": 5, "shoplifting": 30, "vehicle-crime": 16, "violent-crime": 75, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW2N",
+  "neighbourhood_name": "Claughton",
+  "force_id": "merseyside",
+  "lat": "53.3867",
+  "lng": "-3.05897",
+  "population": 14638,
+  "total_crimes": 200,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 15,
+    "drugs": 6,
+    "other-theft": 7,
+    "public-order": 18,
+    "robbery": 5,
+    "shoplifting": 30,
+    "vehicle-crime": 16,
+    "violent-crime": 75,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

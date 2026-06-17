@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013698", "neighbourhood_name": "Barnsbury", "force_id": "metropolitan", "lat": "51.5383", "lng": "-0.111496", "population": 12098, "total_crimes": 1882, "categories": {"anti-social-behaviour": 431, "bicycle-theft": 34, "burglary": 58, "criminal-damage-arson": 86, "drugs": 73, "other-theft": 171, "possession-of-weapons": 11, "public-order": 117, "robbery": 63, "shoplifting": 168, "theft-from-the-person": 205, "vehicle-crime": 61, "violent-crime": 386, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013698",
+  "neighbourhood_name": "Barnsbury",
+  "force_id": "metropolitan",
+  "lat": "51.5383",
+  "lng": "-0.111496",
+  "population": 13524,
+  "total_crimes": 1882,
+  "categories": {
+    "anti-social-behaviour": 431,
+    "bicycle-theft": 34,
+    "burglary": 58,
+    "criminal-damage-arson": 86,
+    "drugs": 73,
+    "other-theft": 171,
+    "possession-of-weapons": 11,
+    "public-order": 117,
+    "robbery": 63,
+    "shoplifting": 168,
+    "theft-from-the-person": 205,
+    "vehicle-crime": 61,
+    "violent-crime": 386,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 139.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

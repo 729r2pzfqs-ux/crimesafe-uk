@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014072", "neighbourhood_name": "Abbey Wood", "force_id": "metropolitan", "lat": "51.4885", "lng": "0.11274", "population": 16909, "total_crimes": 479, "categories": {"anti-social-behaviour": 110, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 37, "drugs": 29, "other-theft": 25, "possession-of-weapons": 4, "public-order": 17, "robbery": 9, "shoplifting": 24, "theft-from-the-person": 10, "vehicle-crime": 65, "violent-crime": 128, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014072",
+  "neighbourhood_name": "Abbey Wood",
+  "force_id": "metropolitan",
+  "lat": "51.4885",
+  "lng": "0.11274",
+  "population": 16906,
+  "total_crimes": 479,
+  "categories": {
+    "anti-social-behaviour": 110,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 37,
+    "drugs": 29,
+    "other-theft": 25,
+    "possession-of-weapons": 4,
+    "public-order": 17,
+    "robbery": 9,
+    "shoplifting": 24,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 65,
+    "violent-crime": 128,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

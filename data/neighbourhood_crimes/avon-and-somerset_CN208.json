@@ -1,1 +1,17 @@
-{"neighbourhood_id": "CN208", "neighbourhood_name": "Chipping Sodbury", "force_id": "avon-and-somerset", "lat": "51.5579", "lng": "-2.34826", "population": "0", "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CN208",
+  "neighbourhood_name": "Chipping Sodbury",
+  "force_id": "avon-and-somerset",
+  "lat": "51.5579",
+  "lng": "-2.34826",
+  "population": 10731,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

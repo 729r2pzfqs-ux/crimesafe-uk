@@ -1,1 +1,25 @@
-{"neighbourhood_id": "RO4", "neighbourhood_name": "Britannia &amp; Lee Mill", "force_id": "lancashire", "lat": "53.6883", "lng": "-2.19339", "population": 12098, "total_crimes": 54, "categories": {"anti-social-behaviour": 8, "burglary": 4, "criminal-damage-arson": 3, "other-theft": 5, "public-order": 1, "robbery": 1, "shoplifting": 10, "vehicle-crime": 1, "violent-crime": 20, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO4",
+  "neighbourhood_name": "Britannia &amp; Lee Mill",
+  "force_id": "lancashire",
+  "lat": "53.6883",
+  "lng": "-2.19339",
+  "population": 6742,
+  "total_crimes": 54,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 4,
+    "criminal-damage-arson": 3,
+    "other-theft": 5,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 1,
+    "violent-crime": 20,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

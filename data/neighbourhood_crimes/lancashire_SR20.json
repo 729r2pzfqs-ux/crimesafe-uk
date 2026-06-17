@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SR20", "neighbourhood_name": "Seven Stars", "force_id": "lancashire", "lat": "53.6813", "lng": "-2.71618", "population": 12098, "total_crimes": 106, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 4, "public-order": 7, "shoplifting": 9, "vehicle-crime": 1, "violent-crime": 57, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR20",
+  "neighbourhood_name": "Seven Stars",
+  "force_id": "lancashire",
+  "lat": "53.6813",
+  "lng": "-2.71618",
+  "population": 4080,
+  "total_crimes": 106,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 7,
+    "shoplifting": 9,
+    "vehicle-crime": 1,
+    "violent-crime": 57,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

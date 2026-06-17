@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SR21", "neighbourhood_name": "St Ambrose", "force_id": "lancashire", "lat": "53.6945", "lng": "-2.68662", "population": 12098, "total_crimes": 173, "categories": {"anti-social-behaviour": 30, "burglary": 8, "criminal-damage-arson": 12, "drugs": 3, "other-theft": 10, "public-order": 7, "robbery": 3, "shoplifting": 22, "vehicle-crime": 7, "violent-crime": 66, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR21",
+  "neighbourhood_name": "St Ambrose",
+  "force_id": "lancashire",
+  "lat": "53.6945",
+  "lng": "-2.68662",
+  "population": 3591,
+  "total_crimes": 173,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "burglary": 8,
+    "criminal-damage-arson": 12,
+    "drugs": 3,
+    "other-theft": 10,
+    "public-order": 7,
+    "robbery": 3,
+    "shoplifting": 22,
+    "vehicle-crime": 7,
+    "violent-crime": 66,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 48.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

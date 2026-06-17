@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013666", "neighbourhood_name": "King's Cross", "force_id": "metropolitan", "lat": "51.5322", "lng": "-0.125241", "population": 12098, "total_crimes": 2481, "categories": {"anti-social-behaviour": 483, "bicycle-theft": 48, "burglary": 84, "criminal-damage-arson": 90, "drugs": 107, "other-theft": 337, "possession-of-weapons": 12, "public-order": 142, "robbery": 95, "shoplifting": 188, "theft-from-the-person": 372, "vehicle-crime": 67, "violent-crime": 442, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013666",
+  "neighbourhood_name": "King's Cross",
+  "force_id": "metropolitan",
+  "lat": "51.5322",
+  "lng": "-0.125241",
+  "population": 9393,
+  "total_crimes": 2481,
+  "categories": {
+    "anti-social-behaviour": 483,
+    "bicycle-theft": 48,
+    "burglary": 84,
+    "criminal-damage-arson": 90,
+    "drugs": 107,
+    "other-theft": 337,
+    "possession-of-weapons": 12,
+    "public-order": 142,
+    "robbery": 95,
+    "shoplifting": 188,
+    "theft-from-the-person": 372,
+    "vehicle-crime": 67,
+    "violent-crime": 442,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 264.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

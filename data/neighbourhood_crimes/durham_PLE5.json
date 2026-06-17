@@ -1,1 +1,23 @@
-{"neighbourhood_id": "PLE5", "neighbourhood_name": "Peterlee (Shotton)", "force_id": "durham", "lat": "54.7567", "lng": "-1.38429", "population": 12098, "total_crimes": 54, "categories": {"anti-social-behaviour": 11, "burglary": 1, "criminal-damage-arson": 12, "other-theft": 4, "public-order": 3, "shoplifting": 7, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLE5",
+  "neighbourhood_name": "Peterlee (Shotton)",
+  "force_id": "durham",
+  "lat": "54.7567",
+  "lng": "-1.38429",
+  "population": 5010,
+  "total_crimes": 54,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 1,
+    "criminal-damage-arson": 12,
+    "other-theft": 4,
+    "public-order": 3,
+    "shoplifting": 7,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

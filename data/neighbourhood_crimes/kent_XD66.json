@@ -1,1 +1,27 @@
-{"neighbourhood_id": "XD66", "neighbourhood_name": "Maypole &amp; Leyton Cross", "force_id": "kent", "lat": "51.4327", "lng": "0.183662", "population": 12098, "total_crimes": 87, "categories": {"anti-social-behaviour": 16, "burglary": 4, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 7, "possession-of-weapons": 1, "public-order": 1, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 31, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD66",
+  "neighbourhood_name": "Maypole &amp; Leyton Cross",
+  "force_id": "kent",
+  "lat": "51.4327",
+  "lng": "0.183662",
+  "population": 4151,
+  "total_crimes": 87,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 4,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 31,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "A062", "neighbourhood_name": "Cross Hands", "force_id": "dyfed-powys", "lat": "51.7922", "lng": "-4.08569", "population": 12098, "total_crimes": 30, "categories": {"burglary": 1, "criminal-damage-arson": 2, "other-theft": 3, "possession-of-weapons": 2, "public-order": 1, "shoplifting": 3, "vehicle-crime": 1, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A062",
+  "neighbourhood_name": "Cross Hands",
+  "force_id": "dyfed-powys",
+  "lat": "51.7922",
+  "lng": "-4.08569",
+  "population": 2046,
+  "total_crimes": 30,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

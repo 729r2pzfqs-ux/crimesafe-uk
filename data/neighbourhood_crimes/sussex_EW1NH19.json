@@ -1,1 +1,24 @@
-{"neighbourhood_id": "EW1NH19", "neighbourhood_name": "Uckfield Central", "force_id": "sussex", "lat": "50.9715", "lng": "0.0933345", "population": 12098, "total_crimes": 58, "categories": {"anti-social-behaviour": 14, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 4, "possession-of-weapons": 2, "shoplifting": 11, "vehicle-crime": 2, "violent-crime": 21, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1NH19",
+  "neighbourhood_name": "Uckfield Central",
+  "force_id": "sussex",
+  "lat": "50.9715",
+  "lng": "0.0933345",
+  "population": 3112,
+  "total_crimes": 58,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "shoplifting": 11,
+    "vehicle-crime": 2,
+    "violent-crime": 21,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SGB", "neighbourhood_name": "Penkhull &amp; Stoke", "force_id": "staffordshire", "lat": "53.0019", "lng": "-2.19694", "population": 12098, "total_crimes": 428, "categories": {"anti-social-behaviour": 55, "bicycle-theft": 11, "burglary": 16, "criminal-damage-arson": 34, "drugs": 11, "other-theft": 29, "possession-of-weapons": 4, "public-order": 46, "robbery": 8, "shoplifting": 36, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 153, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SGB",
+  "neighbourhood_name": "Penkhull &amp; Stoke",
+  "force_id": "staffordshire",
+  "lat": "53.0019",
+  "lng": "-2.19694",
+  "population": 8741,
+  "total_crimes": 428,
+  "categories": {
+    "anti-social-behaviour": 55,
+    "bicycle-theft": 11,
+    "burglary": 16,
+    "criminal-damage-arson": 34,
+    "drugs": 11,
+    "other-theft": 29,
+    "possession-of-weapons": 4,
+    "public-order": 46,
+    "robbery": 8,
+    "shoplifting": 36,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 153,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 49.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

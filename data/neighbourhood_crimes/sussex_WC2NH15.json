@@ -1,1 +1,18 @@
-{"neighbourhood_id": "WC2NH15", "neighbourhood_name": "Sidlesham", "force_id": "sussex", "lat": "50.7681", "lng": "-0.793637", "population": 12098, "total_crimes": 4, "categories": {"burglary": 1, "criminal-damage-arson": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC2NH15",
+  "neighbourhood_name": "Sidlesham",
+  "force_id": "sussex",
+  "lat": "50.7681",
+  "lng": "-0.793637",
+  "population": 1241,
+  "total_crimes": 4,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

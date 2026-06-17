@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LA21", "neighbourhood_name": "Scale Hall", "force_id": "lancashire", "lat": "54.058", "lng": "-2.82238", "population": 12098, "total_crimes": 154, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 10, "drugs": 5, "other-theft": 13, "public-order": 7, "robbery": 1, "shoplifting": 6, "vehicle-crime": 7, "violent-crime": 51, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA21",
+  "neighbourhood_name": "Scale Hall",
+  "force_id": "lancashire",
+  "lat": "54.058",
+  "lng": "-2.82238",
+  "population": 7831,
+  "total_crimes": 154,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 10,
+    "drugs": 5,
+    "other-theft": 13,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 6,
+    "vehicle-crime": 7,
+    "violent-crime": 51,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

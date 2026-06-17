@@ -1,1 +1,18 @@
-{"neighbourhood_id": "YD28", "neighbourhood_name": "Cranbrook, Sissinghurst &amp; Frittenden", "force_id": "kent", "lat": "51.1092", "lng": "0.559833", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "vehicle-crime": 2, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YD28",
+  "neighbourhood_name": "Cranbrook, Sissinghurst &amp; Frittenden",
+  "force_id": "kent",
+  "lat": "51.1092",
+  "lng": "0.559833",
+  "population": 7763,
+  "total_crimes": 5,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

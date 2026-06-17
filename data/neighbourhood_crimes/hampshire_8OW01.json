@@ -1,1 +1,17 @@
-{"neighbourhood_id": "8OW01", "neighbourhood_name": "Longmoor Rural inc. Liphook", "force_id": "hampshire", "lat": "51.1065", "lng": "-0.815399", "population": 12098, "total_crimes": 4, "categories": {"vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "8OW01",
+  "neighbourhood_name": "Longmoor Rural inc. Liphook",
+  "force_id": "hampshire",
+  "lat": "51.1065",
+  "lng": "-0.815399",
+  "population": 20100,
+  "total_crimes": 4,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

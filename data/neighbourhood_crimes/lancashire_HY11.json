@@ -1,1 +1,27 @@
-{"neighbourhood_id": "HY11", "neighbourhood_name": "Netherton", "force_id": "lancashire", "lat": "53.7898", "lng": "-2.39021", "population": 12098, "total_crimes": 105, "categories": {"anti-social-behaviour": 13, "burglary": 9, "criminal-damage-arson": 9, "drugs": 1, "other-theft": 6, "possession-of-weapons": 1, "public-order": 4, "shoplifting": 6, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 41, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY11",
+  "neighbourhood_name": "Netherton",
+  "force_id": "lancashire",
+  "lat": "53.7898",
+  "lng": "-2.39021",
+  "population": 4597,
+  "total_crimes": 105,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 9,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "shoplifting": 6,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 41,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

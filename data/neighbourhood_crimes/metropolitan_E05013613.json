@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013613", "neighbourhood_name": "Feltham North", "force_id": "metropolitan", "lat": "51.4574", "lng": "-0.408896", "population": 12098, "total_crimes": 324, "categories": {"anti-social-behaviour": 69, "burglary": 19, "criminal-damage-arson": 21, "drugs": 14, "other-theft": 15, "possession-of-weapons": 2, "public-order": 18, "robbery": 7, "shoplifting": 40, "theft-from-the-person": 7, "vehicle-crime": 10, "violent-crime": 97, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013613",
+  "neighbourhood_name": "Feltham North",
+  "force_id": "metropolitan",
+  "lat": "51.4574",
+  "lng": "-0.408896",
+  "population": 12392,
+  "total_crimes": 324,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "burglary": 19,
+    "criminal-damage-arson": 21,
+    "drugs": 14,
+    "other-theft": 15,
+    "possession-of-weapons": 2,
+    "public-order": 18,
+    "robbery": 7,
+    "shoplifting": 40,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 10,
+    "violent-crime": 97,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

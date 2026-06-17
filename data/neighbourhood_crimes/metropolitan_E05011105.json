@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011105", "neighbourhood_name": "Newington", "force_id": "metropolitan", "lat": "51.4853", "lng": "-0.102043", "population": 15618, "total_crimes": 1768, "categories": {"anti-social-behaviour": 329, "bicycle-theft": 38, "burglary": 43, "criminal-damage-arson": 66, "drugs": 84, "other-theft": 151, "possession-of-weapons": 24, "public-order": 88, "robbery": 81, "shoplifting": 164, "theft-from-the-person": 233, "vehicle-crime": 60, "violent-crime": 378, "other-crime": 29}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011105",
+  "neighbourhood_name": "Newington",
+  "force_id": "metropolitan",
+  "lat": "51.4853",
+  "lng": "-0.102043",
+  "population": 15891,
+  "total_crimes": 1768,
+  "categories": {
+    "anti-social-behaviour": 329,
+    "bicycle-theft": 38,
+    "burglary": 43,
+    "criminal-damage-arson": 66,
+    "drugs": 84,
+    "other-theft": 151,
+    "possession-of-weapons": 24,
+    "public-order": 88,
+    "robbery": 81,
+    "shoplifting": 164,
+    "theft-from-the-person": 233,
+    "vehicle-crime": 60,
+    "violent-crime": 378,
+    "other-crime": 29
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 111.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

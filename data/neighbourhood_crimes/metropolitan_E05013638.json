@@ -1,1 +1,25 @@
-{"neighbourhood_id": "E05013638", "neighbourhood_name": "Edgwarebury", "force_id": "metropolitan", "lat": "51.6331", "lng": "-0.269268", "population": 13958, "total_crimes": 78, "categories": {"anti-social-behaviour": 18, "burglary": 6, "criminal-damage-arson": 3, "drugs": 7, "other-theft": 5, "possession-of-weapons": 1, "public-order": 3, "robbery": 2, "vehicle-crime": 6, "violent-crime": 27}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013638",
+  "neighbourhood_name": "Edgwarebury",
+  "force_id": "metropolitan",
+  "lat": "51.6331",
+  "lng": "-0.269268",
+  "population": 14354,
+  "total_crimes": 78,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 6,
+    "criminal-damage-arson": 3,
+    "drugs": 7,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "robbery": 2,
+    "vehicle-crime": 6,
+    "violent-crime": 27
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

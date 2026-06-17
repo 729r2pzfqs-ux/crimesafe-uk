@@ -1,1 +1,16 @@
-{"neighbourhood_id": "E10", "neighbourhood_name": "Halesworth and Southwold", "force_id": "suffolk", "lat": "52.3426", "lng": "1.53746", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E10",
+  "neighbourhood_name": "Halesworth and Southwold",
+  "force_id": "suffolk",
+  "lat": "52.3426",
+  "lng": "1.53746",
+  "population": 17281,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BW024", "neighbourhood_name": "Soho Road", "force_id": "west-midlands", "lat": "52.5001", "lng": "-1.93796", "population": 12098, "total_crimes": 782, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 1, "burglary": 41, "criminal-damage-arson": 49, "drugs": 25, "other-theft": 41, "possession-of-weapons": 21, "public-order": 68, "robbery": 23, "shoplifting": 45, "theft-from-the-person": 22, "vehicle-crime": 62, "violent-crime": 341, "other-crime": 30}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW024",
+  "neighbourhood_name": "Soho Road",
+  "force_id": "west-midlands",
+  "lat": "52.5001",
+  "lng": "-1.93796",
+  "population": 10115,
+  "total_crimes": 782,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 1,
+    "burglary": 41,
+    "criminal-damage-arson": 49,
+    "drugs": 25,
+    "other-theft": 41,
+    "possession-of-weapons": 21,
+    "public-order": 68,
+    "robbery": 23,
+    "shoplifting": 45,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 62,
+    "violent-crime": 341,
+    "other-crime": 30
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

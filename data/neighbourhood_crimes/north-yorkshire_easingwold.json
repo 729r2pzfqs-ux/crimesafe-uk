@@ -1,1 +1,14 @@
-{"neighbourhood_id": "easingwold", "neighbourhood_name": "Easingwold", "force_id": "north-yorkshire", "lat": "54.0871", "lng": "-1.16256", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "easingwold",
+  "neighbourhood_name": "Easingwold",
+  "force_id": "north-yorkshire",
+  "lat": "54.0871",
+  "lng": "-1.16256",
+  "population": 14235,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

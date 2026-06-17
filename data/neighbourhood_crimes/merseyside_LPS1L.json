@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPS1L", "neighbourhood_name": "Sudell", "force_id": "merseyside", "lat": "53.5128", "lng": "-2.92735", "population": 12098, "total_crimes": 89, "categories": {"anti-social-behaviour": 3, "bicycle-theft": 1, "burglary": 5, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 4, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 4, "vehicle-crime": 3, "violent-crime": 44}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS1L",
+  "neighbourhood_name": "Sudell",
+  "force_id": "merseyside",
+  "lat": "53.5128",
+  "lng": "-2.92735",
+  "population": 10123,
+  "total_crimes": 89,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "bicycle-theft": 1,
+    "burglary": 5,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 4,
+    "vehicle-crime": 3,
+    "violent-crime": 44
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

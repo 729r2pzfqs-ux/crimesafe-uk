@@ -1,1 +1,14 @@
-{"neighbourhood_id": "E05009465", "neighbourhood_name": "Ledbury", "force_id": "west-mercia", "lat": "52.0857", "lng": "-2.47041", "population": 3267, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009465",
+  "neighbourhood_name": "Ledbury",
+  "force_id": "west-mercia",
+  "lat": "52.0857",
+  "lng": "-2.47041",
+  "population": 19293,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

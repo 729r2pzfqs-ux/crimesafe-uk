@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC10", "neighbourhood_name": "Lincoln Minster and Castle", "force_id": "lincolnshire", "lat": "53.2439", "lng": "-0.534413", "population": 12098, "total_crimes": 485, "categories": {"anti-social-behaviour": 107, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 20, "drugs": 14, "other-theft": 26, "possession-of-weapons": 5, "public-order": 46, "robbery": 3, "shoplifting": 50, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 191, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC10",
+  "neighbourhood_name": "Lincoln Minster and Castle",
+  "force_id": "lincolnshire",
+  "lat": "53.2439",
+  "lng": "-0.534413",
+  "population": 15232,
+  "total_crimes": 485,
+  "categories": {
+    "anti-social-behaviour": 107,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 20,
+    "drugs": 14,
+    "other-theft": 26,
+    "possession-of-weapons": 5,
+    "public-order": 46,
+    "robbery": 3,
+    "shoplifting": 50,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 191,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N453", "neighbourhood_name": "Oxford South East", "force_id": "thames-valley", "lat": "51.7233", "lng": "-1.2129", "population": 12098, "total_crimes": 337, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 6, "burglary": 6, "criminal-damage-arson": 17, "drugs": 20, "other-theft": 20, "possession-of-weapons": 1, "public-order": 25, "robbery": 2, "shoplifting": 50, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 140, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N453",
+  "neighbourhood_name": "Oxford South East",
+  "force_id": "thames-valley",
+  "lat": "51.7233",
+  "lng": "-1.2129",
+  "population": 24243,
+  "total_crimes": 337,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 6,
+    "burglary": 6,
+    "criminal-damage-arson": 17,
+    "drugs": 20,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 25,
+    "robbery": 2,
+    "shoplifting": 50,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 140,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

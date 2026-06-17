@@ -1,1 +1,23 @@
-{"neighbourhood_id": "DCW18", "neighbourhood_name": "Prestatyn East", "force_id": "north-wales", "lat": "53.34", "lng": "-3.38802", "population": 12098, "total_crimes": 73, "categories": {"anti-social-behaviour": 23, "criminal-damage-arson": 2, "other-theft": 9, "public-order": 7, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 23, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW18",
+  "neighbourhood_name": "Prestatyn East",
+  "force_id": "north-wales",
+  "lat": "53.34",
+  "lng": "-3.38802",
+  "population": 3845,
+  "total_crimes": 73,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "criminal-damage-arson": 2,
+    "other-theft": 9,
+    "public-order": 7,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 23,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

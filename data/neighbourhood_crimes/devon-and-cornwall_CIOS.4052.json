@@ -1,1 +1,14 @@
-{"neighbourhood_id": "CIOS.4052", "neighbourhood_name": "Camelford &amp; Tintagel", "force_id": "devon-and-cornwall", "lat": "50.6665", "lng": "-4.65057", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4052",
+  "neighbourhood_name": "Camelford &amp; Tintagel",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.6665",
+  "lng": "-4.65057",
+  "population": 13237,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

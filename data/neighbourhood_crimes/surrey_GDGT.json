@@ -1,1 +1,29 @@
-{"neighbourhood_id": "GDGT", "neighbourhood_name": "Guildford Town", "force_id": "surrey", "lat": "51.2362", "lng": "-0.58297", "population": 12098, "total_crimes": 375, "categories": {"anti-social-behaviour": 43, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 20, "drugs": 21, "other-theft": 23, "possession-of-weapons": 1, "public-order": 40, "robbery": 4, "shoplifting": 60, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 139, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDGT",
+  "neighbourhood_name": "Guildford Town",
+  "force_id": "surrey",
+  "lat": "51.2362",
+  "lng": "-0.58297",
+  "population": 15622,
+  "total_crimes": 375,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 20,
+    "drugs": 21,
+    "other-theft": 23,
+    "possession-of-weapons": 1,
+    "public-order": 40,
+    "robbery": 4,
+    "shoplifting": 60,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 139,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

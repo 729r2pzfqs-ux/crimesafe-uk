@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013886", "neighbourhood_name": "Endlebury", "force_id": "metropolitan", "lat": "51.627", "lng": "-0.00929587", "population": 12098, "total_crimes": 245, "categories": {"anti-social-behaviour": 58, "bicycle-theft": 1, "burglary": 9, "criminal-damage-arson": 9, "drugs": 12, "other-theft": 17, "public-order": 19, "robbery": 3, "shoplifting": 9, "theft-from-the-person": 3, "vehicle-crime": 30, "violent-crime": 71, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013886",
+  "neighbourhood_name": "Endlebury",
+  "force_id": "metropolitan",
+  "lat": "51.627",
+  "lng": "-0.00929587",
+  "population": 8008,
+  "total_crimes": 245,
+  "categories": {
+    "anti-social-behaviour": 58,
+    "bicycle-theft": 1,
+    "burglary": 9,
+    "criminal-damage-arson": 9,
+    "drugs": 12,
+    "other-theft": 17,
+    "public-order": 19,
+    "robbery": 3,
+    "shoplifting": 9,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 30,
+    "violent-crime": 71,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,14 @@
-{"neighbourhood_id": "A003", "neighbourhood_name": "Abergwili", "force_id": "dyfed-powys", "lat": "51.9148", "lng": "-4.24027", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A003",
+  "neighbourhood_name": "Abergwili",
+  "force_id": "dyfed-powys",
+  "lat": "51.9148",
+  "lng": "-4.24027",
+  "population": 2364,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

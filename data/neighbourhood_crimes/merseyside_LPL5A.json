@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL5A", "neighbourhood_name": "Brownlow Hill", "force_id": "merseyside", "lat": "53.4076", "lng": "-2.97046", "population": 12098, "total_crimes": 1997, "categories": {"anti-social-behaviour": 137, "bicycle-theft": 39, "burglary": 42, "criminal-damage-arson": 92, "drugs": 319, "other-theft": 143, "possession-of-weapons": 15, "public-order": 194, "robbery": 19, "shoplifting": 242, "theft-from-the-person": 46, "vehicle-crime": 31, "violent-crime": 614, "other-crime": 64}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL5A",
+  "neighbourhood_name": "Brownlow Hill",
+  "force_id": "merseyside",
+  "lat": "53.4076",
+  "lng": "-2.97046",
+  "population": 12200,
+  "total_crimes": 1997,
+  "categories": {
+    "anti-social-behaviour": 137,
+    "bicycle-theft": 39,
+    "burglary": 42,
+    "criminal-damage-arson": 92,
+    "drugs": 319,
+    "other-theft": 143,
+    "possession-of-weapons": 15,
+    "public-order": 194,
+    "robbery": 19,
+    "shoplifting": 242,
+    "theft-from-the-person": 46,
+    "vehicle-crime": 31,
+    "violent-crime": 614,
+    "other-crime": 64
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 163.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

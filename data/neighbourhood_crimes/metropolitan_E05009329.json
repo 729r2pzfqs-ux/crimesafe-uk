@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009329", "neighbourhood_name": "St Dunstan's", "force_id": "metropolitan", "lat": "51.5184", "lng": "-0.0418787", "population": 12098, "total_crimes": 1666, "categories": {"anti-social-behaviour": 334, "bicycle-theft": 22, "burglary": 68, "criminal-damage-arson": 73, "drugs": 82, "other-theft": 104, "possession-of-weapons": 20, "public-order": 117, "robbery": 60, "shoplifting": 118, "theft-from-the-person": 103, "vehicle-crime": 92, "violent-crime": 457, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009329",
+  "neighbourhood_name": "St Dunstan's",
+  "force_id": "metropolitan",
+  "lat": "51.5184",
+  "lng": "-0.0418787",
+  "population": 6307,
+  "total_crimes": 1666,
+  "categories": {
+    "anti-social-behaviour": 334,
+    "bicycle-theft": 22,
+    "burglary": 68,
+    "criminal-damage-arson": 73,
+    "drugs": 82,
+    "other-theft": 104,
+    "possession-of-weapons": 20,
+    "public-order": 117,
+    "robbery": 60,
+    "shoplifting": 118,
+    "theft-from-the-person": 103,
+    "vehicle-crime": 92,
+    "violent-crime": 457,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 264.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

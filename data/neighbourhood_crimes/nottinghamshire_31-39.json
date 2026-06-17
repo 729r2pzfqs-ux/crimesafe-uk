@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-39", "neighbourhood_name": "Bulwell Forest", "force_id": "nottinghamshire", "lat": "53.0025", "lng": "-1.18093", "population": 12098, "total_crimes": 446, "categories": {"anti-social-behaviour": 75, "bicycle-theft": 6, "burglary": 14, "criminal-damage-arson": 36, "drugs": 10, "other-theft": 25, "possession-of-weapons": 7, "public-order": 23, "robbery": 9, "shoplifting": 29, "theft-from-the-person": 1, "vehicle-crime": 17, "violent-crime": 164, "other-crime": 30}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-39",
+  "neighbourhood_name": "Bulwell Forest",
+  "force_id": "nottinghamshire",
+  "lat": "53.0025",
+  "lng": "-1.18093",
+  "population": 13352,
+  "total_crimes": 446,
+  "categories": {
+    "anti-social-behaviour": 75,
+    "bicycle-theft": 6,
+    "burglary": 14,
+    "criminal-damage-arson": 36,
+    "drugs": 10,
+    "other-theft": 25,
+    "possession-of-weapons": 7,
+    "public-order": 23,
+    "robbery": 9,
+    "shoplifting": 29,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 17,
+    "violent-crime": 164,
+    "other-crime": 30
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

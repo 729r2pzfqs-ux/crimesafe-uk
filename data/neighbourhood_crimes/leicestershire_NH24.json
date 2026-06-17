@@ -1,1 +1,21 @@
-{"neighbourhood_id": "NH24", "neighbourhood_name": "Fosse Villages", "force_id": "leicestershire", "lat": "52.5547", "lng": "-1.2812", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 1, "shoplifting": 2, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH24",
+  "neighbourhood_name": "Fosse Villages",
+  "force_id": "leicestershire",
+  "lat": "52.5547",
+  "lng": "-1.2812",
+  "population": 14222,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 1,
+    "shoplifting": 2,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

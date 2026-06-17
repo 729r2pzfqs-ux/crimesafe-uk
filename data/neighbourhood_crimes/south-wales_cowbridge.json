@@ -1,1 +1,21 @@
-{"neighbourhood_id": "cowbridge", "neighbourhood_name": "Cowbridge", "force_id": "south-wales", "lat": "51.4682", "lng": "-3.44887", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "public-order": 2, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cowbridge",
+  "neighbourhood_name": "Cowbridge",
+  "force_id": "south-wales",
+  "lat": "51.4682",
+  "lng": "-3.44887",
+  "population": 6573,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "public-order": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "XD14", "neighbourhood_name": "Joyden's Wood", "force_id": "kent", "lat": "51.4194", "lng": "0.166783", "population": 12098, "total_crimes": 44, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 1, "public-order": 2, "shoplifting": 4, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 14, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD14",
+  "neighbourhood_name": "Joyden's Wood",
+  "force_id": "kent",
+  "lat": "51.4194",
+  "lng": "0.166783",
+  "population": 4261,
+  "total_crimes": 44,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "shoplifting": 4,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 14,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

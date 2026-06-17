@@ -1,1 +1,16 @@
-{"neighbourhood_id": "LC24", "neighbourhood_name": "Wigan Central", "force_id": "greater-manchester", "lat": "53.5587", "lng": "-2.62722", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LC24",
+  "neighbourhood_name": "Wigan Central",
+  "force_id": "greater-manchester",
+  "lat": "53.5587",
+  "lng": "-2.62722",
+  "population": 12830,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

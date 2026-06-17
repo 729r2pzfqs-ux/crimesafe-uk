@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SPST", "neighbourhood_name": "Staines Town", "force_id": "surrey", "lat": "51.4406", "lng": "-0.513047", "population": 12098, "total_crimes": 261, "categories": {"anti-social-behaviour": 53, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 15, "drugs": 10, "other-theft": 12, "public-order": 24, "robbery": 2, "shoplifting": 47, "theft-from-the-person": 4, "vehicle-crime": 5, "violent-crime": 78, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPST",
+  "neighbourhood_name": "Staines Town",
+  "force_id": "surrey",
+  "lat": "51.4406",
+  "lng": "-0.513047",
+  "population": 1744,
+  "total_crimes": 261,
+  "categories": {
+    "anti-social-behaviour": 53,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 15,
+    "drugs": 10,
+    "other-theft": 12,
+    "public-order": 24,
+    "robbery": 2,
+    "shoplifting": 47,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 5,
+    "violent-crime": 78,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 149.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

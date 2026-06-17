@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013710", "neighbourhood_name": "St Mary's and St James'", "force_id": "metropolitan", "lat": "51.5382", "lng": "-0.0968796", "population": 12098, "total_crimes": 1799, "categories": {"anti-social-behaviour": 367, "bicycle-theft": 40, "burglary": 68, "criminal-damage-arson": 72, "drugs": 106, "other-theft": 137, "possession-of-weapons": 19, "public-order": 95, "robbery": 66, "shoplifting": 191, "theft-from-the-person": 173, "vehicle-crime": 59, "violent-crime": 389, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013710",
+  "neighbourhood_name": "St Mary's and St James'",
+  "force_id": "metropolitan",
+  "lat": "51.5382",
+  "lng": "-0.0968796",
+  "population": 12955,
+  "total_crimes": 1799,
+  "categories": {
+    "anti-social-behaviour": 367,
+    "bicycle-theft": 40,
+    "burglary": 68,
+    "criminal-damage-arson": 72,
+    "drugs": 106,
+    "other-theft": 137,
+    "possession-of-weapons": 19,
+    "public-order": 95,
+    "robbery": 66,
+    "shoplifting": 191,
+    "theft-from-the-person": 173,
+    "vehicle-crime": 59,
+    "violent-crime": 389,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 138.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

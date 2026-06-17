@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05010511", "neighbourhood_name": "Greenhill", "force_id": "west-mercia", "lat": "52.3873", "lng": "-2.23586", "population": 8144, "total_crimes": 310, "categories": {"anti-social-behaviour": 40, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 22, "drugs": 11, "other-theft": 13, "possession-of-weapons": 2, "public-order": 25, "robbery": 1, "shoplifting": 50, "vehicle-crime": 22, "violent-crime": 110, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05010511",
+  "neighbourhood_name": "Greenhill",
+  "force_id": "west-mercia",
+  "lat": "52.3873",
+  "lng": "-2.23586",
+  "population": 5590,
+  "total_crimes": 310,
+  "categories": {
+    "anti-social-behaviour": 40,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 22,
+    "drugs": 11,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 25,
+    "robbery": 1,
+    "shoplifting": 50,
+    "vehicle-crime": 22,
+    "violent-crime": 110,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

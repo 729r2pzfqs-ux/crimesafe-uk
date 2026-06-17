@@ -1,1 +1,14 @@
-{"neighbourhood_id": "F8", "neighbourhood_name": "East Tynedale", "force_id": "northumbria", "lat": "54.9959", "lng": "-1.89052", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "F8",
+  "neighbourhood_name": "East Tynedale",
+  "force_id": "northumbria",
+  "lat": "54.9959",
+  "lng": "-1.89052",
+  "population": 37384,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 22
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013693", "neighbourhood_name": "Town", "force_id": "metropolitan", "lat": "51.657", "lng": "-0.0794105", "population": 14089, "total_crimes": 441, "categories": {"anti-social-behaviour": 92, "bicycle-theft": 2, "burglary": 27, "criminal-damage-arson": 21, "drugs": 8, "other-theft": 34, "possession-of-weapons": 2, "public-order": 17, "robbery": 17, "shoplifting": 77, "theft-from-the-person": 14, "vehicle-crime": 36, "violent-crime": 92, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013693",
+  "neighbourhood_name": "Town",
+  "force_id": "metropolitan",
+  "lat": "51.657",
+  "lng": "-0.0794105",
+  "population": 14059,
+  "total_crimes": 441,
+  "categories": {
+    "anti-social-behaviour": 92,
+    "bicycle-theft": 2,
+    "burglary": 27,
+    "criminal-damage-arson": 21,
+    "drugs": 8,
+    "other-theft": 34,
+    "possession-of-weapons": 2,
+    "public-order": 17,
+    "robbery": 17,
+    "shoplifting": 77,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 36,
+    "violent-crime": 92,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

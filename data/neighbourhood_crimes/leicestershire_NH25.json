@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NH25", "neighbourhood_name": "Hinckley Town Centre", "force_id": "leicestershire", "lat": "52.5412", "lng": "-1.37177", "population": 12098, "total_crimes": 248, "categories": {"anti-social-behaviour": 17, "burglary": 21, "criminal-damage-arson": 30, "drugs": 11, "other-theft": 21, "possession-of-weapons": 7, "public-order": 7, "robbery": 2, "shoplifting": 28, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 84, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH25",
+  "neighbourhood_name": "Hinckley Town Centre",
+  "force_id": "leicestershire",
+  "lat": "52.5412",
+  "lng": "-1.37177",
+  "population": 1846,
+  "total_crimes": 248,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 21,
+    "criminal-damage-arson": 30,
+    "drugs": 11,
+    "other-theft": 21,
+    "possession-of-weapons": 7,
+    "public-order": 7,
+    "robbery": 2,
+    "shoplifting": 28,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 84,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 134.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "KB07", "neighbourhood_name": "Norton North", "force_id": "cheshire", "lat": "53.3292", "lng": "-2.66926", "population": "0", "total_crimes": 167, "categories": {"anti-social-behaviour": 7, "bicycle-theft": 3, "burglary": 1, "criminal-damage-arson": 10, "drugs": 7, "other-theft": 3, "possession-of-weapons": 3, "public-order": 16, "shoplifting": 5, "vehicle-crime": 1, "violent-crime": 108, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KB07",
+  "neighbourhood_name": "Norton North",
+  "force_id": "cheshire",
+  "lat": "53.3292",
+  "lng": "-2.66926",
+  "population": 6391,
+  "total_crimes": 167,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "bicycle-theft": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 7,
+    "other-theft": 3,
+    "possession-of-weapons": 3,
+    "public-order": 16,
+    "shoplifting": 5,
+    "vehicle-crime": 1,
+    "violent-crime": 108,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

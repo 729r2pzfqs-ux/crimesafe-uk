@@ -1,1 +1,16 @@
-{"neighbourhood_id": "EW1NH6", "neighbourhood_name": "Mayfield", "force_id": "sussex", "lat": "51.0136", "lng": "0.288266", "population": 12098, "total_crimes": 4, "categories": {"violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1NH6",
+  "neighbourhood_name": "Mayfield",
+  "force_id": "sussex",
+  "lat": "51.0136",
+  "lng": "0.288266",
+  "population": 2826,
+  "total_crimes": 4,
+  "categories": {
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

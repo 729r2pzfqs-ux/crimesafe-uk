@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC12", "neighbourhood_name": "Lincoln Abbey", "force_id": "lincolnshire", "lat": "53.2323", "lng": "-0.518887", "population": 12098, "total_crimes": 506, "categories": {"anti-social-behaviour": 139, "bicycle-theft": 4, "burglary": 12, "criminal-damage-arson": 28, "drugs": 16, "other-theft": 25, "possession-of-weapons": 4, "public-order": 40, "robbery": 4, "shoplifting": 63, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 160, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC12",
+  "neighbourhood_name": "Lincoln Abbey",
+  "force_id": "lincolnshire",
+  "lat": "53.2323",
+  "lng": "-0.518887",
+  "population": 11807,
+  "total_crimes": 506,
+  "categories": {
+    "anti-social-behaviour": 139,
+    "bicycle-theft": 4,
+    "burglary": 12,
+    "criminal-damage-arson": 28,
+    "drugs": 16,
+    "other-theft": 25,
+    "possession-of-weapons": 4,
+    "public-order": 40,
+    "robbery": 4,
+    "shoplifting": 63,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 160,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

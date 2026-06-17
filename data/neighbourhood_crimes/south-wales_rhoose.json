@@ -1,1 +1,23 @@
-{"neighbourhood_id": "rhoose", "neighbourhood_name": "Rhoose", "force_id": "south-wales", "lat": "51.3978", "lng": "-3.34921", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 1, "public-order": 7, "violent-crime": 11, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "rhoose",
+  "neighbourhood_name": "Rhoose",
+  "force_id": "south-wales",
+  "lat": "51.3978",
+  "lng": "-3.34921",
+  "population": 4643,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 7,
+    "violent-crime": 11,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

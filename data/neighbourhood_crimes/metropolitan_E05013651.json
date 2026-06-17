@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013651", "neighbourhood_name": "Woodhouse", "force_id": "metropolitan", "lat": "51.6126", "lng": "-0.169499", "population": 4198, "total_crimes": 481, "categories": {"anti-social-behaviour": 106, "bicycle-theft": 2, "burglary": 27, "criminal-damage-arson": 27, "drugs": 11, "other-theft": 35, "possession-of-weapons": 4, "public-order": 26, "robbery": 31, "shoplifting": 19, "theft-from-the-person": 14, "vehicle-crime": 48, "violent-crime": 128, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013651",
+  "neighbourhood_name": "Woodhouse",
+  "force_id": "metropolitan",
+  "lat": "51.6126",
+  "lng": "-0.169499",
+  "population": 13651,
+  "total_crimes": 481,
+  "categories": {
+    "anti-social-behaviour": 106,
+    "bicycle-theft": 2,
+    "burglary": 27,
+    "criminal-damage-arson": 27,
+    "drugs": 11,
+    "other-theft": 35,
+    "possession-of-weapons": 4,
+    "public-order": 26,
+    "robbery": 31,
+    "shoplifting": 19,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 48,
+    "violent-crime": 128,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "ZA67", "neighbourhood_name": "Herne &amp; Broomfield", "force_id": "kent", "lat": "51.3465", "lng": "1.13605", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 2, "burglary": 4, "criminal-damage-arson": 1, "other-theft": 4, "robbery": 1, "vehicle-crime": 1, "violent-crime": 9, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA67",
+  "neighbourhood_name": "Herne &amp; Broomfield",
+  "force_id": "kent",
+  "lat": "51.3465",
+  "lng": "1.13605",
+  "population": 9854,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 1,
+    "other-theft": 4,
+    "robbery": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 9,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ET16", "neighbourhood_name": "Trowbridge Rural", "force_id": "wiltshire", "lat": "51.3089", "lng": "-2.2077", "population": 12098, "total_crimes": 224, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 12, "drugs": 5, "other-theft": 10, "possession-of-weapons": 2, "public-order": 9, "robbery": 2, "shoplifting": 29, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 82, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ET16",
+  "neighbourhood_name": "Trowbridge Rural",
+  "force_id": "wiltshire",
+  "lat": "51.3089",
+  "lng": "-2.2077",
+  "population": 7453,
+  "total_crimes": 224,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 12,
+    "drugs": 5,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "robbery": 2,
+    "shoplifting": 29,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 82,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

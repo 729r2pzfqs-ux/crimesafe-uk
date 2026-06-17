@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014104", "neighbourhood_name": "Herne Hill and Loughborough Junction", "force_id": "metropolitan", "lat": "51.4592", "lng": "-0.101999", "population": 12098, "total_crimes": 1160, "categories": {"anti-social-behaviour": 198, "bicycle-theft": 27, "burglary": 49, "criminal-damage-arson": 55, "drugs": 52, "other-theft": 77, "possession-of-weapons": 14, "public-order": 57, "robbery": 46, "shoplifting": 99, "theft-from-the-person": 94, "vehicle-crime": 84, "violent-crime": 290, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014104",
+  "neighbourhood_name": "Herne Hill and Loughborough Junction",
+  "force_id": "metropolitan",
+  "lat": "51.4592",
+  "lng": "-0.101999",
+  "population": 15538,
+  "total_crimes": 1160,
+  "categories": {
+    "anti-social-behaviour": 198,
+    "bicycle-theft": 27,
+    "burglary": 49,
+    "criminal-damage-arson": 55,
+    "drugs": 52,
+    "other-theft": 77,
+    "possession-of-weapons": 14,
+    "public-order": 57,
+    "robbery": 46,
+    "shoplifting": 99,
+    "theft-from-the-person": 94,
+    "vehicle-crime": 84,
+    "violent-crime": 290,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 74.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

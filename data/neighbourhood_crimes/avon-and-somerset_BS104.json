@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BS104", "neighbourhood_name": "Bedminster", "force_id": "avon-and-somerset", "lat": "51.4389", "lng": "-2.61993", "population": "0", "total_crimes": 264, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 17, "drugs": 2, "other-theft": 21, "public-order": 31, "robbery": 7, "shoplifting": 12, "theft-from-the-person": 2, "vehicle-crime": 22, "violent-crime": 90, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BS104",
+  "neighbourhood_name": "Bedminster",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4389",
+  "lng": "-2.61993",
+  "population": 10157,
+  "total_crimes": 264,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 17,
+    "drugs": 2,
+    "other-theft": 21,
+    "public-order": 31,
+    "robbery": 7,
+    "shoplifting": 12,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 22,
+    "violent-crime": 90,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

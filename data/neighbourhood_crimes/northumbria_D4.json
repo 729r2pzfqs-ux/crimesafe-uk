@@ -1,1 +1,25 @@
-{"neighbourhood_id": "D4", "neighbourhood_name": "Killingworth", "force_id": "northumbria", "lat": "55.0352", "lng": "-1.57698", "population": 12098, "total_crimes": 113, "categories": {"anti-social-behaviour": 36, "burglary": 4, "criminal-damage-arson": 16, "other-theft": 2, "possession-of-weapons": 1, "public-order": 10, "shoplifting": 10, "theft-from-the-person": 2, "violent-crime": 31, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D4",
+  "neighbourhood_name": "Killingworth",
+  "force_id": "northumbria",
+  "lat": "55.0352",
+  "lng": "-1.57698",
+  "population": 50541,
+  "total_crimes": 113,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "shoplifting": 10,
+    "theft-from-the-person": 2,
+    "violent-crime": 31,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 32
+}

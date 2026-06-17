@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014099", "neighbourhood_name": "Clapham Common and Abbeville", "force_id": "metropolitan", "lat": "51.4555", "lng": "-0.139309", "population": 12098, "total_crimes": 1055, "categories": {"anti-social-behaviour": 193, "bicycle-theft": 21, "burglary": 54, "criminal-damage-arson": 43, "drugs": 34, "other-theft": 93, "possession-of-weapons": 3, "public-order": 45, "robbery": 45, "shoplifting": 103, "theft-from-the-person": 69, "vehicle-crime": 111, "violent-crime": 221, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014099",
+  "neighbourhood_name": "Clapham Common and Abbeville",
+  "force_id": "metropolitan",
+  "lat": "51.4555",
+  "lng": "-0.139309",
+  "population": 11575,
+  "total_crimes": 1055,
+  "categories": {
+    "anti-social-behaviour": 193,
+    "bicycle-theft": 21,
+    "burglary": 54,
+    "criminal-damage-arson": 43,
+    "drugs": 34,
+    "other-theft": 93,
+    "possession-of-weapons": 3,
+    "public-order": 45,
+    "robbery": 45,
+    "shoplifting": 103,
+    "theft-from-the-person": 69,
+    "vehicle-crime": 111,
+    "violent-crime": 221,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 91.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

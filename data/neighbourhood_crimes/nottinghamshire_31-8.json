@@ -1,1 +1,26 @@
-{"neighbourhood_id": "31-8", "neighbourhood_name": "Mansfield East", "force_id": "nottinghamshire", "lat": "53.1348", "lng": "-1.15679", "population": 12098, "total_crimes": 172, "categories": {"anti-social-behaviour": 37, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 21, "other-theft": 8, "possession-of-weapons": 3, "public-order": 11, "shoplifting": 8, "vehicle-crime": 5, "violent-crime": 68, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-8",
+  "neighbourhood_name": "Mansfield East",
+  "force_id": "nottinghamshire",
+  "lat": "53.1348",
+  "lng": "-1.15679",
+  "population": 32394,
+  "total_crimes": 172,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 21,
+    "other-theft": 8,
+    "possession-of-weapons": 3,
+    "public-order": 11,
+    "shoplifting": 8,
+    "vehicle-crime": 5,
+    "violent-crime": 68,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

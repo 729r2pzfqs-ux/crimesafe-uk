@@ -1,1 +1,24 @@
-{"neighbourhood_id": "DEV.4028", "neighbourhood_name": "Cockington-with-Chelston", "force_id": "devon-and-cornwall", "lat": "50.4636", "lng": "-3.56513", "population": 12098, "total_crimes": 65, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 2, "public-order": 8, "shoplifting": 7, "vehicle-crime": 3, "violent-crime": 33}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4028",
+  "neighbourhood_name": "Cockington-with-Chelston",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4636",
+  "lng": "-3.56513",
+  "population": 10895,
+  "total_crimes": 65,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 8,
+    "shoplifting": 7,
+    "vehicle-crime": 3,
+    "violent-crime": 33
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

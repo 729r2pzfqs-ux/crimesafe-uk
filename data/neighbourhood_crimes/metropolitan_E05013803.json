@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013803", "neighbourhood_name": "Pimlico South", "force_id": "metropolitan", "lat": "51.4871", "lng": "-0.137765", "population": 12098, "total_crimes": 1496, "categories": {"anti-social-behaviour": 327, "bicycle-theft": 44, "burglary": 63, "criminal-damage-arson": 58, "drugs": 34, "other-theft": 151, "possession-of-weapons": 14, "public-order": 63, "robbery": 48, "shoplifting": 165, "theft-from-the-person": 209, "vehicle-crime": 45, "violent-crime": 259, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013803",
+  "neighbourhood_name": "Pimlico South",
+  "force_id": "metropolitan",
+  "lat": "51.4871",
+  "lng": "-0.137765",
+  "population": 8753,
+  "total_crimes": 1496,
+  "categories": {
+    "anti-social-behaviour": 327,
+    "bicycle-theft": 44,
+    "burglary": 63,
+    "criminal-damage-arson": 58,
+    "drugs": 34,
+    "other-theft": 151,
+    "possession-of-weapons": 14,
+    "public-order": 63,
+    "robbery": 48,
+    "shoplifting": 165,
+    "theft-from-the-person": 209,
+    "vehicle-crime": 45,
+    "violent-crime": 259,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 170.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

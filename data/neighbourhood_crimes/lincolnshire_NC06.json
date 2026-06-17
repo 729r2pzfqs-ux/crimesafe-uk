@@ -1,1 +1,14 @@
-{"neighbourhood_id": "NC06", "neighbourhood_name": "Welton and Hemswell", "force_id": "lincolnshire", "lat": "53.3817", "lng": "-0.545574", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC06",
+  "neighbourhood_name": "Welton and Hemswell",
+  "force_id": "lincolnshire",
+  "lat": "53.3817",
+  "lng": "-0.545574",
+  "population": 16769,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

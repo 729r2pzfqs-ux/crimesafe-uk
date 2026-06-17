@@ -1,1 +1,14 @@
-{"neighbourhood_id": "B211", "neighbourhood_name": "Ystwyth", "force_id": "dyfed-powys", "lat": "52.3523", "lng": "-3.9723", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B211",
+  "neighbourhood_name": "Ystwyth",
+  "force_id": "dyfed-powys",
+  "lat": "52.3523",
+  "lng": "-3.9723",
+  "population": 2108,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

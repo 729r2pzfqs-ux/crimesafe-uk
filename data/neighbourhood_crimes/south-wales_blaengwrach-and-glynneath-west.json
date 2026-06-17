@@ -1,1 +1,22 @@
-{"neighbourhood_id": "blaengwrach-and-glynneath-west", "neighbourhood_name": "Blaengwrach and Glynneath West", "force_id": "south-wales", "lat": "51.7389", "lng": "-3.64665", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 4, "burglary": 2, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 2, "violent-crime": 8, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "blaengwrach-and-glynneath-west",
+  "neighbourhood_name": "Blaengwrach and Glynneath West",
+  "force_id": "south-wales",
+  "lat": "51.7389",
+  "lng": "-3.64665",
+  "population": 3585,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 2,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 2,
+    "violent-crime": 8,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,20 @@
-{"neighbourhood_id": "NC01", "neighbourhood_name": "Gainsborough Rural North", "force_id": "lincolnshire", "lat": "53.4637", "lng": "-0.72255", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC01",
+  "neighbourhood_name": "Gainsborough Rural North",
+  "force_id": "lincolnshire",
+  "lat": "53.4637",
+  "lng": "-0.72255",
+  "population": 7709,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

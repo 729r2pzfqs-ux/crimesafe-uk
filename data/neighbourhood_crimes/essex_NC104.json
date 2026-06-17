@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NC104", "neighbourhood_name": "Colchester Town West", "force_id": "essex", "lat": "51.8734", "lng": "0.898066", "population": 12098, "total_crimes": 329, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 18, "drugs": 18, "other-theft": 13, "possession-of-weapons": 7, "public-order": 23, "robbery": 4, "shoplifting": 44, "vehicle-crime": 18, "violent-crime": 152, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC104",
+  "neighbourhood_name": "Colchester Town West",
+  "force_id": "essex",
+  "lat": "51.8734",
+  "lng": "0.898066",
+  "population": 61664,
+  "total_crimes": 329,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 18,
+    "drugs": 18,
+    "other-theft": 13,
+    "possession-of-weapons": 7,
+    "public-order": 23,
+    "robbery": 4,
+    "shoplifting": 44,
+    "vehicle-crime": 18,
+    "violent-crime": 152,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 35
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014097N", "neighbourhood_name": "Brixton Rush Common", "force_id": "metropolitan", "lat": "51.4528", "lng": "-0.117064", "population": 12098, "total_crimes": 1240, "categories": {"anti-social-behaviour": 234, "bicycle-theft": 23, "burglary": 58, "criminal-damage-arson": 62, "drugs": 58, "other-theft": 92, "possession-of-weapons": 10, "public-order": 60, "robbery": 44, "shoplifting": 103, "theft-from-the-person": 75, "vehicle-crime": 114, "violent-crime": 287, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014097N",
+  "neighbourhood_name": "Brixton Rush Common",
+  "force_id": "metropolitan",
+  "lat": "51.4528",
+  "lng": "-0.117064",
+  "population": 15998,
+  "total_crimes": 1240,
+  "categories": {
+    "anti-social-behaviour": 234,
+    "bicycle-theft": 23,
+    "burglary": 58,
+    "criminal-damage-arson": 62,
+    "drugs": 58,
+    "other-theft": 92,
+    "possession-of-weapons": 10,
+    "public-order": 60,
+    "robbery": 44,
+    "shoplifting": 103,
+    "theft-from-the-person": 75,
+    "vehicle-crime": 114,
+    "violent-crime": 287,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

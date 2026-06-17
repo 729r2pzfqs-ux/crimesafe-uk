@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-52", "neighbourhood_name": "Mapperley &amp; Wells", "force_id": "nottinghamshire", "lat": "52.9738", "lng": "-1.13468", "population": 12098, "total_crimes": 474, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 4, "burglary": 20, "criminal-damage-arson": 31, "drugs": 14, "other-theft": 17, "possession-of-weapons": 9, "public-order": 32, "robbery": 11, "shoplifting": 59, "theft-from-the-person": 5, "vehicle-crime": 31, "violent-crime": 166, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-52",
+  "neighbourhood_name": "Mapperley &amp; Wells",
+  "force_id": "nottinghamshire",
+  "lat": "52.9738",
+  "lng": "-1.13468",
+  "population": 16544,
+  "total_crimes": 474,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 4,
+    "burglary": 20,
+    "criminal-damage-arson": 31,
+    "drugs": 14,
+    "other-theft": 17,
+    "possession-of-weapons": 9,
+    "public-order": 32,
+    "robbery": 11,
+    "shoplifting": 59,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 31,
+    "violent-crime": 166,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

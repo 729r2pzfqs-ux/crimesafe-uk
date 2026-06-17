@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LOCC2WOS", "neighbourhood_name": "Workington South", "force_id": "cumbria", "lat": "54.618", "lng": "-3.55207", "population": 12098, "total_crimes": 62, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 4, "possession-of-weapons": 2, "public-order": 6, "robbery": 1, "shoplifting": 4, "vehicle-crime": 2, "violent-crime": 33}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCC2WOS",
+  "neighbourhood_name": "Workington South",
+  "force_id": "cumbria",
+  "lat": "54.618",
+  "lng": "-3.55207",
+  "population": 13650,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 2,
+    "violent-crime": 33
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LPSH1D", "neighbourhood_name": "Bold", "force_id": "merseyside", "lat": "53.4133", "lng": "-2.71066", "population": 12098, "total_crimes": 76, "categories": {"anti-social-behaviour": 4, "burglary": 2, "criminal-damage-arson": 7, "drugs": 12, "other-theft": 4, "public-order": 4, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 35, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1D",
+  "neighbourhood_name": "Bold",
+  "force_id": "merseyside",
+  "lat": "53.4133",
+  "lng": "-2.71066",
+  "population": 7539,
+  "total_crimes": 76,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 12,
+    "other-theft": 4,
+    "public-order": 4,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 35,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

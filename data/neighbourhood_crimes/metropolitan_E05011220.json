@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011220", "neighbourhood_name": "Blackfen and Lamorbey", "force_id": "metropolitan", "lat": "51.4452", "lng": "0.0945056", "population": 12098, "total_crimes": 152, "categories": {"anti-social-behaviour": 28, "bicycle-theft": 3, "burglary": 8, "criminal-damage-arson": 10, "drugs": 7, "other-theft": 9, "public-order": 10, "robbery": 2, "shoplifting": 12, "theft-from-the-person": 4, "vehicle-crime": 16, "violent-crime": 42, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011220",
+  "neighbourhood_name": "Blackfen and Lamorbey",
+  "force_id": "metropolitan",
+  "lat": "51.4452",
+  "lng": "0.0945056",
+  "population": 14613,
+  "total_crimes": 152,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "bicycle-theft": 3,
+    "burglary": 8,
+    "criminal-damage-arson": 10,
+    "drugs": 7,
+    "other-theft": 9,
+    "public-order": 10,
+    "robbery": 2,
+    "shoplifting": 12,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 16,
+    "violent-crime": 42,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

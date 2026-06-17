@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014024", "neighbourhood_name": "Tooting Broadway", "force_id": "metropolitan", "lat": "51.4273", "lng": "-0.17206", "population": 12098, "total_crimes": 691, "categories": {"anti-social-behaviour": 141, "bicycle-theft": 6, "burglary": 15, "criminal-damage-arson": 33, "drugs": 17, "other-theft": 51, "possession-of-weapons": 4, "public-order": 52, "robbery": 13, "shoplifting": 63, "theft-from-the-person": 23, "vehicle-crime": 62, "violent-crime": 205, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014024",
+  "neighbourhood_name": "Tooting Broadway",
+  "force_id": "metropolitan",
+  "lat": "51.4273",
+  "lng": "-0.17206",
+  "population": 17629,
+  "total_crimes": 691,
+  "categories": {
+    "anti-social-behaviour": 141,
+    "bicycle-theft": 6,
+    "burglary": 15,
+    "criminal-damage-arson": 33,
+    "drugs": 17,
+    "other-theft": 51,
+    "possession-of-weapons": 4,
+    "public-order": 52,
+    "robbery": 13,
+    "shoplifting": 63,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 62,
+    "violent-crime": 205,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

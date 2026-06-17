@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WA103", "neighbourhood_name": "Brentwood Town Centre", "force_id": "essex", "lat": "51.6209", "lng": "0.309989", "population": 12098, "total_crimes": 204, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 11, "drugs": 11, "other-theft": 14, "public-order": 12, "robbery": 2, "shoplifting": 30, "theft-from-the-person": 1, "vehicle-crime": 15, "violent-crime": 78}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA103",
+  "neighbourhood_name": "Brentwood Town Centre",
+  "force_id": "essex",
+  "lat": "51.6209",
+  "lng": "0.309989",
+  "population": 11262,
+  "total_crimes": 204,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 11,
+    "drugs": 11,
+    "other-theft": 14,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 30,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 15,
+    "violent-crime": 78
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

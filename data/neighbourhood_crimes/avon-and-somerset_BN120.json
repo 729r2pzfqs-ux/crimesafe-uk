@@ -1,1 +1,22 @@
-{"neighbourhood_id": "BN120", "neighbourhood_name": "Avonmouth and Shirehampton", "force_id": "avon-and-somerset", "lat": "51.512", "lng": "-2.68654", "population": "0", "total_crimes": 35, "categories": {"anti-social-behaviour": 7, "burglary": 5, "criminal-damage-arson": 4, "other-theft": 5, "public-order": 2, "vehicle-crime": 2, "violent-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BN120",
+  "neighbourhood_name": "Avonmouth and Shirehampton",
+  "force_id": "avon-and-somerset",
+  "lat": "51.512",
+  "lng": "-2.68654",
+  "population": 9839,
+  "total_crimes": 35,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "other-theft": 5,
+    "public-order": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

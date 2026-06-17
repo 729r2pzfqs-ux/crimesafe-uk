@@ -1,1 +1,22 @@
-{"neighbourhood_id": "N425", "neighbourhood_name": "Banbury Rural", "force_id": "thames-valley", "lat": "52.0668", "lng": "-1.38543", "population": 12098, "total_crimes": 44, "categories": {"anti-social-behaviour": 10, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 6, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N425",
+  "neighbourhood_name": "Banbury Rural",
+  "force_id": "thames-valley",
+  "lat": "52.0668",
+  "lng": "-1.38543",
+  "population": 19408,
+  "total_crimes": 44,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 6,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

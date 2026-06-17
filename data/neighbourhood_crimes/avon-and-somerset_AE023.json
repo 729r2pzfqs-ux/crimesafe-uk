@@ -1,1 +1,27 @@
-{"neighbourhood_id": "AE023", "neighbourhood_name": "Glastonbury Town", "force_id": "avon-and-somerset", "lat": "51.146", "lng": "-2.70329", "population": "0", "total_crimes": 62, "categories": {"anti-social-behaviour": 12, "burglary": 1, "criminal-damage-arson": 6, "drugs": 3, "other-theft": 3, "public-order": 2, "robbery": 2, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 13, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AE023",
+  "neighbourhood_name": "Glastonbury Town",
+  "force_id": "avon-and-somerset",
+  "lat": "51.146",
+  "lng": "-2.70329",
+  "population": 9276,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 2,
+    "robbery": 2,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 13,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

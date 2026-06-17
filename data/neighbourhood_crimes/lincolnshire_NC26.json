@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC26", "neighbourhood_name": "Spalding Estates", "force_id": "lincolnshire", "lat": "52.7857", "lng": "-0.156528", "population": 12098, "total_crimes": 224, "categories": {"anti-social-behaviour": 64, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 18, "drugs": 6, "other-theft": 7, "possession-of-weapons": 3, "public-order": 4, "robbery": 1, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 88, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC26",
+  "neighbourhood_name": "Spalding Estates",
+  "force_id": "lincolnshire",
+  "lat": "52.7857",
+  "lng": "-0.156528",
+  "population": 21595,
+  "total_crimes": 224,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 18,
+    "drugs": 6,
+    "other-theft": 7,
+    "possession-of-weapons": 3,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 16,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 88,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

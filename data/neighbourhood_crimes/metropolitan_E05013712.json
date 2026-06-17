@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013712", "neighbourhood_name": "Tollington", "force_id": "metropolitan", "lat": "51.5649", "lng": "-0.119855", "population": 12098, "total_crimes": 1631, "categories": {"anti-social-behaviour": 440, "bicycle-theft": 25, "burglary": 43, "criminal-damage-arson": 71, "drugs": 75, "other-theft": 108, "possession-of-weapons": 17, "public-order": 101, "robbery": 49, "shoplifting": 99, "theft-from-the-person": 115, "vehicle-crime": 88, "violent-crime": 393, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013712",
+  "neighbourhood_name": "Tollington",
+  "force_id": "metropolitan",
+  "lat": "51.5649",
+  "lng": "-0.119855",
+  "population": 12791,
+  "total_crimes": 1631,
+  "categories": {
+    "anti-social-behaviour": 440,
+    "bicycle-theft": 25,
+    "burglary": 43,
+    "criminal-damage-arson": 71,
+    "drugs": 75,
+    "other-theft": 108,
+    "possession-of-weapons": 17,
+    "public-order": 101,
+    "robbery": 49,
+    "shoplifting": 99,
+    "theft-from-the-person": 115,
+    "vehicle-crime": 88,
+    "violent-crime": 393,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 127.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

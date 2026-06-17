@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013927N", "neighbourhood_name": "West Ham", "force_id": "metropolitan", "lat": "51.5349", "lng": "0.0117007", "population": 12098, "total_crimes": 1426, "categories": {"anti-social-behaviour": 306, "bicycle-theft": 17, "burglary": 32, "criminal-damage-arson": 62, "drugs": 48, "other-theft": 115, "possession-of-weapons": 9, "public-order": 96, "robbery": 46, "shoplifting": 118, "theft-from-the-person": 170, "vehicle-crime": 99, "violent-crime": 299, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013927N",
+  "neighbourhood_name": "West Ham",
+  "force_id": "metropolitan",
+  "lat": "51.5349",
+  "lng": "0.0117007",
+  "population": 16013,
+  "total_crimes": 1426,
+  "categories": {
+    "anti-social-behaviour": 306,
+    "bicycle-theft": 17,
+    "burglary": 32,
+    "criminal-damage-arson": 62,
+    "drugs": 48,
+    "other-theft": 115,
+    "possession-of-weapons": 9,
+    "public-order": 96,
+    "robbery": 46,
+    "shoplifting": 118,
+    "theft-from-the-person": 170,
+    "vehicle-crime": 99,
+    "violent-crime": 299,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 89.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013697", "neighbourhood_name": "Arsenal", "force_id": "metropolitan", "lat": "51.5563", "lng": "-0.107464", "population": 12098, "total_crimes": 1570, "categories": {"anti-social-behaviour": 388, "bicycle-theft": 34, "burglary": 44, "criminal-damage-arson": 83, "drugs": 89, "other-theft": 99, "possession-of-weapons": 13, "public-order": 90, "robbery": 61, "shoplifting": 81, "theft-from-the-person": 132, "vehicle-crime": 71, "violent-crime": 375, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013697",
+  "neighbourhood_name": "Arsenal",
+  "force_id": "metropolitan",
+  "lat": "51.5563",
+  "lng": "-0.107464",
+  "population": 13360,
+  "total_crimes": 1570,
+  "categories": {
+    "anti-social-behaviour": 388,
+    "bicycle-theft": 34,
+    "burglary": 44,
+    "criminal-damage-arson": 83,
+    "drugs": 89,
+    "other-theft": 99,
+    "possession-of-weapons": 13,
+    "public-order": 90,
+    "robbery": 61,
+    "shoplifting": 81,
+    "theft-from-the-person": 132,
+    "vehicle-crime": 71,
+    "violent-crime": 375,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 117.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

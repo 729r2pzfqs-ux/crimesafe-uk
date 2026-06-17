@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NA104", "neighbourhood_name": "Witham South", "force_id": "essex", "lat": "51.8298", "lng": "0.636618", "population": 12098, "total_crimes": 23, "categories": {"anti-social-behaviour": 2, "burglary": 3, "criminal-damage-arson": 1, "other-theft": 2, "possession-of-weapons": 1, "public-order": 2, "vehicle-crime": 1, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA104",
+  "neighbourhood_name": "Witham South",
+  "force_id": "essex",
+  "lat": "51.8298",
+  "lng": "0.636618",
+  "population": 51543,
+  "total_crimes": 23,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 31
+}

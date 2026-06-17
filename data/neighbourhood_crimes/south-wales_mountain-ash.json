@@ -1,1 +1,25 @@
-{"neighbourhood_id": "mountain-ash", "neighbourhood_name": "Mountain Ash", "force_id": "south-wales", "lat": "51.6866", "lng": "-3.37594", "population": 12098, "total_crimes": 64, "categories": {"anti-social-behaviour": 6, "burglary": 1, "criminal-damage-arson": 3, "drugs": 4, "other-theft": 2, "public-order": 13, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 26, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "mountain-ash",
+  "neighbourhood_name": "Mountain Ash",
+  "force_id": "south-wales",
+  "lat": "51.6866",
+  "lng": "-3.37594",
+  "population": 7558,
+  "total_crimes": 64,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 4,
+    "other-theft": 2,
+    "public-order": 13,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 26,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

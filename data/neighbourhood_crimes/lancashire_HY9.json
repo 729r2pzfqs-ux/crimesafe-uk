@@ -1,1 +1,20 @@
-{"neighbourhood_id": "HY9", "neighbourhood_name": "Immanuel", "force_id": "lancashire", "lat": "53.725", "lng": "-2.38499", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 2, "burglary": 3, "criminal-damage-arson": 5, "other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY9",
+  "neighbourhood_name": "Immanuel",
+  "force_id": "lancashire",
+  "lat": "53.725",
+  "lng": "-2.38499",
+  "population": 4349,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 5,
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

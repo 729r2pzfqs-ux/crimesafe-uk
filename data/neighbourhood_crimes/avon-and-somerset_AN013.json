@@ -1,1 +1,28 @@
-{"neighbourhood_id": "AN013", "neighbourhood_name": "Weston Central", "force_id": "avon-and-somerset", "lat": "51.3411", "lng": "-2.94133", "population": "0", "total_crimes": 191, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 8, "burglary": 4, "criminal-damage-arson": 16, "drugs": 3, "other-theft": 9, "possession-of-weapons": 1, "public-order": 9, "robbery": 6, "shoplifting": 7, "vehicle-crime": 2, "violent-crime": 89, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AN013",
+  "neighbourhood_name": "Weston Central",
+  "force_id": "avon-and-somerset",
+  "lat": "51.3411",
+  "lng": "-2.94133",
+  "population": 15983,
+  "total_crimes": 191,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 8,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 3,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "robbery": 6,
+    "shoplifting": 7,
+    "vehicle-crime": 2,
+    "violent-crime": 89,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

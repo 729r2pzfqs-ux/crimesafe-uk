@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013512", "neighbourhood_name": "Tokyngton", "force_id": "metropolitan", "lat": "51.5487", "lng": "-0.278282", "population": 12098, "total_crimes": 839, "categories": {"anti-social-behaviour": 151, "bicycle-theft": 3, "burglary": 33, "criminal-damage-arson": 30, "drugs": 54, "other-theft": 73, "possession-of-weapons": 8, "public-order": 42, "robbery": 42, "shoplifting": 74, "theft-from-the-person": 63, "vehicle-crime": 41, "violent-crime": 217, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013512",
+  "neighbourhood_name": "Tokyngton",
+  "force_id": "metropolitan",
+  "lat": "51.5487",
+  "lng": "-0.278282",
+  "population": 7983,
+  "total_crimes": 839,
+  "categories": {
+    "anti-social-behaviour": 151,
+    "bicycle-theft": 3,
+    "burglary": 33,
+    "criminal-damage-arson": 30,
+    "drugs": 54,
+    "other-theft": 73,
+    "possession-of-weapons": 8,
+    "public-order": 42,
+    "robbery": 42,
+    "shoplifting": 74,
+    "theft-from-the-person": 63,
+    "vehicle-crime": 41,
+    "violent-crime": 217,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 105.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

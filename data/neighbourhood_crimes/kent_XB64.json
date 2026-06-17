@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XB64", "neighbourhood_name": "Homewood", "force_id": "kent", "lat": "51.3377", "lng": "0.726267", "population": 12098, "total_crimes": 242, "categories": {"anti-social-behaviour": 60, "bicycle-theft": 1, "burglary": 7, "criminal-damage-arson": 18, "drugs": 6, "other-theft": 12, "possession-of-weapons": 3, "public-order": 14, "robbery": 1, "shoplifting": 28, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 80, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB64",
+  "neighbourhood_name": "Homewood",
+  "force_id": "kent",
+  "lat": "51.3377",
+  "lng": "0.726267",
+  "population": 5782,
+  "total_crimes": 242,
+  "categories": {
+    "anti-social-behaviour": 60,
+    "bicycle-theft": 1,
+    "burglary": 7,
+    "criminal-damage-arson": 18,
+    "drugs": 6,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 14,
+    "robbery": 1,
+    "shoplifting": 28,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 80,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

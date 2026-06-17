@@ -1,1 +1,18 @@
-{"neighbourhood_id": "RV18", "neighbourhood_name": "Sabden", "force_id": "lancashire", "lat": "53.8371", "lng": "-2.34099", "population": 12098, "total_crimes": 5, "categories": {"burglary": 1, "other-theft": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV18",
+  "neighbourhood_name": "Sabden",
+  "force_id": "lancashire",
+  "lat": "53.8371",
+  "lng": "-2.34099",
+  "population": 1568,
+  "total_crimes": 5,
+  "categories": {
+    "burglary": 1,
+    "other-theft": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

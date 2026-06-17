@@ -1,1 +1,16 @@
-{"neighbourhood_id": "YA25", "neighbourhood_name": "Headcorn &amp; Sutton Valence", "force_id": "kent", "lat": "51.1934", "lng": "0.644787", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA25",
+  "neighbourhood_name": "Headcorn &amp; Sutton Valence",
+  "force_id": "kent",
+  "lat": "51.1934",
+  "lng": "0.644787",
+  "population": 7475,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

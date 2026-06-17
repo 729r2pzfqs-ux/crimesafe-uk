@@ -1,1 +1,16 @@
-{"neighbourhood_id": "BU11", "neighbourhood_name": "Briercliffe", "force_id": "lancashire", "lat": "53.8088", "lng": "-2.16586", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU11",
+  "neighbourhood_name": "Briercliffe",
+  "force_id": "lancashire",
+  "lat": "53.8088",
+  "lng": "-2.16586",
+  "population": 5259,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

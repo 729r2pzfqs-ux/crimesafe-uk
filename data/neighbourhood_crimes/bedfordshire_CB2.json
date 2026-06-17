@@ -1,1 +1,25 @@
-{"neighbourhood_id": "CB2", "neighbourhood_name": "Biggleswade, Sandy, Potton and Shefford", "force_id": "bedfordshire", "lat": "52.0853", "lng": "-0.274014", "population": "0", "total_crimes": 52, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 1, "drugs": 3, "other-theft": 3, "public-order": 3, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 22, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CB2",
+  "neighbourhood_name": "Biggleswade, Sandy, Potton and Shefford",
+  "force_id": "bedfordshire",
+  "lat": "52.0853",
+  "lng": "-0.274014",
+  "population": 82508,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 3,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 22,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 45
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPK1D", "neighbourhood_name": "Whitefield", "force_id": "merseyside", "lat": "53.4829", "lng": "-2.8981", "population": 12098, "total_crimes": 280, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 3, "burglary": 8, "criminal-damage-arson": 30, "drugs": 12, "other-theft": 12, "possession-of-weapons": 1, "public-order": 15, "robbery": 1, "shoplifting": 23, "theft-from-the-person": 2, "vehicle-crime": 4, "violent-crime": 105, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPK1D",
+  "neighbourhood_name": "Whitefield",
+  "force_id": "merseyside",
+  "lat": "53.4829",
+  "lng": "-2.8981",
+  "population": 9184,
+  "total_crimes": 280,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 3,
+    "burglary": 8,
+    "criminal-damage-arson": 30,
+    "drugs": 12,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 23,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 105,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

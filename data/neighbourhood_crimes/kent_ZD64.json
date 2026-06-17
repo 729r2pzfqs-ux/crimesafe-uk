@@ -1,1 +1,26 @@
-{"neighbourhood_id": "ZD64", "neighbourhood_name": "Maxton &amp; Elms Vale", "force_id": "kent", "lat": "51.1188", "lng": "1.2769", "population": 12098, "total_crimes": 54, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 6, "drugs": 4, "other-theft": 4, "public-order": 1, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 19, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZD64",
+  "neighbourhood_name": "Maxton &amp; Elms Vale",
+  "force_id": "kent",
+  "lat": "51.1188",
+  "lng": "1.2769",
+  "population": 4361,
+  "total_crimes": 54,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "drugs": 4,
+    "other-theft": 4,
+    "public-order": 1,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 19,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

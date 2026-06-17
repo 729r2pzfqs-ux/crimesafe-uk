@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013800", "neighbourhood_name": "Maida Vale", "force_id": "metropolitan", "lat": "51.5306", "lng": "-0.189403", "population": 12098, "total_crimes": 1561, "categories": {"anti-social-behaviour": 424, "bicycle-theft": 24, "burglary": 79, "criminal-damage-arson": 65, "drugs": 81, "other-theft": 124, "possession-of-weapons": 9, "public-order": 84, "robbery": 41, "shoplifting": 121, "theft-from-the-person": 79, "vehicle-crime": 67, "violent-crime": 344, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013800",
+  "neighbourhood_name": "Maida Vale",
+  "force_id": "metropolitan",
+  "lat": "51.5306",
+  "lng": "-0.189403",
+  "population": 14007,
+  "total_crimes": 1561,
+  "categories": {
+    "anti-social-behaviour": 424,
+    "bicycle-theft": 24,
+    "burglary": 79,
+    "criminal-damage-arson": 65,
+    "drugs": 81,
+    "other-theft": 124,
+    "possession-of-weapons": 9,
+    "public-order": 84,
+    "robbery": 41,
+    "shoplifting": 121,
+    "theft-from-the-person": 79,
+    "vehicle-crime": 67,
+    "violent-crime": 344,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 111.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

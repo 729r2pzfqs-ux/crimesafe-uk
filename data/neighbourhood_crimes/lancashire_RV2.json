@@ -1,1 +1,19 @@
-{"neighbourhood_id": "RV2", "neighbourhood_name": "Billington &amp; Langho", "force_id": "lancashire", "lat": "53.8059", "lng": "-2.4386", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 2, "burglary": 2, "public-order": 2, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV2",
+  "neighbourhood_name": "Billington &amp; Langho",
+  "force_id": "lancashire",
+  "lat": "53.8059",
+  "lng": "-2.4386",
+  "population": 2656,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "public-order": 2,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014028", "neighbourhood_name": "Wandsworth Town", "force_id": "metropolitan", "lat": "51.4566", "lng": "-0.186223", "population": 12098, "total_crimes": 688, "categories": {"anti-social-behaviour": 159, "bicycle-theft": 22, "burglary": 39, "criminal-damage-arson": 30, "drugs": 26, "other-theft": 52, "possession-of-weapons": 1, "public-order": 43, "robbery": 18, "shoplifting": 50, "theft-from-the-person": 16, "vehicle-crime": 36, "violent-crime": 178, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014028",
+  "neighbourhood_name": "Wandsworth Town",
+  "force_id": "metropolitan",
+  "lat": "51.4566",
+  "lng": "-0.186223",
+  "population": 13195,
+  "total_crimes": 688,
+  "categories": {
+    "anti-social-behaviour": 159,
+    "bicycle-theft": 22,
+    "burglary": 39,
+    "criminal-damage-arson": 30,
+    "drugs": 26,
+    "other-theft": 52,
+    "possession-of-weapons": 1,
+    "public-order": 43,
+    "robbery": 18,
+    "shoplifting": 50,
+    "theft-from-the-person": 16,
+    "vehicle-crime": 36,
+    "violent-crime": 178,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 52.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

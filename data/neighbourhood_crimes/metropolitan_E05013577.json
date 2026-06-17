@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013577", "neighbourhood_name": "Ruislip", "force_id": "metropolitan", "lat": "51.585", "lng": "-0.436403", "population": 12098, "total_crimes": 79, "categories": {"anti-social-behaviour": 21, "burglary": 2, "criminal-damage-arson": 4, "drugs": 8, "other-theft": 2, "possession-of-weapons": 2, "public-order": 2, "robbery": 3, "shoplifting": 6, "theft-from-the-person": 2, "vehicle-crime": 6, "violent-crime": 18, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013577",
+  "neighbourhood_name": "Ruislip",
+  "force_id": "metropolitan",
+  "lat": "51.585",
+  "lng": "-0.436403",
+  "population": 15877,
+  "total_crimes": 79,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 8,
+    "other-theft": 2,
+    "possession-of-weapons": 2,
+    "public-order": 2,
+    "robbery": 3,
+    "shoplifting": 6,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 6,
+    "violent-crime": 18,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

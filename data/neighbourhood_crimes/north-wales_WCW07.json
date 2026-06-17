@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WCW07", "neighbourhood_name": "Gogarth", "force_id": "north-wales", "lat": "53.3305", "lng": "-3.85278", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 2, "public-order": 2, "shoplifting": 11, "violent-crime": 20, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW07",
+  "neighbourhood_name": "Gogarth",
+  "force_id": "north-wales",
+  "lat": "53.3305",
+  "lng": "-3.85278",
+  "population": 3477,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 2,
+    "shoplifting": 11,
+    "violent-crime": 20,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

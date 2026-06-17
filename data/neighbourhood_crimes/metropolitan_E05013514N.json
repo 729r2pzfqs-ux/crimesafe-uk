@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013514N", "neighbourhood_name": "Wembley Central", "force_id": "metropolitan", "lat": "51.5501", "lng": "-0.3007", "population": 12098, "total_crimes": 720, "categories": {"anti-social-behaviour": 137, "bicycle-theft": 1, "burglary": 23, "criminal-damage-arson": 34, "drugs": 38, "other-theft": 56, "possession-of-weapons": 8, "public-order": 35, "robbery": 38, "shoplifting": 78, "theft-from-the-person": 62, "vehicle-crime": 35, "violent-crime": 169, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013514N",
+  "neighbourhood_name": "Wembley Central",
+  "force_id": "metropolitan",
+  "lat": "51.5501",
+  "lng": "-0.3007",
+  "population": 16033,
+  "total_crimes": 720,
+  "categories": {
+    "anti-social-behaviour": 137,
+    "bicycle-theft": 1,
+    "burglary": 23,
+    "criminal-damage-arson": 34,
+    "drugs": 38,
+    "other-theft": 56,
+    "possession-of-weapons": 8,
+    "public-order": 35,
+    "robbery": 38,
+    "shoplifting": 78,
+    "theft-from-the-person": 62,
+    "vehicle-crime": 35,
+    "violent-crime": 169,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

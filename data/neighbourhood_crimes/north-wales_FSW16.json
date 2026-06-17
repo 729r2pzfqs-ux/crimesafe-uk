@@ -1,1 +1,24 @@
-{"neighbourhood_id": "FSW16", "neighbourhood_name": "Buckley Pentrobin", "force_id": "north-wales", "lat": "53.1732", "lng": "-3.06377", "population": 12098, "total_crimes": 52, "categories": {"anti-social-behaviour": 10, "burglary": 2, "criminal-damage-arson": 1, "other-theft": 5, "public-order": 5, "robbery": 2, "shoplifting": 4, "violent-crime": 22, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW16",
+  "neighbourhood_name": "Buckley Pentrobin",
+  "force_id": "north-wales",
+  "lat": "53.1732",
+  "lng": "-3.06377",
+  "population": 5510,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 5,
+    "public-order": 5,
+    "robbery": 2,
+    "shoplifting": 4,
+    "violent-crime": 22,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

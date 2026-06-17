@@ -1,1 +1,29 @@
-{"neighbourhood_id": "AE037", "neighbourhood_name": "Yeovil Town", "force_id": "avon-and-somerset", "lat": "50.9403", "lng": "-2.63398", "population": "0", "total_crimes": 371, "categories": {"anti-social-behaviour": 66, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 21, "drugs": 4, "other-theft": 13, "possession-of-weapons": 6, "public-order": 47, "robbery": 6, "shoplifting": 45, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 137, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AE037",
+  "neighbourhood_name": "Yeovil Town",
+  "force_id": "avon-and-somerset",
+  "lat": "50.9403",
+  "lng": "-2.63398",
+  "population": 33518,
+  "total_crimes": 371,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 21,
+    "drugs": 4,
+    "other-theft": 13,
+    "possession-of-weapons": 6,
+    "public-order": 47,
+    "robbery": 6,
+    "shoplifting": 45,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 137,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 21
+}

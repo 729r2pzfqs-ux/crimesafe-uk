@@ -1,1 +1,24 @@
-{"neighbourhood_id": "cyfarthfa", "neighbourhood_name": "Cyfarthfa", "force_id": "south-wales", "lat": "51.749", "lng": "-3.41406", "population": 12098, "total_crimes": 55, "categories": {"anti-social-behaviour": 9, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 6, "possession-of-weapons": 1, "public-order": 8, "shoplifting": 11, "vehicle-crime": 3, "violent-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cyfarthfa",
+  "neighbourhood_name": "Cyfarthfa",
+  "force_id": "south-wales",
+  "lat": "51.749",
+  "lng": "-3.41406",
+  "population": 7585,
+  "total_crimes": 55,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "shoplifting": 11,
+    "vehicle-crime": 3,
+    "violent-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

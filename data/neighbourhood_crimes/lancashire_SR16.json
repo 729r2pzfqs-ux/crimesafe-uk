@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SR16", "neighbourhood_name": "Middleforth", "force_id": "lancashire", "lat": "53.7397", "lng": "-2.71196", "population": 12098, "total_crimes": 97, "categories": {"anti-social-behaviour": 16, "burglary": 2, "criminal-damage-arson": 7, "drugs": 4, "other-theft": 4, "possession-of-weapons": 1, "public-order": 6, "robbery": 1, "shoplifting": 1, "vehicle-crime": 8, "violent-crime": 42, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR16",
+  "neighbourhood_name": "Middleforth",
+  "force_id": "lancashire",
+  "lat": "53.7397",
+  "lng": "-2.71196",
+  "population": 5916,
+  "total_crimes": 97,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 4,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 42,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "NEW6", "neighbourhood_name": "Newton Aycliffe (Byerley)", "force_id": "durham", "lat": "54.6301", "lng": "-1.66062", "population": 12098, "total_crimes": 114, "categories": {"anti-social-behaviour": 11, "burglary": 7, "criminal-damage-arson": 16, "drugs": 1, "other-theft": 7, "public-order": 7, "shoplifting": 11, "vehicle-crime": 1, "violent-crime": 47, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NEW6",
+  "neighbourhood_name": "Newton Aycliffe (Byerley)",
+  "force_id": "durham",
+  "lat": "54.6301",
+  "lng": "-1.66062",
+  "population": 3319,
+  "total_crimes": 114,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 7,
+    "criminal-damage-arson": 16,
+    "drugs": 1,
+    "other-theft": 7,
+    "public-order": 7,
+    "shoplifting": 11,
+    "vehicle-crime": 1,
+    "violent-crime": 47,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

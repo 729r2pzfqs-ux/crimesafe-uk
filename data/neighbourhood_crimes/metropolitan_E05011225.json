@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011225", "neighbourhood_name": "Erith", "force_id": "metropolitan", "lat": "51.483", "lng": "0.170539", "population": 15612, "total_crimes": 326, "categories": {"anti-social-behaviour": 64, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 24, "drugs": 20, "other-theft": 23, "possession-of-weapons": 2, "public-order": 25, "robbery": 3, "shoplifting": 6, "theft-from-the-person": 6, "vehicle-crime": 23, "violent-crime": 107, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011225",
+  "neighbourhood_name": "Erith",
+  "force_id": "metropolitan",
+  "lat": "51.483",
+  "lng": "0.170539",
+  "population": 15426,
+  "total_crimes": 326,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 24,
+    "drugs": 20,
+    "other-theft": 23,
+    "possession-of-weapons": 2,
+    "public-order": 25,
+    "robbery": 3,
+    "shoplifting": 6,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 23,
+    "violent-crime": 107,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

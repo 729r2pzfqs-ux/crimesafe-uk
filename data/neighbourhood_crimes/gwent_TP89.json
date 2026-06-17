@@ -1,1 +1,14 @@
-{"neighbourhood_id": "TP89", "neighbourhood_name": "St Cadoc and Penygarn", "force_id": "gwent", "lat": "51.7084", "lng": "-3.03514", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "TP89",
+  "neighbourhood_name": "St Cadoc and Penygarn",
+  "force_id": "gwent",
+  "lat": "51.7084",
+  "lng": "-3.03514",
+  "population": 1839,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

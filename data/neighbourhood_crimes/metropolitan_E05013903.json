@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013903", "neighbourhood_name": "Wood Street", "force_id": "metropolitan", "lat": "51.5857", "lng": "-0.00541499", "population": 12098, "total_crimes": 769, "categories": {"anti-social-behaviour": 162, "bicycle-theft": 8, "burglary": 40, "criminal-damage-arson": 37, "drugs": 30, "other-theft": 76, "possession-of-weapons": 4, "public-order": 46, "robbery": 20, "shoplifting": 36, "theft-from-the-person": 44, "vehicle-crime": 62, "violent-crime": 195, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013903",
+  "neighbourhood_name": "Wood Street",
+  "force_id": "metropolitan",
+  "lat": "51.5857",
+  "lng": "-0.00541499",
+  "population": 10540,
+  "total_crimes": 769,
+  "categories": {
+    "anti-social-behaviour": 162,
+    "bicycle-theft": 8,
+    "burglary": 40,
+    "criminal-damage-arson": 37,
+    "drugs": 30,
+    "other-theft": 76,
+    "possession-of-weapons": 4,
+    "public-order": 46,
+    "robbery": 20,
+    "shoplifting": 36,
+    "theft-from-the-person": 44,
+    "vehicle-crime": 62,
+    "violent-crime": 195,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,20 @@
-{"neighbourhood_id": "84", "neighbourhood_name": "Messingham", "force_id": "humberside", "lat": "53.5388", "lng": "-0.651924", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 6, "burglary": 3, "criminal-damage-arson": 4, "public-order": 2, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "84",
+  "neighbourhood_name": "Messingham",
+  "force_id": "humberside",
+  "lat": "53.5388",
+  "lng": "-0.651924",
+  "population": 4160,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 3,
+    "criminal-damage-arson": 4,
+    "public-order": 2,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

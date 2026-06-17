@@ -1,1 +1,20 @@
-{"neighbourhood_id": "RBCH", "neighbourhood_name": "Chipstead, Lower Kingswood, Hooley &amp; Netherne", "force_id": "surrey", "lat": "51.286", "lng": "-0.179377", "population": 12098, "total_crimes": 8, "categories": {"burglary": 1, "criminal-damage-arson": 1, "other-theft": 2, "public-order": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RBCH",
+  "neighbourhood_name": "Chipstead, Lower Kingswood, Hooley &amp; Netherne",
+  "force_id": "surrey",
+  "lat": "51.286",
+  "lng": "-0.179377",
+  "population": 9394,
+  "total_crimes": 8,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "public-order": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

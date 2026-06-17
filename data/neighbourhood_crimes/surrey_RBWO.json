@@ -1,1 +1,23 @@
-{"neighbourhood_id": "RBWO", "neighbourhood_name": "Woodhatch", "force_id": "surrey", "lat": "51.2204", "lng": "-0.203242", "population": 12098, "total_crimes": 47, "categories": {"anti-social-behaviour": 10, "burglary": 4, "criminal-damage-arson": 7, "possession-of-weapons": 1, "public-order": 3, "robbery": 1, "shoplifting": 2, "violent-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RBWO",
+  "neighbourhood_name": "Woodhatch",
+  "force_id": "surrey",
+  "lat": "51.2204",
+  "lng": "-0.203242",
+  "population": 12470,
+  "total_crimes": 47,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 4,
+    "criminal-damage-arson": 7,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 2,
+    "violent-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

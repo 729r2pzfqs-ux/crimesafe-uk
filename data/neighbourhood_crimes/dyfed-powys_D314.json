@@ -1,1 +1,17 @@
-{"neighbourhood_id": "D314", "neighbourhood_name": "Presteigne", "force_id": "dyfed-powys", "lat": "52.2927", "lng": "-3.00706", "population": 12098, "total_crimes": 3, "categories": {"other-theft": 2, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D314",
+  "neighbourhood_name": "Presteigne",
+  "force_id": "dyfed-powys",
+  "lat": "52.2927",
+  "lng": "-3.00706",
+  "population": 2584,
+  "total_crimes": 3,
+  "categories": {
+    "other-theft": 2,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

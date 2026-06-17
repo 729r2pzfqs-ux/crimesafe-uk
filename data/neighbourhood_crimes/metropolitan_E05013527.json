@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013527", "neighbourhood_name": "North Acton", "force_id": "metropolitan", "lat": "51.5216", "lng": "-0.266889", "population": 17557, "total_crimes": 588, "categories": {"anti-social-behaviour": 174, "bicycle-theft": 3, "burglary": 23, "criminal-damage-arson": 23, "drugs": 20, "other-theft": 47, "possession-of-weapons": 4, "public-order": 43, "robbery": 10, "shoplifting": 30, "theft-from-the-person": 11, "vehicle-crime": 58, "violent-crime": 136, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013527",
+  "neighbourhood_name": "North Acton",
+  "force_id": "metropolitan",
+  "lat": "51.5216",
+  "lng": "-0.266889",
+  "population": 12554,
+  "total_crimes": 588,
+  "categories": {
+    "anti-social-behaviour": 174,
+    "bicycle-theft": 3,
+    "burglary": 23,
+    "criminal-damage-arson": 23,
+    "drugs": 20,
+    "other-theft": 47,
+    "possession-of-weapons": 4,
+    "public-order": 43,
+    "robbery": 10,
+    "shoplifting": 30,
+    "theft-from-the-person": 11,
+    "vehicle-crime": 58,
+    "violent-crime": 136,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 46.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

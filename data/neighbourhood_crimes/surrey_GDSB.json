@@ -1,1 +1,28 @@
-{"neighbourhood_id": "GDSB", "neighbourhood_name": "Slyfield &amp; Bellfields", "force_id": "surrey", "lat": "51.257", "lng": "-0.568908", "population": 12098, "total_crimes": 136, "categories": {"anti-social-behaviour": 22, "burglary": 1, "criminal-damage-arson": 14, "drugs": 3, "other-theft": 9, "possession-of-weapons": 1, "public-order": 13, "robbery": 2, "shoplifting": 19, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 42, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDSB",
+  "neighbourhood_name": "Slyfield &amp; Bellfields",
+  "force_id": "surrey",
+  "lat": "51.257",
+  "lng": "-0.568908",
+  "population": 6692,
+  "total_crimes": 136,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 1,
+    "criminal-damage-arson": 14,
+    "drugs": 3,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "robbery": 2,
+    "shoplifting": 19,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 42,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

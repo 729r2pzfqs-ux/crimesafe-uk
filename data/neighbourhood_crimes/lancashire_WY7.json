@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WY7", "neighbourhood_name": "Pharos", "force_id": "lancashire", "lat": "53.9242", "lng": "-3.0138", "population": 12098, "total_crimes": 185, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 21, "drugs": 11, "other-theft": 9, "possession-of-weapons": 3, "public-order": 10, "robbery": 2, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 77, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WY7",
+  "neighbourhood_name": "Pharos",
+  "force_id": "lancashire",
+  "lat": "53.9242",
+  "lng": "-3.0138",
+  "population": 5183,
+  "total_crimes": 185,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 21,
+    "drugs": 11,
+    "other-theft": 9,
+    "possession-of-weapons": 3,
+    "public-order": 10,
+    "robbery": 2,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 77,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

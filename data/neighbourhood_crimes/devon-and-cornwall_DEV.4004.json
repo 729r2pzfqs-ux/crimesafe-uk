@@ -1,1 +1,24 @@
-{"neighbourhood_id": "DEV.4004", "neighbourhood_name": "Totnes Town", "force_id": "devon-and-cornwall", "lat": "50.4263", "lng": "-3.69329", "population": 12098, "total_crimes": 39, "categories": {"anti-social-behaviour": 2, "bicycle-theft": 1, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 1, "public-order": 7, "shoplifting": 3, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4004",
+  "neighbourhood_name": "Totnes Town",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4263",
+  "lng": "-3.69329",
+  "population": 4891,
+  "total_crimes": 39,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 7,
+    "shoplifting": 3,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

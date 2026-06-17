@@ -1,1 +1,24 @@
-{"neighbourhood_id": "LPL3J", "neighbourhood_name": "Springwood", "force_id": "merseyside", "lat": "53.3649", "lng": "-2.88653", "population": 12098, "total_crimes": 130, "categories": {"anti-social-behaviour": 18, "criminal-damage-arson": 17, "drugs": 5, "other-theft": 4, "public-order": 13, "robbery": 1, "shoplifting": 13, "violent-crime": 58, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL3J",
+  "neighbourhood_name": "Springwood",
+  "force_id": "merseyside",
+  "lat": "53.3649",
+  "lng": "-2.88653",
+  "population": 6689,
+  "total_crimes": 130,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "criminal-damage-arson": 17,
+    "drugs": 5,
+    "other-theft": 4,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 13,
+    "violent-crime": 58,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

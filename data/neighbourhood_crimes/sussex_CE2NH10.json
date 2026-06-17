@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CE2NH10", "neighbourhood_name": "Hollingdean", "force_id": "sussex", "lat": "50.8449", "lng": "-0.122611", "population": 12098, "total_crimes": 371, "categories": {"anti-social-behaviour": 86, "bicycle-theft": 6, "burglary": 16, "criminal-damage-arson": 29, "drugs": 19, "other-theft": 25, "possession-of-weapons": 7, "public-order": 28, "robbery": 4, "shoplifting": 34, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 102, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE2NH10",
+  "neighbourhood_name": "Hollingdean",
+  "force_id": "sussex",
+  "lat": "50.8449",
+  "lng": "-0.122611",
+  "population": 10894,
+  "total_crimes": 371,
+  "categories": {
+    "anti-social-behaviour": 86,
+    "bicycle-theft": 6,
+    "burglary": 16,
+    "criminal-damage-arson": 29,
+    "drugs": 19,
+    "other-theft": 25,
+    "possession-of-weapons": 7,
+    "public-order": 28,
+    "robbery": 4,
+    "shoplifting": 34,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 102,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

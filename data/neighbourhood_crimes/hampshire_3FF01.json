@@ -1,1 +1,23 @@
-{"neighbourhood_id": "3FF01", "neighbourhood_name": "Portchester", "force_id": "hampshire", "lat": "50.8473", "lng": "-1.14414", "population": 12098, "total_crimes": 58, "categories": {"anti-social-behaviour": 11, "criminal-damage-arson": 3, "other-theft": 3, "public-order": 3, "shoplifting": 8, "vehicle-crime": 3, "violent-crime": 26, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "3FF01",
+  "neighbourhood_name": "Portchester",
+  "force_id": "hampshire",
+  "lat": "50.8473",
+  "lng": "-1.14414",
+  "population": 18090,
+  "total_crimes": 58,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "criminal-damage-arson": 3,
+    "other-theft": 3,
+    "public-order": 3,
+    "shoplifting": 8,
+    "vehicle-crime": 3,
+    "violent-crime": 26,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

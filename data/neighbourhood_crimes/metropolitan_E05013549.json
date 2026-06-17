@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05013549", "neighbourhood_name": "Hatch End", "force_id": "metropolitan", "lat": "51.6108", "lng": "-0.369295", "population": 9618, "total_crimes": 85, "categories": {"anti-social-behaviour": 20, "burglary": 7, "criminal-damage-arson": 3, "drugs": 2, "other-theft": 5, "public-order": 5, "robbery": 1, "theft-from-the-person": 2, "vehicle-crime": 8, "violent-crime": 29, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013549",
+  "neighbourhood_name": "Hatch End",
+  "force_id": "metropolitan",
+  "lat": "51.6108",
+  "lng": "-0.369295",
+  "population": 8902,
+  "total_crimes": 85,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 7,
+    "criminal-damage-arson": 3,
+    "drugs": 2,
+    "other-theft": 5,
+    "public-order": 5,
+    "robbery": 1,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 29,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

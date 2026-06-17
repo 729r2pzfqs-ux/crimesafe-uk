@@ -1,1 +1,27 @@
-{"neighbourhood_id": "W8", "neighbourhood_name": "Bury St Edmunds Town South", "force_id": "suffolk", "lat": "52.235", "lng": "0.714249", "population": 12098, "total_crimes": 137, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 13, "drugs": 8, "other-theft": 10, "public-order": 13, "robbery": 1, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 57, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "W8",
+  "neighbourhood_name": "Bury St Edmunds Town South",
+  "force_id": "suffolk",
+  "lat": "52.235",
+  "lng": "0.714249",
+  "population": 13887,
+  "total_crimes": 137,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 8,
+    "other-theft": 10,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 57,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

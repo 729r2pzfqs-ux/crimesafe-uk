@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013618", "neighbourhood_name": "Heston East", "force_id": "metropolitan", "lat": "51.4826", "lng": "-0.367096", "population": 12098, "total_crimes": 493, "categories": {"anti-social-behaviour": 106, "bicycle-theft": 5, "burglary": 11, "criminal-damage-arson": 29, "drugs": 17, "other-theft": 33, "possession-of-weapons": 4, "public-order": 38, "robbery": 7, "shoplifting": 41, "theft-from-the-person": 29, "vehicle-crime": 24, "violent-crime": 146, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013618",
+  "neighbourhood_name": "Heston East",
+  "force_id": "metropolitan",
+  "lat": "51.4826",
+  "lng": "-0.367096",
+  "population": 11243,
+  "total_crimes": 493,
+  "categories": {
+    "anti-social-behaviour": 106,
+    "bicycle-theft": 5,
+    "burglary": 11,
+    "criminal-damage-arson": 29,
+    "drugs": 17,
+    "other-theft": 33,
+    "possession-of-weapons": 4,
+    "public-order": 38,
+    "robbery": 7,
+    "shoplifting": 41,
+    "theft-from-the-person": 29,
+    "vehicle-crime": 24,
+    "violent-crime": 146,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

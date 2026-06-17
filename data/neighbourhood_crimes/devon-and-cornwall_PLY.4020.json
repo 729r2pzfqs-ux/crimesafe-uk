@@ -1,1 +1,25 @@
-{"neighbourhood_id": "PLY.4020", "neighbourhood_name": "Ernesettle", "force_id": "devon-and-cornwall", "lat": "50.4183", "lng": "-4.18288", "population": 12098, "total_crimes": 103, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 4, "public-order": 7, "shoplifting": 5, "vehicle-crime": 5, "violent-crime": 68, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4020",
+  "neighbourhood_name": "Ernesettle",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4183",
+  "lng": "-4.18288",
+  "population": 4615,
+  "total_crimes": 103,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 7,
+    "shoplifting": 5,
+    "vehicle-crime": 5,
+    "violent-crime": 68,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

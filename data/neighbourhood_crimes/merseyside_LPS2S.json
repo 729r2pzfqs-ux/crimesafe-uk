@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LPS2S", "neighbourhood_name": "Meols", "force_id": "merseyside", "lat": "53.6733", "lng": "-2.9595", "population": 12098, "total_crimes": 42, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 2, "public-order": 3, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 21, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS2S",
+  "neighbourhood_name": "Meols",
+  "force_id": "merseyside",
+  "lat": "53.6733",
+  "lng": "-2.9595",
+  "population": 12169,
+  "total_crimes": 42,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 3,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 21,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

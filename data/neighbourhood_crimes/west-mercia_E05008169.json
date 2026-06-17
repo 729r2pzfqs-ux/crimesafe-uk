@@ -1,1 +1,19 @@
-{"neighbourhood_id": "E05008169", "neighbourhood_name": "Market Drayton Town and Rural", "force_id": "west-mercia", "lat": "52.8893", "lng": "-2.51888", "population": 5587, "total_crimes": 9, "categories": {"criminal-damage-arson": 1, "drugs": 1, "shoplifting": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05008169",
+  "neighbourhood_name": "Market Drayton Town and Rural",
+  "force_id": "west-mercia",
+  "lat": "52.8893",
+  "lng": "-2.51888",
+  "population": 22177,
+  "total_crimes": 9,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "shoplifting": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

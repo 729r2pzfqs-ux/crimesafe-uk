@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013677", "neighbourhood_name": "Carterhatch", "force_id": "metropolitan", "lat": "51.6587", "lng": "-0.0508013", "population": 13915, "total_crimes": 629, "categories": {"anti-social-behaviour": 127, "burglary": 33, "criminal-damage-arson": 23, "drugs": 35, "other-theft": 38, "possession-of-weapons": 7, "public-order": 34, "robbery": 17, "shoplifting": 66, "theft-from-the-person": 26, "vehicle-crime": 49, "violent-crime": 163, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013677",
+  "neighbourhood_name": "Carterhatch",
+  "force_id": "metropolitan",
+  "lat": "51.6587",
+  "lng": "-0.0508013",
+  "population": 13132,
+  "total_crimes": 629,
+  "categories": {
+    "anti-social-behaviour": 127,
+    "burglary": 33,
+    "criminal-damage-arson": 23,
+    "drugs": 35,
+    "other-theft": 38,
+    "possession-of-weapons": 7,
+    "public-order": 34,
+    "robbery": 17,
+    "shoplifting": 66,
+    "theft-from-the-person": 26,
+    "vehicle-crime": 49,
+    "violent-crime": 163,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

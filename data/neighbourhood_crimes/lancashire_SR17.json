@@ -1,1 +1,23 @@
-{"neighbourhood_id": "SR17", "neighbourhood_name": "Moss Side", "force_id": "lancashire", "lat": "53.6997", "lng": "-2.73733", "population": 12098, "total_crimes": 49, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 3, "public-order": 8, "vehicle-crime": 1, "violent-crime": 27, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR17",
+  "neighbourhood_name": "Moss Side",
+  "force_id": "lancashire",
+  "lat": "53.6997",
+  "lng": "-2.73733",
+  "population": 5106,
+  "total_crimes": 49,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 27,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

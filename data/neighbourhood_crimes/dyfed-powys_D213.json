@@ -1,1 +1,19 @@
-{"neighbourhood_id": "D213", "neighbourhood_name": "Llansantffraid", "force_id": "dyfed-powys", "lat": "52.7729", "lng": "-3.18332", "population": 12098, "total_crimes": 6, "categories": {"other-theft": 3, "vehicle-crime": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D213",
+  "neighbourhood_name": "Llansantffraid",
+  "force_id": "dyfed-powys",
+  "lat": "52.7729",
+  "lng": "-3.18332",
+  "population": 1967,
+  "total_crimes": 6,
+  "categories": {
+    "other-theft": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "NA7", "neighbourhood_name": "Forsbrook &amp; Caverswall", "force_id": "staffordshire", "lat": "52.9711", "lng": "-2.01286", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "criminal-damage-arson": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA7",
+  "neighbourhood_name": "Forsbrook &amp; Caverswall",
+  "force_id": "staffordshire",
+  "lat": "52.9711",
+  "lng": "-2.01286",
+  "population": 12771,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

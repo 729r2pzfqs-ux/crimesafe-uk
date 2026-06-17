@@ -1,1 +1,17 @@
-{"neighbourhood_id": "AA5", "neighbourhood_name": "Whaddon Lynworth and Oakley", "force_id": "gloucestershire", "lat": "51.9078", "lng": "-2.0589", "population": 12098, "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AA5",
+  "neighbourhood_name": "Whaddon Lynworth and Oakley",
+  "force_id": "gloucestershire",
+  "lat": "51.9078",
+  "lng": "-2.0589",
+  "population": 8546,
+  "total_crimes": 2,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

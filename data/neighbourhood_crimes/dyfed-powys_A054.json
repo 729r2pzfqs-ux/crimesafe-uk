@@ -1,1 +1,14 @@
-{"neighbourhood_id": "A054", "neighbourhood_name": "Llandeilo", "force_id": "dyfed-powys", "lat": "51.8585", "lng": "-3.96569", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A054",
+  "neighbourhood_name": "Llandeilo",
+  "force_id": "dyfed-powys",
+  "lat": "51.8585",
+  "lng": "-3.96569",
+  "population": 2952,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

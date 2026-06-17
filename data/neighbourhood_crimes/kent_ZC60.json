@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ZC60", "neighbourhood_name": "Aylesford &amp; East Stour", "force_id": "kent", "lat": "51.1338", "lng": "0.891212", "population": 12098, "total_crimes": 163, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 4, "burglary": 4, "criminal-damage-arson": 6, "drugs": 11, "other-theft": 10, "possession-of-weapons": 2, "public-order": 12, "robbery": 2, "shoplifting": 28, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 50, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC60",
+  "neighbourhood_name": "Aylesford &amp; East Stour",
+  "force_id": "kent",
+  "lat": "51.1338",
+  "lng": "0.891212",
+  "population": 6607,
+  "total_crimes": 163,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 4,
+    "burglary": 4,
+    "criminal-damage-arson": 6,
+    "drugs": 11,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 28,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 50,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

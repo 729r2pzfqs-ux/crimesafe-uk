@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SW002", "neighbourhood_name": "Wednesbury Town", "force_id": "west-midlands", "lat": "52.5489", "lng": "-2.01179", "population": 12098, "total_crimes": 329, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 1, "burglary": 13, "criminal-damage-arson": 27, "drugs": 9, "other-theft": 22, "possession-of-weapons": 7, "public-order": 14, "robbery": 5, "shoplifting": 45, "theft-from-the-person": 1, "vehicle-crime": 32, "violent-crime": 138, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SW002",
+  "neighbourhood_name": "Wednesbury Town",
+  "force_id": "west-midlands",
+  "lat": "52.5489",
+  "lng": "-2.01179",
+  "population": 39127,
+  "total_crimes": 329,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 1,
+    "burglary": 13,
+    "criminal-damage-arson": 27,
+    "drugs": 9,
+    "other-theft": 22,
+    "possession-of-weapons": 7,
+    "public-order": 14,
+    "robbery": 5,
+    "shoplifting": 45,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 32,
+    "violent-crime": 138,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 24
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "78", "neighbourhood_name": "East Marsh", "force_id": "humberside", "lat": "53.5727", "lng": "-0.0630049", "population": 12098, "total_crimes": 542, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 5, "burglary": 21, "criminal-damage-arson": 61, "drugs": 14, "other-theft": 21, "possession-of-weapons": 4, "public-order": 45, "robbery": 7, "shoplifting": 94, "theft-from-the-person": 2, "vehicle-crime": 12, "violent-crime": 200, "other-crime": 22}, "date": "2026-03"}
+{
+  "neighbourhood_id": "78",
+  "neighbourhood_name": "East Marsh",
+  "force_id": "humberside",
+  "lat": "53.5727",
+  "lng": "-0.0630049",
+  "population": 9155,
+  "total_crimes": 542,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 5,
+    "burglary": 21,
+    "criminal-damage-arson": 61,
+    "drugs": 14,
+    "other-theft": 21,
+    "possession-of-weapons": 4,
+    "public-order": 45,
+    "robbery": 7,
+    "shoplifting": 94,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 12,
+    "violent-crime": 200,
+    "other-crime": 22
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

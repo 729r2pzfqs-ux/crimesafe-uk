@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011110", "neighbourhood_name": "Peckham", "force_id": "metropolitan", "lat": "51.478", "lng": "-0.072508", "population": 14716, "total_crimes": 1239, "categories": {"anti-social-behaviour": 285, "bicycle-theft": 32, "burglary": 55, "criminal-damage-arson": 74, "drugs": 62, "other-theft": 82, "possession-of-weapons": 6, "public-order": 65, "robbery": 42, "shoplifting": 42, "theft-from-the-person": 93, "vehicle-crime": 79, "violent-crime": 311, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011110",
+  "neighbourhood_name": "Peckham",
+  "force_id": "metropolitan",
+  "lat": "51.478",
+  "lng": "-0.072508",
+  "population": 12913,
+  "total_crimes": 1239,
+  "categories": {
+    "anti-social-behaviour": 285,
+    "bicycle-theft": 32,
+    "burglary": 55,
+    "criminal-damage-arson": 74,
+    "drugs": 62,
+    "other-theft": 82,
+    "possession-of-weapons": 6,
+    "public-order": 65,
+    "robbery": 42,
+    "shoplifting": 42,
+    "theft-from-the-person": 93,
+    "vehicle-crime": 79,
+    "violent-crime": 311,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 95.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

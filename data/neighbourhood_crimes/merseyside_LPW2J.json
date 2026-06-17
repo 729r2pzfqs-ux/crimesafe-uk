@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPW2J", "neighbourhood_name": "Prenton", "force_id": "merseyside", "lat": "53.3697", "lng": "-3.04671", "population": 12098, "total_crimes": 113, "categories": {"anti-social-behaviour": 12, "burglary": 7, "criminal-damage-arson": 10, "drugs": 2, "other-theft": 6, "public-order": 16, "robbery": 4, "shoplifting": 1, "vehicle-crime": 9, "violent-crime": 42, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW2J",
+  "neighbourhood_name": "Prenton",
+  "force_id": "merseyside",
+  "lat": "53.3697",
+  "lng": "-3.04671",
+  "population": 14035,
+  "total_crimes": 113,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 7,
+    "criminal-damage-arson": 10,
+    "drugs": 2,
+    "other-theft": 6,
+    "public-order": 16,
+    "robbery": 4,
+    "shoplifting": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 42,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

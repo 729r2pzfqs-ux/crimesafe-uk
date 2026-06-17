@@ -1,1 +1,21 @@
-{"neighbourhood_id": "NT02", "neighbourhood_name": "Staveley", "force_id": "derbyshire", "lat": "53.2736", "lng": "-1.32897", "population": 12098, "total_crimes": 35, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 5, "other-theft": 2, "vehicle-crime": 4, "violent-crime": 20, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NT02",
+  "neighbourhood_name": "Staveley",
+  "force_id": "derbyshire",
+  "lat": "53.2736",
+  "lng": "-1.32897",
+  "population": 4596,
+  "total_crimes": 35,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 5,
+    "other-theft": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 20,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

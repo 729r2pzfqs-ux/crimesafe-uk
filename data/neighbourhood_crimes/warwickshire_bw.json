@@ -1,1 +1,25 @@
-{"neighbourhood_id": "bw", "neighbourhood_name": "Bedworth West", "force_id": "warwickshire", "lat": "52.4744", "lng": "-1.50765", "population": 12098, "total_crimes": 91, "categories": {"anti-social-behaviour": 24, "burglary": 5, "criminal-damage-arson": 13, "other-theft": 10, "possession-of-weapons": 1, "public-order": 4, "shoplifting": 2, "vehicle-crime": 4, "violent-crime": 26, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "bw",
+  "neighbourhood_name": "Bedworth West",
+  "force_id": "warwickshire",
+  "lat": "52.4744",
+  "lng": "-1.50765",
+  "population": 22970,
+  "total_crimes": 91,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 5,
+    "criminal-damage-arson": 13,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "shoplifting": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 26,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

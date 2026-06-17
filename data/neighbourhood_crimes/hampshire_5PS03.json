@@ -1,1 +1,29 @@
-{"neighbourhood_id": "5PS03", "neighbourhood_name": "Eastney and Milton", "force_id": "hampshire", "lat": "50.7897", "lng": "-1.05483", "population": 12098, "total_crimes": 340, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 7, "burglary": 7, "criminal-damage-arson": 19, "drugs": 5, "other-theft": 27, "possession-of-weapons": 5, "public-order": 28, "robbery": 2, "shoplifting": 21, "theft-from-the-person": 2, "vehicle-crime": 32, "violent-crime": 156, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "5PS03",
+  "neighbourhood_name": "Eastney and Milton",
+  "force_id": "hampshire",
+  "lat": "50.7897",
+  "lng": "-1.05483",
+  "population": 28016,
+  "total_crimes": 340,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "bicycle-theft": 7,
+    "burglary": 7,
+    "criminal-damage-arson": 19,
+    "drugs": 5,
+    "other-theft": 27,
+    "possession-of-weapons": 5,
+    "public-order": 28,
+    "robbery": 2,
+    "shoplifting": 21,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 32,
+    "violent-crime": 156,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

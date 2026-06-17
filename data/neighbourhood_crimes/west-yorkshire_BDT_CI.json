@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BDT_CI", "neighbourhood_name": "Bradford City", "force_id": "west-yorkshire", "lat": "53.796", "lng": "-1.75757", "population": 12098, "total_crimes": 1049, "categories": {"anti-social-behaviour": 62, "bicycle-theft": 8, "burglary": 41, "criminal-damage-arson": 74, "drugs": 92, "other-theft": 85, "possession-of-weapons": 5, "public-order": 116, "robbery": 25, "shoplifting": 84, "theft-from-the-person": 22, "vehicle-crime": 53, "violent-crime": 356, "other-crime": 26}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BDT_CI",
+  "neighbourhood_name": "Bradford City",
+  "force_id": "west-yorkshire",
+  "lat": "53.796",
+  "lng": "-1.75757",
+  "population": 6163,
+  "total_crimes": 1049,
+  "categories": {
+    "anti-social-behaviour": 62,
+    "bicycle-theft": 8,
+    "burglary": 41,
+    "criminal-damage-arson": 74,
+    "drugs": 92,
+    "other-theft": 85,
+    "possession-of-weapons": 5,
+    "public-order": 116,
+    "robbery": 25,
+    "shoplifting": 84,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 53,
+    "violent-crime": 356,
+    "other-crime": 26
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 170.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

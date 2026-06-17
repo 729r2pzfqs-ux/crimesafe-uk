@@ -1,1 +1,25 @@
-{"neighbourhood_id": "1NE01", "neighbourhood_name": "Waterside", "force_id": "hampshire", "lat": "50.8442", "lng": "-1.39202", "population": 12098, "total_crimes": 38, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "1NE01",
+  "neighbourhood_name": "Waterside",
+  "force_id": "hampshire",
+  "lat": "50.8442",
+  "lng": "-1.39202",
+  "population": 40696,
+  "total_crimes": 38,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 27
+}

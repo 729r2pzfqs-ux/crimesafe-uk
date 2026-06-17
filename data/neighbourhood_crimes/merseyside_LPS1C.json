@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPS1C", "neighbourhood_name": "Blundellsands", "force_id": "merseyside", "lat": "53.495", "lng": "-3.04451", "population": 12098, "total_crimes": 66, "categories": {"anti-social-behaviour": 16, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 5, "public-order": 5, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS1C",
+  "neighbourhood_name": "Blundellsands",
+  "force_id": "merseyside",
+  "lat": "53.495",
+  "lng": "-3.04451",
+  "population": 11259,
+  "total_crimes": 66,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 5,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SW01", "neighbourhood_name": "Mickleover", "force_id": "derbyshire", "lat": "52.9125", "lng": "-1.53561", "population": 12098, "total_crimes": 185, "categories": {"anti-social-behaviour": 19, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 7, "public-order": 14, "robbery": 2, "shoplifting": 4, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 113, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SW01",
+  "neighbourhood_name": "Mickleover",
+  "force_id": "derbyshire",
+  "lat": "52.9125",
+  "lng": "-1.53561",
+  "population": 13808,
+  "total_crimes": 185,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 7,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 4,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 113,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

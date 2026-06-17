@@ -1,1 +1,24 @@
-{"neighbourhood_id": "ES15", "neighbourhood_name": "Bemerton Heath", "force_id": "wiltshire", "lat": "51.088", "lng": "-1.83342", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 12, "burglary": 2, "criminal-damage-arson": 9, "drugs": 1, "other-theft": 4, "public-order": 2, "shoplifting": 1, "violent-crime": 34, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES15",
+  "neighbourhood_name": "Bemerton Heath",
+  "force_id": "wiltshire",
+  "lat": "51.088",
+  "lng": "-1.83342",
+  "population": 7010,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 34,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

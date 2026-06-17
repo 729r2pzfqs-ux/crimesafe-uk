@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013507", "neighbourhood_name": "Queens Park", "force_id": "metropolitan", "lat": "51.5353", "lng": "-0.216537", "population": 12098, "total_crimes": 1061, "categories": {"anti-social-behaviour": 284, "bicycle-theft": 15, "burglary": 74, "criminal-damage-arson": 48, "drugs": 62, "other-theft": 71, "possession-of-weapons": 6, "public-order": 43, "robbery": 32, "shoplifting": 57, "theft-from-the-person": 45, "vehicle-crime": 72, "violent-crime": 241, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013507",
+  "neighbourhood_name": "Queens Park",
+  "force_id": "metropolitan",
+  "lat": "51.5353",
+  "lng": "-0.216537",
+  "population": 17960,
+  "total_crimes": 1061,
+  "categories": {
+    "anti-social-behaviour": 284,
+    "bicycle-theft": 15,
+    "burglary": 74,
+    "criminal-damage-arson": 48,
+    "drugs": 62,
+    "other-theft": 71,
+    "possession-of-weapons": 6,
+    "public-order": 43,
+    "robbery": 32,
+    "shoplifting": 57,
+    "theft-from-the-person": 45,
+    "vehicle-crime": 72,
+    "violent-crime": 241,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

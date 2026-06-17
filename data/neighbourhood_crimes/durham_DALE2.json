@@ -1,1 +1,27 @@
-{"neighbourhood_id": "DALE2", "neighbourhood_name": "Crook (Willington)", "force_id": "durham", "lat": "54.7046", "lng": "-1.68462", "population": 12098, "total_crimes": 92, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 1, "burglary": 5, "criminal-damage-arson": 17, "drugs": 3, "other-theft": 2, "public-order": 5, "robbery": 1, "shoplifting": 11, "vehicle-crime": 3, "violent-crime": 22, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DALE2",
+  "neighbourhood_name": "Crook (Willington)",
+  "force_id": "durham",
+  "lat": "54.7046",
+  "lng": "-1.68462",
+  "population": 9283,
+  "total_crimes": 92,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 1,
+    "burglary": 5,
+    "criminal-damage-arson": 17,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 11,
+    "vehicle-crime": 3,
+    "violent-crime": 22,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

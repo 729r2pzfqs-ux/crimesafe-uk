@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013575", "neighbourhood_name": "Northwood Hills", "force_id": "metropolitan", "lat": "51.6013", "lng": "-0.408427", "population": 12098, "total_crimes": 145, "categories": {"anti-social-behaviour": 22, "burglary": 10, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 10, "public-order": 9, "robbery": 3, "shoplifting": 13, "theft-from-the-person": 5, "vehicle-crime": 21, "violent-crime": 43, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013575",
+  "neighbourhood_name": "Northwood Hills",
+  "force_id": "metropolitan",
+  "lat": "51.6013",
+  "lng": "-0.408427",
+  "population": 12112,
+  "total_crimes": 145,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 10,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 10,
+    "public-order": 9,
+    "robbery": 3,
+    "shoplifting": 13,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 21,
+    "violent-crime": 43,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

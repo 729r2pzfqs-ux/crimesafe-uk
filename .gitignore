@@ -3,3 +3,4 @@ fetch_crimes.log
 __pycache__/
 *.pyc
 data/*_full.geojson
+data/population_cache/

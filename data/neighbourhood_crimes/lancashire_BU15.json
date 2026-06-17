@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BU15", "neighbourhood_name": "Rosehill with Burnley Wood", "force_id": "lancashire", "lat": "53.7781", "lng": "-2.23638", "population": 12098, "total_crimes": 412, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 3, "burglary": 16, "criminal-damage-arson": 34, "drugs": 13, "other-theft": 16, "possession-of-weapons": 2, "public-order": 33, "robbery": 6, "shoplifting": 67, "theft-from-the-person": 5, "vehicle-crime": 18, "violent-crime": 123, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU15",
+  "neighbourhood_name": "Rosehill with Burnley Wood",
+  "force_id": "lancashire",
+  "lat": "53.7781",
+  "lng": "-2.23638",
+  "population": 6036,
+  "total_crimes": 412,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 3,
+    "burglary": 16,
+    "criminal-damage-arson": 34,
+    "drugs": 13,
+    "other-theft": 16,
+    "possession-of-weapons": 2,
+    "public-order": 33,
+    "robbery": 6,
+    "shoplifting": 67,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 18,
+    "violent-crime": 123,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 68.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

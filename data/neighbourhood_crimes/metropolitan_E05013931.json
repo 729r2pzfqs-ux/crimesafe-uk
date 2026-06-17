@@ -1,1 +1,24 @@
-{"neighbourhood_id": "E05013931", "neighbourhood_name": "Chessington South and Malden Rushett", "force_id": "metropolitan", "lat": "51.3461", "lng": "-0.307905", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 13, "burglary": 1, "criminal-damage-arson": 2, "drugs": 3, "other-theft": 7, "public-order": 4, "robbery": 1, "vehicle-crime": 1, "violent-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013931",
+  "neighbourhood_name": "Chessington South and Malden Rushett",
+  "force_id": "metropolitan",
+  "lat": "51.3461",
+  "lng": "-0.307905",
+  "population": 10490,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 3,
+    "other-theft": 7,
+    "public-order": 4,
+    "robbery": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

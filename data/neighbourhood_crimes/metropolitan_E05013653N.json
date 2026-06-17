@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013653N", "neighbourhood_name": "Bloomsbury", "force_id": "metropolitan", "lat": "51.5228", "lng": "-0.131951", "population": 12098, "total_crimes": 4524, "categories": {"anti-social-behaviour": 612, "bicycle-theft": 56, "burglary": 120, "criminal-damage-arson": 88, "drugs": 149, "other-theft": 892, "possession-of-weapons": 10, "public-order": 197, "robbery": 143, "shoplifting": 470, "theft-from-the-person": 1049, "vehicle-crime": 73, "violent-crime": 642, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013653N",
+  "neighbourhood_name": "Bloomsbury",
+  "force_id": "metropolitan",
+  "lat": "51.5228",
+  "lng": "-0.131951",
+  "population": 14911,
+  "total_crimes": 4524,
+  "categories": {
+    "anti-social-behaviour": 612,
+    "bicycle-theft": 56,
+    "burglary": 120,
+    "criminal-damage-arson": 88,
+    "drugs": 149,
+    "other-theft": 892,
+    "possession-of-weapons": 10,
+    "public-order": 197,
+    "robbery": 143,
+    "shoplifting": 470,
+    "theft-from-the-person": 1049,
+    "vehicle-crime": 73,
+    "violent-crime": 642,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 303.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

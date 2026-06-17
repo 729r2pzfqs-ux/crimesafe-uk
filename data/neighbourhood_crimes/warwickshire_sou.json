@@ -1,1 +1,14 @@
-{"neighbourhood_id": "sou", "neighbourhood_name": "Southam", "force_id": "warwickshire", "lat": "52.2158", "lng": "-1.37995", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "sou",
+  "neighbourhood_name": "Southam",
+  "force_id": "warwickshire",
+  "lat": "52.2158",
+  "lng": "-1.37995",
+  "population": 20729,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

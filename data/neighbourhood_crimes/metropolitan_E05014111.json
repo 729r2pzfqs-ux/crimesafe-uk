@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014111", "neighbourhood_name": "Stockwell West and Larkhall", "force_id": "metropolitan", "lat": "51.4743", "lng": "-0.128941", "population": 17509, "total_crimes": 1537, "categories": {"anti-social-behaviour": 278, "bicycle-theft": 36, "burglary": 63, "criminal-damage-arson": 43, "drugs": 44, "other-theft": 133, "possession-of-weapons": 16, "public-order": 49, "robbery": 69, "shoplifting": 155, "theft-from-the-person": 184, "vehicle-crime": 74, "violent-crime": 369, "other-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014111",
+  "neighbourhood_name": "Stockwell West and Larkhall",
+  "force_id": "metropolitan",
+  "lat": "51.4743",
+  "lng": "-0.128941",
+  "population": 16741,
+  "total_crimes": 1537,
+  "categories": {
+    "anti-social-behaviour": 278,
+    "bicycle-theft": 36,
+    "burglary": 63,
+    "criminal-damage-arson": 43,
+    "drugs": 44,
+    "other-theft": 133,
+    "possession-of-weapons": 16,
+    "public-order": 49,
+    "robbery": 69,
+    "shoplifting": 155,
+    "theft-from-the-person": 184,
+    "vehicle-crime": 74,
+    "violent-crime": 369,
+    "other-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 91.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "NR31", "neighbourhood_name": "Melton Town Centre", "force_id": "leicestershire", "lat": "52.7662", "lng": "-0.884889", "population": 12098, "total_crimes": 164, "categories": {"anti-social-behaviour": 27, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 15, "drugs": 6, "other-theft": 5, "possession-of-weapons": 9, "public-order": 11, "shoplifting": 31, "vehicle-crime": 2, "violent-crime": 51, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NR31",
+  "neighbourhood_name": "Melton Town Centre",
+  "force_id": "leicestershire",
+  "lat": "52.7662",
+  "lng": "-0.884889",
+  "population": 1601,
+  "total_crimes": 164,
+  "categories": {
+    "anti-social-behaviour": 27,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 15,
+    "drugs": 6,
+    "other-theft": 5,
+    "possession-of-weapons": 9,
+    "public-order": 11,
+    "shoplifting": 31,
+    "vehicle-crime": 2,
+    "violent-crime": 51,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 102.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

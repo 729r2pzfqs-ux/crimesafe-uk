@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WV6", "neighbourhood_name": "Brereton  Ravenhill &amp; Hagley", "force_id": "staffordshire", "lat": "52.7509", "lng": "-1.93498", "population": 12098, "total_crimes": 144, "categories": {"anti-social-behaviour": 19, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 7, "drugs": 3, "other-theft": 9, "possession-of-weapons": 3, "public-order": 13, "shoplifting": 14, "theft-from-the-person": 2, "vehicle-crime": 11, "violent-crime": 58, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WV6",
+  "neighbourhood_name": "Brereton  Ravenhill &amp; Hagley",
+  "force_id": "staffordshire",
+  "lat": "52.7509",
+  "lng": "-1.93498",
+  "population": 18730,
+  "total_crimes": 144,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 7,
+    "drugs": 3,
+    "other-theft": 9,
+    "possession-of-weapons": 3,
+    "public-order": 13,
+    "shoplifting": 14,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 11,
+    "violent-crime": 58,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

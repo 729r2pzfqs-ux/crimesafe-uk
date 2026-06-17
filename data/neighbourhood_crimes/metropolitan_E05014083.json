@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014083", "neighbourhood_name": "Kidbrooke Park", "force_id": "metropolitan", "lat": "51.4688", "lng": "0.0397855", "population": 11161, "total_crimes": 416, "categories": {"anti-social-behaviour": 58, "bicycle-theft": 3, "burglary": 18, "criminal-damage-arson": 16, "drugs": 19, "other-theft": 34, "possession-of-weapons": 4, "public-order": 36, "robbery": 10, "shoplifting": 36, "theft-from-the-person": 6, "vehicle-crime": 26, "violent-crime": 142, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014083",
+  "neighbourhood_name": "Kidbrooke Park",
+  "force_id": "metropolitan",
+  "lat": "51.4688",
+  "lng": "0.0397855",
+  "population": 11245,
+  "total_crimes": 416,
+  "categories": {
+    "anti-social-behaviour": 58,
+    "bicycle-theft": 3,
+    "burglary": 18,
+    "criminal-damage-arson": 16,
+    "drugs": 19,
+    "other-theft": 34,
+    "possession-of-weapons": 4,
+    "public-order": 36,
+    "robbery": 10,
+    "shoplifting": 36,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 26,
+    "violent-crime": 142,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

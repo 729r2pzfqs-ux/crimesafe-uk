@@ -1,1 +1,28 @@
-{"neighbourhood_id": "EP13", "neighbourhood_name": "Chippenham Town West", "force_id": "wiltshire", "lat": "51.4627", "lng": "-2.13953", "population": 12098, "total_crimes": 139, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 12, "drugs": 3, "other-theft": 9, "public-order": 7, "robbery": 1, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 58, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EP13",
+  "neighbourhood_name": "Chippenham Town West",
+  "force_id": "wiltshire",
+  "lat": "51.4627",
+  "lng": "-2.13953",
+  "population": 13198,
+  "total_crimes": 139,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 12,
+    "drugs": 3,
+    "other-theft": 9,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 58,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "bridgend-central", "neighbourhood_name": "Bridgend Central", "force_id": "south-wales", "lat": "51.5129", "lng": "-3.5857", "population": 12098, "total_crimes": 255, "categories": {"anti-social-behaviour": 29, "burglary": 1, "criminal-damage-arson": 18, "drugs": 16, "other-theft": 14, "possession-of-weapons": 1, "public-order": 31, "robbery": 3, "shoplifting": 17, "vehicle-crime": 6, "violent-crime": 111, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "bridgend-central",
+  "neighbourhood_name": "Bridgend Central",
+  "force_id": "south-wales",
+  "lat": "51.5129",
+  "lng": "-3.5857",
+  "population": 10286,
+  "total_crimes": 255,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "burglary": 1,
+    "criminal-damage-arson": 18,
+    "drugs": 16,
+    "other-theft": 14,
+    "possession-of-weapons": 1,
+    "public-order": 31,
+    "robbery": 3,
+    "shoplifting": 17,
+    "vehicle-crime": 6,
+    "violent-crime": 111,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZB35", "neighbourhood_name": "St Peters", "force_id": "kent", "lat": "51.3617", "lng": "1.41284", "population": 12098, "total_crimes": 222, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 23, "drugs": 11, "other-theft": 25, "possession-of-weapons": 4, "public-order": 8, "shoplifting": 32, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 70, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB35",
+  "neighbourhood_name": "St Peters",
+  "force_id": "kent",
+  "lat": "51.3617",
+  "lng": "1.41284",
+  "population": 6953,
+  "total_crimes": 222,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 23,
+    "drugs": 11,
+    "other-theft": 25,
+    "possession-of-weapons": 4,
+    "public-order": 8,
+    "shoplifting": 32,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 70,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

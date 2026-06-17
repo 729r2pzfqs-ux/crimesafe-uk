@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WW1NH3", "neighbourhood_name": "Marine - Worthing", "force_id": "sussex", "lat": "50.8119", "lng": "-0.399333", "population": 12098, "total_crimes": 350, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 7, "burglary": 5, "criminal-damage-arson": 22, "drugs": 9, "other-theft": 20, "possession-of-weapons": 3, "public-order": 29, "robbery": 3, "shoplifting": 58, "vehicle-crime": 9, "violent-crime": 108, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW1NH3",
+  "neighbourhood_name": "Marine - Worthing",
+  "force_id": "sussex",
+  "lat": "50.8119",
+  "lng": "-0.399333",
+  "population": 8202,
+  "total_crimes": 350,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 7,
+    "burglary": 5,
+    "criminal-damage-arson": 22,
+    "drugs": 9,
+    "other-theft": 20,
+    "possession-of-weapons": 3,
+    "public-order": 29,
+    "robbery": 3,
+    "shoplifting": 58,
+    "vehicle-crime": 9,
+    "violent-crime": 108,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

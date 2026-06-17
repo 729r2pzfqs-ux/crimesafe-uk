@@ -1,1 +1,19 @@
-{"neighbourhood_id": "llanharry", "neighbourhood_name": "Llanharry", "force_id": "south-wales", "lat": "51.5174", "lng": "-3.43139", "population": 12098, "total_crimes": 11, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 8, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llanharry",
+  "neighbourhood_name": "Llanharry",
+  "force_id": "south-wales",
+  "lat": "51.5174",
+  "lng": "-3.43139",
+  "population": 1432,
+  "total_crimes": 11,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 8,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

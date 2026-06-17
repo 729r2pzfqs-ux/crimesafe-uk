@@ -1,1 +1,21 @@
-{"neighbourhood_id": "ZD27", "neighbourhood_name": "Little Stour &amp; Ashstone", "force_id": "kent", "lat": "51.2798", "lng": "1.26928", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 1, "violent-crime": 8, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZD27",
+  "neighbourhood_name": "Little Stour &amp; Ashstone",
+  "force_id": "kent",
+  "lat": "51.2798",
+  "lng": "1.26928",
+  "population": 5527,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "violent-crime": 8,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

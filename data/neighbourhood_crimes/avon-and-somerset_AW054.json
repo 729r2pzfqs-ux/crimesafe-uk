@@ -1,1 +1,16 @@
-{"neighbourhood_id": "AW054", "neighbourhood_name": "Wellington North", "force_id": "avon-and-somerset", "lat": "51.0415", "lng": "-3.2762", "population": "0", "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW054",
+  "neighbourhood_name": "Wellington North",
+  "force_id": "avon-and-somerset",
+  "lat": "51.0415",
+  "lng": "-3.2762",
+  "population": 15074,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

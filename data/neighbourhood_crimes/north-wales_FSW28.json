@@ -1,1 +1,18 @@
-{"neighbourhood_id": "FSW28", "neighbourhood_name": "Treuddyn", "force_id": "north-wales", "lat": "53.1066", "lng": "-3.12672", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW28",
+  "neighbourhood_name": "Treuddyn",
+  "force_id": "north-wales",
+  "lat": "53.1066",
+  "lng": "-3.12672",
+  "population": 1692,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "RV19", "neighbourhood_name": "Salthill", "force_id": "lancashire", "lat": "53.8743", "lng": "-2.3758", "population": 12098, "total_crimes": 72, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 11, "other-theft": 5, "possession-of-weapons": 1, "public-order": 5, "shoplifting": 5, "vehicle-crime": 4, "violent-crime": 22, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV19",
+  "neighbourhood_name": "Salthill",
+  "force_id": "lancashire",
+  "lat": "53.8743",
+  "lng": "-2.3758",
+  "population": 3387,
+  "total_crimes": 72,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 11,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 5,
+    "shoplifting": 5,
+    "vehicle-crime": 4,
+    "violent-crime": 22,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

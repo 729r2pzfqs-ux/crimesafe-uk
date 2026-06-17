@@ -1,1 +1,29 @@
-{"neighbourhood_id": "Peterborough_Central", "neighbourhood_name": "Peterborough Central", "force_id": "cambridgeshire", "lat": "52.5897", "lng": "-0.252339", "population": "0", "total_crimes": 592, "categories": {"anti-social-behaviour": 96, "bicycle-theft": 2, "burglary": 19, "criminal-damage-arson": 28, "drugs": 28, "other-theft": 37, "possession-of-weapons": 13, "public-order": 38, "robbery": 7, "shoplifting": 44, "theft-from-the-person": 2, "vehicle-crime": 25, "violent-crime": 233, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "Peterborough_Central",
+  "neighbourhood_name": "Peterborough Central",
+  "force_id": "cambridgeshire",
+  "lat": "52.5897",
+  "lng": "-0.252339",
+  "population": 23031,
+  "total_crimes": 592,
+  "categories": {
+    "anti-social-behaviour": 96,
+    "bicycle-theft": 2,
+    "burglary": 19,
+    "criminal-damage-arson": 28,
+    "drugs": 28,
+    "other-theft": 37,
+    "possession-of-weapons": 13,
+    "public-order": 38,
+    "robbery": 7,
+    "shoplifting": 44,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 25,
+    "violent-crime": 233,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

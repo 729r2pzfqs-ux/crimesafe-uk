@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CV010", "neighbourhood_name": "St Michael's", "force_id": "west-midlands", "lat": "52.4087", "lng": "-1.50658", "population": 12098, "total_crimes": 932, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 17, "burglary": 37, "criminal-damage-arson": 66, "drugs": 47, "other-theft": 56, "possession-of-weapons": 15, "public-order": 65, "robbery": 36, "shoplifting": 103, "theft-from-the-person": 16, "vehicle-crime": 49, "violent-crime": 367, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CV010",
+  "neighbourhood_name": "St Michael's",
+  "force_id": "west-midlands",
+  "lat": "52.4087",
+  "lng": "-1.50658",
+  "population": 31713,
+  "total_crimes": 932,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "bicycle-theft": 17,
+    "burglary": 37,
+    "criminal-damage-arson": 66,
+    "drugs": 47,
+    "other-theft": 56,
+    "possession-of-weapons": 15,
+    "public-order": 65,
+    "robbery": 36,
+    "shoplifting": 103,
+    "theft-from-the-person": 16,
+    "vehicle-crime": 49,
+    "violent-crime": 367,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

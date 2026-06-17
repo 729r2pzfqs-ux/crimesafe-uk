@@ -1,1 +1,27 @@
-{"neighbourhood_id": "DCW08", "neighbourhood_name": "Rhyl South", "force_id": "north-wales", "lat": "53.3055", "lng": "-3.47653", "population": 12098, "total_crimes": 148, "categories": {"anti-social-behaviour": 25, "burglary": 1, "criminal-damage-arson": 12, "drugs": 6, "other-theft": 6, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 15, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 62, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW08",
+  "neighbourhood_name": "Rhyl South",
+  "force_id": "north-wales",
+  "lat": "53.3055",
+  "lng": "-3.47653",
+  "population": 3583,
+  "total_crimes": 148,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 1,
+    "criminal-damage-arson": 12,
+    "drugs": 6,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 15,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 62,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPK1J", "neighbourhood_name": "St Michaels", "force_id": "merseyside", "lat": "53.4206", "lng": "-2.8317", "population": 12098, "total_crimes": 222, "categories": {"anti-social-behaviour": 24, "burglary": 6, "criminal-damage-arson": 18, "drugs": 20, "other-theft": 10, "possession-of-weapons": 2, "public-order": 15, "shoplifting": 19, "vehicle-crime": 8, "violent-crime": 94, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPK1J",
+  "neighbourhood_name": "St Michaels",
+  "force_id": "merseyside",
+  "lat": "53.4206",
+  "lng": "-2.8317",
+  "population": 10442,
+  "total_crimes": 222,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 6,
+    "criminal-damage-arson": 18,
+    "drugs": 20,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 15,
+    "shoplifting": 19,
+    "vehicle-crime": 8,
+    "violent-crime": 94,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

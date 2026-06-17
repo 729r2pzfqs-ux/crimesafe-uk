@@ -1,1 +1,28 @@
-{"neighbourhood_id": "penylan", "neighbourhood_name": "Penylan", "force_id": "south-wales", "lat": "51.5005", "lng": "-3.15522", "population": 12098, "total_crimes": 387, "categories": {"anti-social-behaviour": 48, "bicycle-theft": 10, "burglary": 10, "criminal-damage-arson": 30, "drugs": 7, "other-theft": 24, "possession-of-weapons": 10, "public-order": 53, "robbery": 5, "shoplifting": 39, "vehicle-crime": 38, "violent-crime": 109, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penylan",
+  "neighbourhood_name": "Penylan",
+  "force_id": "south-wales",
+  "lat": "51.5005",
+  "lng": "-3.15522",
+  "population": 13097,
+  "total_crimes": 387,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "bicycle-theft": 10,
+    "burglary": 10,
+    "criminal-damage-arson": 30,
+    "drugs": 7,
+    "other-theft": 24,
+    "possession-of-weapons": 10,
+    "public-order": 53,
+    "robbery": 5,
+    "shoplifting": 39,
+    "vehicle-crime": 38,
+    "violent-crime": 109,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

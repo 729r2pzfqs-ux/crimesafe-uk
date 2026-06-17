@@ -1,1 +1,29 @@
-{"neighbourhood_id": "PLY.4010", "neighbourhood_name": "East End", "force_id": "devon-and-cornwall", "lat": "50.367", "lng": "-4.12222", "population": 12098, "total_crimes": 577, "categories": {"anti-social-behaviour": 74, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 29, "drugs": 25, "other-theft": 36, "possession-of-weapons": 9, "public-order": 53, "robbery": 2, "shoplifting": 60, "theft-from-the-person": 7, "vehicle-crime": 10, "violent-crime": 252, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4010",
+  "neighbourhood_name": "East End",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.367",
+  "lng": "-4.12222",
+  "population": 5912,
+  "total_crimes": 577,
+  "categories": {
+    "anti-social-behaviour": 74,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 29,
+    "drugs": 25,
+    "other-theft": 36,
+    "possession-of-weapons": 9,
+    "public-order": 53,
+    "robbery": 2,
+    "shoplifting": 60,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 10,
+    "violent-crime": 252,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 97.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

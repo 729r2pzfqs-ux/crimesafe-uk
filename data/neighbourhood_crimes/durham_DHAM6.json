@@ -1,1 +1,22 @@
-{"neighbourhood_id": "DHAM6", "neighbourhood_name": "Durham (Bowburn/Cassop/Shincliffe/High Shincliffe)", "force_id": "durham", "lat": "54.7419", "lng": "-1.50868", "population": 12098, "total_crimes": 36, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 3, "public-order": 3, "shoplifting": 1, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DHAM6",
+  "neighbourhood_name": "Durham (Bowburn/Cassop/Shincliffe/High Shincliffe)",
+  "force_id": "durham",
+  "lat": "54.7419",
+  "lng": "-1.50868",
+  "population": 7596,
+  "total_crimes": 36,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "public-order": 3,
+    "shoplifting": 1,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

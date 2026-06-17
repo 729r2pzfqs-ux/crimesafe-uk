@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DEV.4026", "neighbourhood_name": "Roundham-with-Hyde", "force_id": "devon-and-cornwall", "lat": "50.4343", "lng": "-3.56535", "population": 12098, "total_crimes": 281, "categories": {"anti-social-behaviour": 49, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 25, "drugs": 1, "other-theft": 32, "possession-of-weapons": 3, "public-order": 15, "robbery": 3, "shoplifting": 33, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 101, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4026",
+  "neighbourhood_name": "Roundham-with-Hyde",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4343",
+  "lng": "-3.56535",
+  "population": 8080,
+  "total_crimes": 281,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 25,
+    "drugs": 1,
+    "other-theft": 32,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "robbery": 3,
+    "shoplifting": 33,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 101,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

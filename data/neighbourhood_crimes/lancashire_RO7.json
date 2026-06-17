@@ -1,1 +1,24 @@
-{"neighbourhood_id": "RO7", "neighbourhood_name": "Hareholme with Waterfoot", "force_id": "lancashire", "lat": "53.6911", "lng": "-2.26105", "population": 12098, "total_crimes": 77, "categories": {"anti-social-behaviour": 12, "burglary": 4, "criminal-damage-arson": 4, "other-theft": 1, "public-order": 4, "shoplifting": 10, "vehicle-crime": 2, "violent-crime": 38, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO7",
+  "neighbourhood_name": "Hareholme with Waterfoot",
+  "force_id": "lancashire",
+  "lat": "53.6911",
+  "lng": "-2.26105",
+  "population": 6035,
+  "total_crimes": 77,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 4,
+    "criminal-damage-arson": 4,
+    "other-theft": 1,
+    "public-order": 4,
+    "shoplifting": 10,
+    "vehicle-crime": 2,
+    "violent-crime": 38,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

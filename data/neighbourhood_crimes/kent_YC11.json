@@ -1,1 +1,25 @@
-{"neighbourhood_id": "YC11", "neighbourhood_name": "Sevenoaks Town and St John's", "force_id": "kent", "lat": "51.2689", "lng": "0.202949", "population": 12098, "total_crimes": 63, "categories": {"anti-social-behaviour": 8, "burglary": 2, "criminal-damage-arson": 9, "drugs": 2, "other-theft": 3, "public-order": 5, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC11",
+  "neighbourhood_name": "Sevenoaks Town and St John's",
+  "force_id": "kent",
+  "lat": "51.2689",
+  "lng": "0.202949",
+  "population": 7442,
+  "total_crimes": 63,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 2,
+    "other-theft": 3,
+    "public-order": 5,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

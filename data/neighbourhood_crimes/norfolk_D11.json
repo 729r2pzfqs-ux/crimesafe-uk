@@ -1,1 +1,16 @@
-{"neighbourhood_id": "D11", "neighbourhood_name": "Costessey", "force_id": "norfolk", "lat": "52.6336", "lng": "1.16904", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D11",
+  "neighbourhood_name": "Costessey",
+  "force_id": "norfolk",
+  "lat": "52.6336",
+  "lng": "1.16904",
+  "population": 13841,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

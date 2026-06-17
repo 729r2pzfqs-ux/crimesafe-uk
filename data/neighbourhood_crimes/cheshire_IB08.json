@@ -1,1 +1,26 @@
-{"neighbourhood_id": "IB08", "neighbourhood_name": "Sutton", "force_id": "cheshire", "lat": "53.2695", "lng": "-2.92556", "population": "0", "total_crimes": 155, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 8, "drugs": 8, "other-theft": 11, "public-order": 12, "shoplifting": 6, "vehicle-crime": 13, "violent-crime": 77, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "IB08",
+  "neighbourhood_name": "Sutton",
+  "force_id": "cheshire",
+  "lat": "53.2695",
+  "lng": "-2.92556",
+  "population": 7565,
+  "total_crimes": 155,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 8,
+    "other-theft": 11,
+    "public-order": 12,
+    "shoplifting": 6,
+    "vehicle-crime": 13,
+    "violent-crime": 77,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

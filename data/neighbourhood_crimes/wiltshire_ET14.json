@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ET14", "neighbourhood_name": "College", "force_id": "wiltshire", "lat": "51.3083", "lng": "-2.21587", "population": 12098, "total_crimes": 210, "categories": {"anti-social-behaviour": 48, "bicycle-theft": 3, "burglary": 3, "criminal-damage-arson": 11, "drugs": 7, "other-theft": 8, "possession-of-weapons": 2, "public-order": 9, "robbery": 2, "shoplifting": 25, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 78, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ET14",
+  "neighbourhood_name": "College",
+  "force_id": "wiltshire",
+  "lat": "51.3083",
+  "lng": "-2.21587",
+  "population": 9605,
+  "total_crimes": 210,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "bicycle-theft": 3,
+    "burglary": 3,
+    "criminal-damage-arson": 11,
+    "drugs": 7,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "robbery": 2,
+    "shoplifting": 25,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 78,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

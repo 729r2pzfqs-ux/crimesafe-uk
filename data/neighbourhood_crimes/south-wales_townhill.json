@@ -1,1 +1,29 @@
-{"neighbourhood_id": "townhill", "neighbourhood_name": "Townhill", "force_id": "south-wales", "lat": "51.6289", "lng": "-3.96308", "population": 12098, "total_crimes": 479, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 6, "burglary": 20, "criminal-damage-arson": 43, "drugs": 35, "other-theft": 30, "possession-of-weapons": 6, "public-order": 48, "robbery": 3, "shoplifting": 64, "theft-from-the-person": 3, "vehicle-crime": 25, "violent-crime": 151, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "townhill",
+  "neighbourhood_name": "Townhill",
+  "force_id": "south-wales",
+  "lat": "51.6289",
+  "lng": "-3.96308",
+  "population": 9166,
+  "total_crimes": 479,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "bicycle-theft": 6,
+    "burglary": 20,
+    "criminal-damage-arson": 43,
+    "drugs": 35,
+    "other-theft": 30,
+    "possession-of-weapons": 6,
+    "public-order": 48,
+    "robbery": 3,
+    "shoplifting": 64,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 25,
+    "violent-crime": 151,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 52.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

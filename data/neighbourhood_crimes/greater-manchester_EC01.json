@@ -1,1 +1,16 @@
-{"neighbourhood_id": "EC01", "neighbourhood_name": "Anson", "force_id": "greater-manchester", "lat": "53.4519", "lng": "-2.20419", "population": 12098, "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EC01",
+  "neighbourhood_name": "Anson",
+  "force_id": "greater-manchester",
+  "lat": "53.4519",
+  "lng": "-2.20419",
+  "population": 10404,
+  "total_crimes": 1,
+  "categories": {
+    "criminal-damage-arson": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

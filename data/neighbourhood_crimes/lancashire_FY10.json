@@ -1,1 +1,24 @@
-{"neighbourhood_id": "FY10", "neighbourhood_name": "Lytham East", "force_id": "lancashire", "lat": "53.7452", "lng": "-2.94742", "population": 12098, "total_crimes": 37, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 2, "public-order": 2, "shoplifting": 2, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 19, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FY10",
+  "neighbourhood_name": "Lytham East",
+  "force_id": "lancashire",
+  "lat": "53.7452",
+  "lng": "-2.94742",
+  "population": 5084,
+  "total_crimes": 37,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "public-order": 2,
+    "shoplifting": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 19,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

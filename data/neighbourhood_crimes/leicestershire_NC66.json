@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC66", "neighbourhood_name": "Cultural Quarter", "force_id": "leicestershire", "lat": "52.6337", "lng": "-1.12435", "population": 12098, "total_crimes": 1537, "categories": {"anti-social-behaviour": 214, "bicycle-theft": 19, "burglary": 28, "criminal-damage-arson": 97, "drugs": 76, "other-theft": 131, "possession-of-weapons": 27, "public-order": 181, "robbery": 24, "shoplifting": 162, "theft-from-the-person": 23, "vehicle-crime": 52, "violent-crime": 484, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC66",
+  "neighbourhood_name": "Cultural Quarter",
+  "force_id": "leicestershire",
+  "lat": "52.6337",
+  "lng": "-1.12435",
+  "population": 4261,
+  "total_crimes": 1537,
+  "categories": {
+    "anti-social-behaviour": 214,
+    "bicycle-theft": 19,
+    "burglary": 28,
+    "criminal-damage-arson": 97,
+    "drugs": 76,
+    "other-theft": 131,
+    "possession-of-weapons": 27,
+    "public-order": 181,
+    "robbery": 24,
+    "shoplifting": 162,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 52,
+    "violent-crime": 484,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 360.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

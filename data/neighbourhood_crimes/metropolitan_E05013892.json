@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013892", "neighbourhood_name": "Higham Hill", "force_id": "metropolitan", "lat": "51.5979", "lng": "-0.0369091", "population": 12098, "total_crimes": 445, "categories": {"anti-social-behaviour": 85, "bicycle-theft": 4, "burglary": 24, "criminal-damage-arson": 25, "drugs": 15, "other-theft": 38, "possession-of-weapons": 2, "public-order": 25, "robbery": 21, "shoplifting": 24, "theft-from-the-person": 32, "vehicle-crime": 36, "violent-crime": 108, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013892",
+  "neighbourhood_name": "Higham Hill",
+  "force_id": "metropolitan",
+  "lat": "51.5979",
+  "lng": "-0.0369091",
+  "population": 15652,
+  "total_crimes": 445,
+  "categories": {
+    "anti-social-behaviour": 85,
+    "bicycle-theft": 4,
+    "burglary": 24,
+    "criminal-damage-arson": 25,
+    "drugs": 15,
+    "other-theft": 38,
+    "possession-of-weapons": 2,
+    "public-order": 25,
+    "robbery": 21,
+    "shoplifting": 24,
+    "theft-from-the-person": 32,
+    "vehicle-crime": 36,
+    "violent-crime": 108,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

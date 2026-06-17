@@ -1,1 +1,24 @@
-{"neighbourhood_id": "ZC29", "neighbourhood_name": "Tenterden North", "force_id": "kent", "lat": "51.0731", "lng": "0.691916", "population": 12098, "total_crimes": 36, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 2, "public-order": 1, "shoplifting": 3, "violent-crime": 12, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC29",
+  "neighbourhood_name": "Tenterden North",
+  "force_id": "kent",
+  "lat": "51.0731",
+  "lng": "0.691916",
+  "population": 2183,
+  "total_crimes": 36,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 3,
+    "violent-crime": 12,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

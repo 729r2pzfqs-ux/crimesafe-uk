@@ -1,1 +1,23 @@
-{"neighbourhood_id": "E05013757", "neighbourhood_name": "Carshalton South and Clockhouse", "force_id": "metropolitan", "lat": "51.34", "lng": "-0.165751", "population": 12098, "total_crimes": 35, "categories": {"anti-social-behaviour": 5, "burglary": 5, "criminal-damage-arson": 4, "other-theft": 1, "public-order": 4, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013757",
+  "neighbourhood_name": "Carshalton South and Clockhouse",
+  "force_id": "metropolitan",
+  "lat": "51.34",
+  "lng": "-0.165751",
+  "population": 10549,
+  "total_crimes": 35,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "other-theft": 1,
+    "public-order": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

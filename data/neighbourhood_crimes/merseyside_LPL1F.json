@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPL1F", "neighbourhood_name": "Norris Green", "force_id": "merseyside", "lat": "53.4446", "lng": "-2.921", "population": 12098, "total_crimes": 340, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 39, "drugs": 34, "other-theft": 14, "possession-of-weapons": 3, "public-order": 34, "robbery": 9, "shoplifting": 16, "vehicle-crime": 13, "violent-crime": 140, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL1F",
+  "neighbourhood_name": "Norris Green",
+  "force_id": "merseyside",
+  "lat": "53.4446",
+  "lng": "-2.921",
+  "population": 13551,
+  "total_crimes": 340,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 39,
+    "drugs": 34,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 34,
+    "robbery": 9,
+    "shoplifting": 16,
+    "vehicle-crime": 13,
+    "violent-crime": 140,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

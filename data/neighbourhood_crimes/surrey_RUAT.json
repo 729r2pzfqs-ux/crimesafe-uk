@@ -1,1 +1,27 @@
-{"neighbourhood_id": "RUAT", "neighbourhood_name": "Addlestone Town", "force_id": "surrey", "lat": "51.372", "lng": "-0.496056", "population": 12098, "total_crimes": 148, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 10, "drugs": 4, "other-theft": 7, "possession-of-weapons": 1, "public-order": 11, "shoplifting": 14, "vehicle-crime": 5, "violent-crime": 63, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RUAT",
+  "neighbourhood_name": "Addlestone Town",
+  "force_id": "surrey",
+  "lat": "51.372",
+  "lng": "-0.496056",
+  "population": 9171,
+  "total_crimes": 148,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 10,
+    "drugs": 4,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 11,
+    "shoplifting": 14,
+    "vehicle-crime": 5,
+    "violent-crime": 63,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

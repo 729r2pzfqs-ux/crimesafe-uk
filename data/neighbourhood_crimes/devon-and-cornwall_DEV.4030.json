@@ -1,1 +1,26 @@
-{"neighbourhood_id": "DEV.4030", "neighbourhood_name": "Hele", "force_id": "devon-and-cornwall", "lat": "50.4846", "lng": "-3.54286", "population": 12098, "total_crimes": 284, "categories": {"anti-social-behaviour": 36, "burglary": 2, "criminal-damage-arson": 26, "drugs": 13, "other-theft": 11, "possession-of-weapons": 2, "public-order": 16, "shoplifting": 28, "vehicle-crime": 3, "violent-crime": 139, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4030",
+  "neighbourhood_name": "Hele",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4846",
+  "lng": "-3.54286",
+  "population": 4334,
+  "total_crimes": 284,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "burglary": 2,
+    "criminal-damage-arson": 26,
+    "drugs": 13,
+    "other-theft": 11,
+    "possession-of-weapons": 2,
+    "public-order": 16,
+    "shoplifting": 28,
+    "vehicle-crime": 3,
+    "violent-crime": 139,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

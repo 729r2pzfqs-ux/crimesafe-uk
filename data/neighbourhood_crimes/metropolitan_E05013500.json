@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013500", "neighbourhood_name": "Dollis Hill", "force_id": "metropolitan", "lat": "51.562", "lng": "-0.237178", "population": 12098, "total_crimes": 578, "categories": {"anti-social-behaviour": 152, "bicycle-theft": 2, "burglary": 23, "criminal-damage-arson": 31, "drugs": 36, "other-theft": 42, "possession-of-weapons": 5, "public-order": 28, "robbery": 8, "shoplifting": 18, "theft-from-the-person": 15, "vehicle-crime": 52, "violent-crime": 157, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013500",
+  "neighbourhood_name": "Dollis Hill",
+  "force_id": "metropolitan",
+  "lat": "51.562",
+  "lng": "-0.237178",
+  "population": 17583,
+  "total_crimes": 578,
+  "categories": {
+    "anti-social-behaviour": 152,
+    "bicycle-theft": 2,
+    "burglary": 23,
+    "criminal-damage-arson": 31,
+    "drugs": 36,
+    "other-theft": 42,
+    "possession-of-weapons": 5,
+    "public-order": 28,
+    "robbery": 8,
+    "shoplifting": 18,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 52,
+    "violent-crime": 157,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013685N", "neighbourhood_name": "Lower Edmonton", "force_id": "metropolitan", "lat": "51.6258", "lng": "-0.0443072", "population": 12098, "total_crimes": 667, "categories": {"anti-social-behaviour": 122, "bicycle-theft": 5, "burglary": 39, "criminal-damage-arson": 24, "drugs": 49, "other-theft": 39, "possession-of-weapons": 4, "public-order": 42, "robbery": 8, "shoplifting": 75, "theft-from-the-person": 32, "vehicle-crime": 68, "violent-crime": 149, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013685N",
+  "neighbourhood_name": "Lower Edmonton",
+  "force_id": "metropolitan",
+  "lat": "51.6258",
+  "lng": "-0.0443072",
+  "population": 17905,
+  "total_crimes": 667,
+  "categories": {
+    "anti-social-behaviour": 122,
+    "bicycle-theft": 5,
+    "burglary": 39,
+    "criminal-damage-arson": 24,
+    "drugs": 49,
+    "other-theft": 39,
+    "possession-of-weapons": 4,
+    "public-order": 42,
+    "robbery": 8,
+    "shoplifting": 75,
+    "theft-from-the-person": 32,
+    "vehicle-crime": 68,
+    "violent-crime": 149,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

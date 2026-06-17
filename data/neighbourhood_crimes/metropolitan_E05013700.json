@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013700", "neighbourhood_name": "Caledonian", "force_id": "metropolitan", "lat": "51.5388", "lng": "-0.120252", "population": 12098, "total_crimes": 2234, "categories": {"anti-social-behaviour": 463, "bicycle-theft": 39, "burglary": 70, "criminal-damage-arson": 98, "drugs": 112, "other-theft": 232, "possession-of-weapons": 12, "public-order": 149, "robbery": 80, "shoplifting": 182, "theft-from-the-person": 274, "vehicle-crime": 76, "violent-crime": 430, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013700",
+  "neighbourhood_name": "Caledonian",
+  "force_id": "metropolitan",
+  "lat": "51.5388",
+  "lng": "-0.120252",
+  "population": 13075,
+  "total_crimes": 2234,
+  "categories": {
+    "anti-social-behaviour": 463,
+    "bicycle-theft": 39,
+    "burglary": 70,
+    "criminal-damage-arson": 98,
+    "drugs": 112,
+    "other-theft": 232,
+    "possession-of-weapons": 12,
+    "public-order": 149,
+    "robbery": 80,
+    "shoplifting": 182,
+    "theft-from-the-person": 274,
+    "vehicle-crime": 76,
+    "violent-crime": 430,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 170.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "J02", "neighbourhood_name": "Borehamwood and Elstree", "force_id": "hertfordshire", "lat": "51.6577", "lng": "-0.280504", "population": 12098, "total_crimes": 312, "categories": {"anti-social-behaviour": 65, "bicycle-theft": 1, "burglary": 10, "criminal-damage-arson": 13, "drugs": 18, "other-theft": 19, "possession-of-weapons": 3, "public-order": 23, "robbery": 2, "shoplifting": 35, "theft-from-the-person": 3, "vehicle-crime": 13, "violent-crime": 100, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "J02",
+  "neighbourhood_name": "Borehamwood and Elstree",
+  "force_id": "hertfordshire",
+  "lat": "51.6577",
+  "lng": "-0.280504",
+  "population": 36699,
+  "total_crimes": 312,
+  "categories": {
+    "anti-social-behaviour": 65,
+    "bicycle-theft": 1,
+    "burglary": 10,
+    "criminal-damage-arson": 13,
+    "drugs": 18,
+    "other-theft": 19,
+    "possession-of-weapons": 3,
+    "public-order": 23,
+    "robbery": 2,
+    "shoplifting": 35,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 13,
+    "violent-crime": 100,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 21
+}

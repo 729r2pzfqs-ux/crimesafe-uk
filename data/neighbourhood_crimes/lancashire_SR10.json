@@ -1,1 +1,22 @@
-{"neighbourhood_id": "SR10", "neighbourhood_name": "Farington West", "force_id": "lancashire", "lat": "53.714", "lng": "-2.71118", "population": 12098, "total_crimes": 37, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 6, "other-theft": 18, "vehicle-crime": 2, "violent-crime": 5, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR10",
+  "neighbourhood_name": "Farington West",
+  "force_id": "lancashire",
+  "lat": "53.714",
+  "lng": "-2.71118",
+  "population": 1518,
+  "total_crimes": 37,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "other-theft": 18,
+    "vehicle-crime": 2,
+    "violent-crime": 5,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

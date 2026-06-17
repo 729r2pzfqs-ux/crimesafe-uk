@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013516", "neighbourhood_name": "Wembley Park", "force_id": "metropolitan", "lat": "51.5587", "lng": "-0.275931", "population": 12098, "total_crimes": 815, "categories": {"anti-social-behaviour": 158, "bicycle-theft": 4, "burglary": 19, "criminal-damage-arson": 30, "drugs": 52, "other-theft": 72, "possession-of-weapons": 6, "public-order": 42, "robbery": 39, "shoplifting": 76, "theft-from-the-person": 66, "vehicle-crime": 37, "violent-crime": 208, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013516",
+  "neighbourhood_name": "Wembley Park",
+  "force_id": "metropolitan",
+  "lat": "51.5587",
+  "lng": "-0.275931",
+  "population": 2075,
+  "total_crimes": 815,
+  "categories": {
+    "anti-social-behaviour": 158,
+    "bicycle-theft": 4,
+    "burglary": 19,
+    "criminal-damage-arson": 30,
+    "drugs": 52,
+    "other-theft": 72,
+    "possession-of-weapons": 6,
+    "public-order": 42,
+    "robbery": 39,
+    "shoplifting": 76,
+    "theft-from-the-person": 66,
+    "vehicle-crime": 37,
+    "violent-crime": 208,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 392.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

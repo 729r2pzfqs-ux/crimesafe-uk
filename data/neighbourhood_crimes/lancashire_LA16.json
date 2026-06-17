@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LA16", "neighbourhood_name": "John O'Gaunt", "force_id": "lancashire", "lat": "54.0449", "lng": "-2.78361", "population": 12098, "total_crimes": 279, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 4, "burglary": 15, "criminal-damage-arson": 21, "drugs": 7, "other-theft": 20, "public-order": 26, "robbery": 3, "shoplifting": 27, "vehicle-crime": 5, "violent-crime": 99, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA16",
+  "neighbourhood_name": "John O'Gaunt",
+  "force_id": "lancashire",
+  "lat": "54.0449",
+  "lng": "-2.78361",
+  "population": 1443,
+  "total_crimes": 279,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 4,
+    "burglary": 15,
+    "criminal-damage-arson": 21,
+    "drugs": 7,
+    "other-theft": 20,
+    "public-order": 26,
+    "robbery": 3,
+    "shoplifting": 27,
+    "vehicle-crime": 5,
+    "violent-crime": 99,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 193.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

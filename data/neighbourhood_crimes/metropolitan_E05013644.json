@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013644", "neighbourhood_name": "High Barnet", "force_id": "metropolitan", "lat": "51.6534", "lng": "-0.21972", "population": 12098, "total_crimes": 138, "categories": {"anti-social-behaviour": 34, "burglary": 10, "criminal-damage-arson": 5, "drugs": 2, "other-theft": 14, "public-order": 9, "robbery": 3, "shoplifting": 11, "theft-from-the-person": 4, "vehicle-crime": 16, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013644",
+  "neighbourhood_name": "High Barnet",
+  "force_id": "metropolitan",
+  "lat": "51.6534",
+  "lng": "-0.21972",
+  "population": 12768,
+  "total_crimes": 138,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "burglary": 10,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "other-theft": 14,
+    "public-order": 9,
+    "robbery": 3,
+    "shoplifting": 11,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 16,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

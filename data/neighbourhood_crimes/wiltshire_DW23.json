@@ -1,1 +1,27 @@
-{"neighbourhood_id": "DW23", "neighbourhood_name": "Toothill", "force_id": "wiltshire", "lat": "51.552", "lng": "-1.82181", "population": 12098, "total_crimes": 165, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 14, "drugs": 2, "other-theft": 10, "possession-of-weapons": 3, "public-order": 16, "shoplifting": 24, "vehicle-crime": 2, "violent-crime": 56, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DW23",
+  "neighbourhood_name": "Toothill",
+  "force_id": "wiltshire",
+  "lat": "51.552",
+  "lng": "-1.82181",
+  "population": 4542,
+  "total_crimes": 165,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 14,
+    "drugs": 2,
+    "other-theft": 10,
+    "possession-of-weapons": 3,
+    "public-order": 16,
+    "shoplifting": 24,
+    "vehicle-crime": 2,
+    "violent-crime": 56,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 36.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

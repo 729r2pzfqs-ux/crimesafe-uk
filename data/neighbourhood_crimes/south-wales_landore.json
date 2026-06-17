@@ -1,1 +1,27 @@
-{"neighbourhood_id": "landore", "neighbourhood_name": "Landore", "force_id": "south-wales", "lat": "51.6406", "lng": "-3.93738", "population": 12098, "total_crimes": 201, "categories": {"anti-social-behaviour": 21, "burglary": 8, "criminal-damage-arson": 20, "drugs": 6, "other-theft": 9, "possession-of-weapons": 2, "public-order": 18, "robbery": 1, "shoplifting": 16, "vehicle-crime": 6, "violent-crime": 88, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "landore",
+  "neighbourhood_name": "Landore",
+  "force_id": "south-wales",
+  "lat": "51.6406",
+  "lng": "-3.93738",
+  "population": 6867,
+  "total_crimes": 201,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 8,
+    "criminal-damage-arson": 20,
+    "drugs": 6,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 18,
+    "robbery": 1,
+    "shoplifting": 16,
+    "vehicle-crime": 6,
+    "violent-crime": 88,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

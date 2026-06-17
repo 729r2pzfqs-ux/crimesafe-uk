@@ -1,1 +1,21 @@
-{"neighbourhood_id": "NA203", "neighbourhood_name": "Clavering and Thaxted", "force_id": "essex", "lat": "52.0019", "lng": "0.252935", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 3, "bicycle-theft": 1, "public-order": 1, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA203",
+  "neighbourhood_name": "Clavering and Thaxted",
+  "force_id": "essex",
+  "lat": "52.0019",
+  "lng": "0.252935",
+  "population": 21425,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "bicycle-theft": 1,
+    "public-order": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

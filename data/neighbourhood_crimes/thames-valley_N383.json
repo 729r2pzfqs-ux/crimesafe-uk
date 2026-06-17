@@ -1,1 +1,16 @@
-{"neighbourhood_id": "N383", "neighbourhood_name": "Wheatley and Chalgrove", "force_id": "thames-valley", "lat": "51.728", "lng": "-1.12744", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N383",
+  "neighbourhood_name": "Wheatley and Chalgrove",
+  "force_id": "thames-valley",
+  "lat": "51.728",
+  "lng": "-1.12744",
+  "population": 18766,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

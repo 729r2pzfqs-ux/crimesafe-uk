@@ -1,1 +1,27 @@
-{"neighbourhood_id": "C103", "neighbourhood_name": "Milford - West", "force_id": "dyfed-powys", "lat": "51.7214", "lng": "-5.03507", "population": 12098, "total_crimes": 176, "categories": {"anti-social-behaviour": 21, "burglary": 14, "criminal-damage-arson": 14, "drugs": 5, "other-theft": 14, "possession-of-weapons": 3, "public-order": 14, "shoplifting": 6, "theft-from-the-person": 3, "vehicle-crime": 2, "violent-crime": 76, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C103",
+  "neighbourhood_name": "Milford - West",
+  "force_id": "dyfed-powys",
+  "lat": "51.7214",
+  "lng": "-5.03507",
+  "population": 2310,
+  "total_crimes": 176,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 14,
+    "criminal-damage-arson": 14,
+    "drugs": 5,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 14,
+    "shoplifting": 6,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 76,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 76.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BE006", "neighbourhood_name": "Moseley and Kings Heath", "force_id": "west-midlands", "lat": "52.4409", "lng": "-1.89087", "population": 12098, "total_crimes": 354, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 30, "drugs": 11, "other-theft": 29, "possession-of-weapons": 6, "public-order": 12, "robbery": 11, "shoplifting": 45, "theft-from-the-person": 4, "vehicle-crime": 37, "violent-crime": 134, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE006",
+  "neighbourhood_name": "Moseley and Kings Heath",
+  "force_id": "west-midlands",
+  "lat": "52.4409",
+  "lng": "-1.89087",
+  "population": 27620,
+  "total_crimes": 354,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 30,
+    "drugs": 11,
+    "other-theft": 29,
+    "possession-of-weapons": 6,
+    "public-order": 12,
+    "robbery": 11,
+    "shoplifting": 45,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 37,
+    "violent-crime": 134,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

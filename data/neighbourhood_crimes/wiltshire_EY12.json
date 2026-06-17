@@ -1,1 +1,19 @@
-{"neighbourhood_id": "EY12", "neighbourhood_name": "Malmesbury Rural", "force_id": "wiltshire", "lat": "51.5725", "lng": "-2.10597", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 2, "other-theft": 2, "public-order": 3, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EY12",
+  "neighbourhood_name": "Malmesbury Rural",
+  "force_id": "wiltshire",
+  "lat": "51.5725",
+  "lng": "-2.10597",
+  "population": 9133,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "other-theft": 2,
+    "public-order": 3,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

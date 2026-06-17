@@ -1,1 +1,23 @@
-{"neighbourhood_id": "WVFB", "neighbourhood_name": "Farncombe, Binscombe &amp; Charterhouse", "force_id": "surrey", "lat": "51.1982", "lng": "-0.613745", "population": 12098, "total_crimes": 58, "categories": {"anti-social-behaviour": 8, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 2, "public-order": 6, "shoplifting": 4, "violent-crime": 30, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WVFB",
+  "neighbourhood_name": "Farncombe, Binscombe &amp; Charterhouse",
+  "force_id": "surrey",
+  "lat": "51.1982",
+  "lng": "-0.613745",
+  "population": 11469,
+  "total_crimes": 58,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 6,
+    "shoplifting": 4,
+    "violent-crime": 30,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

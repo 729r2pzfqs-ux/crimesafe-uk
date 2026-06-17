@@ -1,1 +1,28 @@
-{"neighbourhood_id": "A043", "neighbourhood_name": "Elli", "force_id": "dyfed-powys", "lat": "51.6832", "lng": "-4.16894", "population": 12098, "total_crimes": 299, "categories": {"anti-social-behaviour": 60, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 30, "drugs": 9, "other-theft": 17, "possession-of-weapons": 6, "public-order": 25, "robbery": 2, "shoplifting": 26, "vehicle-crime": 7, "violent-crime": 96, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A043",
+  "neighbourhood_name": "Elli",
+  "force_id": "dyfed-powys",
+  "lat": "51.6832",
+  "lng": "-4.16894",
+  "population": 3252,
+  "total_crimes": 299,
+  "categories": {
+    "anti-social-behaviour": 60,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 30,
+    "drugs": 9,
+    "other-theft": 17,
+    "possession-of-weapons": 6,
+    "public-order": 25,
+    "robbery": 2,
+    "shoplifting": 26,
+    "vehicle-crime": 7,
+    "violent-crime": 96,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 91.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "ER3", "neighbourhood_name": "Mease Tame &amp; Whittington", "force_id": "staffordshire", "lat": "52.679", "lng": "-1.70176", "population": 12098, "total_crimes": 4, "categories": {"burglary": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER3",
+  "neighbourhood_name": "Mease Tame &amp; Whittington",
+  "force_id": "staffordshire",
+  "lat": "52.679",
+  "lng": "-1.70176",
+  "population": 5435,
+  "total_crimes": 4,
+  "categories": {
+    "burglary": 1,
+    "violent-crime": 2,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

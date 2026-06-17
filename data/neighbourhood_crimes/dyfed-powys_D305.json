@@ -1,1 +1,14 @@
-{"neighbourhood_id": "D305", "neighbourhood_name": "Nantmel", "force_id": "dyfed-powys", "lat": "52.3308", "lng": "-3.46229", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D305",
+  "neighbourhood_name": "Nantmel",
+  "force_id": "dyfed-powys",
+  "lat": "52.3308",
+  "lng": "-3.46229",
+  "population": 1498,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

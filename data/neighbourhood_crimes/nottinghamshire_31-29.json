@@ -1,1 +1,28 @@
-{"neighbourhood_id": "31-29", "neighbourhood_name": "Carlton and Porchester", "force_id": "nottinghamshire", "lat": "52.97", "lng": "-1.09107", "population": 12098, "total_crimes": 214, "categories": {"anti-social-behaviour": 34, "burglary": 4, "criminal-damage-arson": 16, "drugs": 9, "other-theft": 7, "possession-of-weapons": 3, "public-order": 11, "robbery": 3, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 80, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-29",
+  "neighbourhood_name": "Carlton and Porchester",
+  "force_id": "nottinghamshire",
+  "lat": "52.97",
+  "lng": "-1.09107",
+  "population": 33968,
+  "total_crimes": 214,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 9,
+    "other-theft": 7,
+    "possession-of-weapons": 3,
+    "public-order": 11,
+    "robbery": 3,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 80,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 23
+}

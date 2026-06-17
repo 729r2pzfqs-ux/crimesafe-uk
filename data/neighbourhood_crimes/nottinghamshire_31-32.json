@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-32", "neighbourhood_name": "Beeston", "force_id": "nottinghamshire", "lat": "52.926", "lng": "-1.2081", "population": 12098, "total_crimes": 297, "categories": {"anti-social-behaviour": 43, "bicycle-theft": 7, "burglary": 10, "criminal-damage-arson": 15, "drugs": 4, "other-theft": 22, "possession-of-weapons": 4, "public-order": 19, "robbery": 9, "shoplifting": 66, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 82, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-32",
+  "neighbourhood_name": "Beeston",
+  "force_id": "nottinghamshire",
+  "lat": "52.926",
+  "lng": "-1.2081",
+  "population": 23800,
+  "total_crimes": 297,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "bicycle-theft": 7,
+    "burglary": 10,
+    "criminal-damage-arson": 15,
+    "drugs": 4,
+    "other-theft": 22,
+    "possession-of-weapons": 4,
+    "public-order": 19,
+    "robbery": 9,
+    "shoplifting": 66,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 82,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

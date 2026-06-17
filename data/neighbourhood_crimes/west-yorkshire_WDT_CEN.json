@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WDT_CEN", "neighbourhood_name": "Wakefield Central", "force_id": "west-yorkshire", "lat": "53.6764", "lng": "-1.50677", "population": 12098, "total_crimes": 571, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 2, "burglary": 19, "criminal-damage-arson": 44, "drugs": 26, "other-theft": 22, "possession-of-weapons": 9, "public-order": 41, "robbery": 9, "shoplifting": 74, "theft-from-the-person": 6, "vehicle-crime": 21, "violent-crime": 223, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WDT_CEN",
+  "neighbourhood_name": "Wakefield Central",
+  "force_id": "west-yorkshire",
+  "lat": "53.6764",
+  "lng": "-1.50677",
+  "population": 46349,
+  "total_crimes": 571,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 2,
+    "burglary": 19,
+    "criminal-damage-arson": 44,
+    "drugs": 26,
+    "other-theft": 22,
+    "possession-of-weapons": 9,
+    "public-order": 41,
+    "robbery": 9,
+    "shoplifting": 74,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 21,
+    "violent-crime": 223,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 27
+}

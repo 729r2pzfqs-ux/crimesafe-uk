@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013783", "neighbourhood_name": "Mortlake and Barnes Common", "force_id": "metropolitan", "lat": "51.469", "lng": "-0.254981", "population": 12819, "total_crimes": 266, "categories": {"anti-social-behaviour": 49, "bicycle-theft": 15, "burglary": 12, "criminal-damage-arson": 11, "drugs": 8, "other-theft": 26, "possession-of-weapons": 1, "public-order": 8, "robbery": 2, "shoplifting": 9, "theft-from-the-person": 3, "vehicle-crime": 68, "violent-crime": 49, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013783",
+  "neighbourhood_name": "Mortlake and Barnes Common",
+  "force_id": "metropolitan",
+  "lat": "51.469",
+  "lng": "-0.254981",
+  "population": 13163,
+  "total_crimes": 266,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "bicycle-theft": 15,
+    "burglary": 12,
+    "criminal-damage-arson": 11,
+    "drugs": 8,
+    "other-theft": 26,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "robbery": 2,
+    "shoplifting": 9,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 68,
+    "violent-crime": 49,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

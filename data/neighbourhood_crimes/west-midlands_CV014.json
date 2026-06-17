@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CV014", "neighbourhood_name": "Woodlands, Wainbody, Westwood and Whoberley", "force_id": "west-midlands", "lat": "52.3951", "lng": "-1.55512", "population": 12098, "total_crimes": 157, "categories": {"anti-social-behaviour": 3, "bicycle-theft": 8, "burglary": 16, "criminal-damage-arson": 12, "drugs": 2, "other-theft": 8, "possession-of-weapons": 3, "public-order": 5, "robbery": 5, "shoplifting": 11, "theft-from-the-person": 3, "vehicle-crime": 10, "violent-crime": 69, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CV014",
+  "neighbourhood_name": "Woodlands, Wainbody, Westwood and Whoberley",
+  "force_id": "west-midlands",
+  "lat": "52.3951",
+  "lng": "-1.55512",
+  "population": 67220,
+  "total_crimes": 157,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "bicycle-theft": 8,
+    "burglary": 16,
+    "criminal-damage-arson": 12,
+    "drugs": 2,
+    "other-theft": 8,
+    "possession-of-weapons": 3,
+    "public-order": 5,
+    "robbery": 5,
+    "shoplifting": 11,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 69,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 38
+}

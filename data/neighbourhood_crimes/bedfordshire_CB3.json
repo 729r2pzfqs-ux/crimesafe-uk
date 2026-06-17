@@ -1,1 +1,22 @@
-{"neighbourhood_id": "CB3", "neighbourhood_name": "Leighton Buzzard and Rural", "force_id": "bedfordshire", "lat": "51.919", "lng": "-0.542854", "population": "0", "total_crimes": 26, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 2, "vehicle-crime": 6, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CB3",
+  "neighbourhood_name": "Leighton Buzzard and Rural",
+  "force_id": "bedfordshire",
+  "lat": "51.919",
+  "lng": "-0.542854",
+  "population": 52317,
+  "total_crimes": 26,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 2,
+    "vehicle-crime": 6,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 32
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "LOCC2KES", "neighbourhood_name": "Keswick", "force_id": "cumbria", "lat": "54.5753", "lng": "-3.13348", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCC2KES",
+  "neighbourhood_name": "Keswick",
+  "force_id": "cumbria",
+  "lat": "54.5753",
+  "lng": "-3.13348",
+  "population": 4415,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

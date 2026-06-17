@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009398", "neighbourhood_name": "Norland", "force_id": "metropolitan", "lat": "51.5103", "lng": "-0.210524", "population": 12098, "total_crimes": 1573, "categories": {"anti-social-behaviour": 337, "bicycle-theft": 17, "burglary": 56, "criminal-damage-arson": 75, "drugs": 70, "other-theft": 170, "possession-of-weapons": 10, "public-order": 75, "robbery": 20, "shoplifting": 220, "theft-from-the-person": 84, "vehicle-crime": 86, "violent-crime": 335, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009398",
+  "neighbourhood_name": "Norland",
+  "force_id": "metropolitan",
+  "lat": "51.5103",
+  "lng": "-0.210524",
+  "population": 5561,
+  "total_crimes": 1573,
+  "categories": {
+    "anti-social-behaviour": 337,
+    "bicycle-theft": 17,
+    "burglary": 56,
+    "criminal-damage-arson": 75,
+    "drugs": 70,
+    "other-theft": 170,
+    "possession-of-weapons": 10,
+    "public-order": 75,
+    "robbery": 20,
+    "shoplifting": 220,
+    "theft-from-the-person": 84,
+    "vehicle-crime": 86,
+    "violent-crime": 335,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 282.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NEW5", "neighbourhood_name": "Newton Aycliffe (Thickley)", "force_id": "durham", "lat": "54.6251", "lng": "-1.63008", "population": 12098, "total_crimes": 121, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 1, "burglary": 7, "criminal-damage-arson": 14, "drugs": 3, "other-theft": 10, "public-order": 7, "shoplifting": 12, "vehicle-crime": 1, "violent-crime": 44, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NEW5",
+  "neighbourhood_name": "Newton Aycliffe (Thickley)",
+  "force_id": "durham",
+  "lat": "54.6251",
+  "lng": "-1.63008",
+  "population": 3741,
+  "total_crimes": 121,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 1,
+    "burglary": 7,
+    "criminal-damage-arson": 14,
+    "drugs": 3,
+    "other-theft": 10,
+    "public-order": 7,
+    "shoplifting": 12,
+    "vehicle-crime": 1,
+    "violent-crime": 44,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

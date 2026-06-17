@@ -1,1 +1,27 @@
-{"neighbourhood_id": "XD65", "neighbourhood_name": "Greenhithe &amp; Knockhall", "force_id": "kent", "lat": "51.4563", "lng": "0.298381", "population": 12098, "total_crimes": 97, "categories": {"anti-social-behaviour": 20, "burglary": 3, "criminal-damage-arson": 15, "drugs": 3, "other-theft": 4, "possession-of-weapons": 2, "public-order": 1, "robbery": 2, "shoplifting": 2, "vehicle-crime": 5, "violent-crime": 37, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD65",
+  "neighbourhood_name": "Greenhithe &amp; Knockhall",
+  "force_id": "kent",
+  "lat": "51.4563",
+  "lng": "0.298381",
+  "population": 2838,
+  "total_crimes": 97,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 3,
+    "criminal-damage-arson": 15,
+    "drugs": 3,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "robbery": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 37,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

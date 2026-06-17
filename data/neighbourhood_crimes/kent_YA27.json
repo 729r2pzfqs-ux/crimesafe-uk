@@ -1,1 +1,17 @@
-{"neighbourhood_id": "YA27", "neighbourhood_name": "Leeds &amp; Langley", "force_id": "kent", "lat": "51.2424", "lng": "0.603564", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 3, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA27",
+  "neighbourhood_name": "Leeds &amp; Langley",
+  "force_id": "kent",
+  "lat": "51.2424",
+  "lng": "0.603564",
+  "population": 6162,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

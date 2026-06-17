@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013598", "neighbourhood_name": "Seven Sisters", "force_id": "metropolitan", "lat": "51.5803", "lng": "-0.078898", "population": 12098, "total_crimes": 1170, "categories": {"anti-social-behaviour": 291, "bicycle-theft": 5, "burglary": 39, "criminal-damage-arson": 47, "drugs": 28, "other-theft": 65, "possession-of-weapons": 11, "public-order": 63, "robbery": 45, "shoplifting": 80, "theft-from-the-person": 100, "vehicle-crime": 76, "violent-crime": 310, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013598",
+  "neighbourhood_name": "Seven Sisters",
+  "force_id": "metropolitan",
+  "lat": "51.5803",
+  "lng": "-0.078898",
+  "population": 8185,
+  "total_crimes": 1170,
+  "categories": {
+    "anti-social-behaviour": 291,
+    "bicycle-theft": 5,
+    "burglary": 39,
+    "criminal-damage-arson": 47,
+    "drugs": 28,
+    "other-theft": 65,
+    "possession-of-weapons": 11,
+    "public-order": 63,
+    "robbery": 45,
+    "shoplifting": 80,
+    "theft-from-the-person": 100,
+    "vehicle-crime": 76,
+    "violent-crime": 310,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 142.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,14 @@
-{"neighbourhood_id": "CA3", "neighbourhood_name": "Nailsworth", "force_id": "gloucestershire", "lat": "51.6948", "lng": "-2.23917", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CA3",
+  "neighbourhood_name": "Nailsworth",
+  "force_id": "gloucestershire",
+  "lat": "51.6948",
+  "lng": "-2.23917",
+  "population": 6601,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

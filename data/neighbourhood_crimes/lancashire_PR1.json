@@ -1,1 +1,28 @@
-{"neighbourhood_id": "PR1", "neighbourhood_name": "Garrison", "force_id": "lancashire", "lat": "53.7878", "lng": "-2.68197", "population": 12098, "total_crimes": 144, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 9, "drugs": 4, "other-theft": 9, "possession-of-weapons": 2, "public-order": 13, "robbery": 2, "shoplifting": 10, "vehicle-crime": 6, "violent-crime": 64, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PR1",
+  "neighbourhood_name": "Garrison",
+  "force_id": "lancashire",
+  "lat": "53.7878",
+  "lng": "-2.68197",
+  "population": 9006,
+  "total_crimes": 144,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 9,
+    "drugs": 4,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 13,
+    "robbery": 2,
+    "shoplifting": 10,
+    "vehicle-crime": 6,
+    "violent-crime": 64,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "KD", "neighbourhood_name": "Sheffield City Centre", "force_id": "south-yorkshire", "lat": "53.38", "lng": "-1.46843", "population": 12098, "total_crimes": 1210, "categories": {"anti-social-behaviour": 205, "bicycle-theft": 4, "burglary": 42, "criminal-damage-arson": 76, "drugs": 51, "other-theft": 76, "possession-of-weapons": 15, "public-order": 105, "robbery": 27, "shoplifting": 137, "theft-from-the-person": 22, "vehicle-crime": 33, "violent-crime": 398, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KD",
+  "neighbourhood_name": "Sheffield City Centre",
+  "force_id": "south-yorkshire",
+  "lat": "53.38",
+  "lng": "-1.46843",
+  "population": 34458,
+  "total_crimes": 1210,
+  "categories": {
+    "anti-social-behaviour": 205,
+    "bicycle-theft": 4,
+    "burglary": 42,
+    "criminal-damage-arson": 76,
+    "drugs": 51,
+    "other-theft": 76,
+    "possession-of-weapons": 15,
+    "public-order": 105,
+    "robbery": 27,
+    "shoplifting": 137,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 33,
+    "violent-crime": 398,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

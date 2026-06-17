@@ -1,1 +1,18 @@
-{"neighbourhood_id": "YMW08", "neighbourhood_name": "Trearddur", "force_id": "north-wales", "lat": "53.2815", "lng": "-4.62664", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW08",
+  "neighbourhood_name": "Trearddur",
+  "force_id": "north-wales",
+  "lat": "53.2815",
+  "lng": "-4.62664",
+  "population": 1125,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

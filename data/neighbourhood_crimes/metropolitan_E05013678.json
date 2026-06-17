@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013678", "neighbourhood_name": "Cockfosters", "force_id": "metropolitan", "lat": "51.6612", "lng": "-0.153439", "population": 10810, "total_crimes": 66, "categories": {"anti-social-behaviour": 17, "burglary": 6, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 2, "possession-of-weapons": 1, "public-order": 3, "robbery": 1, "shoplifting": 7, "theft-from-the-person": 2, "vehicle-crime": 10, "violent-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013678",
+  "neighbourhood_name": "Cockfosters",
+  "force_id": "metropolitan",
+  "lat": "51.6612",
+  "lng": "-0.153439",
+  "population": 10489,
+  "total_crimes": 66,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 6,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 7,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 10,
+    "violent-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

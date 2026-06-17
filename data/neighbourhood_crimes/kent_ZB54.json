@@ -1,1 +1,22 @@
-{"neighbourhood_id": "ZB54", "neighbourhood_name": "Cliffsend and Pegwell", "force_id": "kent", "lat": "51.3247", "lng": "1.38184", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 1, "public-order": 1, "violent-crime": 12, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB54",
+  "neighbourhood_name": "Cliffsend and Pegwell",
+  "force_id": "kent",
+  "lat": "51.3247",
+  "lng": "1.38184",
+  "population": 4672,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "violent-crime": 12,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPL2L", "neighbourhood_name": "West Derby Muirhead", "force_id": "merseyside", "lat": "53.4411", "lng": "-2.90348", "population": 12098, "total_crimes": 239, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 33, "drugs": 25, "other-theft": 5, "possession-of-weapons": 4, "public-order": 29, "robbery": 7, "shoplifting": 1, "vehicle-crime": 5, "violent-crime": 102, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL2L",
+  "neighbourhood_name": "West Derby Muirhead",
+  "force_id": "merseyside",
+  "lat": "53.4411",
+  "lng": "-2.90348",
+  "population": 4031,
+  "total_crimes": 239,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 33,
+    "drugs": 25,
+    "other-theft": 5,
+    "possession-of-weapons": 4,
+    "public-order": 29,
+    "robbery": 7,
+    "shoplifting": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 102,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

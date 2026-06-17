@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SCC", "neighbourhood_name": "Birches Hd &amp; Central Forest Pk", "force_id": "staffordshire", "lat": "53.0334", "lng": "-2.16502", "population": 12098, "total_crimes": 534, "categories": {"anti-social-behaviour": 120, "bicycle-theft": 7, "burglary": 17, "criminal-damage-arson": 53, "drugs": 19, "other-theft": 24, "possession-of-weapons": 8, "public-order": 43, "robbery": 12, "shoplifting": 24, "theft-from-the-person": 3, "vehicle-crime": 20, "violent-crime": 173, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SCC",
+  "neighbourhood_name": "Birches Hd &amp; Central Forest Pk",
+  "force_id": "staffordshire",
+  "lat": "53.0334",
+  "lng": "-2.16502",
+  "population": 9842,
+  "total_crimes": 534,
+  "categories": {
+    "anti-social-behaviour": 120,
+    "bicycle-theft": 7,
+    "burglary": 17,
+    "criminal-damage-arson": 53,
+    "drugs": 19,
+    "other-theft": 24,
+    "possession-of-weapons": 8,
+    "public-order": 43,
+    "robbery": 12,
+    "shoplifting": 24,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 20,
+    "violent-crime": 173,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 54.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

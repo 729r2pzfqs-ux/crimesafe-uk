@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05009972", "neighbourhood_name": "Dawley and Malinslee", "force_id": "west-mercia", "lat": "52.66", "lng": "-2.47007", "population": 12098, "total_crimes": 139, "categories": {"anti-social-behaviour": 25, "burglary": 2, "criminal-damage-arson": 7, "drugs": 4, "other-theft": 7, "possession-of-weapons": 6, "public-order": 11, "shoplifting": 1, "theft-from-the-person": 4, "vehicle-crime": 1, "violent-crime": 67, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009972",
+  "neighbourhood_name": "Dawley and Malinslee",
+  "force_id": "west-mercia",
+  "lat": "52.66",
+  "lng": "-2.47007",
+  "population": 15962,
+  "total_crimes": 139,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 4,
+    "other-theft": 7,
+    "possession-of-weapons": 6,
+    "public-order": 11,
+    "shoplifting": 1,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 67,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

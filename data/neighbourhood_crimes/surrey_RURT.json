@@ -1,1 +1,22 @@
-{"neighbourhood_id": "RURT", "neighbourhood_name": "Row Town, Ottershaw &amp; Foxhills", "force_id": "surrey", "lat": "51.372", "lng": "-0.54517", "population": 12098, "total_crimes": 46, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 1, "public-order": 3, "shoplifting": 2, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 33}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RURT",
+  "neighbourhood_name": "Row Town, Ottershaw &amp; Foxhills",
+  "force_id": "surrey",
+  "lat": "51.372",
+  "lng": "-0.54517",
+  "population": 12149,
+  "total_crimes": 46,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 1,
+    "public-order": 3,
+    "shoplifting": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 33
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

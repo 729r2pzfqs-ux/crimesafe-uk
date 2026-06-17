@@ -1,1 +1,22 @@
-{"neighbourhood_id": "NE10", "neighbourhood_name": "Whitwell", "force_id": "derbyshire", "lat": "53.2908", "lng": "-1.21644", "population": 12098, "total_crimes": 26, "categories": {"anti-social-behaviour": 1, "burglary": 4, "criminal-damage-arson": 4, "public-order": 4, "shoplifting": 4, "violent-crime": 8, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE10",
+  "neighbourhood_name": "Whitwell",
+  "force_id": "derbyshire",
+  "lat": "53.2908",
+  "lng": "-1.21644",
+  "population": 3928,
+  "total_crimes": 26,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 4,
+    "public-order": 4,
+    "shoplifting": 4,
+    "violent-crime": 8,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

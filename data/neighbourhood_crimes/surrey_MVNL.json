@@ -1,1 +1,26 @@
-{"neighbourhood_id": "MVNL", "neighbourhood_name": "North Leatherhead", "force_id": "surrey", "lat": "51.3118", "lng": "-0.340563", "population": 12098, "total_crimes": 76, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 1, "criminal-damage-arson": 5, "drugs": 2, "other-theft": 8, "possession-of-weapons": 2, "public-order": 11, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 26, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "MVNL",
+  "neighbourhood_name": "North Leatherhead",
+  "force_id": "surrey",
+  "lat": "51.3118",
+  "lng": "-0.340563",
+  "population": 5918,
+  "total_crimes": 76,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 26,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

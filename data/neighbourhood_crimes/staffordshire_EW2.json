@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EW2", "neighbourhood_name": "Bolehall", "force_id": "staffordshire", "lat": "52.6307", "lng": "-1.67613", "population": 12098, "total_crimes": 263, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 13, "drugs": 13, "other-theft": 13, "possession-of-weapons": 2, "public-order": 17, "robbery": 2, "shoplifting": 19, "theft-from-the-person": 3, "vehicle-crime": 23, "violent-crime": 105, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW2",
+  "neighbourhood_name": "Bolehall",
+  "force_id": "staffordshire",
+  "lat": "52.6307",
+  "lng": "-1.67613",
+  "population": 7637,
+  "total_crimes": 263,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 13,
+    "drugs": 13,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 17,
+    "robbery": 2,
+    "shoplifting": 19,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 23,
+    "violent-crime": 105,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "9", "neighbourhood_name": "Bottesford", "force_id": "humberside", "lat": "53.5521", "lng": "-0.671414", "population": 12098, "total_crimes": 94, "categories": {"anti-social-behaviour": 7, "burglary": 11, "criminal-damage-arson": 10, "drugs": 1, "other-theft": 1, "possession-of-weapons": 1, "public-order": 7, "robbery": 4, "shoplifting": 13, "vehicle-crime": 1, "violent-crime": 33, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9",
+  "neighbourhood_name": "Bottesford",
+  "force_id": "humberside",
+  "lat": "53.5521",
+  "lng": "-0.671414",
+  "population": 10640,
+  "total_crimes": 94,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 11,
+    "criminal-damage-arson": 10,
+    "drugs": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 4,
+    "shoplifting": 13,
+    "vehicle-crime": 1,
+    "violent-crime": 33,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009397", "neighbourhood_name": "Holland", "force_id": "metropolitan", "lat": "51.5005", "lng": "-0.207754", "population": 12098, "total_crimes": 1581, "categories": {"anti-social-behaviour": 362, "bicycle-theft": 11, "burglary": 66, "criminal-damage-arson": 76, "drugs": 59, "other-theft": 162, "possession-of-weapons": 8, "public-order": 94, "robbery": 23, "shoplifting": 233, "theft-from-the-person": 76, "vehicle-crime": 81, "violent-crime": 311, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009397",
+  "neighbourhood_name": "Holland",
+  "force_id": "metropolitan",
+  "lat": "51.5005",
+  "lng": "-0.207754",
+  "population": 10545,
+  "total_crimes": 1581,
+  "categories": {
+    "anti-social-behaviour": 362,
+    "bicycle-theft": 11,
+    "burglary": 66,
+    "criminal-damage-arson": 76,
+    "drugs": 59,
+    "other-theft": 162,
+    "possession-of-weapons": 8,
+    "public-order": 94,
+    "robbery": 23,
+    "shoplifting": 233,
+    "theft-from-the-person": 76,
+    "vehicle-crime": 81,
+    "violent-crime": 311,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 149.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E1", "neighbourhood_name": "Westerhope and Newburn", "force_id": "northumbria", "lat": "55.0006", "lng": "-1.72165", "population": 12098, "total_crimes": 106, "categories": {"anti-social-behaviour": 32, "burglary": 1, "criminal-damage-arson": 5, "drugs": 3, "other-theft": 1, "possession-of-weapons": 1, "public-order": 2, "robbery": 1, "shoplifting": 23, "vehicle-crime": 13, "violent-crime": 21, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E1",
+  "neighbourhood_name": "Westerhope and Newburn",
+  "force_id": "northumbria",
+  "lat": "55.0006",
+  "lng": "-1.72165",
+  "population": 49264,
+  "total_crimes": 106,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 3,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 23,
+    "vehicle-crime": 13,
+    "violent-crime": 21,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 34
+}

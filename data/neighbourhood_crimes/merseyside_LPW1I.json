@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPW1I", "neighbourhood_name": "Upton", "force_id": "merseyside", "lat": "53.3831", "lng": "-3.09183", "population": 12098, "total_crimes": 195, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 22, "drugs": 4, "other-theft": 10, "possession-of-weapons": 1, "public-order": 23, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 78, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW1I",
+  "neighbourhood_name": "Upton",
+  "force_id": "merseyside",
+  "lat": "53.3831",
+  "lng": "-3.09183",
+  "population": 17203,
+  "total_crimes": 195,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 22,
+    "drugs": 4,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 23,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 78,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

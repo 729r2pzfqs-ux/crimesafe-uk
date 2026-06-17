@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LOCC1CAE", "neighbourhood_name": "Carlisle East", "force_id": "cumbria", "lat": "54.8844", "lng": "-2.91202", "population": 12098, "total_crimes": 387, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 3, "burglary": 10, "criminal-damage-arson": 32, "drugs": 27, "other-theft": 17, "possession-of-weapons": 5, "public-order": 39, "robbery": 4, "shoplifting": 18, "theft-from-the-person": 5, "vehicle-crime": 4, "violent-crime": 196, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCC1CAE",
+  "neighbourhood_name": "Carlisle East",
+  "force_id": "cumbria",
+  "lat": "54.8844",
+  "lng": "-2.91202",
+  "population": 29688,
+  "total_crimes": 387,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 3,
+    "burglary": 10,
+    "criminal-damage-arson": 32,
+    "drugs": 27,
+    "other-theft": 17,
+    "possession-of-weapons": 5,
+    "public-order": 39,
+    "robbery": 4,
+    "shoplifting": 18,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 4,
+    "violent-crime": 196,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

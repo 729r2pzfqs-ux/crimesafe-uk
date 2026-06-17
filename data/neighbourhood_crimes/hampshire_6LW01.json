@@ -1,1 +1,22 @@
-{"neighbourhood_id": "6LW01", "neighbourhood_name": "Yarmouth/Freshwater/Rural", "force_id": "hampshire", "lat": "50.7471", "lng": "-1.31489", "population": 12098, "total_crimes": 30, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 1, "public-order": 2, "shoplifting": 1, "violent-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "6LW01",
+  "neighbourhood_name": "Yarmouth/Freshwater/Rural",
+  "force_id": "hampshire",
+  "lat": "50.7471",
+  "lng": "-1.31489",
+  "population": 14896,
+  "total_crimes": 30,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

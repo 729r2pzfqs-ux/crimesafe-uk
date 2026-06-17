@@ -1,1 +1,23 @@
-{"neighbourhood_id": "brackla-east-and-coychurch-lower", "neighbourhood_name": "Brackla East and Coychurch Lower", "force_id": "south-wales", "lat": "51.5002", "lng": "-3.53818", "population": 12098, "total_crimes": 49, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 3, "public-order": 7, "shoplifting": 2, "vehicle-crime": 5, "violent-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "brackla-east-and-coychurch-lower",
+  "neighbourhood_name": "Brackla East and Coychurch Lower",
+  "force_id": "south-wales",
+  "lat": "51.5002",
+  "lng": "-3.53818",
+  "population": 4223,
+  "total_crimes": 49,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 7,
+    "shoplifting": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

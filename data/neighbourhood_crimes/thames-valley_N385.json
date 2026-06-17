@@ -1,1 +1,23 @@
-{"neighbourhood_id": "N385", "neighbourhood_name": "Carterton, Bampton and Burford", "force_id": "thames-valley", "lat": "51.767", "lng": "-1.61374", "population": 12098, "total_crimes": 33, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 2, "public-order": 3, "shoplifting": 1, "violent-crime": 17, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N385",
+  "neighbourhood_name": "Carterton, Bampton and Burford",
+  "force_id": "thames-valley",
+  "lat": "51.767",
+  "lng": "-1.61374",
+  "population": 25019,
+  "total_crimes": 33,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 2,
+    "public-order": 3,
+    "shoplifting": 1,
+    "violent-crime": 17,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

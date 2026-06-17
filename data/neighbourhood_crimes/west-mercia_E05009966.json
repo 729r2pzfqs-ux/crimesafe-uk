@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05009966", "neighbourhood_name": "Lawley and Overdale", "force_id": "west-mercia", "lat": "52.6798", "lng": "-2.4628", "population": 12098, "total_crimes": 287, "categories": {"anti-social-behaviour": 49, "burglary": 7, "criminal-damage-arson": 16, "drugs": 6, "other-theft": 12, "possession-of-weapons": 3, "public-order": 21, "robbery": 3, "shoplifting": 49, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 110, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009966",
+  "neighbourhood_name": "Lawley and Overdale",
+  "force_id": "west-mercia",
+  "lat": "52.6798",
+  "lng": "-2.4628",
+  "population": 3332,
+  "total_crimes": 287,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "burglary": 7,
+    "criminal-damage-arson": 16,
+    "drugs": 6,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 21,
+    "robbery": 3,
+    "shoplifting": 49,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 110,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 86.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

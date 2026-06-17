@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ZA62", "neighbourhood_name": "Blean Forest", "force_id": "kent", "lat": "51.3082", "lng": "1.05624", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 3, "burglary": 1, "criminal-damage-arson": 1, "other-theft": 3, "robbery": 1, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA62",
+  "neighbourhood_name": "Blean Forest",
+  "force_id": "kent",
+  "lat": "51.3082",
+  "lng": "1.05624",
+  "population": 3623,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "bicycle-theft": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 3,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

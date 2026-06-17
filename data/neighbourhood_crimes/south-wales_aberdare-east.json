@@ -1,1 +1,26 @@
-{"neighbourhood_id": "aberdare-east", "neighbourhood_name": "Aberdare East", "force_id": "south-wales", "lat": "51.7228", "lng": "-3.43322", "population": 12098, "total_crimes": 77, "categories": {"anti-social-behaviour": 15, "burglary": 2, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 1, "possession-of-weapons": 1, "public-order": 10, "shoplifting": 9, "vehicle-crime": 2, "violent-crime": 31, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "aberdare-east",
+  "neighbourhood_name": "Aberdare East",
+  "force_id": "south-wales",
+  "lat": "51.7228",
+  "lng": "-3.43322",
+  "population": 6846,
+  "total_crimes": 77,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 2,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "shoplifting": 9,
+    "vehicle-crime": 2,
+    "violent-crime": 31,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-18", "neighbourhood_name": "Newark", "force_id": "nottinghamshire", "lat": "53.0791", "lng": "-0.807538", "population": 12098, "total_crimes": 304, "categories": {"anti-social-behaviour": 56, "bicycle-theft": 6, "burglary": 7, "criminal-damage-arson": 23, "drugs": 3, "other-theft": 13, "possession-of-weapons": 6, "public-order": 13, "robbery": 2, "shoplifting": 69, "theft-from-the-person": 1, "vehicle-crime": 14, "violent-crime": 83, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-18",
+  "neighbourhood_name": "Newark",
+  "force_id": "nottinghamshire",
+  "lat": "53.0791",
+  "lng": "-0.807538",
+  "population": 23978,
+  "total_crimes": 304,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "bicycle-theft": 6,
+    "burglary": 7,
+    "criminal-damage-arson": 23,
+    "drugs": 3,
+    "other-theft": 13,
+    "possession-of-weapons": 6,
+    "public-order": 13,
+    "robbery": 2,
+    "shoplifting": 69,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 14,
+    "violent-crime": 83,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

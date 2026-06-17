@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WM0", "neighbourhood_name": "Stafford Town", "force_id": "staffordshire", "lat": "52.8124", "lng": "-2.10018", "population": 12098, "total_crimes": 334, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 14, "burglary": 9, "criminal-damage-arson": 20, "drugs": 20, "other-theft": 13, "possession-of-weapons": 5, "public-order": 34, "robbery": 1, "shoplifting": 40, "vehicle-crime": 3, "violent-crime": 111, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WM0",
+  "neighbourhood_name": "Stafford Town",
+  "force_id": "staffordshire",
+  "lat": "52.8124",
+  "lng": "-2.10018",
+  "population": 16304,
+  "total_crimes": 334,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 14,
+    "burglary": 9,
+    "criminal-damage-arson": 20,
+    "drugs": 20,
+    "other-theft": 13,
+    "possession-of-weapons": 5,
+    "public-order": 34,
+    "robbery": 1,
+    "shoplifting": 40,
+    "vehicle-crime": 3,
+    "violent-crime": 111,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

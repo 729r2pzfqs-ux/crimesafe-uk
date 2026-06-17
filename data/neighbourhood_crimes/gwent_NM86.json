@@ -1,1 +1,14 @@
-{"neighbourhood_id": "NM86", "neighbourhood_name": "Langstone", "force_id": "gwent", "lat": "51.6193", "lng": "-2.86446", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NM86",
+  "neighbourhood_name": "Langstone",
+  "force_id": "gwent",
+  "lat": "51.6193",
+  "lng": "-2.86446",
+  "population": 4729,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

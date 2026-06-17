@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SA101", "neighbourhood_name": "Basildon", "force_id": "essex", "lat": "51.5644", "lng": "0.445188", "population": 12098, "total_crimes": 345, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 5, "burglary": 7, "criminal-damage-arson": 14, "drugs": 30, "other-theft": 18, "possession-of-weapons": 3, "public-order": 15, "robbery": 2, "shoplifting": 32, "theft-from-the-person": 2, "vehicle-crime": 14, "violent-crime": 166, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SA101",
+  "neighbourhood_name": "Basildon",
+  "force_id": "essex",
+  "lat": "51.5644",
+  "lng": "0.445188",
+  "population": 70164,
+  "total_crimes": 345,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 5,
+    "burglary": 7,
+    "criminal-damage-arson": 14,
+    "drugs": 30,
+    "other-theft": 18,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "robbery": 2,
+    "shoplifting": 32,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 14,
+    "violent-crime": 166,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 39
+}

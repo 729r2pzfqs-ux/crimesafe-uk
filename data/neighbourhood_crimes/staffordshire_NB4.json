@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NB4", "neighbourhood_name": "Newcastle North", "force_id": "staffordshire", "lat": "53.0394", "lng": "-2.22733", "population": 12098, "total_crimes": 188, "categories": {"anti-social-behaviour": 50, "bicycle-theft": 3, "burglary": 11, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 6, "possession-of-weapons": 1, "public-order": 14, "robbery": 2, "shoplifting": 3, "vehicle-crime": 12, "violent-crime": 69, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB4",
+  "neighbourhood_name": "Newcastle North",
+  "force_id": "staffordshire",
+  "lat": "53.0394",
+  "lng": "-2.22733",
+  "population": 23145,
+  "total_crimes": 188,
+  "categories": {
+    "anti-social-behaviour": 50,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 3,
+    "vehicle-crime": 12,
+    "violent-crime": 69,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPL3D", "neighbourhood_name": "Much Woolton and Hunts Cross", "force_id": "merseyside", "lat": "53.3679", "lng": "-2.86677", "population": 12098, "total_crimes": 128, "categories": {"anti-social-behaviour": 23, "burglary": 2, "criminal-damage-arson": 8, "drugs": 4, "other-theft": 9, "possession-of-weapons": 1, "public-order": 12, "robbery": 2, "shoplifting": 14, "vehicle-crime": 3, "violent-crime": 48, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL3D",
+  "neighbourhood_name": "Much Woolton and Hunts Cross",
+  "force_id": "merseyside",
+  "lat": "53.3679",
+  "lng": "-2.86677",
+  "population": 11817,
+  "total_crimes": 128,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 2,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 14,
+    "vehicle-crime": 3,
+    "violent-crime": 48,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

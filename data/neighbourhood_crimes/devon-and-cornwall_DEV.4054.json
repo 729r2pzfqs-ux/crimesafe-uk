@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DEV.4054", "neighbourhood_name": "Exwick", "force_id": "devon-and-cornwall", "lat": "50.732", "lng": "-3.55504", "population": 12098, "total_crimes": 103, "categories": {"anti-social-behaviour": 9, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 14, "drugs": 4, "other-theft": 4, "possession-of-weapons": 1, "public-order": 5, "robbery": 1, "shoplifting": 1, "theft-from-the-person": 4, "vehicle-crime": 5, "violent-crime": 48, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4054",
+  "neighbourhood_name": "Exwick",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.732",
+  "lng": "-3.55504",
+  "population": 8943,
+  "total_crimes": 103,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 14,
+    "drugs": 4,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 1,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 5,
+    "violent-crime": 48,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

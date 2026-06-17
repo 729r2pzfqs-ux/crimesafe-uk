@@ -1,1 +1,28 @@
-{"neighbourhood_id": "F02", "neighbourhood_name": "St Albans Central, North and West", "force_id": "hertfordshire", "lat": "51.7546", "lng": "-0.33012", "population": 12098, "total_crimes": 281, "categories": {"anti-social-behaviour": 68, "bicycle-theft": 2, "burglary": 13, "criminal-damage-arson": 23, "drugs": 13, "other-theft": 15, "public-order": 11, "robbery": 1, "shoplifting": 39, "theft-from-the-person": 5, "vehicle-crime": 13, "violent-crime": 70, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "F02",
+  "neighbourhood_name": "St Albans Central, North and West",
+  "force_id": "hertfordshire",
+  "lat": "51.7546",
+  "lng": "-0.33012",
+  "population": 51720,
+  "total_crimes": 281,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "bicycle-theft": 2,
+    "burglary": 13,
+    "criminal-damage-arson": 23,
+    "drugs": 13,
+    "other-theft": 15,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 39,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 13,
+    "violent-crime": 70,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 28
+}

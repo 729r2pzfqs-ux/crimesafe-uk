@@ -1,1 +1,25 @@
-{"neighbourhood_id": "8OW02", "neighbourhood_name": "Bordon", "force_id": "hampshire", "lat": "51.1087", "lng": "-0.864206", "population": 12098, "total_crimes": 118, "categories": {"anti-social-behaviour": 13, "burglary": 3, "criminal-damage-arson": 10, "drugs": 5, "other-theft": 10, "possession-of-weapons": 1, "public-order": 9, "shoplifting": 15, "vehicle-crime": 5, "violent-crime": 47}, "date": "2026-03"}
+{
+  "neighbourhood_id": "8OW02",
+  "neighbourhood_name": "Bordon",
+  "force_id": "hampshire",
+  "lat": "51.1087",
+  "lng": "-0.864206",
+  "population": 11465,
+  "total_crimes": 118,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "drugs": 5,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "shoplifting": 15,
+    "vehicle-crime": 5,
+    "violent-crime": 47
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "14RF03", "neighbourhood_name": "Farnborough West", "force_id": "hampshire", "lat": "51.2977", "lng": "-0.781067", "population": 12098, "total_crimes": 133, "categories": {"anti-social-behaviour": 21, "burglary": 6, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 14, "possession-of-weapons": 2, "public-order": 11, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 50, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "14RF03",
+  "neighbourhood_name": "Farnborough West",
+  "force_id": "hampshire",
+  "lat": "51.2977",
+  "lng": "-0.781067",
+  "population": 21640,
+  "total_crimes": 133,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 6,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 14,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 50,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

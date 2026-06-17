@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014090", "neighbourhood_name": "Thamesmead Moorings", "force_id": "metropolitan", "lat": "51.5058", "lng": "0.102393", "population": 12881, "total_crimes": 234, "categories": {"anti-social-behaviour": 35, "burglary": 6, "criminal-damage-arson": 21, "drugs": 8, "other-theft": 11, "possession-of-weapons": 1, "public-order": 10, "robbery": 3, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 28, "violent-crime": 87, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014090",
+  "neighbourhood_name": "Thamesmead Moorings",
+  "force_id": "metropolitan",
+  "lat": "51.5058",
+  "lng": "0.102393",
+  "population": 14585,
+  "total_crimes": 234,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "burglary": 6,
+    "criminal-damage-arson": 21,
+    "drugs": 8,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 3,
+    "shoplifting": 16,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 28,
+    "violent-crime": 87,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

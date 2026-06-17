@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL4D", "neighbourhood_name": "Dingle", "force_id": "merseyside", "lat": "53.3863", "lng": "-2.9691", "population": 12098, "total_crimes": 499, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 14, "burglary": 21, "criminal-damage-arson": 32, "drugs": 39, "other-theft": 37, "possession-of-weapons": 4, "public-order": 44, "robbery": 3, "shoplifting": 25, "theft-from-the-person": 2, "vehicle-crime": 26, "violent-crime": 201, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4D",
+  "neighbourhood_name": "Dingle",
+  "force_id": "merseyside",
+  "lat": "53.3863",
+  "lng": "-2.9691",
+  "population": 9830,
+  "total_crimes": 499,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 14,
+    "burglary": 21,
+    "criminal-damage-arson": 32,
+    "drugs": 39,
+    "other-theft": 37,
+    "possession-of-weapons": 4,
+    "public-order": 44,
+    "robbery": 3,
+    "shoplifting": 25,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 26,
+    "violent-crime": 201,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 50.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DY011", "neighbourhood_name": "Stourbridge, Pedmore and Wollaston", "force_id": "west-midlands", "lat": "52.4489", "lng": "-2.14258", "population": 12098, "total_crimes": 184, "categories": {"anti-social-behaviour": 4, "burglary": 8, "criminal-damage-arson": 9, "drugs": 7, "other-theft": 8, "possession-of-weapons": 3, "public-order": 7, "robbery": 1, "shoplifting": 43, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 81, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DY011",
+  "neighbourhood_name": "Stourbridge, Pedmore and Wollaston",
+  "force_id": "west-midlands",
+  "lat": "52.4489",
+  "lng": "-2.14258",
+  "population": 37901,
+  "total_crimes": 184,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 8,
+    "criminal-damage-arson": 9,
+    "drugs": 7,
+    "other-theft": 8,
+    "possession-of-weapons": 3,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 43,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 81,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

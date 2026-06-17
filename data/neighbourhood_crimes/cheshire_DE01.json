@@ -1,1 +1,20 @@
-{"neighbourhood_id": "DE01", "neighbourhood_name": "Appleton - Warrington", "force_id": "cheshire", "lat": "53.3531", "lng": "-2.55444", "population": "0", "total_crimes": 24, "categories": {"anti-social-behaviour": 2, "burglary": 2, "criminal-damage-arson": 1, "vehicle-crime": 4, "violent-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DE01",
+  "neighbourhood_name": "Appleton - Warrington",
+  "force_id": "cheshire",
+  "lat": "53.3531",
+  "lng": "-2.55444",
+  "population": 10127,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

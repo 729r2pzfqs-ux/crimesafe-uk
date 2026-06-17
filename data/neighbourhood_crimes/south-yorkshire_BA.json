@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BA", "neighbourhood_name": "Barnsley Central", "force_id": "south-yorkshire", "lat": "53.5532", "lng": "-1.46888", "population": 12098, "total_crimes": 503, "categories": {"anti-social-behaviour": 75, "bicycle-theft": 3, "burglary": 11, "criminal-damage-arson": 51, "drugs": 23, "other-theft": 31, "possession-of-weapons": 3, "public-order": 34, "robbery": 13, "shoplifting": 41, "theft-from-the-person": 6, "vehicle-crime": 20, "violent-crime": 173, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BA",
+  "neighbourhood_name": "Barnsley Central",
+  "force_id": "south-yorkshire",
+  "lat": "53.5532",
+  "lng": "-1.46888",
+  "population": 12129,
+  "total_crimes": 503,
+  "categories": {
+    "anti-social-behaviour": 75,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "criminal-damage-arson": 51,
+    "drugs": 23,
+    "other-theft": 31,
+    "possession-of-weapons": 3,
+    "public-order": 34,
+    "robbery": 13,
+    "shoplifting": 41,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 20,
+    "violent-crime": 173,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

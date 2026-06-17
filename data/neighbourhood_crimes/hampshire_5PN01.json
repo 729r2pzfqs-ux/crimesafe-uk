@@ -1,1 +1,29 @@
-{"neighbourhood_id": "5PN01", "neighbourhood_name": "Cosham", "force_id": "hampshire", "lat": "50.8425", "lng": "-1.06038", "population": 12098, "total_crimes": 271, "categories": {"anti-social-behaviour": 25, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 19, "drugs": 5, "other-theft": 25, "possession-of-weapons": 3, "public-order": 31, "robbery": 4, "shoplifting": 50, "theft-from-the-person": 2, "vehicle-crime": 10, "violent-crime": 84, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "5PN01",
+  "neighbourhood_name": "Cosham",
+  "force_id": "hampshire",
+  "lat": "50.8425",
+  "lng": "-1.06038",
+  "population": 27984,
+  "total_crimes": 271,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 19,
+    "drugs": 5,
+    "other-theft": 25,
+    "possession-of-weapons": 3,
+    "public-order": 31,
+    "robbery": 4,
+    "shoplifting": 50,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 10,
+    "violent-crime": 84,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013694", "neighbourhood_name": "Upper Edmonton", "force_id": "metropolitan", "lat": "51.611", "lng": "-0.0604155", "population": 17570, "total_crimes": 1071, "categories": {"anti-social-behaviour": 216, "bicycle-theft": 8, "burglary": 40, "criminal-damage-arson": 47, "drugs": 75, "other-theft": 71, "possession-of-weapons": 9, "public-order": 60, "robbery": 45, "shoplifting": 58, "theft-from-the-person": 78, "vehicle-crime": 77, "violent-crime": 274, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013694",
+  "neighbourhood_name": "Upper Edmonton",
+  "force_id": "metropolitan",
+  "lat": "51.611",
+  "lng": "-0.0604155",
+  "population": 18433,
+  "total_crimes": 1071,
+  "categories": {
+    "anti-social-behaviour": 216,
+    "bicycle-theft": 8,
+    "burglary": 40,
+    "criminal-damage-arson": 47,
+    "drugs": 75,
+    "other-theft": 71,
+    "possession-of-weapons": 9,
+    "public-order": 60,
+    "robbery": 45,
+    "shoplifting": 58,
+    "theft-from-the-person": 78,
+    "vehicle-crime": 77,
+    "violent-crime": 274,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,21 @@
-{"neighbourhood_id": "YC46", "neighbourhood_name": "Farningham, Horton Kirby and South Darenth", "force_id": "kent", "lat": "51.3796", "lng": "0.241909", "population": 12098, "total_crimes": 10, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 2, "vehicle-crime": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC46",
+  "neighbourhood_name": "Farningham, Horton Kirby and South Darenth",
+  "force_id": "kent",
+  "lat": "51.3796",
+  "lng": "0.241909",
+  "population": 5031,
+  "total_crimes": 10,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

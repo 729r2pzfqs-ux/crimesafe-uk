@@ -1,1 +1,19 @@
-{"neighbourhood_id": "ES1NH5", "neighbourhood_name": "Glynde, Firle, Beddingham and Southease", "force_id": "sussex", "lat": "50.8519", "lng": "0.00151374", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 1, "public-order": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES1NH5",
+  "neighbourhood_name": "Glynde, Firle, Beddingham and Southease",
+  "force_id": "sussex",
+  "lat": "50.8519",
+  "lng": "0.00151374",
+  "population": 2086,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 1,
+    "violent-crime": 2,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

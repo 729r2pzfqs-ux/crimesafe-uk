@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL5B", "neighbourhood_name": "Canning", "force_id": "merseyside", "lat": "53.4015", "lng": "-2.96453", "population": 12098, "total_crimes": 1841, "categories": {"anti-social-behaviour": 126, "bicycle-theft": 40, "burglary": 40, "criminal-damage-arson": 82, "drugs": 277, "other-theft": 135, "possession-of-weapons": 12, "public-order": 175, "robbery": 15, "shoplifting": 218, "theft-from-the-person": 40, "vehicle-crime": 33, "violent-crime": 613, "other-crime": 35}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL5B",
+  "neighbourhood_name": "Canning",
+  "force_id": "merseyside",
+  "lat": "53.4015",
+  "lng": "-2.96453",
+  "population": 12229,
+  "total_crimes": 1841,
+  "categories": {
+    "anti-social-behaviour": 126,
+    "bicycle-theft": 40,
+    "burglary": 40,
+    "criminal-damage-arson": 82,
+    "drugs": 277,
+    "other-theft": 135,
+    "possession-of-weapons": 12,
+    "public-order": 175,
+    "robbery": 15,
+    "shoplifting": 218,
+    "theft-from-the-person": 40,
+    "vehicle-crime": 33,
+    "violent-crime": 613,
+    "other-crime": 35
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 150.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BE020", "neighbourhood_name": "Stechford and Yardley North", "force_id": "west-midlands", "lat": "52.4787", "lng": "-1.80012", "population": 12098, "total_crimes": 490, "categories": {"anti-social-behaviour": 21, "burglary": 12, "criminal-damage-arson": 50, "drugs": 25, "other-theft": 25, "possession-of-weapons": 6, "public-order": 26, "robbery": 8, "shoplifting": 29, "theft-from-the-person": 5, "vehicle-crime": 39, "violent-crime": 238, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE020",
+  "neighbourhood_name": "Stechford and Yardley North",
+  "force_id": "west-midlands",
+  "lat": "52.4787",
+  "lng": "-1.80012",
+  "population": 26773,
+  "total_crimes": 490,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 12,
+    "criminal-damage-arson": 50,
+    "drugs": 25,
+    "other-theft": 25,
+    "possession-of-weapons": 6,
+    "public-order": 26,
+    "robbery": 8,
+    "shoplifting": 29,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 39,
+    "violent-crime": 238,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "pentwyn", "neighbourhood_name": "Pentwyn", "force_id": "south-wales", "lat": "51.5191", "lng": "-3.14767", "population": 12098, "total_crimes": 181, "categories": {"anti-social-behaviour": 26, "burglary": 8, "criminal-damage-arson": 13, "drugs": 5, "other-theft": 7, "possession-of-weapons": 5, "public-order": 14, "robbery": 1, "shoplifting": 28, "vehicle-crime": 15, "violent-crime": 54, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "pentwyn",
+  "neighbourhood_name": "Pentwyn",
+  "force_id": "south-wales",
+  "lat": "51.5191",
+  "lng": "-3.14767",
+  "population": 14617,
+  "total_crimes": 181,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 8,
+    "criminal-damage-arson": 13,
+    "drugs": 5,
+    "other-theft": 7,
+    "possession-of-weapons": 5,
+    "public-order": 14,
+    "robbery": 1,
+    "shoplifting": 28,
+    "vehicle-crime": 15,
+    "violent-crime": 54,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

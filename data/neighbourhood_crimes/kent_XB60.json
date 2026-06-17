@@ -1,1 +1,26 @@
-{"neighbourhood_id": "XB60", "neighbourhood_name": "Abbey", "force_id": "kent", "lat": "51.3176", "lng": "0.901737", "population": 12098, "total_crimes": 107, "categories": {"anti-social-behaviour": 24, "burglary": 3, "criminal-damage-arson": 8, "drugs": 3, "other-theft": 10, "public-order": 4, "robbery": 1, "shoplifting": 13, "vehicle-crime": 1, "violent-crime": 39, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB60",
+  "neighbourhood_name": "Abbey",
+  "force_id": "kent",
+  "lat": "51.3176",
+  "lng": "0.901737",
+  "population": 6420,
+  "total_crimes": 107,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 3,
+    "other-theft": 10,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 13,
+    "vehicle-crime": 1,
+    "violent-crime": 39,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "WC3NH22", "neighbourhood_name": "Rogate, Stedham and Harting", "force_id": "sussex", "lat": "50.9992", "lng": "-0.81955", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC3NH22",
+  "neighbourhood_name": "Rogate, Stedham and Harting",
+  "force_id": "sussex",
+  "lat": "50.9992",
+  "lng": "-0.81955",
+  "population": 5763,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC103", "neighbourhood_name": "Colchester Town East", "force_id": "essex", "lat": "51.8904", "lng": "0.923333", "population": 12098, "total_crimes": 552, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 4, "burglary": 23, "criminal-damage-arson": 25, "drugs": 22, "other-theft": 31, "possession-of-weapons": 8, "public-order": 28, "robbery": 7, "shoplifting": 56, "theft-from-the-person": 2, "vehicle-crime": 30, "violent-crime": 245, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC103",
+  "neighbourhood_name": "Colchester Town East",
+  "force_id": "essex",
+  "lat": "51.8904",
+  "lng": "0.923333",
+  "population": 50231,
+  "total_crimes": 552,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 4,
+    "burglary": 23,
+    "criminal-damage-arson": 25,
+    "drugs": 22,
+    "other-theft": 31,
+    "possession-of-weapons": 8,
+    "public-order": 28,
+    "robbery": 7,
+    "shoplifting": 56,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 30,
+    "violent-crime": 245,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 27
+}

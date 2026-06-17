@@ -1,1 +1,21 @@
-{"neighbourhood_id": "3FP01", "neighbourhood_name": "Crofton and Titchfield", "force_id": "hampshire", "lat": "50.8409", "lng": "-1.22299", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 2, "other-theft": 2, "robbery": 1, "shoplifting": 1, "violent-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "3FP01",
+  "neighbourhood_name": "Crofton and Titchfield",
+  "force_id": "hampshire",
+  "lat": "50.8409",
+  "lng": "-1.22299",
+  "population": 21764,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "robbery": 1,
+    "shoplifting": 1,
+    "violent-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "DE05", "neighbourhood_name": "Lymm", "force_id": "cheshire", "lat": "53.3759", "lng": "-2.47088", "population": "0", "total_crimes": 31, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 5, "possession-of-weapons": 1, "public-order": 3, "shoplifting": 2, "violent-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DE05",
+  "neighbourhood_name": "Lymm",
+  "force_id": "cheshire",
+  "lat": "53.3759",
+  "lng": "-2.47088",
+  "population": 12563,
+  "total_crimes": 31,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "shoplifting": 2,
+    "violent-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

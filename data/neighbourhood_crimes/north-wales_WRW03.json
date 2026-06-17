@@ -1,1 +1,16 @@
-{"neighbourhood_id": "WRW03", "neighbourhood_name": "Marchwiel", "force_id": "north-wales", "lat": "53.0004", "lng": "-2.9486", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW03",
+  "neighbourhood_name": "Marchwiel",
+  "force_id": "north-wales",
+  "lat": "53.0004",
+  "lng": "-2.9486",
+  "population": 2273,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

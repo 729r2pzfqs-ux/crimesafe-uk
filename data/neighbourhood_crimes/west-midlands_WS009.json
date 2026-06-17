@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WS009", "neighbourhood_name": "St Matthew's", "force_id": "west-midlands", "lat": "52.584", "lng": "-1.96852", "population": 12098, "total_crimes": 508, "categories": {"anti-social-behaviour": 16, "bicycle-theft": 2, "burglary": 19, "criminal-damage-arson": 35, "drugs": 31, "other-theft": 21, "possession-of-weapons": 18, "public-order": 36, "robbery": 14, "shoplifting": 80, "theft-from-the-person": 7, "vehicle-crime": 38, "violent-crime": 185, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WS009",
+  "neighbourhood_name": "St Matthew's",
+  "force_id": "west-midlands",
+  "lat": "52.584",
+  "lng": "-1.96852",
+  "population": 12732,
+  "total_crimes": 508,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "bicycle-theft": 2,
+    "burglary": 19,
+    "criminal-damage-arson": 35,
+    "drugs": 31,
+    "other-theft": 21,
+    "possession-of-weapons": 18,
+    "public-order": 36,
+    "robbery": 14,
+    "shoplifting": 80,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 38,
+    "violent-crime": 185,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DEV.4064", "neighbourhood_name": "Whipton Barton", "force_id": "devon-and-cornwall", "lat": "50.7269", "lng": "-3.48242", "population": 12098, "total_crimes": 230, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 3, "burglary": 9, "criminal-damage-arson": 25, "drugs": 8, "other-theft": 12, "possession-of-weapons": 3, "public-order": 20, "shoplifting": 7, "theft-from-the-person": 2, "vehicle-crime": 8, "violent-crime": 100, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4064",
+  "neighbourhood_name": "Whipton Barton",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.7269",
+  "lng": "-3.48242",
+  "population": 8529,
+  "total_crimes": 230,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 3,
+    "burglary": 9,
+    "criminal-damage-arson": 25,
+    "drugs": 8,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 20,
+    "shoplifting": 7,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 100,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

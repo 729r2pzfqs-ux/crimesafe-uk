@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CamCity_North_City", "neighbourhood_name": "Cambridge North", "force_id": "cambridgeshire", "lat": "52.2238", "lng": "0.137353", "population": "50810", "total_crimes": 457, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 16, "burglary": 19, "criminal-damage-arson": 37, "drugs": 12, "other-theft": 28, "possession-of-weapons": 6, "public-order": 24, "robbery": 3, "shoplifting": 55, "theft-from-the-person": 2, "vehicle-crime": 38, "violent-crime": 148, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CamCity_North_City",
+  "neighbourhood_name": "Cambridge North",
+  "force_id": "cambridgeshire",
+  "lat": "52.2238",
+  "lng": "0.137353",
+  "population": 33148,
+  "total_crimes": 457,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 16,
+    "burglary": 19,
+    "criminal-damage-arson": 37,
+    "drugs": 12,
+    "other-theft": 28,
+    "possession-of-weapons": 6,
+    "public-order": 24,
+    "robbery": 3,
+    "shoplifting": 55,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 38,
+    "violent-crime": 148,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 23
+}

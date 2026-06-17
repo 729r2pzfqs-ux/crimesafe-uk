@@ -1,1 +1,14 @@
-{"neighbourhood_id": "CIOS.4015", "neighbourhood_name": "St Just, Pendeen &amp;amp; Sennen", "force_id": "devon-and-cornwall", "lat": "50.1142", "lng": "-5.65864", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4015",
+  "neighbourhood_name": "St Just, Pendeen &amp;amp; Sennen",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.1142",
+  "lng": "-5.65864",
+  "population": 4991,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

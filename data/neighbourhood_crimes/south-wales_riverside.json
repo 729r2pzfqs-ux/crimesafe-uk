@@ -1,1 +1,29 @@
-{"neighbourhood_id": "riverside", "neighbourhood_name": "Riverside", "force_id": "south-wales", "lat": "51.4865", "lng": "-3.19809", "population": 12098, "total_crimes": 477, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 30, "burglary": 23, "criminal-damage-arson": 41, "drugs": 20, "other-theft": 30, "possession-of-weapons": 3, "public-order": 39, "robbery": 12, "shoplifting": 37, "theft-from-the-person": 5, "vehicle-crime": 40, "violent-crime": 148, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "riverside",
+  "neighbourhood_name": "Riverside",
+  "force_id": "south-wales",
+  "lat": "51.4865",
+  "lng": "-3.19809",
+  "population": 14200,
+  "total_crimes": 477,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "bicycle-theft": 30,
+    "burglary": 23,
+    "criminal-damage-arson": 41,
+    "drugs": 20,
+    "other-theft": 30,
+    "possession-of-weapons": 3,
+    "public-order": 39,
+    "robbery": 12,
+    "shoplifting": 37,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 40,
+    "violent-crime": 148,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

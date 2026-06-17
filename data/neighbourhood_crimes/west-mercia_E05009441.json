@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05009441", "neighbourhood_name": "Belmont Southside", "force_id": "west-mercia", "lat": "52.041", "lng": "-2.74828", "population": 3408, "total_crimes": 91, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 10, "drugs": 8, "other-theft": 1, "possession-of-weapons": 5, "public-order": 2, "shoplifting": 3, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 38, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009441",
+  "neighbourhood_name": "Belmont Southside",
+  "force_id": "west-mercia",
+  "lat": "52.041",
+  "lng": "-2.74828",
+  "population": 10335,
+  "total_crimes": 91,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 8,
+    "other-theft": 1,
+    "possession-of-weapons": 5,
+    "public-order": 2,
+    "shoplifting": 3,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 38,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

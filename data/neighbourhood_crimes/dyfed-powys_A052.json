@@ -1,1 +1,19 @@
-{"neighbourhood_id": "A052", "neighbourhood_name": "Llangennech", "force_id": "dyfed-powys", "lat": "51.7067", "lng": "-4.09145", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 1, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A052",
+  "neighbourhood_name": "Llangennech",
+  "force_id": "dyfed-powys",
+  "lat": "51.7067",
+  "lng": "-4.09145",
+  "population": 5215,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

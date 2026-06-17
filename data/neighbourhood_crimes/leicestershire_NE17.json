@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NE17", "neighbourhood_name": "Evington", "force_id": "leicestershire", "lat": "52.6278", "lng": "-1.07325", "population": 12098, "total_crimes": 150, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 14, "drugs": 2, "other-theft": 7, "possession-of-weapons": 1, "public-order": 17, "robbery": 1, "shoplifting": 6, "theft-from-the-person": 3, "vehicle-crime": 8, "violent-crime": 67, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE17",
+  "neighbourhood_name": "Evington",
+  "force_id": "leicestershire",
+  "lat": "52.6278",
+  "lng": "-1.07325",
+  "population": 16883,
+  "total_crimes": 150,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 14,
+    "drugs": 2,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 17,
+    "robbery": 1,
+    "shoplifting": 6,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 8,
+    "violent-crime": 67,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

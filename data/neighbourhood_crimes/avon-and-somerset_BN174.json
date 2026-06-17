@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BN174", "neighbourhood_name": "Redland", "force_id": "avon-and-somerset", "lat": "51.4753", "lng": "-2.60284", "population": "0", "total_crimes": 507, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 8, "burglary": 44, "criminal-damage-arson": 32, "drugs": 8, "other-theft": 30, "possession-of-weapons": 2, "public-order": 32, "robbery": 9, "shoplifting": 79, "theft-from-the-person": 1, "vehicle-crime": 85, "violent-crime": 121, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BN174",
+  "neighbourhood_name": "Redland",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4753",
+  "lng": "-2.60284",
+  "population": 13204,
+  "total_crimes": 507,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 8,
+    "burglary": 44,
+    "criminal-damage-arson": 32,
+    "drugs": 8,
+    "other-theft": 30,
+    "possession-of-weapons": 2,
+    "public-order": 32,
+    "robbery": 9,
+    "shoplifting": 79,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 85,
+    "violent-crime": 121,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

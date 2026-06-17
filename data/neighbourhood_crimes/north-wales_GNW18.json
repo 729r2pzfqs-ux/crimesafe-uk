@@ -1,1 +1,20 @@
-{"neighbourhood_id": "GNW18", "neighbourhood_name": "Y Felinheli", "force_id": "north-wales", "lat": "53.175", "lng": "-4.2214", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW18",
+  "neighbourhood_name": "Y Felinheli",
+  "force_id": "north-wales",
+  "lat": "53.175",
+  "lng": "-4.2214",
+  "population": 2562,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

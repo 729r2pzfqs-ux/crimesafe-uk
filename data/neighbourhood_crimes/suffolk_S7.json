@@ -1,1 +1,29 @@
-{"neighbourhood_id": "S7", "neighbourhood_name": "Bridge", "force_id": "suffolk", "lat": "52.0428", "lng": "1.1496", "population": 12098, "total_crimes": 280, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 7, "burglary": 1, "criminal-damage-arson": 19, "drugs": 8, "other-theft": 20, "possession-of-weapons": 6, "public-order": 29, "robbery": 3, "shoplifting": 35, "theft-from-the-person": 3, "vehicle-crime": 12, "violent-crime": 109, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S7",
+  "neighbourhood_name": "Bridge",
+  "force_id": "suffolk",
+  "lat": "52.0428",
+  "lng": "1.1496",
+  "population": 9679,
+  "total_crimes": 280,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "bicycle-theft": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 19,
+    "drugs": 8,
+    "other-theft": 20,
+    "possession-of-weapons": 6,
+    "public-order": 29,
+    "robbery": 3,
+    "shoplifting": 35,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 12,
+    "violent-crime": 109,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

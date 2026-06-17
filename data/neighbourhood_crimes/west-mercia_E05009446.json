@@ -1,1 +1,14 @@
-{"neighbourhood_id": "E05009446", "neighbourhood_name": "Bromyard", "force_id": "west-mercia", "lat": "52.1922", "lng": "-2.58056", "population": 1616, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009446",
+  "neighbourhood_name": "Bromyard",
+  "force_id": "west-mercia",
+  "lat": "52.1922",
+  "lng": "-2.58056",
+  "population": 11957,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

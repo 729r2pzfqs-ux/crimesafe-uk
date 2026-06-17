@@ -1,1 +1,23 @@
-{"neighbourhood_id": "NH07", "neighbourhood_name": "Whaley Bridge", "force_id": "derbyshire", "lat": "53.3276", "lng": "-1.98716", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 1, "possession-of-weapons": 1, "public-order": 8, "shoplifting": 5, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH07",
+  "neighbourhood_name": "Whaley Bridge",
+  "force_id": "derbyshire",
+  "lat": "53.3276",
+  "lng": "-1.98716",
+  "population": 6568,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "shoplifting": 5,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

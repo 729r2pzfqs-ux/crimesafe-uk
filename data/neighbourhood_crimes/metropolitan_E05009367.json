@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009367", "neighbourhood_name": "Brownswood", "force_id": "metropolitan", "lat": "51.5647", "lng": "-0.0980807", "population": 9287, "total_crimes": 1304, "categories": {"anti-social-behaviour": 309, "bicycle-theft": 24, "burglary": 40, "criminal-damage-arson": 65, "drugs": 73, "other-theft": 97, "possession-of-weapons": 12, "public-order": 72, "robbery": 50, "shoplifting": 61, "theft-from-the-person": 130, "vehicle-crime": 66, "violent-crime": 298, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009367",
+  "neighbourhood_name": "Brownswood",
+  "force_id": "metropolitan",
+  "lat": "51.5647",
+  "lng": "-0.0980807",
+  "population": 9965,
+  "total_crimes": 1304,
+  "categories": {
+    "anti-social-behaviour": 309,
+    "bicycle-theft": 24,
+    "burglary": 40,
+    "criminal-damage-arson": 65,
+    "drugs": 73,
+    "other-theft": 97,
+    "possession-of-weapons": 12,
+    "public-order": 72,
+    "robbery": 50,
+    "shoplifting": 61,
+    "theft-from-the-person": 130,
+    "vehicle-crime": 66,
+    "violent-crime": 298,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 130.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009330", "neighbourhood_name": "St Katharine's and Wapping", "force_id": "metropolitan", "lat": "51.5061", "lng": "-0.0609454", "population": 12098, "total_crimes": 1557, "categories": {"anti-social-behaviour": 289, "bicycle-theft": 27, "burglary": 63, "criminal-damage-arson": 65, "drugs": 72, "other-theft": 160, "possession-of-weapons": 14, "public-order": 96, "robbery": 67, "shoplifting": 69, "theft-from-the-person": 226, "vehicle-crime": 70, "violent-crime": 325, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009330",
+  "neighbourhood_name": "St Katharine's and Wapping",
+  "force_id": "metropolitan",
+  "lat": "51.5061",
+  "lng": "-0.0609454",
+  "population": 11570,
+  "total_crimes": 1557,
+  "categories": {
+    "anti-social-behaviour": 289,
+    "bicycle-theft": 27,
+    "burglary": 63,
+    "criminal-damage-arson": 65,
+    "drugs": 72,
+    "other-theft": 160,
+    "possession-of-weapons": 14,
+    "public-order": 96,
+    "robbery": 67,
+    "shoplifting": 69,
+    "theft-from-the-person": 226,
+    "vehicle-crime": 70,
+    "violent-crime": 325,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 134.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

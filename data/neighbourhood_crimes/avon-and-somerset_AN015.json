@@ -1,1 +1,29 @@
-{"neighbourhood_id": "AN015", "neighbourhood_name": "Weston Town Centre", "force_id": "avon-and-somerset", "lat": "51.3425", "lng": "-2.99246", "population": "0", "total_crimes": 343, "categories": {"anti-social-behaviour": 53, "bicycle-theft": 3, "burglary": 8, "criminal-damage-arson": 25, "drugs": 10, "other-theft": 18, "possession-of-weapons": 2, "public-order": 31, "robbery": 7, "shoplifting": 39, "theft-from-the-person": 2, "vehicle-crime": 10, "violent-crime": 129, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AN015",
+  "neighbourhood_name": "Weston Town Centre",
+  "force_id": "avon-and-somerset",
+  "lat": "51.3425",
+  "lng": "-2.99246",
+  "population": 10134,
+  "total_crimes": 343,
+  "categories": {
+    "anti-social-behaviour": 53,
+    "bicycle-theft": 3,
+    "burglary": 8,
+    "criminal-damage-arson": 25,
+    "drugs": 10,
+    "other-theft": 18,
+    "possession-of-weapons": 2,
+    "public-order": 31,
+    "robbery": 7,
+    "shoplifting": 39,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 10,
+    "violent-crime": 129,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

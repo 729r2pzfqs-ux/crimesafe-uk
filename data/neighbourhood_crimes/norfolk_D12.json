@@ -1,1 +1,16 @@
-{"neighbourhood_id": "D12", "neighbourhood_name": "Wymondham", "force_id": "norfolk", "lat": "52.5875", "lng": "1.05578", "population": 12098, "total_crimes": 6, "categories": {"violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D12",
+  "neighbourhood_name": "Wymondham",
+  "force_id": "norfolk",
+  "lat": "52.5875",
+  "lng": "1.05578",
+  "population": 15812,
+  "total_crimes": 6,
+  "categories": {
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

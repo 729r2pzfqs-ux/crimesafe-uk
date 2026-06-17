@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YC54", "neighbourhood_name": "Swanley St Mary's", "force_id": "kent", "lat": "51.4004", "lng": "0.162679", "population": 12098, "total_crimes": 138, "categories": {"anti-social-behaviour": 22, "burglary": 1, "criminal-damage-arson": 13, "drugs": 10, "other-theft": 12, "public-order": 7, "robbery": 3, "shoplifting": 17, "vehicle-crime": 8, "violent-crime": 41, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC54",
+  "neighbourhood_name": "Swanley St Mary's",
+  "force_id": "kent",
+  "lat": "51.4004",
+  "lng": "0.162679",
+  "population": 4675,
+  "total_crimes": 138,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 10,
+    "other-theft": 12,
+    "public-order": 7,
+    "robbery": 3,
+    "shoplifting": 17,
+    "vehicle-crime": 8,
+    "violent-crime": 41,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

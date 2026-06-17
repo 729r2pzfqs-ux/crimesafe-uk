@@ -1,1 +1,27 @@
-{"neighbourhood_id": "ELEC", "neighbourhood_name": "Esher &amp; Claygate", "force_id": "surrey", "lat": "51.3625", "lng": "-0.357448", "population": 12098, "total_crimes": 55, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 8, "drugs": 4, "other-theft": 1, "possession-of-weapons": 6, "public-order": 4, "robbery": 1, "shoplifting": 2, "vehicle-crime": 5, "violent-crime": 18, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ELEC",
+  "neighbourhood_name": "Esher &amp; Claygate",
+  "force_id": "surrey",
+  "lat": "51.3625",
+  "lng": "-0.357448",
+  "population": 12543,
+  "total_crimes": 55,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "other-theft": 1,
+    "possession-of-weapons": 6,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 18,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

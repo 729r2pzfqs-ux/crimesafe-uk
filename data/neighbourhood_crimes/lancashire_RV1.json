@@ -1,1 +1,14 @@
-{"neighbourhood_id": "RV1", "neighbourhood_name": "Alston &amp; Hothersall", "force_id": "lancashire", "lat": "53.8103", "lng": "-2.58628", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV1",
+  "neighbourhood_name": "Alston &amp; Hothersall",
+  "force_id": "lancashire",
+  "lat": "53.8103",
+  "lng": "-2.58628",
+  "population": 2751,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

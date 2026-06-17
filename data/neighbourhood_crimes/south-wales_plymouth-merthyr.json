@@ -1,1 +1,21 @@
-{"neighbourhood_id": "plymouth-merthyr", "neighbourhood_name": "Plymouth (Merthyr)", "force_id": "south-wales", "lat": "51.7216", "lng": "-3.36578", "population": 12098, "total_crimes": 26, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 2, "public-order": 1, "vehicle-crime": 1, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "plymouth-merthyr",
+  "neighbourhood_name": "Plymouth (Merthyr)",
+  "force_id": "south-wales",
+  "lat": "51.7216",
+  "lng": "-3.36578",
+  "population": 5302,
+  "total_crimes": 26,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 2,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

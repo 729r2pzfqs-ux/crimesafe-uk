@@ -1,1 +1,29 @@
-{"neighbourhood_id": "S5", "neighbourhood_name": "Gipping", "force_id": "suffolk", "lat": "52.0532", "lng": "1.13015", "population": 12098, "total_crimes": 318, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 7, "burglary": 1, "criminal-damage-arson": 21, "drugs": 4, "other-theft": 25, "possession-of-weapons": 2, "public-order": 23, "robbery": 3, "shoplifting": 51, "theft-from-the-person": 3, "vehicle-crime": 9, "violent-crime": 142, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S5",
+  "neighbourhood_name": "Gipping",
+  "force_id": "suffolk",
+  "lat": "52.0532",
+  "lng": "1.13015",
+  "population": 9422,
+  "total_crimes": 318,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 21,
+    "drugs": 4,
+    "other-theft": 25,
+    "possession-of-weapons": 2,
+    "public-order": 23,
+    "robbery": 3,
+    "shoplifting": 51,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 9,
+    "violent-crime": 142,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

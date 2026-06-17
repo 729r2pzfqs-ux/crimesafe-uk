@@ -1,1 +1,28 @@
-{"neighbourhood_id": "YA35", "neighbourhood_name": "Shepway", "force_id": "kent", "lat": "51.2577", "lng": "0.544041", "population": 12098, "total_crimes": 185, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 17, "drugs": 14, "other-theft": 6, "possession-of-weapons": 3, "public-order": 9, "robbery": 1, "shoplifting": 12, "vehicle-crime": 8, "violent-crime": 66, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA35",
+  "neighbourhood_name": "Shepway",
+  "force_id": "kent",
+  "lat": "51.2577",
+  "lng": "0.544041",
+  "population": 12555,
+  "total_crimes": 185,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 17,
+    "drugs": 14,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 12,
+    "vehicle-crime": 8,
+    "violent-crime": 66,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

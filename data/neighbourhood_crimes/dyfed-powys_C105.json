@@ -1,1 +1,25 @@
-{"neighbourhood_id": "C105", "neighbourhood_name": "Milford - Hubberston", "force_id": "dyfed-powys", "lat": "51.7169", "lng": "-5.05766", "population": 12098, "total_crimes": 94, "categories": {"anti-social-behaviour": 16, "burglary": 3, "criminal-damage-arson": 16, "drugs": 1, "other-theft": 5, "public-order": 8, "shoplifting": 5, "vehicle-crime": 1, "violent-crime": 38, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C105",
+  "neighbourhood_name": "Milford - Hubberston",
+  "force_id": "dyfed-powys",
+  "lat": "51.7169",
+  "lng": "-5.05766",
+  "population": 3110,
+  "total_crimes": 94,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 3,
+    "criminal-damage-arson": 16,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 8,
+    "shoplifting": 5,
+    "vehicle-crime": 1,
+    "violent-crime": 38,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

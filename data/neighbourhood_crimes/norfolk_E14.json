@@ -1,1 +1,21 @@
-{"neighbourhood_id": "E14", "neighbourhood_name": "Hellesdon and Horsford", "force_id": "norfolk", "lat": "52.6909", "lng": "1.25722", "population": 12098, "total_crimes": 14, "categories": {"anti-social-behaviour": 2, "burglary": 1, "drugs": 1, "possession-of-weapons": 1, "shoplifting": 1, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E14",
+  "neighbourhood_name": "Hellesdon and Horsford",
+  "force_id": "norfolk",
+  "lat": "52.6909",
+  "lng": "1.25722",
+  "population": 37880,
+  "total_crimes": 14,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "drugs": 1,
+    "possession-of-weapons": 1,
+    "shoplifting": 1,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

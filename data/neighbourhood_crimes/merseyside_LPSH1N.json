@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPSH1N", "neighbourhood_name": "Newton", "force_id": "merseyside", "lat": "53.4498", "lng": "-2.60816", "population": 12098, "total_crimes": 77, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 8, "drugs": 5, "other-theft": 5, "public-order": 7, "robbery": 1, "shoplifting": 6, "vehicle-crime": 3, "violent-crime": 32, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1N",
+  "neighbourhood_name": "Newton",
+  "force_id": "merseyside",
+  "lat": "53.4498",
+  "lng": "-2.60816",
+  "population": 13725,
+  "total_crimes": 77,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 5,
+    "other-theft": 5,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 6,
+    "vehicle-crime": 3,
+    "violent-crime": 32,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

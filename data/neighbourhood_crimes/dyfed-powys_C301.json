@@ -1,1 +1,25 @@
-{"neighbourhood_id": "C301", "neighbourhood_name": "Pembroke Dock - Market", "force_id": "dyfed-powys", "lat": "51.6933", "lng": "-4.95186", "population": 12098, "total_crimes": 106, "categories": {"anti-social-behaviour": 16, "burglary": 2, "criminal-damage-arson": 12, "drugs": 3, "other-theft": 4, "possession-of-weapons": 2, "public-order": 11, "shoplifting": 11, "violent-crime": 44, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C301",
+  "neighbourhood_name": "Pembroke Dock - Market",
+  "force_id": "dyfed-powys",
+  "lat": "51.6933",
+  "lng": "-4.95186",
+  "population": 1878,
+  "total_crimes": 106,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 2,
+    "criminal-damage-arson": 12,
+    "drugs": 3,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "shoplifting": 11,
+    "violent-crime": 44,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

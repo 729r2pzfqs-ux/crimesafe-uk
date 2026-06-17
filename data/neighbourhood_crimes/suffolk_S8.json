@@ -1,1 +1,29 @@
-{"neighbourhood_id": "S8", "neighbourhood_name": "Alexandra", "force_id": "suffolk", "lat": "52.0569", "lng": "1.16435", "population": 12098, "total_crimes": 495, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 7, "burglary": 8, "criminal-damage-arson": 29, "drugs": 11, "other-theft": 28, "possession-of-weapons": 8, "public-order": 32, "robbery": 4, "shoplifting": 127, "theft-from-the-person": 3, "vehicle-crime": 19, "violent-crime": 180, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S8",
+  "neighbourhood_name": "Alexandra",
+  "force_id": "suffolk",
+  "lat": "52.0569",
+  "lng": "1.16435",
+  "population": 10959,
+  "total_crimes": 495,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 7,
+    "burglary": 8,
+    "criminal-damage-arson": 29,
+    "drugs": 11,
+    "other-theft": 28,
+    "possession-of-weapons": 8,
+    "public-order": 32,
+    "robbery": 4,
+    "shoplifting": 127,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 19,
+    "violent-crime": 180,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 45.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

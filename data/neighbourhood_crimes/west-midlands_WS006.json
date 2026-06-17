@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WS006", "neighbourhood_name": "Brownhills", "force_id": "west-midlands", "lat": "52.6305", "lng": "-1.94988", "population": 12098, "total_crimes": 103, "categories": {"anti-social-behaviour": 6, "burglary": 2, "criminal-damage-arson": 9, "drugs": 1, "other-theft": 6, "possession-of-weapons": 2, "public-order": 6, "robbery": 1, "shoplifting": 28, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 29, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WS006",
+  "neighbourhood_name": "Brownhills",
+  "force_id": "west-midlands",
+  "lat": "52.6305",
+  "lng": "-1.94988",
+  "population": 35428,
+  "total_crimes": 103,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "other-theft": 6,
+    "possession-of-weapons": 2,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 28,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 29,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 23
+}

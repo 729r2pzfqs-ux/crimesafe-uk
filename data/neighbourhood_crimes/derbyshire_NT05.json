@@ -1,1 +1,23 @@
-{"neighbourhood_id": "NT05", "neighbourhood_name": "Brimington", "force_id": "derbyshire", "lat": "53.2546", "lng": "-1.39968", "population": 12098, "total_crimes": 85, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 9, "drugs": 1, "public-order": 10, "shoplifting": 18, "vehicle-crime": 4, "violent-crime": 36, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NT05",
+  "neighbourhood_name": "Brimington",
+  "force_id": "derbyshire",
+  "lat": "53.2546",
+  "lng": "-1.39968",
+  "population": 10177,
+  "total_crimes": 85,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "public-order": 10,
+    "shoplifting": 18,
+    "vehicle-crime": 4,
+    "violent-crime": 36,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

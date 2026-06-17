@@ -1,1 +1,27 @@
-{"neighbourhood_id": "N423", "neighbourhood_name": "Bracknell Northern Parishes", "force_id": "thames-valley", "lat": "51.4169", "lng": "-0.715452", "population": 12098, "total_crimes": 78, "categories": {"anti-social-behaviour": 10, "burglary": 1, "criminal-damage-arson": 5, "drugs": 2, "other-theft": 3, "public-order": 8, "robbery": 1, "shoplifting": 1, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 40, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N423",
+  "neighbourhood_name": "Bracknell Northern Parishes",
+  "force_id": "thames-valley",
+  "lat": "51.4169",
+  "lng": "-0.715452",
+  "population": 21315,
+  "total_crimes": 78,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "other-theft": 3,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 40,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

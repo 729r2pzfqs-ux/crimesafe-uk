@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC14", "neighbourhood_name": "Lincoln City Centre", "force_id": "lincolnshire", "lat": "53.2305", "lng": "-0.54195", "population": 12098, "total_crimes": 688, "categories": {"anti-social-behaviour": 187, "bicycle-theft": 9, "burglary": 8, "criminal-damage-arson": 43, "drugs": 24, "other-theft": 35, "possession-of-weapons": 6, "public-order": 55, "robbery": 7, "shoplifting": 95, "theft-from-the-person": 2, "vehicle-crime": 6, "violent-crime": 205, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC14",
+  "neighbourhood_name": "Lincoln City Centre",
+  "force_id": "lincolnshire",
+  "lat": "53.2305",
+  "lng": "-0.54195",
+  "population": 4346,
+  "total_crimes": 688,
+  "categories": {
+    "anti-social-behaviour": 187,
+    "bicycle-theft": 9,
+    "burglary": 8,
+    "criminal-damage-arson": 43,
+    "drugs": 24,
+    "other-theft": 35,
+    "possession-of-weapons": 6,
+    "public-order": 55,
+    "robbery": 7,
+    "shoplifting": 95,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 6,
+    "violent-crime": 205,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 158.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

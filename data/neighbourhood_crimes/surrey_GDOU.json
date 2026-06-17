@@ -1,1 +1,29 @@
-{"neighbourhood_id": "GDOU", "neighbourhood_name": "Onslow &amp; University", "force_id": "surrey", "lat": "51.2389", "lng": "-0.600116", "population": 12098, "total_crimes": 263, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 22, "drugs": 12, "other-theft": 19, "possession-of-weapons": 1, "public-order": 20, "robbery": 2, "shoplifting": 14, "theft-from-the-person": 2, "vehicle-crime": 6, "violent-crime": 128, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GDOU",
+  "neighbourhood_name": "Onslow &amp; University",
+  "force_id": "surrey",
+  "lat": "51.2389",
+  "lng": "-0.600116",
+  "population": 14809,
+  "total_crimes": 263,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 22,
+    "drugs": 12,
+    "other-theft": 19,
+    "possession-of-weapons": 1,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 14,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 6,
+    "violent-crime": 128,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

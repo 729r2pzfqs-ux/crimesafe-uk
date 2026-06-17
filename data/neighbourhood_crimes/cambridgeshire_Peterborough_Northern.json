@@ -1,1 +1,26 @@
-{"neighbourhood_id": "Peterborough_Northern", "neighbourhood_name": "Peterborough North", "force_id": "cambridgeshire", "lat": "52.6138", "lng": "-0.255202", "population": "0", "total_crimes": 158, "categories": {"anti-social-behaviour": 39, "burglary": 7, "criminal-damage-arson": 7, "drugs": 7, "other-theft": 13, "possession-of-weapons": 1, "public-order": 4, "shoplifting": 6, "vehicle-crime": 10, "violent-crime": 59, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "Peterborough_Northern",
+  "neighbourhood_name": "Peterborough North",
+  "force_id": "cambridgeshire",
+  "lat": "52.6138",
+  "lng": "-0.255202",
+  "population": 78349,
+  "total_crimes": 158,
+  "categories": {
+    "anti-social-behaviour": 39,
+    "burglary": 7,
+    "criminal-damage-arson": 7,
+    "drugs": 7,
+    "other-theft": 13,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "shoplifting": 6,
+    "vehicle-crime": 10,
+    "violent-crime": 59,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 50
+}

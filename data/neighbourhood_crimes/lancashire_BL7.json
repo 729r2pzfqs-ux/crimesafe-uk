@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BL7", "neighbourhood_name": "Talbot", "force_id": "lancashire", "lat": "53.8168", "lng": "-3.04359", "population": 12098, "total_crimes": 1041, "categories": {"anti-social-behaviour": 183, "bicycle-theft": 4, "burglary": 28, "criminal-damage-arson": 57, "drugs": 44, "other-theft": 65, "possession-of-weapons": 13, "public-order": 80, "robbery": 12, "shoplifting": 40, "theft-from-the-person": 9, "vehicle-crime": 28, "violent-crime": 457, "other-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BL7",
+  "neighbourhood_name": "Talbot",
+  "force_id": "lancashire",
+  "lat": "53.8168",
+  "lng": "-3.04359",
+  "population": 6414,
+  "total_crimes": 1041,
+  "categories": {
+    "anti-social-behaviour": 183,
+    "bicycle-theft": 4,
+    "burglary": 28,
+    "criminal-damage-arson": 57,
+    "drugs": 44,
+    "other-theft": 65,
+    "possession-of-weapons": 13,
+    "public-order": 80,
+    "robbery": 12,
+    "shoplifting": 40,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 28,
+    "violent-crime": 457,
+    "other-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 162.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

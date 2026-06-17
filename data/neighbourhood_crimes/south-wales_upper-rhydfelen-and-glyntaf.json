@@ -1,1 +1,25 @@
-{"neighbourhood_id": "upper-rhydfelen-and-glyntaf", "neighbourhood_name": "Upper Rhydfelen and Glyn-taf", "force_id": "south-wales", "lat": "51.595", "lng": "-3.2984", "population": 12098, "total_crimes": 55, "categories": {"anti-social-behaviour": 4, "burglary": 4, "criminal-damage-arson": 5, "drugs": 3, "other-theft": 3, "public-order": 3, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 24, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "upper-rhydfelen-and-glyntaf",
+  "neighbourhood_name": "Upper Rhydfelen and Glyn-taf",
+  "force_id": "south-wales",
+  "lat": "51.595",
+  "lng": "-3.2984",
+  "population": 3042,
+  "total_crimes": 55,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 4,
+    "criminal-damage-arson": 5,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 3,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 24,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

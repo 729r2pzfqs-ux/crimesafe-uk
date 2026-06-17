@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WC1NH10", "neighbourhood_name": "Fishbourne", "force_id": "sussex", "lat": "50.8365", "lng": "-0.812357", "population": 12098, "total_crimes": 31, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 6, "possession-of-weapons": 1, "public-order": 1, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 11, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WC1NH10",
+  "neighbourhood_name": "Fishbourne",
+  "force_id": "sussex",
+  "lat": "50.8365",
+  "lng": "-0.812357",
+  "population": 2557,
+  "total_crimes": 31,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 11,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

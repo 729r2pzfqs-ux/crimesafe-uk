@@ -1,1 +1,25 @@
-{"neighbourhood_id": "E05011234", "neighbourhood_name": "Aldborough", "force_id": "metropolitan", "lat": "51.591", "lng": "0.108253", "population": 16640, "total_crimes": 69, "categories": {"anti-social-behaviour": 13, "burglary": 1, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 9, "public-order": 3, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 31, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011234",
+  "neighbourhood_name": "Aldborough",
+  "force_id": "metropolitan",
+  "lat": "51.591",
+  "lng": "0.108253",
+  "population": 16149,
+  "total_crimes": 69,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 9,
+    "public-order": 3,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 31,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

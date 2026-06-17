@@ -1,1 +1,24 @@
-{"neighbourhood_id": "GNW06", "neighbourhood_name": "Dewi", "force_id": "north-wales", "lat": "53.2117", "lng": "-4.14766", "population": 12098, "total_crimes": 96, "categories": {"anti-social-behaviour": 14, "burglary": 3, "criminal-damage-arson": 8, "drugs": 4, "public-order": 11, "robbery": 1, "shoplifting": 23, "violent-crime": 30, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW06",
+  "neighbourhood_name": "Dewi",
+  "force_id": "north-wales",
+  "lat": "53.2117",
+  "lng": "-4.14766",
+  "population": 1901,
+  "total_crimes": 96,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 23,
+    "violent-crime": 30,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 50.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SHOS", "neighbourhood_name": "Old Dean, St Michaels &amp; Watchetts", "force_id": "surrey", "lat": "51.3405", "lng": "-0.74363", "population": 12098, "total_crimes": 135, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 15, "drugs": 4, "other-theft": 10, "possession-of-weapons": 1, "public-order": 15, "shoplifting": 9, "theft-from-the-person": 3, "vehicle-crime": 5, "violent-crime": 53, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SHOS",
+  "neighbourhood_name": "Old Dean, St Michaels &amp; Watchetts",
+  "force_id": "surrey",
+  "lat": "51.3405",
+  "lng": "-0.74363",
+  "population": 15360,
+  "total_crimes": 135,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 15,
+    "drugs": 4,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "shoplifting": 9,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 5,
+    "violent-crime": 53,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

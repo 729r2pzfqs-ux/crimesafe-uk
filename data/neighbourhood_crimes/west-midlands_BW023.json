@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BW023", "neighbourhood_name": "Ladywood", "force_id": "west-midlands", "lat": "52.4771", "lng": "-1.92322", "population": 12098, "total_crimes": 837, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 6, "burglary": 30, "criminal-damage-arson": 52, "drugs": 26, "other-theft": 66, "possession-of-weapons": 9, "public-order": 50, "robbery": 26, "shoplifting": 59, "theft-from-the-person": 14, "vehicle-crime": 72, "violent-crime": 380, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW023",
+  "neighbourhood_name": "Ladywood",
+  "force_id": "west-midlands",
+  "lat": "52.4771",
+  "lng": "-1.92322",
+  "population": 21150,
+  "total_crimes": 837,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 6,
+    "burglary": 30,
+    "criminal-damage-arson": 52,
+    "drugs": 26,
+    "other-theft": 66,
+    "possession-of-weapons": 9,
+    "public-order": 50,
+    "robbery": 26,
+    "shoplifting": 59,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 72,
+    "violent-crime": 380,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

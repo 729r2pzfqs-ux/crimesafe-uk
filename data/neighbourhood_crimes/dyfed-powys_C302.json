@@ -1,1 +1,25 @@
-{"neighbourhood_id": "C302", "neighbourhood_name": "Pembroke Dock - Pennar", "force_id": "dyfed-powys", "lat": "51.6852", "lng": "-4.95321", "population": 12098, "total_crimes": 65, "categories": {"anti-social-behaviour": 9, "burglary": 2, "criminal-damage-arson": 7, "drugs": 3, "other-theft": 1, "possession-of-weapons": 2, "public-order": 4, "shoplifting": 4, "violent-crime": 32, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C302",
+  "neighbourhood_name": "Pembroke Dock - Pennar",
+  "force_id": "dyfed-powys",
+  "lat": "51.6852",
+  "lng": "-4.95321",
+  "population": 3379,
+  "total_crimes": 65,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 3,
+    "other-theft": 1,
+    "possession-of-weapons": 2,
+    "public-order": 4,
+    "shoplifting": 4,
+    "violent-crime": 32,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

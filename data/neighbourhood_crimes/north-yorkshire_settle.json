@@ -1,1 +1,16 @@
-{"neighbourhood_id": "settle", "neighbourhood_name": "Settle", "force_id": "north-yorkshire", "lat": "54.1032", "lng": "-2.27891", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "settle",
+  "neighbourhood_name": "Settle",
+  "force_id": "north-yorkshire",
+  "lat": "54.1032",
+  "lng": "-2.27891",
+  "population": 7960,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

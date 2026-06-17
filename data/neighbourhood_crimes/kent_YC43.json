@@ -1,1 +1,19 @@
-{"neighbourhood_id": "YC43", "neighbourhood_name": "Halstead, Knockholt and Badgers Mount", "force_id": "kent", "lat": "51.3233", "lng": "0.124579", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 2, "burglary": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC43",
+  "neighbourhood_name": "Halstead, Knockholt and Badgers Mount",
+  "force_id": "kent",
+  "lat": "51.3233",
+  "lng": "0.124579",
+  "population": 3514,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

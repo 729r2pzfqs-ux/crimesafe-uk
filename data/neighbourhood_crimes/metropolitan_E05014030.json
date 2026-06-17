@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014030", "neighbourhood_name": "West Putney", "force_id": "metropolitan", "lat": "51.4549", "lng": "-0.229105", "population": 12098, "total_crimes": 414, "categories": {"anti-social-behaviour": 98, "bicycle-theft": 9, "burglary": 19, "criminal-damage-arson": 22, "drugs": 22, "other-theft": 31, "possession-of-weapons": 7, "public-order": 22, "robbery": 3, "shoplifting": 28, "theft-from-the-person": 9, "vehicle-crime": 30, "violent-crime": 108, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014030",
+  "neighbourhood_name": "West Putney",
+  "force_id": "metropolitan",
+  "lat": "51.4549",
+  "lng": "-0.229105",
+  "population": 15291,
+  "total_crimes": 414,
+  "categories": {
+    "anti-social-behaviour": 98,
+    "bicycle-theft": 9,
+    "burglary": 19,
+    "criminal-damage-arson": 22,
+    "drugs": 22,
+    "other-theft": 31,
+    "possession-of-weapons": 7,
+    "public-order": 22,
+    "robbery": 3,
+    "shoplifting": 28,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 30,
+    "violent-crime": 108,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

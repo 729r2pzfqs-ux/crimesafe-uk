@@ -1,1 +1,14 @@
-{"neighbourhood_id": "22", "neighbourhood_name": "Driffield and Rural", "force_id": "humberside", "lat": "54.0181", "lng": "-0.528373", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "22",
+  "neighbourhood_name": "Driffield and Rural",
+  "force_id": "humberside",
+  "lat": "54.0181",
+  "lng": "-0.528373",
+  "population": 12551,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

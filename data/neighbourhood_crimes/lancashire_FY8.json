@@ -1,1 +1,21 @@
-{"neighbourhood_id": "FY8", "neighbourhood_name": "Freckleton Village", "force_id": "lancashire", "lat": "53.7472", "lng": "-2.86707", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 3, "possession-of-weapons": 3, "vehicle-crime": 1, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FY8",
+  "neighbourhood_name": "Freckleton Village",
+  "force_id": "lancashire",
+  "lat": "53.7472",
+  "lng": "-2.86707",
+  "population": 4180,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 3,
+    "possession-of-weapons": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

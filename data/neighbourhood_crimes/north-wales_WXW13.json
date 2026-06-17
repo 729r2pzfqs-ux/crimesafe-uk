@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WXW13", "neighbourhood_name": "Grosvenor", "force_id": "north-wales", "lat": "53.0526", "lng": "-3.00153", "population": 12098, "total_crimes": 426, "categories": {"anti-social-behaviour": 90, "bicycle-theft": 4, "burglary": 3, "criminal-damage-arson": 26, "drugs": 10, "other-theft": 14, "possession-of-weapons": 5, "public-order": 40, "robbery": 2, "shoplifting": 84, "vehicle-crime": 13, "violent-crime": 131, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW13",
+  "neighbourhood_name": "Grosvenor",
+  "force_id": "north-wales",
+  "lat": "53.0526",
+  "lng": "-3.00153",
+  "population": 2497,
+  "total_crimes": 426,
+  "categories": {
+    "anti-social-behaviour": 90,
+    "bicycle-theft": 4,
+    "burglary": 3,
+    "criminal-damage-arson": 26,
+    "drugs": 10,
+    "other-theft": 14,
+    "possession-of-weapons": 5,
+    "public-order": 40,
+    "robbery": 2,
+    "shoplifting": 84,
+    "vehicle-crime": 13,
+    "violent-crime": 131,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 170.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

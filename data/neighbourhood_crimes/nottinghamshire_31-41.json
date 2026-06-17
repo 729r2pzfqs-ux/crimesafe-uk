@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-41", "neighbourhood_name": "Basford", "force_id": "nottinghamshire", "lat": "52.9837", "lng": "-1.18152", "population": 12098, "total_crimes": 485, "categories": {"anti-social-behaviour": 56, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 48, "drugs": 18, "other-theft": 32, "possession-of-weapons": 11, "public-order": 39, "robbery": 16, "shoplifting": 23, "theft-from-the-person": 1, "vehicle-crime": 22, "violent-crime": 181, "other-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-41",
+  "neighbourhood_name": "Basford",
+  "force_id": "nottinghamshire",
+  "lat": "52.9837",
+  "lng": "-1.18152",
+  "population": 16780,
+  "total_crimes": 485,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 48,
+    "drugs": 18,
+    "other-theft": 32,
+    "possession-of-weapons": 11,
+    "public-order": 39,
+    "robbery": 16,
+    "shoplifting": 23,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 22,
+    "violent-crime": 181,
+    "other-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

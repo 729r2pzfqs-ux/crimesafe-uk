@@ -1,1 +1,23 @@
-{"neighbourhood_id": "VC01", "neighbourhood_name": "Witton and Rudheath", "force_id": "cheshire", "lat": "53.245", "lng": "-2.4853", "population": "0", "total_crimes": 25, "categories": {"anti-social-behaviour": 2, "burglary": 3, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 1, "public-order": 4, "violent-crime": 11, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "VC01",
+  "neighbourhood_name": "Witton and Rudheath",
+  "force_id": "cheshire",
+  "lat": "53.245",
+  "lng": "-2.4853",
+  "population": 9789,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 4,
+    "violent-crime": 11,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

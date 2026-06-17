@@ -1,1 +1,19 @@
-{"neighbourhood_id": "YMW15", "neighbourhood_name": "Amlwch Port", "force_id": "north-wales", "lat": "53.4111", "lng": "-4.33913", "population": 12098, "total_crimes": 23, "categories": {"anti-social-behaviour": 6, "other-theft": 2, "possession-of-weapons": 2, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW15",
+  "neighbourhood_name": "Amlwch Port",
+  "force_id": "north-wales",
+  "lat": "53.4111",
+  "lng": "-4.33913",
+  "population": 2582,
+  "total_crimes": 23,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "other-theft": 2,
+    "possession-of-weapons": 2,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

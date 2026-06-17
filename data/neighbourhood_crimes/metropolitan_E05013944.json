@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013944", "neighbourhood_name": "Surbiton Hill", "force_id": "metropolitan", "lat": "51.3868", "lng": "-0.302166", "population": 12098, "total_crimes": 315, "categories": {"anti-social-behaviour": 75, "bicycle-theft": 3, "burglary": 15, "criminal-damage-arson": 20, "drugs": 9, "other-theft": 22, "possession-of-weapons": 1, "public-order": 16, "robbery": 2, "shoplifting": 35, "theft-from-the-person": 3, "vehicle-crime": 18, "violent-crime": 92, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013944",
+  "neighbourhood_name": "Surbiton Hill",
+  "force_id": "metropolitan",
+  "lat": "51.3868",
+  "lng": "-0.302166",
+  "population": 13025,
+  "total_crimes": 315,
+  "categories": {
+    "anti-social-behaviour": 75,
+    "bicycle-theft": 3,
+    "burglary": 15,
+    "criminal-damage-arson": 20,
+    "drugs": 9,
+    "other-theft": 22,
+    "possession-of-weapons": 1,
+    "public-order": 16,
+    "robbery": 2,
+    "shoplifting": 35,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 18,
+    "violent-crime": 92,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

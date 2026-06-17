@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013637", "neighbourhood_name": "Edgware", "force_id": "metropolitan", "lat": "51.6231", "lng": "-0.276646", "population": 17153, "total_crimes": 259, "categories": {"anti-social-behaviour": 63, "burglary": 19, "criminal-damage-arson": 14, "drugs": 16, "other-theft": 19, "possession-of-weapons": 3, "public-order": 16, "robbery": 7, "shoplifting": 16, "theft-from-the-person": 8, "vehicle-crime": 15, "violent-crime": 60, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013637",
+  "neighbourhood_name": "Edgware",
+  "force_id": "metropolitan",
+  "lat": "51.6231",
+  "lng": "-0.276646",
+  "population": 17618,
+  "total_crimes": 259,
+  "categories": {
+    "anti-social-behaviour": 63,
+    "burglary": 19,
+    "criminal-damage-arson": 14,
+    "drugs": 16,
+    "other-theft": 19,
+    "possession-of-weapons": 3,
+    "public-order": 16,
+    "robbery": 7,
+    "shoplifting": 16,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 15,
+    "violent-crime": 60,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

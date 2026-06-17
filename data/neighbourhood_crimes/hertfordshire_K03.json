@@ -1,1 +1,27 @@
-{"neighbourhood_id": "K03", "neighbourhood_name": "Cheshunt West", "force_id": "hertfordshire", "lat": "51.7094", "lng": "-0.0734894", "population": 12098, "total_crimes": 131, "categories": {"anti-social-behaviour": 36, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 8, "drugs": 4, "other-theft": 3, "possession-of-weapons": 2, "public-order": 3, "shoplifting": 5, "vehicle-crime": 7, "violent-crime": 54, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "K03",
+  "neighbourhood_name": "Cheshunt West",
+  "force_id": "hertfordshire",
+  "lat": "51.7094",
+  "lng": "-0.0734894",
+  "population": 26961,
+  "total_crimes": 131,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "shoplifting": 5,
+    "vehicle-crime": 7,
+    "violent-crime": 54,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

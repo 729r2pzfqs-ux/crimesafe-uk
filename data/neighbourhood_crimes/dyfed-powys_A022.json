@@ -1,1 +1,16 @@
-{"neighbourhood_id": "A022", "neighbourhood_name": "Quarter Bach", "force_id": "dyfed-powys", "lat": "51.8195", "lng": "-3.837", "population": 12098, "total_crimes": 1, "categories": {"criminal-damage-arson": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A022",
+  "neighbourhood_name": "Quarter Bach",
+  "force_id": "dyfed-powys",
+  "lat": "51.8195",
+  "lng": "-3.837",
+  "population": 2854,
+  "total_crimes": 1,
+  "categories": {
+    "criminal-damage-arson": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

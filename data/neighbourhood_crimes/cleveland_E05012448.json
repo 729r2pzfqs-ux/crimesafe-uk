@@ -1,1 +1,25 @@
-{"neighbourhood_id": "E05012448", "neighbourhood_name": "Longbeck", "force_id": "cleveland", "lat": "54.5861", "lng": "-1.03653", "population": "0", "total_crimes": 63, "categories": {"anti-social-behaviour": 24, "burglary": 1, "criminal-damage-arson": 5, "drugs": 5, "other-theft": 2, "possession-of-weapons": 1, "public-order": 4, "shoplifting": 3, "violent-crime": 17, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012448",
+  "neighbourhood_name": "Longbeck",
+  "force_id": "cleveland",
+  "lat": "54.5861",
+  "lng": "-1.03653",
+  "population": 3043,
+  "total_crimes": 63,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 5,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "shoplifting": 3,
+    "violent-crime": 17,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

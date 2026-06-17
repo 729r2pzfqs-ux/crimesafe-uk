@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014027", "neighbourhood_name": "Wandsworth Common", "force_id": "metropolitan", "lat": "51.4453", "lng": "-0.177951", "population": 12098, "total_crimes": 440, "categories": {"anti-social-behaviour": 91, "bicycle-theft": 10, "burglary": 18, "criminal-damage-arson": 20, "drugs": 12, "other-theft": 30, "possession-of-weapons": 2, "public-order": 24, "robbery": 7, "shoplifting": 26, "theft-from-the-person": 9, "vehicle-crime": 35, "violent-crime": 146, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014027",
+  "neighbourhood_name": "Wandsworth Common",
+  "force_id": "metropolitan",
+  "lat": "51.4453",
+  "lng": "-0.177951",
+  "population": 17513,
+  "total_crimes": 440,
+  "categories": {
+    "anti-social-behaviour": 91,
+    "bicycle-theft": 10,
+    "burglary": 18,
+    "criminal-damage-arson": 20,
+    "drugs": 12,
+    "other-theft": 30,
+    "possession-of-weapons": 2,
+    "public-order": 24,
+    "robbery": 7,
+    "shoplifting": 26,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 35,
+    "violent-crime": 146,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

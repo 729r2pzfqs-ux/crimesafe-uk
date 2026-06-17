@@ -1,1 +1,24 @@
-{"neighbourhood_id": "glyncoch", "neighbourhood_name": "Glyn-coch", "force_id": "south-wales", "lat": "51.6197", "lng": "-3.34162", "population": 12098, "total_crimes": 49, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 4, "possession-of-weapons": 2, "public-order": 11, "vehicle-crime": 1, "violent-crime": 20, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "glyncoch",
+  "neighbourhood_name": "Glyn-coch",
+  "force_id": "south-wales",
+  "lat": "51.6197",
+  "lng": "-3.34162",
+  "population": 3021,
+  "total_crimes": 49,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 11,
+    "vehicle-crime": 1,
+    "violent-crime": 20,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

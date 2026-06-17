@@ -1,1 +1,16 @@
-{"neighbourhood_id": "D418", "neighbourhood_name": "Bronllys including Crickadarn and Gwenddwr", "force_id": "dyfed-powys", "lat": "52.0604", "lng": "-3.32023", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D418",
+  "neighbourhood_name": "Bronllys including Crickadarn and Gwenddwr",
+  "force_id": "dyfed-powys",
+  "lat": "52.0604",
+  "lng": "-3.32023",
+  "population": 1319,
+  "total_crimes": 1,
+  "categories": {
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

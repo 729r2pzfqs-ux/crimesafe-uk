@@ -1,1 +1,17 @@
-{"neighbourhood_id": "GNW17", "neighbourhood_name": "Bethel", "force_id": "north-wales", "lat": "53.1692", "lng": "-4.19326", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW17",
+  "neighbourhood_name": "Bethel",
+  "force_id": "north-wales",
+  "lat": "53.1692",
+  "lng": "-4.19326",
+  "population": 1229,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

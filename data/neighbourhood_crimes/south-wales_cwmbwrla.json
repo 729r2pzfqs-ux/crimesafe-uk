@@ -1,1 +1,28 @@
-{"neighbourhood_id": "cwmbwrla", "neighbourhood_name": "Cwmbwrla", "force_id": "south-wales", "lat": "51.6397", "lng": "-3.95506", "population": 12098, "total_crimes": 287, "categories": {"anti-social-behaviour": 31, "burglary": 6, "criminal-damage-arson": 22, "drugs": 9, "other-theft": 15, "possession-of-weapons": 3, "public-order": 25, "robbery": 1, "shoplifting": 25, "theft-from-the-person": 1, "vehicle-crime": 14, "violent-crime": 125, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cwmbwrla",
+  "neighbourhood_name": "Cwmbwrla",
+  "force_id": "south-wales",
+  "lat": "51.6397",
+  "lng": "-3.95506",
+  "population": 7862,
+  "total_crimes": 287,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "burglary": 6,
+    "criminal-damage-arson": 22,
+    "drugs": 9,
+    "other-theft": 15,
+    "possession-of-weapons": 3,
+    "public-order": 25,
+    "robbery": 1,
+    "shoplifting": 25,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 14,
+    "violent-crime": 125,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 36.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

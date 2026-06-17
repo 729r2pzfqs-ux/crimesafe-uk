@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013786N", "neighbourhood_name": "South Richmond", "force_id": "metropolitan", "lat": "51.4568", "lng": "-0.295946", "population": 12098, "total_crimes": 263, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 5, "burglary": 18, "criminal-damage-arson": 12, "drugs": 5, "other-theft": 17, "public-order": 10, "robbery": 1, "shoplifting": 35, "theft-from-the-person": 11, "vehicle-crime": 24, "violent-crime": 58}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013786N",
+  "neighbourhood_name": "South Richmond",
+  "force_id": "metropolitan",
+  "lat": "51.4568",
+  "lng": "-0.295946",
+  "population": 12284,
+  "total_crimes": 263,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 5,
+    "burglary": 18,
+    "criminal-damage-arson": 12,
+    "drugs": 5,
+    "other-theft": 17,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 35,
+    "theft-from-the-person": 11,
+    "vehicle-crime": 24,
+    "violent-crime": 58
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

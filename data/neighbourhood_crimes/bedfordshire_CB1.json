@@ -1,1 +1,25 @@
-{"neighbourhood_id": "CB1", "neighbourhood_name": "Flitwick, Ampthill, Marston and Cranfield", "force_id": "bedfordshire", "lat": "52.0219", "lng": "-0.482151", "population": "0", "total_crimes": 50, "categories": {"anti-social-behaviour": 12, "criminal-damage-arson": 1, "drugs": 2, "other-theft": 3, "possession-of-weapons": 1, "public-order": 1, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 25, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CB1",
+  "neighbourhood_name": "Flitwick, Ampthill, Marston and Cranfield",
+  "force_id": "bedfordshire",
+  "lat": "52.0219",
+  "lng": "-0.482151",
+  "population": 51228,
+  "total_crimes": 50,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 25,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 31
+}

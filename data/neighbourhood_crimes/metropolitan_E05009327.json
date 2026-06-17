@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009327", "neighbourhood_name": "Mile End", "force_id": "metropolitan", "lat": "51.5185", "lng": "-0.0285123", "population": 12098, "total_crimes": 1558, "categories": {"anti-social-behaviour": 312, "bicycle-theft": 22, "burglary": 64, "criminal-damage-arson": 66, "drugs": 65, "other-theft": 96, "possession-of-weapons": 18, "public-order": 88, "robbery": 55, "shoplifting": 115, "theft-from-the-person": 80, "vehicle-crime": 129, "violent-crime": 427, "other-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009327",
+  "neighbourhood_name": "Mile End",
+  "force_id": "metropolitan",
+  "lat": "51.5185",
+  "lng": "-0.0285123",
+  "population": 10566,
+  "total_crimes": 1558,
+  "categories": {
+    "anti-social-behaviour": 312,
+    "bicycle-theft": 22,
+    "burglary": 64,
+    "criminal-damage-arson": 66,
+    "drugs": 65,
+    "other-theft": 96,
+    "possession-of-weapons": 18,
+    "public-order": 88,
+    "robbery": 55,
+    "shoplifting": 115,
+    "theft-from-the-person": 80,
+    "vehicle-crime": 129,
+    "violent-crime": 427,
+    "other-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 147.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

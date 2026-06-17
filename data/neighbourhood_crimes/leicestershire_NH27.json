@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NH27", "neighbourhood_name": "Earl Shilton and Barwell", "force_id": "leicestershire", "lat": "52.5732", "lng": "-1.32801", "population": 12098, "total_crimes": 83, "categories": {"anti-social-behaviour": 14, "criminal-damage-arson": 6, "other-theft": 5, "public-order": 9, "shoplifting": 5, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 35, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH27",
+  "neighbourhood_name": "Earl Shilton and Barwell",
+  "force_id": "leicestershire",
+  "lat": "52.5732",
+  "lng": "-1.32801",
+  "population": 20185,
+  "total_crimes": 83,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "criminal-damage-arson": 6,
+    "other-theft": 5,
+    "public-order": 9,
+    "shoplifting": 5,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 35,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

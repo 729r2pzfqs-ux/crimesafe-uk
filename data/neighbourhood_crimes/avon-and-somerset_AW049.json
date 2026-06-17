@@ -1,1 +1,28 @@
-{"neighbourhood_id": "AW049", "neighbourhood_name": "Halcon (One Team)", "force_id": "avon-and-somerset", "lat": "51.0192", "lng": "-3.07698", "population": "0", "total_crimes": 271, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 14, "drugs": 3, "other-theft": 10, "possession-of-weapons": 3, "public-order": 25, "robbery": 6, "shoplifting": 27, "vehicle-crime": 11, "violent-crime": 126, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW049",
+  "neighbourhood_name": "Halcon (One Team)",
+  "force_id": "avon-and-somerset",
+  "lat": "51.0192",
+  "lng": "-3.07698",
+  "population": 6593,
+  "total_crimes": 271,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 14,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 3,
+    "public-order": 25,
+    "robbery": 6,
+    "shoplifting": 27,
+    "vehicle-crime": 11,
+    "violent-crime": 126,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05014864", "neighbourhood_name": "Eaglescliffe East", "force_id": "cleveland", "lat": "54.5288", "lng": "-1.33625", "population": 4318, "total_crimes": 98, "categories": {"anti-social-behaviour": 16, "burglary": 3, "criminal-damage-arson": 6, "other-theft": 4, "public-order": 6, "robbery": 1, "shoplifting": 31, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 25, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014864",
+  "neighbourhood_name": "Eaglescliffe East",
+  "force_id": "cleveland",
+  "lat": "54.5288",
+  "lng": "-1.33625",
+  "population": 4096,
+  "total_crimes": 98,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 3,
+    "criminal-damage-arson": 6,
+    "other-theft": 4,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 31,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 25,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

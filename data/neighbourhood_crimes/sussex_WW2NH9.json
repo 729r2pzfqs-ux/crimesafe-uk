@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WW2NH9", "neighbourhood_name": "Broadwater", "force_id": "sussex", "lat": "50.8276", "lng": "-0.365242", "population": 12098, "total_crimes": 282, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 26, "drugs": 4, "other-theft": 10, "possession-of-weapons": 4, "public-order": 31, "robbery": 5, "shoplifting": 42, "theft-from-the-person": 2, "vehicle-crime": 4, "violent-crime": 103, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW2NH9",
+  "neighbourhood_name": "Broadwater",
+  "force_id": "sussex",
+  "lat": "50.8276",
+  "lng": "-0.365242",
+  "population": 9375,
+  "total_crimes": 282,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 26,
+    "drugs": 4,
+    "other-theft": 10,
+    "possession-of-weapons": 4,
+    "public-order": 31,
+    "robbery": 5,
+    "shoplifting": 42,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 103,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

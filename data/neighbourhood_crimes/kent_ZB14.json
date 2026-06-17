@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ZB14", "neighbourhood_name": "Westgate-on-Sea", "force_id": "kent", "lat": "51.378", "lng": "1.33229", "population": 12098, "total_crimes": 70, "categories": {"anti-social-behaviour": 11, "criminal-damage-arson": 7, "drugs": 2, "other-theft": 7, "possession-of-weapons": 1, "public-order": 2, "shoplifting": 2, "vehicle-crime": 4, "violent-crime": 33, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB14",
+  "neighbourhood_name": "Westgate-on-Sea",
+  "force_id": "kent",
+  "lat": "51.378",
+  "lng": "1.33229",
+  "population": 7808,
+  "total_crimes": 70,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "criminal-damage-arson": 7,
+    "drugs": 2,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 33,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

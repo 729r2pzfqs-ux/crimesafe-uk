@@ -1,1 +1,29 @@
-{"neighbourhood_id": "PLY.4012", "neighbourhood_name": "Greenbank &amp;amp; University", "force_id": "devon-and-cornwall", "lat": "50.3782", "lng": "-4.13662", "population": 12098, "total_crimes": 957, "categories": {"anti-social-behaviour": 139, "bicycle-theft": 3, "burglary": 16, "criminal-damage-arson": 56, "drugs": 42, "other-theft": 61, "possession-of-weapons": 14, "public-order": 71, "robbery": 5, "shoplifting": 71, "theft-from-the-person": 14, "vehicle-crime": 23, "violent-crime": 424, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4012",
+  "neighbourhood_name": "Greenbank &amp;amp; University",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3782",
+  "lng": "-4.13662",
+  "population": 11206,
+  "total_crimes": 957,
+  "categories": {
+    "anti-social-behaviour": 139,
+    "bicycle-theft": 3,
+    "burglary": 16,
+    "criminal-damage-arson": 56,
+    "drugs": 42,
+    "other-theft": 61,
+    "possession-of-weapons": 14,
+    "public-order": 71,
+    "robbery": 5,
+    "shoplifting": 71,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 23,
+    "violent-crime": 424,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 85.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

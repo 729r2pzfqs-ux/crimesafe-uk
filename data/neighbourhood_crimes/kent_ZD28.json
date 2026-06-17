@@ -1,1 +1,21 @@
-{"neighbourhood_id": "ZD28", "neighbourhood_name": "Sandwich", "force_id": "kent", "lat": "51.2843", "lng": "1.32593", "population": 12098, "total_crimes": 17, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 6, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZD28",
+  "neighbourhood_name": "Sandwich",
+  "force_id": "kent",
+  "lat": "51.2843",
+  "lng": "1.32593",
+  "population": 7223,
+  "total_crimes": 17,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 6,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

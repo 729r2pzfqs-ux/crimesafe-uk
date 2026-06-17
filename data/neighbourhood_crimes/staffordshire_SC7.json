@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SC7", "neighbourhood_name": "Burslem Central", "force_id": "staffordshire", "lat": "53.0443", "lng": "-2.20565", "population": 12098, "total_crimes": 374, "categories": {"anti-social-behaviour": 92, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 18, "drugs": 5, "other-theft": 20, "possession-of-weapons": 1, "public-order": 31, "robbery": 6, "shoplifting": 35, "vehicle-crime": 23, "violent-crime": 117, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC7",
+  "neighbourhood_name": "Burslem Central",
+  "force_id": "staffordshire",
+  "lat": "53.0443",
+  "lng": "-2.20565",
+  "population": 2822,
+  "total_crimes": 374,
+  "categories": {
+    "anti-social-behaviour": 92,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 18,
+    "drugs": 5,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 31,
+    "robbery": 6,
+    "shoplifting": 35,
+    "vehicle-crime": 23,
+    "violent-crime": 117,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 132.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

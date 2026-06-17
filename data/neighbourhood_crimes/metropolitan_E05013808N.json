@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013808N", "neighbourhood_name": "West End", "force_id": "metropolitan", "lat": "51.5139", "lng": "-0.145368", "population": 12098, "total_crimes": 4339, "categories": {"anti-social-behaviour": 472, "bicycle-theft": 44, "burglary": 112, "criminal-damage-arson": 84, "drugs": 141, "other-theft": 848, "possession-of-weapons": 12, "public-order": 177, "robbery": 134, "shoplifting": 560, "theft-from-the-person": 1082, "vehicle-crime": 80, "violent-crime": 565, "other-crime": 28}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013808N",
+  "neighbourhood_name": "West End",
+  "force_id": "metropolitan",
+  "lat": "51.5139",
+  "lng": "-0.145368",
+  "population": 13850,
+  "total_crimes": 4339,
+  "categories": {
+    "anti-social-behaviour": 472,
+    "bicycle-theft": 44,
+    "burglary": 112,
+    "criminal-damage-arson": 84,
+    "drugs": 141,
+    "other-theft": 848,
+    "possession-of-weapons": 12,
+    "public-order": 177,
+    "robbery": 134,
+    "shoplifting": 560,
+    "theft-from-the-person": 1082,
+    "vehicle-crime": 80,
+    "violent-crime": 565,
+    "other-crime": 28
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 313.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013564", "neighbourhood_name": "Belmore", "force_id": "metropolitan", "lat": "51.5236", "lng": "-0.402754", "population": 12098, "total_crimes": 523, "categories": {"anti-social-behaviour": 94, "bicycle-theft": 3, "burglary": 22, "criminal-damage-arson": 28, "drugs": 20, "other-theft": 35, "possession-of-weapons": 1, "public-order": 25, "robbery": 10, "shoplifting": 67, "theft-from-the-person": 17, "vehicle-crime": 51, "violent-crime": 139, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013564",
+  "neighbourhood_name": "Belmore",
+  "force_id": "metropolitan",
+  "lat": "51.5236",
+  "lng": "-0.402754",
+  "population": 16085,
+  "total_crimes": 523,
+  "categories": {
+    "anti-social-behaviour": 94,
+    "bicycle-theft": 3,
+    "burglary": 22,
+    "criminal-damage-arson": 28,
+    "drugs": 20,
+    "other-theft": 35,
+    "possession-of-weapons": 1,
+    "public-order": 25,
+    "robbery": 10,
+    "shoplifting": 67,
+    "theft-from-the-person": 17,
+    "vehicle-crime": 51,
+    "violent-crime": 139,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

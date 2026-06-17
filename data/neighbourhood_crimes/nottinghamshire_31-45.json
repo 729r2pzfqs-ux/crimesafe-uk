@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-45", "neighbourhood_name": "Dunkirk &amp; Lenton", "force_id": "nottinghamshire", "lat": "52.9356", "lng": "-1.18226", "population": 12098, "total_crimes": 208, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 7, "burglary": 11, "criminal-damage-arson": 14, "drugs": 2, "other-theft": 21, "possession-of-weapons": 3, "public-order": 9, "robbery": 3, "shoplifting": 50, "theft-from-the-person": 2, "vehicle-crime": 15, "violent-crime": 50, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-45",
+  "neighbourhood_name": "Dunkirk &amp; Lenton",
+  "force_id": "nottinghamshire",
+  "lat": "52.9356",
+  "lng": "-1.18226",
+  "population": 4748,
+  "total_crimes": 208,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 7,
+    "burglary": 11,
+    "criminal-damage-arson": 14,
+    "drugs": 2,
+    "other-theft": 21,
+    "possession-of-weapons": 3,
+    "public-order": 9,
+    "robbery": 3,
+    "shoplifting": 50,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 15,
+    "violent-crime": 50,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CV005", "neighbourhood_name": "Stoke and Wyken", "force_id": "west-midlands", "lat": "52.4134", "lng": "-1.46046", "population": 12098, "total_crimes": 279, "categories": {"anti-social-behaviour": 5, "bicycle-theft": 4, "burglary": 8, "criminal-damage-arson": 20, "drugs": 8, "other-theft": 23, "possession-of-weapons": 6, "public-order": 19, "robbery": 3, "shoplifting": 20, "theft-from-the-person": 1, "vehicle-crime": 21, "violent-crime": 138, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CV005",
+  "neighbourhood_name": "Stoke and Wyken",
+  "force_id": "west-midlands",
+  "lat": "52.4134",
+  "lng": "-1.46046",
+  "population": 57352,
+  "total_crimes": 279,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "bicycle-theft": 4,
+    "burglary": 8,
+    "criminal-damage-arson": 20,
+    "drugs": 8,
+    "other-theft": 23,
+    "possession-of-weapons": 6,
+    "public-order": 19,
+    "robbery": 3,
+    "shoplifting": 20,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 21,
+    "violent-crime": 138,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 32
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "N451", "neighbourhood_name": "Oxford North", "force_id": "thames-valley", "lat": "51.7768", "lng": "-1.2763", "population": 12098, "total_crimes": 87, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 5, "burglary": 4, "criminal-damage-arson": 4, "drugs": 2, "other-theft": 11, "public-order": 3, "robbery": 1, "shoplifting": 9, "vehicle-crime": 7, "violent-crime": 24, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N451",
+  "neighbourhood_name": "Oxford North",
+  "force_id": "thames-valley",
+  "lat": "51.7768",
+  "lng": "-1.2763",
+  "population": 15839,
+  "total_crimes": 87,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 5,
+    "burglary": 4,
+    "criminal-damage-arson": 4,
+    "drugs": 2,
+    "other-theft": 11,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 9,
+    "vehicle-crime": 7,
+    "violent-crime": 24,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

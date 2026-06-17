@@ -1,1 +1,16 @@
-{"neighbourhood_id": "W9", "neighbourhood_name": "Bury St Edmunds Rural South", "force_id": "suffolk", "lat": "52.2117", "lng": "0.696041", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "W9",
+  "neighbourhood_name": "Bury St Edmunds Rural South",
+  "force_id": "suffolk",
+  "lat": "52.2117",
+  "lng": "0.696041",
+  "population": 7077,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

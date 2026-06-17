@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013590N", "neighbourhood_name": "Harringay", "force_id": "metropolitan", "lat": "51.5777", "lng": "-0.104332", "population": 12098, "total_crimes": 1158, "categories": {"anti-social-behaviour": 295, "bicycle-theft": 7, "burglary": 35, "criminal-damage-arson": 43, "drugs": 43, "other-theft": 86, "possession-of-weapons": 14, "public-order": 59, "robbery": 49, "shoplifting": 77, "theft-from-the-person": 105, "vehicle-crime": 68, "violent-crime": 271, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013590N",
+  "neighbourhood_name": "Harringay",
+  "force_id": "metropolitan",
+  "lat": "51.5777",
+  "lng": "-0.104332",
+  "population": 14299,
+  "total_crimes": 1158,
+  "categories": {
+    "anti-social-behaviour": 295,
+    "bicycle-theft": 7,
+    "burglary": 35,
+    "criminal-damage-arson": 43,
+    "drugs": 43,
+    "other-theft": 86,
+    "possession-of-weapons": 14,
+    "public-order": 59,
+    "robbery": 49,
+    "shoplifting": 77,
+    "theft-from-the-person": 105,
+    "vehicle-crime": 68,
+    "violent-crime": 271,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 81.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

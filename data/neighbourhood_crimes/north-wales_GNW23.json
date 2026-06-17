@@ -1,1 +1,16 @@
-{"neighbourhood_id": "GNW23", "neighbourhood_name": "Bontnewydd", "force_id": "north-wales", "lat": "53.12", "lng": "-4.28083", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW23",
+  "neighbourhood_name": "Bontnewydd",
+  "force_id": "north-wales",
+  "lat": "53.12",
+  "lng": "-4.28083",
+  "population": 1093,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NB5", "neighbourhood_name": "Newcastle West", "force_id": "staffordshire", "lat": "53.021", "lng": "-2.25845", "population": 12098, "total_crimes": 130, "categories": {"anti-social-behaviour": 25, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 9, "possession-of-weapons": 1, "public-order": 10, "robbery": 1, "shoplifting": 1, "vehicle-crime": 4, "violent-crime": 59, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB5",
+  "neighbourhood_name": "Newcastle West",
+  "force_id": "staffordshire",
+  "lat": "53.021",
+  "lng": "-2.25845",
+  "population": 16085,
+  "total_crimes": 130,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 59,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

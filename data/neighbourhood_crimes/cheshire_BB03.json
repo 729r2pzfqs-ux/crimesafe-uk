@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BB03", "neighbourhood_name": "Crewe West", "force_id": "cheshire", "lat": "53.0945", "lng": "-2.46216", "population": "0", "total_crimes": 372, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 8, "burglary": 9, "criminal-damage-arson": 25, "drugs": 41, "other-theft": 18, "possession-of-weapons": 6, "public-order": 25, "robbery": 1, "shoplifting": 29, "vehicle-crime": 8, "violent-crime": 164, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BB03",
+  "neighbourhood_name": "Crewe West",
+  "force_id": "cheshire",
+  "lat": "53.0945",
+  "lng": "-2.46216",
+  "population": 10617,
+  "total_crimes": 372,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 8,
+    "burglary": 9,
+    "criminal-damage-arson": 25,
+    "drugs": 41,
+    "other-theft": 18,
+    "possession-of-weapons": 6,
+    "public-order": 25,
+    "robbery": 1,
+    "shoplifting": 29,
+    "vehicle-crime": 8,
+    "violent-crime": 164,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

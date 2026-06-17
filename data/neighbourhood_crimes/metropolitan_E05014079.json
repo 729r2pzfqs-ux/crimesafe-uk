@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014079", "neighbourhood_name": "Eltham Town and Avery Hill", "force_id": "metropolitan", "lat": "51.4481", "lng": "0.0661777", "population": 16345, "total_crimes": 286, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 3, "burglary": 11, "criminal-damage-arson": 20, "drugs": 9, "other-theft": 9, "possession-of-weapons": 2, "public-order": 16, "robbery": 7, "shoplifting": 66, "theft-from-the-person": 3, "vehicle-crime": 14, "violent-crime": 75, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014079",
+  "neighbourhood_name": "Eltham Town and Avery Hill",
+  "force_id": "metropolitan",
+  "lat": "51.4481",
+  "lng": "0.0661777",
+  "population": 16133,
+  "total_crimes": 286,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 3,
+    "burglary": 11,
+    "criminal-damage-arson": 20,
+    "drugs": 9,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 16,
+    "robbery": 7,
+    "shoplifting": 66,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 14,
+    "violent-crime": 75,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

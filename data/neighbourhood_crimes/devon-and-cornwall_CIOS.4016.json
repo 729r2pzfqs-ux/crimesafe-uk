@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CIOS.4016", "neighbourhood_name": "Carbis Bay", "force_id": "devon-and-cornwall", "lat": "50.1806", "lng": "-5.46684", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 3, "public-order": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4016",
+  "neighbourhood_name": "Carbis Bay",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.1806",
+  "lng": "-5.46684",
+  "population": 4020,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "public-order": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009396", "neighbourhood_name": "Golborne", "force_id": "metropolitan", "lat": "51.5223", "lng": "-0.208042", "population": 12098, "total_crimes": 1509, "categories": {"anti-social-behaviour": 384, "bicycle-theft": 24, "burglary": 71, "criminal-damage-arson": 62, "drugs": 68, "other-theft": 123, "possession-of-weapons": 9, "public-order": 56, "robbery": 28, "shoplifting": 206, "theft-from-the-person": 56, "vehicle-crime": 78, "violent-crime": 323, "other-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009396",
+  "neighbourhood_name": "Golborne",
+  "force_id": "metropolitan",
+  "lat": "51.5223",
+  "lng": "-0.208042",
+  "population": 8248,
+  "total_crimes": 1509,
+  "categories": {
+    "anti-social-behaviour": 384,
+    "bicycle-theft": 24,
+    "burglary": 71,
+    "criminal-damage-arson": 62,
+    "drugs": 68,
+    "other-theft": 123,
+    "possession-of-weapons": 9,
+    "public-order": 56,
+    "robbery": 28,
+    "shoplifting": 206,
+    "theft-from-the-person": 56,
+    "vehicle-crime": 78,
+    "violent-crime": 323,
+    "other-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 183.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

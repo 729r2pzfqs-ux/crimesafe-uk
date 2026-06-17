@@ -1,1 +1,21 @@
-{"neighbourhood_id": "NW4", "neighbourhood_name": "Irchester", "force_id": "northamptonshire", "lat": "52.2484", "lng": "-0.679668", "population": 12098, "total_crimes": 9, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "public-order": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NW4",
+  "neighbourhood_name": "Irchester",
+  "force_id": "northamptonshire",
+  "lat": "52.2484",
+  "lng": "-0.679668",
+  "population": 10959,
+  "total_crimes": 9,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

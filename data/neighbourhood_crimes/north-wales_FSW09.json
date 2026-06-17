@@ -1,1 +1,19 @@
-{"neighbourhood_id": "FSW09", "neighbourhood_name": "Hawarden", "force_id": "north-wales", "lat": "53.1845", "lng": "-3.0198", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 2, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW09",
+  "neighbourhood_name": "Hawarden",
+  "force_id": "north-wales",
+  "lat": "53.1845",
+  "lng": "-3.0198",
+  "population": 2061,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

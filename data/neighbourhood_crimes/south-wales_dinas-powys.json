@@ -1,1 +1,21 @@
-{"neighbourhood_id": "dinas-powys", "neighbourhood_name": "Dinas Powys", "force_id": "south-wales", "lat": "51.443", "lng": "-3.22872", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "drugs": 1, "public-order": 1, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "dinas-powys",
+  "neighbourhood_name": "Dinas Powys",
+  "force_id": "south-wales",
+  "lat": "51.443",
+  "lng": "-3.22872",
+  "population": 8278,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "public-order": 1,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

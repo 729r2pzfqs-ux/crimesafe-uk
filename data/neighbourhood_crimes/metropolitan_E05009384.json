@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009384", "neighbourhood_name": "Stamford Hill West", "force_id": "metropolitan", "lat": "51.5694", "lng": "-0.0823091", "population": 8026, "total_crimes": 1027, "categories": {"anti-social-behaviour": 236, "bicycle-theft": 17, "burglary": 40, "criminal-damage-arson": 54, "drugs": 30, "other-theft": 72, "possession-of-weapons": 15, "public-order": 56, "robbery": 43, "shoplifting": 48, "theft-from-the-person": 103, "vehicle-crime": 57, "violent-crime": 245, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009384",
+  "neighbourhood_name": "Stamford Hill West",
+  "force_id": "metropolitan",
+  "lat": "51.5694",
+  "lng": "-0.0823091",
+  "population": 8370,
+  "total_crimes": 1027,
+  "categories": {
+    "anti-social-behaviour": 236,
+    "bicycle-theft": 17,
+    "burglary": 40,
+    "criminal-damage-arson": 54,
+    "drugs": 30,
+    "other-theft": 72,
+    "possession-of-weapons": 15,
+    "public-order": 56,
+    "robbery": 43,
+    "shoplifting": 48,
+    "theft-from-the-person": 103,
+    "vehicle-crime": 57,
+    "violent-crime": 245,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 122.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

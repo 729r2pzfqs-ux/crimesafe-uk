@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DC20", "neighbourhood_name": "Rodbourne Cheney", "force_id": "wiltshire", "lat": "51.5826", "lng": "-1.79505", "population": 12098, "total_crimes": 250, "categories": {"anti-social-behaviour": 36, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 16, "drugs": 2, "other-theft": 14, "possession-of-weapons": 4, "public-order": 24, "shoplifting": 8, "theft-from-the-person": 3, "vehicle-crime": 10, "violent-crime": 122, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DC20",
+  "neighbourhood_name": "Rodbourne Cheney",
+  "force_id": "wiltshire",
+  "lat": "51.5826",
+  "lng": "-1.79505",
+  "population": 3247,
+  "total_crimes": 250,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 2,
+    "other-theft": 14,
+    "possession-of-weapons": 4,
+    "public-order": 24,
+    "shoplifting": 8,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 122,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

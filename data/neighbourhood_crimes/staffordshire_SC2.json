@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SC2", "neighbourhood_name": "Tunstall", "force_id": "staffordshire", "lat": "53.0593", "lng": "-2.21517", "population": 12098, "total_crimes": 248, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 14, "drugs": 5, "other-theft": 12, "possession-of-weapons": 1, "public-order": 18, "robbery": 3, "shoplifting": 27, "vehicle-crime": 30, "violent-crime": 80, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC2",
+  "neighbourhood_name": "Tunstall",
+  "force_id": "staffordshire",
+  "lat": "53.0593",
+  "lng": "-2.21517",
+  "population": 7840,
+  "total_crimes": 248,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 14,
+    "drugs": 5,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 3,
+    "shoplifting": 27,
+    "vehicle-crime": 30,
+    "violent-crime": 80,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

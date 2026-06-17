@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ZD11", "neighbourhood_name": "Tower Hamlets", "force_id": "kent", "lat": "51.1283", "lng": "1.2984", "population": 12098, "total_crimes": 392, "categories": {"anti-social-behaviour": 82, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 30, "drugs": 25, "other-theft": 15, "possession-of-weapons": 2, "public-order": 19, "robbery": 3, "shoplifting": 39, "theft-from-the-person": 3, "vehicle-crime": 10, "violent-crime": 144, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZD11",
+  "neighbourhood_name": "Tower Hamlets",
+  "force_id": "kent",
+  "lat": "51.1283",
+  "lng": "1.2984",
+  "population": 4407,
+  "total_crimes": 392,
+  "categories": {
+    "anti-social-behaviour": 82,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 30,
+    "drugs": 25,
+    "other-theft": 15,
+    "possession-of-weapons": 2,
+    "public-order": 19,
+    "robbery": 3,
+    "shoplifting": 39,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 144,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 88.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

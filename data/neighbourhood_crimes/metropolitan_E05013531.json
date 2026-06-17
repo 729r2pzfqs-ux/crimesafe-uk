@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013531", "neighbourhood_name": "Northolt Mandeville", "force_id": "metropolitan", "lat": "51.5486", "lng": "-0.374264", "population": 16844, "total_crimes": 346, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 5, "burglary": 13, "criminal-damage-arson": 19, "drugs": 9, "other-theft": 20, "possession-of-weapons": 2, "public-order": 14, "robbery": 13, "shoplifting": 20, "theft-from-the-person": 7, "vehicle-crime": 41, "violent-crime": 107, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013531",
+  "neighbourhood_name": "Northolt Mandeville",
+  "force_id": "metropolitan",
+  "lat": "51.5486",
+  "lng": "-0.374264",
+  "population": 15116,
+  "total_crimes": 346,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 5,
+    "burglary": 13,
+    "criminal-damage-arson": 19,
+    "drugs": 9,
+    "other-theft": 20,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "robbery": 13,
+    "shoplifting": 20,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 41,
+    "violent-crime": 107,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

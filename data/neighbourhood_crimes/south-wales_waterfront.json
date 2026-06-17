@@ -1,1 +1,29 @@
-{"neighbourhood_id": "waterfront", "neighbourhood_name": "Waterfront", "force_id": "south-wales", "lat": "51.6141", "lng": "-3.92388", "population": 12098, "total_crimes": 322, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 5, "burglary": 4, "criminal-damage-arson": 18, "drugs": 15, "other-theft": 10, "possession-of-weapons": 3, "public-order": 25, "robbery": 2, "shoplifting": 93, "theft-from-the-person": 2, "vehicle-crime": 17, "violent-crime": 81, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "waterfront",
+  "neighbourhood_name": "Waterfront",
+  "force_id": "south-wales",
+  "lat": "51.6141",
+  "lng": "-3.92388",
+  "population": 1661,
+  "total_crimes": 322,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 5,
+    "burglary": 4,
+    "criminal-damage-arson": 18,
+    "drugs": 15,
+    "other-theft": 10,
+    "possession-of-weapons": 3,
+    "public-order": 25,
+    "robbery": 2,
+    "shoplifting": 93,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 17,
+    "violent-crime": 81,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 193.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

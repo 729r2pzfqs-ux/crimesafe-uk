@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NA0", "neighbourhood_name": "Leek Town", "force_id": "staffordshire", "lat": "53.0992", "lng": "-2.02953", "population": 12098, "total_crimes": 104, "categories": {"anti-social-behaviour": 11, "bicycle-theft": 3, "burglary": 2, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 5, "public-order": 8, "shoplifting": 8, "vehicle-crime": 5, "violent-crime": 50, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NA0",
+  "neighbourhood_name": "Leek Town",
+  "force_id": "staffordshire",
+  "lat": "53.0992",
+  "lng": "-2.02953",
+  "population": 21298,
+  "total_crimes": 104,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "bicycle-theft": 3,
+    "burglary": 2,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 8,
+    "shoplifting": 8,
+    "vehicle-crime": 5,
+    "violent-crime": 50,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

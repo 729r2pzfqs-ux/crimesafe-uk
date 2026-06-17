@@ -1,1 +1,24 @@
-{"neighbourhood_id": "9WG02", "neighbourhood_name": "Bishops Waltham and Soberton", "force_id": "hampshire", "lat": "50.944", "lng": "-1.17005", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 1, "burglary": 2, "drugs": 1, "other-theft": 1, "possession-of-weapons": 1, "shoplifting": 3, "vehicle-crime": 3, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9WG02",
+  "neighbourhood_name": "Bishops Waltham and Soberton",
+  "force_id": "hampshire",
+  "lat": "50.944",
+  "lng": "-1.17005",
+  "population": 11408,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 2,
+    "drugs": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

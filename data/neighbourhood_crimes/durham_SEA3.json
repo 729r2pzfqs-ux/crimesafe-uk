@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SEA3", "neighbourhood_name": "Seaham (Northlea, Seaton, Deneside)", "force_id": "durham", "lat": "54.842", "lng": "-1.37499", "population": 12098, "total_crimes": 94, "categories": {"anti-social-behaviour": 14, "burglary": 2, "criminal-damage-arson": 14, "drugs": 4, "other-theft": 6, "public-order": 4, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 39, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SEA3",
+  "neighbourhood_name": "Seaham (Northlea, Seaton, Deneside)",
+  "force_id": "durham",
+  "lat": "54.842",
+  "lng": "-1.37499",
+  "population": 6343,
+  "total_crimes": 94,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 2,
+    "criminal-damage-arson": 14,
+    "drugs": 4,
+    "other-theft": 6,
+    "public-order": 4,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 39,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

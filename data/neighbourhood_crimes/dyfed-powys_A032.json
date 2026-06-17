@@ -1,1 +1,16 @@
-{"neighbourhood_id": "A032", "neighbourhood_name": "Llangyndeyrn", "force_id": "dyfed-powys", "lat": "51.779", "lng": "-4.22681", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A032",
+  "neighbourhood_name": "Llangyndeyrn",
+  "force_id": "dyfed-powys",
+  "lat": "51.779",
+  "lng": "-4.22681",
+  "population": 3566,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

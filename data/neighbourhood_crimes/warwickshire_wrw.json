@@ -1,1 +1,19 @@
-{"neighbourhood_id": "wrw", "neighbourhood_name": "Warwick Rural West", "force_id": "warwickshire", "lat": "52.2931", "lng": "-1.63946", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "wrw",
+  "neighbourhood_name": "Warwick Rural West",
+  "force_id": "warwickshire",
+  "lat": "52.2931",
+  "lng": "-1.63946",
+  "population": 15497,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DA01", "neighbourhood_name": "Warrington Town Centre", "force_id": "cheshire", "lat": "53.3894", "lng": "-2.59379", "population": "0", "total_crimes": 511, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 8, "burglary": 20, "criminal-damage-arson": 25, "drugs": 23, "other-theft": 31, "possession-of-weapons": 7, "public-order": 69, "robbery": 7, "shoplifting": 49, "vehicle-crime": 12, "violent-crime": 223, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DA01",
+  "neighbourhood_name": "Warrington Town Centre",
+  "force_id": "cheshire",
+  "lat": "53.3894",
+  "lng": "-2.59379",
+  "population": 1502,
+  "total_crimes": 511,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 8,
+    "burglary": 20,
+    "criminal-damage-arson": 25,
+    "drugs": 23,
+    "other-theft": 31,
+    "possession-of-weapons": 7,
+    "public-order": 69,
+    "robbery": 7,
+    "shoplifting": 49,
+    "vehicle-crime": 12,
+    "violent-crime": 223,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 340.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

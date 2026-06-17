@@ -1,1 +1,22 @@
-{"neighbourhood_id": "YA32", "neighbourhood_name": "Bearsted &amp; Downswood", "force_id": "kent", "lat": "51.2671", "lng": "0.573151", "population": 12098, "total_crimes": 39, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 4, "drugs": 2, "vehicle-crime": 3, "violent-crime": 19, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA32",
+  "neighbourhood_name": "Bearsted &amp; Downswood",
+  "force_id": "kent",
+  "lat": "51.2671",
+  "lng": "0.573151",
+  "population": 9720,
+  "total_crimes": 39,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 19,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

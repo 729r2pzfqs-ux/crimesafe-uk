@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NE07", "neighbourhood_name": "North Wingfield, Pilsley, Stonebroom and Shirland", "force_id": "derbyshire", "lat": "53.1513", "lng": "-1.41158", "population": 12098, "total_crimes": 43, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 2, "possession-of-weapons": 1, "public-order": 1, "vehicle-crime": 3, "violent-crime": 25, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE07",
+  "neighbourhood_name": "North Wingfield, Pilsley, Stonebroom and Shirland",
+  "force_id": "derbyshire",
+  "lat": "53.1513",
+  "lng": "-1.41158",
+  "population": 17477,
+  "total_crimes": 43,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 25,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

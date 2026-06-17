@@ -1,1 +1,27 @@
-{"neighbourhood_id": "G24", "neighbourhood_name": "Magdalen", "force_id": "norfolk", "lat": "52.5762", "lng": "1.71715", "population": 12098, "total_crimes": 229, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 3, "burglary": 4, "criminal-damage-arson": 19, "drugs": 7, "other-theft": 10, "possession-of-weapons": 2, "public-order": 26, "shoplifting": 12, "vehicle-crime": 2, "violent-crime": 111, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "G24",
+  "neighbourhood_name": "Magdalen",
+  "force_id": "norfolk",
+  "lat": "52.5762",
+  "lng": "1.71715",
+  "population": 15135,
+  "total_crimes": 229,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 3,
+    "burglary": 4,
+    "criminal-damage-arson": 19,
+    "drugs": 7,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 26,
+    "shoplifting": 12,
+    "vehicle-crime": 2,
+    "violent-crime": 111,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

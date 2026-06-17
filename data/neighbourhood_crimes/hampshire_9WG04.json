@@ -1,1 +1,16 @@
-{"neighbourhood_id": "9WG04", "neighbourhood_name": "West Meon and Hambledon", "force_id": "hampshire", "lat": "50.9809", "lng": "-1.11787", "population": 12098, "total_crimes": 2, "categories": {"vehicle-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9WG04",
+  "neighbourhood_name": "West Meon and Hambledon",
+  "force_id": "hampshire",
+  "lat": "50.9809",
+  "lng": "-1.11787",
+  "population": 4123,
+  "total_crimes": 2,
+  "categories": {
+    "vehicle-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

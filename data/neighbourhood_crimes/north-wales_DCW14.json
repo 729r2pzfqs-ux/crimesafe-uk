@@ -1,1 +1,24 @@
-{"neighbourhood_id": "DCW14", "neighbourhood_name": "Prestatyn Meliden", "force_id": "north-wales", "lat": "53.3183", "lng": "-3.40876", "population": 12098, "total_crimes": 52, "categories": {"anti-social-behaviour": 13, "burglary": 1, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 2, "public-order": 1, "shoplifting": 5, "violent-crime": 26, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW14",
+  "neighbourhood_name": "Prestatyn Meliden",
+  "force_id": "north-wales",
+  "lat": "53.3183",
+  "lng": "-3.40876",
+  "population": 2010,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 5,
+    "violent-crime": 26,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

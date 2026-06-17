@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014866", "neighbourhood_name": "Fairfield", "force_id": "cleveland", "lat": "54.5676", "lng": "-1.35529", "population": 10233, "total_crimes": 175, "categories": {"anti-social-behaviour": 37, "bicycle-theft": 1, "burglary": 8, "criminal-damage-arson": 8, "drugs": 4, "other-theft": 6, "possession-of-weapons": 2, "public-order": 6, "robbery": 2, "shoplifting": 22, "vehicle-crime": 17, "violent-crime": 60, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014866",
+  "neighbourhood_name": "Fairfield",
+  "force_id": "cleveland",
+  "lat": "54.5676",
+  "lng": "-1.35529",
+  "population": 10330,
+  "total_crimes": 175,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "bicycle-theft": 1,
+    "burglary": 8,
+    "criminal-damage-arson": 8,
+    "drugs": 4,
+    "other-theft": 6,
+    "possession-of-weapons": 2,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 22,
+    "vehicle-crime": 17,
+    "violent-crime": 60,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

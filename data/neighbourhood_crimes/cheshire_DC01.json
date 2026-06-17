@@ -1,1 +1,24 @@
-{"neighbourhood_id": "DC01", "neighbourhood_name": "Birchwood", "force_id": "cheshire", "lat": "53.4238", "lng": "-2.51652", "population": "0", "total_crimes": 61, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 3, "possession-of-weapons": 1, "public-order": 7, "vehicle-crime": 1, "violent-crime": 34}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DC01",
+  "neighbourhood_name": "Birchwood",
+  "force_id": "cheshire",
+  "lat": "53.4238",
+  "lng": "-2.51652",
+  "population": 10254,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "vehicle-crime": 1,
+    "violent-crime": 34
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

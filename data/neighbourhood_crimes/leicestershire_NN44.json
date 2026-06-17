@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NN44", "neighbourhood_name": "Coalville Town", "force_id": "leicestershire", "lat": "52.72", "lng": "-1.37235", "population": 12098, "total_crimes": 186, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 4, "burglary": 7, "criminal-damage-arson": 14, "drugs": 6, "other-theft": 8, "public-order": 15, "robbery": 3, "shoplifting": 35, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 57, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NN44",
+  "neighbourhood_name": "Coalville Town",
+  "force_id": "leicestershire",
+  "lat": "52.72",
+  "lng": "-1.37235",
+  "population": 13056,
+  "total_crimes": 186,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 4,
+    "burglary": 7,
+    "criminal-damage-arson": 14,
+    "drugs": 6,
+    "other-theft": 8,
+    "public-order": 15,
+    "robbery": 3,
+    "shoplifting": 35,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 57,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

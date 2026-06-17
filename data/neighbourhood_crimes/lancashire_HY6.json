@@ -1,1 +1,29 @@
-{"neighbourhood_id": "HY6", "neighbourhood_name": "Central - Hyndburn", "force_id": "lancashire", "lat": "53.7521", "lng": "-2.37514", "population": 12098, "total_crimes": 524, "categories": {"anti-social-behaviour": 83, "bicycle-theft": 2, "burglary": 16, "criminal-damage-arson": 36, "drugs": 10, "other-theft": 20, "possession-of-weapons": 5, "public-order": 32, "robbery": 5, "shoplifting": 50, "theft-from-the-person": 2, "vehicle-crime": 45, "violent-crime": 210, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY6",
+  "neighbourhood_name": "Central - Hyndburn",
+  "force_id": "lancashire",
+  "lat": "53.7521",
+  "lng": "-2.37514",
+  "population": 3903,
+  "total_crimes": 524,
+  "categories": {
+    "anti-social-behaviour": 83,
+    "bicycle-theft": 2,
+    "burglary": 16,
+    "criminal-damage-arson": 36,
+    "drugs": 10,
+    "other-theft": 20,
+    "possession-of-weapons": 5,
+    "public-order": 32,
+    "robbery": 5,
+    "shoplifting": 50,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 45,
+    "violent-crime": 210,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 134.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

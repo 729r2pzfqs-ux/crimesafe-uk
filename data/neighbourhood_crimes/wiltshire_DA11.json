@@ -1,1 +1,22 @@
-{"neighbourhood_id": "DA11", "neighbourhood_name": "Highworth", "force_id": "wiltshire", "lat": "51.6386", "lng": "-1.70014", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 1, "shoplifting": 3, "violent-crime": 13, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DA11",
+  "neighbourhood_name": "Highworth",
+  "force_id": "wiltshire",
+  "lat": "51.6386",
+  "lng": "-1.70014",
+  "population": 8067,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 3,
+    "violent-crime": 13,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

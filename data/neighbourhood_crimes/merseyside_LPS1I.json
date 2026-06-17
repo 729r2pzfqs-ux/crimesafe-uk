@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPS1I", "neighbourhood_name": "Netherton and Orrell", "force_id": "merseyside", "lat": "53.4745", "lng": "-2.97002", "population": 12098, "total_crimes": 292, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 37, "drugs": 9, "other-theft": 15, "public-order": 23, "robbery": 4, "shoplifting": 18, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 125, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS1I",
+  "neighbourhood_name": "Netherton and Orrell",
+  "force_id": "merseyside",
+  "lat": "53.4745",
+  "lng": "-2.97002",
+  "population": 11773,
+  "total_crimes": 292,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 37,
+    "drugs": 9,
+    "other-theft": 15,
+    "public-order": 23,
+    "robbery": 4,
+    "shoplifting": 18,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 125,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

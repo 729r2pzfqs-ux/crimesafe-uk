@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009368", "neighbourhood_name": "Cazenove", "force_id": "metropolitan", "lat": "51.5668", "lng": "-0.0656779", "population": 14289, "total_crimes": 851, "categories": {"anti-social-behaviour": 216, "bicycle-theft": 17, "burglary": 31, "criminal-damage-arson": 43, "drugs": 26, "other-theft": 47, "possession-of-weapons": 10, "public-order": 54, "robbery": 21, "shoplifting": 28, "theft-from-the-person": 81, "vehicle-crime": 38, "violent-crime": 224, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009368",
+  "neighbourhood_name": "Cazenove",
+  "force_id": "metropolitan",
+  "lat": "51.5668",
+  "lng": "-0.0656779",
+  "population": 14412,
+  "total_crimes": 851,
+  "categories": {
+    "anti-social-behaviour": 216,
+    "bicycle-theft": 17,
+    "burglary": 31,
+    "criminal-damage-arson": 43,
+    "drugs": 26,
+    "other-theft": 47,
+    "possession-of-weapons": 10,
+    "public-order": 54,
+    "robbery": 21,
+    "shoplifting": 28,
+    "theft-from-the-person": 81,
+    "vehicle-crime": 38,
+    "violent-crime": 224,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

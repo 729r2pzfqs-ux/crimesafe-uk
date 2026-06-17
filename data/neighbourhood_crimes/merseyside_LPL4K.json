@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL4K", "neighbourhood_name": "Sefton Park", "force_id": "merseyside", "lat": "53.3813", "lng": "-2.94381", "population": 12098, "total_crimes": 440, "categories": {"anti-social-behaviour": 46, "bicycle-theft": 7, "burglary": 15, "criminal-damage-arson": 32, "drugs": 15, "other-theft": 23, "possession-of-weapons": 4, "public-order": 45, "robbery": 1, "shoplifting": 34, "theft-from-the-person": 2, "vehicle-crime": 14, "violent-crime": 196, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4K",
+  "neighbourhood_name": "Sefton Park",
+  "force_id": "merseyside",
+  "lat": "53.3813",
+  "lng": "-2.94381",
+  "population": 6574,
+  "total_crimes": 440,
+  "categories": {
+    "anti-social-behaviour": 46,
+    "bicycle-theft": 7,
+    "burglary": 15,
+    "criminal-damage-arson": 32,
+    "drugs": 15,
+    "other-theft": 23,
+    "possession-of-weapons": 4,
+    "public-order": 45,
+    "robbery": 1,
+    "shoplifting": 34,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 14,
+    "violent-crime": 196,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

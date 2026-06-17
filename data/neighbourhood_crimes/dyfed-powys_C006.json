@@ -1,1 +1,26 @@
-{"neighbourhood_id": "C006", "neighbourhood_name": "Merlin's Bridge", "force_id": "dyfed-powys", "lat": "51.7851", "lng": "-4.97452", "population": 12098, "total_crimes": 78, "categories": {"anti-social-behaviour": 9, "burglary": 2, "criminal-damage-arson": 6, "drugs": 6, "other-theft": 4, "possession-of-weapons": 2, "public-order": 6, "shoplifting": 14, "vehicle-crime": 1, "violent-crime": 27, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C006",
+  "neighbourhood_name": "Merlin's Bridge",
+  "force_id": "dyfed-powys",
+  "lat": "51.7851",
+  "lng": "-4.97452",
+  "population": 2248,
+  "total_crimes": 78,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 6,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 6,
+    "shoplifting": 14,
+    "vehicle-crime": 1,
+    "violent-crime": 27,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

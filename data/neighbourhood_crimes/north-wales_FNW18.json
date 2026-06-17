@@ -1,1 +1,25 @@
-{"neighbourhood_id": "FNW18", "neighbourhood_name": "Connah's Quay Central", "force_id": "north-wales", "lat": "53.2328", "lng": "-3.05278", "population": 12098, "total_crimes": 38, "categories": {"anti-social-behaviour": 7, "burglary": 2, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 5, "public-order": 1, "shoplifting": 3, "theft-from-the-person": 1, "violent-crime": 12, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW18",
+  "neighbourhood_name": "Connah's Quay Central",
+  "force_id": "north-wales",
+  "lat": "53.2328",
+  "lng": "-3.05278",
+  "population": 3447,
+  "total_crimes": 38,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 1,
+    "shoplifting": 3,
+    "theft-from-the-person": 1,
+    "violent-crime": 12,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

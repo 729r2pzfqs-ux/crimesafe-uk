@@ -1,1 +1,28 @@
-{"neighbourhood_id": "66", "neighbourhood_name": "Pickering", "force_id": "humberside", "lat": "53.7297", "lng": "-0.40529", "population": 12098, "total_crimes": 189, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 20, "drugs": 4, "other-theft": 15, "possession-of-weapons": 2, "public-order": 15, "robbery": 1, "shoplifting": 27, "vehicle-crime": 6, "violent-crime": 70, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "66",
+  "neighbourhood_name": "Pickering",
+  "force_id": "humberside",
+  "lat": "53.7297",
+  "lng": "-0.40529",
+  "population": 7771,
+  "total_crimes": 189,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 20,
+    "drugs": 4,
+    "other-theft": 15,
+    "possession-of-weapons": 2,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 27,
+    "vehicle-crime": 6,
+    "violent-crime": 70,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

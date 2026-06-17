@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CIOS.4036", "neighbourhood_name": "Boscawen", "force_id": "devon-and-cornwall", "lat": "50.2574", "lng": "-5.04956", "population": 12098, "total_crimes": 215, "categories": {"anti-social-behaviour": 32, "burglary": 2, "criminal-damage-arson": 20, "drugs": 3, "other-theft": 19, "possession-of-weapons": 2, "public-order": 14, "robbery": 1, "shoplifting": 22, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 89, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4036",
+  "neighbourhood_name": "Boscawen",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.2574",
+  "lng": "-5.04956",
+  "population": 1523,
+  "total_crimes": 215,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "burglary": 2,
+    "criminal-damage-arson": 20,
+    "drugs": 3,
+    "other-theft": 19,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "robbery": 1,
+    "shoplifting": 22,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 89,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 141.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

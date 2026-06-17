@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SC8", "neighbourhood_name": "Moorcroft", "force_id": "staffordshire", "lat": "53.0404", "lng": "-2.18433", "population": 12098, "total_crimes": 466, "categories": {"anti-social-behaviour": 105, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 38, "drugs": 11, "other-theft": 31, "public-order": 37, "robbery": 10, "shoplifting": 34, "theft-from-the-person": 1, "vehicle-crime": 15, "violent-crime": 153, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC8",
+  "neighbourhood_name": "Moorcroft",
+  "force_id": "staffordshire",
+  "lat": "53.0404",
+  "lng": "-2.18433",
+  "population": 5686,
+  "total_crimes": 466,
+  "categories": {
+    "anti-social-behaviour": 105,
+    "bicycle-theft": 3,
+    "burglary": 13,
+    "criminal-damage-arson": 38,
+    "drugs": 11,
+    "other-theft": 31,
+    "public-order": 37,
+    "robbery": 10,
+    "shoplifting": 34,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 15,
+    "violent-crime": 153,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 82.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

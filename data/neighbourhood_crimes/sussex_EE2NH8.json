@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EE2NH8", "neighbourhood_name": "Summerdown and Saffrons", "force_id": "sussex", "lat": "50.7663", "lng": "0.264911", "population": 12098, "total_crimes": 434, "categories": {"anti-social-behaviour": 99, "bicycle-theft": 6, "burglary": 4, "criminal-damage-arson": 23, "drugs": 19, "other-theft": 17, "possession-of-weapons": 5, "public-order": 31, "robbery": 2, "shoplifting": 96, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 116, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE2NH8",
+  "neighbourhood_name": "Summerdown and Saffrons",
+  "force_id": "sussex",
+  "lat": "50.7663",
+  "lng": "0.264911",
+  "population": 1517,
+  "total_crimes": 434,
+  "categories": {
+    "anti-social-behaviour": 99,
+    "bicycle-theft": 6,
+    "burglary": 4,
+    "criminal-damage-arson": 23,
+    "drugs": 19,
+    "other-theft": 17,
+    "possession-of-weapons": 5,
+    "public-order": 31,
+    "robbery": 2,
+    "shoplifting": 96,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 116,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 286.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

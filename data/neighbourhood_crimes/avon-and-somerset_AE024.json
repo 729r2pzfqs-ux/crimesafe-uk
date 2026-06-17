@@ -1,1 +1,27 @@
-{"neighbourhood_id": "AE024", "neighbourhood_name": "Street", "force_id": "avon-and-somerset", "lat": "51.134", "lng": "-2.71437", "population": "0", "total_crimes": 70, "categories": {"anti-social-behaviour": 9, "burglary": 2, "criminal-damage-arson": 4, "drugs": 2, "other-theft": 2, "public-order": 4, "robbery": 2, "shoplifting": 14, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 24, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AE024",
+  "neighbourhood_name": "Street",
+  "force_id": "avon-and-somerset",
+  "lat": "51.134",
+  "lng": "-2.71437",
+  "population": 18375,
+  "total_crimes": 70,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 2,
+    "other-theft": 2,
+    "public-order": 4,
+    "robbery": 2,
+    "shoplifting": 14,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 24,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

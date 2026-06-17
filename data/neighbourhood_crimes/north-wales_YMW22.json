@@ -1,1 +1,17 @@
-{"neighbourhood_id": "YMW22", "neighbourhood_name": "Bodffordd", "force_id": "north-wales", "lat": "53.2653", "lng": "-4.39903", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW22",
+  "neighbourhood_name": "Bodffordd",
+  "force_id": "north-wales",
+  "lat": "53.2653",
+  "lng": "-4.39903",
+  "population": 1606,
+  "total_crimes": 3,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPSH1I", "neighbourhood_name": "Windle", "force_id": "merseyside", "lat": "53.4634", "lng": "-2.76154", "population": 12098, "total_crimes": 202, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 3, "burglary": 7, "criminal-damage-arson": 17, "drugs": 23, "other-theft": 8, "possession-of-weapons": 1, "public-order": 21, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 84, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1I",
+  "neighbourhood_name": "Windle",
+  "force_id": "merseyside",
+  "lat": "53.4634",
+  "lng": "-2.76154",
+  "population": 9123,
+  "total_crimes": 202,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 3,
+    "burglary": 7,
+    "criminal-damage-arson": 17,
+    "drugs": 23,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 21,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 84,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

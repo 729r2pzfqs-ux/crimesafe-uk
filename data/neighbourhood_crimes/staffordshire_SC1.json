@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SC1", "neighbourhood_name": "Great Chell &amp; Packmoor", "force_id": "staffordshire", "lat": "53.0789", "lng": "-2.19156", "population": 12098, "total_crimes": 135, "categories": {"anti-social-behaviour": 34, "burglary": 3, "criminal-damage-arson": 16, "drugs": 1, "other-theft": 11, "possession-of-weapons": 1, "public-order": 10, "robbery": 1, "vehicle-crime": 6, "violent-crime": 48, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC1",
+  "neighbourhood_name": "Great Chell &amp; Packmoor",
+  "force_id": "staffordshire",
+  "lat": "53.0789",
+  "lng": "-2.19156",
+  "population": 8981,
+  "total_crimes": 135,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "burglary": 3,
+    "criminal-damage-arson": 16,
+    "drugs": 1,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 48,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

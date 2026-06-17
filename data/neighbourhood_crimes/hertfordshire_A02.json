@@ -1,1 +1,21 @@
-{"neighbourhood_id": "A02", "neighbourhood_name": "Bishops Stortford and Sawbridgeworth", "force_id": "hertfordshire", "lat": "51.842", "lng": "0.153063", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 9, "burglary": 3, "criminal-damage-arson": 1, "other-theft": 3, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A02",
+  "neighbourhood_name": "Bishops Stortford and Sawbridgeworth",
+  "force_id": "hertfordshire",
+  "lat": "51.842",
+  "lng": "0.153063",
+  "population": 45360,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 3,
+    "criminal-damage-arson": 1,
+    "other-theft": 3,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 27
+}

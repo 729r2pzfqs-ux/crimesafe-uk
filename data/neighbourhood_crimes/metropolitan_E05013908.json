@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013908", "neighbourhood_name": "Custom House", "force_id": "metropolitan", "lat": "51.5144", "lng": "0.0322223", "population": 16123, "total_crimes": 903, "categories": {"anti-social-behaviour": 141, "bicycle-theft": 4, "burglary": 32, "criminal-damage-arson": 47, "drugs": 36, "other-theft": 93, "possession-of-weapons": 14, "public-order": 63, "robbery": 36, "shoplifting": 49, "theft-from-the-person": 36, "vehicle-crime": 88, "violent-crime": 246, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013908",
+  "neighbourhood_name": "Custom House",
+  "force_id": "metropolitan",
+  "lat": "51.5144",
+  "lng": "0.0322223",
+  "population": 14669,
+  "total_crimes": 903,
+  "categories": {
+    "anti-social-behaviour": 141,
+    "bicycle-theft": 4,
+    "burglary": 32,
+    "criminal-damage-arson": 47,
+    "drugs": 36,
+    "other-theft": 93,
+    "possession-of-weapons": 14,
+    "public-order": 63,
+    "robbery": 36,
+    "shoplifting": 49,
+    "theft-from-the-person": 36,
+    "vehicle-crime": 88,
+    "violent-crime": 246,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 61.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

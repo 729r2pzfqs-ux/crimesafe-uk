@@ -1,1 +1,25 @@
-{"neighbourhood_id": "STAN1", "neighbourhood_name": "Stanley (Central Stanley)", "force_id": "durham", "lat": "54.8861", "lng": "-1.68261", "population": 12098, "total_crimes": 39, "categories": {"anti-social-behaviour": 6, "burglary": 4, "criminal-damage-arson": 6, "drugs": 2, "other-theft": 1, "public-order": 1, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 12, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "STAN1",
+  "neighbourhood_name": "Stanley (Central Stanley)",
+  "force_id": "durham",
+  "lat": "54.8861",
+  "lng": "-1.68261",
+  "population": 5438,
+  "total_crimes": 39,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 4,
+    "criminal-damage-arson": 6,
+    "drugs": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 12,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

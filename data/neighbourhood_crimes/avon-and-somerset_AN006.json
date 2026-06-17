@@ -1,1 +1,16 @@
-{"neighbourhood_id": "AN006", "neighbourhood_name": "Backwell and Wrington", "force_id": "avon-and-somerset", "lat": "51.3844", "lng": "-2.74239", "population": "0", "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AN006",
+  "neighbourhood_name": "Backwell and Wrington",
+  "force_id": "avon-and-somerset",
+  "lat": "51.3844",
+  "lng": "-2.74239",
+  "population": 7687,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

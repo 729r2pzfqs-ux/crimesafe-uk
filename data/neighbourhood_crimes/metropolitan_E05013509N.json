@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013509N", "neighbourhood_name": "Roundwood", "force_id": "metropolitan", "lat": "51.545", "lng": "-0.242032", "population": 12098, "total_crimes": 983, "categories": {"anti-social-behaviour": 251, "bicycle-theft": 10, "burglary": 32, "criminal-damage-arson": 54, "drugs": 62, "other-theft": 61, "possession-of-weapons": 10, "public-order": 59, "robbery": 31, "shoplifting": 46, "theft-from-the-person": 36, "vehicle-crime": 59, "violent-crime": 262, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013509N",
+  "neighbourhood_name": "Roundwood",
+  "force_id": "metropolitan",
+  "lat": "51.545",
+  "lng": "-0.242032",
+  "population": 17525,
+  "total_crimes": 983,
+  "categories": {
+    "anti-social-behaviour": 251,
+    "bicycle-theft": 10,
+    "burglary": 32,
+    "criminal-damage-arson": 54,
+    "drugs": 62,
+    "other-theft": 61,
+    "possession-of-weapons": 10,
+    "public-order": 59,
+    "robbery": 31,
+    "shoplifting": 46,
+    "theft-from-the-person": 36,
+    "vehicle-crime": 59,
+    "violent-crime": 262,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

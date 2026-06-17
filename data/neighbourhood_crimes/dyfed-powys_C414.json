@@ -1,1 +1,16 @@
-{"neighbourhood_id": "C414", "neighbourhood_name": "Maenclochog", "force_id": "dyfed-powys", "lat": "51.8968", "lng": "-4.75682", "population": 12098, "total_crimes": 2, "categories": {"other-theft": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C414",
+  "neighbourhood_name": "Maenclochog",
+  "force_id": "dyfed-powys",
+  "lat": "51.8968",
+  "lng": "-4.75682",
+  "population": 3178,
+  "total_crimes": 2,
+  "categories": {
+    "other-theft": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

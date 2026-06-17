@@ -1,1 +1,29 @@
-{"neighbourhood_id": "AC", "neighbourhood_name": "Doncaster East", "force_id": "south-yorkshire", "lat": "53.5902", "lng": "-1.00838", "population": 12098, "total_crimes": 153, "categories": {"anti-social-behaviour": 16, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 18, "drugs": 2, "other-theft": 7, "possession-of-weapons": 1, "public-order": 8, "robbery": 1, "shoplifting": 11, "theft-from-the-person": 1, "vehicle-crime": 13, "violent-crime": 57, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC",
+  "neighbourhood_name": "Doncaster East",
+  "force_id": "south-yorkshire",
+  "lat": "53.5902",
+  "lng": "-1.00838",
+  "population": 70933,
+  "total_crimes": 153,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 18,
+    "drugs": 2,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 11,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 13,
+    "violent-crime": 57,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 46
+}

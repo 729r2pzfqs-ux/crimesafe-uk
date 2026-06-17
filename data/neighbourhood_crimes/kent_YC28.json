@@ -1,1 +1,19 @@
-{"neighbourhood_id": "YC28", "neighbourhood_name": "Seal and Weald", "force_id": "kent", "lat": "51.2592", "lng": "0.213349", "population": 12098, "total_crimes": 9, "categories": {"other-theft": 2, "public-order": 1, "vehicle-crime": 2, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC28",
+  "neighbourhood_name": "Seal and Weald",
+  "force_id": "kent",
+  "lat": "51.2592",
+  "lng": "0.213349",
+  "population": 4298,
+  "total_crimes": 9,
+  "categories": {
+    "other-theft": 2,
+    "public-order": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

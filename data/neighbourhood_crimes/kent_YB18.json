@@ -1,1 +1,18 @@
-{"neighbourhood_id": "YB18", "neighbourhood_name": "Hildenborough", "force_id": "kent", "lat": "51.2218", "lng": "0.241086", "population": 12098, "total_crimes": 9, "categories": {"burglary": 2, "other-theft": 2, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB18",
+  "neighbourhood_name": "Hildenborough",
+  "force_id": "kent",
+  "lat": "51.2218",
+  "lng": "0.241086",
+  "population": 5146,
+  "total_crimes": 9,
+  "categories": {
+    "burglary": 2,
+    "other-theft": 2,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

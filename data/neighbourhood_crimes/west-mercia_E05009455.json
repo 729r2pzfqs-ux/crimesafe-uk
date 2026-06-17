@@ -1,1 +1,16 @@
-{"neighbourhood_id": "E05009455", "neighbourhood_name": "Golden Valley", "force_id": "west-mercia", "lat": "52.0131", "lng": "-2.93763", "population": 3016, "total_crimes": 1, "categories": {"drugs": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009455",
+  "neighbourhood_name": "Golden Valley",
+  "force_id": "west-mercia",
+  "lat": "52.0131",
+  "lng": "-2.93763",
+  "population": 9550,
+  "total_crimes": 1,
+  "categories": {
+    "drugs": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

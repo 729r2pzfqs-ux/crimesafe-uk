@@ -1,1 +1,24 @@
-{"neighbourhood_id": "EN2", "neighbourhood_name": "Higham Ferrers", "force_id": "northamptonshire", "lat": "52.3061", "lng": "-0.576145", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 17, "burglary": 6, "criminal-damage-arson": 10, "drugs": 3, "other-theft": 4, "public-order": 2, "shoplifting": 13, "violent-crime": 12, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EN2",
+  "neighbourhood_name": "Higham Ferrers",
+  "force_id": "northamptonshire",
+  "lat": "52.3061",
+  "lng": "-0.576145",
+  "population": 13871,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 6,
+    "criminal-damage-arson": 10,
+    "drugs": 3,
+    "other-theft": 4,
+    "public-order": 2,
+    "shoplifting": 13,
+    "violent-crime": 12,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

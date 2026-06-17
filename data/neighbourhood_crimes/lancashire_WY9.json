@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WY9", "neighbourhood_name": "Breck", "force_id": "lancashire", "lat": "53.8528", "lng": "-2.98143", "population": 12098, "total_crimes": 83, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 7, "drugs": 5, "other-theft": 3, "public-order": 4, "shoplifting": 14, "vehicle-crime": 7, "violent-crime": 35, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WY9",
+  "neighbourhood_name": "Breck",
+  "force_id": "lancashire",
+  "lat": "53.8528",
+  "lng": "-2.98143",
+  "population": 3882,
+  "total_crimes": 83,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 7,
+    "drugs": 5,
+    "other-theft": 3,
+    "public-order": 4,
+    "shoplifting": 14,
+    "vehicle-crime": 7,
+    "violent-crime": 35,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

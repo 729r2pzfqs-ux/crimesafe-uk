@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013741", "neighbourhood_name": "Hammersmith Broadway", "force_id": "metropolitan", "lat": "51.4901", "lng": "-0.223948", "population": 6177, "total_crimes": 1117, "categories": {"anti-social-behaviour": 264, "bicycle-theft": 16, "burglary": 50, "criminal-damage-arson": 66, "drugs": 39, "other-theft": 90, "possession-of-weapons": 2, "public-order": 72, "robbery": 14, "shoplifting": 118, "theft-from-the-person": 36, "vehicle-crime": 83, "violent-crime": 255, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013741",
+  "neighbourhood_name": "Hammersmith Broadway",
+  "force_id": "metropolitan",
+  "lat": "51.4901",
+  "lng": "-0.223948",
+  "population": 5683,
+  "total_crimes": 1117,
+  "categories": {
+    "anti-social-behaviour": 264,
+    "bicycle-theft": 16,
+    "burglary": 50,
+    "criminal-damage-arson": 66,
+    "drugs": 39,
+    "other-theft": 90,
+    "possession-of-weapons": 2,
+    "public-order": 72,
+    "robbery": 14,
+    "shoplifting": 118,
+    "theft-from-the-person": 36,
+    "vehicle-crime": 83,
+    "violent-crime": 255,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 196.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

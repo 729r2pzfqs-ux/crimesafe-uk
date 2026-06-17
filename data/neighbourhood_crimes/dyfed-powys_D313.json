@@ -1,1 +1,18 @@
-{"neighbourhood_id": "D313", "neighbourhood_name": "Knighton", "force_id": "dyfed-powys", "lat": "52.3376", "lng": "-3.02928", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D313",
+  "neighbourhood_name": "Knighton",
+  "force_id": "dyfed-powys",
+  "lat": "52.3376",
+  "lng": "-3.02928",
+  "population": 2909,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

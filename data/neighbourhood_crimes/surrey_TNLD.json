@@ -1,1 +1,22 @@
-{"neighbourhood_id": "TNLD", "neighbourhood_name": "Lingfield, Dormansland, Crowhurst, Felbridge &amp; Felcourt", "force_id": "surrey", "lat": "51.1822", "lng": "-0.0192702", "population": 12098, "total_crimes": 41, "categories": {"anti-social-behaviour": 21, "criminal-damage-arson": 3, "other-theft": 3, "possession-of-weapons": 1, "public-order": 4, "vehicle-crime": 1, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "TNLD",
+  "neighbourhood_name": "Lingfield, Dormansland, Crowhurst, Felbridge &amp; Felcourt",
+  "force_id": "surrey",
+  "lat": "51.1822",
+  "lng": "-0.0192702",
+  "population": 11007,
+  "total_crimes": 41,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "criminal-damage-arson": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

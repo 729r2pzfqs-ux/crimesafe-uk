@@ -1,1 +1,27 @@
-{"neighbourhood_id": "YA36", "neighbourhood_name": "Park Wood &amp; Mangravet", "force_id": "kent", "lat": "51.243", "lng": "0.550959", "population": 12098, "total_crimes": 183, "categories": {"anti-social-behaviour": 30, "burglary": 3, "criminal-damage-arson": 11, "drugs": 9, "other-theft": 13, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 72, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA36",
+  "neighbourhood_name": "Park Wood &amp; Mangravet",
+  "force_id": "kent",
+  "lat": "51.243",
+  "lng": "0.550959",
+  "population": 3214,
+  "total_crimes": 183,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "burglary": 3,
+    "criminal-damage-arson": 11,
+    "drugs": 9,
+    "other-theft": 13,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 72,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

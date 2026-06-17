@@ -1,1 +1,28 @@
-{"neighbourhood_id": "S10", "neighbourhood_name": "Rushmere and St. Johns", "force_id": "suffolk", "lat": "52.0619", "lng": "1.1856", "population": 12098, "total_crimes": 256, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 23, "drugs": 5, "other-theft": 15, "possession-of-weapons": 4, "public-order": 8, "robbery": 1, "shoplifting": 71, "vehicle-crime": 10, "violent-crime": 93, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S10",
+  "neighbourhood_name": "Rushmere and St. Johns",
+  "force_id": "suffolk",
+  "lat": "52.0619",
+  "lng": "1.1856",
+  "population": 17449,
+  "total_crimes": 256,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 23,
+    "drugs": 5,
+    "other-theft": 15,
+    "possession-of-weapons": 4,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 71,
+    "vehicle-crime": 10,
+    "violent-crime": 93,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "pontprennau-and-old-st-mellons", "neighbourhood_name": "Pontprennau and Old St. Mellons", "force_id": "south-wales", "lat": "51.5381", "lng": "-3.1268", "population": 12098, "total_crimes": 84, "categories": {"anti-social-behaviour": 8, "burglary": 4, "criminal-damage-arson": 3, "drugs": 4, "other-theft": 4, "possession-of-weapons": 1, "public-order": 12, "robbery": 1, "shoplifting": 8, "vehicle-crime": 1, "violent-crime": 33, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "pontprennau-and-old-st-mellons",
+  "neighbourhood_name": "Pontprennau and Old St. Mellons",
+  "force_id": "south-wales",
+  "lat": "51.5381",
+  "lng": "-3.1268",
+  "population": 7581,
+  "total_crimes": 84,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 4,
+    "criminal-damage-arson": 3,
+    "drugs": 4,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 33,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

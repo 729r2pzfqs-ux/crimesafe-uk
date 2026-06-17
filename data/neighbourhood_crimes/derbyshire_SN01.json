@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SN01", "neighbourhood_name": "Mackworth and Morley", "force_id": "derbyshire", "lat": "52.9267", "lng": "-1.51282", "population": 12098, "total_crimes": 349, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 16, "drugs": 7, "other-theft": 24, "possession-of-weapons": 2, "public-order": 36, "robbery": 2, "shoplifting": 52, "theft-from-the-person": 2, "vehicle-crime": 17, "violent-crime": 137, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SN01",
+  "neighbourhood_name": "Mackworth and Morley",
+  "force_id": "derbyshire",
+  "lat": "52.9267",
+  "lng": "-1.51282",
+  "population": 15029,
+  "total_crimes": 349,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 16,
+    "drugs": 7,
+    "other-theft": 24,
+    "possession-of-weapons": 2,
+    "public-order": 36,
+    "robbery": 2,
+    "shoplifting": 52,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 17,
+    "violent-crime": 137,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

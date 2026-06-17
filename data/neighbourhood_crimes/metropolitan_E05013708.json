@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013708", "neighbourhood_name": "Laycock", "force_id": "metropolitan", "lat": "51.5464", "lng": "-0.109181", "population": 12098, "total_crimes": 1622, "categories": {"anti-social-behaviour": 374, "bicycle-theft": 31, "burglary": 49, "criminal-damage-arson": 87, "drugs": 78, "other-theft": 117, "possession-of-weapons": 11, "public-order": 112, "robbery": 54, "shoplifting": 154, "theft-from-the-person": 121, "vehicle-crime": 71, "violent-crime": 349, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013708",
+  "neighbourhood_name": "Laycock",
+  "force_id": "metropolitan",
+  "lat": "51.5464",
+  "lng": "-0.109181",
+  "population": 19634,
+  "total_crimes": 1622,
+  "categories": {
+    "anti-social-behaviour": 374,
+    "bicycle-theft": 31,
+    "burglary": 49,
+    "criminal-damage-arson": 87,
+    "drugs": 78,
+    "other-theft": 117,
+    "possession-of-weapons": 11,
+    "public-order": 112,
+    "robbery": 54,
+    "shoplifting": 154,
+    "theft-from-the-person": 121,
+    "vehicle-crime": 71,
+    "violent-crime": 349,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 82.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

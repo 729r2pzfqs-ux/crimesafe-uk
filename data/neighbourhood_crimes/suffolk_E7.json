@@ -1,1 +1,22 @@
-{"neighbourhood_id": "E7", "neighbourhood_name": "Carlton Colville &amp; Kessingland", "force_id": "suffolk", "lat": "52.4446", "lng": "1.69862", "population": 12098, "total_crimes": 14, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "other-theft": 1, "possession-of-weapons": 1, "robbery": 1, "vehicle-crime": 2, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E7",
+  "neighbourhood_name": "Carlton Colville &amp; Kessingland",
+  "force_id": "suffolk",
+  "lat": "52.4446",
+  "lng": "1.69862",
+  "population": 14122,
+  "total_crimes": 14,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "robbery": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

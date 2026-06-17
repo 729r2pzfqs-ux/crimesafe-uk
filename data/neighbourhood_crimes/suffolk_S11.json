@@ -1,1 +1,28 @@
-{"neighbourhood_id": "S11", "neighbourhood_name": "Gainsborough and Holywells", "force_id": "suffolk", "lat": "52.037", "lng": "1.17236", "population": 12098, "total_crimes": 181, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 20, "drugs": 1, "other-theft": 11, "possession-of-weapons": 2, "public-order": 8, "robbery": 2, "shoplifting": 28, "vehicle-crime": 19, "violent-crime": 59, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S11",
+  "neighbourhood_name": "Gainsborough and Holywells",
+  "force_id": "suffolk",
+  "lat": "52.037",
+  "lng": "1.17236",
+  "population": 16833,
+  "total_crimes": 181,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 20,
+    "drugs": 1,
+    "other-theft": 11,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "robbery": 2,
+    "shoplifting": 28,
+    "vehicle-crime": 19,
+    "violent-crime": 59,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

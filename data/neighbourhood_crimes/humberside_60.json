@@ -1,1 +1,26 @@
-{"neighbourhood_id": "60", "neighbourhood_name": "Kingswood", "force_id": "humberside", "lat": "53.7979", "lng": "-0.347026", "population": 12098, "total_crimes": 216, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 3, "burglary": 8, "criminal-damage-arson": 22, "other-theft": 15, "public-order": 16, "robbery": 3, "shoplifting": 16, "vehicle-crime": 13, "violent-crime": 99, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "60",
+  "neighbourhood_name": "Kingswood",
+  "force_id": "humberside",
+  "lat": "53.7979",
+  "lng": "-0.347026",
+  "population": 2941,
+  "total_crimes": 216,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 3,
+    "burglary": 8,
+    "criminal-damage-arson": 22,
+    "other-theft": 15,
+    "public-order": 16,
+    "robbery": 3,
+    "shoplifting": 16,
+    "vehicle-crime": 13,
+    "violent-crime": 99,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

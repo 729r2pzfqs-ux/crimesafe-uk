@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014021", "neighbourhood_name": "Southfields", "force_id": "metropolitan", "lat": "51.4459", "lng": "-0.198832", "population": 12098, "total_crimes": 480, "categories": {"anti-social-behaviour": 117, "bicycle-theft": 7, "burglary": 22, "criminal-damage-arson": 20, "drugs": 17, "other-theft": 40, "possession-of-weapons": 1, "public-order": 27, "robbery": 14, "shoplifting": 29, "theft-from-the-person": 9, "vehicle-crime": 31, "violent-crime": 133, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014021",
+  "neighbourhood_name": "Southfields",
+  "force_id": "metropolitan",
+  "lat": "51.4459",
+  "lng": "-0.198832",
+  "population": 12263,
+  "total_crimes": 480,
+  "categories": {
+    "anti-social-behaviour": 117,
+    "bicycle-theft": 7,
+    "burglary": 22,
+    "criminal-damage-arson": 20,
+    "drugs": 17,
+    "other-theft": 40,
+    "possession-of-weapons": 1,
+    "public-order": 27,
+    "robbery": 14,
+    "shoplifting": 29,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 31,
+    "violent-crime": 133,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

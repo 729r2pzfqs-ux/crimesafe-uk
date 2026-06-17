@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WW1NH5", "neighbourhood_name": "Selden", "force_id": "sussex", "lat": "50.8168", "lng": "-0.348711", "population": 12098, "total_crimes": 231, "categories": {"anti-social-behaviour": 49, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 11, "possession-of-weapons": 2, "public-order": 22, "robbery": 6, "shoplifting": 32, "theft-from-the-person": 3, "vehicle-crime": 2, "violent-crime": 82, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW1NH5",
+  "neighbourhood_name": "Selden",
+  "force_id": "sussex",
+  "lat": "50.8168",
+  "lng": "-0.348711",
+  "population": 8651,
+  "total_crimes": 231,
+  "categories": {
+    "anti-social-behaviour": 49,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 11,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 6,
+    "shoplifting": 32,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 82,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

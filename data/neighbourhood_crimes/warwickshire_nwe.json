@@ -1,1 +1,20 @@
-{"neighbourhood_id": "nwe", "neighbourhood_name": "North Warwickshire East", "force_id": "warwickshire", "lat": "52.5434", "lng": "-1.55448", "population": 12098, "total_crimes": 23, "categories": {"anti-social-behaviour": 9, "burglary": 4, "public-order": 3, "vehicle-crime": 2, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "nwe",
+  "neighbourhood_name": "North Warwickshire East",
+  "force_id": "warwickshire",
+  "lat": "52.5434",
+  "lng": "-1.55448",
+  "population": 21582,
+  "total_crimes": 23,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 4,
+    "public-order": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

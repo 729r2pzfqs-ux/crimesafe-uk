@@ -1,1 +1,16 @@
-{"neighbourhood_id": "EO12", "neighbourhood_name": "Wootton Bassett Rural", "force_id": "wiltshire", "lat": "51.5238", "lng": "-1.92469", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EO12",
+  "neighbourhood_name": "Wootton Bassett Rural",
+  "force_id": "wiltshire",
+  "lat": "51.5238",
+  "lng": "-1.92469",
+  "population": 8746,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

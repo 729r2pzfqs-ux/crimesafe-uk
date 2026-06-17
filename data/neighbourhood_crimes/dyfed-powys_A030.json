@@ -1,1 +1,21 @@
-{"neighbourhood_id": "A030", "neighbourhood_name": "Pontyberem including Bancffosfelin and Mynddycerrig", "force_id": "dyfed-powys", "lat": "51.7825", "lng": "-4.17514", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A030",
+  "neighbourhood_name": "Pontyberem including Bancffosfelin and Mynddycerrig",
+  "force_id": "dyfed-powys",
+  "lat": "51.7825",
+  "lng": "-4.17514",
+  "population": 2777,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

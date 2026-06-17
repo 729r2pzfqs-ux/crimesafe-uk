@@ -1,1 +1,14 @@
-{"neighbourhood_id": "11TA03", "neighbourhood_name": "Andover South", "force_id": "hampshire", "lat": "51.1375", "lng": "-1.52633", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "11TA03",
+  "neighbourhood_name": "Andover South",
+  "force_id": "hampshire",
+  "lat": "51.1375",
+  "lng": "-1.52633",
+  "population": 9081,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

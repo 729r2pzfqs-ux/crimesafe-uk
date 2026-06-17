@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ES1NH1", "neighbourhood_name": "Malling Estate", "force_id": "sussex", "lat": "50.8824", "lng": "0.00999566", "population": 12098, "total_crimes": 134, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 4, "public-order": 11, "robbery": 1, "shoplifting": 14, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 41, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES1NH1",
+  "neighbourhood_name": "Malling Estate",
+  "force_id": "sussex",
+  "lat": "50.8824",
+  "lng": "0.00999566",
+  "population": 3317,
+  "total_crimes": 134,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 4,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 14,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 41,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

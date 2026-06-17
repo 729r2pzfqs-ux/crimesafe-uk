@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL1P", "neighbourhood_name": "Orrell Park", "force_id": "merseyside", "lat": "53.4635", "lng": "-2.96645", "population": 12098, "total_crimes": 430, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 4, "burglary": 6, "criminal-damage-arson": 34, "drugs": 16, "other-theft": 22, "possession-of-weapons": 3, "public-order": 35, "robbery": 1, "shoplifting": 24, "theft-from-the-person": 2, "vehicle-crime": 18, "violent-crime": 221, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL1P",
+  "neighbourhood_name": "Orrell Park",
+  "force_id": "merseyside",
+  "lat": "53.4635",
+  "lng": "-2.96645",
+  "population": 5960,
+  "total_crimes": 430,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 4,
+    "burglary": 6,
+    "criminal-damage-arson": 34,
+    "drugs": 16,
+    "other-theft": 22,
+    "possession-of-weapons": 3,
+    "public-order": 35,
+    "robbery": 1,
+    "shoplifting": 24,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 18,
+    "violent-crime": 221,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 72.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

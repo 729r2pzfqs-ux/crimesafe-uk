@@ -1,1 +1,16 @@
-{"neighbourhood_id": "C22", "neighbourhood_name": "Cromer", "force_id": "norfolk", "lat": "52.8742", "lng": "1.29302", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C22",
+  "neighbourhood_name": "Cromer",
+  "force_id": "norfolk",
+  "lat": "52.8742",
+  "lng": "1.29302",
+  "population": 14623,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

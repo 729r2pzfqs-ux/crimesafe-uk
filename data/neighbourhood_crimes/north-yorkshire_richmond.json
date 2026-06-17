@@ -1,1 +1,16 @@
-{"neighbourhood_id": "richmond", "neighbourhood_name": "Richmond", "force_id": "north-yorkshire", "lat": "54.452", "lng": "-1.70506", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "richmond",
+  "neighbourhood_name": "Richmond",
+  "force_id": "north-yorkshire",
+  "lat": "54.452",
+  "lng": "-1.70506",
+  "population": 18990,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

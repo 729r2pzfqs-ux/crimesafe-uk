@@ -1,1 +1,29 @@
-{"neighbourhood_id": "GNW10", "neighbourhood_name": "Deiniol", "force_id": "north-wales", "lat": "53.2252", "lng": "-4.12804", "population": 12098, "total_crimes": 192, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 1, "burglary": 8, "criminal-damage-arson": 18, "drugs": 8, "other-theft": 11, "possession-of-weapons": 1, "public-order": 10, "robbery": 2, "shoplifting": 32, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 67, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW10",
+  "neighbourhood_name": "Deiniol",
+  "force_id": "north-wales",
+  "lat": "53.2252",
+  "lng": "-4.12804",
+  "population": 2473,
+  "total_crimes": 192,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 1,
+    "burglary": 8,
+    "criminal-damage-arson": 18,
+    "drugs": 8,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 10,
+    "robbery": 2,
+    "shoplifting": 32,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 67,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

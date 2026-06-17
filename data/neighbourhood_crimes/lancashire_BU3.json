@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BU3", "neighbourhood_name": "Gannow", "force_id": "lancashire", "lat": "53.7938", "lng": "-2.28054", "population": 12098, "total_crimes": 253, "categories": {"anti-social-behaviour": 16, "bicycle-theft": 5, "burglary": 13, "criminal-damage-arson": 23, "drugs": 3, "other-theft": 19, "possession-of-weapons": 6, "public-order": 9, "robbery": 2, "shoplifting": 25, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 111, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU3",
+  "neighbourhood_name": "Gannow",
+  "force_id": "lancashire",
+  "lat": "53.7938",
+  "lng": "-2.28054",
+  "population": 5642,
+  "total_crimes": 253,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "bicycle-theft": 5,
+    "burglary": 13,
+    "criminal-damage-arson": 23,
+    "drugs": 3,
+    "other-theft": 19,
+    "possession-of-weapons": 6,
+    "public-order": 9,
+    "robbery": 2,
+    "shoplifting": 25,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 111,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

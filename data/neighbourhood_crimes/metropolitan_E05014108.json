@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014108", "neighbourhood_name": "Oval", "force_id": "metropolitan", "lat": "51.4817", "lng": "-0.11988", "population": 12098, "total_crimes": 1381, "categories": {"anti-social-behaviour": 278, "bicycle-theft": 35, "burglary": 49, "criminal-damage-arson": 48, "drugs": 41, "other-theft": 115, "possession-of-weapons": 22, "public-order": 50, "robbery": 54, "shoplifting": 114, "theft-from-the-person": 191, "vehicle-crime": 53, "violent-crime": 309, "other-crime": 22}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014108",
+  "neighbourhood_name": "Oval",
+  "force_id": "metropolitan",
+  "lat": "51.4817",
+  "lng": "-0.11988",
+  "population": 8457,
+  "total_crimes": 1381,
+  "categories": {
+    "anti-social-behaviour": 278,
+    "bicycle-theft": 35,
+    "burglary": 49,
+    "criminal-damage-arson": 48,
+    "drugs": 41,
+    "other-theft": 115,
+    "possession-of-weapons": 22,
+    "public-order": 50,
+    "robbery": 54,
+    "shoplifting": 114,
+    "theft-from-the-person": 191,
+    "vehicle-crime": 53,
+    "violent-crime": 309,
+    "other-crime": 22
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 163.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

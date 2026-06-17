@@ -1,1 +1,23 @@
-{"neighbourhood_id": "CIOS.4005", "neighbourhood_name": "Illogan South", "force_id": "devon-and-cornwall", "lat": "50.2167", "lng": "-5.25665", "population": 12098, "total_crimes": 50, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 5, "possession-of-weapons": 2, "public-order": 2, "shoplifting": 11, "violent-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4005",
+  "neighbourhood_name": "Illogan South",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.2167",
+  "lng": "-5.25665",
+  "population": 8800,
+  "total_crimes": 50,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 2,
+    "public-order": 2,
+    "shoplifting": 11,
+    "violent-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

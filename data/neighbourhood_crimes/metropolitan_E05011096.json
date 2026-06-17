@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011096", "neighbourhood_name": "Camberwell Green", "force_id": "metropolitan", "lat": "51.4768", "lng": "-0.0946853", "population": 15045, "total_crimes": 1424, "categories": {"anti-social-behaviour": 277, "bicycle-theft": 25, "burglary": 41, "criminal-damage-arson": 66, "drugs": 85, "other-theft": 102, "possession-of-weapons": 20, "public-order": 75, "robbery": 45, "shoplifting": 152, "theft-from-the-person": 109, "vehicle-crime": 52, "violent-crime": 361, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011096",
+  "neighbourhood_name": "Camberwell Green",
+  "force_id": "metropolitan",
+  "lat": "51.4768",
+  "lng": "-0.0946853",
+  "population": 14961,
+  "total_crimes": 1424,
+  "categories": {
+    "anti-social-behaviour": 277,
+    "bicycle-theft": 25,
+    "burglary": 41,
+    "criminal-damage-arson": 66,
+    "drugs": 85,
+    "other-theft": 102,
+    "possession-of-weapons": 20,
+    "public-order": 75,
+    "robbery": 45,
+    "shoplifting": 152,
+    "theft-from-the-person": 109,
+    "vehicle-crime": 52,
+    "violent-crime": 361,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 95.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WS002", "neighbourhood_name": "Bloxwich", "force_id": "west-midlands", "lat": "52.6238", "lng": "-2.00769", "population": 12098, "total_crimes": 246, "categories": {"anti-social-behaviour": 10, "burglary": 4, "criminal-damage-arson": 20, "drugs": 8, "other-theft": 16, "possession-of-weapons": 4, "public-order": 13, "robbery": 2, "shoplifting": 47, "vehicle-crime": 12, "violent-crime": 106, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WS002",
+  "neighbourhood_name": "Bloxwich",
+  "force_id": "west-midlands",
+  "lat": "52.6238",
+  "lng": "-2.00769",
+  "population": 26266,
+  "total_crimes": 246,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 4,
+    "criminal-damage-arson": 20,
+    "drugs": 8,
+    "other-theft": 16,
+    "possession-of-weapons": 4,
+    "public-order": 13,
+    "robbery": 2,
+    "shoplifting": 47,
+    "vehicle-crime": 12,
+    "violent-crime": 106,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "2", "neighbourhood_name": "West Marsh", "force_id": "humberside", "lat": "53.5752", "lng": "-0.0919629", "population": 12098, "total_crimes": 444, "categories": {"anti-social-behaviour": 39, "bicycle-theft": 8, "burglary": 15, "criminal-damage-arson": 40, "drugs": 18, "other-theft": 19, "possession-of-weapons": 6, "public-order": 37, "robbery": 7, "shoplifting": 86, "theft-from-the-person": 1, "vehicle-crime": 16, "violent-crime": 131, "other-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2",
+  "neighbourhood_name": "West Marsh",
+  "force_id": "humberside",
+  "lat": "53.5752",
+  "lng": "-0.0919629",
+  "population": 7848,
+  "total_crimes": 444,
+  "categories": {
+    "anti-social-behaviour": 39,
+    "bicycle-theft": 8,
+    "burglary": 15,
+    "criminal-damage-arson": 40,
+    "drugs": 18,
+    "other-theft": 19,
+    "possession-of-weapons": 6,
+    "public-order": 37,
+    "robbery": 7,
+    "shoplifting": 86,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 16,
+    "violent-crime": 131,
+    "other-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

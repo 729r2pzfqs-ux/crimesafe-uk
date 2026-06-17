@@ -1,1 +1,25 @@
-{"neighbourhood_id": "31-11", "neighbourhood_name": "Harworth", "force_id": "nottinghamshire", "lat": "53.4202", "lng": "-1.06081", "population": 12098, "total_crimes": 93, "categories": {"anti-social-behaviour": 17, "burglary": 4, "criminal-damage-arson": 9, "other-theft": 2, "possession-of-weapons": 3, "public-order": 9, "shoplifting": 6, "vehicle-crime": 7, "violent-crime": 34, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-11",
+  "neighbourhood_name": "Harworth",
+  "force_id": "nottinghamshire",
+  "lat": "53.4202",
+  "lng": "-1.06081",
+  "population": 8683,
+  "total_crimes": 93,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 4,
+    "criminal-damage-arson": 9,
+    "other-theft": 2,
+    "possession-of-weapons": 3,
+    "public-order": 9,
+    "shoplifting": 6,
+    "vehicle-crime": 7,
+    "violent-crime": 34,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

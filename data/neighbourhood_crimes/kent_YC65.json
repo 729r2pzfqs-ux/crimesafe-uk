@@ -1,1 +1,16 @@
-{"neighbourhood_id": "YC65", "neighbourhood_name": "Leigh and Chiddingstone Causeway", "force_id": "kent", "lat": "51.2026", "lng": "0.192161", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC65",
+  "neighbourhood_name": "Leigh and Chiddingstone Causeway",
+  "force_id": "kent",
+  "lat": "51.2026",
+  "lng": "0.192161",
+  "population": 2407,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

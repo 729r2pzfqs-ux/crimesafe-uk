@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013522", "neighbourhood_name": "East Acton", "force_id": "metropolitan", "lat": "51.5143", "lng": "-0.257477", "population": 13662, "total_crimes": 722, "categories": {"anti-social-behaviour": 210, "bicycle-theft": 4, "burglary": 31, "criminal-damage-arson": 36, "drugs": 20, "other-theft": 48, "possession-of-weapons": 4, "public-order": 48, "robbery": 10, "shoplifting": 48, "theft-from-the-person": 15, "vehicle-crime": 66, "violent-crime": 173, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013522",
+  "neighbourhood_name": "East Acton",
+  "force_id": "metropolitan",
+  "lat": "51.5143",
+  "lng": "-0.257477",
+  "population": 13430,
+  "total_crimes": 722,
+  "categories": {
+    "anti-social-behaviour": 210,
+    "bicycle-theft": 4,
+    "burglary": 31,
+    "criminal-damage-arson": 36,
+    "drugs": 20,
+    "other-theft": 48,
+    "possession-of-weapons": 4,
+    "public-order": 48,
+    "robbery": 10,
+    "shoplifting": 48,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 66,
+    "violent-crime": 173,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 53.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

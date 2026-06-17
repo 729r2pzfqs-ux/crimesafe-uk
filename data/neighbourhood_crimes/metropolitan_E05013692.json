@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013692", "neighbourhood_name": "Southgate", "force_id": "metropolitan", "lat": "51.6344", "lng": "-0.1222", "population": 13665, "total_crimes": 252, "categories": {"anti-social-behaviour": 58, "burglary": 23, "criminal-damage-arson": 10, "drugs": 7, "other-theft": 16, "possession-of-weapons": 1, "public-order": 18, "robbery": 1, "shoplifting": 11, "theft-from-the-person": 5, "vehicle-crime": 48, "violent-crime": 51, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013692",
+  "neighbourhood_name": "Southgate",
+  "force_id": "metropolitan",
+  "lat": "51.6344",
+  "lng": "-0.1222",
+  "population": 10915,
+  "total_crimes": 252,
+  "categories": {
+    "anti-social-behaviour": 58,
+    "burglary": 23,
+    "criminal-damage-arson": 10,
+    "drugs": 7,
+    "other-theft": 16,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 1,
+    "shoplifting": 11,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 48,
+    "violent-crime": 51,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

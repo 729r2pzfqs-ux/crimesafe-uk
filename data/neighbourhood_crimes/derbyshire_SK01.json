@@ -1,1 +1,21 @@
-{"neighbourhood_id": "SK01", "neighbourhood_name": "Ilkeston Rural", "force_id": "derbyshire", "lat": "52.9551", "lng": "-1.40257", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "robbery": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SK01",
+  "neighbourhood_name": "Ilkeston Rural",
+  "force_id": "derbyshire",
+  "lat": "52.9551",
+  "lng": "-1.40257",
+  "population": 10788,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "robbery": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

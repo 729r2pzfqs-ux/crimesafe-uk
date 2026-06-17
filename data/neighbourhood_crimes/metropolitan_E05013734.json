@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013734", "neighbourhood_name": "Avonmore", "force_id": "metropolitan", "lat": "51.4933", "lng": "-0.210601", "population": 7329, "total_crimes": 1407, "categories": {"anti-social-behaviour": 363, "bicycle-theft": 19, "burglary": 74, "criminal-damage-arson": 79, "drugs": 48, "other-theft": 134, "possession-of-weapons": 3, "public-order": 99, "robbery": 20, "shoplifting": 82, "theft-from-the-person": 57, "vehicle-crime": 89, "violent-crime": 326, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013734",
+  "neighbourhood_name": "Avonmore",
+  "force_id": "metropolitan",
+  "lat": "51.4933",
+  "lng": "-0.210601",
+  "population": 7492,
+  "total_crimes": 1407,
+  "categories": {
+    "anti-social-behaviour": 363,
+    "bicycle-theft": 19,
+    "burglary": 74,
+    "criminal-damage-arson": 79,
+    "drugs": 48,
+    "other-theft": 134,
+    "possession-of-weapons": 3,
+    "public-order": 99,
+    "robbery": 20,
+    "shoplifting": 82,
+    "theft-from-the-person": 57,
+    "vehicle-crime": 89,
+    "violent-crime": 326,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 187.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

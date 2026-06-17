@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPSH1E", "neighbourhood_name": "Rainhill", "force_id": "merseyside", "lat": "53.4133", "lng": "-2.75765", "population": 12098, "total_crimes": 67, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 3, "possession-of-weapons": 4, "public-order": 11, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 25, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1E",
+  "neighbourhood_name": "Rainhill",
+  "force_id": "merseyside",
+  "lat": "53.4133",
+  "lng": "-2.75765",
+  "population": 10894,
+  "total_crimes": 67,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 4,
+    "public-order": 11,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 25,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

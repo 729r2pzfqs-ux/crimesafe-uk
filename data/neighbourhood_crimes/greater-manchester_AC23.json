@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AC23", "neighbourhood_name": "Ancoats", "force_id": "greater-manchester", "lat": "53.4862", "lng": "-2.22898", "population": 12098, "total_crimes": 5, "categories": {"other-theft": 2, "theft-from-the-person": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC23",
+  "neighbourhood_name": "Ancoats",
+  "force_id": "greater-manchester",
+  "lat": "53.4862",
+  "lng": "-2.22898",
+  "population": 5823,
+  "total_crimes": 5,
+  "categories": {
+    "other-theft": 2,
+    "theft-from-the-person": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

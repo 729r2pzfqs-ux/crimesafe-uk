@@ -1,1 +1,14 @@
-{"neighbourhood_id": "YMW16", "neighbourhood_name": "Llaneilian", "force_id": "north-wales", "lat": "53.37", "lng": "-4.337", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW16",
+  "neighbourhood_name": "Llaneilian",
+  "force_id": "north-wales",
+  "lat": "53.37",
+  "lng": "-4.337",
+  "population": 2250,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

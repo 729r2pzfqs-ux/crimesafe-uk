@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WW2NH11", "neighbourhood_name": "Durrington", "force_id": "sussex", "lat": "50.8342", "lng": "-0.413242", "population": 12098, "total_crimes": 190, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 1, "criminal-damage-arson": 26, "drugs": 9, "other-theft": 15, "possession-of-weapons": 1, "public-order": 14, "robbery": 1, "shoplifting": 12, "vehicle-crime": 3, "violent-crime": 66, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW2NH11",
+  "neighbourhood_name": "Durrington",
+  "force_id": "sussex",
+  "lat": "50.8342",
+  "lng": "-0.413242",
+  "population": 5833,
+  "total_crimes": 190,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 26,
+    "drugs": 9,
+    "other-theft": 15,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "robbery": 1,
+    "shoplifting": 12,
+    "vehicle-crime": 3,
+    "violent-crime": 66,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "31-47", "neighbourhood_name": "Wollaton West", "force_id": "nottinghamshire", "lat": "52.9497", "lng": "-1.2186", "population": 12098, "total_crimes": 104, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 8, "drugs": 3, "other-theft": 10, "possession-of-weapons": 4, "public-order": 6, "shoplifting": 13, "vehicle-crime": 7, "violent-crime": 34, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-47",
+  "neighbourhood_name": "Wollaton West",
+  "force_id": "nottinghamshire",
+  "lat": "52.9497",
+  "lng": "-1.2186",
+  "population": 15229,
+  "total_crimes": 104,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 4,
+    "public-order": 6,
+    "shoplifting": 13,
+    "vehicle-crime": 7,
+    "violent-crime": 34,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "DD02", "neighbourhood_name": "Great Sankey North", "force_id": "cheshire", "lat": "53.3953", "lng": "-2.66073", "population": "0", "total_crimes": 62, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 4, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 3, "public-order": 8, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DD02",
+  "neighbourhood_name": "Great Sankey North",
+  "force_id": "cheshire",
+  "lat": "53.3953",
+  "lng": "-2.66073",
+  "population": 6004,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 4,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 8,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

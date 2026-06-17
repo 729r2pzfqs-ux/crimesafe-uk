@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009388", "neighbourhood_name": "Abingdon", "force_id": "metropolitan", "lat": "51.4965", "lng": "-0.19715", "population": 12098, "total_crimes": 1089, "categories": {"anti-social-behaviour": 267, "bicycle-theft": 11, "burglary": 71, "criminal-damage-arson": 59, "drugs": 31, "other-theft": 154, "possession-of-weapons": 2, "public-order": 46, "robbery": 15, "shoplifting": 55, "theft-from-the-person": 51, "vehicle-crime": 83, "violent-crime": 235, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009388",
+  "neighbourhood_name": "Abingdon",
+  "force_id": "metropolitan",
+  "lat": "51.4965",
+  "lng": "-0.19715",
+  "population": 7920,
+  "total_crimes": 1089,
+  "categories": {
+    "anti-social-behaviour": 267,
+    "bicycle-theft": 11,
+    "burglary": 71,
+    "criminal-damage-arson": 59,
+    "drugs": 31,
+    "other-theft": 154,
+    "possession-of-weapons": 2,
+    "public-order": 46,
+    "robbery": 15,
+    "shoplifting": 55,
+    "theft-from-the-person": 51,
+    "vehicle-crime": 83,
+    "violent-crime": 235,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 137.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

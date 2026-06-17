@@ -1,1 +1,18 @@
-{"neighbourhood_id": "DEV.4049", "neighbourhood_name": "Teignmouth Rural", "force_id": "devon-and-cornwall", "lat": "50.552", "lng": "-3.54703", "population": 12098, "total_crimes": 6, "categories": {"burglary": 1, "public-order": 2, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4049",
+  "neighbourhood_name": "Teignmouth Rural",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.552",
+  "lng": "-3.54703",
+  "population": 5226,
+  "total_crimes": 6,
+  "categories": {
+    "burglary": 1,
+    "public-order": 2,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

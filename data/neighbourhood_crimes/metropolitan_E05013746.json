@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013746", "neighbourhood_name": "Ravenscourt", "force_id": "metropolitan", "lat": "51.4942", "lng": "-0.239777", "population": 7926, "total_crimes": 1091, "categories": {"anti-social-behaviour": 246, "bicycle-theft": 13, "burglary": 36, "criminal-damage-arson": 37, "drugs": 34, "other-theft": 87, "possession-of-weapons": 2, "public-order": 68, "robbery": 15, "shoplifting": 167, "theft-from-the-person": 40, "vehicle-crime": 112, "violent-crime": 221, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013746",
+  "neighbourhood_name": "Ravenscourt",
+  "force_id": "metropolitan",
+  "lat": "51.4942",
+  "lng": "-0.239777",
+  "population": 7704,
+  "total_crimes": 1091,
+  "categories": {
+    "anti-social-behaviour": 246,
+    "bicycle-theft": 13,
+    "burglary": 36,
+    "criminal-damage-arson": 37,
+    "drugs": 34,
+    "other-theft": 87,
+    "possession-of-weapons": 2,
+    "public-order": 68,
+    "robbery": 15,
+    "shoplifting": 167,
+    "theft-from-the-person": 40,
+    "vehicle-crime": 112,
+    "violent-crime": 221,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 141.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

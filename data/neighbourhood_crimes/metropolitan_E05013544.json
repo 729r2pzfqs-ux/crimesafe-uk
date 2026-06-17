@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013544", "neighbourhood_name": "Centenary", "force_id": "metropolitan", "lat": "51.6001", "lng": "-0.299346", "population": 13547, "total_crimes": 282, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 1, "burglary": 22, "criminal-damage-arson": 18, "drugs": 9, "other-theft": 14, "public-order": 12, "robbery": 8, "shoplifting": 11, "theft-from-the-person": 13, "vehicle-crime": 20, "violent-crime": 93, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013544",
+  "neighbourhood_name": "Centenary",
+  "force_id": "metropolitan",
+  "lat": "51.6001",
+  "lng": "-0.299346",
+  "population": 11651,
+  "total_crimes": 282,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 1,
+    "burglary": 22,
+    "criminal-damage-arson": 18,
+    "drugs": 9,
+    "other-theft": 14,
+    "public-order": 12,
+    "robbery": 8,
+    "shoplifting": 11,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 20,
+    "violent-crime": 93,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

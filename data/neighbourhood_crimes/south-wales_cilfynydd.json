@@ -1,1 +1,23 @@
-{"neighbourhood_id": "cilfynydd", "neighbourhood_name": "Cilfynydd", "force_id": "south-wales", "lat": "51.6227", "lng": "-3.31531", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 2, "possession-of-weapons": 1, "public-order": 4, "violent-crime": 14, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cilfynydd",
+  "neighbourhood_name": "Cilfynydd",
+  "force_id": "south-wales",
+  "lat": "51.6227",
+  "lng": "-3.31531",
+  "population": 2878,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "violent-crime": 14,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

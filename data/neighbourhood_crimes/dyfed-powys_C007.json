@@ -1,1 +1,16 @@
-{"neighbourhood_id": "C007", "neighbourhood_name": "Camrose", "force_id": "dyfed-powys", "lat": "51.8355", "lng": "-5.04845", "population": 12098, "total_crimes": 7, "categories": {"violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C007",
+  "neighbourhood_name": "Camrose",
+  "force_id": "dyfed-powys",
+  "lat": "51.8355",
+  "lng": "-5.04845",
+  "population": 2795,
+  "total_crimes": 7,
+  "categories": {
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

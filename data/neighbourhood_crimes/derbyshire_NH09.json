@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NH09", "neighbourhood_name": "Buxton Town", "force_id": "derbyshire", "lat": "53.2576", "lng": "-1.89828", "population": 12098, "total_crimes": 153, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 20, "drugs": 2, "other-theft": 6, "public-order": 13, "robbery": 1, "shoplifting": 13, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 57, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH09",
+  "neighbourhood_name": "Buxton Town",
+  "force_id": "derbyshire",
+  "lat": "53.2576",
+  "lng": "-1.89828",
+  "population": 13556,
+  "total_crimes": 153,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 20,
+    "drugs": 2,
+    "other-theft": 6,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 13,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 57,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

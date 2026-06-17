@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA38", "neighbourhood_name": "Watling", "force_id": "kent", "lat": "51.373", "lng": "0.565613", "population": 12098, "total_crimes": 348, "categories": {"anti-social-behaviour": 68, "bicycle-theft": 5, "burglary": 10, "criminal-damage-arson": 22, "drugs": 10, "other-theft": 30, "possession-of-weapons": 3, "public-order": 17, "robbery": 4, "shoplifting": 33, "theft-from-the-person": 3, "vehicle-crime": 18, "violent-crime": 114, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA38",
+  "neighbourhood_name": "Watling",
+  "force_id": "kent",
+  "lat": "51.373",
+  "lng": "0.565613",
+  "population": 15796,
+  "total_crimes": 348,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "bicycle-theft": 5,
+    "burglary": 10,
+    "criminal-damage-arson": 22,
+    "drugs": 10,
+    "other-theft": 30,
+    "possession-of-weapons": 3,
+    "public-order": 17,
+    "robbery": 4,
+    "shoplifting": 33,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 18,
+    "violent-crime": 114,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

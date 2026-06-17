@@ -1,1 +1,27 @@
-{"neighbourhood_id": "EPWE", "neighbourhood_name": "Epsom &amp; Ewell West", "force_id": "surrey", "lat": "51.3519", "lng": "-0.277869", "population": 12098, "total_crimes": 156, "categories": {"anti-social-behaviour": 28, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 14, "drugs": 5, "other-theft": 9, "possession-of-weapons": 1, "public-order": 15, "robbery": 3, "shoplifting": 5, "vehicle-crime": 10, "violent-crime": 61}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EPWE",
+  "neighbourhood_name": "Epsom &amp; Ewell West",
+  "force_id": "surrey",
+  "lat": "51.3519",
+  "lng": "-0.277869",
+  "population": 8164,
+  "total_crimes": 156,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 14,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 3,
+    "shoplifting": 5,
+    "vehicle-crime": 10,
+    "violent-crime": 61
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

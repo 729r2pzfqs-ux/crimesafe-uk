@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014007", "neighbourhood_name": "St Paul's Cray", "force_id": "metropolitan", "lat": "51.4037", "lng": "0.125443", "population": 12098, "total_crimes": 214, "categories": {"anti-social-behaviour": 26, "burglary": 8, "criminal-damage-arson": 18, "drugs": 20, "other-theft": 14, "possession-of-weapons": 3, "public-order": 7, "robbery": 4, "shoplifting": 28, "theft-from-the-person": 3, "vehicle-crime": 24, "violent-crime": 57, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014007",
+  "neighbourhood_name": "St Paul's Cray",
+  "force_id": "metropolitan",
+  "lat": "51.4037",
+  "lng": "0.125443",
+  "population": 18927,
+  "total_crimes": 214,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 8,
+    "criminal-damage-arson": 18,
+    "drugs": 20,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 7,
+    "robbery": 4,
+    "shoplifting": 28,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 24,
+    "violent-crime": 57,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

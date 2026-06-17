@@ -1,1 +1,16 @@
-{"neighbourhood_id": "FNW04", "neighbourhood_name": "Whitford", "force_id": "north-wales", "lat": "53.289", "lng": "-3.29867", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW04",
+  "neighbourhood_name": "Whitford",
+  "force_id": "north-wales",
+  "lat": "53.289",
+  "lng": "-3.29867",
+  "population": 2243,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

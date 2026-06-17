@@ -1,1 +1,23 @@
-{"neighbourhood_id": "treharris", "neighbourhood_name": "Treharris", "force_id": "south-wales", "lat": "51.6664", "lng": "-3.3198", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 3, "other-theft": 3, "possession-of-weapons": 1, "public-order": 3, "vehicle-crime": 1, "violent-crime": 12, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "treharris",
+  "neighbourhood_name": "Treharris",
+  "force_id": "south-wales",
+  "lat": "51.6664",
+  "lng": "-3.3198",
+  "population": 6410,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 12,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

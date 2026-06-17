@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CS224", "neighbourhood_name": "Somer Valley", "force_id": "avon-and-somerset", "lat": "51.2893", "lng": "-2.46187", "population": "0", "total_crimes": 118, "categories": {"anti-social-behaviour": 20, "burglary": 1, "criminal-damage-arson": 8, "drugs": 2, "other-theft": 2, "public-order": 7, "robbery": 1, "shoplifting": 5, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 65, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CS224",
+  "neighbourhood_name": "Somer Valley",
+  "force_id": "avon-and-somerset",
+  "lat": "51.2893",
+  "lng": "-2.46187",
+  "population": 24903,
+  "total_crimes": 118,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 2,
+    "other-theft": 2,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 5,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 65,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

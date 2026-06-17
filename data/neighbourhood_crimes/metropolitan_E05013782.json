@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013782", "neighbourhood_name": "Kew", "force_id": "metropolitan", "lat": "51.4775", "lng": "-0.290201", "population": 11840, "total_crimes": 302, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 4, "burglary": 21, "criminal-damage-arson": 11, "drugs": 6, "other-theft": 28, "possession-of-weapons": 1, "public-order": 17, "robbery": 4, "shoplifting": 20, "theft-from-the-person": 7, "vehicle-crime": 53, "violent-crime": 77, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013782",
+  "neighbourhood_name": "Kew",
+  "force_id": "metropolitan",
+  "lat": "51.4775",
+  "lng": "-0.290201",
+  "population": 12245,
+  "total_crimes": 302,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 4,
+    "burglary": 21,
+    "criminal-damage-arson": 11,
+    "drugs": 6,
+    "other-theft": 28,
+    "possession-of-weapons": 1,
+    "public-order": 17,
+    "robbery": 4,
+    "shoplifting": 20,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 53,
+    "violent-crime": 77,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

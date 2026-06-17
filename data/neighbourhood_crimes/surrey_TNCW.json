@@ -1,1 +1,25 @@
-{"neighbourhood_id": "TNCW", "neighbourhood_name": "Caterham on the Hill, Chaldon, Whyteleafe &amp; Portley", "force_id": "surrey", "lat": "51.2877", "lng": "-0.100452", "population": 12098, "total_crimes": 100, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 8, "other-theft": 7, "possession-of-weapons": 1, "public-order": 14, "shoplifting": 1, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 51}, "date": "2026-03"}
+{
+  "neighbourhood_id": "TNCW",
+  "neighbourhood_name": "Caterham on the Hill, Chaldon, Whyteleafe &amp; Portley",
+  "force_id": "surrey",
+  "lat": "51.2877",
+  "lng": "-0.100452",
+  "population": 17858,
+  "total_crimes": 100,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 8,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "shoplifting": 1,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 51
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

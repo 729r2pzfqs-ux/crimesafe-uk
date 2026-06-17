@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011235", "neighbourhood_name": "Barkingside", "force_id": "metropolitan", "lat": "51.582", "lng": "0.0686823", "population": 14147, "total_crimes": 412, "categories": {"anti-social-behaviour": 78, "bicycle-theft": 2, "burglary": 13, "criminal-damage-arson": 16, "drugs": 10, "other-theft": 30, "possession-of-weapons": 5, "public-order": 20, "robbery": 8, "shoplifting": 46, "theft-from-the-person": 7, "vehicle-crime": 39, "violent-crime": 135, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011235",
+  "neighbourhood_name": "Barkingside",
+  "force_id": "metropolitan",
+  "lat": "51.582",
+  "lng": "0.0686823",
+  "population": 13894,
+  "total_crimes": 412,
+  "categories": {
+    "anti-social-behaviour": 78,
+    "bicycle-theft": 2,
+    "burglary": 13,
+    "criminal-damage-arson": 16,
+    "drugs": 10,
+    "other-theft": 30,
+    "possession-of-weapons": 5,
+    "public-order": 20,
+    "robbery": 8,
+    "shoplifting": 46,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 39,
+    "violent-crime": 135,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

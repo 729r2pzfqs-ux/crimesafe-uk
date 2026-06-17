@@ -1,1 +1,26 @@
-{"neighbourhood_id": "rhiwbina", "neighbourhood_name": "Rhiwbina", "force_id": "south-wales", "lat": "51.5351", "lng": "-3.21937", "population": 12098, "total_crimes": 42, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "burglary": 2, "criminal-damage-arson": 6, "drugs": 3, "other-theft": 2, "public-order": 8, "robbery": 1, "shoplifting": 2, "vehicle-crime": 5, "violent-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "rhiwbina",
+  "neighbourhood_name": "Rhiwbina",
+  "force_id": "south-wales",
+  "lat": "51.5351",
+  "lng": "-3.21937",
+  "population": 11524,
+  "total_crimes": 42,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "bicycle-theft": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

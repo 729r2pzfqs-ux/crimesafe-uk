@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011468N", "neighbourhood_name": "Fairfield", "force_id": "metropolitan", "lat": "51.3738", "lng": "-0.0994616", "population": 12098, "total_crimes": 1268, "categories": {"anti-social-behaviour": 291, "bicycle-theft": 4, "burglary": 41, "criminal-damage-arson": 65, "drugs": 95, "other-theft": 84, "possession-of-weapons": 15, "public-order": 76, "robbery": 36, "shoplifting": 138, "theft-from-the-person": 31, "vehicle-crime": 70, "violent-crime": 309, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011468N",
+  "neighbourhood_name": "Fairfield",
+  "force_id": "metropolitan",
+  "lat": "51.3738",
+  "lng": "-0.0994616",
+  "population": 2275,
+  "total_crimes": 1268,
+  "categories": {
+    "anti-social-behaviour": 291,
+    "bicycle-theft": 4,
+    "burglary": 41,
+    "criminal-damage-arson": 65,
+    "drugs": 95,
+    "other-theft": 84,
+    "possession-of-weapons": 15,
+    "public-order": 76,
+    "robbery": 36,
+    "shoplifting": 138,
+    "theft-from-the-person": 31,
+    "vehicle-crime": 70,
+    "violent-crime": 309,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 557.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

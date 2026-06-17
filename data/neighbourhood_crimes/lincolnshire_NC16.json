@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NC16", "neighbourhood_name": "Lincoln Boultham", "force_id": "lincolnshire", "lat": "53.22", "lng": "-0.569921", "population": 12098, "total_crimes": 230, "categories": {"anti-social-behaviour": 48, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 21, "drugs": 7, "other-theft": 3, "possession-of-weapons": 1, "public-order": 18, "robbery": 2, "shoplifting": 34, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 73, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC16",
+  "neighbourhood_name": "Lincoln Boultham",
+  "force_id": "lincolnshire",
+  "lat": "53.22",
+  "lng": "-0.569921",
+  "population": 6009,
+  "total_crimes": 230,
+  "categories": {
+    "anti-social-behaviour": 48,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 21,
+    "drugs": 7,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 2,
+    "shoplifting": 34,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 73,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

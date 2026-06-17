@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NE11", "neighbourhood_name": "Clowne", "force_id": "derbyshire", "lat": "53.2746", "lng": "-1.27313", "population": 12098, "total_crimes": 62, "categories": {"anti-social-behaviour": 6, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 6, "drugs": 2, "other-theft": 3, "public-order": 7, "robbery": 1, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 32}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE11",
+  "neighbourhood_name": "Clowne",
+  "force_id": "derbyshire",
+  "lat": "53.2746",
+  "lng": "-1.27313",
+  "population": 5711,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "drugs": 2,
+    "other-theft": 3,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 32
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "PLY.4029", "neighbourhood_name": "Stonehouse", "force_id": "devon-and-cornwall", "lat": "50.3681", "lng": "-4.15523", "population": 12098, "total_crimes": 878, "categories": {"anti-social-behaviour": 136, "bicycle-theft": 4, "burglary": 12, "criminal-damage-arson": 54, "drugs": 40, "other-theft": 59, "possession-of-weapons": 12, "public-order": 63, "robbery": 6, "shoplifting": 69, "theft-from-the-person": 10, "vehicle-crime": 15, "violent-crime": 379, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4029",
+  "neighbourhood_name": "Stonehouse",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3681",
+  "lng": "-4.15523",
+  "population": 7885,
+  "total_crimes": 878,
+  "categories": {
+    "anti-social-behaviour": 136,
+    "bicycle-theft": 4,
+    "burglary": 12,
+    "criminal-damage-arson": 54,
+    "drugs": 40,
+    "other-theft": 59,
+    "possession-of-weapons": 12,
+    "public-order": 63,
+    "robbery": 6,
+    "shoplifting": 69,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 15,
+    "violent-crime": 379,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 111.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

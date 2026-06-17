@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DEV.4060", "neighbourhood_name": "Wonford", "force_id": "devon-and-cornwall", "lat": "50.7129", "lng": "-3.50283", "population": 12098, "total_crimes": 182, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 11, "drugs": 3, "other-theft": 12, "possession-of-weapons": 5, "public-order": 10, "shoplifting": 8, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 86, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4060",
+  "neighbourhood_name": "Wonford",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.7129",
+  "lng": "-3.50283",
+  "population": 6964,
+  "total_crimes": 182,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 11,
+    "drugs": 3,
+    "other-theft": 12,
+    "possession-of-weapons": 5,
+    "public-order": 10,
+    "shoplifting": 8,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 86,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

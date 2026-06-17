@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NW06", "neighbourhood_name": "Fosse", "force_id": "leicestershire", "lat": "52.6416", "lng": "-1.15104", "population": 12098, "total_crimes": 1128, "categories": {"anti-social-behaviour": 146, "bicycle-theft": 19, "burglary": 24, "criminal-damage-arson": 74, "drugs": 54, "other-theft": 79, "possession-of-weapons": 19, "public-order": 128, "robbery": 11, "shoplifting": 143, "theft-from-the-person": 21, "vehicle-crime": 48, "violent-crime": 349, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NW06",
+  "neighbourhood_name": "Fosse",
+  "force_id": "leicestershire",
+  "lat": "52.6416",
+  "lng": "-1.15104",
+  "population": 15402,
+  "total_crimes": 1128,
+  "categories": {
+    "anti-social-behaviour": 146,
+    "bicycle-theft": 19,
+    "burglary": 24,
+    "criminal-damage-arson": 74,
+    "drugs": 54,
+    "other-theft": 79,
+    "possession-of-weapons": 19,
+    "public-order": 128,
+    "robbery": 11,
+    "shoplifting": 143,
+    "theft-from-the-person": 21,
+    "vehicle-crime": 48,
+    "violent-crime": 349,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

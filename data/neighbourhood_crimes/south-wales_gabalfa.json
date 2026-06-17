@@ -1,1 +1,28 @@
-{"neighbourhood_id": "gabalfa", "neighbourhood_name": "Gabalfa", "force_id": "south-wales", "lat": "51.5003", "lng": "-3.19637", "population": 12098, "total_crimes": 292, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 20, "burglary": 13, "criminal-damage-arson": 35, "drugs": 6, "other-theft": 17, "possession-of-weapons": 5, "public-order": 22, "robbery": 3, "shoplifting": 19, "vehicle-crime": 20, "violent-crime": 97, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "gabalfa",
+  "neighbourhood_name": "Gabalfa",
+  "force_id": "south-wales",
+  "lat": "51.5003",
+  "lng": "-3.19637",
+  "population": 9624,
+  "total_crimes": 292,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 20,
+    "burglary": 13,
+    "criminal-damage-arson": 35,
+    "drugs": 6,
+    "other-theft": 17,
+    "possession-of-weapons": 5,
+    "public-order": 22,
+    "robbery": 3,
+    "shoplifting": 19,
+    "vehicle-crime": 20,
+    "violent-crime": 97,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

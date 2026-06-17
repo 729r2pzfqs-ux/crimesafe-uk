@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009386", "neighbourhood_name": "Victoria", "force_id": "metropolitan", "lat": "51.5388", "lng": "-0.047357", "population": 13173, "total_crimes": 1387, "categories": {"anti-social-behaviour": 265, "bicycle-theft": 34, "burglary": 79, "criminal-damage-arson": 60, "drugs": 62, "other-theft": 86, "possession-of-weapons": 5, "public-order": 70, "robbery": 29, "shoplifting": 127, "theft-from-the-person": 105, "vehicle-crime": 59, "violent-crime": 393, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009386",
+  "neighbourhood_name": "Victoria",
+  "force_id": "metropolitan",
+  "lat": "51.5388",
+  "lng": "-0.047357",
+  "population": 14585,
+  "total_crimes": 1387,
+  "categories": {
+    "anti-social-behaviour": 265,
+    "bicycle-theft": 34,
+    "burglary": 79,
+    "criminal-damage-arson": 60,
+    "drugs": 62,
+    "other-theft": 86,
+    "possession-of-weapons": 5,
+    "public-order": 70,
+    "robbery": 29,
+    "shoplifting": 127,
+    "theft-from-the-person": 105,
+    "vehicle-crime": 59,
+    "violent-crime": 393,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 95.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

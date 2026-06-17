@@ -1,1 +1,23 @@
-{"neighbourhood_id": "LPK1K", "neighbourhood_name": "Prescot North", "force_id": "merseyside", "lat": "53.4423", "lng": "-2.83952", "population": 12098, "total_crimes": 38, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 9, "drugs": 1, "other-theft": 1, "public-order": 8, "theft-from-the-person": 1, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPK1K",
+  "neighbourhood_name": "Prescot North",
+  "force_id": "merseyside",
+  "lat": "53.4423",
+  "lng": "-2.83952",
+  "population": 8019,
+  "total_crimes": 38,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 8,
+    "theft-from-the-person": 1,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

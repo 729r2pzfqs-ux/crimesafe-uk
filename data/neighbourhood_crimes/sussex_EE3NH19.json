@@ -1,1 +1,28 @@
-{"neighbourhood_id": "EE3NH19", "neighbourhood_name": "Langney Village", "force_id": "sussex", "lat": "50.8007", "lng": "0.319711", "population": 12098, "total_crimes": 119, "categories": {"anti-social-behaviour": 24, "burglary": 4, "criminal-damage-arson": 12, "drugs": 1, "other-theft": 5, "possession-of-weapons": 2, "public-order": 6, "robbery": 2, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 45, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE3NH19",
+  "neighbourhood_name": "Langney Village",
+  "force_id": "sussex",
+  "lat": "50.8007",
+  "lng": "0.319711",
+  "population": 6535,
+  "total_crimes": 119,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 4,
+    "criminal-damage-arson": 12,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 2,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 45,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

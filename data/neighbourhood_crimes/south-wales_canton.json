@@ -1,1 +1,28 @@
-{"neighbourhood_id": "canton", "neighbourhood_name": "Canton", "force_id": "south-wales", "lat": "51.4777", "lng": "-3.21441", "population": 12098, "total_crimes": 253, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 10, "burglary": 12, "criminal-damage-arson": 25, "drugs": 6, "other-theft": 10, "possession-of-weapons": 3, "public-order": 23, "robbery": 2, "shoplifting": 19, "vehicle-crime": 26, "violent-crime": 92, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "canton",
+  "neighbourhood_name": "Canton",
+  "force_id": "south-wales",
+  "lat": "51.4777",
+  "lng": "-3.21441",
+  "population": 12966,
+  "total_crimes": 253,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 10,
+    "burglary": 12,
+    "criminal-damage-arson": 25,
+    "drugs": 6,
+    "other-theft": 10,
+    "possession-of-weapons": 3,
+    "public-order": 23,
+    "robbery": 2,
+    "shoplifting": 19,
+    "vehicle-crime": 26,
+    "violent-crime": 92,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

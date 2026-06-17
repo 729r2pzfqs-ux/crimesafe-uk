@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LA20", "neighbourhood_name": "Poulton - Lancaster", "force_id": "lancashire", "lat": "54.0735", "lng": "-2.86303", "population": 12098, "total_crimes": 349, "categories": {"anti-social-behaviour": 66, "bicycle-theft": 7, "burglary": 11, "criminal-damage-arson": 32, "drugs": 16, "other-theft": 22, "possession-of-weapons": 2, "public-order": 20, "robbery": 2, "shoplifting": 33, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 121, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LA20",
+  "neighbourhood_name": "Poulton - Lancaster",
+  "force_id": "lancashire",
+  "lat": "54.0735",
+  "lng": "-2.86303",
+  "population": 6333,
+  "total_crimes": 349,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "bicycle-theft": 7,
+    "burglary": 11,
+    "criminal-damage-arson": 32,
+    "drugs": 16,
+    "other-theft": 22,
+    "possession-of-weapons": 2,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 33,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 121,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

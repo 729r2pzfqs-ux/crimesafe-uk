@@ -1,1 +1,22 @@
-{"neighbourhood_id": "FSW21", "neighbourhood_name": "Argoed", "force_id": "north-wales", "lat": "53.1641", "lng": "-3.10559", "population": 12098, "total_crimes": 43, "categories": {"anti-social-behaviour": 9, "burglary": 3, "criminal-damage-arson": 3, "other-theft": 1, "public-order": 2, "shoplifting": 1, "violent-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW21",
+  "neighbourhood_name": "Argoed",
+  "force_id": "north-wales",
+  "lat": "53.1641",
+  "lng": "-3.10559",
+  "population": 2703,
+  "total_crimes": 43,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 3,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

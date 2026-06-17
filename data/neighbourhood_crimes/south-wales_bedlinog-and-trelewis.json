@@ -1,1 +1,19 @@
-{"neighbourhood_id": "bedlinog-and-trelewis", "neighbourhood_name": "Bedlinog and Trelewis", "force_id": "south-wales", "lat": "51.6972", "lng": "-3.30168", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 2, "public-order": 5, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "bedlinog-and-trelewis",
+  "neighbourhood_name": "Bedlinog and Trelewis",
+  "force_id": "south-wales",
+  "lat": "51.6972",
+  "lng": "-3.30168",
+  "population": 3764,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 2,
+    "public-order": 5,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

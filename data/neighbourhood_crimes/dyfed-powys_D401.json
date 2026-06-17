@@ -1,1 +1,24 @@
-{"neighbourhood_id": "D401", "neighbourhood_name": "St. Mary", "force_id": "dyfed-powys", "lat": "51.9486", "lng": "-3.37331", "population": 12098, "total_crimes": 61, "categories": {"anti-social-behaviour": 9, "burglary": 2, "criminal-damage-arson": 5, "drugs": 2, "public-order": 2, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 35, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D401",
+  "neighbourhood_name": "St. Mary",
+  "force_id": "dyfed-powys",
+  "lat": "51.9486",
+  "lng": "-3.37331",
+  "population": 3108,
+  "total_crimes": 61,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "public-order": 2,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 35,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

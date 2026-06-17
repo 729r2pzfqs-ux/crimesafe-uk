@@ -1,1 +1,25 @@
-{"neighbourhood_id": "llwchwr", "neighbourhood_name": "Llwchwr", "force_id": "south-wales", "lat": "51.6616", "lng": "-4.03734", "population": 12098, "total_crimes": 92, "categories": {"anti-social-behaviour": 8, "burglary": 2, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 7, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 41}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llwchwr",
+  "neighbourhood_name": "Llwchwr",
+  "force_id": "south-wales",
+  "lat": "51.6616",
+  "lng": "-4.03734",
+  "population": 9607,
+  "total_crimes": 92,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 7,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 41
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

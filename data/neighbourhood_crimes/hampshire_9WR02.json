@@ -1,1 +1,16 @@
-{"neighbourhood_id": "9WR02", "neighbourhood_name": "Winchester Rural North", "force_id": "hampshire", "lat": "51.1416", "lng": "-1.27976", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9WR02",
+  "neighbourhood_name": "Winchester Rural North",
+  "force_id": "hampshire",
+  "lat": "51.1416",
+  "lng": "-1.27976",
+  "population": 10830,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

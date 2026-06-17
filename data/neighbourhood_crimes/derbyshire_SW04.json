@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SW04", "neighbourhood_name": "Rose Hill", "force_id": "derbyshire", "lat": "52.9085", "lng": "-1.47667", "population": 12098, "total_crimes": 1162, "categories": {"anti-social-behaviour": 146, "bicycle-theft": 5, "burglary": 20, "criminal-damage-arson": 77, "drugs": 103, "other-theft": 56, "possession-of-weapons": 16, "public-order": 108, "robbery": 26, "shoplifting": 129, "theft-from-the-person": 20, "vehicle-crime": 35, "violent-crime": 397, "other-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SW04",
+  "neighbourhood_name": "Rose Hill",
+  "force_id": "derbyshire",
+  "lat": "52.9085",
+  "lng": "-1.47667",
+  "population": 17439,
+  "total_crimes": 1162,
+  "categories": {
+    "anti-social-behaviour": 146,
+    "bicycle-theft": 5,
+    "burglary": 20,
+    "criminal-damage-arson": 77,
+    "drugs": 103,
+    "other-theft": 56,
+    "possession-of-weapons": 16,
+    "public-order": 108,
+    "robbery": 26,
+    "shoplifting": 129,
+    "theft-from-the-person": 20,
+    "vehicle-crime": 35,
+    "violent-crime": 397,
+    "other-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

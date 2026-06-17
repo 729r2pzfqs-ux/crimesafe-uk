@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA55", "neighbourhood_name": "Fort Pitt", "force_id": "kent", "lat": "51.3724", "lng": "0.518034", "population": 12098, "total_crimes": 799, "categories": {"anti-social-behaviour": 182, "bicycle-theft": 5, "burglary": 11, "criminal-damage-arson": 59, "drugs": 27, "other-theft": 55, "possession-of-weapons": 12, "public-order": 41, "robbery": 15, "shoplifting": 79, "theft-from-the-person": 4, "vehicle-crime": 21, "violent-crime": 268, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA55",
+  "neighbourhood_name": "Fort Pitt",
+  "force_id": "kent",
+  "lat": "51.3724",
+  "lng": "0.518034",
+  "population": 9855,
+  "total_crimes": 799,
+  "categories": {
+    "anti-social-behaviour": 182,
+    "bicycle-theft": 5,
+    "burglary": 11,
+    "criminal-damage-arson": 59,
+    "drugs": 27,
+    "other-theft": 55,
+    "possession-of-weapons": 12,
+    "public-order": 41,
+    "robbery": 15,
+    "shoplifting": 79,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 21,
+    "violent-crime": 268,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 81.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

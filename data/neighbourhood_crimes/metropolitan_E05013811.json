@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013811", "neighbourhood_name": "Cannon Hill", "force_id": "metropolitan", "lat": "51.4007", "lng": "-0.214464", "population": 9791, "total_crimes": 256, "categories": {"anti-social-behaviour": 46, "bicycle-theft": 5, "burglary": 6, "criminal-damage-arson": 13, "drugs": 9, "other-theft": 20, "possession-of-weapons": 1, "public-order": 19, "robbery": 8, "shoplifting": 30, "theft-from-the-person": 6, "vehicle-crime": 26, "violent-crime": 63, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013811",
+  "neighbourhood_name": "Cannon Hill",
+  "force_id": "metropolitan",
+  "lat": "51.4007",
+  "lng": "-0.214464",
+  "population": 9410,
+  "total_crimes": 256,
+  "categories": {
+    "anti-social-behaviour": 46,
+    "bicycle-theft": 5,
+    "burglary": 6,
+    "criminal-damage-arson": 13,
+    "drugs": 9,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 19,
+    "robbery": 8,
+    "shoplifting": 30,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 26,
+    "violent-crime": 63,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

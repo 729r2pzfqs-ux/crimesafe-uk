@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013945", "neighbourhood_name": "Tolworth", "force_id": "metropolitan", "lat": "51.3792", "lng": "-0.294539", "population": 12098, "total_crimes": 264, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 13, "drugs": 9, "other-theft": 17, "possession-of-weapons": 1, "public-order": 15, "robbery": 2, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 21, "violent-crime": 85, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013945",
+  "neighbourhood_name": "Tolworth",
+  "force_id": "metropolitan",
+  "lat": "51.3792",
+  "lng": "-0.294539",
+  "population": 12232,
+  "total_crimes": 264,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 13,
+    "drugs": 9,
+    "other-theft": 17,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "robbery": 2,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 21,
+    "violent-crime": 85,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

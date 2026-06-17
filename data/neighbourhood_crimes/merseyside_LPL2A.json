@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL2A", "neighbourhood_name": "Broadgreen", "force_id": "merseyside", "lat": "53.4132", "lng": "-2.90244", "population": 12098, "total_crimes": 327, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 4, "burglary": 8, "criminal-damage-arson": 25, "drugs": 19, "other-theft": 16, "possession-of-weapons": 2, "public-order": 32, "robbery": 7, "shoplifting": 39, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 148, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL2A",
+  "neighbourhood_name": "Broadgreen",
+  "force_id": "merseyside",
+  "lat": "53.4132",
+  "lng": "-2.90244",
+  "population": 5491,
+  "total_crimes": 327,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 4,
+    "burglary": 8,
+    "criminal-damage-arson": 25,
+    "drugs": 19,
+    "other-theft": 16,
+    "possession-of-weapons": 2,
+    "public-order": 32,
+    "robbery": 7,
+    "shoplifting": 39,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 148,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

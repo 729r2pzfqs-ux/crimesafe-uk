@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BU9", "neighbourhood_name": "Trinity - Burnley", "force_id": "lancashire", "lat": "53.787", "lng": "-2.25356", "population": 12098, "total_crimes": 634, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 8, "burglary": 24, "criminal-damage-arson": 53, "drugs": 18, "other-theft": 28, "possession-of-weapons": 9, "public-order": 47, "robbery": 8, "shoplifting": 101, "theft-from-the-person": 7, "vehicle-crime": 22, "violent-crime": 217, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU9",
+  "neighbourhood_name": "Trinity - Burnley",
+  "force_id": "lancashire",
+  "lat": "53.787",
+  "lng": "-2.25356",
+  "population": 5649,
+  "total_crimes": 634,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 8,
+    "burglary": 24,
+    "criminal-damage-arson": 53,
+    "drugs": 18,
+    "other-theft": 28,
+    "possession-of-weapons": 9,
+    "public-order": 47,
+    "robbery": 8,
+    "shoplifting": 101,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 22,
+    "violent-crime": 217,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 112.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "55.CB3001", "neighbourhood_name": "Bournemouth South", "force_id": "dorset", "lat": "50.7208", "lng": "-1.88415", "population": 12098, "total_crimes": 545, "categories": {"anti-social-behaviour": 178, "bicycle-theft": 1, "burglary": 18, "criminal-damage-arson": 25, "drugs": 23, "other-theft": 24, "possession-of-weapons": 6, "public-order": 40, "robbery": 2, "shoplifting": 29, "theft-from-the-person": 3, "vehicle-crime": 25, "violent-crime": 170, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "55.CB3001",
+  "neighbourhood_name": "Bournemouth South",
+  "force_id": "dorset",
+  "lat": "50.7208",
+  "lng": "-1.88415",
+  "population": 16356,
+  "total_crimes": 545,
+  "categories": {
+    "anti-social-behaviour": 178,
+    "bicycle-theft": 1,
+    "burglary": 18,
+    "criminal-damage-arson": 25,
+    "drugs": 23,
+    "other-theft": 24,
+    "possession-of-weapons": 6,
+    "public-order": 40,
+    "robbery": 2,
+    "shoplifting": 29,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 25,
+    "violent-crime": 170,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

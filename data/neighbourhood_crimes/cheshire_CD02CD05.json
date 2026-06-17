@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CD02CD05", "neighbourhood_name": "Wilmslow Dean Row and Lacey Green", "force_id": "cheshire", "lat": "53.3416", "lng": "-2.23267", "population": "0", "total_crimes": 73, "categories": {"anti-social-behaviour": 5, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 2, "drugs": 6, "other-theft": 2, "possession-of-weapons": 1, "public-order": 4, "robbery": 1, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 40, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CD02CD05",
+  "neighbourhood_name": "Wilmslow Dean Row and Lacey Green",
+  "force_id": "cheshire",
+  "lat": "53.3416",
+  "lng": "-2.23267",
+  "population": 10377,
+  "total_crimes": 73,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 6,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 40,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

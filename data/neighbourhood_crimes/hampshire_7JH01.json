@@ -1,1 +1,27 @@
-{"neighbourhood_id": "7JH01", "neighbourhood_name": "Havant and Emsworth", "force_id": "hampshire", "lat": "50.8539", "lng": "-0.9647", "population": 12098, "total_crimes": 158, "categories": {"anti-social-behaviour": 15, "burglary": 2, "criminal-damage-arson": 22, "drugs": 3, "other-theft": 8, "public-order": 13, "robbery": 1, "shoplifting": 23, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 66, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "7JH01",
+  "neighbourhood_name": "Havant and Emsworth",
+  "force_id": "hampshire",
+  "lat": "50.8539",
+  "lng": "-0.9647",
+  "population": 17825,
+  "total_crimes": 158,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 2,
+    "criminal-damage-arson": 22,
+    "drugs": 3,
+    "other-theft": 8,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 23,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 66,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

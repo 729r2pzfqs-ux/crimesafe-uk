@@ -1,1 +1,19 @@
-{"neighbourhood_id": "N433", "neighbourhood_name": "Missendens", "force_id": "thames-valley", "lat": "51.6906", "lng": "-0.698968", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N433",
+  "neighbourhood_name": "Missendens",
+  "force_id": "thames-valley",
+  "lat": "51.6906",
+  "lng": "-0.698968",
+  "population": 14975,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

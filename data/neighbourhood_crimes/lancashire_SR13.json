@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SR13", "neighbourhood_name": "Leyland Central", "force_id": "lancashire", "lat": "53.6958", "lng": "-2.69305", "population": 12098, "total_crimes": 191, "categories": {"anti-social-behaviour": 32, "burglary": 12, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 13, "public-order": 7, "robbery": 3, "shoplifting": 23, "vehicle-crime": 8, "violent-crime": 70, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR13",
+  "neighbourhood_name": "Leyland Central",
+  "force_id": "lancashire",
+  "lat": "53.6958",
+  "lng": "-2.69305",
+  "population": 2950,
+  "total_crimes": 191,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "burglary": 12,
+    "criminal-damage-arson": 13,
+    "drugs": 4,
+    "other-theft": 13,
+    "public-order": 7,
+    "robbery": 3,
+    "shoplifting": 23,
+    "vehicle-crime": 8,
+    "violent-crime": 70,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 64.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

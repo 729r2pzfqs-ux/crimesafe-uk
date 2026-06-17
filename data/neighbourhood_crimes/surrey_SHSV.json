@@ -1,1 +1,24 @@
-{"neighbourhood_id": "SHSV", "neighbourhood_name": "The Six Villages", "force_id": "surrey", "lat": "51.3522", "lng": "-0.641875", "population": 12098, "total_crimes": 37, "categories": {"anti-social-behaviour": 4, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 1, "other-theft": 9, "public-order": 2, "shoplifting": 16, "vehicle-crime": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SHSV",
+  "neighbourhood_name": "The Six Villages",
+  "force_id": "surrey",
+  "lat": "51.3522",
+  "lng": "-0.641875",
+  "population": 30303,
+  "total_crimes": 37,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 9,
+    "public-order": 2,
+    "shoplifting": 16,
+    "vehicle-crime": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 19
+}

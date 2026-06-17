@@ -1,1 +1,26 @@
-{"neighbourhood_id": "RBME", "neighbourhood_name": "Merstham", "force_id": "surrey", "lat": "51.2584", "lng": "-0.161851", "population": 12098, "total_crimes": 117, "categories": {"anti-social-behaviour": 25, "burglary": 2, "criminal-damage-arson": 7, "drugs": 3, "other-theft": 7, "public-order": 10, "robbery": 1, "shoplifting": 1, "vehicle-crime": 19, "violent-crime": 39, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RBME",
+  "neighbourhood_name": "Merstham",
+  "force_id": "surrey",
+  "lat": "51.2584",
+  "lng": "-0.161851",
+  "population": 9742,
+  "total_crimes": 117,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 3,
+    "other-theft": 7,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 19,
+    "violent-crime": 39,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

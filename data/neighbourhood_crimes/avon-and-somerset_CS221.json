@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CS221", "neighbourhood_name": "Bath City West", "force_id": "avon-and-somerset", "lat": "51.3755", "lng": "-2.38776", "population": "0", "total_crimes": 356, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 1, "burglary": 9, "criminal-damage-arson": 13, "drugs": 1, "other-theft": 16, "possession-of-weapons": 2, "public-order": 34, "robbery": 10, "shoplifting": 72, "vehicle-crime": 10, "violent-crime": 140, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CS221",
+  "neighbourhood_name": "Bath City West",
+  "force_id": "avon-and-somerset",
+  "lat": "51.3755",
+  "lng": "-2.38776",
+  "population": 25702,
+  "total_crimes": 356,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 1,
+    "burglary": 9,
+    "criminal-damage-arson": 13,
+    "drugs": 1,
+    "other-theft": 16,
+    "possession-of-weapons": 2,
+    "public-order": 34,
+    "robbery": 10,
+    "shoplifting": 72,
+    "vehicle-crime": 10,
+    "violent-crime": 140,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

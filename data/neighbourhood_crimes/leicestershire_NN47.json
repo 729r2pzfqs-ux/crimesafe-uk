@@ -1,1 +1,23 @@
-{"neighbourhood_id": "NN47", "neighbourhood_name": "Forest", "force_id": "leicestershire", "lat": "52.7158", "lng": "-1.51391", "population": 12098, "total_crimes": 29, "categories": {"anti-social-behaviour": 3, "burglary": 3, "criminal-damage-arson": 3, "other-theft": 3, "public-order": 3, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NN47",
+  "neighbourhood_name": "Forest",
+  "force_id": "leicestershire",
+  "lat": "52.7158",
+  "lng": "-1.51391",
+  "population": 16724,
+  "total_crimes": 29,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 3,
+    "criminal-damage-arson": 3,
+    "other-theft": 3,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

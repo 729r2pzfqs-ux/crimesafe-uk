@@ -1,1 +1,22 @@
-{"neighbourhood_id": "mumbles", "neighbourhood_name": "Mumbles", "force_id": "south-wales", "lat": "51.5727", "lng": "-4.00125", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 2, "burglary": 1, "other-theft": 1, "public-order": 2, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "mumbles",
+  "neighbourhood_name": "Mumbles",
+  "force_id": "south-wales",
+  "lat": "51.5727",
+  "lng": "-4.00125",
+  "population": 7408,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

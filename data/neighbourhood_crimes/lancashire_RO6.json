@@ -1,1 +1,17 @@
-{"neighbourhood_id": "RO6", "neighbourhood_name": "Greenfield &amp; Eden", "force_id": "lancashire", "lat": "53.6597", "lng": "-2.28433", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO6",
+  "neighbourhood_name": "Greenfield &amp; Eden",
+  "force_id": "lancashire",
+  "lat": "53.6597",
+  "lng": "-2.28433",
+  "population": 6523,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BL16", "neighbourhood_name": "Greenlands", "force_id": "lancashire", "lat": "53.8398", "lng": "-3.02905", "population": 12098, "total_crimes": 275, "categories": {"anti-social-behaviour": 54, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 19, "drugs": 6, "other-theft": 20, "possession-of-weapons": 2, "public-order": 18, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 118, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BL16",
+  "neighbourhood_name": "Greenlands",
+  "force_id": "lancashire",
+  "lat": "53.8398",
+  "lng": "-3.02905",
+  "population": 6714,
+  "total_crimes": 275,
+  "categories": {
+    "anti-social-behaviour": 54,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 19,
+    "drugs": 6,
+    "other-theft": 20,
+    "possession-of-weapons": 2,
+    "public-order": 18,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 118,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

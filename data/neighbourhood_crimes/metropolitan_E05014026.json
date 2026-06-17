@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014026", "neighbourhood_name": "Wandle", "force_id": "metropolitan", "lat": "51.4477", "lng": "-0.185271", "population": 12098, "total_crimes": 537, "categories": {"anti-social-behaviour": 104, "bicycle-theft": 9, "burglary": 19, "criminal-damage-arson": 26, "drugs": 23, "other-theft": 37, "possession-of-weapons": 2, "public-order": 33, "robbery": 14, "shoplifting": 41, "theft-from-the-person": 9, "vehicle-crime": 35, "violent-crime": 173, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014026",
+  "neighbourhood_name": "Wandle",
+  "force_id": "metropolitan",
+  "lat": "51.4477",
+  "lng": "-0.185271",
+  "population": 10315,
+  "total_crimes": 537,
+  "categories": {
+    "anti-social-behaviour": 104,
+    "bicycle-theft": 9,
+    "burglary": 19,
+    "criminal-damage-arson": 26,
+    "drugs": 23,
+    "other-theft": 37,
+    "possession-of-weapons": 2,
+    "public-order": 33,
+    "robbery": 14,
+    "shoplifting": 41,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 35,
+    "violent-crime": 173,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 52.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

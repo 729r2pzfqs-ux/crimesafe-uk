@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BN151", "neighbourhood_name": "Lockleaze and Eastgate", "force_id": "avon-and-somerset", "lat": "51.4843", "lng": "-2.55829", "population": "0", "total_crimes": 491, "categories": {"anti-social-behaviour": 80, "bicycle-theft": 7, "burglary": 12, "criminal-damage-arson": 36, "drugs": 6, "other-theft": 47, "possession-of-weapons": 3, "public-order": 43, "robbery": 8, "shoplifting": 43, "theft-from-the-person": 3, "vehicle-crime": 24, "violent-crime": 169, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BN151",
+  "neighbourhood_name": "Lockleaze and Eastgate",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4843",
+  "lng": "-2.55829",
+  "population": 13278,
+  "total_crimes": 491,
+  "categories": {
+    "anti-social-behaviour": 80,
+    "bicycle-theft": 7,
+    "burglary": 12,
+    "criminal-damage-arson": 36,
+    "drugs": 6,
+    "other-theft": 47,
+    "possession-of-weapons": 3,
+    "public-order": 43,
+    "robbery": 8,
+    "shoplifting": 43,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 24,
+    "violent-crime": 169,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

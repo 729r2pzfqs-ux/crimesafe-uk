@@ -1,1 +1,21 @@
-{"neighbourhood_id": "NC23", "neighbourhood_name": "Spalding Rural East", "force_id": "lincolnshire", "lat": "52.7971", "lng": "-0.0822886", "population": 12098, "total_crimes": 17, "categories": {"anti-social-behaviour": 3, "drugs": 1, "other-theft": 1, "vehicle-crime": 2, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC23",
+  "neighbourhood_name": "Spalding Rural East",
+  "force_id": "lincolnshire",
+  "lat": "52.7971",
+  "lng": "-0.0822886",
+  "population": 6967,
+  "total_crimes": 17,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "drugs": 1,
+    "other-theft": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

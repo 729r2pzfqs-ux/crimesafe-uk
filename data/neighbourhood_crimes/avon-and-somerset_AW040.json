@@ -1,1 +1,19 @@
-{"neighbourhood_id": "AW040", "neighbourhood_name": "Sedgemoor South West", "force_id": "avon-and-somerset", "lat": "51.1466", "lng": "-3.07163", "population": "0", "total_crimes": 12, "categories": {"anti-social-behaviour": 2, "public-order": 1, "violent-crime": 8, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW040",
+  "neighbourhood_name": "Sedgemoor South West",
+  "force_id": "avon-and-somerset",
+  "lat": "51.1466",
+  "lng": "-3.07163",
+  "population": 12401,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "public-order": 1,
+    "violent-crime": 8,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

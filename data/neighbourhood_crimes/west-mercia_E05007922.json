@@ -1,1 +1,24 @@
-{"neighbourhood_id": "E05007922", "neighbourhood_name": "Pershore Town", "force_id": "west-mercia", "lat": "52.11", "lng": "-2.08412", "population": 12098, "total_crimes": 59, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 5, "other-theft": 4, "public-order": 4, "robbery": 1, "shoplifting": 9, "violent-crime": 16, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007922",
+  "neighbourhood_name": "Pershore Town",
+  "force_id": "west-mercia",
+  "lat": "52.11",
+  "lng": "-2.08412",
+  "population": 8206,
+  "total_crimes": 59,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "other-theft": 4,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 9,
+    "violent-crime": 16,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

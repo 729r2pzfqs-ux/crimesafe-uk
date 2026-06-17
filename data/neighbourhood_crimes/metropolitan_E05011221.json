@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05011221", "neighbourhood_name": "Blendon and Penhill", "force_id": "metropolitan", "lat": "51.4428", "lng": "0.122193", "population": 12098, "total_crimes": 142, "categories": {"anti-social-behaviour": 31, "burglary": 14, "criminal-damage-arson": 4, "drugs": 9, "other-theft": 4, "public-order": 10, "robbery": 1, "shoplifting": 6, "theft-from-the-person": 1, "vehicle-crime": 13, "violent-crime": 47, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011221",
+  "neighbourhood_name": "Blendon and Penhill",
+  "force_id": "metropolitan",
+  "lat": "51.4428",
+  "lng": "0.122193",
+  "population": 15639,
+  "total_crimes": 142,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "burglary": 14,
+    "criminal-damage-arson": 4,
+    "drugs": 9,
+    "other-theft": 4,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 6,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 13,
+    "violent-crime": 47,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

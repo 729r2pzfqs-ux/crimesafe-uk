@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BD17", "neighbourhood_name": "Mill Hill &amp; Moorgate", "force_id": "lancashire", "lat": "53.7347", "lng": "-2.50529", "population": 12098, "total_crimes": 411, "categories": {"anti-social-behaviour": 64, "burglary": 11, "criminal-damage-arson": 45, "drugs": 17, "other-theft": 19, "possession-of-weapons": 1, "public-order": 21, "robbery": 4, "shoplifting": 20, "theft-from-the-person": 3, "vehicle-crime": 19, "violent-crime": 173, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD17",
+  "neighbourhood_name": "Mill Hill &amp; Moorgate",
+  "force_id": "lancashire",
+  "lat": "53.7347",
+  "lng": "-2.50529",
+  "population": 7330,
+  "total_crimes": 411,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "burglary": 11,
+    "criminal-damage-arson": 45,
+    "drugs": 17,
+    "other-theft": 19,
+    "possession-of-weapons": 1,
+    "public-order": 21,
+    "robbery": 4,
+    "shoplifting": 20,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 19,
+    "violent-crime": 173,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

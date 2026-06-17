@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013824", "neighbourhood_name": "St Helier", "force_id": "metropolitan", "lat": "51.3945", "lng": "-0.19462", "population": 11627, "total_crimes": 338, "categories": {"anti-social-behaviour": 66, "bicycle-theft": 2, "burglary": 7, "criminal-damage-arson": 25, "drugs": 21, "other-theft": 22, "public-order": 28, "robbery": 10, "shoplifting": 13, "theft-from-the-person": 12, "vehicle-crime": 27, "violent-crime": 100, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013824",
+  "neighbourhood_name": "St Helier",
+  "force_id": "metropolitan",
+  "lat": "51.3945",
+  "lng": "-0.19462",
+  "population": 10844,
+  "total_crimes": 338,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "bicycle-theft": 2,
+    "burglary": 7,
+    "criminal-damage-arson": 25,
+    "drugs": 21,
+    "other-theft": 22,
+    "public-order": 28,
+    "robbery": 10,
+    "shoplifting": 13,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 27,
+    "violent-crime": 100,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

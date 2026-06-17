@@ -1,1 +1,29 @@
-{"neighbourhood_id": "5PS02", "neighbourhood_name": "Central Southsea and St Judes", "force_id": "hampshire", "lat": "50.7868", "lng": "-1.08165", "population": 12098, "total_crimes": 821, "categories": {"anti-social-behaviour": 99, "bicycle-theft": 13, "burglary": 17, "criminal-damage-arson": 36, "drugs": 47, "other-theft": 70, "possession-of-weapons": 26, "public-order": 63, "robbery": 21, "shoplifting": 60, "theft-from-the-person": 7, "vehicle-crime": 40, "violent-crime": 310, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "5PS02",
+  "neighbourhood_name": "Central Southsea and St Judes",
+  "force_id": "hampshire",
+  "lat": "50.7868",
+  "lng": "-1.08165",
+  "population": 29631,
+  "total_crimes": 821,
+  "categories": {
+    "anti-social-behaviour": 99,
+    "bicycle-theft": 13,
+    "burglary": 17,
+    "criminal-damage-arson": 36,
+    "drugs": 47,
+    "other-theft": 70,
+    "possession-of-weapons": 26,
+    "public-order": 63,
+    "robbery": 21,
+    "shoplifting": 60,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 40,
+    "violent-crime": 310,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

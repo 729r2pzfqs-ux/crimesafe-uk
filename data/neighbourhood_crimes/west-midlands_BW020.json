@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BW020", "neighbourhood_name": "Brandwood", "force_id": "west-midlands", "lat": "52.4178", "lng": "-1.89751", "population": 12098, "total_crimes": 344, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 2, "burglary": 19, "criminal-damage-arson": 26, "drugs": 5, "other-theft": 18, "possession-of-weapons": 7, "public-order": 22, "robbery": 7, "shoplifting": 48, "theft-from-the-person": 1, "vehicle-crime": 38, "violent-crime": 129, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW020",
+  "neighbourhood_name": "Brandwood",
+  "force_id": "west-midlands",
+  "lat": "52.4178",
+  "lng": "-1.89751",
+  "population": 25521,
+  "total_crimes": 344,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 2,
+    "burglary": 19,
+    "criminal-damage-arson": 26,
+    "drugs": 5,
+    "other-theft": 18,
+    "possession-of-weapons": 7,
+    "public-order": 22,
+    "robbery": 7,
+    "shoplifting": 48,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 38,
+    "violent-crime": 129,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

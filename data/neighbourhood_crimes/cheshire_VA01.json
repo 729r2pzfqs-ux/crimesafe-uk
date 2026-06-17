@@ -1,1 +1,16 @@
-{"neighbourhood_id": "VA01", "neighbourhood_name": "Marbury", "force_id": "cheshire", "lat": "53.3024", "lng": "-2.52816", "population": "0", "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "VA01",
+  "neighbourhood_name": "Marbury",
+  "force_id": "cheshire",
+  "lat": "53.3024",
+  "lng": "-2.52816",
+  "population": 11186,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

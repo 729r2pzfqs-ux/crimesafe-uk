@@ -1,1 +1,14 @@
-{"neighbourhood_id": "CR85", "neighbourhood_name": "Newbridge", "force_id": "gwent", "lat": "51.6635", "lng": "-3.12116", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CR85",
+  "neighbourhood_name": "Newbridge",
+  "force_id": "gwent",
+  "lat": "51.6635",
+  "lng": "-3.12116",
+  "population": 6712,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

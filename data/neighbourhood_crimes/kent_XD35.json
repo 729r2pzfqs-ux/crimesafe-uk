@@ -1,1 +1,28 @@
-{"neighbourhood_id": "XD35", "neighbourhood_name": "Swanscombe", "force_id": "kent", "lat": "51.4452", "lng": "0.303228", "population": 12098, "total_crimes": 150, "categories": {"anti-social-behaviour": 32, "burglary": 7, "criminal-damage-arson": 25, "drugs": 6, "other-theft": 8, "possession-of-weapons": 3, "public-order": 2, "robbery": 1, "shoplifting": 2, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 53, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD35",
+  "neighbourhood_name": "Swanscombe",
+  "force_id": "kent",
+  "lat": "51.4452",
+  "lng": "0.303228",
+  "population": 8393,
+  "total_crimes": 150,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "burglary": 7,
+    "criminal-damage-arson": 25,
+    "drugs": 6,
+    "other-theft": 8,
+    "possession-of-weapons": 3,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 53,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

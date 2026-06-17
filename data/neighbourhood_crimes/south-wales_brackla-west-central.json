@@ -1,1 +1,28 @@
-{"neighbourhood_id": "brackla-west-central", "neighbourhood_name": "Brackla West Central", "force_id": "south-wales", "lat": "51.5099", "lng": "-3.56067", "population": 12098, "total_crimes": 245, "categories": {"anti-social-behaviour": 22, "burglary": 1, "criminal-damage-arson": 17, "drugs": 16, "other-theft": 9, "possession-of-weapons": 1, "public-order": 31, "robbery": 2, "shoplifting": 25, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 104, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "brackla-west-central",
+  "neighbourhood_name": "Brackla West Central",
+  "force_id": "south-wales",
+  "lat": "51.5099",
+  "lng": "-3.56067",
+  "population": 1361,
+  "total_crimes": 245,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 1,
+    "criminal-damage-arson": 17,
+    "drugs": 16,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 31,
+    "robbery": 2,
+    "shoplifting": 25,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 104,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 180.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

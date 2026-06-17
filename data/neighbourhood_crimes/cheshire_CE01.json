@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CE01", "neighbourhood_name": "Macclesfield Central", "force_id": "cheshire", "lat": "53.2544", "lng": "-2.13067", "population": "0", "total_crimes": 304, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 19, "drugs": 13, "other-theft": 12, "possession-of-weapons": 4, "public-order": 27, "robbery": 3, "shoplifting": 66, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 125, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE01",
+  "neighbourhood_name": "Macclesfield Central",
+  "force_id": "cheshire",
+  "lat": "53.2544",
+  "lng": "-2.13067",
+  "population": 7390,
+  "total_crimes": 304,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 19,
+    "drugs": 13,
+    "other-theft": 12,
+    "possession-of-weapons": 4,
+    "public-order": 27,
+    "robbery": 3,
+    "shoplifting": 66,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 125,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

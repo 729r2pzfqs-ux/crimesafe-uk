@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WXW09", "neighbourhood_name": "Wynnstay", "force_id": "north-wales", "lat": "53.0487", "lng": "-2.97705", "population": 12098, "total_crimes": 484, "categories": {"anti-social-behaviour": 111, "bicycle-theft": 5, "burglary": 7, "criminal-damage-arson": 37, "drugs": 15, "other-theft": 13, "possession-of-weapons": 4, "public-order": 36, "robbery": 1, "shoplifting": 82, "vehicle-crime": 18, "violent-crime": 147, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW09",
+  "neighbourhood_name": "Wynnstay",
+  "force_id": "north-wales",
+  "lat": "53.0487",
+  "lng": "-2.97705",
+  "population": 2194,
+  "total_crimes": 484,
+  "categories": {
+    "anti-social-behaviour": 111,
+    "bicycle-theft": 5,
+    "burglary": 7,
+    "criminal-damage-arson": 37,
+    "drugs": 15,
+    "other-theft": 13,
+    "possession-of-weapons": 4,
+    "public-order": 36,
+    "robbery": 1,
+    "shoplifting": 82,
+    "vehicle-crime": 18,
+    "violent-crime": 147,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 220.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

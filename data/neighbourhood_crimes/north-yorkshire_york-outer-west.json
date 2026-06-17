@@ -1,1 +1,27 @@
-{"neighbourhood_id": "york-outer-west", "neighbourhood_name": "York Outer (West)", "force_id": "north-yorkshire", "lat": "53.9534", "lng": "-1.14946", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 4, "drugs": 4, "other-theft": 1, "possession-of-weapons": 3, "public-order": 4, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 19, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "york-outer-west",
+  "neighbourhood_name": "York Outer (West)",
+  "force_id": "north-yorkshire",
+  "lat": "53.9534",
+  "lng": "-1.14946",
+  "population": 63598,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 4,
+    "other-theft": 1,
+    "possession-of-weapons": 3,
+    "public-order": 4,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 19,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 40
+}

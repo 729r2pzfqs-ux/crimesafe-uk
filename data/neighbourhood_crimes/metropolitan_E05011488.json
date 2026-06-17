@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011488", "neighbourhood_name": "West Thornton", "force_id": "metropolitan", "lat": "51.3936", "lng": "-0.119059", "population": 12098, "total_crimes": 761, "categories": {"anti-social-behaviour": 134, "bicycle-theft": 5, "burglary": 39, "criminal-damage-arson": 55, "drugs": 32, "other-theft": 40, "possession-of-weapons": 8, "public-order": 58, "robbery": 14, "shoplifting": 28, "theft-from-the-person": 8, "vehicle-crime": 70, "violent-crime": 261, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011488",
+  "neighbourhood_name": "West Thornton",
+  "force_id": "metropolitan",
+  "lat": "51.3936",
+  "lng": "-0.119059",
+  "population": 18695,
+  "total_crimes": 761,
+  "categories": {
+    "anti-social-behaviour": 134,
+    "bicycle-theft": 5,
+    "burglary": 39,
+    "criminal-damage-arson": 55,
+    "drugs": 32,
+    "other-theft": 40,
+    "possession-of-weapons": 8,
+    "public-order": 58,
+    "robbery": 14,
+    "shoplifting": 28,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 70,
+    "violent-crime": 261,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

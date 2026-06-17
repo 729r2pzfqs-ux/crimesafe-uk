@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009381", "neighbourhood_name": "London Fields", "force_id": "metropolitan", "lat": "51.5391", "lng": "-0.0659767", "population": 10806, "total_crimes": 1743, "categories": {"anti-social-behaviour": 346, "bicycle-theft": 49, "burglary": 82, "criminal-damage-arson": 65, "drugs": 124, "other-theft": 115, "possession-of-weapons": 16, "public-order": 85, "robbery": 42, "shoplifting": 159, "theft-from-the-person": 168, "vehicle-crime": 68, "violent-crime": 418, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009381",
+  "neighbourhood_name": "London Fields",
+  "force_id": "metropolitan",
+  "lat": "51.5391",
+  "lng": "-0.0659767",
+  "population": 9720,
+  "total_crimes": 1743,
+  "categories": {
+    "anti-social-behaviour": 346,
+    "bicycle-theft": 49,
+    "burglary": 82,
+    "criminal-damage-arson": 65,
+    "drugs": 124,
+    "other-theft": 115,
+    "possession-of-weapons": 16,
+    "public-order": 85,
+    "robbery": 42,
+    "shoplifting": 159,
+    "theft-from-the-person": 168,
+    "vehicle-crime": 68,
+    "violent-crime": 418,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 179.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

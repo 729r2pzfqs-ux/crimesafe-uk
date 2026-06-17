@@ -1,1 +1,21 @@
-{"neighbourhood_id": "RO5", "neighbourhood_name": "Goodshaw &amp; Cribden", "force_id": "lancashire", "lat": "53.729", "lng": "-2.2845", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 4, "burglary": 1, "other-theft": 1, "public-order": 2, "violent-crime": 10, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO5",
+  "neighbourhood_name": "Goodshaw &amp; Cribden",
+  "force_id": "lancashire",
+  "lat": "53.729",
+  "lng": "-2.2845",
+  "population": 6560,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "violent-crime": 10,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

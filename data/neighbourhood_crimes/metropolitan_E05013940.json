@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013940", "neighbourhood_name": "New Malden Village", "force_id": "metropolitan", "lat": "51.4034", "lng": "-0.256431", "population": 12098, "total_crimes": 267, "categories": {"anti-social-behaviour": 35, "bicycle-theft": 8, "burglary": 9, "criminal-damage-arson": 12, "drugs": 4, "other-theft": 23, "public-order": 18, "robbery": 5, "shoplifting": 25, "theft-from-the-person": 7, "vehicle-crime": 26, "violent-crime": 91, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013940",
+  "neighbourhood_name": "New Malden Village",
+  "force_id": "metropolitan",
+  "lat": "51.4034",
+  "lng": "-0.256431",
+  "population": 11001,
+  "total_crimes": 267,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "bicycle-theft": 8,
+    "burglary": 9,
+    "criminal-damage-arson": 12,
+    "drugs": 4,
+    "other-theft": 23,
+    "public-order": 18,
+    "robbery": 5,
+    "shoplifting": 25,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 26,
+    "violent-crime": 91,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

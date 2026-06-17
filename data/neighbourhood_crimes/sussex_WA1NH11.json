@@ -1,1 +1,22 @@
-{"neighbourhood_id": "WA1NH11", "neighbourhood_name": "Middleton on Sea", "force_id": "sussex", "lat": "50.7969", "lng": "-0.611398", "population": 12098, "total_crimes": 16, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 3, "public-order": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA1NH11",
+  "neighbourhood_name": "Middleton on Sea",
+  "force_id": "sussex",
+  "lat": "50.7969",
+  "lng": "-0.611398",
+  "population": 4945,
+  "total_crimes": 16,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "SPEN4", "neighbourhood_name": "Spennymoor (Middlestone Moor)", "force_id": "durham", "lat": "54.6846", "lng": "-1.62403", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 8, "burglary": 6, "criminal-damage-arson": 10, "other-theft": 2, "shoplifting": 6, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 30, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPEN4",
+  "neighbourhood_name": "Spennymoor (Middlestone Moor)",
+  "force_id": "durham",
+  "lat": "54.6846",
+  "lng": "-1.62403",
+  "population": 5880,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 6,
+    "criminal-damage-arson": 10,
+    "other-theft": 2,
+    "shoplifting": 6,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 30,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

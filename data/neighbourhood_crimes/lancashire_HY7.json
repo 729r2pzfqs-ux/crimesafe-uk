@@ -1,1 +1,28 @@
-{"neighbourhood_id": "HY7", "neighbourhood_name": "Church", "force_id": "lancashire", "lat": "53.759", "lng": "-2.38929", "population": 12098, "total_crimes": 340, "categories": {"anti-social-behaviour": 61, "burglary": 15, "criminal-damage-arson": 29, "drugs": 7, "other-theft": 12, "possession-of-weapons": 1, "public-order": 20, "robbery": 2, "shoplifting": 32, "theft-from-the-person": 1, "vehicle-crime": 29, "violent-crime": 124, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY7",
+  "neighbourhood_name": "Church",
+  "force_id": "lancashire",
+  "lat": "53.759",
+  "lng": "-2.38929",
+  "population": 3769,
+  "total_crimes": 340,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "burglary": 15,
+    "criminal-damage-arson": 29,
+    "drugs": 7,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 32,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 29,
+    "violent-crime": 124,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 90.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

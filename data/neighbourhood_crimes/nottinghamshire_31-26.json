@@ -1,1 +1,27 @@
-{"neighbourhood_id": "31-26", "neighbourhood_name": "West Bridgford", "force_id": "nottinghamshire", "lat": "52.9285", "lng": "-1.10715", "population": 12098, "total_crimes": 101, "categories": {"anti-social-behaviour": 20, "burglary": 2, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 9, "public-order": 7, "robbery": 2, "shoplifting": 19, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 21, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-26",
+  "neighbourhood_name": "West Bridgford",
+  "force_id": "nottinghamshire",
+  "lat": "52.9285",
+  "lng": "-1.10715",
+  "population": 43059,
+  "total_crimes": 101,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 9,
+    "public-order": 7,
+    "robbery": 2,
+    "shoplifting": 19,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 21,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

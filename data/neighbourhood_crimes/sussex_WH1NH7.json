@@ -1,1 +1,19 @@
-{"neighbourhood_id": "WH1NH7", "neighbourhood_name": "Rudgwick, Itchingfield and Slinfold", "force_id": "sussex", "lat": "51.0734", "lng": "-0.405682", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 3, "vehicle-crime": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WH1NH7",
+  "neighbourhood_name": "Rudgwick, Itchingfield and Slinfold",
+  "force_id": "sussex",
+  "lat": "51.0734",
+  "lng": "-0.405682",
+  "population": 9021,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

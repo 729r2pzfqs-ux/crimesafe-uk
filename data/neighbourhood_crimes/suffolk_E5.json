@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E5", "neighbourhood_name": "Kirkley", "force_id": "suffolk", "lat": "52.466", "lng": "1.74184", "population": 12098, "total_crimes": 260, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 7, "burglary": 6, "criminal-damage-arson": 30, "drugs": 3, "other-theft": 10, "possession-of-weapons": 6, "public-order": 12, "robbery": 3, "shoplifting": 38, "theft-from-the-person": 2, "vehicle-crime": 8, "violent-crime": 113, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E5",
+  "neighbourhood_name": "Kirkley",
+  "force_id": "suffolk",
+  "lat": "52.466",
+  "lng": "1.74184",
+  "population": 7629,
+  "total_crimes": 260,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 7,
+    "burglary": 6,
+    "criminal-damage-arson": 30,
+    "drugs": 3,
+    "other-theft": 10,
+    "possession-of-weapons": 6,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 38,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 113,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

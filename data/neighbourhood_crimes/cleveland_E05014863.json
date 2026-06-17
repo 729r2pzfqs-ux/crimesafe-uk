@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014863", "neighbourhood_name": "Bishopsgarth and Elm Tree", "force_id": "cleveland", "lat": "54.5791", "lng": "-1.3612", "population": 5892, "total_crimes": 282, "categories": {"anti-social-behaviour": 57, "bicycle-theft": 1, "burglary": 18, "criminal-damage-arson": 26, "drugs": 14, "other-theft": 12, "possession-of-weapons": 3, "public-order": 13, "robbery": 4, "shoplifting": 48, "vehicle-crime": 14, "violent-crime": 66, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014863",
+  "neighbourhood_name": "Bishopsgarth and Elm Tree",
+  "force_id": "cleveland",
+  "lat": "54.5791",
+  "lng": "-1.3612",
+  "population": 5961,
+  "total_crimes": 282,
+  "categories": {
+    "anti-social-behaviour": 57,
+    "bicycle-theft": 1,
+    "burglary": 18,
+    "criminal-damage-arson": 26,
+    "drugs": 14,
+    "other-theft": 12,
+    "possession-of-weapons": 3,
+    "public-order": 13,
+    "robbery": 4,
+    "shoplifting": 48,
+    "vehicle-crime": 14,
+    "violent-crime": 66,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

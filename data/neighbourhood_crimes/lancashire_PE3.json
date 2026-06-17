@@ -1,1 +1,20 @@
-{"neighbourhood_id": "PE3", "neighbourhood_name": "Barnoldswick", "force_id": "lancashire", "lat": "53.9169", "lng": "-2.20995", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 8, "criminal-damage-arson": 4, "other-theft": 3, "public-order": 1, "violent-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PE3",
+  "neighbourhood_name": "Barnoldswick",
+  "force_id": "lancashire",
+  "lat": "53.9169",
+  "lng": "-2.20995",
+  "population": 8142,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "criminal-damage-arson": 4,
+    "other-theft": 3,
+    "public-order": 1,
+    "violent-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

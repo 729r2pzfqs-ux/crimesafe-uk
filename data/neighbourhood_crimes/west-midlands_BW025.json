@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BW025", "neighbourhood_name": "Winson Green NHT ", "force_id": "west-midlands", "lat": "52.4876", "lng": "-1.93762", "population": 12098, "total_crimes": 669, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 2, "burglary": 35, "criminal-damage-arson": 48, "drugs": 25, "other-theft": 51, "possession-of-weapons": 8, "public-order": 42, "robbery": 19, "shoplifting": 22, "theft-from-the-person": 9, "vehicle-crime": 60, "violent-crime": 303, "other-crime": 25}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW025",
+  "neighbourhood_name": "Winson Green NHT ",
+  "force_id": "west-midlands",
+  "lat": "52.4876",
+  "lng": "-1.93762",
+  "population": 19789,
+  "total_crimes": 669,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 2,
+    "burglary": 35,
+    "criminal-damage-arson": 48,
+    "drugs": 25,
+    "other-theft": 51,
+    "possession-of-weapons": 8,
+    "public-order": 42,
+    "robbery": 19,
+    "shoplifting": 22,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 60,
+    "violent-crime": 303,
+    "other-crime": 25
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

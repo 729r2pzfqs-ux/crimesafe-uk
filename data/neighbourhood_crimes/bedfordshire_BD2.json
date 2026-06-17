@@ -1,1 +1,17 @@
-{"neighbourhood_id": "BD2", "neighbourhood_name": "Bromham, Oakley, Wootton", "force_id": "bedfordshire", "lat": "52.1386", "lng": "-0.551294", "population": "0", "total_crimes": 9, "categories": {"anti-social-behaviour": 3, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD2",
+  "neighbourhood_name": "Bromham, Oakley, Wootton",
+  "force_id": "bedfordshire",
+  "lat": "52.1386",
+  "lng": "-0.551294",
+  "population": 20312,
+  "total_crimes": 9,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

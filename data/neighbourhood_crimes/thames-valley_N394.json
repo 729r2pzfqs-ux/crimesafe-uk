@@ -1,1 +1,28 @@
-{"neighbourhood_id": "N394", "neighbourhood_name": "Windsor Central", "force_id": "thames-valley", "lat": "51.4852", "lng": "-0.612601", "population": 12098, "total_crimes": 174, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 8, "burglary": 11, "criminal-damage-arson": 13, "drugs": 9, "other-theft": 12, "possession-of-weapons": 1, "public-order": 17, "shoplifting": 31, "theft-from-the-person": 5, "vehicle-crime": 5, "violent-crime": 43, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N394",
+  "neighbourhood_name": "Windsor Central",
+  "force_id": "thames-valley",
+  "lat": "51.4852",
+  "lng": "-0.612601",
+  "population": 12926,
+  "total_crimes": 174,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 8,
+    "burglary": 11,
+    "criminal-damage-arson": 13,
+    "drugs": 9,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 17,
+    "shoplifting": 31,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 5,
+    "violent-crime": 43,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

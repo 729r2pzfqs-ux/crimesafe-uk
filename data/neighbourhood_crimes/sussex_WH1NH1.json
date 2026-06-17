@@ -1,1 +1,21 @@
-{"neighbourhood_id": "WH1NH1", "neighbourhood_name": "Holbrook East and West", "force_id": "sussex", "lat": "51.0906", "lng": "-0.311079", "population": 12098, "total_crimes": 34, "categories": {"anti-social-behaviour": 8, "drugs": 2, "other-theft": 2, "robbery": 2, "violent-crime": 18, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WH1NH1",
+  "neighbourhood_name": "Holbrook East and West",
+  "force_id": "sussex",
+  "lat": "51.0906",
+  "lng": "-0.311079",
+  "population": 11595,
+  "total_crimes": 34,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "drugs": 2,
+    "other-theft": 2,
+    "robbery": 2,
+    "violent-crime": 18,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

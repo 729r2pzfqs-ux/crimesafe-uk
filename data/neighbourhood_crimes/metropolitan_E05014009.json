@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014009", "neighbourhood_name": "Balham", "force_id": "metropolitan", "lat": "51.4488", "lng": "-0.153587", "population": 12098, "total_crimes": 613, "categories": {"anti-social-behaviour": 125, "bicycle-theft": 15, "burglary": 29, "criminal-damage-arson": 26, "drugs": 18, "other-theft": 41, "possession-of-weapons": 2, "public-order": 35, "robbery": 17, "shoplifting": 72, "theft-from-the-person": 32, "vehicle-crime": 64, "violent-crime": 129, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014009",
+  "neighbourhood_name": "Balham",
+  "force_id": "metropolitan",
+  "lat": "51.4488",
+  "lng": "-0.153587",
+  "population": 17024,
+  "total_crimes": 613,
+  "categories": {
+    "anti-social-behaviour": 125,
+    "bicycle-theft": 15,
+    "burglary": 29,
+    "criminal-damage-arson": 26,
+    "drugs": 18,
+    "other-theft": 41,
+    "possession-of-weapons": 2,
+    "public-order": 35,
+    "robbery": 17,
+    "shoplifting": 72,
+    "theft-from-the-person": 32,
+    "vehicle-crime": 64,
+    "violent-crime": 129,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 36.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

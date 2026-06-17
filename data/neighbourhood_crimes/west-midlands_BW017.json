@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BW017", "neighbourhood_name": "Perry Barr", "force_id": "west-midlands", "lat": "52.5265", "lng": "-1.89775", "population": 12098, "total_crimes": 339, "categories": {"anti-social-behaviour": 7, "burglary": 14, "criminal-damage-arson": 35, "drugs": 27, "other-theft": 20, "possession-of-weapons": 11, "public-order": 25, "robbery": 9, "shoplifting": 18, "theft-from-the-person": 3, "vehicle-crime": 26, "violent-crime": 141, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW017",
+  "neighbourhood_name": "Perry Barr",
+  "force_id": "west-midlands",
+  "lat": "52.5265",
+  "lng": "-1.89775",
+  "population": 24244,
+  "total_crimes": 339,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 14,
+    "criminal-damage-arson": 35,
+    "drugs": 27,
+    "other-theft": 20,
+    "possession-of-weapons": 11,
+    "public-order": 25,
+    "robbery": 9,
+    "shoplifting": 18,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 26,
+    "violent-crime": 141,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

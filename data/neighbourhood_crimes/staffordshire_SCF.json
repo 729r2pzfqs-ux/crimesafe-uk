@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SCF", "neighbourhood_name": "Abbey Hulton &amp; Townsend", "force_id": "staffordshire", "lat": "53.0318", "lng": "-2.13586", "population": 12098, "total_crimes": 171, "categories": {"anti-social-behaviour": 15, "burglary": 2, "criminal-damage-arson": 21, "drugs": 2, "other-theft": 8, "possession-of-weapons": 1, "public-order": 13, "robbery": 3, "shoplifting": 12, "vehicle-crime": 2, "violent-crime": 90, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SCF",
+  "neighbourhood_name": "Abbey Hulton &amp; Townsend",
+  "force_id": "staffordshire",
+  "lat": "53.0318",
+  "lng": "-2.13586",
+  "population": 10320,
+  "total_crimes": 171,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 2,
+    "criminal-damage-arson": 21,
+    "drugs": 2,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "robbery": 3,
+    "shoplifting": 12,
+    "vehicle-crime": 2,
+    "violent-crime": 90,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

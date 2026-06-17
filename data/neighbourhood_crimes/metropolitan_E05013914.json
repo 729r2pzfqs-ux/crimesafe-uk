@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013914", "neighbourhood_name": "Green Street West", "force_id": "metropolitan", "lat": "51.5402", "lng": "0.0282816", "population": 15789, "total_crimes": 1472, "categories": {"anti-social-behaviour": 329, "bicycle-theft": 18, "burglary": 42, "criminal-damage-arson": 79, "drugs": 51, "other-theft": 100, "possession-of-weapons": 7, "public-order": 72, "robbery": 32, "shoplifting": 66, "theft-from-the-person": 178, "vehicle-crime": 114, "violent-crime": 377, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013914",
+  "neighbourhood_name": "Green Street West",
+  "force_id": "metropolitan",
+  "lat": "51.5402",
+  "lng": "0.0282816",
+  "population": 15020,
+  "total_crimes": 1472,
+  "categories": {
+    "anti-social-behaviour": 329,
+    "bicycle-theft": 18,
+    "burglary": 42,
+    "criminal-damage-arson": 79,
+    "drugs": 51,
+    "other-theft": 100,
+    "possession-of-weapons": 7,
+    "public-order": 72,
+    "robbery": 32,
+    "shoplifting": 66,
+    "theft-from-the-person": 178,
+    "vehicle-crime": 114,
+    "violent-crime": 377,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 98.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

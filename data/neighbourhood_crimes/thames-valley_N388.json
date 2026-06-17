@@ -1,1 +1,24 @@
-{"neighbourhood_id": "N388", "neighbourhood_name": "Witney", "force_id": "thames-valley", "lat": "51.795", "lng": "-1.51957", "population": 12098, "total_crimes": 45, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 1, "criminal-damage-arson": 3, "drugs": 2, "public-order": 5, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N388",
+  "neighbourhood_name": "Witney",
+  "force_id": "thames-valley",
+  "lat": "51.795",
+  "lng": "-1.51957",
+  "population": 35633,
+  "total_crimes": 45,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 2,
+    "public-order": 5,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 22
+}

@@ -1,1 +1,20 @@
-{"neighbourhood_id": "YMW34", "neighbourhood_name": "Llanfihangel Ysgeifiog", "force_id": "north-wales", "lat": "53.2304", "lng": "-4.26649", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 3, "other-theft": 1, "vehicle-crime": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW34",
+  "neighbourhood_name": "Llanfihangel Ysgeifiog",
+  "force_id": "north-wales",
+  "lat": "53.2304",
+  "lng": "-4.26649",
+  "population": 2107,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "other-theft": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 2,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

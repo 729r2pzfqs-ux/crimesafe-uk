@@ -1,1 +1,21 @@
-{"neighbourhood_id": "YB67", "neighbourhood_name": "Higham", "force_id": "kent", "lat": "51.2137", "lng": "0.303149", "population": 12098, "total_crimes": 36, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 7, "other-theft": 1, "public-order": 1, "shoplifting": 1, "violent-crime": 22}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB67",
+  "neighbourhood_name": "Higham",
+  "force_id": "kent",
+  "lat": "51.2137",
+  "lng": "0.303149",
+  "population": 6054,
+  "total_crimes": 36,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 7,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 1,
+    "violent-crime": 22
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

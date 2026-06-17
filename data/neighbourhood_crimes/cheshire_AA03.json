@@ -1,1 +1,28 @@
-{"neighbourhood_id": "AA03", "neighbourhood_name": "Garden Quarter", "force_id": "cheshire", "lat": "53.1954", "lng": "-2.90339", "population": "0", "total_crimes": 456, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 21, "drugs": 52, "other-theft": 31, "possession-of-weapons": 2, "public-order": 48, "shoplifting": 75, "theft-from-the-person": 2, "vehicle-crime": 3, "violent-crime": 182, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AA03",
+  "neighbourhood_name": "Garden Quarter",
+  "force_id": "cheshire",
+  "lat": "53.1954",
+  "lng": "-2.90339",
+  "population": 4678,
+  "total_crimes": 456,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 21,
+    "drugs": 52,
+    "other-theft": 31,
+    "possession-of-weapons": 2,
+    "public-order": 48,
+    "shoplifting": 75,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 182,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 97.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

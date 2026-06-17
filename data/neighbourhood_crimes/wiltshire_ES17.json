@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ES17", "neighbourhood_name": "Harnham", "force_id": "wiltshire", "lat": "51.0591", "lng": "-1.79934", "population": 12098, "total_crimes": 222, "categories": {"anti-social-behaviour": 36, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 30, "drugs": 6, "other-theft": 6, "possession-of-weapons": 3, "public-order": 20, "shoplifting": 22, "theft-from-the-person": 4, "vehicle-crime": 6, "violent-crime": 79, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES17",
+  "neighbourhood_name": "Harnham",
+  "force_id": "wiltshire",
+  "lat": "51.0591",
+  "lng": "-1.79934",
+  "population": 7488,
+  "total_crimes": 222,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 30,
+    "drugs": 6,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 20,
+    "shoplifting": 22,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 6,
+    "violent-crime": 79,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

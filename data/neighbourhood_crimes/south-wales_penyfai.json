@@ -1,1 +1,21 @@
-{"neighbourhood_id": "penyfai", "neighbourhood_name": "Pen-y-Fai", "force_id": "south-wales", "lat": "51.5259", "lng": "-3.60333", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 3, "public-order": 3, "robbery": 1, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penyfai",
+  "neighbourhood_name": "Pen-y-Fai",
+  "force_id": "south-wales",
+  "lat": "51.5259",
+  "lng": "-3.60333",
+  "population": 2442,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 3,
+    "public-order": 3,
+    "robbery": 1,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

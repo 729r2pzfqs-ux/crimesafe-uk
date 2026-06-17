@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05008141", "neighbourhood_name": "Shrewsbury Town Centre and Monkmoor", "force_id": "west-mercia", "lat": "52.7075", "lng": "-2.73275", "population": 12838, "total_crimes": 224, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 5, "burglary": 5, "criminal-damage-arson": 21, "drugs": 18, "other-theft": 10, "possession-of-weapons": 2, "public-order": 10, "robbery": 2, "shoplifting": 21, "vehicle-crime": 1, "violent-crime": 97, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05008141",
+  "neighbourhood_name": "Shrewsbury Town Centre and Monkmoor",
+  "force_id": "west-mercia",
+  "lat": "52.7075",
+  "lng": "-2.73275",
+  "population": 13460,
+  "total_crimes": 224,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "bicycle-theft": 5,
+    "burglary": 5,
+    "criminal-damage-arson": 21,
+    "drugs": 18,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 10,
+    "robbery": 2,
+    "shoplifting": 21,
+    "vehicle-crime": 1,
+    "violent-crime": 97,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

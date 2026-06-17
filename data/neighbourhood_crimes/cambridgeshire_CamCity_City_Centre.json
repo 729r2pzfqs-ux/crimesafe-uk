@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CamCity_City_Centre", "neighbourhood_name": "Cambridge City Centre and West", "force_id": "cambridgeshire", "lat": "52.2093", "lng": "0.103157", "population": "9140", "total_crimes": 350, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 25, "burglary": 5, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 32, "possession-of-weapons": 3, "public-order": 13, "robbery": 3, "shoplifting": 61, "theft-from-the-person": 17, "vehicle-crime": 16, "violent-crime": 98, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CamCity_City_Centre",
+  "neighbourhood_name": "Cambridge City Centre and West",
+  "force_id": "cambridgeshire",
+  "lat": "52.2093",
+  "lng": "0.103157",
+  "population": 5224,
+  "total_crimes": 350,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 25,
+    "burglary": 5,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 32,
+    "possession-of-weapons": 3,
+    "public-order": 13,
+    "robbery": 3,
+    "shoplifting": 61,
+    "theft-from-the-person": 17,
+    "vehicle-crime": 16,
+    "violent-crime": 98,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 67.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

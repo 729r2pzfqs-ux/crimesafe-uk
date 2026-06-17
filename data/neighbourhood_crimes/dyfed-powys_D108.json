@@ -1,1 +1,17 @@
-{"neighbourhood_id": "D108", "neighbourhood_name": "Montgomery", "force_id": "dyfed-powys", "lat": "52.5603", "lng": "-3.15378", "population": 12098, "total_crimes": 5, "categories": {"anti-social-behaviour": 3, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D108",
+  "neighbourhood_name": "Montgomery",
+  "force_id": "dyfed-powys",
+  "lat": "52.5603",
+  "lng": "-3.15378",
+  "population": 1286,
+  "total_crimes": 5,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

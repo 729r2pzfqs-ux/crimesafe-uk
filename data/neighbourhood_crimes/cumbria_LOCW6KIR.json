@@ -1,1 +1,14 @@
-{"neighbourhood_id": "LOCW6KIR", "neighbourhood_name": "Kirkby Lonsdale, Sedbergh and Milnthorpe", "force_id": "cumbria", "lat": "54.2775", "lng": "-2.59422", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCW6KIR",
+  "neighbourhood_name": "Kirkby Lonsdale, Sedbergh and Milnthorpe",
+  "force_id": "cumbria",
+  "lat": "54.2775",
+  "lng": "-2.59422",
+  "population": 12999,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

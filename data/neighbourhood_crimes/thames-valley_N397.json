@@ -1,1 +1,26 @@
-{"neighbourhood_id": "N397", "neighbourhood_name": "Earley", "force_id": "thames-valley", "lat": "51.4323", "lng": "-0.920274", "population": 12098, "total_crimes": 130, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 7, "drugs": 9, "other-theft": 5, "public-order": 7, "shoplifting": 33, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 41, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N397",
+  "neighbourhood_name": "Earley",
+  "force_id": "thames-valley",
+  "lat": "51.4323",
+  "lng": "-0.920274",
+  "population": 25214,
+  "total_crimes": 130,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 9,
+    "other-theft": 5,
+    "public-order": 7,
+    "shoplifting": 33,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 41,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

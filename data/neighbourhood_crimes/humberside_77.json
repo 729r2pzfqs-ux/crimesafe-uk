@@ -1,1 +1,28 @@
-{"neighbourhood_id": "77", "neighbourhood_name": "Hainton &amp; Heneage", "force_id": "humberside", "lat": "53.5537", "lng": "-0.0615836", "population": 12098, "total_crimes": 343, "categories": {"anti-social-behaviour": 16, "bicycle-theft": 4, "burglary": 9, "criminal-damage-arson": 35, "drugs": 7, "other-theft": 14, "possession-of-weapons": 3, "public-order": 21, "robbery": 4, "shoplifting": 55, "vehicle-crime": 12, "violent-crime": 156, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "77",
+  "neighbourhood_name": "Hainton &amp; Heneage",
+  "force_id": "humberside",
+  "lat": "53.5537",
+  "lng": "-0.0615836",
+  "population": 11904,
+  "total_crimes": 343,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "bicycle-theft": 4,
+    "burglary": 9,
+    "criminal-damage-arson": 35,
+    "drugs": 7,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 21,
+    "robbery": 4,
+    "shoplifting": 55,
+    "vehicle-crime": 12,
+    "violent-crime": 156,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

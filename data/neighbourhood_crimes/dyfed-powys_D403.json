@@ -1,1 +1,25 @@
-{"neighbourhood_id": "D403", "neighbourhood_name": "St. John", "force_id": "dyfed-powys", "lat": "51.9556", "lng": "-3.40325", "population": 12098, "total_crimes": 69, "categories": {"anti-social-behaviour": 8, "burglary": 6, "criminal-damage-arson": 8, "drugs": 2, "other-theft": 1, "public-order": 3, "shoplifting": 3, "vehicle-crime": 3, "violent-crime": 34, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D403",
+  "neighbourhood_name": "St. John",
+  "force_id": "dyfed-powys",
+  "lat": "51.9556",
+  "lng": "-3.40325",
+  "population": 3213,
+  "total_crimes": 69,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 6,
+    "criminal-damage-arson": 8,
+    "drugs": 2,
+    "other-theft": 1,
+    "public-order": 3,
+    "shoplifting": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 34,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

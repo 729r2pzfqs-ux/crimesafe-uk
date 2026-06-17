@@ -1,1 +1,20 @@
-{"neighbourhood_id": "EP0", "neighbourhood_name": "Tutbury &amp; Rolleston", "force_id": "staffordshire", "lat": "52.8394", "lng": "-1.68374", "population": 12098, "total_crimes": 11, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EP0",
+  "neighbourhood_name": "Tutbury &amp; Rolleston",
+  "force_id": "staffordshire",
+  "lat": "52.8394",
+  "lng": "-1.68374",
+  "population": 9798,
+  "total_crimes": 11,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

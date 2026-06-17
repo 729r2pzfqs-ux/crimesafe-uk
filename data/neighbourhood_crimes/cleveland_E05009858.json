@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05009858", "neighbourhood_name": "Coulby Newham", "force_id": "cleveland", "lat": "54.5204", "lng": "-1.21764", "population": "0", "total_crimes": 236, "categories": {"anti-social-behaviour": 62, "burglary": 5, "criminal-damage-arson": 39, "drugs": 6, "other-theft": 8, "public-order": 20, "robbery": 2, "shoplifting": 7, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 73, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009858",
+  "neighbourhood_name": "Coulby Newham",
+  "force_id": "cleveland",
+  "lat": "54.5204",
+  "lng": "-1.21764",
+  "population": 8507,
+  "total_crimes": 236,
+  "categories": {
+    "anti-social-behaviour": 62,
+    "burglary": 5,
+    "criminal-damage-arson": 39,
+    "drugs": 6,
+    "other-theft": 8,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 7,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 73,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

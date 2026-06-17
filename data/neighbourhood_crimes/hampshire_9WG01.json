@@ -1,1 +1,16 @@
-{"neighbourhood_id": "9WG01", "neighbourhood_name": "Twyford, Colden Common, Owslebury and Curbridge", "force_id": "hampshire", "lat": "50.9679", "lng": "-1.25405", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9WG01",
+  "neighbourhood_name": "Twyford, Colden Common, Owslebury and Curbridge",
+  "force_id": "hampshire",
+  "lat": "50.9679",
+  "lng": "-1.25405",
+  "population": 14186,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

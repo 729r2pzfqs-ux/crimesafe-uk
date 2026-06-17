@@ -1,1 +1,26 @@
-{"neighbourhood_id": "cymer", "neighbourhood_name": "Cymer", "force_id": "south-wales", "lat": "51.6112", "lng": "-3.40116", "population": 12098, "total_crimes": 86, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 10, "drugs": 1, "other-theft": 5, "possession-of-weapons": 1, "public-order": 11, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 40, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "cymer",
+  "neighbourhood_name": "Cymer",
+  "force_id": "south-wales",
+  "lat": "51.6112",
+  "lng": "-3.40116",
+  "population": 5521,
+  "total_crimes": 86,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 10,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 11,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 40,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

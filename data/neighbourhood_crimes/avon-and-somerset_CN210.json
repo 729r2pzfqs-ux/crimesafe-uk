@@ -1,1 +1,23 @@
-{"neighbourhood_id": "CN210", "neighbourhood_name": "Bradley Stoke", "force_id": "avon-and-somerset", "lat": "51.521", "lng": "-2.51532", "population": "0", "total_crimes": 67, "categories": {"anti-social-behaviour": 3, "burglary": 4, "criminal-damage-arson": 4, "other-theft": 7, "public-order": 6, "vehicle-crime": 5, "violent-crime": 37, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CN210",
+  "neighbourhood_name": "Bradley Stoke",
+  "force_id": "avon-and-somerset",
+  "lat": "51.521",
+  "lng": "-2.51532",
+  "population": 6366,
+  "total_crimes": 67,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 4,
+    "criminal-damage-arson": 4,
+    "other-theft": 7,
+    "public-order": 6,
+    "vehicle-crime": 5,
+    "violent-crime": 37,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

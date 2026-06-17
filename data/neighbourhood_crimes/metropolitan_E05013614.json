@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013614", "neighbourhood_name": "Feltham West", "force_id": "metropolitan", "lat": "51.44", "lng": "-0.428573", "population": 12098, "total_crimes": 335, "categories": {"anti-social-behaviour": 72, "bicycle-theft": 1, "burglary": 17, "criminal-damage-arson": 21, "drugs": 10, "other-theft": 19, "possession-of-weapons": 3, "public-order": 14, "robbery": 9, "shoplifting": 38, "theft-from-the-person": 3, "vehicle-crime": 12, "violent-crime": 110, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013614",
+  "neighbourhood_name": "Feltham West",
+  "force_id": "metropolitan",
+  "lat": "51.44",
+  "lng": "-0.428573",
+  "population": 16180,
+  "total_crimes": 335,
+  "categories": {
+    "anti-social-behaviour": 72,
+    "bicycle-theft": 1,
+    "burglary": 17,
+    "criminal-damage-arson": 21,
+    "drugs": 10,
+    "other-theft": 19,
+    "possession-of-weapons": 3,
+    "public-order": 14,
+    "robbery": 9,
+    "shoplifting": 38,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 12,
+    "violent-crime": 110,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

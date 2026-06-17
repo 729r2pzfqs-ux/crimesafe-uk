@@ -1,1 +1,14 @@
-{"neighbourhood_id": "GSW34", "neighbourhood_name": "Llangelynin", "force_id": "north-wales", "lat": "52.6756", "lng": "-4.01888", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW34",
+  "neighbourhood_name": "Llangelynin",
+  "force_id": "north-wales",
+  "lat": "52.6756",
+  "lng": "-4.01888",
+  "population": 2011,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

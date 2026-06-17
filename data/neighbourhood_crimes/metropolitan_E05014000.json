@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014000", "neighbourhood_name": "Mottingham", "force_id": "metropolitan", "lat": "51.4301", "lng": "0.0415551", "population": 12098, "total_crimes": 305, "categories": {"anti-social-behaviour": 53, "burglary": 12, "criminal-damage-arson": 25, "drugs": 14, "other-theft": 14, "possession-of-weapons": 2, "public-order": 14, "robbery": 2, "shoplifting": 37, "theft-from-the-person": 2, "vehicle-crime": 37, "violent-crime": 91, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014000",
+  "neighbourhood_name": "Mottingham",
+  "force_id": "metropolitan",
+  "lat": "51.4301",
+  "lng": "0.0415551",
+  "population": 11090,
+  "total_crimes": 305,
+  "categories": {
+    "anti-social-behaviour": 53,
+    "burglary": 12,
+    "criminal-damage-arson": 25,
+    "drugs": 14,
+    "other-theft": 14,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 37,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 37,
+    "violent-crime": 91,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

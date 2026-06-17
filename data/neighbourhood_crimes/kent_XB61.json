@@ -1,1 +1,21 @@
-{"neighbourhood_id": "XB61", "neighbourhood_name": "Bobbing, Iwade and Lower Halstow", "force_id": "kent", "lat": "51.3781", "lng": "0.710794", "population": 12098, "total_crimes": 17, "categories": {"anti-social-behaviour": 6, "burglary": 1, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 2, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB61",
+  "neighbourhood_name": "Bobbing, Iwade and Lower Halstow",
+  "force_id": "kent",
+  "lat": "51.3781",
+  "lng": "0.710794",
+  "population": 5506,
+  "total_crimes": 17,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

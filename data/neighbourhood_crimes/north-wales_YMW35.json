@@ -1,1 +1,18 @@
-{"neighbourhood_id": "YMW35", "neighbourhood_name": "Rhosyr", "force_id": "north-wales", "lat": "53.164", "lng": "-4.3506", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "other-theft": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW35",
+  "neighbourhood_name": "Rhosyr",
+  "force_id": "north-wales",
+  "lat": "53.164",
+  "lng": "-4.3506",
+  "population": 2257,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "other-theft": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

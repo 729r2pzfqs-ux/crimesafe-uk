@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009372", "neighbourhood_name": "Hackney Central", "force_id": "metropolitan", "lat": "51.5481", "lng": "-0.0601288", "population": 12993, "total_crimes": 1618, "categories": {"anti-social-behaviour": 310, "bicycle-theft": 37, "burglary": 73, "criminal-damage-arson": 66, "drugs": 80, "other-theft": 107, "possession-of-weapons": 14, "public-order": 86, "robbery": 38, "shoplifting": 146, "theft-from-the-person": 167, "vehicle-crime": 76, "violent-crime": 405, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009372",
+  "neighbourhood_name": "Hackney Central",
+  "force_id": "metropolitan",
+  "lat": "51.5481",
+  "lng": "-0.0601288",
+  "population": 14656,
+  "total_crimes": 1618,
+  "categories": {
+    "anti-social-behaviour": 310,
+    "bicycle-theft": 37,
+    "burglary": 73,
+    "criminal-damage-arson": 66,
+    "drugs": 80,
+    "other-theft": 107,
+    "possession-of-weapons": 14,
+    "public-order": 86,
+    "robbery": 38,
+    "shoplifting": 146,
+    "theft-from-the-person": 167,
+    "vehicle-crime": 76,
+    "violent-crime": 405,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 110.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

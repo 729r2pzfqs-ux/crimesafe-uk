@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CC2NH8", "neighbourhood_name": "Kemp Town", "force_id": "sussex", "lat": "50.8172", "lng": "-0.117909", "population": 12098, "total_crimes": 680, "categories": {"anti-social-behaviour": 163, "bicycle-theft": 5, "burglary": 14, "criminal-damage-arson": 44, "drugs": 38, "other-theft": 50, "possession-of-weapons": 7, "public-order": 52, "robbery": 12, "shoplifting": 57, "theft-from-the-person": 2, "vehicle-crime": 14, "violent-crime": 203, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CC2NH8",
+  "neighbourhood_name": "Kemp Town",
+  "force_id": "sussex",
+  "lat": "50.8172",
+  "lng": "-0.117909",
+  "population": 8918,
+  "total_crimes": 680,
+  "categories": {
+    "anti-social-behaviour": 163,
+    "bicycle-theft": 5,
+    "burglary": 14,
+    "criminal-damage-arson": 44,
+    "drugs": 38,
+    "other-theft": 50,
+    "possession-of-weapons": 7,
+    "public-order": 52,
+    "robbery": 12,
+    "shoplifting": 57,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 14,
+    "violent-crime": 203,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 76.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

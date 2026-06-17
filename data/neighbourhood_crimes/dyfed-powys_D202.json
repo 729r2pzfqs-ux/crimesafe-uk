@@ -1,1 +1,18 @@
-{"neighbourhood_id": "D202", "neighbourhood_name": "Welshpool - Llanerchyddol", "force_id": "dyfed-powys", "lat": "52.6657", "lng": "-3.17252", "population": 12098, "total_crimes": 8, "categories": {"criminal-damage-arson": 1, "public-order": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D202",
+  "neighbourhood_name": "Welshpool - Llanerchyddol",
+  "force_id": "dyfed-powys",
+  "lat": "52.6657",
+  "lng": "-3.17252",
+  "population": 2453,
+  "total_crimes": 8,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

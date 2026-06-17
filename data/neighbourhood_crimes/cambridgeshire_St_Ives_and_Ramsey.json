@@ -1,1 +1,17 @@
-{"neighbourhood_id": "St_Ives_and_Ramsey", "neighbourhood_name": "St Ives", "force_id": "cambridgeshire", "lat": "52.387", "lng": "-0.0955221", "population": "54950", "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "St_Ives_and_Ramsey",
+  "neighbourhood_name": "St Ives",
+  "force_id": "cambridgeshire",
+  "lat": "52.387",
+  "lng": "-0.0955221",
+  "population": 57108,
+  "total_crimes": 2,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 36
+}

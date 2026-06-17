@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WRW12", "neighbourhood_name": "Bryn Cefn", "force_id": "north-wales", "lat": "53.0728", "lng": "-3.04079", "population": 12098, "total_crimes": 113, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 13, "drugs": 3, "other-theft": 2, "possession-of-weapons": 1, "public-order": 8, "robbery": 1, "shoplifting": 2, "vehicle-crime": 5, "violent-crime": 50, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW12",
+  "neighbourhood_name": "Bryn Cefn",
+  "force_id": "north-wales",
+  "lat": "53.0728",
+  "lng": "-3.04079",
+  "population": 2228,
+  "total_crimes": 113,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 3,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 50,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 50.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

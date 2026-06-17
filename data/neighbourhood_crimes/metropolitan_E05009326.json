@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009326", "neighbourhood_name": "Limehouse", "force_id": "metropolitan", "lat": "51.5096", "lng": "-0.0338269", "population": 12098, "total_crimes": 1366, "categories": {"anti-social-behaviour": 289, "bicycle-theft": 15, "burglary": 55, "criminal-damage-arson": 54, "drugs": 60, "other-theft": 83, "possession-of-weapons": 19, "public-order": 89, "robbery": 45, "shoplifting": 106, "theft-from-the-person": 65, "vehicle-crime": 117, "violent-crime": 353, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009326",
+  "neighbourhood_name": "Limehouse",
+  "force_id": "metropolitan",
+  "lat": "51.5096",
+  "lng": "-0.0338269",
+  "population": 5439,
+  "total_crimes": 1366,
+  "categories": {
+    "anti-social-behaviour": 289,
+    "bicycle-theft": 15,
+    "burglary": 55,
+    "criminal-damage-arson": 54,
+    "drugs": 60,
+    "other-theft": 83,
+    "possession-of-weapons": 19,
+    "public-order": 89,
+    "robbery": 45,
+    "shoplifting": 106,
+    "theft-from-the-person": 65,
+    "vehicle-crime": 117,
+    "violent-crime": 353,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 251.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

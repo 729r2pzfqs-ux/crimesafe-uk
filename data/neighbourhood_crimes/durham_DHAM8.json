@@ -1,1 +1,20 @@
-{"neighbourhood_id": "DHAM8", "neighbourhood_name": "Durham (Croxdale/Hett)", "force_id": "durham", "lat": "54.7281", "lng": "-1.56685", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 1, "shoplifting": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DHAM8",
+  "neighbourhood_name": "Durham (Croxdale/Hett)",
+  "force_id": "durham",
+  "lat": "54.7281",
+  "lng": "-1.56685",
+  "population": 1267,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "shoplifting": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

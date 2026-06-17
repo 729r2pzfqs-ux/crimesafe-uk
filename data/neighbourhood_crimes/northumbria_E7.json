@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E7", "neighbourhood_name": "Jesmond and Heaton", "force_id": "northumbria", "lat": "54.9921", "lng": "-1.5874", "population": 12098, "total_crimes": 258, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 2, "burglary": 24, "criminal-damage-arson": 25, "drugs": 5, "other-theft": 14, "possession-of-weapons": 1, "public-order": 13, "robbery": 4, "shoplifting": 43, "vehicle-crime": 19, "violent-crime": 43, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E7",
+  "neighbourhood_name": "Jesmond and Heaton",
+  "force_id": "northumbria",
+  "lat": "54.9921",
+  "lng": "-1.5874",
+  "population": 59764,
+  "total_crimes": 258,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 2,
+    "burglary": 24,
+    "criminal-damage-arson": 25,
+    "drugs": 5,
+    "other-theft": 14,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "robbery": 4,
+    "shoplifting": 43,
+    "vehicle-crime": 19,
+    "violent-crime": 43,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 32
+}

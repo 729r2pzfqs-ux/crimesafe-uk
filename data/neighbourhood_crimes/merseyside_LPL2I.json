@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL2I", "neighbourhood_name": "Tuebrook Larkhill", "force_id": "merseyside", "lat": "53.4304", "lng": "-2.92905", "population": 12098, "total_crimes": 477, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 2, "burglary": 12, "criminal-damage-arson": 38, "drugs": 55, "other-theft": 22, "possession-of-weapons": 7, "public-order": 32, "robbery": 7, "shoplifting": 28, "theft-from-the-person": 1, "vehicle-crime": 24, "violent-crime": 213, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL2I",
+  "neighbourhood_name": "Tuebrook Larkhill",
+  "force_id": "merseyside",
+  "lat": "53.4304",
+  "lng": "-2.92905",
+  "population": 7343,
+  "total_crimes": 477,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 2,
+    "burglary": 12,
+    "criminal-damage-arson": 38,
+    "drugs": 55,
+    "other-theft": 22,
+    "possession-of-weapons": 7,
+    "public-order": 32,
+    "robbery": 7,
+    "shoplifting": 28,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 24,
+    "violent-crime": 213,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

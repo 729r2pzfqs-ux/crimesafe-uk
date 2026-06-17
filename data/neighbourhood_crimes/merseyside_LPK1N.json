@@ -1,1 +1,21 @@
-{"neighbourhood_id": "LPK1N", "neighbourhood_name": "Halewood North", "force_id": "merseyside", "lat": "53.3805", "lng": "-2.81822", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 1, "drugs": 1, "other-theft": 1, "public-order": 3, "vehicle-crime": 1, "violent-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPK1N",
+  "neighbourhood_name": "Halewood North",
+  "force_id": "merseyside",
+  "lat": "53.3805",
+  "lng": "-2.81822",
+  "population": 8251,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

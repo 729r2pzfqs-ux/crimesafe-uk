@@ -1,1 +1,14 @@
-{"neighbourhood_id": "E13", "neighbourhood_name": "Leiston, Saxmundham and Aldeburgh", "force_id": "suffolk", "lat": "52.2001", "lng": "1.53528", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E13",
+  "neighbourhood_name": "Leiston, Saxmundham and Aldeburgh",
+  "force_id": "suffolk",
+  "lat": "52.2001",
+  "lng": "1.53528",
+  "population": 17921,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

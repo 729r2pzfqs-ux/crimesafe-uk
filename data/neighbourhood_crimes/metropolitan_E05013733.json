@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013733", "neighbourhood_name": "Addison", "force_id": "metropolitan", "lat": "51.5008", "lng": "-0.220823", "population": 6433, "total_crimes": 1492, "categories": {"anti-social-behaviour": 313, "bicycle-theft": 14, "burglary": 49, "criminal-damage-arson": 77, "drugs": 72, "other-theft": 125, "possession-of-weapons": 10, "public-order": 102, "robbery": 18, "shoplifting": 252, "theft-from-the-person": 62, "vehicle-crime": 83, "violent-crime": 300, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013733",
+  "neighbourhood_name": "Addison",
+  "force_id": "metropolitan",
+  "lat": "51.5008",
+  "lng": "-0.220823",
+  "population": 6314,
+  "total_crimes": 1492,
+  "categories": {
+    "anti-social-behaviour": 313,
+    "bicycle-theft": 14,
+    "burglary": 49,
+    "criminal-damage-arson": 77,
+    "drugs": 72,
+    "other-theft": 125,
+    "possession-of-weapons": 10,
+    "public-order": 102,
+    "robbery": 18,
+    "shoplifting": 252,
+    "theft-from-the-person": 62,
+    "vehicle-crime": 83,
+    "violent-crime": 300,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 236.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

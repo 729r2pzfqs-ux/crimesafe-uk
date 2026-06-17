@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NU1", "neighbourhood_name": "Kingsbrook, Kempston, Cauldwell", "force_id": "bedfordshire", "lat": "52.1157", "lng": "-0.467834", "population": "0", "total_crimes": 299, "categories": {"anti-social-behaviour": 56, "bicycle-theft": 5, "burglary": 12, "criminal-damage-arson": 14, "drugs": 13, "other-theft": 14, "possession-of-weapons": 3, "public-order": 17, "shoplifting": 33, "theft-from-the-person": 2, "vehicle-crime": 13, "violent-crime": 111, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NU1",
+  "neighbourhood_name": "Kingsbrook, Kempston, Cauldwell",
+  "force_id": "bedfordshire",
+  "lat": "52.1157",
+  "lng": "-0.467834",
+  "population": 35439,
+  "total_crimes": 299,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "bicycle-theft": 5,
+    "burglary": 12,
+    "criminal-damage-arson": 14,
+    "drugs": 13,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 17,
+    "shoplifting": 33,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 13,
+    "violent-crime": 111,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 23
+}

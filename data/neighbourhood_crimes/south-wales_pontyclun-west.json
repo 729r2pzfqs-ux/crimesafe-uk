@@ -1,1 +1,24 @@
-{"neighbourhood_id": "pontyclun-west", "neighbourhood_name": "Pontyclun West", "force_id": "south-wales", "lat": "51.5162", "lng": "-3.39589", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 1, "burglary": 1, "drugs": 1, "other-theft": 3, "possession-of-weapons": 1, "public-order": 1, "robbery": 1, "shoplifting": 3, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "pontyclun-west",
+  "neighbourhood_name": "Pontyclun West",
+  "force_id": "south-wales",
+  "lat": "51.5162",
+  "lng": "-3.39589",
+  "population": 1752,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 1,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 3,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013719", "neighbourhood_name": "Deptford", "force_id": "metropolitan", "lat": "51.4781", "lng": "-0.0299896", "population": 14301, "total_crimes": 924, "categories": {"anti-social-behaviour": 195, "bicycle-theft": 17, "burglary": 45, "criminal-damage-arson": 38, "drugs": 34, "other-theft": 77, "possession-of-weapons": 8, "public-order": 56, "robbery": 27, "shoplifting": 50, "theft-from-the-person": 70, "vehicle-crime": 41, "violent-crime": 254, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013719",
+  "neighbourhood_name": "Deptford",
+  "force_id": "metropolitan",
+  "lat": "51.4781",
+  "lng": "-0.0299896",
+  "population": 13254,
+  "total_crimes": 924,
+  "categories": {
+    "anti-social-behaviour": 195,
+    "bicycle-theft": 17,
+    "burglary": 45,
+    "criminal-damage-arson": 38,
+    "drugs": 34,
+    "other-theft": 77,
+    "possession-of-weapons": 8,
+    "public-order": 56,
+    "robbery": 27,
+    "shoplifting": 50,
+    "theft-from-the-person": 70,
+    "vehicle-crime": 41,
+    "violent-crime": 254,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 69.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

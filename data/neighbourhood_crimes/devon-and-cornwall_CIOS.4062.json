@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CIOS.4062", "neighbourhood_name": "Saltash Town", "force_id": "devon-and-cornwall", "lat": "50.4052", "lng": "-4.2464", "population": 12098, "total_crimes": 26, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 4, "other-theft": 1, "public-order": 2, "shoplifting": 1, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4062",
+  "neighbourhood_name": "Saltash Town",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4052",
+  "lng": "-4.2464",
+  "population": 16543,
+  "total_crimes": 26,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "other-theft": 1,
+    "public-order": 2,
+    "shoplifting": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

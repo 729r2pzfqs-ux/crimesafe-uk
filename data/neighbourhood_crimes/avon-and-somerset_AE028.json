@@ -1,1 +1,20 @@
-{"neighbourhood_id": "AE028", "neighbourhood_name": "Wincanton Town", "force_id": "avon-and-somerset", "lat": "51.0388", "lng": "-2.39921", "population": "0", "total_crimes": 5, "categories": {"burglary": 1, "other-theft": 1, "possession-of-weapons": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AE028",
+  "neighbourhood_name": "Wincanton Town",
+  "force_id": "avon-and-somerset",
+  "lat": "51.0388",
+  "lng": "-2.39921",
+  "population": 6236,
+  "total_crimes": 5,
+  "categories": {
+    "burglary": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

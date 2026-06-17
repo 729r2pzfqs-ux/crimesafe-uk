@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-56", "neighbourhood_name": "Meadows", "force_id": "nottinghamshire", "lat": "52.9383", "lng": "-1.15434", "population": 12098, "total_crimes": 484, "categories": {"anti-social-behaviour": 87, "bicycle-theft": 10, "burglary": 17, "criminal-damage-arson": 29, "drugs": 7, "other-theft": 33, "possession-of-weapons": 9, "public-order": 26, "robbery": 12, "shoplifting": 95, "theft-from-the-person": 7, "vehicle-crime": 13, "violent-crime": 131, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-56",
+  "neighbourhood_name": "Meadows",
+  "force_id": "nottinghamshire",
+  "lat": "52.9383",
+  "lng": "-1.15434",
+  "population": 9405,
+  "total_crimes": 484,
+  "categories": {
+    "anti-social-behaviour": 87,
+    "bicycle-theft": 10,
+    "burglary": 17,
+    "criminal-damage-arson": 29,
+    "drugs": 7,
+    "other-theft": 33,
+    "possession-of-weapons": 9,
+    "public-order": 26,
+    "robbery": 12,
+    "shoplifting": 95,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 13,
+    "violent-crime": 131,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 51.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

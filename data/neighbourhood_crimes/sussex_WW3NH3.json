@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WW3NH3", "neighbourhood_name": "Manor", "force_id": "sussex", "lat": "50.8486", "lng": "-0.315488", "population": 12098, "total_crimes": 34, "categories": {"anti-social-behaviour": 12, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 5, "possession-of-weapons": 1, "public-order": 3, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WW3NH3",
+  "neighbourhood_name": "Manor",
+  "force_id": "sussex",
+  "lat": "50.8486",
+  "lng": "-0.315488",
+  "population": 4459,
+  "total_crimes": 34,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

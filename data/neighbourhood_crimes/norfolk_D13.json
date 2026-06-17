@@ -1,1 +1,18 @@
-{"neighbourhood_id": "D13", "neighbourhood_name": "Hethersett and Mulbarton", "force_id": "norfolk", "lat": "52.5862", "lng": "1.21912", "population": 12098, "total_crimes": 4, "categories": {"criminal-damage-arson": 1, "public-order": 2, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D13",
+  "neighbourhood_name": "Hethersett and Mulbarton",
+  "force_id": "norfolk",
+  "lat": "52.5862",
+  "lng": "1.21912",
+  "population": 19207,
+  "total_crimes": 4,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "public-order": 2,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

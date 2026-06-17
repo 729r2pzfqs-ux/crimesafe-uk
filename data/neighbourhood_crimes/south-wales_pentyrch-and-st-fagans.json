@@ -1,1 +1,20 @@
-{"neighbourhood_id": "pentyrch-and-st-fagans", "neighbourhood_name": "Pentyrch and St. Fagans", "force_id": "south-wales", "lat": "51.5134", "lng": "-3.29611", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "pentyrch-and-st-fagans",
+  "neighbourhood_name": "Pentyrch and St. Fagans",
+  "force_id": "south-wales",
+  "lat": "51.5134",
+  "lng": "-3.29611",
+  "population": 8542,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

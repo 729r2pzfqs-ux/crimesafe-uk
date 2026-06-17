@@ -1,1 +1,22 @@
-{"neighbourhood_id": "SR7", "neighbourhood_name": "Coupe Green &amp; Gregson Lane", "force_id": "lancashire", "lat": "53.7325", "lng": "-2.62634", "population": 12098, "total_crimes": 26, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 4, "public-order": 1, "vehicle-crime": 2, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR7",
+  "neighbourhood_name": "Coupe Green &amp; Gregson Lane",
+  "force_id": "lancashire",
+  "lat": "53.7325",
+  "lng": "-2.62634",
+  "population": 5333,
+  "total_crimes": 26,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

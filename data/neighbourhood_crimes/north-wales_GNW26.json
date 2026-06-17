@@ -1,1 +1,19 @@
-{"neighbourhood_id": "GNW26", "neighbourhood_name": "Penygroes", "force_id": "north-wales", "lat": "53.0531", "lng": "-4.29275", "population": 12098, "total_crimes": 17, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 3, "public-order": 2, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GNW26",
+  "neighbourhood_name": "Penygroes",
+  "force_id": "north-wales",
+  "lat": "53.0531",
+  "lng": "-4.29275",
+  "population": 1922,
+  "total_crimes": 17,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 3,
+    "public-order": 2,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

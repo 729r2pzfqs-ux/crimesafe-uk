@@ -1,1 +1,21 @@
-{"neighbourhood_id": "NC49", "neighbourhood_name": "Wainfleet and Burgh Le Marsh", "force_id": "lincolnshire", "lat": "53.0932", "lng": "0.234163", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 3, "other-theft": 1, "public-order": 1, "shoplifting": 3, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC49",
+  "neighbourhood_name": "Wainfleet and Burgh Le Marsh",
+  "force_id": "lincolnshire",
+  "lat": "53.0932",
+  "lng": "0.234163",
+  "population": 9115,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 3,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

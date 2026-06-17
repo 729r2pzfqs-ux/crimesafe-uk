@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011104", "neighbourhood_name": "London Bridge and West Bermondsey", "force_id": "metropolitan", "lat": "51.5", "lng": "-0.0809304", "population": 5707, "total_crimes": 2067, "categories": {"anti-social-behaviour": 309, "bicycle-theft": 40, "burglary": 103, "criminal-damage-arson": 71, "drugs": 89, "other-theft": 280, "possession-of-weapons": 17, "public-order": 87, "robbery": 106, "shoplifting": 108, "theft-from-the-person": 419, "vehicle-crime": 64, "violent-crime": 356, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011104",
+  "neighbourhood_name": "London Bridge and West Bermondsey",
+  "force_id": "metropolitan",
+  "lat": "51.5",
+  "lng": "-0.0809304",
+  "population": 9840,
+  "total_crimes": 2067,
+  "categories": {
+    "anti-social-behaviour": 309,
+    "bicycle-theft": 40,
+    "burglary": 103,
+    "criminal-damage-arson": 71,
+    "drugs": 89,
+    "other-theft": 280,
+    "possession-of-weapons": 17,
+    "public-order": 87,
+    "robbery": 106,
+    "shoplifting": 108,
+    "theft-from-the-person": 419,
+    "vehicle-crime": 64,
+    "violent-crime": 356,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 210.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

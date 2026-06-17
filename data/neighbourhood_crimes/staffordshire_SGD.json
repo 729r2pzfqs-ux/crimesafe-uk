@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SGD", "neighbourhood_name": "Boothen &amp; Oak Hill", "force_id": "staffordshire", "lat": "52.9958", "lng": "-2.18748", "population": 12098, "total_crimes": 408, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 9, "burglary": 15, "criminal-damage-arson": 33, "drugs": 15, "other-theft": 26, "possession-of-weapons": 6, "public-order": 41, "robbery": 10, "shoplifting": 34, "vehicle-crime": 12, "violent-crime": 143, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SGD",
+  "neighbourhood_name": "Boothen &amp; Oak Hill",
+  "force_id": "staffordshire",
+  "lat": "52.9958",
+  "lng": "-2.18748",
+  "population": 5333,
+  "total_crimes": 408,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 9,
+    "burglary": 15,
+    "criminal-damage-arson": 33,
+    "drugs": 15,
+    "other-theft": 26,
+    "possession-of-weapons": 6,
+    "public-order": 41,
+    "robbery": 10,
+    "shoplifting": 34,
+    "vehicle-crime": 12,
+    "violent-crime": 143,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 76.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

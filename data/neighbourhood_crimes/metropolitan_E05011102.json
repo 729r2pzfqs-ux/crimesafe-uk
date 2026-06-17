@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011102", "neighbourhood_name": "Faraday", "force_id": "metropolitan", "lat": "51.4855", "lng": "-0.0849708", "population": 12098, "total_crimes": 1746, "categories": {"anti-social-behaviour": 352, "bicycle-theft": 32, "burglary": 67, "criminal-damage-arson": 81, "drugs": 92, "other-theft": 128, "possession-of-weapons": 18, "public-order": 91, "robbery": 65, "shoplifting": 174, "theft-from-the-person": 177, "vehicle-crime": 76, "violent-crime": 373, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011102",
+  "neighbourhood_name": "Faraday",
+  "force_id": "metropolitan",
+  "lat": "51.4855",
+  "lng": "-0.0849708",
+  "population": 9016,
+  "total_crimes": 1746,
+  "categories": {
+    "anti-social-behaviour": 352,
+    "bicycle-theft": 32,
+    "burglary": 67,
+    "criminal-damage-arson": 81,
+    "drugs": 92,
+    "other-theft": 128,
+    "possession-of-weapons": 18,
+    "public-order": 91,
+    "robbery": 65,
+    "shoplifting": 174,
+    "theft-from-the-person": 177,
+    "vehicle-crime": 76,
+    "violent-crime": 373,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 193.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

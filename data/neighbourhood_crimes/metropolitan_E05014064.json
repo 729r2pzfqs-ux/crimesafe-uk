@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014064", "neighbourhood_name": "Longbridge", "force_id": "metropolitan", "lat": "51.5443", "lng": "0.0949137", "population": 12098, "total_crimes": 758, "categories": {"anti-social-behaviour": 155, "bicycle-theft": 2, "burglary": 31, "criminal-damage-arson": 40, "drugs": 46, "other-theft": 57, "possession-of-weapons": 4, "public-order": 50, "robbery": 27, "shoplifting": 20, "theft-from-the-person": 31, "vehicle-crime": 55, "violent-crime": 225, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014064",
+  "neighbourhood_name": "Longbridge",
+  "force_id": "metropolitan",
+  "lat": "51.5443",
+  "lng": "0.0949137",
+  "population": 12945,
+  "total_crimes": 758,
+  "categories": {
+    "anti-social-behaviour": 155,
+    "bicycle-theft": 2,
+    "burglary": 31,
+    "criminal-damage-arson": 40,
+    "drugs": 46,
+    "other-theft": 57,
+    "possession-of-weapons": 4,
+    "public-order": 50,
+    "robbery": 27,
+    "shoplifting": 20,
+    "theft-from-the-person": 31,
+    "vehicle-crime": 55,
+    "violent-crime": 225,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

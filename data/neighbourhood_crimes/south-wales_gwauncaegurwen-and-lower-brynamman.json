@@ -1,1 +1,20 @@
-{"neighbourhood_id": "gwauncaegurwen-and-lower-brynamman", "neighbourhood_name": "Gwaun-Cae-Gurwen and Lower Brynamman", "force_id": "south-wales", "lat": "51.7884", "lng": "-3.86437", "population": 12098, "total_crimes": 12, "categories": {"burglary": 2, "criminal-damage-arson": 1, "public-order": 2, "vehicle-crime": 2, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "gwauncaegurwen-and-lower-brynamman",
+  "neighbourhood_name": "Gwaun-Cae-Gurwen and Lower Brynamman",
+  "force_id": "south-wales",
+  "lat": "51.7884",
+  "lng": "-3.86437",
+  "population": 4355,
+  "total_crimes": 12,
+  "categories": {
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "public-order": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "RUET", "neighbourhood_name": "Egham Town", "force_id": "surrey", "lat": "51.4294", "lng": "-0.54779", "population": 12098, "total_crimes": 217, "categories": {"anti-social-behaviour": 30, "burglary": 6, "criminal-damage-arson": 9, "drugs": 3, "other-theft": 14, "possession-of-weapons": 1, "public-order": 22, "robbery": 7, "shoplifting": 55, "vehicle-crime": 9, "violent-crime": 57, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RUET",
+  "neighbourhood_name": "Egham Town",
+  "force_id": "surrey",
+  "lat": "51.4294",
+  "lng": "-0.54779",
+  "population": 6890,
+  "total_crimes": 217,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "burglary": 6,
+    "criminal-damage-arson": 9,
+    "drugs": 3,
+    "other-theft": 14,
+    "possession-of-weapons": 1,
+    "public-order": 22,
+    "robbery": 7,
+    "shoplifting": 55,
+    "vehicle-crime": 9,
+    "violent-crime": 57,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

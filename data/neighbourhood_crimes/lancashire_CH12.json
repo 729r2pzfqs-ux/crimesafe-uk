@@ -1,1 +1,26 @@
-{"neighbourhood_id": "CH12", "neighbourhood_name": "Clayton West &amp; Cuerden", "force_id": "lancashire", "lat": "53.7031", "lng": "-2.65797", "population": 12098, "total_crimes": 71, "categories": {"anti-social-behaviour": 11, "burglary": 5, "criminal-damage-arson": 4, "other-theft": 5, "possession-of-weapons": 1, "public-order": 4, "robbery": 1, "shoplifting": 8, "vehicle-crime": 1, "violent-crime": 28, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH12",
+  "neighbourhood_name": "Clayton West &amp; Cuerden",
+  "force_id": "lancashire",
+  "lat": "53.7031",
+  "lng": "-2.65797",
+  "population": 8115,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 28,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

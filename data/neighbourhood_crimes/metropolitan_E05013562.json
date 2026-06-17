@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013562", "neighbourhood_name": "Wealdstone South", "force_id": "metropolitan", "lat": "51.5952", "lng": "-0.329699", "population": 12098, "total_crimes": 511, "categories": {"anti-social-behaviour": 128, "bicycle-theft": 2, "burglary": 25, "criminal-damage-arson": 27, "drugs": 23, "other-theft": 26, "possession-of-weapons": 3, "public-order": 26, "robbery": 6, "shoplifting": 26, "theft-from-the-person": 31, "vehicle-crime": 41, "violent-crime": 140, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013562",
+  "neighbourhood_name": "Wealdstone South",
+  "force_id": "metropolitan",
+  "lat": "51.5952",
+  "lng": "-0.329699",
+  "population": 7003,
+  "total_crimes": 511,
+  "categories": {
+    "anti-social-behaviour": 128,
+    "bicycle-theft": 2,
+    "burglary": 25,
+    "criminal-damage-arson": 27,
+    "drugs": 23,
+    "other-theft": 26,
+    "possession-of-weapons": 3,
+    "public-order": 26,
+    "robbery": 6,
+    "shoplifting": 26,
+    "theft-from-the-person": 31,
+    "vehicle-crime": 41,
+    "violent-crime": 140,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

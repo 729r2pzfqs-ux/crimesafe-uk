@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BE194", "neighbourhood_name": "Harbourside and Hotwells", "force_id": "avon-and-somerset", "lat": "51.4508", "lng": "-2.61149", "population": "0", "total_crimes": 1213, "categories": {"anti-social-behaviour": 196, "bicycle-theft": 26, "burglary": 59, "criminal-damage-arson": 64, "drugs": 16, "other-theft": 108, "possession-of-weapons": 2, "public-order": 137, "robbery": 30, "shoplifting": 110, "theft-from-the-person": 16, "vehicle-crime": 52, "violent-crime": 382, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE194",
+  "neighbourhood_name": "Harbourside and Hotwells",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4508",
+  "lng": "-2.61149",
+  "population": 6040,
+  "total_crimes": 1213,
+  "categories": {
+    "anti-social-behaviour": 196,
+    "bicycle-theft": 26,
+    "burglary": 59,
+    "criminal-damage-arson": 64,
+    "drugs": 16,
+    "other-theft": 108,
+    "possession-of-weapons": 2,
+    "public-order": 137,
+    "robbery": 30,
+    "shoplifting": 110,
+    "theft-from-the-person": 16,
+    "vehicle-crime": 52,
+    "violent-crime": 382,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 200.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

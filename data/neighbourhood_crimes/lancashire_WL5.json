@@ -1,1 +1,16 @@
-{"neighbourhood_id": "WL5", "neighbourhood_name": "North Meols &amp; Hesketh Bank", "force_id": "lancashire", "lat": "53.6853", "lng": "-2.89235", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WL5",
+  "neighbourhood_name": "North Meols &amp; Hesketh Bank",
+  "force_id": "lancashire",
+  "lat": "53.6853",
+  "lng": "-2.89235",
+  "population": 7147,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

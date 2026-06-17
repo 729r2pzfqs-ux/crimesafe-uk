@@ -1,1 +1,27 @@
-{"neighbourhood_id": "PE1", "neighbourhood_name": "Vivary bridge", "force_id": "lancashire", "lat": "53.8641", "lng": "-2.18368", "population": 12098, "total_crimes": 142, "categories": {"anti-social-behaviour": 29, "burglary": 4, "criminal-damage-arson": 16, "drugs": 5, "other-theft": 8, "possession-of-weapons": 1, "public-order": 8, "robbery": 1, "shoplifting": 14, "theft-from-the-person": 1, "violent-crime": 51, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PE1",
+  "neighbourhood_name": "Vivary bridge",
+  "force_id": "lancashire",
+  "lat": "53.8641",
+  "lng": "-2.18368",
+  "population": 7098,
+  "total_crimes": 142,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 5,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 14,
+    "theft-from-the-person": 1,
+    "violent-crime": 51,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

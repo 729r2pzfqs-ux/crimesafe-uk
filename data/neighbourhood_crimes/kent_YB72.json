@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YB72", "neighbourhood_name": "Snodland East &amp; Ham Hill", "force_id": "kent", "lat": "51.3294", "lng": "0.444626", "population": 12098, "total_crimes": 158, "categories": {"anti-social-behaviour": 45, "burglary": 1, "criminal-damage-arson": 16, "other-theft": 5, "possession-of-weapons": 3, "public-order": 1, "robbery": 1, "shoplifting": 35, "vehicle-crime": 9, "violent-crime": 38, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB72",
+  "neighbourhood_name": "Snodland East &amp; Ham Hill",
+  "force_id": "kent",
+  "lat": "51.3294",
+  "lng": "0.444626",
+  "population": 4594,
+  "total_crimes": 158,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "burglary": 1,
+    "criminal-damage-arson": 16,
+    "other-theft": 5,
+    "possession-of-weapons": 3,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 35,
+    "vehicle-crime": 9,
+    "violent-crime": 38,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

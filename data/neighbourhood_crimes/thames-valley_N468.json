@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N468", "neighbourhood_name": "Redlands and Park", "force_id": "thames-valley", "lat": "51.4471", "lng": "-0.946346", "population": 12098, "total_crimes": 376, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 6, "burglary": 16, "criminal-damage-arson": 22, "drugs": 7, "other-theft": 20, "possession-of-weapons": 2, "public-order": 28, "robbery": 4, "shoplifting": 69, "theft-from-the-person": 1, "vehicle-crime": 18, "violent-crime": 143, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N468",
+  "neighbourhood_name": "Redlands and Park",
+  "force_id": "thames-valley",
+  "lat": "51.4471",
+  "lng": "-0.946346",
+  "population": 20031,
+  "total_crimes": 376,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 6,
+    "burglary": 16,
+    "criminal-damage-arson": 22,
+    "drugs": 7,
+    "other-theft": 20,
+    "possession-of-weapons": 2,
+    "public-order": 28,
+    "robbery": 4,
+    "shoplifting": 69,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 18,
+    "violent-crime": 143,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013633", "neighbourhood_name": "Colindale South", "force_id": "metropolitan", "lat": "51.5907", "lng": "-0.248069", "population": 12098, "total_crimes": 556, "categories": {"anti-social-behaviour": 125, "bicycle-theft": 6, "burglary": 33, "criminal-damage-arson": 29, "drugs": 24, "other-theft": 50, "possession-of-weapons": 2, "public-order": 27, "robbery": 18, "shoplifting": 20, "theft-from-the-person": 21, "vehicle-crime": 36, "violent-crime": 160, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013633",
+  "neighbourhood_name": "Colindale South",
+  "force_id": "metropolitan",
+  "lat": "51.5907",
+  "lng": "-0.248069",
+  "population": 1886,
+  "total_crimes": 556,
+  "categories": {
+    "anti-social-behaviour": 125,
+    "bicycle-theft": 6,
+    "burglary": 33,
+    "criminal-damage-arson": 29,
+    "drugs": 24,
+    "other-theft": 50,
+    "possession-of-weapons": 2,
+    "public-order": 27,
+    "robbery": 18,
+    "shoplifting": 20,
+    "theft-from-the-person": 21,
+    "vehicle-crime": 36,
+    "violent-crime": 160,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 294.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

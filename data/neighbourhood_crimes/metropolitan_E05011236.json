@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05011236", "neighbourhood_name": "Bridge", "force_id": "metropolitan", "lat": "51.6077", "lng": "0.0549126", "population": 12251, "total_crimes": 181, "categories": {"anti-social-behaviour": 52, "burglary": 14, "criminal-damage-arson": 9, "drugs": 1, "other-theft": 15, "public-order": 11, "robbery": 1, "theft-from-the-person": 3, "vehicle-crime": 20, "violent-crime": 53, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011236",
+  "neighbourhood_name": "Bridge",
+  "force_id": "metropolitan",
+  "lat": "51.6077",
+  "lng": "0.0549126",
+  "population": 12259,
+  "total_crimes": 181,
+  "categories": {
+    "anti-social-behaviour": 52,
+    "burglary": 14,
+    "criminal-damage-arson": 9,
+    "drugs": 1,
+    "other-theft": 15,
+    "public-order": 11,
+    "robbery": 1,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 20,
+    "violent-crime": 53,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

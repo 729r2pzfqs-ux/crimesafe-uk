@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05013695", "neighbourhood_name": "Whitewebbs", "force_id": "metropolitan", "lat": "51.6764", "lng": "-0.0835052", "population": 16038, "total_crimes": 60, "categories": {"anti-social-behaviour": 18, "burglary": 9, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 3, "public-order": 3, "robbery": 3, "shoplifting": 1, "vehicle-crime": 10, "violent-crime": 7, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013695",
+  "neighbourhood_name": "Whitewebbs",
+  "force_id": "metropolitan",
+  "lat": "51.6764",
+  "lng": "-0.0835052",
+  "population": 15687,
+  "total_crimes": 60,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 9,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 3,
+    "robbery": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 7,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

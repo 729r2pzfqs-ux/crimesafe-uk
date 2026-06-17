@@ -1,1 +1,14 @@
-{"neighbourhood_id": "YMW12", "neighbourhood_name": "Mechell", "force_id": "north-wales", "lat": "53.3931", "lng": "-4.50237", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW12",
+  "neighbourhood_name": "Mechell",
+  "force_id": "north-wales",
+  "lat": "53.3931",
+  "lng": "-4.50237",
+  "population": 1565,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

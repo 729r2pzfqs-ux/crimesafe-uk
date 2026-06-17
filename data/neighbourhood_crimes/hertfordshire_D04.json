@@ -1,1 +1,20 @@
-{"neighbourhood_id": "D04", "neighbourhood_name": "Kings Langley and Hemel Hempstead South East", "force_id": "hertfordshire", "lat": "51.7181", "lng": "-0.493304", "population": 12098, "total_crimes": 7, "categories": {"burglary": 1, "criminal-damage-arson": 1, "other-theft": 1, "vehicle-crime": 2, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D04",
+  "neighbourhood_name": "Kings Langley and Hemel Hempstead South East",
+  "force_id": "hertfordshire",
+  "lat": "51.7181",
+  "lng": "-0.493304",
+  "population": 44701,
+  "total_crimes": 7,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 27
+}

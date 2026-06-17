@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014019", "neighbourhood_name": "Shaftesbury and Queenstown", "force_id": "metropolitan", "lat": "51.472", "lng": "-0.150274", "population": 12098, "total_crimes": 1008, "categories": {"anti-social-behaviour": 222, "bicycle-theft": 26, "burglary": 71, "criminal-damage-arson": 28, "drugs": 22, "other-theft": 91, "possession-of-weapons": 9, "public-order": 49, "robbery": 40, "shoplifting": 91, "theft-from-the-person": 64, "vehicle-crime": 66, "violent-crime": 218, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014019",
+  "neighbourhood_name": "Shaftesbury and Queenstown",
+  "force_id": "metropolitan",
+  "lat": "51.472",
+  "lng": "-0.150274",
+  "population": 11539,
+  "total_crimes": 1008,
+  "categories": {
+    "anti-social-behaviour": 222,
+    "bicycle-theft": 26,
+    "burglary": 71,
+    "criminal-damage-arson": 28,
+    "drugs": 22,
+    "other-theft": 91,
+    "possession-of-weapons": 9,
+    "public-order": 49,
+    "robbery": 40,
+    "shoplifting": 91,
+    "theft-from-the-person": 64,
+    "vehicle-crime": 66,
+    "violent-crime": 218,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 87.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XD62", "neighbourhood_name": "Burnham", "force_id": "kent", "lat": "51.4541", "lng": "0.204028", "population": 12098, "total_crimes": 282, "categories": {"anti-social-behaviour": 58, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 18, "drugs": 18, "other-theft": 22, "possession-of-weapons": 2, "public-order": 9, "robbery": 1, "shoplifting": 53, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 73, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD62",
+  "neighbourhood_name": "Burnham",
+  "force_id": "kent",
+  "lat": "51.4541",
+  "lng": "0.204028",
+  "population": 3840,
+  "total_crimes": 282,
+  "categories": {
+    "anti-social-behaviour": 58,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 18,
+    "drugs": 18,
+    "other-theft": 22,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 53,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 73,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 73.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

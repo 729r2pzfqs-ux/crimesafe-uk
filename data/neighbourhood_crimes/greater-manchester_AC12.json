@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AC12", "neighbourhood_name": "Southern Gateway", "force_id": "greater-manchester", "lat": "53.4743", "lng": "-2.24383", "population": 12098, "total_crimes": 10, "categories": {"other-theft": 3, "theft-from-the-person": 2, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC12",
+  "neighbourhood_name": "Southern Gateway",
+  "force_id": "greater-manchester",
+  "lat": "53.4743",
+  "lng": "-2.24383",
+  "population": 13816,
+  "total_crimes": 10,
+  "categories": {
+    "other-theft": 3,
+    "theft-from-the-person": 2,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

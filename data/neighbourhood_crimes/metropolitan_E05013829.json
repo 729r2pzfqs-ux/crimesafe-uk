@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013829", "neighbourhood_name": "Wimbledon Town and Dundonald", "force_id": "metropolitan", "lat": "51.4174", "lng": "-0.203527", "population": 12959, "total_crimes": 361, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 8, "burglary": 15, "criminal-damage-arson": 20, "drugs": 16, "other-theft": 32, "possession-of-weapons": 2, "public-order": 19, "robbery": 12, "shoplifting": 51, "theft-from-the-person": 8, "vehicle-crime": 35, "violent-crime": 71, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013829",
+  "neighbourhood_name": "Wimbledon Town and Dundonald",
+  "force_id": "metropolitan",
+  "lat": "51.4174",
+  "lng": "-0.203527",
+  "population": 13112,
+  "total_crimes": 361,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 8,
+    "burglary": 15,
+    "criminal-damage-arson": 20,
+    "drugs": 16,
+    "other-theft": 32,
+    "possession-of-weapons": 2,
+    "public-order": 19,
+    "robbery": 12,
+    "shoplifting": 51,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 35,
+    "violent-crime": 71,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

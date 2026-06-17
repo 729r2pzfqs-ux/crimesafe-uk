@@ -1,1 +1,29 @@
-{"neighbourhood_id": "lsn", "neighbourhood_name": "Leamington North", "force_id": "warwickshire", "lat": "52.2978", "lng": "-1.52608", "population": 12098, "total_crimes": 310, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 13, "burglary": 7, "criminal-damage-arson": 23, "drugs": 6, "other-theft": 23, "possession-of-weapons": 4, "public-order": 16, "robbery": 3, "shoplifting": 45, "theft-from-the-person": 3, "vehicle-crime": 17, "violent-crime": 85, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "lsn",
+  "neighbourhood_name": "Leamington North",
+  "force_id": "warwickshire",
+  "lat": "52.2978",
+  "lng": "-1.52608",
+  "population": 28861,
+  "total_crimes": 310,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 13,
+    "burglary": 7,
+    "criminal-damage-arson": 23,
+    "drugs": 6,
+    "other-theft": 23,
+    "possession-of-weapons": 4,
+    "public-order": 16,
+    "robbery": 3,
+    "shoplifting": 45,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 17,
+    "violent-crime": 85,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

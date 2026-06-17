@@ -1,1 +1,18 @@
-{"neighbourhood_id": "LOCC3SOU", "neighbourhood_name": "South Whitehaven and St Bees", "force_id": "cumbria", "lat": "54.5061", "lng": "-3.58688", "population": 12098, "total_crimes": 3, "categories": {"vehicle-crime": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCC3SOU",
+  "neighbourhood_name": "South Whitehaven and St Bees",
+  "force_id": "cumbria",
+  "lat": "54.5061",
+  "lng": "-3.58688",
+  "population": 12786,
+  "total_crimes": 3,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

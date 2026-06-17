@@ -1,1 +1,21 @@
-{"neighbourhood_id": "WCW01", "neighbourhood_name": "Bryn", "force_id": "north-wales", "lat": "53.246", "lng": "-3.97969", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 1, "drugs": 1, "public-order": 7, "vehicle-crime": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW01",
+  "neighbourhood_name": "Bryn",
+  "force_id": "north-wales",
+  "lat": "53.246",
+  "lng": "-3.97969",
+  "population": 1909,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "public-order": 7,
+    "vehicle-crime": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

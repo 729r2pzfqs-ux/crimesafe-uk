@@ -1,1 +1,17 @@
-{"neighbourhood_id": "GSW04", "neighbourhood_name": "Llanaelhaearn", "force_id": "north-wales", "lat": "52.9665", "lng": "-4.41203", "population": 12098, "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW04",
+  "neighbourhood_name": "Llanaelhaearn",
+  "force_id": "north-wales",
+  "lat": "52.9665",
+  "lng": "-4.41203",
+  "population": 1692,
+  "total_crimes": 2,
+  "categories": {
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

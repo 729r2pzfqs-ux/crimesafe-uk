@@ -1,1 +1,23 @@
-{"neighbourhood_id": "WCW13", "neighbourhood_name": "Pensarn", "force_id": "north-wales", "lat": "53.2883", "lng": "-3.79505", "population": 12098, "total_crimes": 51, "categories": {"anti-social-behaviour": 15, "burglary": 2, "criminal-damage-arson": 3, "other-theft": 4, "public-order": 3, "shoplifting": 1, "violent-crime": 20, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW13",
+  "neighbourhood_name": "Pensarn",
+  "force_id": "north-wales",
+  "lat": "53.2883",
+  "lng": "-3.79505",
+  "population": 3206,
+  "total_crimes": 51,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "other-theft": 4,
+    "public-order": 3,
+    "shoplifting": 1,
+    "violent-crime": 20,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

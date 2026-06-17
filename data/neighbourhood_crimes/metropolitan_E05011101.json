@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011101", "neighbourhood_name": "Dulwich Wood", "force_id": "metropolitan", "lat": "51.4332", "lng": "-0.0781399", "population": 12098, "total_crimes": 279, "categories": {"anti-social-behaviour": 61, "bicycle-theft": 4, "burglary": 13, "criminal-damage-arson": 14, "drugs": 7, "other-theft": 22, "possession-of-weapons": 3, "public-order": 16, "robbery": 5, "shoplifting": 5, "theft-from-the-person": 4, "vehicle-crime": 29, "violent-crime": 92, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011101",
+  "neighbourhood_name": "Dulwich Wood",
+  "force_id": "metropolitan",
+  "lat": "51.4332",
+  "lng": "-0.0781399",
+  "population": 8466,
+  "total_crimes": 279,
+  "categories": {
+    "anti-social-behaviour": 61,
+    "bicycle-theft": 4,
+    "burglary": 13,
+    "criminal-damage-arson": 14,
+    "drugs": 7,
+    "other-theft": 22,
+    "possession-of-weapons": 3,
+    "public-order": 16,
+    "robbery": 5,
+    "shoplifting": 5,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 29,
+    "violent-crime": 92,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

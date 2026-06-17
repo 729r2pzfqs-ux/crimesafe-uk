@@ -1,1 +1,14 @@
-{"neighbourhood_id": "C204", "neighbourhood_name": "Solva", "force_id": "dyfed-powys", "lat": "51.8908", "lng": "-5.15375", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C204",
+  "neighbourhood_name": "Solva",
+  "force_id": "dyfed-powys",
+  "lat": "51.8908",
+  "lng": "-5.15375",
+  "population": 1915,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

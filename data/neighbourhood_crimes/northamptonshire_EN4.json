@@ -1,1 +1,14 @@
-{"neighbourhood_id": "EN4", "neighbourhood_name": "Thrapston", "force_id": "northamptonshire", "lat": "52.4519", "lng": "-0.502867", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EN4",
+  "neighbourhood_name": "Thrapston",
+  "force_id": "northamptonshire",
+  "lat": "52.4519",
+  "lng": "-0.502867",
+  "population": 12339,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

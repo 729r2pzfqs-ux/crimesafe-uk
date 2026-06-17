@@ -1,1 +1,25 @@
-{"neighbourhood_id": "SR9", "neighbourhood_name": "Farington East", "force_id": "lancashire", "lat": "53.7101", "lng": "-2.68073", "population": 12098, "total_crimes": 73, "categories": {"anti-social-behaviour": 15, "burglary": 6, "criminal-damage-arson": 6, "other-theft": 2, "public-order": 3, "robbery": 1, "shoplifting": 6, "vehicle-crime": 3, "violent-crime": 28, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR9",
+  "neighbourhood_name": "Farington East",
+  "force_id": "lancashire",
+  "lat": "53.7101",
+  "lng": "-2.68073",
+  "population": 3007,
+  "total_crimes": 73,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 6,
+    "criminal-damage-arson": 6,
+    "other-theft": 2,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 6,
+    "vehicle-crime": 3,
+    "violent-crime": 28,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

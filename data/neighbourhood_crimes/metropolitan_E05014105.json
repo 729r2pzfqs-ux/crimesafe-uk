@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014105", "neighbourhood_name": "Kennington", "force_id": "metropolitan", "lat": "51.4884", "lng": "-0.11093", "population": 12098, "total_crimes": 1992, "categories": {"anti-social-behaviour": 364, "bicycle-theft": 42, "burglary": 54, "criminal-damage-arson": 58, "drugs": 75, "other-theft": 177, "possession-of-weapons": 22, "public-order": 93, "robbery": 90, "shoplifting": 236, "theft-from-the-person": 311, "vehicle-crime": 49, "violent-crime": 394, "other-crime": 27}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014105",
+  "neighbourhood_name": "Kennington",
+  "force_id": "metropolitan",
+  "lat": "51.4884",
+  "lng": "-0.11093",
+  "population": 16530,
+  "total_crimes": 1992,
+  "categories": {
+    "anti-social-behaviour": 364,
+    "bicycle-theft": 42,
+    "burglary": 54,
+    "criminal-damage-arson": 58,
+    "drugs": 75,
+    "other-theft": 177,
+    "possession-of-weapons": 22,
+    "public-order": 93,
+    "robbery": 90,
+    "shoplifting": 236,
+    "theft-from-the-person": 311,
+    "vehicle-crime": 49,
+    "violent-crime": 394,
+    "other-crime": 27
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 120.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

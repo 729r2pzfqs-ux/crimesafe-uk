@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BS107", "neighbourhood_name": "Bishopsworth", "force_id": "avon-and-somerset", "lat": "51.4229", "lng": "-2.61604", "population": "0", "total_crimes": 379, "categories": {"anti-social-behaviour": 57, "bicycle-theft": 1, "burglary": 9, "criminal-damage-arson": 22, "drugs": 5, "other-theft": 12, "possession-of-weapons": 4, "public-order": 24, "robbery": 13, "shoplifting": 66, "vehicle-crime": 17, "violent-crime": 138, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BS107",
+  "neighbourhood_name": "Bishopsworth",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4229",
+  "lng": "-2.61604",
+  "population": 12471,
+  "total_crimes": 379,
+  "categories": {
+    "anti-social-behaviour": 57,
+    "bicycle-theft": 1,
+    "burglary": 9,
+    "criminal-damage-arson": 22,
+    "drugs": 5,
+    "other-theft": 12,
+    "possession-of-weapons": 4,
+    "public-order": 24,
+    "robbery": 13,
+    "shoplifting": 66,
+    "vehicle-crime": 17,
+    "violent-crime": 138,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

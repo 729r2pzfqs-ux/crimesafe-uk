@@ -1,1 +1,28 @@
-{"neighbourhood_id": "28", "neighbourhood_name": "Bridlington South", "force_id": "humberside", "lat": "54.0785", "lng": "-0.216474", "population": 12098, "total_crimes": 161, "categories": {"anti-social-behaviour": 9, "bicycle-theft": 2, "criminal-damage-arson": 12, "drugs": 6, "other-theft": 10, "possession-of-weapons": 2, "public-order": 20, "robbery": 2, "shoplifting": 15, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 73, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "28",
+  "neighbourhood_name": "Bridlington South",
+  "force_id": "humberside",
+  "lat": "54.0785",
+  "lng": "-0.216474",
+  "population": 14671,
+  "total_crimes": 161,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "bicycle-theft": 2,
+    "criminal-damage-arson": 12,
+    "drugs": 6,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 15,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 73,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

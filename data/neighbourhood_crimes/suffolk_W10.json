@@ -1,1 +1,16 @@
-{"neighbourhood_id": "W10", "neighbourhood_name": "Haverhill Rural and Suffolk South West", "force_id": "suffolk", "lat": "52.1413", "lng": "0.559464", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "W10",
+  "neighbourhood_name": "Haverhill Rural and Suffolk South West",
+  "force_id": "suffolk",
+  "lat": "52.1413",
+  "lng": "0.559464",
+  "population": 13166,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

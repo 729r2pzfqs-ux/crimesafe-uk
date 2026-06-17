@@ -1,1 +1,28 @@
-{"neighbourhood_id": "GB07", "neighbourhood_name": "Halton View", "force_id": "cheshire", "lat": "53.369", "lng": "-2.70539", "population": "0", "total_crimes": 140, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 4, "burglary": 2, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 6, "public-order": 20, "robbery": 2, "shoplifting": 15, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 56, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GB07",
+  "neighbourhood_name": "Halton View",
+  "force_id": "cheshire",
+  "lat": "53.369",
+  "lng": "-2.70539",
+  "population": 6717,
+  "total_crimes": 140,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 4,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 6,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 15,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 56,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

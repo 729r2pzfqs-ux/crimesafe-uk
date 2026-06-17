@@ -1,1 +1,17 @@
-{"neighbourhood_id": "FSW04", "neighbourhood_name": "Gwernaffield", "force_id": "north-wales", "lat": "53.1756", "lng": "-3.18706", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW04",
+  "neighbourhood_name": "Gwernaffield",
+  "force_id": "north-wales",
+  "lat": "53.1756",
+  "lng": "-3.18706",
+  "population": 1939,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

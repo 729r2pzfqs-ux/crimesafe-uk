@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ND102", "neighbourhood_name": "Clacton", "force_id": "essex", "lat": "51.7985", "lng": "1.16348", "population": 12098, "total_crimes": 385, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 4, "burglary": 12, "criminal-damage-arson": 35, "drugs": 10, "other-theft": 19, "possession-of-weapons": 4, "public-order": 30, "robbery": 3, "shoplifting": 26, "theft-from-the-person": 3, "vehicle-crime": 38, "violent-crime": 165, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ND102",
+  "neighbourhood_name": "Clacton",
+  "force_id": "essex",
+  "lat": "51.7985",
+  "lng": "1.16348",
+  "population": 58800,
+  "total_crimes": 385,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 4,
+    "burglary": 12,
+    "criminal-damage-arson": 35,
+    "drugs": 10,
+    "other-theft": 19,
+    "possession-of-weapons": 4,
+    "public-order": 30,
+    "robbery": 3,
+    "shoplifting": 26,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 38,
+    "violent-crime": 165,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 35
+}

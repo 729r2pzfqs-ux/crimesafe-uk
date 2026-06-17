@@ -1,1 +1,14 @@
-{"neighbourhood_id": "1NE03", "neighbourhood_name": "New Forest Heart", "force_id": "hampshire", "lat": "50.8646", "lng": "-1.52448", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "1NE03",
+  "neighbourhood_name": "New Forest Heart",
+  "force_id": "hampshire",
+  "lat": "50.8646",
+  "lng": "-1.52448",
+  "population": 11909,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

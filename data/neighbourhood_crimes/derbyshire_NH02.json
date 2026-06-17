@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NH02", "neighbourhood_name": "Glossop Town Centre", "force_id": "derbyshire", "lat": "53.4447", "lng": "-1.9528", "population": 12098, "total_crimes": 95, "categories": {"anti-social-behaviour": 22, "burglary": 2, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 5, "public-order": 4, "robbery": 1, "shoplifting": 13, "vehicle-crime": 3, "violent-crime": 37, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH02",
+  "neighbourhood_name": "Glossop Town Centre",
+  "force_id": "derbyshire",
+  "lat": "53.4447",
+  "lng": "-1.9528",
+  "population": 18221,
+  "total_crimes": 95,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 13,
+    "vehicle-crime": 3,
+    "violent-crime": 37,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

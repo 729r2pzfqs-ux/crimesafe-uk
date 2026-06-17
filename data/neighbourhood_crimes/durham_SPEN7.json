@@ -1,1 +1,19 @@
-{"neighbourhood_id": "SPEN7", "neighbourhood_name": "Spennymoor (West Cornforth/Bishop Middleham)", "force_id": "durham", "lat": "54.6871", "lng": "-1.49568", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPEN7",
+  "neighbourhood_name": "Spennymoor (West Cornforth/Bishop Middleham)",
+  "force_id": "durham",
+  "lat": "54.6871",
+  "lng": "-1.49568",
+  "population": 3669,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

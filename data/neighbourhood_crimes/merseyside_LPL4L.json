@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL4L", "neighbourhood_name": "Smithdown", "force_id": "merseyside", "lat": "53.3968", "lng": "-2.93278", "population": 12098, "total_crimes": 448, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 8, "burglary": 12, "criminal-damage-arson": 36, "drugs": 27, "other-theft": 32, "possession-of-weapons": 5, "public-order": 42, "robbery": 4, "shoplifting": 25, "theft-from-the-person": 2, "vehicle-crime": 21, "violent-crime": 192, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4L",
+  "neighbourhood_name": "Smithdown",
+  "force_id": "merseyside",
+  "lat": "53.3968",
+  "lng": "-2.93278",
+  "population": 14441,
+  "total_crimes": 448,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 8,
+    "burglary": 12,
+    "criminal-damage-arson": 36,
+    "drugs": 27,
+    "other-theft": 32,
+    "possession-of-weapons": 5,
+    "public-order": 42,
+    "robbery": 4,
+    "shoplifting": 25,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 21,
+    "violent-crime": 192,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

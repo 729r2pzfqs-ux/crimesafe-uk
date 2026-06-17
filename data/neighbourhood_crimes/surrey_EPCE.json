@@ -1,1 +1,28 @@
-{"neighbourhood_id": "EPCE", "neighbourhood_name": "Epsom &amp; Ewell Central", "force_id": "surrey", "lat": "51.3366", "lng": "-0.265811", "population": 12098, "total_crimes": 284, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 7, "burglary": 9, "criminal-damage-arson": 32, "drugs": 13, "other-theft": 10, "public-order": 26, "robbery": 6, "shoplifting": 29, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 95, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EPCE",
+  "neighbourhood_name": "Epsom &amp; Ewell Central",
+  "force_id": "surrey",
+  "lat": "51.3366",
+  "lng": "-0.265811",
+  "population": 6086,
+  "total_crimes": 284,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 7,
+    "burglary": 9,
+    "criminal-damage-arson": 32,
+    "drugs": 13,
+    "other-theft": 10,
+    "public-order": 26,
+    "robbery": 6,
+    "shoplifting": 29,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 95,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 46.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

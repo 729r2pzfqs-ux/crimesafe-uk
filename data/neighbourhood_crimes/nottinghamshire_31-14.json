@@ -1,1 +1,20 @@
-{"neighbourhood_id": "31-14", "neighbourhood_name": "Worksop North Villages", "force_id": "nottinghamshire", "lat": "53.3764", "lng": "-1.07902", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-14",
+  "neighbourhood_name": "Worksop North Villages",
+  "force_id": "nottinghamshire",
+  "lat": "53.3764",
+  "lng": "-1.07902",
+  "population": 10482,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

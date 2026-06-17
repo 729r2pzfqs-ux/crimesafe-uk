@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05013998", "neighbourhood_name": "Hayes and Coney Hall", "force_id": "metropolitan", "lat": "51.3674", "lng": "0.00917207", "population": 12098, "total_crimes": 50, "categories": {"anti-social-behaviour": 9, "burglary": 3, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 5, "public-order": 3, "robbery": 1, "shoplifting": 3, "vehicle-crime": 9, "violent-crime": 11, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013998",
+  "neighbourhood_name": "Hayes and Coney Hall",
+  "force_id": "metropolitan",
+  "lat": "51.3674",
+  "lng": "0.00917207",
+  "population": 16370,
+  "total_crimes": 50,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 3,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 9,
+    "violent-crime": 11,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

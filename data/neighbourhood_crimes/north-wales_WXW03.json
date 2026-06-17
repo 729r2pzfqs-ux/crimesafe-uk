@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WXW03", "neighbourhood_name": "Offa", "force_id": "north-wales", "lat": "53.0387", "lng": "-3.00061", "population": 12098, "total_crimes": 396, "categories": {"anti-social-behaviour": 85, "bicycle-theft": 5, "burglary": 2, "criminal-damage-arson": 21, "drugs": 11, "other-theft": 11, "possession-of-weapons": 5, "public-order": 35, "robbery": 2, "shoplifting": 70, "vehicle-crime": 10, "violent-crime": 135, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW03",
+  "neighbourhood_name": "Offa",
+  "force_id": "north-wales",
+  "lat": "53.0387",
+  "lng": "-3.00061",
+  "population": 2424,
+  "total_crimes": 396,
+  "categories": {
+    "anti-social-behaviour": 85,
+    "bicycle-theft": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 21,
+    "drugs": 11,
+    "other-theft": 11,
+    "possession-of-weapons": 5,
+    "public-order": 35,
+    "robbery": 2,
+    "shoplifting": 70,
+    "vehicle-crime": 10,
+    "violent-crime": 135,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 163.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

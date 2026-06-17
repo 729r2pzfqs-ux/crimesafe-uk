@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011487", "neighbourhood_name": "Waddon", "force_id": "metropolitan", "lat": "51.3616", "lng": "-0.112791", "population": 12098, "total_crimes": 685, "categories": {"anti-social-behaviour": 153, "bicycle-theft": 2, "burglary": 22, "criminal-damage-arson": 37, "drugs": 36, "other-theft": 48, "possession-of-weapons": 9, "public-order": 41, "robbery": 15, "shoplifting": 67, "theft-from-the-person": 13, "vehicle-crime": 52, "violent-crime": 181, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011487",
+  "neighbourhood_name": "Waddon",
+  "force_id": "metropolitan",
+  "lat": "51.3616",
+  "lng": "-0.112791",
+  "population": 15734,
+  "total_crimes": 685,
+  "categories": {
+    "anti-social-behaviour": 153,
+    "bicycle-theft": 2,
+    "burglary": 22,
+    "criminal-damage-arson": 37,
+    "drugs": 36,
+    "other-theft": 48,
+    "possession-of-weapons": 9,
+    "public-order": 41,
+    "robbery": 15,
+    "shoplifting": 67,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 52,
+    "violent-crime": 181,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

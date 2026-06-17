@@ -1,1 +1,20 @@
-{"neighbourhood_id": "penllergaer", "neighbourhood_name": "Penllergaer", "force_id": "south-wales", "lat": "51.6698", "lng": "-4.00677", "population": 12098, "total_crimes": 14, "categories": {"drugs": 1, "other-theft": 3, "vehicle-crime": 2, "violent-crime": 6, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penllergaer",
+  "neighbourhood_name": "Penllergaer",
+  "force_id": "south-wales",
+  "lat": "51.6698",
+  "lng": "-4.00677",
+  "population": 3372,
+  "total_crimes": 14,
+  "categories": {
+    "drugs": 1,
+    "other-theft": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 6,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

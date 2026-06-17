@@ -1,1 +1,25 @@
-{"neighbourhood_id": "CIOS.4055", "neighbourhood_name": "Liskeard North", "force_id": "devon-and-cornwall", "lat": "50.4642", "lng": "-4.46609", "population": 12098, "total_crimes": 81, "categories": {"anti-social-behaviour": 4, "burglary": 3, "criminal-damage-arson": 9, "drugs": 2, "other-theft": 7, "public-order": 5, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 43, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4055",
+  "neighbourhood_name": "Liskeard North",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4642",
+  "lng": "-4.46609",
+  "population": 3560,
+  "total_crimes": 81,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 3,
+    "criminal-damage-arson": 9,
+    "drugs": 2,
+    "other-theft": 7,
+    "public-order": 5,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 43,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013743", "neighbourhood_name": "Munster", "force_id": "metropolitan", "lat": "51.4779", "lng": "-0.211464", "population": 12170, "total_crimes": 778, "categories": {"anti-social-behaviour": 174, "bicycle-theft": 19, "burglary": 61, "criminal-damage-arson": 44, "drugs": 24, "other-theft": 59, "possession-of-weapons": 3, "public-order": 54, "robbery": 10, "shoplifting": 57, "theft-from-the-person": 21, "vehicle-crime": 76, "violent-crime": 173, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013743",
+  "neighbourhood_name": "Munster",
+  "force_id": "metropolitan",
+  "lat": "51.4779",
+  "lng": "-0.211464",
+  "population": 12037,
+  "total_crimes": 778,
+  "categories": {
+    "anti-social-behaviour": 174,
+    "bicycle-theft": 19,
+    "burglary": 61,
+    "criminal-damage-arson": 44,
+    "drugs": 24,
+    "other-theft": 59,
+    "possession-of-weapons": 3,
+    "public-order": 54,
+    "robbery": 10,
+    "shoplifting": 57,
+    "theft-from-the-person": 21,
+    "vehicle-crime": 76,
+    "violent-crime": 173,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 64.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

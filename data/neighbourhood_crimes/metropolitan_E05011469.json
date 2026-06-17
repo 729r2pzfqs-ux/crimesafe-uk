@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05011469", "neighbourhood_name": "Kenley", "force_id": "metropolitan", "lat": "51.3152", "lng": "-0.101796", "population": 12098, "total_crimes": 67, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 5, "drugs": 3, "other-theft": 3, "public-order": 5, "robbery": 2, "shoplifting": 5, "vehicle-crime": 8, "violent-crime": 19, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011469",
+  "neighbourhood_name": "Kenley",
+  "force_id": "metropolitan",
+  "lat": "51.3152",
+  "lng": "-0.101796",
+  "population": 11824,
+  "total_crimes": 67,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 3,
+    "other-theft": 3,
+    "public-order": 5,
+    "robbery": 2,
+    "shoplifting": 5,
+    "vehicle-crime": 8,
+    "violent-crime": 19,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

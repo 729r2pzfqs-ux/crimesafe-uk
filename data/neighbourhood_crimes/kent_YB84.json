@@ -1,1 +1,16 @@
-{"neighbourhood_id": "YB84", "neighbourhood_name": "East and West Peckham, Mereworth &amp; Wateringbury", "force_id": "kent", "lat": "51.2384", "lng": "0.369352", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB84",
+  "neighbourhood_name": "East and West Peckham, Mereworth &amp; Wateringbury",
+  "force_id": "kent",
+  "lat": "51.2384",
+  "lng": "0.369352",
+  "population": 6978,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

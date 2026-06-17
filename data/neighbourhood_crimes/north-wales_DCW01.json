@@ -1,1 +1,22 @@
-{"neighbourhood_id": "DCW01", "neighbourhood_name": "Gele", "force_id": "north-wales", "lat": "53.271", "lng": "-3.5677", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 2, "drugs": 1, "shoplifting": 2, "violent-crime": 17, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW01",
+  "neighbourhood_name": "Gele",
+  "force_id": "north-wales",
+  "lat": "53.271",
+  "lng": "-3.5677",
+  "population": 4816,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "shoplifting": 2,
+    "violent-crime": 17,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

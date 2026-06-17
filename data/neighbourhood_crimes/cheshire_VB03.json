@@ -1,1 +1,23 @@
-{"neighbourhood_id": "VB03", "neighbourhood_name": "Winsford Swanlow and Dene", "force_id": "cheshire", "lat": "53.1714", "lng": "-2.52762", "population": "0", "total_crimes": 40, "categories": {"anti-social-behaviour": 2, "burglary": 2, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 2, "public-order": 9, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "VB03",
+  "neighbourhood_name": "Winsford Swanlow and Dene",
+  "force_id": "cheshire",
+  "lat": "53.1714",
+  "lng": "-2.52762",
+  "population": 9179,
+  "total_crimes": 40,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 9,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

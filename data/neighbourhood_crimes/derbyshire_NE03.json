@@ -1,1 +1,25 @@
-{"neighbourhood_id": "NE03", "neighbourhood_name": "Dronfield", "force_id": "derbyshire", "lat": "53.3025", "lng": "-1.48352", "population": 12098, "total_crimes": 73, "categories": {"anti-social-behaviour": 11, "burglary": 3, "criminal-damage-arson": 7, "other-theft": 4, "public-order": 6, "robbery": 1, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 22}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE03",
+  "neighbourhood_name": "Dronfield",
+  "force_id": "derbyshire",
+  "lat": "53.3025",
+  "lng": "-1.48352",
+  "population": 21075,
+  "total_crimes": 73,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 3,
+    "criminal-damage-arson": 7,
+    "other-theft": 4,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 16,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 22
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

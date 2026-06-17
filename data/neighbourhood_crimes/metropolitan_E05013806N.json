@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013806N", "neighbourhood_name": "St James's", "force_id": "metropolitan", "lat": "51.5053", "lng": "-0.131324", "population": 12098, "total_crimes": 4356, "categories": {"anti-social-behaviour": 601, "bicycle-theft": 53, "burglary": 94, "criminal-damage-arson": 96, "drugs": 125, "other-theft": 869, "possession-of-weapons": 16, "public-order": 191, "robbery": 133, "shoplifting": 494, "theft-from-the-person": 1020, "vehicle-crime": 58, "violent-crime": 580, "other-crime": 26}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013806N",
+  "neighbourhood_name": "St James's",
+  "force_id": "metropolitan",
+  "lat": "51.5053",
+  "lng": "-0.131324",
+  "population": 12985,
+  "total_crimes": 4356,
+  "categories": {
+    "anti-social-behaviour": 601,
+    "bicycle-theft": 53,
+    "burglary": 94,
+    "criminal-damage-arson": 96,
+    "drugs": 125,
+    "other-theft": 869,
+    "possession-of-weapons": 16,
+    "public-order": 191,
+    "robbery": 133,
+    "shoplifting": 494,
+    "theft-from-the-person": 1020,
+    "vehicle-crime": 58,
+    "violent-crime": 580,
+    "other-crime": 26
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 335.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

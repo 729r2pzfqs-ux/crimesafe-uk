@@ -1,1 +1,19 @@
-{"neighbourhood_id": "D101", "neighbourhood_name": "Newtown - Llanllwchaiarn North", "force_id": "dyfed-powys", "lat": "52.5304", "lng": "-3.2934", "population": 12098, "total_crimes": 8, "categories": {"burglary": 2, "public-order": 2, "shoplifting": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D101",
+  "neighbourhood_name": "Newtown - Llanllwchaiarn North",
+  "force_id": "dyfed-powys",
+  "lat": "52.5304",
+  "lng": "-3.2934",
+  "population": 2233,
+  "total_crimes": 8,
+  "categories": {
+    "burglary": 2,
+    "public-order": 2,
+    "shoplifting": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014014", "neighbourhood_name": "Lavender", "force_id": "metropolitan", "lat": "51.4617", "lng": "-0.16155", "population": 12098, "total_crimes": 829, "categories": {"anti-social-behaviour": 209, "bicycle-theft": 22, "burglary": 51, "criminal-damage-arson": 32, "drugs": 23, "other-theft": 64, "possession-of-weapons": 4, "public-order": 48, "robbery": 20, "shoplifting": 62, "theft-from-the-person": 23, "vehicle-crime": 72, "violent-crime": 189, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014014",
+  "neighbourhood_name": "Lavender",
+  "force_id": "metropolitan",
+  "lat": "51.4617",
+  "lng": "-0.16155",
+  "population": 16022,
+  "total_crimes": 829,
+  "categories": {
+    "anti-social-behaviour": 209,
+    "bicycle-theft": 22,
+    "burglary": 51,
+    "criminal-damage-arson": 32,
+    "drugs": 23,
+    "other-theft": 64,
+    "possession-of-weapons": 4,
+    "public-order": 48,
+    "robbery": 20,
+    "shoplifting": 62,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 72,
+    "violent-crime": 189,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 51.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

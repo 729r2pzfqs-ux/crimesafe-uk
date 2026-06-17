@@ -1,1 +1,14 @@
-{"neighbourhood_id": "MM88", "neighbourhood_name": "Usk", "force_id": "gwent", "lat": "51.702", "lng": "-2.89604", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "MM88",
+  "neighbourhood_name": "Usk",
+  "force_id": "gwent",
+  "lat": "51.702",
+  "lng": "-2.89604",
+  "population": 2833,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

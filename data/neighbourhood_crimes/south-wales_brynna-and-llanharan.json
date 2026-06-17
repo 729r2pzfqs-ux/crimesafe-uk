@@ -1,1 +1,23 @@
-{"neighbourhood_id": "brynna-and-llanharan", "neighbourhood_name": "Brynna and Llanharan", "force_id": "south-wales", "lat": "51.5424", "lng": "-3.44467", "population": 12098, "total_crimes": 38, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 5, "other-theft": 3, "public-order": 7, "vehicle-crime": 1, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "brynna-and-llanharan",
+  "neighbourhood_name": "Brynna and Llanharan",
+  "force_id": "south-wales",
+  "lat": "51.5424",
+  "lng": "-3.44467",
+  "population": 6230,
+  "total_crimes": 38,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "other-theft": 3,
+    "public-order": 7,
+    "vehicle-crime": 1,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

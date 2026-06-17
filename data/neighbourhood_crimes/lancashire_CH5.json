@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CH5", "neighbourhood_name": "Chorley North West", "force_id": "lancashire", "lat": "53.6546", "lng": "-2.6451", "population": 12098, "total_crimes": 259, "categories": {"anti-social-behaviour": 35, "burglary": 11, "criminal-damage-arson": 15, "drugs": 12, "other-theft": 9, "public-order": 21, "robbery": 3, "shoplifting": 32, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 110, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH5",
+  "neighbourhood_name": "Chorley North West",
+  "force_id": "lancashire",
+  "lat": "53.6546",
+  "lng": "-2.6451",
+  "population": 6274,
+  "total_crimes": 259,
+  "categories": {
+    "anti-social-behaviour": 35,
+    "burglary": 11,
+    "criminal-damage-arson": 15,
+    "drugs": 12,
+    "other-theft": 9,
+    "public-order": 21,
+    "robbery": 3,
+    "shoplifting": 32,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 110,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "RO8", "neighbourhood_name": "Haslingden", "force_id": "lancashire", "lat": "53.722", "lng": "-2.35378", "population": 12098, "total_crimes": 18, "categories": {"bicycle-theft": 1, "criminal-damage-arson": 1, "possession-of-weapons": 2, "public-order": 1, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 5, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO8",
+  "neighbourhood_name": "Haslingden",
+  "force_id": "lancashire",
+  "lat": "53.722",
+  "lng": "-2.35378",
+  "population": 9123,
+  "total_crimes": 18,
+  "categories": {
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 1,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 5,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

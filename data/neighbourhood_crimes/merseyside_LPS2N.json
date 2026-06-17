@@ -1,1 +1,24 @@
-{"neighbourhood_id": "LPS2N", "neighbourhood_name": "Ainsdale", "force_id": "merseyside", "lat": "53.601", "lng": "-3.04989", "population": 12098, "total_crimes": 33, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 2, "public-order": 4, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS2N",
+  "neighbourhood_name": "Ainsdale",
+  "force_id": "merseyside",
+  "lat": "53.601",
+  "lng": "-3.04989",
+  "population": 12513,
+  "total_crimes": 33,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 2,
+    "public-order": 4,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,21 @@
-{"neighbourhood_id": "S1", "neighbourhood_name": "Hadleigh and Nayland", "force_id": "suffolk", "lat": "52.0393", "lng": "0.935559", "population": 12098, "total_crimes": 15, "categories": {"other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "S1",
+  "neighbourhood_name": "Hadleigh and Nayland",
+  "force_id": "suffolk",
+  "lat": "52.0393",
+  "lng": "0.935559",
+  "population": 16093,
+  "total_crimes": 15,
+  "categories": {
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

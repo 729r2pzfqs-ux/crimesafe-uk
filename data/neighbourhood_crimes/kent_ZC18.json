@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZC18", "neighbourhood_name": "Beaver", "force_id": "kent", "lat": "51.1374", "lng": "0.85342", "population": 12098, "total_crimes": 251, "categories": {"anti-social-behaviour": 40, "bicycle-theft": 3, "burglary": 1, "criminal-damage-arson": 22, "drugs": 13, "other-theft": 14, "possession-of-weapons": 5, "public-order": 15, "robbery": 3, "shoplifting": 22, "vehicle-crime": 10, "violent-crime": 95, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC18",
+  "neighbourhood_name": "Beaver",
+  "force_id": "kent",
+  "lat": "51.1374",
+  "lng": "0.85342",
+  "population": 8104,
+  "total_crimes": 251,
+  "categories": {
+    "anti-social-behaviour": 40,
+    "bicycle-theft": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 22,
+    "drugs": 13,
+    "other-theft": 14,
+    "possession-of-weapons": 5,
+    "public-order": 15,
+    "robbery": 3,
+    "shoplifting": 22,
+    "vehicle-crime": 10,
+    "violent-crime": 95,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

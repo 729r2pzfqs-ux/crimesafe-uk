@@ -1,1 +1,28 @@
-{"neighbourhood_id": "XC17", "neighbourhood_name": "Singlewell", "force_id": "kent", "lat": "51.4149", "lng": "0.380311", "population": 12098, "total_crimes": 217, "categories": {"anti-social-behaviour": 51, "bicycle-theft": 1, "burglary": 11, "criminal-damage-arson": 25, "drugs": 4, "other-theft": 20, "possession-of-weapons": 1, "public-order": 5, "robbery": 3, "shoplifting": 3, "vehicle-crime": 10, "violent-crime": 71, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XC17",
+  "neighbourhood_name": "Singlewell",
+  "force_id": "kent",
+  "lat": "51.4149",
+  "lng": "0.380311",
+  "population": 4949,
+  "total_crimes": 217,
+  "categories": {
+    "anti-social-behaviour": 51,
+    "bicycle-theft": 1,
+    "burglary": 11,
+    "criminal-damage-arson": 25,
+    "drugs": 4,
+    "other-theft": 20,
+    "possession-of-weapons": 1,
+    "public-order": 5,
+    "robbery": 3,
+    "shoplifting": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 71,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 43.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

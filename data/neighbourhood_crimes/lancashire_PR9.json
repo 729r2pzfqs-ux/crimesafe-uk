@@ -1,1 +1,29 @@
-{"neighbourhood_id": "PR9", "neighbourhood_name": "Fishwick &amp; Frenchwood", "force_id": "lancashire", "lat": "53.7572", "lng": "-2.6777", "population": 12098, "total_crimes": 609, "categories": {"anti-social-behaviour": 126, "bicycle-theft": 4, "burglary": 13, "criminal-damage-arson": 40, "drugs": 40, "other-theft": 36, "possession-of-weapons": 3, "public-order": 40, "robbery": 9, "shoplifting": 64, "theft-from-the-person": 7, "vehicle-crime": 27, "violent-crime": 192, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PR9",
+  "neighbourhood_name": "Fishwick &amp; Frenchwood",
+  "force_id": "lancashire",
+  "lat": "53.7572",
+  "lng": "-2.6777",
+  "population": 9531,
+  "total_crimes": 609,
+  "categories": {
+    "anti-social-behaviour": 126,
+    "bicycle-theft": 4,
+    "burglary": 13,
+    "criminal-damage-arson": 40,
+    "drugs": 40,
+    "other-theft": 36,
+    "possession-of-weapons": 3,
+    "public-order": 40,
+    "robbery": 9,
+    "shoplifting": 64,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 27,
+    "violent-crime": 192,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 63.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

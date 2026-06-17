@@ -1,1 +1,14 @@
-{"neighbourhood_id": "LOCW6KEN", "neighbourhood_name": "Kendal, Burneside and Endmoor", "force_id": "cumbria", "lat": "54.3539", "lng": "-2.70655", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCW6KEN",
+  "neighbourhood_name": "Kendal, Burneside and Endmoor",
+  "force_id": "cumbria",
+  "lat": "54.3539",
+  "lng": "-2.70655",
+  "population": 35367,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 17
+}

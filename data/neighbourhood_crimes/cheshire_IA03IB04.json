@@ -1,1 +1,25 @@
-{"neighbourhood_id": "IA03IB04", "neighbourhood_name": "Strawberry, Ledsham and Manor", "force_id": "cheshire", "lat": "53.2692", "lng": "-2.94075", "population": "0", "total_crimes": 112, "categories": {"anti-social-behaviour": 8, "bicycle-theft": 2, "criminal-damage-arson": 10, "drugs": 3, "other-theft": 6, "public-order": 10, "shoplifting": 6, "vehicle-crime": 9, "violent-crime": 57, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "IA03IB04",
+  "neighbourhood_name": "Strawberry, Ledsham and Manor",
+  "force_id": "cheshire",
+  "lat": "53.2692",
+  "lng": "-2.94075",
+  "population": 12697,
+  "total_crimes": 112,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "bicycle-theft": 2,
+    "criminal-damage-arson": 10,
+    "drugs": 3,
+    "other-theft": 6,
+    "public-order": 10,
+    "shoplifting": 6,
+    "vehicle-crime": 9,
+    "violent-crime": 57,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

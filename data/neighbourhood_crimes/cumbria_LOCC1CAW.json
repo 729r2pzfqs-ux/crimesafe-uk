@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LOCC1CAW", "neighbourhood_name": "Carlisle West", "force_id": "cumbria", "lat": "54.8885", "lng": "-2.96333", "population": 12098, "total_crimes": 256, "categories": {"anti-social-behaviour": 9, "bicycle-theft": 1, "burglary": 8, "criminal-damage-arson": 26, "drugs": 11, "other-theft": 19, "possession-of-weapons": 2, "public-order": 21, "robbery": 1, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 117, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LOCC1CAW",
+  "neighbourhood_name": "Carlisle West",
+  "force_id": "cumbria",
+  "lat": "54.8885",
+  "lng": "-2.96333",
+  "population": 28564,
+  "total_crimes": 256,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "bicycle-theft": 1,
+    "burglary": 8,
+    "criminal-damage-arson": 26,
+    "drugs": 11,
+    "other-theft": 19,
+    "possession-of-weapons": 2,
+    "public-order": 21,
+    "robbery": 1,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 117,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 19
+}

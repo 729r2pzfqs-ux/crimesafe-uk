@@ -1,1 +1,16 @@
-{"neighbourhood_id": "AC20", "neighbourhood_name": "Harpurhey", "force_id": "greater-manchester", "lat": "53.5099", "lng": "-2.20322", "population": 12098, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC20",
+  "neighbourhood_name": "Harpurhey",
+  "force_id": "greater-manchester",
+  "lat": "53.5099",
+  "lng": "-2.20322",
+  "population": 20192,
+  "total_crimes": 1,
+  "categories": {
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

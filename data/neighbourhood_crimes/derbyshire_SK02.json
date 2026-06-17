@@ -1,1 +1,27 @@
-{"neighbourhood_id": "SK02", "neighbourhood_name": "Cotmanhay and Shipley View", "force_id": "derbyshire", "lat": "52.988", "lng": "-1.31384", "population": 12098, "total_crimes": 186, "categories": {"anti-social-behaviour": 24, "burglary": 12, "criminal-damage-arson": 15, "drugs": 5, "other-theft": 5, "possession-of-weapons": 2, "public-order": 14, "shoplifting": 13, "theft-from-the-person": 2, "vehicle-crime": 10, "violent-crime": 83, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SK02",
+  "neighbourhood_name": "Cotmanhay and Shipley View",
+  "force_id": "derbyshire",
+  "lat": "52.988",
+  "lng": "-1.31384",
+  "population": 14219,
+  "total_crimes": 186,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "burglary": 12,
+    "criminal-damage-arson": 15,
+    "drugs": 5,
+    "other-theft": 5,
+    "possession-of-weapons": 2,
+    "public-order": 14,
+    "shoplifting": 13,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 10,
+    "violent-crime": 83,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

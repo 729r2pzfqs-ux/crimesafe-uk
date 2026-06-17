@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013898", "neighbourhood_name": "Markhouse", "force_id": "metropolitan", "lat": "51.5775", "lng": "-0.0227369", "population": 12098, "total_crimes": 1000, "categories": {"anti-social-behaviour": 232, "bicycle-theft": 11, "burglary": 45, "criminal-damage-arson": 45, "drugs": 43, "other-theft": 82, "possession-of-weapons": 7, "public-order": 53, "robbery": 26, "shoplifting": 57, "theft-from-the-person": 69, "vehicle-crime": 66, "violent-crime": 250, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013898",
+  "neighbourhood_name": "Markhouse",
+  "force_id": "metropolitan",
+  "lat": "51.5775",
+  "lng": "-0.0227369",
+  "population": 7422,
+  "total_crimes": 1000,
+  "categories": {
+    "anti-social-behaviour": 232,
+    "bicycle-theft": 11,
+    "burglary": 45,
+    "criminal-damage-arson": 45,
+    "drugs": 43,
+    "other-theft": 82,
+    "possession-of-weapons": 7,
+    "public-order": 53,
+    "robbery": 26,
+    "shoplifting": 57,
+    "theft-from-the-person": 69,
+    "vehicle-crime": 66,
+    "violent-crime": 250,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 134.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

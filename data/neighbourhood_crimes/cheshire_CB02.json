@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CB02", "neighbourhood_name": "Macclesfield Tytherington", "force_id": "cheshire", "lat": "53.274", "lng": "-2.13111", "population": "0", "total_crimes": 121, "categories": {"anti-social-behaviour": 6, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 3, "drugs": 8, "other-theft": 6, "possession-of-weapons": 6, "public-order": 16, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 49, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CB02",
+  "neighbourhood_name": "Macclesfield Tytherington",
+  "force_id": "cheshire",
+  "lat": "53.274",
+  "lng": "-2.13111",
+  "population": 8436,
+  "total_crimes": 121,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 8,
+    "other-theft": 6,
+    "possession-of-weapons": 6,
+    "public-order": 16,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 49,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

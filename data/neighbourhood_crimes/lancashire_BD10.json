@@ -1,1 +1,25 @@
-{"neighbourhood_id": "BD10", "neighbourhood_name": "Blackburn South &amp; Lower Darwen", "force_id": "lancashire", "lat": "53.7215", "lng": "-2.48111", "population": 12098, "total_crimes": 199, "categories": {"anti-social-behaviour": 30, "burglary": 4, "criminal-damage-arson": 27, "drugs": 8, "other-theft": 10, "public-order": 11, "shoplifting": 9, "vehicle-crime": 8, "violent-crime": 86, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD10",
+  "neighbourhood_name": "Blackburn South &amp; Lower Darwen",
+  "force_id": "lancashire",
+  "lat": "53.7215",
+  "lng": "-2.48111",
+  "population": 9159,
+  "total_crimes": 199,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "burglary": 4,
+    "criminal-damage-arson": 27,
+    "drugs": 8,
+    "other-theft": 10,
+    "public-order": 11,
+    "shoplifting": 9,
+    "vehicle-crime": 8,
+    "violent-crime": 86,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

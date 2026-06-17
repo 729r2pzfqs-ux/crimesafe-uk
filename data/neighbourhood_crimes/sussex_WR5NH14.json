@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WR5NH14", "neighbourhood_name": "West Green", "force_id": "sussex", "lat": "51.1189", "lng": "-0.198445", "population": 12098, "total_crimes": 540, "categories": {"anti-social-behaviour": 102, "bicycle-theft": 3, "burglary": 10, "criminal-damage-arson": 39, "drugs": 16, "other-theft": 18, "possession-of-weapons": 9, "public-order": 61, "robbery": 8, "shoplifting": 71, "theft-from-the-person": 5, "vehicle-crime": 19, "violent-crime": 174, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WR5NH14",
+  "neighbourhood_name": "West Green",
+  "force_id": "sussex",
+  "lat": "51.1189",
+  "lng": "-0.198445",
+  "population": 5755,
+  "total_crimes": 540,
+  "categories": {
+    "anti-social-behaviour": 102,
+    "bicycle-theft": 3,
+    "burglary": 10,
+    "criminal-damage-arson": 39,
+    "drugs": 16,
+    "other-theft": 18,
+    "possession-of-weapons": 9,
+    "public-order": 61,
+    "robbery": 8,
+    "shoplifting": 71,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 19,
+    "violent-crime": 174,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 93.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CN202", "neighbourhood_name": "Staple Hill and New Cheltenham", "force_id": "avon-and-somerset", "lat": "51.4795", "lng": "-2.49596", "population": "0", "total_crimes": 253, "categories": {"anti-social-behaviour": 23, "burglary": 8, "criminal-damage-arson": 15, "drugs": 8, "other-theft": 14, "possession-of-weapons": 3, "public-order": 38, "robbery": 1, "shoplifting": 9, "theft-from-the-person": 1, "vehicle-crime": 13, "violent-crime": 114, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CN202",
+  "neighbourhood_name": "Staple Hill and New Cheltenham",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4795",
+  "lng": "-2.49596",
+  "population": 23391,
+  "total_crimes": 253,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 8,
+    "criminal-damage-arson": 15,
+    "drugs": 8,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 38,
+    "robbery": 1,
+    "shoplifting": 9,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 13,
+    "violent-crime": 114,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XD16", "neighbourhood_name": "Princes", "force_id": "kent", "lat": "51.4355", "lng": "0.212772", "population": 12098, "total_crimes": 304, "categories": {"anti-social-behaviour": 47, "bicycle-theft": 4, "burglary": 3, "criminal-damage-arson": 22, "drugs": 10, "other-theft": 22, "possession-of-weapons": 6, "public-order": 15, "robbery": 3, "shoplifting": 48, "theft-from-the-person": 4, "vehicle-crime": 13, "violent-crime": 94, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD16",
+  "neighbourhood_name": "Princes",
+  "force_id": "kent",
+  "lat": "51.4355",
+  "lng": "0.212772",
+  "population": 6618,
+  "total_crimes": 304,
+  "categories": {
+    "anti-social-behaviour": 47,
+    "bicycle-theft": 4,
+    "burglary": 3,
+    "criminal-damage-arson": 22,
+    "drugs": 10,
+    "other-theft": 22,
+    "possession-of-weapons": 6,
+    "public-order": 15,
+    "robbery": 3,
+    "shoplifting": 48,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 13,
+    "violent-crime": 94,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 45.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

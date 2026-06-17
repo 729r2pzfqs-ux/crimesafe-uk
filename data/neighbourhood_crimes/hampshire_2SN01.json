@@ -1,1 +1,29 @@
-{"neighbourhood_id": "2SN01", "neighbourhood_name": "Portswood, Swaythling, and Bassett", "force_id": "hampshire", "lat": "50.9375", "lng": "-1.39336", "population": 12098, "total_crimes": 356, "categories": {"anti-social-behaviour": 20, "bicycle-theft": 4, "burglary": 22, "criminal-damage-arson": 30, "drugs": 10, "other-theft": 13, "possession-of-weapons": 2, "public-order": 26, "robbery": 3, "shoplifting": 97, "theft-from-the-person": 4, "vehicle-crime": 17, "violent-crime": 106, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2SN01",
+  "neighbourhood_name": "Portswood, Swaythling, and Bassett",
+  "force_id": "hampshire",
+  "lat": "50.9375",
+  "lng": "-1.39336",
+  "population": 42222,
+  "total_crimes": 356,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "bicycle-theft": 4,
+    "burglary": 22,
+    "criminal-damage-arson": 30,
+    "drugs": 10,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 26,
+    "robbery": 3,
+    "shoplifting": 97,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 17,
+    "violent-crime": 106,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

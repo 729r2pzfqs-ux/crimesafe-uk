@@ -1,1 +1,26 @@
-{"neighbourhood_id": "C002", "neighbourhood_name": "Haverfordwest - Priory", "force_id": "dyfed-powys", "lat": "51.7951", "lng": "-4.98094", "population": 12098, "total_crimes": 255, "categories": {"anti-social-behaviour": 37, "burglary": 7, "criminal-damage-arson": 26, "drugs": 13, "other-theft": 7, "possession-of-weapons": 4, "public-order": 33, "shoplifting": 30, "vehicle-crime": 1, "violent-crime": 93, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C002",
+  "neighbourhood_name": "Haverfordwest - Priory",
+  "force_id": "dyfed-powys",
+  "lat": "51.7951",
+  "lng": "-4.98094",
+  "population": 2579,
+  "total_crimes": 255,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "burglary": 7,
+    "criminal-damage-arson": 26,
+    "drugs": 13,
+    "other-theft": 7,
+    "possession-of-weapons": 4,
+    "public-order": 33,
+    "shoplifting": 30,
+    "vehicle-crime": 1,
+    "violent-crime": 93,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 98.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

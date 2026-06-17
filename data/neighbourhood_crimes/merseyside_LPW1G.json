@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LPW1G", "neighbourhood_name": "Hoylake and Meols", "force_id": "merseyside", "lat": "53.3904", "lng": "-3.16295", "population": 12098, "total_crimes": 47, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 1, "drugs": 2, "public-order": 4, "robbery": 1, "shoplifting": 11, "vehicle-crime": 1, "violent-crime": 19, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW1G",
+  "neighbourhood_name": "Hoylake and Meols",
+  "force_id": "merseyside",
+  "lat": "53.3904",
+  "lng": "-3.16295",
+  "population": 12739,
+  "total_crimes": 47,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 11,
+    "vehicle-crime": 1,
+    "violent-crime": 19,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WY1", "neighbourhood_name": "Bourne", "force_id": "lancashire", "lat": "53.8829", "lng": "-2.9999", "population": 12098, "total_crimes": 80, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 6, "other-theft": 3, "public-order": 7, "shoplifting": 8, "vehicle-crime": 3, "violent-crime": 41, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WY1",
+  "neighbourhood_name": "Bourne",
+  "force_id": "lancashire",
+  "lat": "53.8829",
+  "lng": "-2.9999",
+  "population": 5609,
+  "total_crimes": 80,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "other-theft": 3,
+    "public-order": 7,
+    "shoplifting": 8,
+    "vehicle-crime": 3,
+    "violent-crime": 41,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

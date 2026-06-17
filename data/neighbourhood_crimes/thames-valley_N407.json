@@ -1,1 +1,20 @@
-{"neighbourhood_id": "N407", "neighbourhood_name": "Princes Risborough", "force_id": "thames-valley", "lat": "51.714", "lng": "-0.80917", "population": 12098, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "other-theft": 2, "possession-of-weapons": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N407",
+  "neighbourhood_name": "Princes Risborough",
+  "force_id": "thames-valley",
+  "lat": "51.714",
+  "lng": "-0.80917",
+  "population": 21767,
+  "total_crimes": 8,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

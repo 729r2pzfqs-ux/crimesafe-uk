@@ -1,1 +1,22 @@
-{"neighbourhood_id": "YD11", "neighbourhood_name": "Park", "force_id": "kent", "lat": "51.1305", "lng": "0.29432", "population": 12098, "total_crimes": 26, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "drugs": 3, "other-theft": 2, "public-order": 3, "violent-crime": 13, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YD11",
+  "neighbourhood_name": "Park",
+  "force_id": "kent",
+  "lat": "51.1305",
+  "lng": "0.29432",
+  "population": 7688,
+  "total_crimes": 26,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 3,
+    "violent-crime": 13,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

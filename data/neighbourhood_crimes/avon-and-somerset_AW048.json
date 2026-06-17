@@ -1,1 +1,29 @@
-{"neighbourhood_id": "AW048", "neighbourhood_name": "Taunton Central", "force_id": "avon-and-somerset", "lat": "51.0136", "lng": "-3.10517", "population": "0", "total_crimes": 433, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 11, "burglary": 6, "criminal-damage-arson": 17, "drugs": 4, "other-theft": 21, "possession-of-weapons": 2, "public-order": 52, "robbery": 7, "shoplifting": 76, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 184, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW048",
+  "neighbourhood_name": "Taunton Central",
+  "force_id": "avon-and-somerset",
+  "lat": "51.0136",
+  "lng": "-3.10517",
+  "population": 18410,
+  "total_crimes": 433,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 11,
+    "burglary": 6,
+    "criminal-damage-arson": 17,
+    "drugs": 4,
+    "other-theft": 21,
+    "possession-of-weapons": 2,
+    "public-order": 52,
+    "robbery": 7,
+    "shoplifting": 76,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 184,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

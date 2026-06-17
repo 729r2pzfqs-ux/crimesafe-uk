@@ -1,1 +1,18 @@
-{"neighbourhood_id": "WCW14", "neighbourhood_name": "Llansanffraid", "force_id": "north-wales", "lat": "53.2607", "lng": "-3.78169", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW14",
+  "neighbourhood_name": "Llansanffraid",
+  "force_id": "north-wales",
+  "lat": "53.2607",
+  "lng": "-3.78169",
+  "population": 2238,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

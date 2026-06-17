@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NN6", "neighbourhood_name": "Delapre and South Northampton", "force_id": "northamptonshire", "lat": "52.2132", "lng": "-0.883931", "population": 12098, "total_crimes": 90, "categories": {"anti-social-behaviour": 14, "burglary": 4, "criminal-damage-arson": 8, "drugs": 3, "other-theft": 5, "public-order": 2, "robbery": 3, "shoplifting": 3, "vehicle-crime": 6, "violent-crime": 40, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NN6",
+  "neighbourhood_name": "Delapre and South Northampton",
+  "force_id": "northamptonshire",
+  "lat": "52.2132",
+  "lng": "-0.883931",
+  "population": 31856,
+  "total_crimes": 90,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 4,
+    "criminal-damage-arson": 8,
+    "drugs": 3,
+    "other-theft": 5,
+    "public-order": 2,
+    "robbery": 3,
+    "shoplifting": 3,
+    "vehicle-crime": 6,
+    "violent-crime": 40,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

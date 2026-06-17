@@ -1,1 +1,27 @@
-{"neighbourhood_id": "NU3", "neighbourhood_name": "Harpur, Brickhill and De Parys", "force_id": "bedfordshire", "lat": "52.154", "lng": "-0.466352", "population": "0", "total_crimes": 144, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 16, "drugs": 6, "other-theft": 5, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 11, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 51}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NU3",
+  "neighbourhood_name": "Harpur, Brickhill and De Parys",
+  "force_id": "bedfordshire",
+  "lat": "52.154",
+  "lng": "-0.466352",
+  "population": 22375,
+  "total_crimes": 144,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 6,
+    "other-theft": 5,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 11,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 51
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

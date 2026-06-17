@@ -1,1 +1,17 @@
-{"neighbourhood_id": "sherburn-and-tadcaster", "neighbourhood_name": "Sherburn and Tadcaster", "force_id": "north-yorkshire", "lat": "53.8167", "lng": "-1.22904", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 5, "other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "sherburn-and-tadcaster",
+  "neighbourhood_name": "Sherburn and Tadcaster",
+  "force_id": "north-yorkshire",
+  "lat": "53.8167",
+  "lng": "-1.22904",
+  "population": 24728,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

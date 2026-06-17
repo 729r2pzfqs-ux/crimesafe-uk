@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WY5", "neighbourhood_name": "Rossall", "force_id": "lancashire", "lat": "53.9055", "lng": "-3.04271", "population": 12098, "total_crimes": 116, "categories": {"anti-social-behaviour": 14, "burglary": 5, "criminal-damage-arson": 9, "drugs": 5, "other-theft": 8, "possession-of-weapons": 2, "public-order": 4, "robbery": 1, "shoplifting": 4, "vehicle-crime": 2, "violent-crime": 58, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WY5",
+  "neighbourhood_name": "Rossall",
+  "force_id": "lancashire",
+  "lat": "53.9055",
+  "lng": "-3.04271",
+  "population": 6326,
+  "total_crimes": 116,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 5,
+    "criminal-damage-arson": 9,
+    "drugs": 5,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 2,
+    "violent-crime": 58,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

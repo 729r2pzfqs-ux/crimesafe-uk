@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013991N", "neighbourhood_name": "Bromley Town", "force_id": "metropolitan", "lat": "51.4032", "lng": "0.016146", "population": 12098, "total_crimes": 416, "categories": {"anti-social-behaviour": 83, "bicycle-theft": 4, "burglary": 11, "criminal-damage-arson": 28, "drugs": 23, "other-theft": 20, "possession-of-weapons": 3, "public-order": 44, "robbery": 12, "shoplifting": 48, "theft-from-the-person": 8, "vehicle-crime": 37, "violent-crime": 86, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013991N",
+  "neighbourhood_name": "Bromley Town",
+  "force_id": "metropolitan",
+  "lat": "51.4032",
+  "lng": "0.016146",
+  "population": 13937,
+  "total_crimes": 416,
+  "categories": {
+    "anti-social-behaviour": 83,
+    "bicycle-theft": 4,
+    "burglary": 11,
+    "criminal-damage-arson": 28,
+    "drugs": 23,
+    "other-theft": 20,
+    "possession-of-weapons": 3,
+    "public-order": 44,
+    "robbery": 12,
+    "shoplifting": 48,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 37,
+    "violent-crime": 86,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

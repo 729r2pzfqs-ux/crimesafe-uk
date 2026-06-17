@@ -1,1 +1,27 @@
-{"neighbourhood_id": "penygraig", "neighbourhood_name": "Pen-y-graig", "force_id": "south-wales", "lat": "51.6101", "lng": "-3.45502", "population": 12098, "total_crimes": 81, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 4, "drugs": 10, "other-theft": 3, "possession-of-weapons": 2, "public-order": 1, "robbery": 1, "shoplifting": 3, "vehicle-crime": 1, "violent-crime": 43, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penygraig",
+  "neighbourhood_name": "Pen-y-graig",
+  "force_id": "south-wales",
+  "lat": "51.6101",
+  "lng": "-3.45502",
+  "population": 5527,
+  "total_crimes": 81,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 10,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 1,
+    "violent-crime": 43,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

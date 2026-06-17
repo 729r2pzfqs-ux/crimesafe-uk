@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ELCO", "neighbourhood_name": "Cobham &amp; Oxshott", "force_id": "surrey", "lat": "51.3255", "lng": "-0.386996", "population": 12098, "total_crimes": 15, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "other-theft": 2, "public-order": 2, "robbery": 1, "shoplifting": 1, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ELCO",
+  "neighbourhood_name": "Cobham &amp; Oxshott",
+  "force_id": "surrey",
+  "lat": "51.3255",
+  "lng": "-0.386996",
+  "population": 19826,
+  "total_crimes": 15,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DC18", "neighbourhood_name": "Pinehurst", "force_id": "wiltshire", "lat": "51.5794", "lng": "-1.7861", "population": 12098, "total_crimes": 284, "categories": {"anti-social-behaviour": 60, "bicycle-theft": 2, "burglary": 3, "criminal-damage-arson": 18, "drugs": 2, "other-theft": 17, "possession-of-weapons": 5, "public-order": 25, "shoplifting": 14, "theft-from-the-person": 3, "vehicle-crime": 13, "violent-crime": 118, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DC18",
+  "neighbourhood_name": "Pinehurst",
+  "force_id": "wiltshire",
+  "lat": "51.5794",
+  "lng": "-1.7861",
+  "population": 5977,
+  "total_crimes": 284,
+  "categories": {
+    "anti-social-behaviour": 60,
+    "bicycle-theft": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 18,
+    "drugs": 2,
+    "other-theft": 17,
+    "possession-of-weapons": 5,
+    "public-order": 25,
+    "shoplifting": 14,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 13,
+    "violent-crime": 118,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

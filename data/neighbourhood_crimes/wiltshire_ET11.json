@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ET11", "neighbourhood_name": "Trowbridge Central", "force_id": "wiltshire", "lat": "51.3174", "lng": "-2.21532", "population": 12098, "total_crimes": 271, "categories": {"anti-social-behaviour": 64, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 15, "drugs": 7, "other-theft": 12, "possession-of-weapons": 2, "public-order": 12, "robbery": 2, "shoplifting": 28, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 104, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ET11",
+  "neighbourhood_name": "Trowbridge Central",
+  "force_id": "wiltshire",
+  "lat": "51.3174",
+  "lng": "-2.21532",
+  "population": 4750,
+  "total_crimes": 271,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 15,
+    "drugs": 7,
+    "other-theft": 12,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 2,
+    "shoplifting": 28,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 104,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 57.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

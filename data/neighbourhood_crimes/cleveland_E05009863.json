@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009863", "neighbourhood_name": "Longlands and Beechwood", "force_id": "cleveland", "lat": "54.5539", "lng": "-1.22297", "population": "0", "total_crimes": 626, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 7, "burglary": 13, "criminal-damage-arson": 70, "drugs": 19, "other-theft": 23, "possession-of-weapons": 5, "public-order": 62, "robbery": 12, "shoplifting": 80, "theft-from-the-person": 4, "vehicle-crime": 24, "violent-crime": 213, "other-crime": 23}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009863",
+  "neighbourhood_name": "Longlands and Beechwood",
+  "force_id": "cleveland",
+  "lat": "54.5539",
+  "lng": "-1.22297",
+  "population": 11225,
+  "total_crimes": 626,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 7,
+    "burglary": 13,
+    "criminal-damage-arson": 70,
+    "drugs": 19,
+    "other-theft": 23,
+    "possession-of-weapons": 5,
+    "public-order": 62,
+    "robbery": 12,
+    "shoplifting": 80,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 24,
+    "violent-crime": 213,
+    "other-crime": 23
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

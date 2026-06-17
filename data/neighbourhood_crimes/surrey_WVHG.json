@@ -1,1 +1,16 @@
-{"neighbourhood_id": "WVHG", "neighbourhood_name": "Haslemere, Grayswood &amp; Chiddingfold", "force_id": "surrey", "lat": "51.0998", "lng": "-0.64991", "population": 12098, "total_crimes": 1, "categories": {"shoplifting": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WVHG",
+  "neighbourhood_name": "Haslemere, Grayswood &amp; Chiddingfold",
+  "force_id": "surrey",
+  "lat": "51.0998",
+  "lng": "-0.64991",
+  "population": 9248,
+  "total_crimes": 1,
+  "categories": {
+    "shoplifting": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013758", "neighbourhood_name": "Cheam", "force_id": "metropolitan", "lat": "51.3507", "lng": "-0.215935", "population": 12098, "total_crimes": 101, "categories": {"anti-social-behaviour": 21, "burglary": 8, "criminal-damage-arson": 4, "drugs": 4, "other-theft": 7, "public-order": 5, "robbery": 2, "shoplifting": 1, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 39, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013758",
+  "neighbourhood_name": "Cheam",
+  "force_id": "metropolitan",
+  "lat": "51.3507",
+  "lng": "-0.215935",
+  "population": 10672,
+  "total_crimes": 101,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 8,
+    "criminal-damage-arson": 4,
+    "drugs": 4,
+    "other-theft": 7,
+    "public-order": 5,
+    "robbery": 2,
+    "shoplifting": 1,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 39,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

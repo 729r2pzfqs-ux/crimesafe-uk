@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ER11", "neighbourhood_name": "Warminster Town", "force_id": "wiltshire", "lat": "51.2151", "lng": "-2.16428", "population": 12098, "total_crimes": 40, "categories": {"anti-social-behaviour": 9, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 4, "drugs": 2, "public-order": 4, "shoplifting": 6, "vehicle-crime": 3, "violent-crime": 8, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER11",
+  "neighbourhood_name": "Warminster Town",
+  "force_id": "wiltshire",
+  "lat": "51.2151",
+  "lng": "-2.16428",
+  "population": 18043,
+  "total_crimes": 40,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 2,
+    "public-order": 4,
+    "shoplifting": 6,
+    "vehicle-crime": 3,
+    "violent-crime": 8,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

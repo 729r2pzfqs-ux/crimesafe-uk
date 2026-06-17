@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009376", "neighbourhood_name": "Homerton", "force_id": "metropolitan", "lat": "51.5475", "lng": "-0.0480862", "population": 12723, "total_crimes": 1236, "categories": {"anti-social-behaviour": 244, "bicycle-theft": 23, "burglary": 49, "criminal-damage-arson": 61, "drugs": 46, "other-theft": 75, "possession-of-weapons": 6, "public-order": 54, "robbery": 32, "shoplifting": 117, "theft-from-the-person": 114, "vehicle-crime": 66, "violent-crime": 338, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009376",
+  "neighbourhood_name": "Homerton",
+  "force_id": "metropolitan",
+  "lat": "51.5475",
+  "lng": "-0.0480862",
+  "population": 13357,
+  "total_crimes": 1236,
+  "categories": {
+    "anti-social-behaviour": 244,
+    "bicycle-theft": 23,
+    "burglary": 49,
+    "criminal-damage-arson": 61,
+    "drugs": 46,
+    "other-theft": 75,
+    "possession-of-weapons": 6,
+    "public-order": 54,
+    "robbery": 32,
+    "shoplifting": 117,
+    "theft-from-the-person": 114,
+    "vehicle-crime": 66,
+    "violent-crime": 338,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 92.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DT15", "neighbourhood_name": "Victoria Road", "force_id": "wiltshire", "lat": "51.5538", "lng": "-1.77816", "population": 12098, "total_crimes": 572, "categories": {"anti-social-behaviour": 121, "bicycle-theft": 4, "burglary": 15, "criminal-damage-arson": 43, "drugs": 17, "other-theft": 21, "possession-of-weapons": 7, "public-order": 58, "robbery": 5, "shoplifting": 56, "theft-from-the-person": 6, "vehicle-crime": 27, "violent-crime": 185, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DT15",
+  "neighbourhood_name": "Victoria Road",
+  "force_id": "wiltshire",
+  "lat": "51.5538",
+  "lng": "-1.77816",
+  "population": 1334,
+  "total_crimes": 572,
+  "categories": {
+    "anti-social-behaviour": 121,
+    "bicycle-theft": 4,
+    "burglary": 15,
+    "criminal-damage-arson": 43,
+    "drugs": 17,
+    "other-theft": 21,
+    "possession-of-weapons": 7,
+    "public-order": 58,
+    "robbery": 5,
+    "shoplifting": 56,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 27,
+    "violent-crime": 185,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 428.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

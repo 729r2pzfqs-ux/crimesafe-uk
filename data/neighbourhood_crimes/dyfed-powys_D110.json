@@ -1,1 +1,17 @@
-{"neighbourhood_id": "D110", "neighbourhood_name": "Churchstoke", "force_id": "dyfed-powys", "lat": "52.5323", "lng": "-3.07056", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D110",
+  "neighbourhood_name": "Churchstoke",
+  "force_id": "dyfed-powys",
+  "lat": "52.5323",
+  "lng": "-3.07056",
+  "population": 1677,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

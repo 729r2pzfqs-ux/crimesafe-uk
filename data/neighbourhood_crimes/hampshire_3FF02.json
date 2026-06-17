@@ -1,1 +1,27 @@
-{"neighbourhood_id": "3FF02", "neighbourhood_name": "Fareham", "force_id": "hampshire", "lat": "50.8626", "lng": "-1.1866", "population": 12098, "total_crimes": 165, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 5, "burglary": 4, "criminal-damage-arson": 10, "drugs": 11, "other-theft": 7, "public-order": 9, "robbery": 4, "shoplifting": 15, "vehicle-crime": 6, "violent-crime": 72, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "3FF02",
+  "neighbourhood_name": "Fareham",
+  "force_id": "hampshire",
+  "lat": "50.8626",
+  "lng": "-1.1866",
+  "population": 37205,
+  "total_crimes": 165,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 5,
+    "burglary": 4,
+    "criminal-damage-arson": 10,
+    "drugs": 11,
+    "other-theft": 7,
+    "public-order": 9,
+    "robbery": 4,
+    "shoplifting": 15,
+    "vehicle-crime": 6,
+    "violent-crime": 72,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 24
+}

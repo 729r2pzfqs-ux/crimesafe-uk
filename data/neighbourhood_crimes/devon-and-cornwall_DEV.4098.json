@@ -1,1 +1,14 @@
-{"neighbourhood_id": "DEV.4098", "neighbourhood_name": "Pilton, Bratton Fleming &amp;amp; Goodleigh", "force_id": "devon-and-cornwall", "lat": "51.1191", "lng": "-3.98932", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4098",
+  "neighbourhood_name": "Pilton, Bratton Fleming &amp;amp; Goodleigh",
+  "force_id": "devon-and-cornwall",
+  "lat": "51.1191",
+  "lng": "-3.98932",
+  "population": 8674,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

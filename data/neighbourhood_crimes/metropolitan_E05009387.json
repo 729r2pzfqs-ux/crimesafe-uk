@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009387", "neighbourhood_name": "Woodberry Down", "force_id": "metropolitan", "lat": "51.5698", "lng": "-0.0871533", "population": 12998, "total_crimes": 1192, "categories": {"anti-social-behaviour": 273, "bicycle-theft": 22, "burglary": 38, "criminal-damage-arson": 58, "drugs": 47, "other-theft": 80, "possession-of-weapons": 17, "public-order": 60, "robbery": 53, "shoplifting": 64, "theft-from-the-person": 140, "vehicle-crime": 63, "violent-crime": 267, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009387",
+  "neighbourhood_name": "Woodberry Down",
+  "force_id": "metropolitan",
+  "lat": "51.5698",
+  "lng": "-0.0871533",
+  "population": 9098,
+  "total_crimes": 1192,
+  "categories": {
+    "anti-social-behaviour": 273,
+    "bicycle-theft": 22,
+    "burglary": 38,
+    "criminal-damage-arson": 58,
+    "drugs": 47,
+    "other-theft": 80,
+    "possession-of-weapons": 17,
+    "public-order": 60,
+    "robbery": 53,
+    "shoplifting": 64,
+    "theft-from-the-person": 140,
+    "vehicle-crime": 63,
+    "violent-crime": 267,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 131.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

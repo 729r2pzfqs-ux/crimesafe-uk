@@ -1,1 +1,29 @@
-{"neighbourhood_id": "york-inner", "neighbourhood_name": "York Inner", "force_id": "north-yorkshire", "lat": "53.9529", "lng": "-1.08225", "population": 12098, "total_crimes": 640, "categories": {"anti-social-behaviour": 151, "bicycle-theft": 15, "burglary": 13, "criminal-damage-arson": 32, "drugs": 26, "other-theft": 34, "possession-of-weapons": 3, "public-order": 38, "robbery": 8, "shoplifting": 60, "theft-from-the-person": 9, "vehicle-crime": 7, "violent-crime": 241, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "york-inner",
+  "neighbourhood_name": "York Inner",
+  "force_id": "north-yorkshire",
+  "lat": "53.9529",
+  "lng": "-1.08225",
+  "population": 32444,
+  "total_crimes": 640,
+  "categories": {
+    "anti-social-behaviour": 151,
+    "bicycle-theft": 15,
+    "burglary": 13,
+    "criminal-damage-arson": 32,
+    "drugs": 26,
+    "other-theft": 34,
+    "possession-of-weapons": 3,
+    "public-order": 38,
+    "robbery": 8,
+    "shoplifting": 60,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 7,
+    "violent-crime": 241,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "rtw", "neighbourhood_name": "Rugby Town West", "force_id": "warwickshire", "lat": "52.3636", "lng": "-1.2777", "population": 12098, "total_crimes": 286, "categories": {"anti-social-behaviour": 88, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 19, "drugs": 5, "other-theft": 16, "possession-of-weapons": 4, "public-order": 18, "robbery": 3, "shoplifting": 14, "theft-from-the-person": 1, "vehicle-crime": 15, "violent-crime": 89, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "rtw",
+  "neighbourhood_name": "Rugby Town West",
+  "force_id": "warwickshire",
+  "lat": "52.3636",
+  "lng": "-1.2777",
+  "population": 33954,
+  "total_crimes": 286,
+  "categories": {
+    "anti-social-behaviour": 88,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 19,
+    "drugs": 5,
+    "other-theft": 16,
+    "possession-of-weapons": 4,
+    "public-order": 18,
+    "robbery": 3,
+    "shoplifting": 14,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 15,
+    "violent-crime": 89,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

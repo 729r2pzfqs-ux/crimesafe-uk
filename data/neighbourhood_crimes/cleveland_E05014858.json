@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014858", "neighbourhood_name": "Billingham Central", "force_id": "cleveland", "lat": "54.6093", "lng": "-1.29074", "population": 8261, "total_crimes": 232, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 3, "burglary": 16, "criminal-damage-arson": 25, "drugs": 6, "other-theft": 8, "possession-of-weapons": 3, "public-order": 15, "robbery": 4, "shoplifting": 27, "vehicle-crime": 13, "violent-crime": 69, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014858",
+  "neighbourhood_name": "Billingham Central",
+  "force_id": "cleveland",
+  "lat": "54.6093",
+  "lng": "-1.29074",
+  "population": 8533,
+  "total_crimes": 232,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 3,
+    "burglary": 16,
+    "criminal-damage-arson": 25,
+    "drugs": 6,
+    "other-theft": 8,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "robbery": 4,
+    "shoplifting": 27,
+    "vehicle-crime": 13,
+    "violent-crime": 69,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

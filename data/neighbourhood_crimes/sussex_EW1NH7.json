@@ -1,1 +1,21 @@
-{"neighbourhood_id": "EW1NH7", "neighbourhood_name": "Wadhurst", "force_id": "sussex", "lat": "51.0615", "lng": "0.322425", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1NH7",
+  "neighbourhood_name": "Wadhurst",
+  "force_id": "sussex",
+  "lat": "51.0615",
+  "lng": "0.322425",
+  "population": 5312,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

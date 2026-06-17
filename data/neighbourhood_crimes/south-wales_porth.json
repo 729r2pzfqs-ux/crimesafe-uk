@@ -1,1 +1,25 @@
-{"neighbourhood_id": "porth", "neighbourhood_name": "Porth", "force_id": "south-wales", "lat": "51.6172", "lng": "-3.41084", "population": 12098, "total_crimes": 91, "categories": {"anti-social-behaviour": 13, "burglary": 1, "criminal-damage-arson": 10, "drugs": 1, "other-theft": 6, "public-order": 12, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 44, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "porth",
+  "neighbourhood_name": "Porth",
+  "force_id": "south-wales",
+  "lat": "51.6172",
+  "lng": "-3.41084",
+  "population": 5977,
+  "total_crimes": 91,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 1,
+    "other-theft": 6,
+    "public-order": 12,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 44,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "aberaman", "neighbourhood_name": "Aberaman", "force_id": "south-wales", "lat": "51.688", "lng": "-3.44383", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 4, "drugs": 3, "possession-of-weapons": 1, "public-order": 1, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "aberaman",
+  "neighbourhood_name": "Aberaman",
+  "force_id": "south-wales",
+  "lat": "51.688",
+  "lng": "-3.44383",
+  "population": 10116,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

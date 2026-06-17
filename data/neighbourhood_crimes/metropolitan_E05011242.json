@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011242", "neighbourhood_name": "Fairlop", "force_id": "metropolitan", "lat": "51.5987", "lng": "0.0908215", "population": 14593, "total_crimes": 237, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 15, "drugs": 7, "other-theft": 22, "public-order": 21, "robbery": 4, "shoplifting": 22, "theft-from-the-person": 3, "vehicle-crime": 12, "violent-crime": 82, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011242",
+  "neighbourhood_name": "Fairlop",
+  "force_id": "metropolitan",
+  "lat": "51.5987",
+  "lng": "0.0908215",
+  "population": 13768,
+  "total_crimes": 237,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 15,
+    "drugs": 7,
+    "other-theft": 22,
+    "public-order": 21,
+    "robbery": 4,
+    "shoplifting": 22,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 12,
+    "violent-crime": 82,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,16 @@
-{"neighbourhood_id": "D201", "neighbourhood_name": "Welshpool - Castle", "force_id": "dyfed-powys", "lat": "52.6359", "lng": "-3.17216", "population": 12098, "total_crimes": 1, "categories": {"shoplifting": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D201",
+  "neighbourhood_name": "Welshpool - Castle",
+  "force_id": "dyfed-powys",
+  "lat": "52.6359",
+  "lng": "-3.17216",
+  "population": 1532,
+  "total_crimes": 1,
+  "categories": {
+    "shoplifting": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

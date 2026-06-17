@@ -1,1 +1,27 @@
-{"neighbourhood_id": "penydarren", "neighbourhood_name": "Penydarren", "force_id": "south-wales", "lat": "51.76", "lng": "-3.36933", "population": 12098, "total_crimes": 162, "categories": {"anti-social-behaviour": 11, "burglary": 3, "criminal-damage-arson": 16, "drugs": 1, "other-theft": 10, "public-order": 18, "robbery": 1, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 76, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "penydarren",
+  "neighbourhood_name": "Penydarren",
+  "force_id": "south-wales",
+  "lat": "51.76",
+  "lng": "-3.36933",
+  "population": 5513,
+  "total_crimes": 162,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 3,
+    "criminal-damage-arson": 16,
+    "drugs": 1,
+    "other-theft": 10,
+    "public-order": 18,
+    "robbery": 1,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 76,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

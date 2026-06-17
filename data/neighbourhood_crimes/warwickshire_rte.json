@@ -1,1 +1,25 @@
-{"neighbourhood_id": "rte", "neighbourhood_name": "Rugby Town East", "force_id": "warwickshire", "lat": "52.3587", "lng": "-1.21807", "population": 12098, "total_crimes": 47, "categories": {"anti-social-behaviour": 8, "bicycle-theft": 1, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 3, "public-order": 1, "shoplifting": 2, "vehicle-crime": 8, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "rte",
+  "neighbourhood_name": "Rugby Town East",
+  "force_id": "warwickshire",
+  "lat": "52.3587",
+  "lng": "-1.21807",
+  "population": 16046,
+  "total_crimes": 47,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 8,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

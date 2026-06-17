@@ -1,1 +1,25 @@
-{"neighbourhood_id": "N411", "neighbourhood_name": "Aylesbury East", "force_id": "thames-valley", "lat": "51.8251", "lng": "-0.772988", "population": 12098, "total_crimes": 66, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 5, "drugs": 3, "possession-of-weapons": 2, "public-order": 9, "robbery": 1, "shoplifting": 7, "vehicle-crime": 2, "violent-crime": 30}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N411",
+  "neighbourhood_name": "Aylesbury East",
+  "force_id": "thames-valley",
+  "lat": "51.8251",
+  "lng": "-0.772988",
+  "population": 15516,
+  "total_crimes": 66,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 3,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 7,
+    "vehicle-crime": 2,
+    "violent-crime": 30
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "harrogate-south", "neighbourhood_name": "Harrogate South", "force_id": "north-yorkshire", "lat": "53.9797", "lng": "-1.53114", "population": 12098, "total_crimes": 92, "categories": {"anti-social-behaviour": 15, "burglary": 2, "criminal-damage-arson": 9, "other-theft": 7, "public-order": 2, "robbery": 1, "shoplifting": 24, "vehicle-crime": 1, "violent-crime": 28, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "harrogate-south",
+  "neighbourhood_name": "Harrogate South",
+  "force_id": "north-yorkshire",
+  "lat": "53.9797",
+  "lng": "-1.53114",
+  "population": 37676,
+  "total_crimes": 92,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 2,
+    "criminal-damage-arson": 9,
+    "other-theft": 7,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 24,
+    "vehicle-crime": 1,
+    "violent-crime": 28,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

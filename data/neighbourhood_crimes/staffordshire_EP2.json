@@ -1,1 +1,23 @@
-{"neighbourhood_id": "EP2", "neighbourhood_name": "Branston", "force_id": "staffordshire", "lat": "52.7962", "lng": "-1.67126", "population": 12098, "total_crimes": 47, "categories": {"anti-social-behaviour": 7, "burglary": 2, "criminal-damage-arson": 2, "other-theft": 7, "public-order": 2, "shoplifting": 2, "vehicle-crime": 3, "violent-crime": 22}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EP2",
+  "neighbourhood_name": "Branston",
+  "force_id": "staffordshire",
+  "lat": "52.7962",
+  "lng": "-1.67126",
+  "population": 8166,
+  "total_crimes": 47,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 2,
+    "criminal-damage-arson": 2,
+    "other-theft": 7,
+    "public-order": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 22
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

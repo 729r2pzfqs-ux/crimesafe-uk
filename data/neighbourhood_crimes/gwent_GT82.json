@@ -1,1 +1,16 @@
-{"neighbourhood_id": "GT82", "neighbourhood_name": "Sirhowy", "force_id": "gwent", "lat": "51.8007", "lng": "-3.26907", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GT82",
+  "neighbourhood_name": "Sirhowy",
+  "force_id": "gwent",
+  "lat": "51.8007",
+  "lng": "-3.26907",
+  "population": 5521,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

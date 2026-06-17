@@ -1,1 +1,25 @@
-{"neighbourhood_id": "AE021", "neighbourhood_name": "Wells City", "force_id": "avon-and-somerset", "lat": "51.2099", "lng": "-2.64513", "population": "0", "total_crimes": 96, "categories": {"anti-social-behaviour": 16, "burglary": 5, "criminal-damage-arson": 7, "other-theft": 3, "public-order": 11, "robbery": 3, "shoplifting": 10, "vehicle-crime": 4, "violent-crime": 33, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AE021",
+  "neighbourhood_name": "Wells City",
+  "force_id": "avon-and-somerset",
+  "lat": "51.2099",
+  "lng": "-2.64513",
+  "population": 11210,
+  "total_crimes": 96,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 5,
+    "criminal-damage-arson": 7,
+    "other-theft": 3,
+    "public-order": 11,
+    "robbery": 3,
+    "shoplifting": 10,
+    "vehicle-crime": 4,
+    "violent-crime": 33,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

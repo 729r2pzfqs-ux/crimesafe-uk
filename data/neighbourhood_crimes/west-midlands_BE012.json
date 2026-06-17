@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BE012", "neighbourhood_name": "Washwood Heath", "force_id": "west-midlands", "lat": "52.4905", "lng": "-1.8403", "population": 12098, "total_crimes": 526, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 2, "burglary": 24, "criminal-damage-arson": 42, "drugs": 12, "other-theft": 21, "possession-of-weapons": 19, "public-order": 28, "robbery": 17, "shoplifting": 23, "theft-from-the-person": 6, "vehicle-crime": 35, "violent-crime": 274, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE012",
+  "neighbourhood_name": "Washwood Heath",
+  "force_id": "west-midlands",
+  "lat": "52.4905",
+  "lng": "-1.8403",
+  "population": 25858,
+  "total_crimes": 526,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 2,
+    "burglary": 24,
+    "criminal-damage-arson": 42,
+    "drugs": 12,
+    "other-theft": 21,
+    "possession-of-weapons": 19,
+    "public-order": 28,
+    "robbery": 17,
+    "shoplifting": 23,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 35,
+    "violent-crime": 274,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

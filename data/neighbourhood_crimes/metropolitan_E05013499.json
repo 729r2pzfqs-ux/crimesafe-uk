@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013499", "neighbourhood_name": "Cricklewood and Mapesbury", "force_id": "metropolitan", "lat": "51.5542", "lng": "-0.217486", "population": 12098, "total_crimes": 764, "categories": {"anti-social-behaviour": 197, "bicycle-theft": 8, "burglary": 55, "criminal-damage-arson": 38, "drugs": 29, "other-theft": 58, "possession-of-weapons": 7, "public-order": 29, "robbery": 20, "shoplifting": 34, "theft-from-the-person": 25, "vehicle-crime": 66, "violent-crime": 191, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013499",
+  "neighbourhood_name": "Cricklewood and Mapesbury",
+  "force_id": "metropolitan",
+  "lat": "51.5542",
+  "lng": "-0.217486",
+  "population": 14920,
+  "total_crimes": 764,
+  "categories": {
+    "anti-social-behaviour": 197,
+    "bicycle-theft": 8,
+    "burglary": 55,
+    "criminal-damage-arson": 38,
+    "drugs": 29,
+    "other-theft": 58,
+    "possession-of-weapons": 7,
+    "public-order": 29,
+    "robbery": 20,
+    "shoplifting": 34,
+    "theft-from-the-person": 25,
+    "vehicle-crime": 66,
+    "violent-crime": 191,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 51.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

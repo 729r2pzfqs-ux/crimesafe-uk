@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013707", "neighbourhood_name": "Junction", "force_id": "metropolitan", "lat": "51.5637", "lng": "-0.134127", "population": 12098, "total_crimes": 1238, "categories": {"anti-social-behaviour": 338, "bicycle-theft": 18, "burglary": 39, "criminal-damage-arson": 65, "drugs": 46, "other-theft": 75, "possession-of-weapons": 12, "public-order": 88, "robbery": 32, "shoplifting": 74, "theft-from-the-person": 54, "vehicle-crime": 86, "violent-crime": 310, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013707",
+  "neighbourhood_name": "Junction",
+  "force_id": "metropolitan",
+  "lat": "51.5637",
+  "lng": "-0.134127",
+  "population": 13364,
+  "total_crimes": 1238,
+  "categories": {
+    "anti-social-behaviour": 338,
+    "bicycle-theft": 18,
+    "burglary": 39,
+    "criminal-damage-arson": 65,
+    "drugs": 46,
+    "other-theft": 75,
+    "possession-of-weapons": 12,
+    "public-order": 88,
+    "robbery": 32,
+    "shoplifting": 74,
+    "theft-from-the-person": 54,
+    "vehicle-crime": 86,
+    "violent-crime": 310,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 92.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

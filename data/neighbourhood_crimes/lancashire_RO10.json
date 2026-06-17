@@ -1,1 +1,21 @@
-{"neighbourhood_id": "RO10", "neighbourhood_name": "Whitworth", "force_id": "lancashire", "lat": "53.6691", "lng": "-2.18144", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 4, "burglary": 1, "other-theft": 1, "public-order": 2, "vehicle-crime": 1, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RO10",
+  "neighbourhood_name": "Whitworth",
+  "force_id": "lancashire",
+  "lat": "53.6691",
+  "lng": "-2.18144",
+  "population": 7854,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

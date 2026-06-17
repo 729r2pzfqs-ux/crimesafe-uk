@@ -1,1 +1,14 @@
-{"neighbourhood_id": "AW044", "neighbourhood_name": "Taunton East", "force_id": "avon-and-somerset", "lat": "50.9883", "lng": "-3.03576", "population": "0", "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW044",
+  "neighbourhood_name": "Taunton East",
+  "force_id": "avon-and-somerset",
+  "lat": "50.9883",
+  "lng": "-3.03576",
+  "population": 16056,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

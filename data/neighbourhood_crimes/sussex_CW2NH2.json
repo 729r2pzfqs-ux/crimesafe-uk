@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CW2NH2", "neighbourhood_name": "Adelaide", "force_id": "sussex", "lat": "50.8258", "lng": "-0.161286", "population": 12098, "total_crimes": 936, "categories": {"anti-social-behaviour": 175, "bicycle-theft": 7, "burglary": 23, "criminal-damage-arson": 44, "drugs": 62, "other-theft": 76, "possession-of-weapons": 8, "public-order": 75, "robbery": 14, "shoplifting": 157, "theft-from-the-person": 10, "vehicle-crime": 16, "violent-crime": 239, "other-crime": 30}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CW2NH2",
+  "neighbourhood_name": "Adelaide",
+  "force_id": "sussex",
+  "lat": "50.8258",
+  "lng": "-0.161286",
+  "population": 11367,
+  "total_crimes": 936,
+  "categories": {
+    "anti-social-behaviour": 175,
+    "bicycle-theft": 7,
+    "burglary": 23,
+    "criminal-damage-arson": 44,
+    "drugs": 62,
+    "other-theft": 76,
+    "possession-of-weapons": 8,
+    "public-order": 75,
+    "robbery": 14,
+    "shoplifting": 157,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 16,
+    "violent-crime": 239,
+    "other-crime": 30
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 82.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "FY15", "neighbourhood_name": "Staining", "force_id": "lancashire", "lat": "53.8189", "lng": "-2.98181", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "vehicle-crime": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FY15",
+  "neighbourhood_name": "Staining",
+  "force_id": "lancashire",
+  "lat": "53.8189",
+  "lng": "-2.98181",
+  "population": 3276,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

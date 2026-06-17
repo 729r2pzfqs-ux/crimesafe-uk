@@ -1,1 +1,18 @@
-{"neighbourhood_id": "WV7", "neighbourhood_name": "Etching Hill &amp; The Heath", "force_id": "staffordshire", "lat": "52.7451", "lng": "-1.98011", "population": 12098, "total_crimes": 11, "categories": {"anti-social-behaviour": 5, "vehicle-crime": 4, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WV7",
+  "neighbourhood_name": "Etching Hill &amp; The Heath",
+  "force_id": "staffordshire",
+  "lat": "52.7451",
+  "lng": "-1.98011",
+  "population": 6532,
+  "total_crimes": 11,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "vehicle-crime": 4,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

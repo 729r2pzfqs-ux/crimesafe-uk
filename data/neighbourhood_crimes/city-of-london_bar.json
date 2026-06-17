@@ -1,1 +1,29 @@
-{"neighbourhood_id": "bar", "neighbourhood_name": "Barbican", "force_id": "city-of-london", "lat": "51.519", "lng": "-0.0926135", "population": "0", "total_crimes": 2545, "categories": {"anti-social-behaviour": 276, "bicycle-theft": 66, "burglary": 120, "criminal-damage-arson": 65, "drugs": 132, "other-theft": 434, "possession-of-weapons": 12, "public-order": 126, "robbery": 93, "shoplifting": 330, "theft-from-the-person": 389, "vehicle-crime": 70, "violent-crime": 417, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "bar",
+  "neighbourhood_name": "Barbican",
+  "force_id": "city-of-london",
+  "lat": "51.519",
+  "lng": "-0.0926135",
+  "population": 5327,
+  "total_crimes": 2545,
+  "categories": {
+    "anti-social-behaviour": 276,
+    "bicycle-theft": 66,
+    "burglary": 120,
+    "criminal-damage-arson": 65,
+    "drugs": 132,
+    "other-theft": 434,
+    "possession-of-weapons": 12,
+    "public-order": 126,
+    "robbery": 93,
+    "shoplifting": 330,
+    "theft-from-the-person": 389,
+    "vehicle-crime": 70,
+    "violent-crime": 417,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 477.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

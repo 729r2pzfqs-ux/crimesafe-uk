@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011117", "neighbourhood_name": "Surrey Docks", "force_id": "metropolitan", "lat": "51.5004", "lng": "-0.0390594", "population": 13053, "total_crimes": 1010, "categories": {"anti-social-behaviour": 211, "bicycle-theft": 19, "burglary": 48, "criminal-damage-arson": 46, "drugs": 43, "other-theft": 77, "possession-of-weapons": 11, "public-order": 49, "robbery": 27, "shoplifting": 57, "theft-from-the-person": 95, "vehicle-crime": 69, "violent-crime": 248, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011117",
+  "neighbourhood_name": "Surrey Docks",
+  "force_id": "metropolitan",
+  "lat": "51.5004",
+  "lng": "-0.0390594",
+  "population": 13437,
+  "total_crimes": 1010,
+  "categories": {
+    "anti-social-behaviour": 211,
+    "bicycle-theft": 19,
+    "burglary": 48,
+    "criminal-damage-arson": 46,
+    "drugs": 43,
+    "other-theft": 77,
+    "possession-of-weapons": 11,
+    "public-order": 49,
+    "robbery": 27,
+    "shoplifting": 57,
+    "theft-from-the-person": 95,
+    "vehicle-crime": 69,
+    "violent-crime": 248,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 75.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

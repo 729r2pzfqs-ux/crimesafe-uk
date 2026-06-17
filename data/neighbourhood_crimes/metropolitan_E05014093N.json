@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014093N", "neighbourhood_name": "Woolwich Common", "force_id": "metropolitan", "lat": "51.4799", "lng": "0.0631076", "population": 12098, "total_crimes": 695, "categories": {"anti-social-behaviour": 146, "bicycle-theft": 2, "burglary": 20, "criminal-damage-arson": 32, "drugs": 36, "other-theft": 53, "possession-of-weapons": 4, "public-order": 59, "robbery": 21, "shoplifting": 48, "theft-from-the-person": 17, "vehicle-crime": 39, "violent-crime": 210, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014093N",
+  "neighbourhood_name": "Woolwich Common",
+  "force_id": "metropolitan",
+  "lat": "51.4799",
+  "lng": "0.0631076",
+  "population": 12921,
+  "total_crimes": 695,
+  "categories": {
+    "anti-social-behaviour": 146,
+    "bicycle-theft": 2,
+    "burglary": 20,
+    "criminal-damage-arson": 32,
+    "drugs": 36,
+    "other-theft": 53,
+    "possession-of-weapons": 4,
+    "public-order": 59,
+    "robbery": 21,
+    "shoplifting": 48,
+    "theft-from-the-person": 17,
+    "vehicle-crime": 39,
+    "violent-crime": 210,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 53.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

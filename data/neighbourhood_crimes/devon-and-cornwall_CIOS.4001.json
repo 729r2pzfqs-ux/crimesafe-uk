@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CIOS.4001", "neighbourhood_name": "Camborne North", "force_id": "devon-and-cornwall", "lat": "50.2218", "lng": "-5.28994", "population": 12098, "total_crimes": 221, "categories": {"anti-social-behaviour": 26, "burglary": 4, "criminal-damage-arson": 16, "drugs": 4, "other-theft": 13, "possession-of-weapons": 3, "public-order": 10, "shoplifting": 15, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 115, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4001",
+  "neighbourhood_name": "Camborne North",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.2218",
+  "lng": "-5.28994",
+  "population": 5926,
+  "total_crimes": 221,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 4,
+    "other-theft": 13,
+    "possession-of-weapons": 3,
+    "public-order": 10,
+    "shoplifting": 15,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 115,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

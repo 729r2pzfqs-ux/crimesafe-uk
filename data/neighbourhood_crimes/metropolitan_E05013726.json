@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013726", "neighbourhood_name": "Lee Green", "force_id": "metropolitan", "lat": "51.4523", "lng": "0.00670533", "population": 15015, "total_crimes": 657, "categories": {"anti-social-behaviour": 85, "bicycle-theft": 4, "burglary": 19, "criminal-damage-arson": 41, "drugs": 33, "other-theft": 42, "possession-of-weapons": 7, "public-order": 47, "robbery": 11, "shoplifting": 86, "theft-from-the-person": 22, "vehicle-crime": 44, "violent-crime": 210, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013726",
+  "neighbourhood_name": "Lee Green",
+  "force_id": "metropolitan",
+  "lat": "51.4523",
+  "lng": "0.00670533",
+  "population": 16080,
+  "total_crimes": 657,
+  "categories": {
+    "anti-social-behaviour": 85,
+    "bicycle-theft": 4,
+    "burglary": 19,
+    "criminal-damage-arson": 41,
+    "drugs": 33,
+    "other-theft": 42,
+    "possession-of-weapons": 7,
+    "public-order": 47,
+    "robbery": 11,
+    "shoplifting": 86,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 44,
+    "violent-crime": 210,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

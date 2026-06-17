@@ -1,1 +1,21 @@
-{"neighbourhood_id": "RV23", "neighbourhood_name": "Whalley &amp; Painterwood", "force_id": "lancashire", "lat": "53.8207", "lng": "-2.40741", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 1, "public-order": 2, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV23",
+  "neighbourhood_name": "Whalley &amp; Painterwood",
+  "force_id": "lancashire",
+  "lat": "53.8207",
+  "lng": "-2.40741",
+  "population": 1542,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

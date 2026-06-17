@@ -1,1 +1,27 @@
-{"neighbourhood_id": "YA16", "neighbourhood_name": "Palace Wood", "force_id": "kent", "lat": "51.2811", "lng": "0.494457", "population": 12098, "total_crimes": 181, "categories": {"anti-social-behaviour": 28, "burglary": 5, "criminal-damage-arson": 17, "drugs": 1, "other-theft": 17, "possession-of-weapons": 1, "public-order": 1, "robbery": 1, "shoplifting": 17, "vehicle-crime": 5, "violent-crime": 80, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YA16",
+  "neighbourhood_name": "Palace Wood",
+  "force_id": "kent",
+  "lat": "51.2811",
+  "lng": "0.494457",
+  "population": 6160,
+  "total_crimes": 181,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "burglary": 5,
+    "criminal-damage-arson": 17,
+    "drugs": 1,
+    "other-theft": 17,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 17,
+    "vehicle-crime": 5,
+    "violent-crime": 80,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

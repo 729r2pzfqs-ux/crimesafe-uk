@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPK1H", "neighbourhood_name": "Swanside", "force_id": "merseyside", "lat": "53.4119", "lng": "-2.87359", "population": 12098, "total_crimes": 212, "categories": {"anti-social-behaviour": 29, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 19, "drugs": 5, "other-theft": 12, "public-order": 22, "robbery": 1, "shoplifting": 6, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 99, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPK1H",
+  "neighbourhood_name": "Swanside",
+  "force_id": "merseyside",
+  "lat": "53.4119",
+  "lng": "-2.87359",
+  "population": 9647,
+  "total_crimes": 212,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 19,
+    "drugs": 5,
+    "other-theft": 12,
+    "public-order": 22,
+    "robbery": 1,
+    "shoplifting": 6,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 99,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

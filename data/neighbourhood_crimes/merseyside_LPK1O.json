@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPK1O", "neighbourhood_name": "Halewood South", "force_id": "merseyside", "lat": "53.3594", "lng": "-2.81845", "population": 12098, "total_crimes": 79, "categories": {"anti-social-behaviour": 13, "burglary": 2, "criminal-damage-arson": 4, "drugs": 5, "other-theft": 2, "possession-of-weapons": 1, "public-order": 7, "robbery": 1, "shoplifting": 5, "theft-from-the-person": 1, "vehicle-crime": 2, "violent-crime": 36}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPK1O",
+  "neighbourhood_name": "Halewood South",
+  "force_id": "merseyside",
+  "lat": "53.3594",
+  "lng": "-2.81845",
+  "population": 12511,
+  "total_crimes": 79,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 5,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 5,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 36
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

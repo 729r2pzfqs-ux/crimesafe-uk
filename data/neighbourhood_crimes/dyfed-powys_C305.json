@@ -1,1 +1,26 @@
-{"neighbourhood_id": "C305", "neighbourhood_name": "Pembroke - St. Mary North", "force_id": "dyfed-powys", "lat": "51.6818", "lng": "-4.91503", "population": 12098, "total_crimes": 111, "categories": {"anti-social-behaviour": 10, "burglary": 2, "criminal-damage-arson": 17, "drugs": 1, "other-theft": 8, "possession-of-weapons": 2, "public-order": 8, "shoplifting": 9, "vehicle-crime": 1, "violent-crime": 52, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C305",
+  "neighbourhood_name": "Pembroke - St. Mary North",
+  "force_id": "dyfed-powys",
+  "lat": "51.6818",
+  "lng": "-4.91503",
+  "population": 2430,
+  "total_crimes": 111,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "burglary": 2,
+    "criminal-damage-arson": 17,
+    "drugs": 1,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "shoplifting": 9,
+    "vehicle-crime": 1,
+    "violent-crime": 52,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 45.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

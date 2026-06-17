@@ -1,1 +1,27 @@
-{"neighbourhood_id": "PLY.4035", "neighbourhood_name": "Barne Barton", "force_id": "devon-and-cornwall", "lat": "50.3969", "lng": "-4.1943", "population": 12098, "total_crimes": 164, "categories": {"anti-social-behaviour": 11, "burglary": 4, "criminal-damage-arson": 9, "drugs": 6, "other-theft": 2, "possession-of-weapons": 2, "public-order": 13, "robbery": 1, "shoplifting": 20, "vehicle-crime": 10, "violent-crime": 82, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4035",
+  "neighbourhood_name": "Barne Barton",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3969",
+  "lng": "-4.1943",
+  "population": 3468,
+  "total_crimes": 164,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 4,
+    "criminal-damage-arson": 9,
+    "drugs": 6,
+    "other-theft": 2,
+    "possession-of-weapons": 2,
+    "public-order": 13,
+    "robbery": 1,
+    "shoplifting": 20,
+    "vehicle-crime": 10,
+    "violent-crime": 82,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

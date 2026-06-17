@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013791", "neighbourhood_name": "Whitton", "force_id": "metropolitan", "lat": "51.4532", "lng": "-0.359777", "population": 9762, "total_crimes": 295, "categories": {"anti-social-behaviour": 70, "bicycle-theft": 5, "burglary": 15, "criminal-damage-arson": 17, "drugs": 17, "other-theft": 24, "possession-of-weapons": 2, "public-order": 12, "robbery": 3, "shoplifting": 14, "theft-from-the-person": 3, "vehicle-crime": 21, "violent-crime": 86, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013791",
+  "neighbourhood_name": "Whitton",
+  "force_id": "metropolitan",
+  "lat": "51.4532",
+  "lng": "-0.359777",
+  "population": 9983,
+  "total_crimes": 295,
+  "categories": {
+    "anti-social-behaviour": 70,
+    "bicycle-theft": 5,
+    "burglary": 15,
+    "criminal-damage-arson": 17,
+    "drugs": 17,
+    "other-theft": 24,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 14,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 21,
+    "violent-crime": 86,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

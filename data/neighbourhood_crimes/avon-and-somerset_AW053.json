@@ -1,1 +1,24 @@
-{"neighbourhood_id": "AW053", "neighbourhood_name": "Wellington Centre and South", "force_id": "avon-and-somerset", "lat": "50.9715", "lng": "-3.23197", "population": "0", "total_crimes": 79, "categories": {"anti-social-behaviour": 17, "burglary": 2, "criminal-damage-arson": 5, "other-theft": 3, "public-order": 12, "shoplifting": 4, "vehicle-crime": 2, "violent-crime": 32, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW053",
+  "neighbourhood_name": "Wellington Centre and South",
+  "force_id": "avon-and-somerset",
+  "lat": "50.9715",
+  "lng": "-3.23197",
+  "population": 12080,
+  "total_crimes": 79,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "other-theft": 3,
+    "public-order": 12,
+    "shoplifting": 4,
+    "vehicle-crime": 2,
+    "violent-crime": 32,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

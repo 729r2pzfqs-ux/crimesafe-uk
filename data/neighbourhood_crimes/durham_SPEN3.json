@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SPEN3", "neighbourhood_name": "Spennymoor (Low Spennymoor)", "force_id": "durham", "lat": "54.7037", "lng": "-1.58743", "population": 12098, "total_crimes": 223, "categories": {"anti-social-behaviour": 26, "burglary": 6, "criminal-damage-arson": 38, "drugs": 9, "other-theft": 8, "possession-of-weapons": 2, "public-order": 17, "robbery": 1, "shoplifting": 19, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 79, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPEN3",
+  "neighbourhood_name": "Spennymoor (Low Spennymoor)",
+  "force_id": "durham",
+  "lat": "54.7037",
+  "lng": "-1.58743",
+  "population": 5674,
+  "total_crimes": 223,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 6,
+    "criminal-damage-arson": 38,
+    "drugs": 9,
+    "other-theft": 8,
+    "possession-of-weapons": 2,
+    "public-order": 17,
+    "robbery": 1,
+    "shoplifting": 19,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 79,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

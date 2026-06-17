@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NN4", "neighbourhood_name": "East Northampton", "force_id": "northamptonshire", "lat": "52.2652", "lng": "-0.823721", "population": 12098, "total_crimes": 273, "categories": {"anti-social-behaviour": 52, "bicycle-theft": 4, "burglary": 13, "criminal-damage-arson": 20, "drugs": 7, "other-theft": 15, "possession-of-weapons": 4, "public-order": 6, "robbery": 2, "shoplifting": 18, "theft-from-the-person": 2, "vehicle-crime": 23, "violent-crime": 98, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NN4",
+  "neighbourhood_name": "East Northampton",
+  "force_id": "northamptonshire",
+  "lat": "52.2652",
+  "lng": "-0.823721",
+  "population": 30742,
+  "total_crimes": 273,
+  "categories": {
+    "anti-social-behaviour": 52,
+    "bicycle-theft": 4,
+    "burglary": 13,
+    "criminal-damage-arson": 20,
+    "drugs": 7,
+    "other-theft": 15,
+    "possession-of-weapons": 4,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 18,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 23,
+    "violent-crime": 98,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 19
+}

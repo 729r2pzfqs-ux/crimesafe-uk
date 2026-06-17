@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CC2NH6", "neighbourhood_name": "Elm Grove", "force_id": "sussex", "lat": "50.8326", "lng": "-0.11667", "population": 12098, "total_crimes": 855, "categories": {"anti-social-behaviour": 192, "bicycle-theft": 7, "burglary": 24, "criminal-damage-arson": 67, "drugs": 51, "other-theft": 54, "possession-of-weapons": 6, "public-order": 66, "robbery": 7, "shoplifting": 84, "theft-from-the-person": 3, "vehicle-crime": 20, "violent-crime": 259, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CC2NH6",
+  "neighbourhood_name": "Elm Grove",
+  "force_id": "sussex",
+  "lat": "50.8326",
+  "lng": "-0.11667",
+  "population": 10229,
+  "total_crimes": 855,
+  "categories": {
+    "anti-social-behaviour": 192,
+    "bicycle-theft": 7,
+    "burglary": 24,
+    "criminal-damage-arson": 67,
+    "drugs": 51,
+    "other-theft": 54,
+    "possession-of-weapons": 6,
+    "public-order": 66,
+    "robbery": 7,
+    "shoplifting": 84,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 20,
+    "violent-crime": 259,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 83.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "BE06BE07", "neighbourhood_name": "Sandbach Ettiley Heath, Wheelock, Heath and East", "force_id": "cheshire", "lat": "53.1391", "lng": "-2.3651", "population": "0", "total_crimes": 82, "categories": {"anti-social-behaviour": 11, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 2, "public-order": 12, "robbery": 1, "shoplifting": 10, "vehicle-crime": 1, "violent-crime": 40, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE06BE07",
+  "neighbourhood_name": "Sandbach Ettiley Heath, Wheelock, Heath and East",
+  "force_id": "cheshire",
+  "lat": "53.1391",
+  "lng": "-2.3651",
+  "population": 9479,
+  "total_crimes": 82,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 2,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 1,
+    "violent-crime": 40,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

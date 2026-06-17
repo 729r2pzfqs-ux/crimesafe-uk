@@ -1,1 +1,28 @@
-{"neighbourhood_id": "31-42", "neighbourhood_name": "Aspley", "force_id": "nottinghamshire", "lat": "52.9792", "lng": "-1.20887", "population": 12098, "total_crimes": 331, "categories": {"anti-social-behaviour": 44, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 39, "drugs": 11, "other-theft": 18, "possession-of-weapons": 7, "public-order": 14, "robbery": 9, "shoplifting": 13, "vehicle-crime": 14, "violent-crime": 137, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-42",
+  "neighbourhood_name": "Aspley",
+  "force_id": "nottinghamshire",
+  "lat": "52.9792",
+  "lng": "-1.20887",
+  "population": 18763,
+  "total_crimes": 331,
+  "categories": {
+    "anti-social-behaviour": 44,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 39,
+    "drugs": 11,
+    "other-theft": 18,
+    "possession-of-weapons": 7,
+    "public-order": 14,
+    "robbery": 9,
+    "shoplifting": 13,
+    "vehicle-crime": 14,
+    "violent-crime": 137,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

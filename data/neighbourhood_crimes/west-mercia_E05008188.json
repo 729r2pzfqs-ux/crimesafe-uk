@@ -1,1 +1,16 @@
-{"neighbourhood_id": "E05008188", "neighbourhood_name": "Shifnal and Albrighton", "force_id": "west-mercia", "lat": "52.6556", "lng": "-2.3355", "population": 6055, "total_crimes": 2, "categories": {"other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05008188",
+  "neighbourhood_name": "Shifnal and Albrighton",
+  "force_id": "west-mercia",
+  "lat": "52.6556",
+  "lng": "-2.3355",
+  "population": 15431,
+  "total_crimes": 2,
+  "categories": {
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

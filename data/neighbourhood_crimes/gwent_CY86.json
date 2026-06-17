@@ -1,1 +1,17 @@
-{"neighbourhood_id": "CY86", "neighbourhood_name": "Hengoed", "force_id": "gwent", "lat": "51.6529", "lng": "-3.23172", "population": 12098, "total_crimes": 2, "categories": {"public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CY86",
+  "neighbourhood_name": "Hengoed",
+  "force_id": "gwent",
+  "lat": "51.6529",
+  "lng": "-3.23172",
+  "population": 5814,
+  "total_crimes": 2,
+  "categories": {
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

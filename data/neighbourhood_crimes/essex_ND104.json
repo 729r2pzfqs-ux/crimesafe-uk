@@ -1,1 +1,16 @@
-{"neighbourhood_id": "ND104", "neighbourhood_name": "Harwich and Manningtree", "force_id": "essex", "lat": "51.9079", "lng": "1.11384", "population": 12098, "total_crimes": 9, "categories": {"violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ND104",
+  "neighbourhood_name": "Harwich and Manningtree",
+  "force_id": "essex",
+  "lat": "51.9079",
+  "lng": "1.11384",
+  "population": 38258,
+  "total_crimes": 9,
+  "categories": {
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 23
+}

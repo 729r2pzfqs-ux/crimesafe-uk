@@ -1,1 +1,29 @@
-{"neighbourhood_id": "48", "neighbourhood_name": "Hull Central", "force_id": "humberside", "lat": "53.7536", "lng": "-0.348202", "population": 12098, "total_crimes": 892, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 16, "burglary": 52, "criminal-damage-arson": 72, "drugs": 48, "other-theft": 68, "possession-of-weapons": 8, "public-order": 100, "robbery": 12, "shoplifting": 79, "theft-from-the-person": 9, "vehicle-crime": 26, "violent-crime": 337, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "48",
+  "neighbourhood_name": "Hull Central",
+  "force_id": "humberside",
+  "lat": "53.7536",
+  "lng": "-0.348202",
+  "population": 8983,
+  "total_crimes": 892,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 16,
+    "burglary": 52,
+    "criminal-damage-arson": 72,
+    "drugs": 48,
+    "other-theft": 68,
+    "possession-of-weapons": 8,
+    "public-order": 100,
+    "robbery": 12,
+    "shoplifting": 79,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 26,
+    "violent-crime": 337,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 99.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

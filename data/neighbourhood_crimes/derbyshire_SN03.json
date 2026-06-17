@@ -1,1 +1,29 @@
-{"neighbourhood_id": "SN03", "neighbourhood_name": "Derby City", "force_id": "derbyshire", "lat": "52.9188", "lng": "-1.47398", "population": 12098, "total_crimes": 1263, "categories": {"anti-social-behaviour": 140, "bicycle-theft": 10, "burglary": 21, "criminal-damage-arson": 79, "drugs": 125, "other-theft": 67, "possession-of-weapons": 15, "public-order": 128, "robbery": 22, "shoplifting": 131, "theft-from-the-person": 23, "vehicle-crime": 33, "violent-crime": 442, "other-crime": 27}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SN03",
+  "neighbourhood_name": "Derby City",
+  "force_id": "derbyshire",
+  "lat": "52.9188",
+  "lng": "-1.47398",
+  "population": 1409,
+  "total_crimes": 1263,
+  "categories": {
+    "anti-social-behaviour": 140,
+    "bicycle-theft": 10,
+    "burglary": 21,
+    "criminal-damage-arson": 79,
+    "drugs": 125,
+    "other-theft": 67,
+    "possession-of-weapons": 15,
+    "public-order": 128,
+    "robbery": 22,
+    "shoplifting": 131,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 33,
+    "violent-crime": 442,
+    "other-crime": 27
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 896.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

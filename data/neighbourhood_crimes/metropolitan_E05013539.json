@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013539", "neighbourhood_name": "Southall West", "force_id": "metropolitan", "lat": "51.5102", "lng": "-0.391169", "population": 4571, "total_crimes": 886, "categories": {"anti-social-behaviour": 226, "bicycle-theft": 1, "burglary": 31, "criminal-damage-arson": 36, "drugs": 41, "other-theft": 50, "possession-of-weapons": 6, "public-order": 42, "robbery": 21, "shoplifting": 84, "theft-from-the-person": 64, "vehicle-crime": 61, "violent-crime": 214, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013539",
+  "neighbourhood_name": "Southall West",
+  "force_id": "metropolitan",
+  "lat": "51.5102",
+  "lng": "-0.391169",
+  "population": 3949,
+  "total_crimes": 886,
+  "categories": {
+    "anti-social-behaviour": 226,
+    "bicycle-theft": 1,
+    "burglary": 31,
+    "criminal-damage-arson": 36,
+    "drugs": 41,
+    "other-theft": 50,
+    "possession-of-weapons": 6,
+    "public-order": 42,
+    "robbery": 21,
+    "shoplifting": 84,
+    "theft-from-the-person": 64,
+    "vehicle-crime": 61,
+    "violent-crime": 214,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 224.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013778N", "neighbourhood_name": "Hampton", "force_id": "metropolitan", "lat": "51.4074", "lng": "-0.352505", "population": 12098, "total_crimes": 89, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 1, "burglary": 2, "criminal-damage-arson": 5, "drugs": 4, "other-theft": 7, "public-order": 5, "robbery": 1, "shoplifting": 7, "vehicle-crime": 7, "violent-crime": 38, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013778N",
+  "neighbourhood_name": "Hampton",
+  "force_id": "metropolitan",
+  "lat": "51.4074",
+  "lng": "-0.352505",
+  "population": 10291,
+  "total_crimes": 89,
+  "categories": {
+    "anti-social-behaviour": 10,
+    "bicycle-theft": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 4,
+    "other-theft": 7,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 7,
+    "vehicle-crime": 7,
+    "violent-crime": 38,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "WA1NH9", "neighbourhood_name": "Felpham", "force_id": "sussex", "lat": "50.7977", "lng": "-0.645409", "population": 12098, "total_crimes": 77, "categories": {"anti-social-behaviour": 9, "burglary": 2, "criminal-damage-arson": 4, "drugs": 5, "other-theft": 5, "public-order": 6, "robbery": 1, "shoplifting": 15, "vehicle-crime": 3, "violent-crime": 26, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA1NH9",
+  "neighbourhood_name": "Felpham",
+  "force_id": "sussex",
+  "lat": "50.7977",
+  "lng": "-0.645409",
+  "population": 8358,
+  "total_crimes": 77,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 2,
+    "criminal-damage-arson": 4,
+    "drugs": 5,
+    "other-theft": 5,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 15,
+    "vehicle-crime": 3,
+    "violent-crime": 26,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

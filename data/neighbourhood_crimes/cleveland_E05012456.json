@@ -1,1 +1,16 @@
-{"neighbourhood_id": "E05012456", "neighbourhood_name": "South Bank", "force_id": "cleveland", "lat": "54.5945", "lng": "-1.14316", "population": 5238, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012456",
+  "neighbourhood_name": "South Bank",
+  "force_id": "cleveland",
+  "lat": "54.5945",
+  "lng": "-1.14316",
+  "population": 5036,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

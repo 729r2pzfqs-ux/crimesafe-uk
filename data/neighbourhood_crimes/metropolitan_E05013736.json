@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013736", "neighbourhood_name": "College Park and Old Oak", "force_id": "metropolitan", "lat": "51.5211", "lng": "-0.236443", "population": 9984, "total_crimes": 659, "categories": {"anti-social-behaviour": 132, "bicycle-theft": 5, "burglary": 20, "criminal-damage-arson": 36, "drugs": 40, "other-theft": 52, "possession-of-weapons": 7, "public-order": 35, "robbery": 9, "shoplifting": 43, "theft-from-the-person": 14, "vehicle-crime": 53, "violent-crime": 203, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013736",
+  "neighbourhood_name": "College Park and Old Oak",
+  "force_id": "metropolitan",
+  "lat": "51.5211",
+  "lng": "-0.236443",
+  "population": 6874,
+  "total_crimes": 659,
+  "categories": {
+    "anti-social-behaviour": 132,
+    "bicycle-theft": 5,
+    "burglary": 20,
+    "criminal-damage-arson": 36,
+    "drugs": 40,
+    "other-theft": 52,
+    "possession-of-weapons": 7,
+    "public-order": 35,
+    "robbery": 9,
+    "shoplifting": 43,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 53,
+    "violent-crime": 203,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 95.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

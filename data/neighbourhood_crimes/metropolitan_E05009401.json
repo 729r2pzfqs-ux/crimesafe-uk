@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009401", "neighbourhood_name": "Queen's Gate", "force_id": "metropolitan", "lat": "51.4985", "lng": "-0.186073", "population": 12098, "total_crimes": 1144, "categories": {"anti-social-behaviour": 237, "bicycle-theft": 12, "burglary": 53, "criminal-damage-arson": 38, "drugs": 25, "other-theft": 202, "possession-of-weapons": 1, "public-order": 56, "robbery": 20, "shoplifting": 86, "theft-from-the-person": 63, "vehicle-crime": 102, "violent-crime": 239, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009401",
+  "neighbourhood_name": "Queen's Gate",
+  "force_id": "metropolitan",
+  "lat": "51.4985",
+  "lng": "-0.186073",
+  "population": 10295,
+  "total_crimes": 1144,
+  "categories": {
+    "anti-social-behaviour": 237,
+    "bicycle-theft": 12,
+    "burglary": 53,
+    "criminal-damage-arson": 38,
+    "drugs": 25,
+    "other-theft": 202,
+    "possession-of-weapons": 1,
+    "public-order": 56,
+    "robbery": 20,
+    "shoplifting": 86,
+    "theft-from-the-person": 63,
+    "vehicle-crime": 102,
+    "violent-crime": 239,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 111.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "hawthorn-and-lower-rhydfelen", "neighbourhood_name": "Hawthorn and Lower Rhydfelen", "force_id": "south-wales", "lat": "51.5748", "lng": "-3.29169", "population": 12098, "total_crimes": 42, "categories": {"anti-social-behaviour": 5, "burglary": 4, "criminal-damage-arson": 6, "other-theft": 4, "public-order": 4, "robbery": 1, "shoplifting": 2, "vehicle-crime": 3, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "hawthorn-and-lower-rhydfelen",
+  "neighbourhood_name": "Hawthorn and Lower Rhydfelen",
+  "force_id": "south-wales",
+  "lat": "51.5748",
+  "lng": "-3.29169",
+  "population": 2109,
+  "total_crimes": 42,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 4,
+    "criminal-damage-arson": 6,
+    "other-theft": 4,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

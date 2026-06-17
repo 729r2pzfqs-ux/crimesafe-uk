@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DD05", "neighbourhood_name": "Westbrook", "force_id": "cheshire", "lat": "53.4109", "lng": "-2.63964", "population": "0", "total_crimes": 69, "categories": {"anti-social-behaviour": 9, "bicycle-theft": 1, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 1, "possession-of-weapons": 1, "public-order": 3, "robbery": 1, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 21, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DD05",
+  "neighbourhood_name": "Westbrook",
+  "force_id": "cheshire",
+  "lat": "53.4109",
+  "lng": "-2.63964",
+  "population": 6625,
+  "total_crimes": 69,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 21,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

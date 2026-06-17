@@ -1,1 +1,28 @@
-{"neighbourhood_id": "2SN02", "neighbourhood_name": "Bitterne North", "force_id": "hampshire", "lat": "50.925", "lng": "-1.35877", "population": 12098, "total_crimes": 297, "categories": {"anti-social-behaviour": 31, "bicycle-theft": 1, "burglary": 21, "criminal-damage-arson": 22, "drugs": 11, "other-theft": 13, "possession-of-weapons": 3, "public-order": 21, "robbery": 7, "shoplifting": 29, "vehicle-crime": 13, "violent-crime": 120, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2SN02",
+  "neighbourhood_name": "Bitterne North",
+  "force_id": "hampshire",
+  "lat": "50.925",
+  "lng": "-1.35877",
+  "population": 27909,
+  "total_crimes": 297,
+  "categories": {
+    "anti-social-behaviour": 31,
+    "bicycle-theft": 1,
+    "burglary": 21,
+    "criminal-damage-arson": 22,
+    "drugs": 11,
+    "other-theft": 13,
+    "possession-of-weapons": 3,
+    "public-order": 21,
+    "robbery": 7,
+    "shoplifting": 29,
+    "vehicle-crime": 13,
+    "violent-crime": 120,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

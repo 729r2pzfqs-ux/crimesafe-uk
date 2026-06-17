@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013038", "neighbourhood_name": "Burn Valley", "force_id": "cleveland", "lat": "54.6791", "lng": "-1.21772", "population": 8742, "total_crimes": 712, "categories": {"anti-social-behaviour": 98, "bicycle-theft": 4, "burglary": 29, "criminal-damage-arson": 62, "drugs": 29, "other-theft": 25, "possession-of-weapons": 13, "public-order": 54, "robbery": 15, "shoplifting": 156, "theft-from-the-person": 3, "vehicle-crime": 13, "violent-crime": 199, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013038",
+  "neighbourhood_name": "Burn Valley",
+  "force_id": "cleveland",
+  "lat": "54.6791",
+  "lng": "-1.21772",
+  "population": 9201,
+  "total_crimes": 712,
+  "categories": {
+    "anti-social-behaviour": 98,
+    "bicycle-theft": 4,
+    "burglary": 29,
+    "criminal-damage-arson": 62,
+    "drugs": 29,
+    "other-theft": 25,
+    "possession-of-weapons": 13,
+    "public-order": 54,
+    "robbery": 15,
+    "shoplifting": 156,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 13,
+    "violent-crime": 199,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

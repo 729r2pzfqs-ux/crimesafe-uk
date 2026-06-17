@@ -1,1 +1,28 @@
-{"neighbourhood_id": "park", "neighbourhood_name": "Park", "force_id": "south-wales", "lat": "51.7542", "lng": "-3.38736", "population": 12098, "total_crimes": 268, "categories": {"anti-social-behaviour": 33, "burglary": 4, "criminal-damage-arson": 15, "drugs": 1, "other-theft": 15, "possession-of-weapons": 2, "public-order": 38, "robbery": 1, "shoplifting": 40, "theft-from-the-person": 1, "vehicle-crime": 15, "violent-crime": 100, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "park",
+  "neighbourhood_name": "Park",
+  "force_id": "south-wales",
+  "lat": "51.7542",
+  "lng": "-3.38736",
+  "population": 4189,
+  "total_crimes": 268,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "burglary": 4,
+    "criminal-damage-arson": 15,
+    "drugs": 1,
+    "other-theft": 15,
+    "possession-of-weapons": 2,
+    "public-order": 38,
+    "robbery": 1,
+    "shoplifting": 40,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 15,
+    "violent-crime": 100,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 64.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "N419", "neighbourhood_name": "Wendover", "force_id": "thames-valley", "lat": "51.7766", "lng": "-0.746552", "population": 12098, "total_crimes": 22, "categories": {"anti-social-behaviour": 4, "drugs": 1, "other-theft": 3, "possession-of-weapons": 1, "public-order": 2, "vehicle-crime": 1, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N419",
+  "neighbourhood_name": "Wendover",
+  "force_id": "thames-valley",
+  "lat": "51.7766",
+  "lng": "-0.746552",
+  "population": 15007,
+  "total_crimes": 22,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

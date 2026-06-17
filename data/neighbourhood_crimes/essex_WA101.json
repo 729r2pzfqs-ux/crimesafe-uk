@@ -1,1 +1,20 @@
-{"neighbourhood_id": "WA101", "neighbourhood_name": "Brentwood North", "force_id": "essex", "lat": "51.6587", "lng": "0.294133", "population": 12098, "total_crimes": 14, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 3, "public-order": 1, "vehicle-crime": 1, "violent-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA101",
+  "neighbourhood_name": "Brentwood North",
+  "force_id": "essex",
+  "lat": "51.6587",
+  "lng": "0.294133",
+  "population": 24185,
+  "total_crimes": 14,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 3,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

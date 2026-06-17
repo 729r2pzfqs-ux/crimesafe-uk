@@ -1,1 +1,27 @@
-{"neighbourhood_id": "NC2", "neighbourhood_name": "Corby Industrial and Rural", "force_id": "northamptonshire", "lat": "52.5066", "lng": "-0.70216", "population": 12098, "total_crimes": 122, "categories": {"anti-social-behaviour": 26, "burglary": 4, "criminal-damage-arson": 10, "drugs": 6, "other-theft": 4, "possession-of-weapons": 2, "public-order": 9, "robbery": 1, "shoplifting": 9, "vehicle-crime": 2, "violent-crime": 48, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC2",
+  "neighbourhood_name": "Corby Industrial and Rural",
+  "force_id": "northamptonshire",
+  "lat": "52.5066",
+  "lng": "-0.70216",
+  "population": 4960,
+  "total_crimes": 122,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 4,
+    "criminal-damage-arson": 10,
+    "drugs": 6,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 9,
+    "vehicle-crime": 2,
+    "violent-crime": 48,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

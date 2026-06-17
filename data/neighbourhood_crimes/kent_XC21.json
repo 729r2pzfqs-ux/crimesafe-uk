@@ -1,1 +1,17 @@
-{"neighbourhood_id": "XC21", "neighbourhood_name": "Meopham South &amp; Vigo", "force_id": "kent", "lat": "51.3493", "lng": "0.366595", "population": 12098, "total_crimes": 3, "categories": {"other-theft": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XC21",
+  "neighbourhood_name": "Meopham South &amp; Vigo",
+  "force_id": "kent",
+  "lat": "51.3493",
+  "lng": "0.366595",
+  "population": 4325,
+  "total_crimes": 3,
+  "categories": {
+    "other-theft": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

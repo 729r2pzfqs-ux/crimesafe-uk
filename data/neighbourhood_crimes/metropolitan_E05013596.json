@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013596", "neighbourhood_name": "Northumberland Park", "force_id": "metropolitan", "lat": "51.6012", "lng": "-0.0547924", "population": 12098, "total_crimes": 919, "categories": {"anti-social-behaviour": 166, "bicycle-theft": 2, "burglary": 34, "criminal-damage-arson": 51, "drugs": 34, "other-theft": 65, "possession-of-weapons": 5, "public-order": 49, "robbery": 39, "shoplifting": 62, "theft-from-the-person": 81, "vehicle-crime": 63, "violent-crime": 257, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013596",
+  "neighbourhood_name": "Northumberland Park",
+  "force_id": "metropolitan",
+  "lat": "51.6012",
+  "lng": "-0.0547924",
+  "population": 16843,
+  "total_crimes": 919,
+  "categories": {
+    "anti-social-behaviour": 166,
+    "bicycle-theft": 2,
+    "burglary": 34,
+    "criminal-damage-arson": 51,
+    "drugs": 34,
+    "other-theft": 65,
+    "possession-of-weapons": 5,
+    "public-order": 49,
+    "robbery": 39,
+    "shoplifting": 62,
+    "theft-from-the-person": 81,
+    "vehicle-crime": 63,
+    "violent-crime": 257,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 54.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

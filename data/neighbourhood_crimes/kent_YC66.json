@@ -1,1 +1,20 @@
-{"neighbourhood_id": "YC66", "neighbourhood_name": "Otford and Shoreham", "force_id": "kent", "lat": "51.3247", "lng": "0.198749", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 2, "burglary": 1, "other-theft": 1, "vehicle-crime": 2, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC66",
+  "neighbourhood_name": "Otford and Shoreham",
+  "force_id": "kent",
+  "lat": "51.3247",
+  "lng": "0.198749",
+  "population": 4716,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "other-theft": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

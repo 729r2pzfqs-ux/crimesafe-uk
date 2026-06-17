@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014878", "neighbourhood_name": "Ropner", "force_id": "cleveland", "lat": "54.5566", "lng": "-1.32669", "population": 11255, "total_crimes": 556, "categories": {"anti-social-behaviour": 65, "bicycle-theft": 5, "burglary": 35, "criminal-damage-arson": 43, "drugs": 23, "other-theft": 32, "possession-of-weapons": 5, "public-order": 39, "robbery": 18, "shoplifting": 41, "theft-from-the-person": 4, "vehicle-crime": 30, "violent-crime": 207, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014878",
+  "neighbourhood_name": "Ropner",
+  "force_id": "cleveland",
+  "lat": "54.5566",
+  "lng": "-1.32669",
+  "population": 6219,
+  "total_crimes": 556,
+  "categories": {
+    "anti-social-behaviour": 65,
+    "bicycle-theft": 5,
+    "burglary": 35,
+    "criminal-damage-arson": 43,
+    "drugs": 23,
+    "other-theft": 32,
+    "possession-of-weapons": 5,
+    "public-order": 39,
+    "robbery": 18,
+    "shoplifting": 41,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 30,
+    "violent-crime": 207,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 89.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

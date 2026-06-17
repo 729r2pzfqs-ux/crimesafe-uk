@@ -1,1 +1,16 @@
-{"neighbourhood_id": "ZC41", "neighbourhood_name": "Rolvenden &amp; Tenterden West", "force_id": "kent", "lat": "51.0486", "lng": "0.655443", "population": 12098, "total_crimes": 1, "categories": {"anti-social-behaviour": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC41",
+  "neighbourhood_name": "Rolvenden &amp; Tenterden West",
+  "force_id": "kent",
+  "lat": "51.0486",
+  "lng": "0.655443",
+  "population": 2675,
+  "total_crimes": 1,
+  "categories": {
+    "anti-social-behaviour": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

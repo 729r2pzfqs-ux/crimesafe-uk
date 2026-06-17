@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WCW20", "neighbourhood_name": "Colwyn", "force_id": "north-wales", "lat": "53.2865", "lng": "-3.68647", "population": 12098, "total_crimes": 64, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 3, "possession-of-weapons": 2, "public-order": 5, "robbery": 2, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 26, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW20",
+  "neighbourhood_name": "Colwyn",
+  "force_id": "north-wales",
+  "lat": "53.2865",
+  "lng": "-3.68647",
+  "population": 4284,
+  "total_crimes": 64,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 5,
+    "robbery": 2,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 26,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

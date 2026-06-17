@@ -1,1 +1,17 @@
-{"neighbourhood_id": "71", "neighbourhood_name": "Waltham", "force_id": "humberside", "lat": "53.499", "lng": "-0.107296", "population": 12098, "total_crimes": 4, "categories": {"other-theft": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "71",
+  "neighbourhood_name": "Waltham",
+  "force_id": "humberside",
+  "lat": "53.499",
+  "lng": "-0.107296",
+  "population": 6789,
+  "total_crimes": 4,
+  "categories": {
+    "other-theft": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

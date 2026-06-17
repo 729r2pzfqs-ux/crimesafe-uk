@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014871", "neighbourhood_name": "Ingleby Barwick South", "force_id": "cleveland", "lat": "54.5128", "lng": "-1.31803", "population": 10479, "total_crimes": 101, "categories": {"anti-social-behaviour": 18, "burglary": 1, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 4, "possession-of-weapons": 1, "public-order": 6, "robbery": 1, "shoplifting": 30, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 31, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014871",
+  "neighbourhood_name": "Ingleby Barwick South",
+  "force_id": "cleveland",
+  "lat": "54.5128",
+  "lng": "-1.31803",
+  "population": 10247,
+  "total_crimes": 101,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 30,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 31,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

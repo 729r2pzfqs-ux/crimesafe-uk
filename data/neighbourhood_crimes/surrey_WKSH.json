@@ -1,1 +1,26 @@
-{"neighbourhood_id": "WKSH", "neighbourhood_name": "Sheerwater", "force_id": "surrey", "lat": "51.3371", "lng": "-0.534596", "population": 12098, "total_crimes": 65, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 3, "drugs": 2, "other-theft": 4, "public-order": 5, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 30, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WKSH",
+  "neighbourhood_name": "Sheerwater",
+  "force_id": "surrey",
+  "lat": "51.3371",
+  "lng": "-0.534596",
+  "population": 3502,
+  "total_crimes": 65,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 2,
+    "other-theft": 4,
+    "public-order": 5,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 30,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

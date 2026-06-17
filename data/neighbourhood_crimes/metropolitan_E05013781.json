@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013781", "neighbourhood_name": "Heathfield", "force_id": "metropolitan", "lat": "51.4496", "lng": "-0.370391", "population": 11087, "total_crimes": 285, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 4, "burglary": 11, "criminal-damage-arson": 12, "drugs": 12, "other-theft": 19, "possession-of-weapons": 1, "public-order": 13, "robbery": 2, "shoplifting": 15, "theft-from-the-person": 4, "vehicle-crime": 21, "violent-crime": 95, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013781",
+  "neighbourhood_name": "Heathfield",
+  "force_id": "metropolitan",
+  "lat": "51.4496",
+  "lng": "-0.370391",
+  "population": 10740,
+  "total_crimes": 285,
+  "categories": {
+    "anti-social-behaviour": 71,
+    "bicycle-theft": 4,
+    "burglary": 11,
+    "criminal-damage-arson": 12,
+    "drugs": 12,
+    "other-theft": 19,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "robbery": 2,
+    "shoplifting": 15,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 21,
+    "violent-crime": 95,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

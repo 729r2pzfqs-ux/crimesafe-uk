@@ -1,1 +1,22 @@
-{"neighbourhood_id": "G21", "neighbourhood_name": "Southern Villages", "force_id": "norfolk", "lat": "52.5648", "lng": "1.67312", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 6, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "G21",
+  "neighbourhood_name": "Southern Villages",
+  "force_id": "norfolk",
+  "lat": "52.5648",
+  "lng": "1.67312",
+  "population": 10336,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 6,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

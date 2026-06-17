@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CDT_HX", "neighbourhood_name": "Halifax", "force_id": "west-yorkshire", "lat": "53.74", "lng": "-1.88247", "population": 12098, "total_crimes": 267, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 22, "drugs": 7, "other-theft": 13, "possession-of-weapons": 2, "public-order": 22, "robbery": 2, "shoplifting": 16, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 135, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CDT_HX",
+  "neighbourhood_name": "Halifax",
+  "force_id": "west-yorkshire",
+  "lat": "53.74",
+  "lng": "-1.88247",
+  "population": 80459,
+  "total_crimes": 267,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 22,
+    "drugs": 7,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 2,
+    "shoplifting": 16,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 135,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 48
+}

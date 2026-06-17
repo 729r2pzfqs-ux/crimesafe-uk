@@ -1,1 +1,27 @@
-{"neighbourhood_id": "PLY.4031", "neighbourhood_name": "Ford", "force_id": "devon-and-cornwall", "lat": "50.3857", "lng": "-4.16651", "population": 12098, "total_crimes": 440, "categories": {"anti-social-behaviour": 52, "burglary": 12, "criminal-damage-arson": 26, "drugs": 13, "other-theft": 18, "possession-of-weapons": 10, "public-order": 22, "shoplifting": 22, "theft-from-the-person": 5, "vehicle-crime": 17, "violent-crime": 228, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4031",
+  "neighbourhood_name": "Ford",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3857",
+  "lng": "-4.16651",
+  "population": 3379,
+  "total_crimes": 440,
+  "categories": {
+    "anti-social-behaviour": 52,
+    "burglary": 12,
+    "criminal-damage-arson": 26,
+    "drugs": 13,
+    "other-theft": 18,
+    "possession-of-weapons": 10,
+    "public-order": 22,
+    "shoplifting": 22,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 17,
+    "violent-crime": 228,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 130.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA35", "neighbourhood_name": "Gillingham North", "force_id": "kent", "lat": "51.3919", "lng": "0.560434", "population": 12098, "total_crimes": 489, "categories": {"anti-social-behaviour": 91, "bicycle-theft": 2, "burglary": 11, "criminal-damage-arson": 51, "drugs": 21, "other-theft": 20, "possession-of-weapons": 5, "public-order": 36, "robbery": 2, "shoplifting": 24, "theft-from-the-person": 5, "vehicle-crime": 24, "violent-crime": 180, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA35",
+  "neighbourhood_name": "Gillingham North",
+  "force_id": "kent",
+  "lat": "51.3919",
+  "lng": "0.560434",
+  "population": 12514,
+  "total_crimes": 489,
+  "categories": {
+    "anti-social-behaviour": 91,
+    "bicycle-theft": 2,
+    "burglary": 11,
+    "criminal-damage-arson": 51,
+    "drugs": 21,
+    "other-theft": 20,
+    "possession-of-weapons": 5,
+    "public-order": 36,
+    "robbery": 2,
+    "shoplifting": 24,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 24,
+    "violent-crime": 180,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

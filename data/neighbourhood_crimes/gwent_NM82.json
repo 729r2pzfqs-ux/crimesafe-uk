@@ -1,1 +1,17 @@
-{"neighbourhood_id": "NM82", "neighbourhood_name": "St Julians", "force_id": "gwent", "lat": "51.5999", "lng": "-2.98107", "population": 12098, "total_crimes": 2, "categories": {"shoplifting": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NM82",
+  "neighbourhood_name": "St Julians",
+  "force_id": "gwent",
+  "lat": "51.5999",
+  "lng": "-2.98107",
+  "population": 8844,
+  "total_crimes": 2,
+  "categories": {
+    "shoplifting": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

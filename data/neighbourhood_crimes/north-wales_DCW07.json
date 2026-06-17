@@ -1,1 +1,25 @@
-{"neighbourhood_id": "DCW07", "neighbourhood_name": "Rhuddlan", "force_id": "north-wales", "lat": "53.2947", "lng": "-3.45859", "population": 12098, "total_crimes": 43, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 3, "drugs": 2, "other-theft": 3, "public-order": 1, "shoplifting": 12, "vehicle-crime": 1, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW07",
+  "neighbourhood_name": "Rhuddlan",
+  "force_id": "north-wales",
+  "lat": "53.2947",
+  "lng": "-3.45859",
+  "population": 4205,
+  "total_crimes": 43,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 2,
+    "other-theft": 3,
+    "public-order": 1,
+    "shoplifting": 12,
+    "vehicle-crime": 1,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

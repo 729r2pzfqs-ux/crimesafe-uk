@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CC2NH2", "neighbourhood_name": "Viaduct", "force_id": "sussex", "lat": "50.8327", "lng": "-0.132029", "population": 12098, "total_crimes": 1446, "categories": {"anti-social-behaviour": 298, "bicycle-theft": 13, "burglary": 39, "criminal-damage-arson": 70, "drugs": 97, "other-theft": 100, "possession-of-weapons": 12, "public-order": 115, "robbery": 24, "shoplifting": 230, "theft-from-the-person": 13, "vehicle-crime": 16, "violent-crime": 383, "other-crime": 36}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CC2NH2",
+  "neighbourhood_name": "Viaduct",
+  "force_id": "sussex",
+  "lat": "50.8327",
+  "lng": "-0.132029",
+  "population": 8235,
+  "total_crimes": 1446,
+  "categories": {
+    "anti-social-behaviour": 298,
+    "bicycle-theft": 13,
+    "burglary": 39,
+    "criminal-damage-arson": 70,
+    "drugs": 97,
+    "other-theft": 100,
+    "possession-of-weapons": 12,
+    "public-order": 115,
+    "robbery": 24,
+    "shoplifting": 230,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 16,
+    "violent-crime": 383,
+    "other-crime": 36
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 175.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

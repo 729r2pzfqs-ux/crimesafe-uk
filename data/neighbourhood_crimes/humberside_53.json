@@ -1,1 +1,28 @@
-{"neighbourhood_id": "53", "neighbourhood_name": "Sutton", "force_id": "humberside", "lat": "53.7829", "lng": "-0.301961", "population": 12098, "total_crimes": 247, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 4, "burglary": 6, "criminal-damage-arson": 23, "drugs": 3, "other-theft": 13, "possession-of-weapons": 1, "public-order": 21, "robbery": 4, "shoplifting": 35, "vehicle-crime": 22, "violent-crime": 90, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "53",
+  "neighbourhood_name": "Sutton",
+  "force_id": "humberside",
+  "lat": "53.7829",
+  "lng": "-0.301961",
+  "population": 11673,
+  "total_crimes": 247,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 4,
+    "burglary": 6,
+    "criminal-damage-arson": 23,
+    "drugs": 3,
+    "other-theft": 13,
+    "possession-of-weapons": 1,
+    "public-order": 21,
+    "robbery": 4,
+    "shoplifting": 35,
+    "vehicle-crime": 22,
+    "violent-crime": 90,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

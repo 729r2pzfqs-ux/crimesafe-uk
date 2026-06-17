@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009403", "neighbourhood_name": "Royal Hospital", "force_id": "metropolitan", "lat": "51.4889", "lng": "-0.159965", "population": 12098, "total_crimes": 1193, "categories": {"anti-social-behaviour": 241, "bicycle-theft": 29, "burglary": 51, "criminal-damage-arson": 45, "drugs": 18, "other-theft": 179, "possession-of-weapons": 3, "public-order": 53, "robbery": 21, "shoplifting": 125, "theft-from-the-person": 110, "vehicle-crime": 107, "violent-crime": 205, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009403",
+  "neighbourhood_name": "Royal Hospital",
+  "force_id": "metropolitan",
+  "lat": "51.4889",
+  "lng": "-0.159965",
+  "population": 10611,
+  "total_crimes": 1193,
+  "categories": {
+    "anti-social-behaviour": 241,
+    "bicycle-theft": 29,
+    "burglary": 51,
+    "criminal-damage-arson": 45,
+    "drugs": 18,
+    "other-theft": 179,
+    "possession-of-weapons": 3,
+    "public-order": 53,
+    "robbery": 21,
+    "shoplifting": 125,
+    "theft-from-the-person": 110,
+    "vehicle-crime": 107,
+    "violent-crime": 205,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 112.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

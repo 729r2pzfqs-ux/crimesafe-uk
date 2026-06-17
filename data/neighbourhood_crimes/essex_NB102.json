@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NB102", "neighbourhood_name": "Chelmsford Town", "force_id": "essex", "lat": "51.7395", "lng": "0.46866", "population": 12098, "total_crimes": 606, "categories": {"anti-social-behaviour": 66, "bicycle-theft": 7, "burglary": 19, "criminal-damage-arson": 28, "drugs": 33, "other-theft": 43, "possession-of-weapons": 8, "public-order": 30, "robbery": 7, "shoplifting": 104, "theft-from-the-person": 4, "vehicle-crime": 14, "violent-crime": 235, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB102",
+  "neighbourhood_name": "Chelmsford Town",
+  "force_id": "essex",
+  "lat": "51.7395",
+  "lng": "0.46866",
+  "population": 41470,
+  "total_crimes": 606,
+  "categories": {
+    "anti-social-behaviour": 66,
+    "bicycle-theft": 7,
+    "burglary": 19,
+    "criminal-damage-arson": 28,
+    "drugs": 33,
+    "other-theft": 43,
+    "possession-of-weapons": 8,
+    "public-order": 30,
+    "robbery": 7,
+    "shoplifting": 104,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 14,
+    "violent-crime": 235,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 25
+}

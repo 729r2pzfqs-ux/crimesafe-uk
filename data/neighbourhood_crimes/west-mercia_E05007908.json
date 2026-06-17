@@ -1,1 +1,23 @@
-{"neighbourhood_id": "E05007908", "neighbourhood_name": "Pershore Rural South and Rural North", "force_id": "west-mercia", "lat": "52.1119", "lng": "-2.05841", "population": 12098, "total_crimes": 35, "categories": {"anti-social-behaviour": 8, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 2, "robbery": 1, "shoplifting": 9, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007908",
+  "neighbourhood_name": "Pershore Rural South and Rural North",
+  "force_id": "west-mercia",
+  "lat": "52.1119",
+  "lng": "-2.05841",
+  "population": 19521,
+  "total_crimes": 35,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 9,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

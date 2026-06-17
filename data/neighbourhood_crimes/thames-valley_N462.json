@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N462", "neighbourhood_name": "Langley and Kedermister", "force_id": "thames-valley", "lat": "51.5026", "lng": "-0.551221", "population": 12098, "total_crimes": 200, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 7, "drugs": 5, "other-theft": 16, "possession-of-weapons": 4, "public-order": 15, "robbery": 2, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 25, "violent-crime": 82, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N462",
+  "neighbourhood_name": "Langley and Kedermister",
+  "force_id": "thames-valley",
+  "lat": "51.5026",
+  "lng": "-0.551221",
+  "population": 19234,
+  "total_crimes": 200,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 7,
+    "drugs": 5,
+    "other-theft": 16,
+    "possession-of-weapons": 4,
+    "public-order": 15,
+    "robbery": 2,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 25,
+    "violent-crime": 82,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

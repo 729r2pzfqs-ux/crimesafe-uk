@@ -1,1 +1,22 @@
-{"neighbourhood_id": "N416", "neighbourhood_name": " Great Brickhill, Wing and Ivinghoe", "force_id": "thames-valley", "lat": "51.8984", "lng": "-0.672453", "population": 12098, "total_crimes": 31, "categories": {"anti-social-behaviour": 5, "other-theft": 2, "public-order": 2, "shoplifting": 13, "vehicle-crime": 1, "violent-crime": 7, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N416",
+  "neighbourhood_name": " Great Brickhill, Wing and Ivinghoe",
+  "force_id": "thames-valley",
+  "lat": "51.8984",
+  "lng": "-0.672453",
+  "population": 21912,
+  "total_crimes": 31,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "other-theft": 2,
+    "public-order": 2,
+    "shoplifting": 13,
+    "vehicle-crime": 1,
+    "violent-crime": 7,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

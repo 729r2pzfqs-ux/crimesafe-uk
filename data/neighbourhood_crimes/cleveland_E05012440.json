@@ -1,1 +1,18 @@
-{"neighbourhood_id": "E05012440", "neighbourhood_name": "Dormanstown", "force_id": "cleveland", "lat": "54.591", "lng": "-1.10996", "population": "0", "total_crimes": 6, "categories": {"burglary": 2, "drugs": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05012440",
+  "neighbourhood_name": "Dormanstown",
+  "force_id": "cleveland",
+  "lat": "54.591",
+  "lng": "-1.10996",
+  "population": 4206,
+  "total_crimes": 6,
+  "categories": {
+    "burglary": 2,
+    "drugs": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "EE2NH7", "neighbourhood_name": "Motcombe", "force_id": "sussex", "lat": "50.7734", "lng": "0.257703", "population": 12098, "total_crimes": 227, "categories": {"anti-social-behaviour": 42, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 13, "drugs": 6, "other-theft": 9, "possession-of-weapons": 3, "public-order": 15, "robbery": 1, "shoplifting": 77, "vehicle-crime": 7, "violent-crime": 47}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE2NH7",
+  "neighbourhood_name": "Motcombe",
+  "force_id": "sussex",
+  "lat": "50.7734",
+  "lng": "0.257703",
+  "population": 6396,
+  "total_crimes": 227,
+  "categories": {
+    "anti-social-behaviour": 42,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 13,
+    "drugs": 6,
+    "other-theft": 9,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "robbery": 1,
+    "shoplifting": 77,
+    "vehicle-crime": 7,
+    "violent-crime": 47
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011485", "neighbourhood_name": "South Norwood", "force_id": "metropolitan", "lat": "51.3967", "lng": "-0.0781113", "population": 12098, "total_crimes": 567, "categories": {"anti-social-behaviour": 103, "bicycle-theft": 2, "burglary": 23, "criminal-damage-arson": 49, "drugs": 21, "other-theft": 38, "possession-of-weapons": 5, "public-order": 23, "robbery": 7, "shoplifting": 23, "theft-from-the-person": 15, "vehicle-crime": 53, "violent-crime": 192, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011485",
+  "neighbourhood_name": "South Norwood",
+  "force_id": "metropolitan",
+  "lat": "51.3967",
+  "lng": "-0.0781113",
+  "population": 18347,
+  "total_crimes": 567,
+  "categories": {
+    "anti-social-behaviour": 103,
+    "bicycle-theft": 2,
+    "burglary": 23,
+    "criminal-damage-arson": 49,
+    "drugs": 21,
+    "other-theft": 38,
+    "possession-of-weapons": 5,
+    "public-order": 23,
+    "robbery": 7,
+    "shoplifting": 23,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 53,
+    "violent-crime": 192,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

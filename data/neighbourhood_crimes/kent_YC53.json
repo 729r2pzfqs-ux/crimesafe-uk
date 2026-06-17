@@ -1,1 +1,27 @@
-{"neighbourhood_id": "YC53", "neighbourhood_name": "Swanley White Oak", "force_id": "kent", "lat": "51.4024", "lng": "0.171095", "population": 12098, "total_crimes": 162, "categories": {"anti-social-behaviour": 27, "burglary": 1, "criminal-damage-arson": 16, "drugs": 10, "other-theft": 12, "public-order": 9, "robbery": 3, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 9, "violent-crime": 48, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YC53",
+  "neighbourhood_name": "Swanley White Oak",
+  "force_id": "kent",
+  "lat": "51.4024",
+  "lng": "0.171095",
+  "population": 6505,
+  "total_crimes": 162,
+  "categories": {
+    "anti-social-behaviour": 27,
+    "burglary": 1,
+    "criminal-damage-arson": 16,
+    "drugs": 10,
+    "other-theft": 12,
+    "public-order": 9,
+    "robbery": 3,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 9,
+    "violent-crime": 48,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

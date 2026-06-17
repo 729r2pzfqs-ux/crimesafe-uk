@@ -1,1 +1,25 @@
-{"neighbourhood_id": "25", "neighbourhood_name": "St Mary's", "force_id": "humberside", "lat": "53.8489", "lng": "-0.445059", "population": 12098, "total_crimes": 83, "categories": {"anti-social-behaviour": 6, "burglary": 4, "drugs": 3, "other-theft": 4, "public-order": 12, "robbery": 1, "shoplifting": 22, "theft-from-the-person": 1, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "25",
+  "neighbourhood_name": "St Mary's",
+  "force_id": "humberside",
+  "lat": "53.8489",
+  "lng": "-0.445059",
+  "population": 16211,
+  "total_crimes": 83,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 4,
+    "drugs": 3,
+    "other-theft": 4,
+    "public-order": 12,
+    "robbery": 1,
+    "shoplifting": 22,
+    "theft-from-the-person": 1,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

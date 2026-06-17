@@ -1,1 +1,26 @@
-{"neighbourhood_id": "A047", "neighbourhood_name": "Llwynhendy", "force_id": "dyfed-powys", "lat": "51.6733", "lng": "-4.12096", "population": 12098, "total_crimes": 134, "categories": {"anti-social-behaviour": 22, "burglary": 1, "criminal-damage-arson": 16, "drugs": 5, "other-theft": 8, "public-order": 8, "shoplifting": 21, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 48, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A047",
+  "neighbourhood_name": "Llwynhendy",
+  "force_id": "dyfed-powys",
+  "lat": "51.6733",
+  "lng": "-4.12096",
+  "population": 4516,
+  "total_crimes": 134,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "burglary": 1,
+    "criminal-damage-arson": 16,
+    "drugs": 5,
+    "other-theft": 8,
+    "public-order": 8,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 48,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 29.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

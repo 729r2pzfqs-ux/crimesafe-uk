@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013630", "neighbourhood_name": "Burnt Oak", "force_id": "metropolitan", "lat": "51.6033", "lng": "-0.261456", "population": 23101, "total_crimes": 718, "categories": {"anti-social-behaviour": 153, "bicycle-theft": 3, "burglary": 43, "criminal-damage-arson": 43, "drugs": 24, "other-theft": 52, "possession-of-weapons": 3, "public-order": 36, "robbery": 29, "shoplifting": 50, "theft-from-the-person": 23, "vehicle-crime": 35, "violent-crime": 217, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013630",
+  "neighbourhood_name": "Burnt Oak",
+  "force_id": "metropolitan",
+  "lat": "51.6033",
+  "lng": "-0.261456",
+  "population": 20074,
+  "total_crimes": 718,
+  "categories": {
+    "anti-social-behaviour": 153,
+    "bicycle-theft": 3,
+    "burglary": 43,
+    "criminal-damage-arson": 43,
+    "drugs": 24,
+    "other-theft": 52,
+    "possession-of-weapons": 3,
+    "public-order": 36,
+    "robbery": 29,
+    "shoplifting": 50,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 35,
+    "violent-crime": 217,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

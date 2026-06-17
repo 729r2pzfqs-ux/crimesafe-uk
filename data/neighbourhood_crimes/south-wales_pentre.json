@@ -1,1 +1,24 @@
-{"neighbourhood_id": "pentre", "neighbourhood_name": "Pentre", "force_id": "south-wales", "lat": "51.6503", "lng": "-3.50037", "population": 12098, "total_crimes": 75, "categories": {"anti-social-behaviour": 11, "criminal-damage-arson": 4, "other-theft": 3, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 8, "vehicle-crime": 1, "violent-crime": 31, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "pentre",
+  "neighbourhood_name": "Pentre",
+  "force_id": "south-wales",
+  "lat": "51.6503",
+  "lng": "-3.50037",
+  "population": 2774,
+  "total_crimes": 75,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "criminal-damage-arson": 4,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 31,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

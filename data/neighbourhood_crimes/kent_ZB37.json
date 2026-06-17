@@ -1,1 +1,27 @@
-{"neighbourhood_id": "ZB37", "neighbourhood_name": "Sir Moses Montefiore", "force_id": "kent", "lat": "51.342", "lng": "1.42859", "population": 12098, "total_crimes": 296, "categories": {"anti-social-behaviour": 50, "burglary": 5, "criminal-damage-arson": 30, "drugs": 6, "other-theft": 23, "public-order": 6, "robbery": 1, "shoplifting": 19, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 133, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB37",
+  "neighbourhood_name": "Sir Moses Montefiore",
+  "force_id": "kent",
+  "lat": "51.342",
+  "lng": "1.42859",
+  "population": 5217,
+  "total_crimes": 296,
+  "categories": {
+    "anti-social-behaviour": 50,
+    "burglary": 5,
+    "criminal-damage-arson": 30,
+    "drugs": 6,
+    "other-theft": 23,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 19,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 133,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 56.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

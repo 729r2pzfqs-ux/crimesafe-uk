@@ -1,1 +1,28 @@
-{"neighbourhood_id": "BE008", "neighbourhood_name": "Springfield", "force_id": "west-midlands", "lat": "52.4432", "lng": "-1.85565", "population": 12098, "total_crimes": 495, "categories": {"anti-social-behaviour": 12, "burglary": 30, "criminal-damage-arson": 37, "drugs": 21, "other-theft": 26, "possession-of-weapons": 10, "public-order": 30, "robbery": 11, "shoplifting": 23, "theft-from-the-person": 6, "vehicle-crime": 48, "violent-crime": 231, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE008",
+  "neighbourhood_name": "Springfield",
+  "force_id": "west-midlands",
+  "lat": "52.4432",
+  "lng": "-1.85565",
+  "population": 25990,
+  "total_crimes": 495,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 30,
+    "criminal-damage-arson": 37,
+    "drugs": 21,
+    "other-theft": 26,
+    "possession-of-weapons": 10,
+    "public-order": 30,
+    "robbery": 11,
+    "shoplifting": 23,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 48,
+    "violent-crime": 231,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

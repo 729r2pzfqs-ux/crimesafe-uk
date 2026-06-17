@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013730N", "neighbourhood_name": "Rushey Green", "force_id": "metropolitan", "lat": "51.4443", "lng": "-0.0203579", "population": 12098, "total_crimes": 717, "categories": {"anti-social-behaviour": 130, "bicycle-theft": 7, "burglary": 29, "criminal-damage-arson": 36, "drugs": 39, "other-theft": 40, "possession-of-weapons": 8, "public-order": 44, "robbery": 32, "shoplifting": 33, "theft-from-the-person": 22, "vehicle-crime": 34, "violent-crime": 253, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013730N",
+  "neighbourhood_name": "Rushey Green",
+  "force_id": "metropolitan",
+  "lat": "51.4443",
+  "lng": "-0.0203579",
+  "population": 17495,
+  "total_crimes": 717,
+  "categories": {
+    "anti-social-behaviour": 130,
+    "bicycle-theft": 7,
+    "burglary": 29,
+    "criminal-damage-arson": 36,
+    "drugs": 39,
+    "other-theft": 40,
+    "possession-of-weapons": 8,
+    "public-order": 44,
+    "robbery": 32,
+    "shoplifting": 33,
+    "theft-from-the-person": 22,
+    "vehicle-crime": 34,
+    "violent-crime": 253,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

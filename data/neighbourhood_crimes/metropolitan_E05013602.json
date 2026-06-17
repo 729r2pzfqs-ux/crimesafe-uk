@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013602", "neighbourhood_name": "Tottenham Hale", "force_id": "metropolitan", "lat": "51.5922", "lng": "-0.0612806", "population": 12911, "total_crimes": 927, "categories": {"anti-social-behaviour": 186, "bicycle-theft": 5, "burglary": 32, "criminal-damage-arson": 43, "drugs": 29, "other-theft": 57, "possession-of-weapons": 6, "public-order": 47, "robbery": 31, "shoplifting": 58, "theft-from-the-person": 63, "vehicle-crime": 56, "violent-crime": 304, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013602",
+  "neighbourhood_name": "Tottenham Hale",
+  "force_id": "metropolitan",
+  "lat": "51.5922",
+  "lng": "-0.0612806",
+  "population": 8065,
+  "total_crimes": 927,
+  "categories": {
+    "anti-social-behaviour": 186,
+    "bicycle-theft": 5,
+    "burglary": 32,
+    "criminal-damage-arson": 43,
+    "drugs": 29,
+    "other-theft": 57,
+    "possession-of-weapons": 6,
+    "public-order": 47,
+    "robbery": 31,
+    "shoplifting": 58,
+    "theft-from-the-person": 63,
+    "vehicle-crime": 56,
+    "violent-crime": 304,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 114.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

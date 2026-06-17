@@ -1,1 +1,24 @@
-{"neighbourhood_id": "C01", "neighbourhood_name": "Abbots Langley", "force_id": "hertfordshire", "lat": "51.7104", "lng": "-0.421185", "population": 12098, "total_crimes": 68, "categories": {"anti-social-behaviour": 8, "burglary": 5, "criminal-damage-arson": 5, "drugs": 3, "other-theft": 8, "public-order": 2, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 32}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C01",
+  "neighbourhood_name": "Abbots Langley",
+  "force_id": "hertfordshire",
+  "lat": "51.7104",
+  "lng": "-0.421185",
+  "population": 15407,
+  "total_crimes": 68,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 5,
+    "criminal-damage-arson": 5,
+    "drugs": 3,
+    "other-theft": 8,
+    "public-order": 2,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 32
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

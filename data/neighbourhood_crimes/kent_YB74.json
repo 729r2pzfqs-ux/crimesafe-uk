@@ -1,1 +1,25 @@
-{"neighbourhood_id": "YB74", "neighbourhood_name": "Trench", "force_id": "kent", "lat": "51.2184", "lng": "0.279539", "population": 12098, "total_crimes": 71, "categories": {"anti-social-behaviour": 14, "burglary": 1, "criminal-damage-arson": 10, "drugs": 4, "other-theft": 1, "possession-of-weapons": 1, "public-order": 3, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 34}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB74",
+  "neighbourhood_name": "Trench",
+  "force_id": "kent",
+  "lat": "51.2184",
+  "lng": "0.279539",
+  "population": 6771,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 4,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 34
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

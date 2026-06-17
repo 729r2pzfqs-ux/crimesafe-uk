@@ -1,1 +1,27 @@
-{"neighbourhood_id": "WXW02", "neighbourhood_name": "Brynyffynnon", "force_id": "north-wales", "lat": "53.0454", "lng": "-3.012", "population": 12098, "total_crimes": 325, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 4, "criminal-damage-arson": 13, "drugs": 10, "other-theft": 12, "possession-of-weapons": 5, "public-order": 32, "robbery": 2, "shoplifting": 63, "vehicle-crime": 5, "violent-crime": 104, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW02",
+  "neighbourhood_name": "Brynyffynnon",
+  "force_id": "north-wales",
+  "lat": "53.0454",
+  "lng": "-3.012",
+  "population": 3777,
+  "total_crimes": 325,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 4,
+    "criminal-damage-arson": 13,
+    "drugs": 10,
+    "other-theft": 12,
+    "possession-of-weapons": 5,
+    "public-order": 32,
+    "robbery": 2,
+    "shoplifting": 63,
+    "vehicle-crime": 5,
+    "violent-crime": 104,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 86.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

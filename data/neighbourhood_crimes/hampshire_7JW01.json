@@ -1,1 +1,26 @@
-{"neighbourhood_id": "7JW01", "neighbourhood_name": "Waterlooville South", "force_id": "hampshire", "lat": "50.8654", "lng": "-1.03415", "population": 12098, "total_crimes": 101, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 6, "possession-of-weapons": 1, "public-order": 14, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 47, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "7JW01",
+  "neighbourhood_name": "Waterlooville South",
+  "force_id": "hampshire",
+  "lat": "50.8654",
+  "lng": "-1.03415",
+  "population": 20069,
+  "total_crimes": 101,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 6,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 47,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

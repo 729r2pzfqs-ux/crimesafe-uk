@@ -1,1 +1,27 @@
-{"neighbourhood_id": "N434", "neighbourhood_name": "Bradwell and Stantonbury", "force_id": "thames-valley", "lat": "52.0552", "lng": "-0.778208", "population": 12098, "total_crimes": 187, "categories": {"anti-social-behaviour": 16, "burglary": 9, "criminal-damage-arson": 8, "drugs": 6, "other-theft": 14, "public-order": 7, "robbery": 4, "shoplifting": 13, "theft-from-the-person": 2, "vehicle-crime": 20, "violent-crime": 87, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N434",
+  "neighbourhood_name": "Bradwell and Stantonbury",
+  "force_id": "thames-valley",
+  "lat": "52.0552",
+  "lng": "-0.778208",
+  "population": 18816,
+  "total_crimes": 187,
+  "categories": {
+    "anti-social-behaviour": 16,
+    "burglary": 9,
+    "criminal-damage-arson": 8,
+    "drugs": 6,
+    "other-theft": 14,
+    "public-order": 7,
+    "robbery": 4,
+    "shoplifting": 13,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 20,
+    "violent-crime": 87,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

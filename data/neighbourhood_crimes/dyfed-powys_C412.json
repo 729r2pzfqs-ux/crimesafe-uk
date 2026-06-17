@@ -1,1 +1,18 @@
-{"neighbourhood_id": "C412", "neighbourhood_name": "Narberth - Rural", "force_id": "dyfed-powys", "lat": "51.7925", "lng": "-4.74791", "population": 12098, "total_crimes": 12, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C412",
+  "neighbourhood_name": "Narberth - Rural",
+  "force_id": "dyfed-powys",
+  "lat": "51.7925",
+  "lng": "-4.74791",
+  "population": 3917,
+  "total_crimes": 12,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

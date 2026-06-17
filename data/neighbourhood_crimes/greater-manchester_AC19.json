@@ -1,1 +1,17 @@
-{"neighbourhood_id": "AC19", "neighbourhood_name": "Collyhurst", "force_id": "greater-manchester", "lat": "53.4955", "lng": "-2.22407", "population": 12098, "total_crimes": 4, "categories": {"other-theft": 2, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC19",
+  "neighbourhood_name": "Collyhurst",
+  "force_id": "greater-manchester",
+  "lat": "53.4955",
+  "lng": "-2.22407",
+  "population": 2650,
+  "total_crimes": 4,
+  "categories": {
+    "other-theft": 2,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

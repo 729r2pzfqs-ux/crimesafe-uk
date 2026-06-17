@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009390N", "neighbourhood_name": "Campden", "force_id": "metropolitan", "lat": "51.5046", "lng": "-0.194005", "population": 12098, "total_crimes": 1291, "categories": {"anti-social-behaviour": 309, "bicycle-theft": 23, "burglary": 68, "criminal-damage-arson": 59, "drugs": 36, "other-theft": 191, "possession-of-weapons": 2, "public-order": 50, "robbery": 21, "shoplifting": 86, "theft-from-the-person": 91, "vehicle-crime": 86, "violent-crime": 258, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009390N",
+  "neighbourhood_name": "Campden",
+  "force_id": "metropolitan",
+  "lat": "51.5046",
+  "lng": "-0.194005",
+  "population": 10080,
+  "total_crimes": 1291,
+  "categories": {
+    "anti-social-behaviour": 309,
+    "bicycle-theft": 23,
+    "burglary": 68,
+    "criminal-damage-arson": 59,
+    "drugs": 36,
+    "other-theft": 191,
+    "possession-of-weapons": 2,
+    "public-order": 50,
+    "robbery": 21,
+    "shoplifting": 86,
+    "theft-from-the-person": 91,
+    "vehicle-crime": 86,
+    "violent-crime": 258,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 128.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

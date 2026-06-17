@@ -1,1 +1,26 @@
-{"neighbourhood_id": "CIOS.4011", "neighbourhood_name": "Penzance Rural East", "force_id": "devon-and-cornwall", "lat": "50.1355", "lng": "-5.52648", "population": 12098, "total_crimes": 46, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 3, "possession-of-weapons": 2, "public-order": 1, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 22, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4011",
+  "neighbourhood_name": "Penzance Rural East",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.1355",
+  "lng": "-5.52648",
+  "population": 13200,
+  "total_crimes": 46,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 22,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

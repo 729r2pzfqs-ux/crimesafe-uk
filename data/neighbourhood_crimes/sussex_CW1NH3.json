@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CW1NH3", "neighbourhood_name": "South Portslade", "force_id": "sussex", "lat": "50.8364", "lng": "-0.215052", "population": 12098, "total_crimes": 282, "categories": {"anti-social-behaviour": 64, "burglary": 13, "criminal-damage-arson": 22, "drugs": 5, "other-theft": 14, "possession-of-weapons": 3, "public-order": 27, "robbery": 3, "shoplifting": 21, "vehicle-crime": 18, "violent-crime": 90, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CW1NH3",
+  "neighbourhood_name": "South Portslade",
+  "force_id": "sussex",
+  "lat": "50.8364",
+  "lng": "-0.215052",
+  "population": 9790,
+  "total_crimes": 282,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "burglary": 13,
+    "criminal-damage-arson": 22,
+    "drugs": 5,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 27,
+    "robbery": 3,
+    "shoplifting": 21,
+    "vehicle-crime": 18,
+    "violent-crime": 90,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

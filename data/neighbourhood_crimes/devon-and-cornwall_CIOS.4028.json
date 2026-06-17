@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CIOS.4028", "neighbourhood_name": "St Columb Major", "force_id": "devon-and-cornwall", "lat": "50.4079", "lng": "-4.94109", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4028",
+  "neighbourhood_name": "St Columb Major",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4079",
+  "lng": "-4.94109",
+  "population": 11394,
+  "total_crimes": 5,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

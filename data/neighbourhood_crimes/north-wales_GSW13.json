@@ -1,1 +1,18 @@
-{"neighbourhood_id": "GSW13", "neighbourhood_name": "Llanbedrog", "force_id": "north-wales", "lat": "52.8626", "lng": "-4.48722", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "other-theft": 1, "shoplifting": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW13",
+  "neighbourhood_name": "Llanbedrog",
+  "force_id": "north-wales",
+  "lat": "52.8626",
+  "lng": "-4.48722",
+  "population": 1653,
+  "total_crimes": 3,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "shoplifting": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

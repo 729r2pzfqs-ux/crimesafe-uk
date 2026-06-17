@@ -1,1 +1,16 @@
-{"neighbourhood_id": "llangyfelach", "neighbourhood_name": "Llangyfelach", "force_id": "south-wales", "lat": "51.7135", "lng": "-3.96338", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llangyfelach",
+  "neighbourhood_name": "Llangyfelach",
+  "force_id": "south-wales",
+  "lat": "51.7135",
+  "lng": "-3.96338",
+  "population": 1474,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

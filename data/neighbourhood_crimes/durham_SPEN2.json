@@ -1,1 +1,23 @@
-{"neighbourhood_id": "SPEN2", "neighbourhood_name": "Spennymoor (Tudhoe)", "force_id": "durham", "lat": "54.715", "lng": "-1.59613", "population": 12098, "total_crimes": 62, "categories": {"anti-social-behaviour": 4, "burglary": 1, "criminal-damage-arson": 11, "other-theft": 7, "public-order": 2, "vehicle-crime": 4, "violent-crime": 29, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPEN2",
+  "neighbourhood_name": "Spennymoor (Tudhoe)",
+  "force_id": "durham",
+  "lat": "54.715",
+  "lng": "-1.59613",
+  "population": 1564,
+  "total_crimes": 62,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 1,
+    "criminal-damage-arson": 11,
+    "other-theft": 7,
+    "public-order": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 29,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

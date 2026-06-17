@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WA1NH4", "neighbourhood_name": "Pevensey", "force_id": "sussex", "lat": "50.7893", "lng": "-0.688658", "population": 12098, "total_crimes": 387, "categories": {"anti-social-behaviour": 74, "bicycle-theft": 1, "burglary": 13, "criminal-damage-arson": 35, "drugs": 11, "other-theft": 18, "possession-of-weapons": 4, "public-order": 12, "robbery": 8, "shoplifting": 86, "theft-from-the-person": 2, "vehicle-crime": 11, "violent-crime": 108, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA1NH4",
+  "neighbourhood_name": "Pevensey",
+  "force_id": "sussex",
+  "lat": "50.7893",
+  "lng": "-0.688658",
+  "population": 6791,
+  "total_crimes": 387,
+  "categories": {
+    "anti-social-behaviour": 74,
+    "bicycle-theft": 1,
+    "burglary": 13,
+    "criminal-damage-arson": 35,
+    "drugs": 11,
+    "other-theft": 18,
+    "possession-of-weapons": 4,
+    "public-order": 12,
+    "robbery": 8,
+    "shoplifting": 86,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 11,
+    "violent-crime": 108,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 57.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

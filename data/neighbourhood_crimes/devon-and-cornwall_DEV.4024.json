@@ -1,1 +1,27 @@
-{"neighbourhood_id": "DEV.4024", "neighbourhood_name": "Goodrington-with-Roselands", "force_id": "devon-and-cornwall", "lat": "50.4229", "lng": "-3.57172", "population": 12098, "total_crimes": 240, "categories": {"anti-social-behaviour": 38, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 22, "drugs": 4, "other-theft": 28, "public-order": 16, "robbery": 1, "shoplifting": 29, "vehicle-crime": 4, "violent-crime": 86, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4024",
+  "neighbourhood_name": "Goodrington-with-Roselands",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4229",
+  "lng": "-3.57172",
+  "population": 7086,
+  "total_crimes": 240,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 22,
+    "drugs": 4,
+    "other-theft": 28,
+    "public-order": 16,
+    "robbery": 1,
+    "shoplifting": 29,
+    "vehicle-crime": 4,
+    "violent-crime": 86,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

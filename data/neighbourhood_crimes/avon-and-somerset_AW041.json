@@ -1,1 +1,25 @@
-{"neighbourhood_id": "AW041", "neighbourhood_name": "Burnham and Highbridge", "force_id": "avon-and-somerset", "lat": "51.2368", "lng": "-2.98929", "population": "0", "total_crimes": 106, "categories": {"anti-social-behaviour": 20, "burglary": 3, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 5, "public-order": 8, "robbery": 1, "shoplifting": 8, "violent-crime": 48, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AW041",
+  "neighbourhood_name": "Burnham and Highbridge",
+  "force_id": "avon-and-somerset",
+  "lat": "51.2368",
+  "lng": "-2.98929",
+  "population": 19577,
+  "total_crimes": 106,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 3,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 8,
+    "violent-crime": 48,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

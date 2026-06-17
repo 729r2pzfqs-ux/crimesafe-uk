@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011248", "neighbourhood_name": "Mayfield", "force_id": "metropolitan", "lat": "51.5534", "lng": "0.0975113", "population": 16291, "total_crimes": 646, "categories": {"anti-social-behaviour": 121, "bicycle-theft": 2, "burglary": 36, "criminal-damage-arson": 33, "drugs": 19, "other-theft": 43, "possession-of-weapons": 3, "public-order": 34, "robbery": 21, "shoplifting": 23, "theft-from-the-person": 20, "vehicle-crime": 63, "violent-crime": 220, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011248",
+  "neighbourhood_name": "Mayfield",
+  "force_id": "metropolitan",
+  "lat": "51.5534",
+  "lng": "0.0975113",
+  "population": 15124,
+  "total_crimes": 646,
+  "categories": {
+    "anti-social-behaviour": 121,
+    "bicycle-theft": 2,
+    "burglary": 36,
+    "criminal-damage-arson": 33,
+    "drugs": 19,
+    "other-theft": 43,
+    "possession-of-weapons": 3,
+    "public-order": 34,
+    "robbery": 21,
+    "shoplifting": 23,
+    "theft-from-the-person": 20,
+    "vehicle-crime": 63,
+    "violent-crime": 220,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

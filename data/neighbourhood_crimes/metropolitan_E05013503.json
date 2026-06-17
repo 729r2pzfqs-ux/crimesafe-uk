@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013503", "neighbourhood_name": "Kilburn", "force_id": "metropolitan", "lat": "51.5365", "lng": "-0.199557", "population": 12098, "total_crimes": 1411, "categories": {"anti-social-behaviour": 359, "bicycle-theft": 23, "burglary": 88, "criminal-damage-arson": 58, "drugs": 72, "other-theft": 92, "possession-of-weapons": 7, "public-order": 77, "robbery": 51, "shoplifting": 115, "theft-from-the-person": 73, "vehicle-crime": 74, "violent-crime": 306, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013503",
+  "neighbourhood_name": "Kilburn",
+  "force_id": "metropolitan",
+  "lat": "51.5365",
+  "lng": "-0.199557",
+  "population": 16771,
+  "total_crimes": 1411,
+  "categories": {
+    "anti-social-behaviour": 359,
+    "bicycle-theft": 23,
+    "burglary": 88,
+    "criminal-damage-arson": 58,
+    "drugs": 72,
+    "other-theft": 92,
+    "possession-of-weapons": 7,
+    "public-order": 77,
+    "robbery": 51,
+    "shoplifting": 115,
+    "theft-from-the-person": 73,
+    "vehicle-crime": 74,
+    "violent-crime": 306,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 84.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

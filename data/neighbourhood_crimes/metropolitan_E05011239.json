@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011239", "neighbourhood_name": "Clayhall", "force_id": "metropolitan", "lat": "51.5848", "lng": "0.0536762", "population": 14421, "total_crimes": 317, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 2, "burglary": 16, "criminal-damage-arson": 13, "drugs": 13, "other-theft": 19, "possession-of-weapons": 5, "public-order": 15, "robbery": 10, "shoplifting": 8, "theft-from-the-person": 6, "vehicle-crime": 36, "violent-crime": 102, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011239",
+  "neighbourhood_name": "Clayhall",
+  "force_id": "metropolitan",
+  "lat": "51.5848",
+  "lng": "0.0536762",
+  "population": 13911,
+  "total_crimes": 317,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 2,
+    "burglary": 16,
+    "criminal-damage-arson": 13,
+    "drugs": 13,
+    "other-theft": 19,
+    "possession-of-weapons": 5,
+    "public-order": 15,
+    "robbery": 10,
+    "shoplifting": 8,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 36,
+    "violent-crime": 102,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

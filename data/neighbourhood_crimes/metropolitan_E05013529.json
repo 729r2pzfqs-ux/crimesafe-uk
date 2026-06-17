@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013529", "neighbourhood_name": "North Hanwell", "force_id": "metropolitan", "lat": "51.5197", "lng": "-0.340717", "population": 15039, "total_crimes": 512, "categories": {"anti-social-behaviour": 139, "bicycle-theft": 3, "burglary": 19, "criminal-damage-arson": 24, "drugs": 12, "other-theft": 41, "possession-of-weapons": 3, "public-order": 29, "robbery": 13, "shoplifting": 27, "theft-from-the-person": 16, "vehicle-crime": 37, "violent-crime": 143, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013529",
+  "neighbourhood_name": "North Hanwell",
+  "force_id": "metropolitan",
+  "lat": "51.5197",
+  "lng": "-0.340717",
+  "population": 13366,
+  "total_crimes": 512,
+  "categories": {
+    "anti-social-behaviour": 139,
+    "bicycle-theft": 3,
+    "burglary": 19,
+    "criminal-damage-arson": 24,
+    "drugs": 12,
+    "other-theft": 41,
+    "possession-of-weapons": 3,
+    "public-order": 29,
+    "robbery": 13,
+    "shoplifting": 27,
+    "theft-from-the-person": 16,
+    "vehicle-crime": 37,
+    "violent-crime": 143,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 38.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

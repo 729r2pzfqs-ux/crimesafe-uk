@@ -1,1 +1,20 @@
-{"neighbourhood_id": "EZ14", "neighbourhood_name": "Devizes Rural South", "force_id": "wiltshire", "lat": "51.2916", "lng": "-1.98895", "population": 12098, "total_crimes": 18, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 3, "other-theft": 1, "shoplifting": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EZ14",
+  "neighbourhood_name": "Devizes Rural South",
+  "force_id": "wiltshire",
+  "lat": "51.2916",
+  "lng": "-1.98895",
+  "population": 9203,
+  "total_crimes": 18,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "shoplifting": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

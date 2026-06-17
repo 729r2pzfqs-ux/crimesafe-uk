@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009378", "neighbourhood_name": "Hoxton West", "force_id": "metropolitan", "lat": "51.5309", "lng": "-0.0899536", "population": 14426, "total_crimes": 2224, "categories": {"anti-social-behaviour": 353, "bicycle-theft": 67, "burglary": 85, "criminal-damage-arson": 81, "drugs": 133, "other-theft": 246, "possession-of-weapons": 17, "public-order": 111, "robbery": 73, "shoplifting": 260, "theft-from-the-person": 268, "vehicle-crime": 72, "violent-crime": 441, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009378",
+  "neighbourhood_name": "Hoxton West",
+  "force_id": "metropolitan",
+  "lat": "51.5309",
+  "lng": "-0.0899536",
+  "population": 11415,
+  "total_crimes": 2224,
+  "categories": {
+    "anti-social-behaviour": 353,
+    "bicycle-theft": 67,
+    "burglary": 85,
+    "criminal-damage-arson": 81,
+    "drugs": 133,
+    "other-theft": 246,
+    "possession-of-weapons": 17,
+    "public-order": 111,
+    "robbery": 73,
+    "shoplifting": 260,
+    "theft-from-the-person": 268,
+    "vehicle-crime": 72,
+    "violent-crime": 441,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 194.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,17 @@
-{"neighbourhood_id": "GSW29", "neighbourhood_name": "Harlech", "force_id": "north-wales", "lat": "52.8946", "lng": "-4.06943", "population": 12098, "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GSW29",
+  "neighbourhood_name": "Harlech",
+  "force_id": "north-wales",
+  "lat": "52.8946",
+  "lng": "-4.06943",
+  "population": 1874,
+  "total_crimes": 2,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

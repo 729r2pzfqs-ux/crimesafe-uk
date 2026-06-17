@@ -1,1 +1,16 @@
-{"neighbourhood_id": "ER2NH11", "neighbourhood_name": "Ninfield, Ashburnham and Penhurst", "force_id": "sussex", "lat": "50.8643", "lng": "0.392071", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER2NH11",
+  "neighbourhood_name": "Ninfield, Ashburnham and Penhurst",
+  "force_id": "sussex",
+  "lat": "50.8643",
+  "lng": "0.392071",
+  "population": 2549,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

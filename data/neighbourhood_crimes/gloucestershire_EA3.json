@@ -1,1 +1,14 @@
-{"neighbourhood_id": "EA3", "neighbourhood_name": "Coleford", "force_id": "gloucestershire", "lat": "51.7953", "lng": "-2.58541", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EA3",
+  "neighbourhood_name": "Coleford",
+  "force_id": "gloucestershire",
+  "lat": "51.7953",
+  "lng": "-2.58541",
+  "population": 17574,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

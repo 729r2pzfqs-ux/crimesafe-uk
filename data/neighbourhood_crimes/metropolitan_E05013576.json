@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013576", "neighbourhood_name": "Pinkwell", "force_id": "metropolitan", "lat": "51.4992", "lng": "-0.428588", "population": 12098, "total_crimes": 343, "categories": {"anti-social-behaviour": 69, "bicycle-theft": 5, "burglary": 10, "criminal-damage-arson": 22, "drugs": 10, "other-theft": 26, "possession-of-weapons": 4, "public-order": 15, "robbery": 7, "shoplifting": 16, "theft-from-the-person": 25, "vehicle-crime": 35, "violent-crime": 95, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013576",
+  "neighbourhood_name": "Pinkwell",
+  "force_id": "metropolitan",
+  "lat": "51.4992",
+  "lng": "-0.428588",
+  "population": 16433,
+  "total_crimes": 343,
+  "categories": {
+    "anti-social-behaviour": 69,
+    "bicycle-theft": 5,
+    "burglary": 10,
+    "criminal-damage-arson": 22,
+    "drugs": 10,
+    "other-theft": 26,
+    "possession-of-weapons": 4,
+    "public-order": 15,
+    "robbery": 7,
+    "shoplifting": 16,
+    "theft-from-the-person": 25,
+    "vehicle-crime": 35,
+    "violent-crime": 95,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

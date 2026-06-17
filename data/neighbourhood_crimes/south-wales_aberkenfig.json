@@ -1,1 +1,18 @@
-{"neighbourhood_id": "aberkenfig", "neighbourhood_name": "Aberkenfig", "force_id": "south-wales", "lat": "51.5508", "lng": "-3.62362", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 4, "public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "aberkenfig",
+  "neighbourhood_name": "Aberkenfig",
+  "force_id": "south-wales",
+  "lat": "51.5508",
+  "lng": "-3.62362",
+  "population": 2560,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

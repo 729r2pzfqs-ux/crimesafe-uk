@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPL3L", "neighbourhood_name": "Woolton Village", "force_id": "merseyside", "lat": "53.3792", "lng": "-2.87782", "population": 12098, "total_crimes": 81, "categories": {"anti-social-behaviour": 11, "burglary": 5, "criminal-damage-arson": 4, "drugs": 5, "other-theft": 9, "possession-of-weapons": 3, "public-order": 4, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 32, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL3L",
+  "neighbourhood_name": "Woolton Village",
+  "force_id": "merseyside",
+  "lat": "53.3792",
+  "lng": "-2.87782",
+  "population": 4491,
+  "total_crimes": 81,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 3,
+    "public-order": 4,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 32,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

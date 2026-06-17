@@ -1,1 +1,23 @@
-{"neighbourhood_id": "FSW17", "neighbourhood_name": "Buckley Bistre East", "force_id": "north-wales", "lat": "53.1586", "lng": "-3.0697", "population": 12098, "total_crimes": 53, "categories": {"anti-social-behaviour": 8, "burglary": 2, "criminal-damage-arson": 3, "other-theft": 4, "public-order": 4, "robbery": 2, "shoplifting": 4, "violent-crime": 26}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW17",
+  "neighbourhood_name": "Buckley Bistre East",
+  "force_id": "north-wales",
+  "lat": "53.1586",
+  "lng": "-3.0697",
+  "population": 3353,
+  "total_crimes": 53,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "other-theft": 4,
+    "public-order": 4,
+    "robbery": 2,
+    "shoplifting": 4,
+    "violent-crime": 26
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

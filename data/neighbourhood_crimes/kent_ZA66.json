@@ -1,1 +1,22 @@
-{"neighbourhood_id": "ZA66", "neighbourhood_name": "Greenhill", "force_id": "kent", "lat": "51.3469", "lng": "1.09951", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 2, "public-order": 1, "violent-crime": 10, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA66",
+  "neighbourhood_name": "Greenhill",
+  "force_id": "kent",
+  "lat": "51.3469",
+  "lng": "1.09951",
+  "population": 3772,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 2,
+    "public-order": 1,
+    "violent-crime": 10,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

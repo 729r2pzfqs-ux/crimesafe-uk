@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013521", "neighbourhood_name": "Ealing Common", "force_id": "metropolitan", "lat": "51.5067", "lng": "-0.293726", "population": 17142, "total_crimes": 708, "categories": {"anti-social-behaviour": 192, "bicycle-theft": 7, "burglary": 31, "criminal-damage-arson": 30, "drugs": 12, "other-theft": 49, "possession-of-weapons": 3, "public-order": 48, "robbery": 14, "shoplifting": 61, "theft-from-the-person": 40, "vehicle-crime": 63, "violent-crime": 154, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013521",
+  "neighbourhood_name": "Ealing Common",
+  "force_id": "metropolitan",
+  "lat": "51.5067",
+  "lng": "-0.293726",
+  "population": 16504,
+  "total_crimes": 708,
+  "categories": {
+    "anti-social-behaviour": 192,
+    "bicycle-theft": 7,
+    "burglary": 31,
+    "criminal-damage-arson": 30,
+    "drugs": 12,
+    "other-theft": 49,
+    "possession-of-weapons": 3,
+    "public-order": 48,
+    "robbery": 14,
+    "shoplifting": 61,
+    "theft-from-the-person": 40,
+    "vehicle-crime": 63,
+    "violent-crime": 154,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

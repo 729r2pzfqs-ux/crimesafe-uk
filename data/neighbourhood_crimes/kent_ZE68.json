@@ -1,1 +1,17 @@
-{"neighbourhood_id": "ZE68", "neighbourhood_name": "North Downs East", "force_id": "kent", "lat": "51.1405", "lng": "1.14234", "population": 12098, "total_crimes": 2, "categories": {"other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZE68",
+  "neighbourhood_name": "North Downs East",
+  "force_id": "kent",
+  "lat": "51.1405",
+  "lng": "1.14234",
+  "population": 14433,
+  "total_crimes": 2,
+  "categories": {
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

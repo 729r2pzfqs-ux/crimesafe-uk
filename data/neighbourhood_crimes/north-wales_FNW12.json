@@ -1,1 +1,27 @@
-{"neighbourhood_id": "FNW12", "neighbourhood_name": "Flint Coleshill", "force_id": "north-wales", "lat": "53.2541", "lng": "-3.14243", "population": 12098, "total_crimes": 96, "categories": {"anti-social-behaviour": 23, "burglary": 1, "criminal-damage-arson": 5, "drugs": 2, "other-theft": 4, "possession-of-weapons": 3, "public-order": 3, "robbery": 2, "shoplifting": 28, "vehicle-crime": 2, "violent-crime": 21, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW12",
+  "neighbourhood_name": "Flint Coleshill",
+  "force_id": "north-wales",
+  "lat": "53.2541",
+  "lng": "-3.14243",
+  "population": 3874,
+  "total_crimes": 96,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 2,
+    "other-theft": 4,
+    "possession-of-weapons": 3,
+    "public-order": 3,
+    "robbery": 2,
+    "shoplifting": 28,
+    "vehicle-crime": 2,
+    "violent-crime": 21,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "EH1NH14", "neighbourhood_name": "St Helens", "force_id": "sussex", "lat": "50.8749", "lng": "0.576597", "population": 12098, "total_crimes": 202, "categories": {"anti-social-behaviour": 37, "burglary": 7, "criminal-damage-arson": 13, "drugs": 10, "other-theft": 11, "possession-of-weapons": 2, "public-order": 8, "robbery": 1, "shoplifting": 11, "vehicle-crime": 21, "violent-crime": 78, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EH1NH14",
+  "neighbourhood_name": "St Helens",
+  "force_id": "sussex",
+  "lat": "50.8749",
+  "lng": "0.576597",
+  "population": 4877,
+  "total_crimes": 202,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "burglary": 7,
+    "criminal-damage-arson": 13,
+    "drugs": 10,
+    "other-theft": 11,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 11,
+    "vehicle-crime": 21,
+    "violent-crime": 78,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

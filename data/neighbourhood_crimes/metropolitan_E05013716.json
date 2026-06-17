@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013716", "neighbourhood_name": "Brockley", "force_id": "metropolitan", "lat": "51.4672", "lng": "-0.0286812", "population": 21781, "total_crimes": 997, "categories": {"anti-social-behaviour": 172, "bicycle-theft": 14, "burglary": 37, "criminal-damage-arson": 45, "drugs": 41, "other-theft": 87, "possession-of-weapons": 7, "public-order": 72, "robbery": 25, "shoplifting": 103, "theft-from-the-person": 66, "vehicle-crime": 43, "violent-crime": 273, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013716",
+  "neighbourhood_name": "Brockley",
+  "force_id": "metropolitan",
+  "lat": "51.4672",
+  "lng": "-0.0286812",
+  "population": 22638,
+  "total_crimes": 997,
+  "categories": {
+    "anti-social-behaviour": 172,
+    "bicycle-theft": 14,
+    "burglary": 37,
+    "criminal-damage-arson": 45,
+    "drugs": 41,
+    "other-theft": 87,
+    "possession-of-weapons": 7,
+    "public-order": 72,
+    "robbery": 25,
+    "shoplifting": 103,
+    "theft-from-the-person": 66,
+    "vehicle-crime": 43,
+    "violent-crime": 273,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

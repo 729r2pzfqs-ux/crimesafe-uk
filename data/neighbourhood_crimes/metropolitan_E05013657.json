@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013657", "neighbourhood_name": "Frognal", "force_id": "metropolitan", "lat": "51.5553", "lng": "-0.186411", "population": 12098, "total_crimes": 801, "categories": {"anti-social-behaviour": 153, "bicycle-theft": 7, "burglary": 47, "criminal-damage-arson": 31, "drugs": 26, "other-theft": 63, "possession-of-weapons": 4, "public-order": 48, "robbery": 34, "shoplifting": 59, "theft-from-the-person": 72, "vehicle-crime": 73, "violent-crime": 176, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013657",
+  "neighbourhood_name": "Frognal",
+  "force_id": "metropolitan",
+  "lat": "51.5553",
+  "lng": "-0.186411",
+  "population": 10344,
+  "total_crimes": 801,
+  "categories": {
+    "anti-social-behaviour": 153,
+    "bicycle-theft": 7,
+    "burglary": 47,
+    "criminal-damage-arson": 31,
+    "drugs": 26,
+    "other-theft": 63,
+    "possession-of-weapons": 4,
+    "public-order": 48,
+    "robbery": 34,
+    "shoplifting": 59,
+    "theft-from-the-person": 72,
+    "vehicle-crime": 73,
+    "violent-crime": 176,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

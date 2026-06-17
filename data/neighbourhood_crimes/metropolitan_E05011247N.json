@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011247N", "neighbourhood_name": "Loxford", "force_id": "metropolitan", "lat": "51.5505", "lng": "0.076744", "population": 12098, "total_crimes": 1254, "categories": {"anti-social-behaviour": 256, "bicycle-theft": 5, "burglary": 34, "criminal-damage-arson": 60, "drugs": 82, "other-theft": 97, "possession-of-weapons": 4, "public-order": 81, "robbery": 43, "shoplifting": 61, "theft-from-the-person": 110, "vehicle-crime": 85, "violent-crime": 321, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011247N",
+  "neighbourhood_name": "Loxford",
+  "force_id": "metropolitan",
+  "lat": "51.5505",
+  "lng": "0.076744",
+  "population": 13425,
+  "total_crimes": 1254,
+  "categories": {
+    "anti-social-behaviour": 256,
+    "bicycle-theft": 5,
+    "burglary": 34,
+    "criminal-damage-arson": 60,
+    "drugs": 82,
+    "other-theft": 97,
+    "possession-of-weapons": 4,
+    "public-order": 81,
+    "robbery": 43,
+    "shoplifting": 61,
+    "theft-from-the-person": 110,
+    "vehicle-crime": 85,
+    "violent-crime": 321,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 93.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

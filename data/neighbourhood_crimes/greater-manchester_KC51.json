@@ -1,1 +1,14 @@
-{"neighbourhood_id": "KC51", "neighbourhood_name": "Little Lever", "force_id": "greater-manchester", "lat": "53.5627", "lng": "-2.38542", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KC51",
+  "neighbourhood_name": "Little Lever",
+  "force_id": "greater-manchester",
+  "lat": "53.5627",
+  "lng": "-2.38542",
+  "population": 12179,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

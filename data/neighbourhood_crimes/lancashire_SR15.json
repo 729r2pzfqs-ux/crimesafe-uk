@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SR15", "neighbourhood_name": "Lostock Hall", "force_id": "lancashire", "lat": "53.7274", "lng": "-2.6845", "population": 12098, "total_crimes": 137, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 1, "burglary": 7, "criminal-damage-arson": 13, "drugs": 2, "other-theft": 10, "possession-of-weapons": 1, "public-order": 9, "robbery": 1, "shoplifting": 16, "vehicle-crime": 3, "violent-crime": 55, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SR15",
+  "neighbourhood_name": "Lostock Hall",
+  "force_id": "lancashire",
+  "lat": "53.7274",
+  "lng": "-2.6845",
+  "population": 7449,
+  "total_crimes": 137,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 1,
+    "burglary": 7,
+    "criminal-damage-arson": 13,
+    "drugs": 2,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "robbery": 1,
+    "shoplifting": 16,
+    "vehicle-crime": 3,
+    "violent-crime": 55,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

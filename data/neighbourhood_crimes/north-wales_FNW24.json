@@ -1,1 +1,20 @@
-{"neighbourhood_id": "FNW24", "neighbourhood_name": "Mancot", "force_id": "north-wales", "lat": "53.1896", "lng": "-3.00682", "population": 12098, "total_crimes": 25, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 1, "other-theft": 3, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW24",
+  "neighbourhood_name": "Mancot",
+  "force_id": "north-wales",
+  "lat": "53.1896",
+  "lng": "-3.00682",
+  "population": 3406,
+  "total_crimes": 25,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 1,
+    "other-theft": 3,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

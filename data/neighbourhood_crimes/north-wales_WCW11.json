@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WCW11", "neighbourhood_name": "Craig-y-Don", "force_id": "north-wales", "lat": "53.3168", "lng": "-3.7988", "population": 12098, "total_crimes": 80, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 3, "possession-of-weapons": 1, "public-order": 2, "shoplifting": 12, "violent-crime": 36, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WCW11",
+  "neighbourhood_name": "Craig-y-Don",
+  "force_id": "north-wales",
+  "lat": "53.3168",
+  "lng": "-3.7988",
+  "population": 3404,
+  "total_crimes": 80,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "shoplifting": 12,
+    "violent-crime": 36,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

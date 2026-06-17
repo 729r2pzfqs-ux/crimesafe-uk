@@ -1,1 +1,25 @@
-{"neighbourhood_id": "plymouth-penarth", "neighbourhood_name": "Plymouth (Penarth)", "force_id": "south-wales", "lat": "51.4248", "lng": "-3.1824", "population": 12098, "total_crimes": 52, "categories": {"anti-social-behaviour": 4, "bicycle-theft": 1, "burglary": 4, "criminal-damage-arson": 4, "other-theft": 3, "public-order": 3, "shoplifting": 8, "vehicle-crime": 4, "violent-crime": 19, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "plymouth-penarth",
+  "neighbourhood_name": "Plymouth (Penarth)",
+  "force_id": "south-wales",
+  "lat": "51.4248",
+  "lng": "-3.1824",
+  "population": 5825,
+  "total_crimes": 52,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "bicycle-theft": 1,
+    "burglary": 4,
+    "criminal-damage-arson": 4,
+    "other-theft": 3,
+    "public-order": 3,
+    "shoplifting": 8,
+    "vehicle-crime": 4,
+    "violent-crime": 19,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

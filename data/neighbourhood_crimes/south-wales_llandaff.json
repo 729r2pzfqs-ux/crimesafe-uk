@@ -1,1 +1,28 @@
-{"neighbourhood_id": "llandaff", "neighbourhood_name": "Llandaff", "force_id": "south-wales", "lat": "51.4979", "lng": "-3.22811", "population": 12098, "total_crimes": 221, "categories": {"anti-social-behaviour": 39, "bicycle-theft": 4, "burglary": 9, "criminal-damage-arson": 21, "drugs": 5, "other-theft": 4, "possession-of-weapons": 1, "public-order": 16, "robbery": 2, "shoplifting": 23, "vehicle-crime": 20, "violent-crime": 68, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "llandaff",
+  "neighbourhood_name": "Llandaff",
+  "force_id": "south-wales",
+  "lat": "51.4979",
+  "lng": "-3.22811",
+  "population": 8879,
+  "total_crimes": 221,
+  "categories": {
+    "anti-social-behaviour": 39,
+    "bicycle-theft": 4,
+    "burglary": 9,
+    "criminal-damage-arson": 21,
+    "drugs": 5,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 16,
+    "robbery": 2,
+    "shoplifting": 23,
+    "vehicle-crime": 20,
+    "violent-crime": 68,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

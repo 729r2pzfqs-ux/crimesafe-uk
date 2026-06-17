@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NE09", "neighbourhood_name": "Latimer", "force_id": "leicestershire", "lat": "52.6474", "lng": "-1.11783", "population": 12098, "total_crimes": 717, "categories": {"anti-social-behaviour": 106, "bicycle-theft": 10, "burglary": 13, "criminal-damage-arson": 49, "drugs": 25, "other-theft": 43, "possession-of-weapons": 17, "public-order": 78, "robbery": 8, "shoplifting": 81, "theft-from-the-person": 9, "vehicle-crime": 32, "violent-crime": 235, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE09",
+  "neighbourhood_name": "Latimer",
+  "force_id": "leicestershire",
+  "lat": "52.6474",
+  "lng": "-1.11783",
+  "population": 10921,
+  "total_crimes": 717,
+  "categories": {
+    "anti-social-behaviour": 106,
+    "bicycle-theft": 10,
+    "burglary": 13,
+    "criminal-damage-arson": 49,
+    "drugs": 25,
+    "other-theft": 43,
+    "possession-of-weapons": 17,
+    "public-order": 78,
+    "robbery": 8,
+    "shoplifting": 81,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 32,
+    "violent-crime": 235,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 65.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

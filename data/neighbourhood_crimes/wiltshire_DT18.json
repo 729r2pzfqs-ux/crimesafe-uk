@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DT18", "neighbourhood_name": "Swindon Town Centre", "force_id": "wiltshire", "lat": "51.5616", "lng": "-1.78486", "population": 12098, "total_crimes": 678, "categories": {"anti-social-behaviour": 139, "bicycle-theft": 6, "burglary": 17, "criminal-damage-arson": 48, "drugs": 18, "other-theft": 27, "possession-of-weapons": 7, "public-order": 61, "robbery": 5, "shoplifting": 83, "theft-from-the-person": 6, "vehicle-crime": 35, "violent-crime": 214, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DT18",
+  "neighbourhood_name": "Swindon Town Centre",
+  "force_id": "wiltshire",
+  "lat": "51.5616",
+  "lng": "-1.78486",
+  "population": 1811,
+  "total_crimes": 678,
+  "categories": {
+    "anti-social-behaviour": 139,
+    "bicycle-theft": 6,
+    "burglary": 17,
+    "criminal-damage-arson": 48,
+    "drugs": 18,
+    "other-theft": 27,
+    "possession-of-weapons": 7,
+    "public-order": 61,
+    "robbery": 5,
+    "shoplifting": 83,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 35,
+    "violent-crime": 214,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 374.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

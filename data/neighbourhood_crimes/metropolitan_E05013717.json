@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013717", "neighbourhood_name": "Catford South", "force_id": "metropolitan", "lat": "51.4342", "lng": "-0.0123494", "population": 16732, "total_crimes": 679, "categories": {"anti-social-behaviour": 119, "bicycle-theft": 4, "burglary": 26, "criminal-damage-arson": 32, "drugs": 34, "other-theft": 34, "possession-of-weapons": 8, "public-order": 41, "robbery": 23, "shoplifting": 102, "theft-from-the-person": 15, "vehicle-crime": 43, "violent-crime": 191, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013717",
+  "neighbourhood_name": "Catford South",
+  "force_id": "metropolitan",
+  "lat": "51.4342",
+  "lng": "-0.0123494",
+  "population": 16850,
+  "total_crimes": 679,
+  "categories": {
+    "anti-social-behaviour": 119,
+    "bicycle-theft": 4,
+    "burglary": 26,
+    "criminal-damage-arson": 32,
+    "drugs": 34,
+    "other-theft": 34,
+    "possession-of-weapons": 8,
+    "public-order": 41,
+    "robbery": 23,
+    "shoplifting": 102,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 43,
+    "violent-crime": 191,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

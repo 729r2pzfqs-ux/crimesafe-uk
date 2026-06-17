@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009336", "neighbourhood_name": "Whitechapel", "force_id": "metropolitan", "lat": "51.5141", "lng": "-0.0648335", "population": 12098, "total_crimes": 1968, "categories": {"anti-social-behaviour": 331, "bicycle-theft": 50, "burglary": 89, "criminal-damage-arson": 79, "drugs": 91, "other-theft": 252, "possession-of-weapons": 17, "public-order": 148, "robbery": 63, "shoplifting": 149, "theft-from-the-person": 199, "vehicle-crime": 73, "violent-crime": 415, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009336",
+  "neighbourhood_name": "Whitechapel",
+  "force_id": "metropolitan",
+  "lat": "51.5141",
+  "lng": "-0.0648335",
+  "population": 11504,
+  "total_crimes": 1968,
+  "categories": {
+    "anti-social-behaviour": 331,
+    "bicycle-theft": 50,
+    "burglary": 89,
+    "criminal-damage-arson": 79,
+    "drugs": 91,
+    "other-theft": 252,
+    "possession-of-weapons": 17,
+    "public-order": 148,
+    "robbery": 63,
+    "shoplifting": 149,
+    "theft-from-the-person": 199,
+    "vehicle-crime": 73,
+    "violent-crime": 415,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 171.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

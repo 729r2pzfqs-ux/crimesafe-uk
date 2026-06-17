@@ -1,1 +1,27 @@
-{"neighbourhood_id": "XA64", "neighbourhood_name": "Strood West", "force_id": "kent", "lat": "51.3914", "lng": "0.471188", "population": 12098, "total_crimes": 187, "categories": {"anti-social-behaviour": 29, "burglary": 7, "criminal-damage-arson": 13, "drugs": 6, "other-theft": 11, "possession-of-weapons": 1, "public-order": 6, "robbery": 2, "shoplifting": 12, "vehicle-crime": 22, "violent-crime": 72, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA64",
+  "neighbourhood_name": "Strood West",
+  "force_id": "kent",
+  "lat": "51.3914",
+  "lng": "0.471188",
+  "population": 16495,
+  "total_crimes": 187,
+  "categories": {
+    "anti-social-behaviour": 29,
+    "burglary": 7,
+    "criminal-damage-arson": 13,
+    "drugs": 6,
+    "other-theft": 11,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 12,
+    "vehicle-crime": 22,
+    "violent-crime": 72,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

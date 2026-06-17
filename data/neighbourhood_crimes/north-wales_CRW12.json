@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CRW12", "neighbourhood_name": "Llanbedr Dyffryn Clwyd/Llangynhafal", "force_id": "north-wales", "lat": "53.142", "lng": "-3.28288", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CRW12",
+  "neighbourhood_name": "Llanbedr Dyffryn Clwyd/Llangynhafal",
+  "force_id": "north-wales",
+  "lat": "53.142",
+  "lng": "-3.28288",
+  "population": 1463,
+  "total_crimes": 1,
+  "categories": {
+    "burglary": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

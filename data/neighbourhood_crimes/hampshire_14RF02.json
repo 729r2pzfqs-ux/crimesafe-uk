@@ -1,1 +1,25 @@
-{"neighbourhood_id": "14RF02", "neighbourhood_name": "Farnborough North", "force_id": "hampshire", "lat": "51.3111", "lng": "-0.771912", "population": 12098, "total_crimes": 119, "categories": {"anti-social-behaviour": 12, "burglary": 4, "criminal-damage-arson": 10, "other-theft": 8, "possession-of-weapons": 1, "public-order": 8, "shoplifting": 10, "vehicle-crime": 4, "violent-crime": 57, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "14RF02",
+  "neighbourhood_name": "Farnborough North",
+  "force_id": "hampshire",
+  "lat": "51.3111",
+  "lng": "-0.771912",
+  "population": 14183,
+  "total_crimes": 119,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 4,
+    "criminal-damage-arson": 10,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "shoplifting": 10,
+    "vehicle-crime": 4,
+    "violent-crime": 57,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

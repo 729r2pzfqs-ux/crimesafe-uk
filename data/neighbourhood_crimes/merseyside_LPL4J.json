@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL4J", "neighbourhood_name": "Mossley Hill", "force_id": "merseyside", "lat": "53.3714", "lng": "-2.91921", "population": 12098, "total_crimes": 174, "categories": {"anti-social-behaviour": 19, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 18, "drugs": 8, "other-theft": 4, "possession-of-weapons": 2, "public-order": 26, "robbery": 2, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 70, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4J",
+  "neighbourhood_name": "Mossley Hill",
+  "force_id": "merseyside",
+  "lat": "53.3714",
+  "lng": "-2.91921",
+  "population": 2493,
+  "total_crimes": 174,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 18,
+    "drugs": 8,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 26,
+    "robbery": 2,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 70,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 69.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

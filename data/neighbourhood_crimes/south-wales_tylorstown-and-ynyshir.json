@@ -1,1 +1,22 @@
-{"neighbourhood_id": "tylorstown-and-ynyshir", "neighbourhood_name": "Tylorstown and Ynyshir", "force_id": "south-wales", "lat": "51.6427", "lng": "-3.41978", "population": 12098, "total_crimes": 47, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 4, "drugs": 1, "public-order": 7, "vehicle-crime": 3, "violent-crime": 26, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "tylorstown-and-ynyshir",
+  "neighbourhood_name": "Tylorstown and Ynyshir",
+  "force_id": "south-wales",
+  "lat": "51.6427",
+  "lng": "-3.41978",
+  "population": 7762,
+  "total_crimes": 47,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "public-order": 7,
+    "vehicle-crime": 3,
+    "violent-crime": 26,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "EO11", "neighbourhood_name": "Wootton Bassett Town", "force_id": "wiltshire", "lat": "51.5471", "lng": "-1.90634", "population": 12098, "total_crimes": 71, "categories": {"anti-social-behaviour": 8, "criminal-damage-arson": 11, "other-theft": 6, "possession-of-weapons": 3, "public-order": 4, "shoplifting": 2, "violent-crime": 37}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EO11",
+  "neighbourhood_name": "Wootton Bassett Town",
+  "force_id": "wiltshire",
+  "lat": "51.5471",
+  "lng": "-1.90634",
+  "population": 13090,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "criminal-damage-arson": 11,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 4,
+    "shoplifting": 2,
+    "violent-crime": 37
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CIOS.4017", "neighbourhood_name": "Copperhouse &amp;amp; Gwinear", "force_id": "devon-and-cornwall", "lat": "50.2014", "lng": "-5.37655", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4017",
+  "neighbourhood_name": "Copperhouse &amp;amp; Gwinear",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.2014",
+  "lng": "-5.37655",
+  "population": 9137,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

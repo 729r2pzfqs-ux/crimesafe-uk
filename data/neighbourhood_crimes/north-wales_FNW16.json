@@ -1,1 +1,23 @@
-{"neighbourhood_id": "FNW16", "neighbourhood_name": "Connah's Quay Golftyn", "force_id": "north-wales", "lat": "53.2313", "lng": "-3.07518", "population": 12098, "total_crimes": 38, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 1, "drugs": 2, "other-theft": 1, "possession-of-weapons": 1, "shoplifting": 3, "violent-crime": 21, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW16",
+  "neighbourhood_name": "Connah's Quay Golftyn",
+  "force_id": "north-wales",
+  "lat": "53.2313",
+  "lng": "-3.07518",
+  "population": 5352,
+  "total_crimes": 38,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "shoplifting": 3,
+    "violent-crime": 21,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

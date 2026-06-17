@@ -1,1 +1,17 @@
-{"neighbourhood_id": "B11", "neighbourhood_name": "Dereham", "force_id": "norfolk", "lat": "52.7337", "lng": "0.886635", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B11",
+  "neighbourhood_name": "Dereham",
+  "force_id": "norfolk",
+  "lat": "52.7337",
+  "lng": "0.886635",
+  "population": 38189,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 20
+}

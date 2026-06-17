@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XC41", "neighbourhood_name": "Rosherville", "force_id": "kent", "lat": "51.4431", "lng": "0.349377", "population": 12098, "total_crimes": 300, "categories": {"anti-social-behaviour": 43, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 27, "drugs": 15, "other-theft": 33, "possession-of-weapons": 4, "public-order": 15, "robbery": 4, "shoplifting": 14, "theft-from-the-person": 6, "vehicle-crime": 11, "violent-crime": 112, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XC41",
+  "neighbourhood_name": "Rosherville",
+  "force_id": "kent",
+  "lat": "51.4431",
+  "lng": "0.349377",
+  "population": 4385,
+  "total_crimes": 300,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 27,
+    "drugs": 15,
+    "other-theft": 33,
+    "possession-of-weapons": 4,
+    "public-order": 15,
+    "robbery": 4,
+    "shoplifting": 14,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 11,
+    "violent-crime": 112,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 68.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

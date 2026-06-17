@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011472", "neighbourhood_name": "Norbury and Pollards Hill", "force_id": "metropolitan", "lat": "51.4058", "lng": "-0.121196", "population": 12098, "total_crimes": 600, "categories": {"anti-social-behaviour": 119, "bicycle-theft": 3, "burglary": 24, "criminal-damage-arson": 45, "drugs": 33, "other-theft": 33, "possession-of-weapons": 9, "public-order": 25, "robbery": 18, "shoplifting": 25, "theft-from-the-person": 6, "vehicle-crime": 61, "violent-crime": 188, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011472",
+  "neighbourhood_name": "Norbury and Pollards Hill",
+  "force_id": "metropolitan",
+  "lat": "51.4058",
+  "lng": "-0.121196",
+  "population": 14422,
+  "total_crimes": 600,
+  "categories": {
+    "anti-social-behaviour": 119,
+    "bicycle-theft": 3,
+    "burglary": 24,
+    "criminal-damage-arson": 45,
+    "drugs": 33,
+    "other-theft": 33,
+    "possession-of-weapons": 9,
+    "public-order": 25,
+    "robbery": 18,
+    "shoplifting": 25,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 61,
+    "violent-crime": 188,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "N415", "neighbourhood_name": "Buckingham and District", "force_id": "thames-valley", "lat": "51.9883", "lng": "-0.970133", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 3, "drugs": 1, "other-theft": 1, "public-order": 3, "robbery": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 14, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N415",
+  "neighbourhood_name": "Buckingham and District",
+  "force_id": "thames-valley",
+  "lat": "51.9883",
+  "lng": "-0.970133",
+  "population": 23262,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 14,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

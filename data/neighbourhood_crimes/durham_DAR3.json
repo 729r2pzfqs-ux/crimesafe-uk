@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DAR3", "neighbourhood_name": "Darlington (North Road)", "force_id": "durham", "lat": "54.5441", "lng": "-1.55383", "population": 12098, "total_crimes": 301, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 1, "burglary": 22, "criminal-damage-arson": 37, "drugs": 3, "other-theft": 14, "possession-of-weapons": 1, "public-order": 18, "robbery": 3, "shoplifting": 27, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 95, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DAR3",
+  "neighbourhood_name": "Darlington (North Road)",
+  "force_id": "durham",
+  "lat": "54.5441",
+  "lng": "-1.55383",
+  "population": 16645,
+  "total_crimes": 301,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 1,
+    "burglary": 22,
+    "criminal-damage-arson": 37,
+    "drugs": 3,
+    "other-theft": 14,
+    "possession-of-weapons": 1,
+    "public-order": 18,
+    "robbery": 3,
+    "shoplifting": 27,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 95,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

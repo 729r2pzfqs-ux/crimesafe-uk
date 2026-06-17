@@ -1,1 +1,24 @@
-{"neighbourhood_id": "55.DU3003", "neighbourhood_name": "Blandford", "force_id": "dorset", "lat": "50.8634", "lng": "-2.15782", "population": 12098, "total_crimes": 60, "categories": {"anti-social-behaviour": 14, "burglary": 3, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 5, "public-order": 1, "shoplifting": 4, "vehicle-crime": 4, "violent-crime": 25}, "date": "2026-03"}
+{
+  "neighbourhood_id": "55.DU3003",
+  "neighbourhood_name": "Blandford",
+  "force_id": "dorset",
+  "lat": "50.8634",
+  "lng": "-2.15782",
+  "population": 10348,
+  "total_crimes": 60,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 3,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 4,
+    "violent-crime": 25
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

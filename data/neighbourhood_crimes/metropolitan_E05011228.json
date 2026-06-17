@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011228", "neighbourhood_name": "Northumberland Heath", "force_id": "metropolitan", "lat": "51.4758", "lng": "0.159937", "population": 12098, "total_crimes": 357, "categories": {"anti-social-behaviour": 64, "bicycle-theft": 3, "burglary": 20, "criminal-damage-arson": 31, "drugs": 16, "other-theft": 30, "public-order": 26, "robbery": 2, "shoplifting": 14, "theft-from-the-person": 7, "vehicle-crime": 27, "violent-crime": 109, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011228",
+  "neighbourhood_name": "Northumberland Heath",
+  "force_id": "metropolitan",
+  "lat": "51.4758",
+  "lng": "0.159937",
+  "population": 10844,
+  "total_crimes": 357,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "bicycle-theft": 3,
+    "burglary": 20,
+    "criminal-damage-arson": 31,
+    "drugs": 16,
+    "other-theft": 30,
+    "public-order": 26,
+    "robbery": 2,
+    "shoplifting": 14,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 27,
+    "violent-crime": 109,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

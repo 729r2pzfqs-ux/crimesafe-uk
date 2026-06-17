@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WR4NH12", "neighbourhood_name": "Bewbush", "force_id": "sussex", "lat": "51.1049", "lng": "-0.21965", "population": 12098, "total_crimes": 218, "categories": {"anti-social-behaviour": 54, "burglary": 5, "criminal-damage-arson": 19, "drugs": 7, "other-theft": 11, "possession-of-weapons": 4, "public-order": 10, "robbery": 1, "shoplifting": 18, "theft-from-the-person": 1, "vehicle-crime": 10, "violent-crime": 68, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WR4NH12",
+  "neighbourhood_name": "Bewbush",
+  "force_id": "sussex",
+  "lat": "51.1049",
+  "lng": "-0.21965",
+  "population": 8964,
+  "total_crimes": 218,
+  "categories": {
+    "anti-social-behaviour": 54,
+    "burglary": 5,
+    "criminal-damage-arson": 19,
+    "drugs": 7,
+    "other-theft": 11,
+    "possession-of-weapons": 4,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 18,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 10,
+    "violent-crime": 68,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 24.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

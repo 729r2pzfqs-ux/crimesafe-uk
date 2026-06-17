@@ -1,1 +1,28 @@
-{"neighbourhood_id": "bryncoch-south", "neighbourhood_name": "Bryn-coch South", "force_id": "south-wales", "lat": "51.6689", "lng": "-3.81361", "population": 12098, "total_crimes": 140, "categories": {"anti-social-behaviour": 15, "bicycle-theft": 2, "criminal-damage-arson": 6, "drugs": 5, "other-theft": 8, "possession-of-weapons": 1, "public-order": 16, "robbery": 1, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 61, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "bryncoch-south",
+  "neighbourhood_name": "Bryn-coch South",
+  "force_id": "south-wales",
+  "lat": "51.6689",
+  "lng": "-3.81361",
+  "population": 3294,
+  "total_crimes": 140,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "bicycle-theft": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 5,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 16,
+    "robbery": 1,
+    "shoplifting": 16,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 61,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

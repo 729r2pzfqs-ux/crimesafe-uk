@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013585", "neighbourhood_name": "Alexandra Park", "force_id": "metropolitan", "lat": "51.5991", "lng": "-0.129982", "population": 9792, "total_crimes": 669, "categories": {"anti-social-behaviour": 121, "bicycle-theft": 5, "burglary": 23, "criminal-damage-arson": 32, "drugs": 39, "other-theft": 48, "possession-of-weapons": 3, "public-order": 56, "robbery": 21, "shoplifting": 79, "theft-from-the-person": 32, "vehicle-crime": 45, "violent-crime": 159, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013585",
+  "neighbourhood_name": "Alexandra Park",
+  "force_id": "metropolitan",
+  "lat": "51.5991",
+  "lng": "-0.129982",
+  "population": 9632,
+  "total_crimes": 669,
+  "categories": {
+    "anti-social-behaviour": 121,
+    "bicycle-theft": 5,
+    "burglary": 23,
+    "criminal-damage-arson": 32,
+    "drugs": 39,
+    "other-theft": 48,
+    "possession-of-weapons": 3,
+    "public-order": 56,
+    "robbery": 21,
+    "shoplifting": 79,
+    "theft-from-the-person": 32,
+    "vehicle-crime": 45,
+    "violent-crime": 159,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 69.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

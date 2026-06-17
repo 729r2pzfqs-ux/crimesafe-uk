@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014077", "neighbourhood_name": "Eltham Page", "force_id": "metropolitan", "lat": "51.4587", "lng": "0.0407691", "population": 8868, "total_crimes": 403, "categories": {"anti-social-behaviour": 74, "bicycle-theft": 5, "burglary": 16, "criminal-damage-arson": 28, "drugs": 13, "other-theft": 28, "possession-of-weapons": 1, "public-order": 36, "robbery": 8, "shoplifting": 47, "theft-from-the-person": 5, "vehicle-crime": 20, "violent-crime": 111, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014077",
+  "neighbourhood_name": "Eltham Page",
+  "force_id": "metropolitan",
+  "lat": "51.4587",
+  "lng": "0.0407691",
+  "population": 6701,
+  "total_crimes": 403,
+  "categories": {
+    "anti-social-behaviour": 74,
+    "bicycle-theft": 5,
+    "burglary": 16,
+    "criminal-damage-arson": 28,
+    "drugs": 13,
+    "other-theft": 28,
+    "possession-of-weapons": 1,
+    "public-order": 36,
+    "robbery": 8,
+    "shoplifting": 47,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 20,
+    "violent-crime": 111,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 60.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

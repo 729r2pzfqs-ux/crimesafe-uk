@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013713", "neighbourhood_name": "Tufnell Park", "force_id": "metropolitan", "lat": "51.5555", "lng": "-0.128925", "population": 12098, "total_crimes": 1577, "categories": {"anti-social-behaviour": 393, "bicycle-theft": 23, "burglary": 46, "criminal-damage-arson": 82, "drugs": 69, "other-theft": 95, "possession-of-weapons": 11, "public-order": 107, "robbery": 44, "shoplifting": 107, "theft-from-the-person": 96, "vehicle-crime": 86, "violent-crime": 408, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013713",
+  "neighbourhood_name": "Tufnell Park",
+  "force_id": "metropolitan",
+  "lat": "51.5555",
+  "lng": "-0.128925",
+  "population": 13057,
+  "total_crimes": 1577,
+  "categories": {
+    "anti-social-behaviour": 393,
+    "bicycle-theft": 23,
+    "burglary": 46,
+    "criminal-damage-arson": 82,
+    "drugs": 69,
+    "other-theft": 95,
+    "possession-of-weapons": 11,
+    "public-order": 107,
+    "robbery": 44,
+    "shoplifting": 107,
+    "theft-from-the-person": 96,
+    "vehicle-crime": 86,
+    "violent-crime": 408,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 120.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

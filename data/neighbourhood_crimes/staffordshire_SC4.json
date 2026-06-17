@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SC4", "neighbourhood_name": "Bradeley &amp; Chell Heath", "force_id": "staffordshire", "lat": "53.0638", "lng": "-2.18218", "population": 12098, "total_crimes": 286, "categories": {"anti-social-behaviour": 68, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 32, "drugs": 6, "other-theft": 14, "possession-of-weapons": 2, "public-order": 21, "robbery": 2, "shoplifting": 5, "vehicle-crime": 15, "violent-crime": 103, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC4",
+  "neighbourhood_name": "Bradeley &amp; Chell Heath",
+  "force_id": "staffordshire",
+  "lat": "53.0638",
+  "lng": "-2.18218",
+  "population": 7323,
+  "total_crimes": 286,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 32,
+    "drugs": 6,
+    "other-theft": 14,
+    "possession-of-weapons": 2,
+    "public-order": 21,
+    "robbery": 2,
+    "shoplifting": 5,
+    "vehicle-crime": 15,
+    "violent-crime": 103,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 39.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

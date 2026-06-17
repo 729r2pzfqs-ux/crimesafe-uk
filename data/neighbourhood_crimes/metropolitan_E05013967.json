@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013967", "neighbourhood_name": "Beam Park", "force_id": "metropolitan", "lat": "51.5229", "lng": "0.179625", "population": 12098, "total_crimes": 297, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 2, "burglary": 16, "criminal-damage-arson": 25, "drugs": 8, "other-theft": 10, "public-order": 13, "robbery": 17, "shoplifting": 37, "theft-from-the-person": 3, "vehicle-crime": 30, "violent-crime": 72, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013967",
+  "neighbourhood_name": "Beam Park",
+  "force_id": "metropolitan",
+  "lat": "51.5229",
+  "lng": "0.179625",
+  "population": 6414,
+  "total_crimes": 297,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 2,
+    "burglary": 16,
+    "criminal-damage-arson": 25,
+    "drugs": 8,
+    "other-theft": 10,
+    "public-order": 13,
+    "robbery": 17,
+    "shoplifting": 37,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 30,
+    "violent-crime": 72,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 46.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

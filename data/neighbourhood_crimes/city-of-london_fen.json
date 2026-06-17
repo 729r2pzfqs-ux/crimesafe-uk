@@ -1,1 +1,29 @@
-{"neighbourhood_id": "fen", "neighbourhood_name": "Fenchurch Street", "force_id": "city-of-london", "lat": "51.5117", "lng": "-0.0775046", "population": "0", "total_crimes": 2312, "categories": {"anti-social-behaviour": 290, "bicycle-theft": 56, "burglary": 114, "criminal-damage-arson": 80, "drugs": 101, "other-theft": 377, "possession-of-weapons": 11, "public-order": 159, "robbery": 86, "shoplifting": 221, "theft-from-the-person": 371, "vehicle-crime": 68, "violent-crime": 363, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "fen",
+  "neighbourhood_name": "Fenchurch Street",
+  "force_id": "city-of-london",
+  "lat": "51.5117",
+  "lng": "-0.0775046",
+  "population": 2181,
+  "total_crimes": 2312,
+  "categories": {
+    "anti-social-behaviour": 290,
+    "bicycle-theft": 56,
+    "burglary": 114,
+    "criminal-damage-arson": 80,
+    "drugs": 101,
+    "other-theft": 377,
+    "possession-of-weapons": 11,
+    "public-order": 159,
+    "robbery": 86,
+    "shoplifting": 221,
+    "theft-from-the-person": 371,
+    "vehicle-crime": 68,
+    "violent-crime": 363,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1060.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

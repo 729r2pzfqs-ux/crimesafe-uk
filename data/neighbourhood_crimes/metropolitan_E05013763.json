@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013763", "neighbourhood_name": "South Beddington and Roundshaw", "force_id": "metropolitan", "lat": "51.3513", "lng": "-0.133115", "population": 12098, "total_crimes": 233, "categories": {"anti-social-behaviour": 46, "bicycle-theft": 1, "burglary": 9, "criminal-damage-arson": 10, "drugs": 5, "other-theft": 13, "public-order": 20, "shoplifting": 33, "theft-from-the-person": 4, "vehicle-crime": 17, "violent-crime": 72, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013763",
+  "neighbourhood_name": "South Beddington and Roundshaw",
+  "force_id": "metropolitan",
+  "lat": "51.3513",
+  "lng": "-0.133115",
+  "population": 11264,
+  "total_crimes": 233,
+  "categories": {
+    "anti-social-behaviour": 46,
+    "bicycle-theft": 1,
+    "burglary": 9,
+    "criminal-damage-arson": 10,
+    "drugs": 5,
+    "other-theft": 13,
+    "public-order": 20,
+    "shoplifting": 33,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 17,
+    "violent-crime": 72,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

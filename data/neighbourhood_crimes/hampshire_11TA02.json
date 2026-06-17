@@ -1,1 +1,16 @@
-{"neighbourhood_id": "11TA02", "neighbourhood_name": "Andover North", "force_id": "hampshire", "lat": "51.2621", "lng": "-1.55542", "population": 12098, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "11TA02",
+  "neighbourhood_name": "Andover North",
+  "force_id": "hampshire",
+  "lat": "51.2621",
+  "lng": "-1.55542",
+  "population": 8580,
+  "total_crimes": 1,
+  "categories": {
+    "burglary": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

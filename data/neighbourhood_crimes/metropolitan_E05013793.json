@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013793", "neighbourhood_name": "Bayswater", "force_id": "metropolitan", "lat": "51.5152", "lng": "-0.191001", "population": 12098, "total_crimes": 1663, "categories": {"anti-social-behaviour": 367, "bicycle-theft": 33, "burglary": 76, "criminal-damage-arson": 68, "drugs": 61, "other-theft": 228, "possession-of-weapons": 6, "public-order": 65, "robbery": 33, "shoplifting": 141, "theft-from-the-person": 146, "vehicle-crime": 85, "violent-crime": 336, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013793",
+  "neighbourhood_name": "Bayswater",
+  "force_id": "metropolitan",
+  "lat": "51.5152",
+  "lng": "-0.191001",
+  "population": 14139,
+  "total_crimes": 1663,
+  "categories": {
+    "anti-social-behaviour": 367,
+    "bicycle-theft": 33,
+    "burglary": 76,
+    "criminal-damage-arson": 68,
+    "drugs": 61,
+    "other-theft": 228,
+    "possession-of-weapons": 6,
+    "public-order": 65,
+    "robbery": 33,
+    "shoplifting": 141,
+    "theft-from-the-person": 146,
+    "vehicle-crime": 85,
+    "violent-crime": 336,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 117.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

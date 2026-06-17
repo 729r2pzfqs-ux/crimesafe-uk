@@ -1,1 +1,23 @@
-{"neighbourhood_id": "PLY.4006", "neighbourhood_name": "Plymstock", "force_id": "devon-and-cornwall", "lat": "50.3704", "lng": "-4.0884", "population": 12098, "total_crimes": 56, "categories": {"anti-social-behaviour": 7, "criminal-damage-arson": 7, "other-theft": 5, "public-order": 1, "shoplifting": 6, "vehicle-crime": 3, "violent-crime": 24, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4006",
+  "neighbourhood_name": "Plymstock",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3704",
+  "lng": "-4.0884",
+  "population": 5910,
+  "total_crimes": 56,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "criminal-damage-arson": 7,
+    "other-theft": 5,
+    "public-order": 1,
+    "shoplifting": 6,
+    "vehicle-crime": 3,
+    "violent-crime": 24,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

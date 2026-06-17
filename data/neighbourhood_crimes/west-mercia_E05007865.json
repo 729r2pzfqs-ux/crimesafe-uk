@@ -1,1 +1,21 @@
-{"neighbourhood_id": "E05007865", "neighbourhood_name": "Chase and Priory", "force_id": "west-mercia", "lat": "52.0845", "lng": "-2.31533", "population": 12098, "total_crimes": 9, "categories": {"anti-social-behaviour": 2, "burglary": 2, "criminal-damage-arson": 1, "other-theft": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007865",
+  "neighbourhood_name": "Chase and Priory",
+  "force_id": "west-mercia",
+  "lat": "52.0845",
+  "lng": "-2.31533",
+  "population": 13901,
+  "total_crimes": 9,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "violent-crime": 2,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,27 @@
-{"neighbourhood_id": "EH1NH6", "neighbourhood_name": "Silverhill", "force_id": "sussex", "lat": "50.87", "lng": "0.560651", "population": 12098, "total_crimes": 344, "categories": {"anti-social-behaviour": 40, "burglary": 8, "criminal-damage-arson": 27, "drugs": 10, "other-theft": 16, "possession-of-weapons": 11, "public-order": 22, "robbery": 3, "shoplifting": 89, "vehicle-crime": 19, "violent-crime": 93, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EH1NH6",
+  "neighbourhood_name": "Silverhill",
+  "force_id": "sussex",
+  "lat": "50.87",
+  "lng": "0.560651",
+  "population": 4899,
+  "total_crimes": 344,
+  "categories": {
+    "anti-social-behaviour": 40,
+    "burglary": 8,
+    "criminal-damage-arson": 27,
+    "drugs": 10,
+    "other-theft": 16,
+    "possession-of-weapons": 11,
+    "public-order": 22,
+    "robbery": 3,
+    "shoplifting": 89,
+    "vehicle-crime": 19,
+    "violent-crime": 93,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 70.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

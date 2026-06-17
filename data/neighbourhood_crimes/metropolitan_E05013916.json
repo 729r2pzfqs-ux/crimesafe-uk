@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013916", "neighbourhood_name": "Manor Park", "force_id": "metropolitan", "lat": "51.5499", "lng": "0.0463772", "population": 17128, "total_crimes": 1012, "categories": {"anti-social-behaviour": 196, "bicycle-theft": 9, "burglary": 26, "criminal-damage-arson": 56, "drugs": 43, "other-theft": 73, "possession-of-weapons": 4, "public-order": 52, "robbery": 39, "shoplifting": 51, "theft-from-the-person": 128, "vehicle-crime": 75, "violent-crime": 255, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013916",
+  "neighbourhood_name": "Manor Park",
+  "force_id": "metropolitan",
+  "lat": "51.5499",
+  "lng": "0.0463772",
+  "population": 17372,
+  "total_crimes": 1012,
+  "categories": {
+    "anti-social-behaviour": 196,
+    "bicycle-theft": 9,
+    "burglary": 26,
+    "criminal-damage-arson": 56,
+    "drugs": 43,
+    "other-theft": 73,
+    "possession-of-weapons": 4,
+    "public-order": 52,
+    "robbery": 39,
+    "shoplifting": 51,
+    "theft-from-the-person": 128,
+    "vehicle-crime": 75,
+    "violent-crime": 255,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WB102", "neighbourhood_name": "Netteswell", "force_id": "essex", "lat": "51.774", "lng": "0.0848743", "population": 12098, "total_crimes": 275, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 6, "burglary": 6, "criminal-damage-arson": 21, "drugs": 24, "other-theft": 19, "possession-of-weapons": 7, "public-order": 24, "robbery": 3, "shoplifting": 31, "theft-from-the-person": 3, "vehicle-crime": 13, "violent-crime": 99, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WB102",
+  "neighbourhood_name": "Netteswell",
+  "force_id": "essex",
+  "lat": "51.774",
+  "lng": "0.0848743",
+  "population": 17421,
+  "total_crimes": 275,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 6,
+    "burglary": 6,
+    "criminal-damage-arson": 21,
+    "drugs": 24,
+    "other-theft": 19,
+    "possession-of-weapons": 7,
+    "public-order": 24,
+    "robbery": 3,
+    "shoplifting": 31,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 13,
+    "violent-crime": 99,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

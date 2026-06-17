@@ -1,1 +1,27 @@
-{"neighbourhood_id": "nw", "neighbourhood_name": "Nuneaton West", "force_id": "warwickshire", "lat": "52.5213", "lng": "-1.51384", "population": 12098, "total_crimes": 248, "categories": {"anti-social-behaviour": 42, "burglary": 12, "criminal-damage-arson": 21, "drugs": 1, "other-theft": 10, "possession-of-weapons": 5, "public-order": 11, "robbery": 2, "shoplifting": 27, "vehicle-crime": 15, "violent-crime": 97, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "nw",
+  "neighbourhood_name": "Nuneaton West",
+  "force_id": "warwickshire",
+  "lat": "52.5213",
+  "lng": "-1.51384",
+  "population": 14519,
+  "total_crimes": 248,
+  "categories": {
+    "anti-social-behaviour": 42,
+    "burglary": 12,
+    "criminal-damage-arson": 21,
+    "drugs": 1,
+    "other-theft": 10,
+    "possession-of-weapons": 5,
+    "public-order": 11,
+    "robbery": 2,
+    "shoplifting": 27,
+    "vehicle-crime": 15,
+    "violent-crime": 97,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BW022", "neighbourhood_name": "Jewellery Quarter", "force_id": "west-midlands", "lat": "52.4863", "lng": "-1.91133", "population": 12098, "total_crimes": 1525, "categories": {"anti-social-behaviour": 59, "bicycle-theft": 8, "burglary": 35, "criminal-damage-arson": 90, "drugs": 64, "other-theft": 123, "possession-of-weapons": 31, "public-order": 111, "robbery": 42, "shoplifting": 186, "theft-from-the-person": 40, "vehicle-crime": 88, "violent-crime": 630, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW022",
+  "neighbourhood_name": "Jewellery Quarter",
+  "force_id": "west-midlands",
+  "lat": "52.4863",
+  "lng": "-1.91133",
+  "population": 11671,
+  "total_crimes": 1525,
+  "categories": {
+    "anti-social-behaviour": 59,
+    "bicycle-theft": 8,
+    "burglary": 35,
+    "criminal-damage-arson": 90,
+    "drugs": 64,
+    "other-theft": 123,
+    "possession-of-weapons": 31,
+    "public-order": 111,
+    "robbery": 42,
+    "shoplifting": 186,
+    "theft-from-the-person": 40,
+    "vehicle-crime": 88,
+    "violent-crime": 630,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 130.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

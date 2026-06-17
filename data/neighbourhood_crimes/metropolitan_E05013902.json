@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013902", "neighbourhood_name": "William Morris", "force_id": "metropolitan", "lat": "51.5902", "lng": "-0.0289165", "population": 12098, "total_crimes": 744, "categories": {"anti-social-behaviour": 136, "bicycle-theft": 9, "burglary": 46, "criminal-damage-arson": 31, "drugs": 22, "other-theft": 61, "possession-of-weapons": 7, "public-order": 41, "robbery": 27, "shoplifting": 50, "theft-from-the-person": 60, "vehicle-crime": 53, "violent-crime": 190, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013902",
+  "neighbourhood_name": "William Morris",
+  "force_id": "metropolitan",
+  "lat": "51.5902",
+  "lng": "-0.0289165",
+  "population": 11513,
+  "total_crimes": 744,
+  "categories": {
+    "anti-social-behaviour": 136,
+    "bicycle-theft": 9,
+    "burglary": 46,
+    "criminal-damage-arson": 31,
+    "drugs": 22,
+    "other-theft": 61,
+    "possession-of-weapons": 7,
+    "public-order": 41,
+    "robbery": 27,
+    "shoplifting": 50,
+    "theft-from-the-person": 60,
+    "vehicle-crime": 53,
+    "violent-crime": 190,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 64.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,21 @@
-{"neighbourhood_id": "BD05", "neighbourhood_name": "Nantwich South and Stapeley", "force_id": "cheshire", "lat": "53.0518", "lng": "-2.49889", "population": "0", "total_crimes": 20, "categories": {"anti-social-behaviour": 1, "burglary": 1, "other-theft": 1, "public-order": 1, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD05",
+  "neighbourhood_name": "Nantwich South and Stapeley",
+  "force_id": "cheshire",
+  "lat": "53.0518",
+  "lng": "-2.49889",
+  "population": 9574,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

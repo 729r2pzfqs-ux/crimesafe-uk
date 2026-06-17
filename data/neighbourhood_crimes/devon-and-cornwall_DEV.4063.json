@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DEV.4063", "neighbourhood_name": "St Loyes", "force_id": "devon-and-cornwall", "lat": "50.7179", "lng": "-3.48026", "population": 12098, "total_crimes": 193, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 2, "burglary": 4, "criminal-damage-arson": 16, "drugs": 10, "other-theft": 11, "possession-of-weapons": 4, "public-order": 20, "shoplifting": 7, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 76, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4063",
+  "neighbourhood_name": "St Loyes",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.7179",
+  "lng": "-3.48026",
+  "population": 6930,
+  "total_crimes": 193,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 2,
+    "burglary": 4,
+    "criminal-damage-arson": 16,
+    "drugs": 10,
+    "other-theft": 11,
+    "possession-of-weapons": 4,
+    "public-order": 20,
+    "shoplifting": 7,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 76,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

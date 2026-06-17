@@ -1,1 +1,28 @@
-{"neighbourhood_id": "55.CP3001", "neighbourhood_name": "Poole South", "force_id": "dorset", "lat": "50.7104", "lng": "-1.97164", "population": 12098, "total_crimes": 168, "categories": {"anti-social-behaviour": 54, "bicycle-theft": 7, "burglary": 5, "criminal-damage-arson": 10, "drugs": 8, "other-theft": 5, "possession-of-weapons": 3, "public-order": 7, "robbery": 1, "shoplifting": 7, "vehicle-crime": 5, "violent-crime": 54, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "55.CP3001",
+  "neighbourhood_name": "Poole South",
+  "force_id": "dorset",
+  "lat": "50.7104",
+  "lng": "-1.97164",
+  "population": 64619,
+  "total_crimes": 168,
+  "categories": {
+    "anti-social-behaviour": 54,
+    "bicycle-theft": 7,
+    "burglary": 5,
+    "criminal-damage-arson": 10,
+    "drugs": 8,
+    "other-theft": 5,
+    "possession-of-weapons": 3,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 7,
+    "vehicle-crime": 5,
+    "violent-crime": 54,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 38
+}

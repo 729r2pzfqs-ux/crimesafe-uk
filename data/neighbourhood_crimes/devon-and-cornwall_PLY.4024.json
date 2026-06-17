@@ -1,1 +1,28 @@
-{"neighbourhood_id": "PLY.4024", "neighbourhood_name": "Southway", "force_id": "devon-and-cornwall", "lat": "50.4286", "lng": "-4.13442", "population": 12098, "total_crimes": 119, "categories": {"anti-social-behaviour": 4, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 12, "drugs": 4, "other-theft": 6, "possession-of-weapons": 3, "public-order": 6, "robbery": 3, "shoplifting": 9, "vehicle-crime": 2, "violent-crime": 63, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4024",
+  "neighbourhood_name": "Southway",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4286",
+  "lng": "-4.13442",
+  "population": 8660,
+  "total_crimes": 119,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 12,
+    "drugs": 4,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 6,
+    "robbery": 3,
+    "shoplifting": 9,
+    "vehicle-crime": 2,
+    "violent-crime": 63,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

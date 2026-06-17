@@ -1,1 +1,28 @@
-{"neighbourhood_id": "DE23", "neighbourhood_name": "Nythe", "force_id": "wiltshire", "lat": "51.5647", "lng": "-1.7407", "population": 12098, "total_crimes": 215, "categories": {"anti-social-behaviour": 38, "burglary": 6, "criminal-damage-arson": 14, "drugs": 7, "other-theft": 11, "possession-of-weapons": 4, "public-order": 17, "robbery": 4, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 92, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DE23",
+  "neighbourhood_name": "Nythe",
+  "force_id": "wiltshire",
+  "lat": "51.5647",
+  "lng": "-1.7407",
+  "population": 2726,
+  "total_crimes": 215,
+  "categories": {
+    "anti-social-behaviour": 38,
+    "burglary": 6,
+    "criminal-damage-arson": 14,
+    "drugs": 7,
+    "other-theft": 11,
+    "possession-of-weapons": 4,
+    "public-order": 17,
+    "robbery": 4,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 92,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 78.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

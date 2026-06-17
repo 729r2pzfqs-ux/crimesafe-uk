@@ -1,1 +1,27 @@
-{"neighbourhood_id": "IB09", "neighbourhood_name": "Grange - Ellesmere Port", "force_id": "cheshire", "lat": "53.2791", "lng": "-2.9144", "population": "0", "total_crimes": 305, "categories": {"anti-social-behaviour": 28, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 16, "drugs": 20, "other-theft": 15, "possession-of-weapons": 1, "public-order": 35, "shoplifting": 13, "vehicle-crime": 11, "violent-crime": 154, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "IB09",
+  "neighbourhood_name": "Grange - Ellesmere Port",
+  "force_id": "cheshire",
+  "lat": "53.2791",
+  "lng": "-2.9144",
+  "population": 5548,
+  "total_crimes": 305,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 16,
+    "drugs": 20,
+    "other-theft": 15,
+    "possession-of-weapons": 1,
+    "public-order": 35,
+    "shoplifting": 13,
+    "vehicle-crime": 11,
+    "violent-crime": 154,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

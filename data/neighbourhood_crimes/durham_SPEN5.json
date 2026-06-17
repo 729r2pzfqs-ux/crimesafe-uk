@@ -1,1 +1,25 @@
-{"neighbourhood_id": "SPEN5", "neighbourhood_name": "Spennymoor (Ferryhill Town/Dean Bank)", "force_id": "durham", "lat": "54.6857", "lng": "-1.55793", "population": 12098, "total_crimes": 127, "categories": {"anti-social-behaviour": 15, "burglary": 5, "criminal-damage-arson": 20, "drugs": 4, "other-theft": 8, "public-order": 6, "shoplifting": 6, "vehicle-crime": 4, "violent-crime": 54, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SPEN5",
+  "neighbourhood_name": "Spennymoor (Ferryhill Town/Dean Bank)",
+  "force_id": "durham",
+  "lat": "54.6857",
+  "lng": "-1.55793",
+  "population": 3964,
+  "total_crimes": 127,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 5,
+    "criminal-damage-arson": 20,
+    "drugs": 4,
+    "other-theft": 8,
+    "public-order": 6,
+    "shoplifting": 6,
+    "vehicle-crime": 4,
+    "violent-crime": 54,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

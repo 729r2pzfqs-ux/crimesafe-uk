@@ -1,1 +1,14 @@
-{"neighbourhood_id": "ND01", "neighbourhood_name": "Hathersage", "force_id": "derbyshire", "lat": "53.3243", "lng": "-1.69654", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ND01",
+  "neighbourhood_name": "Hathersage",
+  "force_id": "derbyshire",
+  "lat": "53.3243",
+  "lng": "-1.69654",
+  "population": 7313,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

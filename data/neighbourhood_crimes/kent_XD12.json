@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XD12", "neighbourhood_name": "West Hill", "force_id": "kent", "lat": "51.4454", "lng": "0.202385", "population": 12098, "total_crimes": 346, "categories": {"anti-social-behaviour": 68, "bicycle-theft": 4, "burglary": 9, "criminal-damage-arson": 23, "drugs": 18, "other-theft": 25, "possession-of-weapons": 6, "public-order": 14, "robbery": 3, "shoplifting": 59, "theft-from-the-person": 3, "vehicle-crime": 10, "violent-crime": 93, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD12",
+  "neighbourhood_name": "West Hill",
+  "force_id": "kent",
+  "lat": "51.4454",
+  "lng": "0.202385",
+  "population": 7176,
+  "total_crimes": 346,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "bicycle-theft": 4,
+    "burglary": 9,
+    "criminal-damage-arson": 23,
+    "drugs": 18,
+    "other-theft": 25,
+    "possession-of-weapons": 6,
+    "public-order": 14,
+    "robbery": 3,
+    "shoplifting": 59,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 10,
+    "violent-crime": 93,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 48.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

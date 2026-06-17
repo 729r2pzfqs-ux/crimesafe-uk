@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014016", "neighbourhood_name": "Northcote", "force_id": "metropolitan", "lat": "51.4542", "lng": "-0.160338", "population": 12098, "total_crimes": 746, "categories": {"anti-social-behaviour": 157, "bicycle-theft": 25, "burglary": 33, "criminal-damage-arson": 26, "drugs": 20, "other-theft": 57, "possession-of-weapons": 2, "public-order": 40, "robbery": 23, "shoplifting": 86, "theft-from-the-person": 41, "vehicle-crime": 64, "violent-crime": 160, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014016",
+  "neighbourhood_name": "Northcote",
+  "force_id": "metropolitan",
+  "lat": "51.4542",
+  "lng": "-0.160338",
+  "population": 14083,
+  "total_crimes": 746,
+  "categories": {
+    "anti-social-behaviour": 157,
+    "bicycle-theft": 25,
+    "burglary": 33,
+    "criminal-damage-arson": 26,
+    "drugs": 20,
+    "other-theft": 57,
+    "possession-of-weapons": 2,
+    "public-order": 40,
+    "robbery": 23,
+    "shoplifting": 86,
+    "theft-from-the-person": 41,
+    "vehicle-crime": 64,
+    "violent-crime": 160,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 53.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

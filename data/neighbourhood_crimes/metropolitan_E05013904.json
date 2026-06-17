@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013904", "neighbourhood_name": "Beckton", "force_id": "metropolitan", "lat": "51.517", "lng": "0.0703246", "population": 15851, "total_crimes": 365, "categories": {"anti-social-behaviour": 50, "bicycle-theft": 2, "burglary": 15, "criminal-damage-arson": 14, "drugs": 19, "other-theft": 25, "possession-of-weapons": 2, "public-order": 22, "robbery": 14, "shoplifting": 36, "theft-from-the-person": 19, "vehicle-crime": 42, "violent-crime": 99, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013904",
+  "neighbourhood_name": "Beckton",
+  "force_id": "metropolitan",
+  "lat": "51.517",
+  "lng": "0.0703246",
+  "population": 14259,
+  "total_crimes": 365,
+  "categories": {
+    "anti-social-behaviour": 50,
+    "bicycle-theft": 2,
+    "burglary": 15,
+    "criminal-damage-arson": 14,
+    "drugs": 19,
+    "other-theft": 25,
+    "possession-of-weapons": 2,
+    "public-order": 22,
+    "robbery": 14,
+    "shoplifting": 36,
+    "theft-from-the-person": 19,
+    "vehicle-crime": 42,
+    "violent-crime": 99,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

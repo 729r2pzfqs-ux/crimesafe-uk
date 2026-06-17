@@ -1,1 +1,18 @@
-{"neighbourhood_id": "DEV.4042", "neighbourhood_name": "Kingskerswell &amp;amp; Rural", "force_id": "devon-and-cornwall", "lat": "50.4981", "lng": "-3.63107", "population": 12098, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "public-order": 2, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4042",
+  "neighbourhood_name": "Kingskerswell &amp;amp; Rural",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4981",
+  "lng": "-3.63107",
+  "population": 12493,
+  "total_crimes": 4,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "public-order": 2,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

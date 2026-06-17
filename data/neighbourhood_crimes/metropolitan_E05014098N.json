@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014098N", "neighbourhood_name": "Brixton Windrush", "force_id": "metropolitan", "lat": "51.4603", "lng": "-0.109195", "population": 12098, "total_crimes": 1333, "categories": {"anti-social-behaviour": 238, "bicycle-theft": 29, "burglary": 49, "criminal-damage-arson": 65, "drugs": 56, "other-theft": 99, "possession-of-weapons": 14, "public-order": 65, "robbery": 50, "shoplifting": 119, "theft-from-the-person": 109, "vehicle-crime": 103, "violent-crime": 318, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014098N",
+  "neighbourhood_name": "Brixton Windrush",
+  "force_id": "metropolitan",
+  "lat": "51.4603",
+  "lng": "-0.109195",
+  "population": 9876,
+  "total_crimes": 1333,
+  "categories": {
+    "anti-social-behaviour": 238,
+    "bicycle-theft": 29,
+    "burglary": 49,
+    "criminal-damage-arson": 65,
+    "drugs": 56,
+    "other-theft": 99,
+    "possession-of-weapons": 14,
+    "public-order": 65,
+    "robbery": 50,
+    "shoplifting": 119,
+    "theft-from-the-person": 109,
+    "vehicle-crime": 103,
+    "violent-crime": 318,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 135.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013764", "neighbourhood_name": "Stonecot", "force_id": "metropolitan", "lat": "51.3796", "lng": "-0.20884", "population": 12098, "total_crimes": 295, "categories": {"anti-social-behaviour": 55, "bicycle-theft": 4, "burglary": 11, "criminal-damage-arson": 24, "drugs": 11, "other-theft": 15, "public-order": 18, "robbery": 4, "shoplifting": 23, "theft-from-the-person": 11, "vehicle-crime": 21, "violent-crime": 94, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013764",
+  "neighbourhood_name": "Stonecot",
+  "force_id": "metropolitan",
+  "lat": "51.3796",
+  "lng": "-0.20884",
+  "population": 7937,
+  "total_crimes": 295,
+  "categories": {
+    "anti-social-behaviour": 55,
+    "bicycle-theft": 4,
+    "burglary": 11,
+    "criminal-damage-arson": 24,
+    "drugs": 11,
+    "other-theft": 15,
+    "public-order": 18,
+    "robbery": 4,
+    "shoplifting": 23,
+    "theft-from-the-person": 11,
+    "vehicle-crime": 21,
+    "violent-crime": 94,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

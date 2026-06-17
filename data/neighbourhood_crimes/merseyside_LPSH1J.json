@@ -1,1 +1,25 @@
-{"neighbourhood_id": "LPSH1J", "neighbourhood_name": "Moss Bank", "force_id": "merseyside", "lat": "53.4762", "lng": "-2.72849", "population": 12098, "total_crimes": 93, "categories": {"anti-social-behaviour": 8, "burglary": 3, "criminal-damage-arson": 4, "drugs": 11, "other-theft": 4, "possession-of-weapons": 1, "public-order": 9, "vehicle-crime": 3, "violent-crime": 49, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1J",
+  "neighbourhood_name": "Moss Bank",
+  "force_id": "merseyside",
+  "lat": "53.4762",
+  "lng": "-2.72849",
+  "population": 10196,
+  "total_crimes": 93,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 3,
+    "criminal-damage-arson": 4,
+    "drugs": 11,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 9,
+    "vehicle-crime": 3,
+    "violent-crime": 49,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

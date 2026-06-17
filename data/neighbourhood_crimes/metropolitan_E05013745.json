@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013745", "neighbourhood_name": "Parsons Green and Sandford", "force_id": "metropolitan", "lat": "51.4755", "lng": "-0.192313", "population": 7710, "total_crimes": 977, "categories": {"anti-social-behaviour": 245, "bicycle-theft": 20, "burglary": 72, "criminal-damage-arson": 43, "drugs": 26, "other-theft": 82, "possession-of-weapons": 3, "public-order": 63, "robbery": 11, "shoplifting": 58, "theft-from-the-person": 27, "vehicle-crime": 76, "violent-crime": 245, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013745",
+  "neighbourhood_name": "Parsons Green and Sandford",
+  "force_id": "metropolitan",
+  "lat": "51.4755",
+  "lng": "-0.192313",
+  "population": 8399,
+  "total_crimes": 977,
+  "categories": {
+    "anti-social-behaviour": 245,
+    "bicycle-theft": 20,
+    "burglary": 72,
+    "criminal-damage-arson": 43,
+    "drugs": 26,
+    "other-theft": 82,
+    "possession-of-weapons": 3,
+    "public-order": 63,
+    "robbery": 11,
+    "shoplifting": 58,
+    "theft-from-the-person": 27,
+    "vehicle-crime": 76,
+    "violent-crime": 245,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 116.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

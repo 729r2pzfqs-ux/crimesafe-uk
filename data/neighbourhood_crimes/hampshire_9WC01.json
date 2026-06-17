@@ -1,1 +1,25 @@
-{"neighbourhood_id": "9WC01", "neighbourhood_name": "Winchester North", "force_id": "hampshire", "lat": "51.0854", "lng": "-1.34285", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "possession-of-weapons": 1, "public-order": 2, "robbery": 1, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9WC01",
+  "neighbourhood_name": "Winchester North",
+  "force_id": "hampshire",
+  "lat": "51.0854",
+  "lng": "-1.34285",
+  "population": 16892,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 1,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

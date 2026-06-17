@@ -1,1 +1,18 @@
-{"neighbourhood_id": "rrc", "neighbourhood_name": "Rugby Rural Central", "force_id": "warwickshire", "lat": "52.375", "lng": "-1.37897", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 2, "violent-crime": 3, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "rrc",
+  "neighbourhood_name": "Rugby Rural Central",
+  "force_id": "warwickshire",
+  "lat": "52.375",
+  "lng": "-1.37897",
+  "population": 9185,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "violent-crime": 3,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

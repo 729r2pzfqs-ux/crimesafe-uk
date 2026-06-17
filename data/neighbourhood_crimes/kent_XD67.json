@@ -1,1 +1,27 @@
-{"neighbourhood_id": "XD67", "neighbourhood_name": "Stone Castle", "force_id": "kent", "lat": "51.4496", "lng": "0.262677", "population": 12098, "total_crimes": 361, "categories": {"anti-social-behaviour": 23, "burglary": 1, "criminal-damage-arson": 22, "drugs": 7, "other-theft": 13, "public-order": 9, "robbery": 2, "shoplifting": 183, "theft-from-the-person": 7, "vehicle-crime": 11, "violent-crime": 75, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD67",
+  "neighbourhood_name": "Stone Castle",
+  "force_id": "kent",
+  "lat": "51.4496",
+  "lng": "0.262677",
+  "population": 3646,
+  "total_crimes": 361,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 1,
+    "criminal-damage-arson": 22,
+    "drugs": 7,
+    "other-theft": 13,
+    "public-order": 9,
+    "robbery": 2,
+    "shoplifting": 183,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 11,
+    "violent-crime": 75,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 99.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

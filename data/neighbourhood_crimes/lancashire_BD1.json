@@ -1,1 +1,27 @@
-{"neighbourhood_id": "BD1", "neighbourhood_name": "Ewood", "force_id": "lancashire", "lat": "53.7288", "lng": "-2.49606", "population": 12098, "total_crimes": 363, "categories": {"anti-social-behaviour": 56, "burglary": 14, "criminal-damage-arson": 45, "drugs": 13, "other-theft": 17, "public-order": 16, "robbery": 2, "shoplifting": 12, "theft-from-the-person": 1, "vehicle-crime": 15, "violent-crime": 157, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BD1",
+  "neighbourhood_name": "Ewood",
+  "force_id": "lancashire",
+  "lat": "53.7288",
+  "lng": "-2.49606",
+  "population": 8841,
+  "total_crimes": 363,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "burglary": 14,
+    "criminal-damage-arson": 45,
+    "drugs": 13,
+    "other-theft": 17,
+    "public-order": 16,
+    "robbery": 2,
+    "shoplifting": 12,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 15,
+    "violent-crime": 157,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

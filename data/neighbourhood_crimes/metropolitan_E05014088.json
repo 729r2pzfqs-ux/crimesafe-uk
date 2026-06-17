@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014088", "neighbourhood_name": "Plumstead Common", "force_id": "metropolitan", "lat": "51.4778", "lng": "0.0939067", "population": 15537, "total_crimes": 451, "categories": {"anti-social-behaviour": 97, "bicycle-theft": 2, "burglary": 13, "criminal-damage-arson": 35, "drugs": 25, "other-theft": 22, "possession-of-weapons": 4, "public-order": 24, "robbery": 8, "shoplifting": 20, "theft-from-the-person": 12, "vehicle-crime": 62, "violent-crime": 121, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014088",
+  "neighbourhood_name": "Plumstead Common",
+  "force_id": "metropolitan",
+  "lat": "51.4778",
+  "lng": "0.0939067",
+  "population": 15615,
+  "total_crimes": 451,
+  "categories": {
+    "anti-social-behaviour": 97,
+    "bicycle-theft": 2,
+    "burglary": 13,
+    "criminal-damage-arson": 35,
+    "drugs": 25,
+    "other-theft": 22,
+    "possession-of-weapons": 4,
+    "public-order": 24,
+    "robbery": 8,
+    "shoplifting": 20,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 62,
+    "violent-crime": 121,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 28.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

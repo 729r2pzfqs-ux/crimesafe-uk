@@ -1,1 +1,28 @@
-{"neighbourhood_id": "A04", "neighbourhood_name": "Hertford", "force_id": "hertfordshire", "lat": "51.8041", "lng": "-0.0802646", "population": 12098, "total_crimes": 137, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 3, "burglary": 5, "criminal-damage-arson": 7, "drugs": 2, "other-theft": 9, "possession-of-weapons": 2, "public-order": 3, "robbery": 3, "shoplifting": 27, "theft-from-the-person": 4, "vehicle-crime": 3, "violent-crime": 45}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A04",
+  "neighbourhood_name": "Hertford",
+  "force_id": "hertfordshire",
+  "lat": "51.8041",
+  "lng": "-0.0802646",
+  "population": 26933,
+  "total_crimes": 137,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 7,
+    "drugs": 2,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "robbery": 3,
+    "shoplifting": 27,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 3,
+    "violent-crime": 45
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011095", "neighbourhood_name": "Borough and Bankside", "force_id": "metropolitan", "lat": "51.5037", "lng": "-0.0984473", "population": 10245, "total_crimes": 2305, "categories": {"anti-social-behaviour": 306, "bicycle-theft": 36, "burglary": 110, "criminal-damage-arson": 62, "drugs": 93, "other-theft": 383, "possession-of-weapons": 15, "public-order": 118, "robbery": 107, "shoplifting": 160, "theft-from-the-person": 502, "vehicle-crime": 38, "violent-crime": 359, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011095",
+  "neighbourhood_name": "Borough and Bankside",
+  "force_id": "metropolitan",
+  "lat": "51.5037",
+  "lng": "-0.0984473",
+  "population": 7749,
+  "total_crimes": 2305,
+  "categories": {
+    "anti-social-behaviour": 306,
+    "bicycle-theft": 36,
+    "burglary": 110,
+    "criminal-damage-arson": 62,
+    "drugs": 93,
+    "other-theft": 383,
+    "possession-of-weapons": 15,
+    "public-order": 118,
+    "robbery": 107,
+    "shoplifting": 160,
+    "theft-from-the-person": 502,
+    "vehicle-crime": 38,
+    "violent-crime": 359,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 297.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

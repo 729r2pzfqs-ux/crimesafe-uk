@@ -1,1 +1,22 @@
-{"neighbourhood_id": "CS222", "neighbourhood_name": "Keynsham", "force_id": "avon-and-somerset", "lat": "51.3968", "lng": "-2.47597", "population": "0", "total_crimes": 27, "categories": {"anti-social-behaviour": 3, "burglary": 1, "criminal-damage-arson": 1, "other-theft": 5, "public-order": 2, "vehicle-crime": 1, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CS222",
+  "neighbourhood_name": "Keynsham",
+  "force_id": "avon-and-somerset",
+  "lat": "51.3968",
+  "lng": "-2.47597",
+  "population": 21296,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "other-theft": 5,
+    "public-order": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

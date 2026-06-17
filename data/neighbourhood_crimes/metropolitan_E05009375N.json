@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009375N", "neighbourhood_name": "Haggerston", "force_id": "metropolitan", "lat": "51.5338", "lng": "-0.0699906", "population": 12098, "total_crimes": 1963, "categories": {"anti-social-behaviour": 337, "bicycle-theft": 58, "burglary": 96, "criminal-damage-arson": 68, "drugs": 140, "other-theft": 172, "possession-of-weapons": 18, "public-order": 94, "robbery": 54, "shoplifting": 197, "theft-from-the-person": 200, "vehicle-crime": 70, "violent-crime": 453, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009375N",
+  "neighbourhood_name": "Haggerston",
+  "force_id": "metropolitan",
+  "lat": "51.5338",
+  "lng": "-0.0699906",
+  "population": 13068,
+  "total_crimes": 1963,
+  "categories": {
+    "anti-social-behaviour": 337,
+    "bicycle-theft": 58,
+    "burglary": 96,
+    "criminal-damage-arson": 68,
+    "drugs": 140,
+    "other-theft": 172,
+    "possession-of-weapons": 18,
+    "public-order": 94,
+    "robbery": 54,
+    "shoplifting": 197,
+    "theft-from-the-person": 200,
+    "vehicle-crime": 70,
+    "violent-crime": 453,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 150.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,24 @@
-{"neighbourhood_id": "11TR01", "neighbourhood_name": "Romsey Town", "force_id": "hampshire", "lat": "50.9791", "lng": "-1.49789", "population": 12098, "total_crimes": 45, "categories": {"anti-social-behaviour": 4, "burglary": 3, "criminal-damage-arson": 7, "other-theft": 3, "public-order": 7, "shoplifting": 8, "vehicle-crime": 1, "violent-crime": 11, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "11TR01",
+  "neighbourhood_name": "Romsey Town",
+  "force_id": "hampshire",
+  "lat": "50.9791",
+  "lng": "-1.49789",
+  "population": 15869,
+  "total_crimes": 45,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 3,
+    "criminal-damage-arson": 7,
+    "other-theft": 3,
+    "public-order": 7,
+    "shoplifting": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 11,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 11
+}

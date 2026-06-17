@@ -1,1 +1,25 @@
-{"neighbourhood_id": "DCW11", "neighbourhood_name": "Rhyl East", "force_id": "north-wales", "lat": "53.3313", "lng": "-3.47342", "population": 12098, "total_crimes": 105, "categories": {"anti-social-behaviour": 30, "burglary": 3, "criminal-damage-arson": 10, "drugs": 3, "other-theft": 4, "public-order": 6, "shoplifting": 7, "vehicle-crime": 4, "violent-crime": 36, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DCW11",
+  "neighbourhood_name": "Rhyl East",
+  "force_id": "north-wales",
+  "lat": "53.3313",
+  "lng": "-3.47342",
+  "population": 4653,
+  "total_crimes": 105,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "drugs": 3,
+    "other-theft": 4,
+    "public-order": 6,
+    "shoplifting": 7,
+    "vehicle-crime": 4,
+    "violent-crime": 36,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

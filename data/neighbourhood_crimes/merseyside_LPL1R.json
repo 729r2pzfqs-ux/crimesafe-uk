@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL1R", "neighbourhood_name": "Walton", "force_id": "merseyside", "lat": "53.4588", "lng": "-2.95494", "population": 12098, "total_crimes": 446, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 33, "drugs": 22, "other-theft": 25, "possession-of-weapons": 2, "public-order": 42, "robbery": 3, "shoplifting": 19, "theft-from-the-person": 2, "vehicle-crime": 16, "violent-crime": 223, "other-crime": 28}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL1R",
+  "neighbourhood_name": "Walton",
+  "force_id": "merseyside",
+  "lat": "53.4588",
+  "lng": "-2.95494",
+  "population": 13212,
+  "total_crimes": 446,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 33,
+    "drugs": 22,
+    "other-theft": 25,
+    "possession-of-weapons": 2,
+    "public-order": 42,
+    "robbery": 3,
+    "shoplifting": 19,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 16,
+    "violent-crime": 223,
+    "other-crime": 28
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

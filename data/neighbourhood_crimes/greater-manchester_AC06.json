@@ -1,1 +1,16 @@
-{"neighbourhood_id": "AC06", "neighbourhood_name": "Openshaw", "force_id": "greater-manchester", "lat": "53.4759", "lng": "-2.17252", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC06",
+  "neighbourhood_name": "Openshaw",
+  "force_id": "greater-manchester",
+  "lat": "53.4759",
+  "lng": "-2.17252",
+  "population": 4172,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

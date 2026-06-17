@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013654", "neighbourhood_name": "Camden Square", "force_id": "metropolitan", "lat": "51.5449", "lng": "-0.131722", "population": 12098, "total_crimes": 1770, "categories": {"anti-social-behaviour": 410, "bicycle-theft": 23, "burglary": 53, "criminal-damage-arson": 84, "drugs": 107, "other-theft": 147, "possession-of-weapons": 7, "public-order": 103, "robbery": 52, "shoplifting": 114, "theft-from-the-person": 205, "vehicle-crime": 66, "violent-crime": 386, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013654",
+  "neighbourhood_name": "Camden Square",
+  "force_id": "metropolitan",
+  "lat": "51.5449",
+  "lng": "-0.131722",
+  "population": 6536,
+  "total_crimes": 1770,
+  "categories": {
+    "anti-social-behaviour": 410,
+    "bicycle-theft": 23,
+    "burglary": 53,
+    "criminal-damage-arson": 84,
+    "drugs": 107,
+    "other-theft": 147,
+    "possession-of-weapons": 7,
+    "public-order": 103,
+    "robbery": 52,
+    "shoplifting": 114,
+    "theft-from-the-person": 205,
+    "vehicle-crime": 66,
+    "violent-crime": 386,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 270.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

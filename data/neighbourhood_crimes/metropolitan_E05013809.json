@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013809", "neighbourhood_name": "Westbourne", "force_id": "metropolitan", "lat": "51.5208", "lng": "-0.191825", "population": 12098, "total_crimes": 1842, "categories": {"anti-social-behaviour": 434, "bicycle-theft": 33, "burglary": 88, "criminal-damage-arson": 75, "drugs": 80, "other-theft": 229, "possession-of-weapons": 9, "public-order": 84, "robbery": 36, "shoplifting": 135, "theft-from-the-person": 146, "vehicle-crime": 85, "violent-crime": 387, "other-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013809",
+  "neighbourhood_name": "Westbourne",
+  "force_id": "metropolitan",
+  "lat": "51.5208",
+  "lng": "-0.191825",
+  "population": 12974,
+  "total_crimes": 1842,
+  "categories": {
+    "anti-social-behaviour": 434,
+    "bicycle-theft": 33,
+    "burglary": 88,
+    "criminal-damage-arson": 75,
+    "drugs": 80,
+    "other-theft": 229,
+    "possession-of-weapons": 9,
+    "public-order": 84,
+    "robbery": 36,
+    "shoplifting": 135,
+    "theft-from-the-person": 146,
+    "vehicle-crime": 85,
+    "violent-crime": 387,
+    "other-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 142.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

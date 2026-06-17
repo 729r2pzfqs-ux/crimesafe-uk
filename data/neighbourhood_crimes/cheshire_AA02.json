@@ -1,1 +1,29 @@
-{"neighbourhood_id": "AA02", "neighbourhood_name": "Boughton", "force_id": "cheshire", "lat": "53.1925", "lng": "-2.87292", "population": "0", "total_crimes": 423, "categories": {"anti-social-behaviour": 34, "bicycle-theft": 3, "burglary": 9, "criminal-damage-arson": 17, "drugs": 49, "other-theft": 20, "possession-of-weapons": 2, "public-order": 51, "robbery": 1, "shoplifting": 71, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 154, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AA02",
+  "neighbourhood_name": "Boughton",
+  "force_id": "cheshire",
+  "lat": "53.1925",
+  "lng": "-2.87292",
+  "population": 6934,
+  "total_crimes": 423,
+  "categories": {
+    "anti-social-behaviour": 34,
+    "bicycle-theft": 3,
+    "burglary": 9,
+    "criminal-damage-arson": 17,
+    "drugs": 49,
+    "other-theft": 20,
+    "possession-of-weapons": 2,
+    "public-order": 51,
+    "robbery": 1,
+    "shoplifting": 71,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 154,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 61.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

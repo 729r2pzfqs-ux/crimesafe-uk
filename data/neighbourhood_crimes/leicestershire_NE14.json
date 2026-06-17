@@ -1,1 +1,29 @@
-{"neighbourhood_id": "NE14", "neighbourhood_name": "Thurncourt", "force_id": "leicestershire", "lat": "52.6381", "lng": "-1.06538", "population": 12098, "total_crimes": 246, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 2, "burglary": 6, "criminal-damage-arson": 42, "drugs": 6, "other-theft": 5, "possession-of-weapons": 3, "public-order": 26, "robbery": 2, "shoplifting": 4, "theft-from-the-person": 3, "vehicle-crime": 16, "violent-crime": 99, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NE14",
+  "neighbourhood_name": "Thurncourt",
+  "force_id": "leicestershire",
+  "lat": "52.6381",
+  "lng": "-1.06538",
+  "population": 10689,
+  "total_crimes": 246,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "bicycle-theft": 2,
+    "burglary": 6,
+    "criminal-damage-arson": 42,
+    "drugs": 6,
+    "other-theft": 5,
+    "possession-of-weapons": 3,
+    "public-order": 26,
+    "robbery": 2,
+    "shoplifting": 4,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 16,
+    "violent-crime": 99,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

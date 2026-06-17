@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013664N", "neighbourhood_name": "Kentish Town South", "force_id": "metropolitan", "lat": "51.5471", "lng": "-0.138434", "population": 12098, "total_crimes": 1532, "categories": {"anti-social-behaviour": 324, "bicycle-theft": 21, "burglary": 51, "criminal-damage-arson": 83, "drugs": 94, "other-theft": 123, "possession-of-weapons": 6, "public-order": 93, "robbery": 42, "shoplifting": 97, "theft-from-the-person": 181, "vehicle-crime": 70, "violent-crime": 335, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013664N",
+  "neighbourhood_name": "Kentish Town South",
+  "force_id": "metropolitan",
+  "lat": "51.5471",
+  "lng": "-0.138434",
+  "population": 12876,
+  "total_crimes": 1532,
+  "categories": {
+    "anti-social-behaviour": 324,
+    "bicycle-theft": 21,
+    "burglary": 51,
+    "criminal-damage-arson": 83,
+    "drugs": 94,
+    "other-theft": 123,
+    "possession-of-weapons": 6,
+    "public-order": 93,
+    "robbery": 42,
+    "shoplifting": 97,
+    "theft-from-the-person": 181,
+    "vehicle-crime": 70,
+    "violent-crime": 335,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 119.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

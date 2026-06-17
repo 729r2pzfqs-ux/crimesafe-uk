@@ -1,1 +1,26 @@
-{"neighbourhood_id": "34", "neighbourhood_name": "Tranby", "force_id": "humberside", "lat": "53.7421", "lng": "-0.437618", "population": 12098, "total_crimes": 91, "categories": {"anti-social-behaviour": 7, "bicycle-theft": 1, "burglary": 3, "criminal-damage-arson": 10, "drugs": 2, "other-theft": 6, "public-order": 13, "shoplifting": 15, "vehicle-crime": 6, "violent-crime": 25, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "34",
+  "neighbourhood_name": "Tranby",
+  "force_id": "humberside",
+  "lat": "53.7421",
+  "lng": "-0.437618",
+  "population": 10336,
+  "total_crimes": 91,
+  "categories": {
+    "anti-social-behaviour": 7,
+    "bicycle-theft": 1,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "drugs": 2,
+    "other-theft": 6,
+    "public-order": 13,
+    "shoplifting": 15,
+    "vehicle-crime": 6,
+    "violent-crime": 25,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

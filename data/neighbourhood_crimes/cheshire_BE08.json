@@ -1,1 +1,24 @@
-{"neighbourhood_id": "BE08", "neighbourhood_name": "Sandbach Town", "force_id": "cheshire", "lat": "53.1498", "lng": "-2.36047", "population": "0", "total_crimes": 71, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 3, "other-theft": 2, "public-order": 10, "robbery": 1, "shoplifting": 10, "vehicle-crime": 1, "violent-crime": 37, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE08",
+  "neighbourhood_name": "Sandbach Town",
+  "force_id": "cheshire",
+  "lat": "53.1498",
+  "lng": "-2.36047",
+  "population": 4591,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "criminal-damage-arson": 3,
+    "other-theft": 2,
+    "public-order": 10,
+    "robbery": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 1,
+    "violent-crime": 37,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

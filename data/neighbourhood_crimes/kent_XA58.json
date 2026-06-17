@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XA58", "neighbourhood_name": "Luton", "force_id": "kent", "lat": "51.3705", "lng": "0.541882", "population": 12098, "total_crimes": 692, "categories": {"anti-social-behaviour": 159, "bicycle-theft": 3, "burglary": 16, "criminal-damage-arson": 59, "drugs": 26, "other-theft": 35, "possession-of-weapons": 9, "public-order": 37, "robbery": 8, "shoplifting": 37, "theft-from-the-person": 1, "vehicle-crime": 24, "violent-crime": 252, "other-crime": 26}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XA58",
+  "neighbourhood_name": "Luton",
+  "force_id": "kent",
+  "lat": "51.3705",
+  "lng": "0.541882",
+  "population": 10366,
+  "total_crimes": 692,
+  "categories": {
+    "anti-social-behaviour": 159,
+    "bicycle-theft": 3,
+    "burglary": 16,
+    "criminal-damage-arson": 59,
+    "drugs": 26,
+    "other-theft": 35,
+    "possession-of-weapons": 9,
+    "public-order": 37,
+    "robbery": 8,
+    "shoplifting": 37,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 24,
+    "violent-crime": 252,
+    "other-crime": 26
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

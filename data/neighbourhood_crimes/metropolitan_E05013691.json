@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013691", "neighbourhood_name": "Southbury", "force_id": "metropolitan", "lat": "51.6514", "lng": "-0.0667126", "population": 14781, "total_crimes": 593, "categories": {"anti-social-behaviour": 102, "bicycle-theft": 2, "burglary": 34, "criminal-damage-arson": 23, "drugs": 22, "other-theft": 40, "possession-of-weapons": 4, "public-order": 25, "robbery": 19, "shoplifting": 92, "theft-from-the-person": 29, "vehicle-crime": 48, "violent-crime": 143, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013691",
+  "neighbourhood_name": "Southbury",
+  "force_id": "metropolitan",
+  "lat": "51.6514",
+  "lng": "-0.0667126",
+  "population": 14545,
+  "total_crimes": 593,
+  "categories": {
+    "anti-social-behaviour": 102,
+    "bicycle-theft": 2,
+    "burglary": 34,
+    "criminal-damage-arson": 23,
+    "drugs": 22,
+    "other-theft": 40,
+    "possession-of-weapons": 4,
+    "public-order": 25,
+    "robbery": 19,
+    "shoplifting": 92,
+    "theft-from-the-person": 29,
+    "vehicle-crime": 48,
+    "violent-crime": 143,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 40.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

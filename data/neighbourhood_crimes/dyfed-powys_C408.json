@@ -1,1 +1,17 @@
-{"neighbourhood_id": "C408", "neighbourhood_name": "Carew", "force_id": "dyfed-powys", "lat": "51.6978", "lng": "-4.81435", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "drugs": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C408",
+  "neighbourhood_name": "Carew",
+  "force_id": "dyfed-powys",
+  "lat": "51.6978",
+  "lng": "-4.81435",
+  "population": 1517,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "drugs": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

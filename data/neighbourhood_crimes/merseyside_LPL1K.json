@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPL1K", "neighbourhood_name": "Fazakerley North", "force_id": "merseyside", "lat": "53.4696", "lng": "-2.94157", "population": 12098, "total_crimes": 246, "categories": {"anti-social-behaviour": 22, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 19, "drugs": 17, "other-theft": 22, "possession-of-weapons": 1, "public-order": 23, "robbery": 3, "shoplifting": 12, "vehicle-crime": 8, "violent-crime": 106, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL1K",
+  "neighbourhood_name": "Fazakerley North",
+  "force_id": "merseyside",
+  "lat": "53.4696",
+  "lng": "-2.94157",
+  "population": 4307,
+  "total_crimes": 246,
+  "categories": {
+    "anti-social-behaviour": 22,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 19,
+    "drugs": 17,
+    "other-theft": 22,
+    "possession-of-weapons": 1,
+    "public-order": 23,
+    "robbery": 3,
+    "shoplifting": 12,
+    "vehicle-crime": 8,
+    "violent-crime": 106,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 57.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

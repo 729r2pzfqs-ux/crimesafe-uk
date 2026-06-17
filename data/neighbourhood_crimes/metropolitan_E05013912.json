@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013912", "neighbourhood_name": "Forest Gate South", "force_id": "metropolitan", "lat": "51.5455", "lng": "0.0261008", "population": 17261, "total_crimes": 1260, "categories": {"anti-social-behaviour": 299, "bicycle-theft": 17, "burglary": 32, "criminal-damage-arson": 62, "drugs": 46, "other-theft": 84, "possession-of-weapons": 7, "public-order": 66, "robbery": 30, "shoplifting": 51, "theft-from-the-person": 157, "vehicle-crime": 100, "violent-crime": 303, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013912",
+  "neighbourhood_name": "Forest Gate South",
+  "force_id": "metropolitan",
+  "lat": "51.5455",
+  "lng": "0.0261008",
+  "population": 17966,
+  "total_crimes": 1260,
+  "categories": {
+    "anti-social-behaviour": 299,
+    "bicycle-theft": 17,
+    "burglary": 32,
+    "criminal-damage-arson": 62,
+    "drugs": 46,
+    "other-theft": 84,
+    "possession-of-weapons": 7,
+    "public-order": 66,
+    "robbery": 30,
+    "shoplifting": 51,
+    "theft-from-the-person": 157,
+    "vehicle-crime": 100,
+    "violent-crime": 303,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 70.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

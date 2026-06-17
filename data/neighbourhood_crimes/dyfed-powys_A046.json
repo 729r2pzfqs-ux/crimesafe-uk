@@ -1,1 +1,29 @@
-{"neighbourhood_id": "A046", "neighbourhood_name": "Bigyn", "force_id": "dyfed-powys", "lat": "51.6784", "lng": "-4.14136", "population": 12098, "total_crimes": 403, "categories": {"anti-social-behaviour": 74, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 43, "drugs": 18, "other-theft": 19, "possession-of-weapons": 3, "public-order": 39, "robbery": 2, "shoplifting": 47, "theft-from-the-person": 2, "vehicle-crime": 7, "violent-crime": 127, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A046",
+  "neighbourhood_name": "Bigyn",
+  "force_id": "dyfed-powys",
+  "lat": "51.6784",
+  "lng": "-4.14136",
+  "population": 6752,
+  "total_crimes": 403,
+  "categories": {
+    "anti-social-behaviour": 74,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 43,
+    "drugs": 18,
+    "other-theft": 19,
+    "possession-of-weapons": 3,
+    "public-order": 39,
+    "robbery": 2,
+    "shoplifting": 47,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 7,
+    "violent-crime": 127,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 59.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

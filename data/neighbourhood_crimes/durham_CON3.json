@@ -1,1 +1,21 @@
-{"neighbourhood_id": "CON3", "neighbourhood_name": "Consett (Blackhill/Ebchester/Leadgate)", "force_id": "durham", "lat": "54.8737", "lng": "-1.8204", "population": 12098, "total_crimes": 18, "categories": {"anti-social-behaviour": 2, "burglary": 3, "criminal-damage-arson": 1, "other-theft": 1, "vehicle-crime": 2, "violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CON3",
+  "neighbourhood_name": "Consett (Blackhill/Ebchester/Leadgate)",
+  "force_id": "durham",
+  "lat": "54.8737",
+  "lng": "-1.8204",
+  "population": 19171,
+  "total_crimes": 18,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 1,
+    "other-theft": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

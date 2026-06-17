@@ -1,1 +1,29 @@
-{"neighbourhood_id": "nc", "neighbourhood_name": "Nuneaton Central", "force_id": "warwickshire", "lat": "52.5262", "lng": "-1.47302", "population": 12098, "total_crimes": 387, "categories": {"anti-social-behaviour": 88, "bicycle-theft": 3, "burglary": 18, "criminal-damage-arson": 20, "drugs": 13, "other-theft": 14, "possession-of-weapons": 5, "public-order": 22, "robbery": 3, "shoplifting": 33, "theft-from-the-person": 6, "vehicle-crime": 21, "violent-crime": 136, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "nc",
+  "neighbourhood_name": "Nuneaton Central",
+  "force_id": "warwickshire",
+  "lat": "52.5262",
+  "lng": "-1.47302",
+  "population": 9195,
+  "total_crimes": 387,
+  "categories": {
+    "anti-social-behaviour": 88,
+    "bicycle-theft": 3,
+    "burglary": 18,
+    "criminal-damage-arson": 20,
+    "drugs": 13,
+    "other-theft": 14,
+    "possession-of-weapons": 5,
+    "public-order": 22,
+    "robbery": 3,
+    "shoplifting": 33,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 21,
+    "violent-crime": 136,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

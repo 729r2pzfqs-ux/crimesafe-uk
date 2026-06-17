@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N461", "neighbourhood_name": "Farnham, Baylis and Stoke", "force_id": "thames-valley", "lat": "51.5242", "lng": "-0.620132", "population": 12098, "total_crimes": 427, "categories": {"anti-social-behaviour": 36, "bicycle-theft": 6, "burglary": 14, "criminal-damage-arson": 30, "drugs": 12, "other-theft": 43, "possession-of-weapons": 1, "public-order": 27, "robbery": 7, "shoplifting": 35, "theft-from-the-person": 4, "vehicle-crime": 39, "violent-crime": 163, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N461",
+  "neighbourhood_name": "Farnham, Baylis and Stoke",
+  "force_id": "thames-valley",
+  "lat": "51.5242",
+  "lng": "-0.620132",
+  "population": 23731,
+  "total_crimes": 427,
+  "categories": {
+    "anti-social-behaviour": 36,
+    "bicycle-theft": 6,
+    "burglary": 14,
+    "criminal-damage-arson": 30,
+    "drugs": 12,
+    "other-theft": 43,
+    "possession-of-weapons": 1,
+    "public-order": 27,
+    "robbery": 7,
+    "shoplifting": 35,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 39,
+    "violent-crime": 163,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

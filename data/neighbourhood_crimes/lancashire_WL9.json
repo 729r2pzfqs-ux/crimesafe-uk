@@ -1,1 +1,21 @@
-{"neighbourhood_id": "WL9", "neighbourhood_name": "Rural North East", "force_id": "lancashire", "lat": "53.59", "lng": "-2.74693", "population": 12098, "total_crimes": 8, "categories": {"burglary": 1, "criminal-damage-arson": 2, "other-theft": 1, "public-order": 1, "shoplifting": 2, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WL9",
+  "neighbourhood_name": "Rural North East",
+  "force_id": "lancashire",
+  "lat": "53.59",
+  "lng": "-2.74693",
+  "population": 8485,
+  "total_crimes": 8,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 2,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

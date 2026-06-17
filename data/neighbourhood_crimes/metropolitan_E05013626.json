@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013626", "neighbourhood_name": "Osterley and Spring Grove", "force_id": "metropolitan", "lat": "51.4857", "lng": "-0.341402", "population": 12098, "total_crimes": 196, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 7, "drugs": 14, "other-theft": 15, "public-order": 7, "robbery": 2, "shoplifting": 14, "theft-from-the-person": 5, "vehicle-crime": 22, "violent-crime": 58, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013626",
+  "neighbourhood_name": "Osterley and Spring Grove",
+  "force_id": "metropolitan",
+  "lat": "51.4857",
+  "lng": "-0.341402",
+  "population": 13311,
+  "total_crimes": 196,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 7,
+    "drugs": 14,
+    "other-theft": 15,
+    "public-order": 7,
+    "robbery": 2,
+    "shoplifting": 14,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 22,
+    "violent-crime": 58,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

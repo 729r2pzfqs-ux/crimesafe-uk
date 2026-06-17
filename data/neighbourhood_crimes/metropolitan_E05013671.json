@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013671", "neighbourhood_name": "West Hampstead", "force_id": "metropolitan", "lat": "51.5485", "lng": "-0.191625", "population": 12098, "total_crimes": 1207, "categories": {"anti-social-behaviour": 262, "bicycle-theft": 17, "burglary": 72, "criminal-damage-arson": 41, "drugs": 47, "other-theft": 96, "possession-of-weapons": 11, "public-order": 67, "robbery": 50, "shoplifting": 91, "theft-from-the-person": 97, "vehicle-crime": 79, "violent-crime": 267, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013671",
+  "neighbourhood_name": "West Hampstead",
+  "force_id": "metropolitan",
+  "lat": "51.5485",
+  "lng": "-0.191625",
+  "population": 16156,
+  "total_crimes": 1207,
+  "categories": {
+    "anti-social-behaviour": 262,
+    "bicycle-theft": 17,
+    "burglary": 72,
+    "criminal-damage-arson": 41,
+    "drugs": 47,
+    "other-theft": 96,
+    "possession-of-weapons": 11,
+    "public-order": 67,
+    "robbery": 50,
+    "shoplifting": 91,
+    "theft-from-the-person": 97,
+    "vehicle-crime": 79,
+    "violent-crime": 267,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 74.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

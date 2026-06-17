@@ -1,1 +1,14 @@
-{"neighbourhood_id": "JC19", "neighbourhood_name": "Bramhall North", "force_id": "greater-manchester", "lat": "53.3709", "lng": "-2.15963", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "JC19",
+  "neighbourhood_name": "Bramhall North",
+  "force_id": "greater-manchester",
+  "lat": "53.3709",
+  "lng": "-2.15963",
+  "population": 13995,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

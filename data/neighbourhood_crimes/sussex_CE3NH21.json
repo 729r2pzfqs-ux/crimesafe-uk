@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CE3NH21", "neighbourhood_name": "Preston Park", "force_id": "sussex", "lat": "50.8405", "lng": "-0.144445", "population": 12098, "total_crimes": 634, "categories": {"anti-social-behaviour": 138, "bicycle-theft": 7, "burglary": 27, "criminal-damage-arson": 40, "drugs": 40, "other-theft": 32, "possession-of-weapons": 9, "public-order": 51, "robbery": 9, "shoplifting": 91, "theft-from-the-person": 3, "vehicle-crime": 17, "violent-crime": 158, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE3NH21",
+  "neighbourhood_name": "Preston Park",
+  "force_id": "sussex",
+  "lat": "50.8405",
+  "lng": "-0.144445",
+  "population": 15215,
+  "total_crimes": 634,
+  "categories": {
+    "anti-social-behaviour": 138,
+    "bicycle-theft": 7,
+    "burglary": 27,
+    "criminal-damage-arson": 40,
+    "drugs": 40,
+    "other-theft": 32,
+    "possession-of-weapons": 9,
+    "public-order": 51,
+    "robbery": 9,
+    "shoplifting": 91,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 17,
+    "violent-crime": 158,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

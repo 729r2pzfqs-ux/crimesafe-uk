@@ -1,1 +1,16 @@
-{"neighbourhood_id": "DEV.4106", "neighbourhood_name": "Mortehoe &amp;amp; Woolacombe", "force_id": "devon-and-cornwall", "lat": "51.17", "lng": "-4.1482", "population": 12098, "total_crimes": 1, "categories": {"public-order": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4106",
+  "neighbourhood_name": "Mortehoe &amp;amp; Woolacombe",
+  "force_id": "devon-and-cornwall",
+  "lat": "51.17",
+  "lng": "-4.1482",
+  "population": 2194,
+  "total_crimes": 1,
+  "categories": {
+    "public-order": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

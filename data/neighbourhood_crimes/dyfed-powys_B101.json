@@ -1,1 +1,25 @@
-{"neighbourhood_id": "B101", "neighbourhood_name": "Aberystwyth Central", "force_id": "dyfed-powys", "lat": "52.4132", "lng": "-4.08063", "population": 12098, "total_crimes": 166, "categories": {"anti-social-behaviour": 15, "burglary": 13, "criminal-damage-arson": 13, "drugs": 17, "other-theft": 14, "public-order": 14, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 68, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B101",
+  "neighbourhood_name": "Aberystwyth Central",
+  "force_id": "dyfed-powys",
+  "lat": "52.4132",
+  "lng": "-4.08063",
+  "population": 2198,
+  "total_crimes": 166,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "burglary": 13,
+    "criminal-damage-arson": 13,
+    "drugs": 17,
+    "other-theft": 14,
+    "public-order": 14,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 68,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 75.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

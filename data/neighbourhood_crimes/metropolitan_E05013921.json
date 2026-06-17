@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013921", "neighbourhood_name": "Plashet", "force_id": "metropolitan", "lat": "51.5429", "lng": "0.0480824", "population": 11617, "total_crimes": 1397, "categories": {"anti-social-behaviour": 256, "bicycle-theft": 15, "burglary": 39, "criminal-damage-arson": 63, "drugs": 61, "other-theft": 105, "possession-of-weapons": 9, "public-order": 61, "robbery": 52, "shoplifting": 69, "theft-from-the-person": 210, "vehicle-crime": 96, "violent-crime": 350, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013921",
+  "neighbourhood_name": "Plashet",
+  "force_id": "metropolitan",
+  "lat": "51.5429",
+  "lng": "0.0480824",
+  "population": 11609,
+  "total_crimes": 1397,
+  "categories": {
+    "anti-social-behaviour": 256,
+    "bicycle-theft": 15,
+    "burglary": 39,
+    "criminal-damage-arson": 63,
+    "drugs": 61,
+    "other-theft": 105,
+    "possession-of-weapons": 9,
+    "public-order": 61,
+    "robbery": 52,
+    "shoplifting": 69,
+    "theft-from-the-person": 210,
+    "vehicle-crime": 96,
+    "violent-crime": 350,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 120.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

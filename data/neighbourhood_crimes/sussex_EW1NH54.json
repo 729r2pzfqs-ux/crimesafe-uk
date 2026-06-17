@@ -1,1 +1,24 @@
-{"neighbourhood_id": "EW1NH54", "neighbourhood_name": "Uckfield New Town", "force_id": "sussex", "lat": "50.9666", "lng": "0.095826", "population": 12098, "total_crimes": 65, "categories": {"anti-social-behaviour": 15, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 5, "possession-of-weapons": 2, "shoplifting": 11, "vehicle-crime": 2, "violent-crime": 26, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1NH54",
+  "neighbourhood_name": "Uckfield New Town",
+  "force_id": "sussex",
+  "lat": "50.9666",
+  "lng": "0.095826",
+  "population": 2832,
+  "total_crimes": 65,
+  "categories": {
+    "anti-social-behaviour": 15,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 2,
+    "shoplifting": 11,
+    "vehicle-crime": 2,
+    "violent-crime": 26,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

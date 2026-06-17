@@ -1,1 +1,16 @@
-{"neighbourhood_id": "PC22", "neighbourhood_name": "Milkstone &amp; Deeplish", "force_id": "greater-manchester", "lat": "53.6074", "lng": "-2.16048", "population": 12098, "total_crimes": 3, "categories": {"violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PC22",
+  "neighbourhood_name": "Milkstone &amp; Deeplish",
+  "force_id": "greater-manchester",
+  "lat": "53.6074",
+  "lng": "-2.16048",
+  "population": 13786,
+  "total_crimes": 3,
+  "categories": {
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

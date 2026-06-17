@@ -1,1 +1,25 @@
-{"neighbourhood_id": "YB86", "neighbourhood_name": "Pilgrims with Ightham", "force_id": "kent", "lat": "51.3025", "lng": "0.322553", "population": 12098, "total_crimes": 32, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 2, "robbery": 1, "shoplifting": 9, "vehicle-crime": 4, "violent-crime": 4, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB86",
+  "neighbourhood_name": "Pilgrims with Ightham",
+  "force_id": "kent",
+  "lat": "51.3025",
+  "lng": "0.322553",
+  "population": 6661,
+  "total_crimes": 32,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 2,
+    "robbery": 1,
+    "shoplifting": 9,
+    "vehicle-crime": 4,
+    "violent-crime": 4,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

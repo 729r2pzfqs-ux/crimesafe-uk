@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05007886", "neighbourhood_name": "Battenhall and Nunnery", "force_id": "west-mercia", "lat": "52.1799", "lng": "-2.19818", "population": 8953, "total_crimes": 193, "categories": {"anti-social-behaviour": 32, "burglary": 10, "criminal-damage-arson": 28, "drugs": 3, "other-theft": 7, "public-order": 12, "robbery": 3, "shoplifting": 11, "vehicle-crime": 7, "violent-crime": 78, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007886",
+  "neighbourhood_name": "Battenhall and Nunnery",
+  "force_id": "west-mercia",
+  "lat": "52.1799",
+  "lng": "-2.19818",
+  "population": 18661,
+  "total_crimes": 193,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "burglary": 10,
+    "criminal-damage-arson": 28,
+    "drugs": 3,
+    "other-theft": 7,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 11,
+    "vehicle-crime": 7,
+    "violent-crime": 78,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

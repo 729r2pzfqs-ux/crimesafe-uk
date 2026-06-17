@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WB101", "neighbourhood_name": "Harlow Town Centre", "force_id": "essex", "lat": "51.7622", "lng": "0.0955516", "population": 12098, "total_crimes": 438, "categories": {"anti-social-behaviour": 42, "bicycle-theft": 7, "burglary": 19, "criminal-damage-arson": 29, "drugs": 41, "other-theft": 25, "possession-of-weapons": 13, "public-order": 37, "robbery": 4, "shoplifting": 33, "theft-from-the-person": 4, "vehicle-crime": 18, "violent-crime": 163, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WB101",
+  "neighbourhood_name": "Harlow Town Centre",
+  "force_id": "essex",
+  "lat": "51.7622",
+  "lng": "0.0955516",
+  "population": 20098,
+  "total_crimes": 438,
+  "categories": {
+    "anti-social-behaviour": 42,
+    "bicycle-theft": 7,
+    "burglary": 19,
+    "criminal-damage-arson": 29,
+    "drugs": 41,
+    "other-theft": 25,
+    "possession-of-weapons": 13,
+    "public-order": 37,
+    "robbery": 4,
+    "shoplifting": 33,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 18,
+    "violent-crime": 163,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

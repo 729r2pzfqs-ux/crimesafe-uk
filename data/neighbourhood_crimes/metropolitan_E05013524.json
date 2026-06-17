@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013524", "neighbourhood_name": "Hanger Hill", "force_id": "metropolitan", "lat": "51.5268", "lng": "-0.295232", "population": 15867, "total_crimes": 598, "categories": {"anti-social-behaviour": 126, "bicycle-theft": 4, "burglary": 30, "criminal-damage-arson": 17, "drugs": 20, "other-theft": 52, "possession-of-weapons": 4, "public-order": 30, "robbery": 14, "shoplifting": 64, "theft-from-the-person": 36, "vehicle-crime": 67, "violent-crime": 130, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013524",
+  "neighbourhood_name": "Hanger Hill",
+  "force_id": "metropolitan",
+  "lat": "51.5268",
+  "lng": "-0.295232",
+  "population": 16188,
+  "total_crimes": 598,
+  "categories": {
+    "anti-social-behaviour": 126,
+    "bicycle-theft": 4,
+    "burglary": 30,
+    "criminal-damage-arson": 17,
+    "drugs": 20,
+    "other-theft": 52,
+    "possession-of-weapons": 4,
+    "public-order": 30,
+    "robbery": 14,
+    "shoplifting": 64,
+    "theft-from-the-person": 36,
+    "vehicle-crime": 67,
+    "violent-crime": 130,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 36.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

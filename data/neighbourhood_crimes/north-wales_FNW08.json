@@ -1,1 +1,25 @@
-{"neighbourhood_id": "FNW08", "neighbourhood_name": "Holywell Central", "force_id": "north-wales", "lat": "53.2742", "lng": "-3.22042", "population": 12098, "total_crimes": 80, "categories": {"anti-social-behaviour": 23, "burglary": 3, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 6, "public-order": 3, "shoplifting": 5, "vehicle-crime": 1, "violent-crime": 29, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW08",
+  "neighbourhood_name": "Holywell Central",
+  "force_id": "north-wales",
+  "lat": "53.2742",
+  "lng": "-3.22042",
+  "population": 2147,
+  "total_crimes": 80,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 6,
+    "public-order": 3,
+    "shoplifting": 5,
+    "vehicle-crime": 1,
+    "violent-crime": 29,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

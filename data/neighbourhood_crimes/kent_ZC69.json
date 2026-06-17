@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZC69", "neighbourhood_name": "Singleton West", "force_id": "kent", "lat": "51.1382", "lng": "0.834819", "population": 12098, "total_crimes": 140, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 14, "drugs": 5, "other-theft": 9, "possession-of-weapons": 2, "public-order": 8, "robbery": 1, "shoplifting": 9, "vehicle-crime": 5, "violent-crime": 59, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC69",
+  "neighbourhood_name": "Singleton West",
+  "force_id": "kent",
+  "lat": "51.1382",
+  "lng": "0.834819",
+  "population": 2026,
+  "total_crimes": 140,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 14,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 9,
+    "vehicle-crime": 5,
+    "violent-crime": 59,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 69.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

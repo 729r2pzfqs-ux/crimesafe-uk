@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013816", "neighbourhood_name": "Hillside", "force_id": "metropolitan", "lat": "51.42", "lng": "-0.211394", "population": 9076, "total_crimes": 296, "categories": {"anti-social-behaviour": 56, "bicycle-theft": 6, "burglary": 14, "criminal-damage-arson": 15, "drugs": 11, "other-theft": 25, "possession-of-weapons": 2, "public-order": 15, "robbery": 10, "shoplifting": 46, "theft-from-the-person": 8, "vehicle-crime": 28, "violent-crime": 56, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013816",
+  "neighbourhood_name": "Hillside",
+  "force_id": "metropolitan",
+  "lat": "51.42",
+  "lng": "-0.211394",
+  "population": 9318,
+  "total_crimes": 296,
+  "categories": {
+    "anti-social-behaviour": 56,
+    "bicycle-theft": 6,
+    "burglary": 14,
+    "criminal-damage-arson": 15,
+    "drugs": 11,
+    "other-theft": 25,
+    "possession-of-weapons": 2,
+    "public-order": 15,
+    "robbery": 10,
+    "shoplifting": 46,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 28,
+    "violent-crime": 56,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

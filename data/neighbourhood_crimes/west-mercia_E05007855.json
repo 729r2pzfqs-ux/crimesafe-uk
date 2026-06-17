@@ -1,1 +1,14 @@
-{"neighbourhood_id": "E05007855", "neighbourhood_name": "Upton", "force_id": "west-mercia", "lat": "52.0356", "lng": "-2.25115", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007855",
+  "neighbourhood_name": "Upton",
+  "force_id": "west-mercia",
+  "lat": "52.0356",
+  "lng": "-2.25115",
+  "population": 10775,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

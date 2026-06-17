@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DEV.4062", "neighbourhood_name": "St James", "force_id": "devon-and-cornwall", "lat": "50.7306", "lng": "-3.52826", "population": 12098, "total_crimes": 622, "categories": {"anti-social-behaviour": 78, "bicycle-theft": 10, "burglary": 23, "criminal-damage-arson": 40, "drugs": 23, "other-theft": 36, "possession-of-weapons": 10, "public-order": 39, "robbery": 4, "shoplifting": 73, "theft-from-the-person": 8, "vehicle-crime": 14, "violent-crime": 248, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4062",
+  "neighbourhood_name": "St James",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.7306",
+  "lng": "-3.52826",
+  "population": 8678,
+  "total_crimes": 622,
+  "categories": {
+    "anti-social-behaviour": 78,
+    "bicycle-theft": 10,
+    "burglary": 23,
+    "criminal-damage-arson": 40,
+    "drugs": 23,
+    "other-theft": 36,
+    "possession-of-weapons": 10,
+    "public-order": 39,
+    "robbery": 4,
+    "shoplifting": 73,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 14,
+    "violent-crime": 248,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 71.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

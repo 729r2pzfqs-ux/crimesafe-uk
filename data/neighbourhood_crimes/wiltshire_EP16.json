@@ -1,1 +1,19 @@
-{"neighbourhood_id": "EP16", "neighbourhood_name": "Chippenham Rural", "force_id": "wiltshire", "lat": "51.5005", "lng": "-2.16424", "population": 12098, "total_crimes": 6, "categories": {"other-theft": 2, "public-order": 1, "shoplifting": 1, "violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EP16",
+  "neighbourhood_name": "Chippenham Rural",
+  "force_id": "wiltshire",
+  "lat": "51.5005",
+  "lng": "-2.16424",
+  "population": 8933,
+  "total_crimes": 6,
+  "categories": {
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 1,
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,17 @@
-{"neighbourhood_id": "C405", "neighbourhood_name": "Kilgetty and Begelly", "force_id": "dyfed-powys", "lat": "51.7428", "lng": "-4.73862", "population": 12098, "total_crimes": 3, "categories": {"other-theft": 2, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C405",
+  "neighbourhood_name": "Kilgetty and Begelly",
+  "force_id": "dyfed-powys",
+  "lat": "51.7428",
+  "lng": "-4.73862",
+  "population": 2336,
+  "total_crimes": 3,
+  "categories": {
+    "other-theft": 2,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

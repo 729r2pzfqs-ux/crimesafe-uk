@@ -1,1 +1,29 @@
-{"neighbourhood_id": "2SC02", "neighbourhood_name": "Bargate", "force_id": "hampshire", "lat": "50.8998", "lng": "-1.40114", "population": 12098, "total_crimes": 811, "categories": {"anti-social-behaviour": 73, "bicycle-theft": 14, "burglary": 20, "criminal-damage-arson": 30, "drugs": 82, "other-theft": 54, "possession-of-weapons": 10, "public-order": 69, "robbery": 12, "shoplifting": 122, "theft-from-the-person": 7, "vehicle-crime": 30, "violent-crime": 282, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "2SC02",
+  "neighbourhood_name": "Bargate",
+  "force_id": "hampshire",
+  "lat": "50.8998",
+  "lng": "-1.40114",
+  "population": 18975,
+  "total_crimes": 811,
+  "categories": {
+    "anti-social-behaviour": 73,
+    "bicycle-theft": 14,
+    "burglary": 20,
+    "criminal-damage-arson": 30,
+    "drugs": 82,
+    "other-theft": 54,
+    "possession-of-weapons": 10,
+    "public-order": 69,
+    "robbery": 12,
+    "shoplifting": 122,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 30,
+    "violent-crime": 282,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

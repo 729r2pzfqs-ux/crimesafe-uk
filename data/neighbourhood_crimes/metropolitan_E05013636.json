@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013636", "neighbourhood_name": "East Finchley", "force_id": "metropolitan", "lat": "51.5951", "lng": "-0.170429", "population": 16639, "total_crimes": 355, "categories": {"anti-social-behaviour": 85, "bicycle-theft": 4, "burglary": 23, "criminal-damage-arson": 22, "drugs": 18, "other-theft": 18, "possession-of-weapons": 2, "public-order": 18, "robbery": 14, "shoplifting": 21, "theft-from-the-person": 7, "vehicle-crime": 29, "violent-crime": 91, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013636",
+  "neighbourhood_name": "East Finchley",
+  "force_id": "metropolitan",
+  "lat": "51.5951",
+  "lng": "-0.170429",
+  "population": 17572,
+  "total_crimes": 355,
+  "categories": {
+    "anti-social-behaviour": 85,
+    "bicycle-theft": 4,
+    "burglary": 23,
+    "criminal-damage-arson": 22,
+    "drugs": 18,
+    "other-theft": 18,
+    "possession-of-weapons": 2,
+    "public-order": 18,
+    "robbery": 14,
+    "shoplifting": 21,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 29,
+    "violent-crime": 91,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

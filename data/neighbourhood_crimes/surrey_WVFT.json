@@ -1,1 +1,26 @@
-{"neighbourhood_id": "WVFT", "neighbourhood_name": "Farnham Town Centre", "force_id": "surrey", "lat": "51.2189", "lng": "-0.799335", "population": 12098, "total_crimes": 78, "categories": {"anti-social-behaviour": 13, "bicycle-theft": 3, "burglary": 2, "criminal-damage-arson": 7, "drugs": 1, "other-theft": 7, "possession-of-weapons": 2, "public-order": 8, "robbery": 1, "shoplifting": 9, "violent-crime": 25}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WVFT",
+  "neighbourhood_name": "Farnham Town Centre",
+  "force_id": "surrey",
+  "lat": "51.2189",
+  "lng": "-0.799335",
+  "population": 8386,
+  "total_crimes": 78,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "bicycle-theft": 3,
+    "burglary": 2,
+    "criminal-damage-arson": 7,
+    "drugs": 1,
+    "other-theft": 7,
+    "possession-of-weapons": 2,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 9,
+    "violent-crime": 25
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

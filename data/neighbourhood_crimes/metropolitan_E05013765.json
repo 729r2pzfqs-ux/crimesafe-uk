@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013765", "neighbourhood_name": "Sutton Central", "force_id": "metropolitan", "lat": "51.3649", "lng": "-0.18951", "population": 12098, "total_crimes": 491, "categories": {"anti-social-behaviour": 97, "bicycle-theft": 4, "burglary": 17, "criminal-damage-arson": 33, "drugs": 18, "other-theft": 30, "possession-of-weapons": 3, "public-order": 48, "robbery": 12, "shoplifting": 26, "theft-from-the-person": 10, "vehicle-crime": 33, "violent-crime": 154, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013765",
+  "neighbourhood_name": "Sutton Central",
+  "force_id": "metropolitan",
+  "lat": "51.3649",
+  "lng": "-0.18951",
+  "population": 8799,
+  "total_crimes": 491,
+  "categories": {
+    "anti-social-behaviour": 97,
+    "bicycle-theft": 4,
+    "burglary": 17,
+    "criminal-damage-arson": 33,
+    "drugs": 18,
+    "other-theft": 30,
+    "possession-of-weapons": 3,
+    "public-order": 48,
+    "robbery": 12,
+    "shoplifting": 26,
+    "theft-from-the-person": 10,
+    "vehicle-crime": 33,
+    "violent-crime": 154,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

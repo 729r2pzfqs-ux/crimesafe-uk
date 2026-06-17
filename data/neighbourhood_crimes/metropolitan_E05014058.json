@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05014058", "neighbourhood_name": "Chadwell Heath", "force_id": "metropolitan", "lat": "51.5851", "lng": "0.138813", "population": 13702, "total_crimes": 216, "categories": {"anti-social-behaviour": 57, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 13, "drugs": 10, "other-theft": 9, "public-order": 14, "robbery": 6, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 19, "violent-crime": 72, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014058",
+  "neighbourhood_name": "Chadwell Heath",
+  "force_id": "metropolitan",
+  "lat": "51.5851",
+  "lng": "0.138813",
+  "population": 12948,
+  "total_crimes": 216,
+  "categories": {
+    "anti-social-behaviour": 57,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 13,
+    "drugs": 10,
+    "other-theft": 9,
+    "public-order": 14,
+    "robbery": 6,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 19,
+    "violent-crime": 72,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

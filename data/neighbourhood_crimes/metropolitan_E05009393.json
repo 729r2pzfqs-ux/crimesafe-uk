@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009393", "neighbourhood_name": "Courtfield", "force_id": "metropolitan", "lat": "51.4913", "lng": "-0.1814", "population": 12098, "total_crimes": 1292, "categories": {"anti-social-behaviour": 289, "bicycle-theft": 18, "burglary": 55, "criminal-damage-arson": 42, "drugs": 24, "other-theft": 178, "possession-of-weapons": 1, "public-order": 78, "robbery": 24, "shoplifting": 112, "theft-from-the-person": 80, "vehicle-crime": 118, "violent-crime": 262, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009393",
+  "neighbourhood_name": "Courtfield",
+  "force_id": "metropolitan",
+  "lat": "51.4913",
+  "lng": "-0.1814",
+  "population": 4512,
+  "total_crimes": 1292,
+  "categories": {
+    "anti-social-behaviour": 289,
+    "bicycle-theft": 18,
+    "burglary": 55,
+    "criminal-damage-arson": 42,
+    "drugs": 24,
+    "other-theft": 178,
+    "possession-of-weapons": 1,
+    "public-order": 78,
+    "robbery": 24,
+    "shoplifting": 112,
+    "theft-from-the-person": 80,
+    "vehicle-crime": 118,
+    "violent-crime": 262,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 286.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

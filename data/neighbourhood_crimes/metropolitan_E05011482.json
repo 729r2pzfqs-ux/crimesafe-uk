@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011482", "neighbourhood_name": "Shirley North", "force_id": "metropolitan", "lat": "51.3832", "lng": "-0.0504475", "population": 12098, "total_crimes": 218, "categories": {"anti-social-behaviour": 43, "burglary": 17, "criminal-damage-arson": 15, "drugs": 6, "other-theft": 17, "possession-of-weapons": 2, "public-order": 7, "robbery": 4, "shoplifting": 30, "theft-from-the-person": 1, "vehicle-crime": 11, "violent-crime": 64, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011482",
+  "neighbourhood_name": "Shirley North",
+  "force_id": "metropolitan",
+  "lat": "51.3832",
+  "lng": "-0.0504475",
+  "population": 14360,
+  "total_crimes": 218,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "burglary": 17,
+    "criminal-damage-arson": 15,
+    "drugs": 6,
+    "other-theft": 17,
+    "possession-of-weapons": 2,
+    "public-order": 7,
+    "robbery": 4,
+    "shoplifting": 30,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 11,
+    "violent-crime": 64,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

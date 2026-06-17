@@ -1,1 +1,28 @@
-{"neighbourhood_id": "A049", "neighbourhood_name": "Dafen", "force_id": "dyfed-powys", "lat": "51.6927", "lng": "-4.129", "population": 12098, "total_crimes": 158, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 22, "drugs": 10, "other-theft": 10, "possession-of-weapons": 1, "public-order": 7, "shoplifting": 6, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 76, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A049",
+  "neighbourhood_name": "Dafen",
+  "force_id": "dyfed-powys",
+  "lat": "51.6927",
+  "lng": "-4.129",
+  "population": 3532,
+  "total_crimes": 158,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 22,
+    "drugs": 10,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "shoplifting": 6,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 76,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

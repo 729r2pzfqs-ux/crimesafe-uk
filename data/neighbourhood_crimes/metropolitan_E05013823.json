@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013823", "neighbourhood_name": "Raynes Park", "force_id": "metropolitan", "lat": "51.4092", "lng": "-0.231827", "population": 13722, "total_crimes": 197, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 5, "burglary": 10, "criminal-damage-arson": 12, "drugs": 1, "other-theft": 13, "possession-of-weapons": 1, "public-order": 7, "robbery": 7, "shoplifting": 30, "theft-from-the-person": 2, "vehicle-crime": 28, "violent-crime": 53, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013823",
+  "neighbourhood_name": "Raynes Park",
+  "force_id": "metropolitan",
+  "lat": "51.4092",
+  "lng": "-0.231827",
+  "population": 13501,
+  "total_crimes": 197,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 5,
+    "burglary": 10,
+    "criminal-damage-arson": 12,
+    "drugs": 1,
+    "other-theft": 13,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 7,
+    "shoplifting": 30,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 28,
+    "violent-crime": 53,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

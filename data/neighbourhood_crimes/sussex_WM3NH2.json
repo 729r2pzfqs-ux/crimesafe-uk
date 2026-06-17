@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WM3NH2", "neighbourhood_name": "Imberhorne and Baldwins", "force_id": "sussex", "lat": "51.1321", "lng": "-0.033294", "population": 12098, "total_crimes": 75, "categories": {"anti-social-behaviour": 19, "burglary": 1, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 2, "public-order": 4, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 30, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WM3NH2",
+  "neighbourhood_name": "Imberhorne and Baldwins",
+  "force_id": "sussex",
+  "lat": "51.1321",
+  "lng": "-0.033294",
+  "population": 9960,
+  "total_crimes": 75,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 4,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 30,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

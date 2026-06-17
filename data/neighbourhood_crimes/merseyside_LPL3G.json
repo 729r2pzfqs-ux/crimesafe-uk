@@ -1,1 +1,27 @@
-{"neighbourhood_id": "LPL3G", "neighbourhood_name": "Grassendale and Cressington", "force_id": "merseyside", "lat": "53.3612", "lng": "-2.91171", "population": 12098, "total_crimes": 147, "categories": {"anti-social-behaviour": 18, "burglary": 6, "criminal-damage-arson": 20, "drugs": 6, "other-theft": 3, "possession-of-weapons": 1, "public-order": 14, "robbery": 2, "shoplifting": 7, "vehicle-crime": 3, "violent-crime": 63, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL3G",
+  "neighbourhood_name": "Grassendale and Cressington",
+  "force_id": "merseyside",
+  "lat": "53.3612",
+  "lng": "-2.91171",
+  "population": 6847,
+  "total_crimes": 147,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "burglary": 6,
+    "criminal-damage-arson": 20,
+    "drugs": 6,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 14,
+    "robbery": 2,
+    "shoplifting": 7,
+    "vehicle-crime": 3,
+    "violent-crime": 63,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

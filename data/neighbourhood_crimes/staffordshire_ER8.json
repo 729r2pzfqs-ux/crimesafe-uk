@@ -1,1 +1,18 @@
-{"neighbourhood_id": "ER8", "neighbourhood_name": "Shenstone,Stonnal,Little Aston", "force_id": "staffordshire", "lat": "52.6337", "lng": "-1.86267", "population": 12098, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "vehicle-crime": 3, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ER8",
+  "neighbourhood_name": "Shenstone,Stonnal,Little Aston",
+  "force_id": "staffordshire",
+  "lat": "52.6337",
+  "lng": "-1.86267",
+  "population": 7910,
+  "total_crimes": 6,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

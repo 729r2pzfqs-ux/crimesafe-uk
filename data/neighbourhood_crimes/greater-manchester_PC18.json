@@ -1,1 +1,18 @@
-{"neighbourhood_id": "PC18", "neighbourhood_name": "Spotland and Falinge", "force_id": "greater-manchester", "lat": "53.6329", "lng": "-2.18771", "population": 12098, "total_crimes": 3, "categories": {"bicycle-theft": 1, "public-order": 1, "vehicle-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PC18",
+  "neighbourhood_name": "Spotland and Falinge",
+  "force_id": "greater-manchester",
+  "lat": "53.6329",
+  "lng": "-2.18771",
+  "population": 13305,
+  "total_crimes": 3,
+  "categories": {
+    "bicycle-theft": 1,
+    "public-order": 1,
+    "vehicle-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

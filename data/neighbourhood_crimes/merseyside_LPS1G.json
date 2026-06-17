@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPS1G", "neighbourhood_name": "Litherland", "force_id": "merseyside", "lat": "53.4674", "lng": "-2.99249", "population": 12098, "total_crimes": 394, "categories": {"anti-social-behaviour": 27, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 41, "drugs": 15, "other-theft": 14, "possession-of-weapons": 3, "public-order": 23, "robbery": 3, "shoplifting": 28, "theft-from-the-person": 1, "vehicle-crime": 14, "violent-crime": 209, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPS1G",
+  "neighbourhood_name": "Litherland",
+  "force_id": "merseyside",
+  "lat": "53.4674",
+  "lng": "-2.99249",
+  "population": 11465,
+  "total_crimes": 394,
+  "categories": {
+    "anti-social-behaviour": 27,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 41,
+    "drugs": 15,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 23,
+    "robbery": 3,
+    "shoplifting": 28,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 14,
+    "violent-crime": 209,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 34.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPL2M", "neighbourhood_name": "Knotty Ash and Dovecot Park", "force_id": "merseyside", "lat": "53.4157", "lng": "-2.8817", "population": 12098, "total_crimes": 285, "categories": {"anti-social-behaviour": 45, "bicycle-theft": 2, "burglary": 8, "criminal-damage-arson": 22, "drugs": 7, "other-theft": 15, "public-order": 30, "robbery": 1, "shoplifting": 7, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 137, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL2M",
+  "neighbourhood_name": "Knotty Ash and Dovecot Park",
+  "force_id": "merseyside",
+  "lat": "53.4157",
+  "lng": "-2.8817",
+  "population": 5742,
+  "total_crimes": 285,
+  "categories": {
+    "anti-social-behaviour": 45,
+    "bicycle-theft": 2,
+    "burglary": 8,
+    "criminal-damage-arson": 22,
+    "drugs": 7,
+    "other-theft": 15,
+    "public-order": 30,
+    "robbery": 1,
+    "shoplifting": 7,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 137,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 49.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

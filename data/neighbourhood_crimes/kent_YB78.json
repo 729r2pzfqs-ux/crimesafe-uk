@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YB78", "neighbourhood_name": "Aylesford South &amp; Ditton", "force_id": "kent", "lat": "51.2921", "lng": "0.472056", "population": 12098, "total_crimes": 75, "categories": {"anti-social-behaviour": 21, "bicycle-theft": 1, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 10, "possession-of-weapons": 2, "public-order": 3, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 25, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YB78",
+  "neighbourhood_name": "Aylesford South &amp; Ditton",
+  "force_id": "kent",
+  "lat": "51.2921",
+  "lng": "0.472056",
+  "population": 9568,
+  "total_crimes": 75,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 10,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 25,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

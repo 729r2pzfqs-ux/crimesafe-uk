@@ -1,1 +1,29 @@
-{"neighbourhood_id": "N448", "neighbourhood_name": "Oxford Central", "force_id": "thames-valley", "lat": "51.7535", "lng": "-1.27099", "population": 12098, "total_crimes": 422, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 28, "burglary": 6, "criminal-damage-arson": 20, "drugs": 18, "other-theft": 31, "possession-of-weapons": 2, "public-order": 49, "robbery": 7, "shoplifting": 70, "theft-from-the-person": 13, "vehicle-crime": 13, "violent-crime": 131, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N448",
+  "neighbourhood_name": "Oxford Central",
+  "force_id": "thames-valley",
+  "lat": "51.7535",
+  "lng": "-1.27099",
+  "population": 26075,
+  "total_crimes": 422,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 28,
+    "burglary": 6,
+    "criminal-damage-arson": 20,
+    "drugs": 18,
+    "other-theft": 31,
+    "possession-of-weapons": 2,
+    "public-order": 49,
+    "robbery": 7,
+    "shoplifting": 70,
+    "theft-from-the-person": 13,
+    "vehicle-crime": 13,
+    "violent-crime": 131,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 16.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

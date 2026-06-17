@@ -1,1 +1,29 @@
-{"neighbourhood_id": "B03", "neighbourhood_name": "Welwyn Hatfield West", "force_id": "hertfordshire", "lat": "51.7755", "lng": "-0.245779", "population": 12098, "total_crimes": 148, "categories": {"anti-social-behaviour": 24, "bicycle-theft": 2, "burglary": 5, "criminal-damage-arson": 7, "drugs": 6, "other-theft": 6, "possession-of-weapons": 4, "public-order": 11, "robbery": 3, "shoplifting": 11, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 54, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B03",
+  "neighbourhood_name": "Welwyn Hatfield West",
+  "force_id": "hertfordshire",
+  "lat": "51.7755",
+  "lng": "-0.245779",
+  "population": 40997,
+  "total_crimes": 148,
+  "categories": {
+    "anti-social-behaviour": 24,
+    "bicycle-theft": 2,
+    "burglary": 5,
+    "criminal-damage-arson": 7,
+    "drugs": 6,
+    "other-theft": 6,
+    "possession-of-weapons": 4,
+    "public-order": 11,
+    "robbery": 3,
+    "shoplifting": 11,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 12,
+    "violent-crime": 54,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 18
+}

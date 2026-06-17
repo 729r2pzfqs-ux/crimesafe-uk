@@ -1,1 +1,24 @@
-{"neighbourhood_id": "NB1", "neighbourhood_name": "Audley &amp; Halmerend", "force_id": "staffordshire", "lat": "53.0488", "lng": "-2.3213", "population": 12098, "total_crimes": 20, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 1, "public-order": 1, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB1",
+  "neighbourhood_name": "Audley &amp; Halmerend",
+  "force_id": "staffordshire",
+  "lat": "53.0488",
+  "lng": "-2.3213",
+  "population": 9816,
+  "total_crimes": 20,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

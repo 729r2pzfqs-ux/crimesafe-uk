@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CE3NH13", "neighbourhood_name": "Withdean", "force_id": "sussex", "lat": "50.8658", "lng": "-0.161177", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 6, "burglary": 2, "criminal-damage-arson": 6, "drugs": 3, "other-theft": 4, "public-order": 1, "robbery": 1, "shoplifting": 2, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE3NH13",
+  "neighbourhood_name": "Withdean",
+  "force_id": "sussex",
+  "lat": "50.8658",
+  "lng": "-0.161177",
+  "population": 15177,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "burglary": 2,
+    "criminal-damage-arson": 6,
+    "drugs": 3,
+    "other-theft": 4,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 2,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

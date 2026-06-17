@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XB63", "neighbourhood_name": "Chalkwell", "force_id": "kent", "lat": "51.3433", "lng": "0.729434", "population": 12098, "total_crimes": 278, "categories": {"anti-social-behaviour": 67, "bicycle-theft": 1, "burglary": 7, "criminal-damage-arson": 19, "drugs": 8, "other-theft": 15, "possession-of-weapons": 5, "public-order": 15, "robbery": 2, "shoplifting": 29, "theft-from-the-person": 2, "vehicle-crime": 9, "violent-crime": 94, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB63",
+  "neighbourhood_name": "Chalkwell",
+  "force_id": "kent",
+  "lat": "51.3433",
+  "lng": "0.729434",
+  "population": 3273,
+  "total_crimes": 278,
+  "categories": {
+    "anti-social-behaviour": 67,
+    "bicycle-theft": 1,
+    "burglary": 7,
+    "criminal-damage-arson": 19,
+    "drugs": 8,
+    "other-theft": 15,
+    "possession-of-weapons": 5,
+    "public-order": 15,
+    "robbery": 2,
+    "shoplifting": 29,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 9,
+    "violent-crime": 94,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 84.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

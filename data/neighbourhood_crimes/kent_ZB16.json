@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ZB16", "neighbourhood_name": "Birchington South", "force_id": "kent", "lat": "51.3705", "lng": "1.29695", "population": 12098, "total_crimes": 41, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 2, "public-order": 2, "robbery": 1, "shoplifting": 1, "violent-crime": 14, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB16",
+  "neighbourhood_name": "Birchington South",
+  "force_id": "kent",
+  "lat": "51.3705",
+  "lng": "1.29695",
+  "population": 6436,
+  "total_crimes": 41,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 1,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 1,
+    "violent-crime": 14,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

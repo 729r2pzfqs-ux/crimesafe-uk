@@ -1,1 +1,17 @@
-{"neighbourhood_id": "NB101", "neighbourhood_name": "Chelmsford South", "force_id": "essex", "lat": "51.6863", "lng": "0.500081", "population": 12098, "total_crimes": 2, "categories": {"vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NB101",
+  "neighbourhood_name": "Chelmsford South",
+  "force_id": "essex",
+  "lat": "51.6863",
+  "lng": "0.500081",
+  "population": 52012,
+  "total_crimes": 2,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 32
+}

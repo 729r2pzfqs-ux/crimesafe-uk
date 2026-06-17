@@ -1,1 +1,20 @@
-{"neighbourhood_id": "XB27", "neighbourhood_name": "Boughton and Courtenay", "force_id": "kent", "lat": "51.3045", "lng": "0.942921", "population": 12098, "total_crimes": 8, "categories": {"criminal-damage-arson": 1, "other-theft": 2, "public-order": 1, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XB27",
+  "neighbourhood_name": "Boughton and Courtenay",
+  "force_id": "kent",
+  "lat": "51.3045",
+  "lng": "0.942921",
+  "population": 6720,
+  "total_crimes": 8,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

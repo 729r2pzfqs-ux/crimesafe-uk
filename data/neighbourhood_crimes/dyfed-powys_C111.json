@@ -1,1 +1,23 @@
-{"neighbourhood_id": "C111", "neighbourhood_name": "Neyland - East", "force_id": "dyfed-powys", "lat": "51.7141", "lng": "-4.94981", "population": 12098, "total_crimes": 33, "categories": {"anti-social-behaviour": 3, "burglary": 5, "criminal-damage-arson": 4, "other-theft": 2, "public-order": 2, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C111",
+  "neighbourhood_name": "Neyland - East",
+  "force_id": "dyfed-powys",
+  "lat": "51.7141",
+  "lng": "-4.94981",
+  "population": 2288,
+  "total_crimes": 33,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "burglary": 5,
+    "criminal-damage-arson": 4,
+    "other-theft": 2,
+    "public-order": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

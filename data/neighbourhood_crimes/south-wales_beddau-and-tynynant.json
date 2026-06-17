@@ -1,1 +1,26 @@
-{"neighbourhood_id": "beddau-and-tynynant", "neighbourhood_name": "Beddau and Tyn-y-nant", "force_id": "south-wales", "lat": "51.5576", "lng": "-3.35609", "population": 12098, "total_crimes": 65, "categories": {"anti-social-behaviour": 5, "burglary": 1, "criminal-damage-arson": 10, "drugs": 1, "other-theft": 2, "public-order": 6, "robbery": 1, "shoplifting": 8, "vehicle-crime": 1, "violent-crime": 27, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "beddau-and-tynynant",
+  "neighbourhood_name": "Beddau and Tyn-y-nant",
+  "force_id": "south-wales",
+  "lat": "51.5576",
+  "lng": "-3.35609",
+  "population": 8181,
+  "total_crimes": 65,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 6,
+    "robbery": 1,
+    "shoplifting": 8,
+    "vehicle-crime": 1,
+    "violent-crime": 27,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

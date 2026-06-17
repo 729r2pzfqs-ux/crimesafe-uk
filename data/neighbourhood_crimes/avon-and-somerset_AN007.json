@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AN007", "neighbourhood_name": "Yeo Vale", "force_id": "avon-and-somerset", "lat": "51.3498", "lng": "-2.79058", "population": "0", "total_crimes": 5, "categories": {"vehicle-crime": 1, "violent-crime": 3, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AN007",
+  "neighbourhood_name": "Yeo Vale",
+  "force_id": "avon-and-somerset",
+  "lat": "51.3498",
+  "lng": "-2.79058",
+  "population": 7701,
+  "total_crimes": 5,
+  "categories": {
+    "vehicle-crime": 1,
+    "violent-crime": 3,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

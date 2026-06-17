@@ -1,1 +1,18 @@
-{"neighbourhood_id": "6LE01", "neighbourhood_name": "East Cowes and Wootton", "force_id": "hampshire", "lat": "50.7355", "lng": "-1.25155", "population": 12098, "total_crimes": 8, "categories": {"burglary": 1, "other-theft": 1, "violent-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "6LE01",
+  "neighbourhood_name": "East Cowes and Wootton",
+  "force_id": "hampshire",
+  "lat": "50.7355",
+  "lng": "-1.25155",
+  "population": 12688,
+  "total_crimes": 8,
+  "categories": {
+    "burglary": 1,
+    "other-theft": 1,
+    "violent-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

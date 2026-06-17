@@ -1,1 +1,24 @@
-{"neighbourhood_id": "CIOS.4046", "neighbourhood_name": "Bodmin St Petroc", "force_id": "devon-and-cornwall", "lat": "50.4678", "lng": "-4.70305", "population": 12098, "total_crimes": 97, "categories": {"anti-social-behaviour": 14, "burglary": 3, "criminal-damage-arson": 15, "other-theft": 5, "public-order": 4, "robbery": 1, "shoplifting": 6, "violent-crime": 48, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4046",
+  "neighbourhood_name": "Bodmin St Petroc",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.4678",
+  "lng": "-4.70305",
+  "population": 8468,
+  "total_crimes": 97,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "burglary": 3,
+    "criminal-damage-arson": 15,
+    "other-theft": 5,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 6,
+    "violent-crime": 48,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 11.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,20 @@
-{"neighbourhood_id": "N392", "neighbourhood_name": "Maidenhead South", "force_id": "thames-valley", "lat": "51.4901", "lng": "-0.726218", "population": 12098, "total_crimes": 15, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 2, "violent-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N392",
+  "neighbourhood_name": "Maidenhead South",
+  "force_id": "thames-valley",
+  "lat": "51.4901",
+  "lng": "-0.726218",
+  "population": 31243,
+  "total_crimes": 15,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 2,
+    "violent-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 19
+}

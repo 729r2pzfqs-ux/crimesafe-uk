@@ -1,1 +1,26 @@
-{"neighbourhood_id": "SC103", "neighbourhood_name": "Southend East", "force_id": "essex", "lat": "51.5444", "lng": "0.763108", "population": 12098, "total_crimes": 122, "categories": {"anti-social-behaviour": 27, "burglary": 7, "criminal-damage-arson": 11, "drugs": 5, "other-theft": 4, "possession-of-weapons": 1, "public-order": 4, "shoplifting": 5, "vehicle-crime": 9, "violent-crime": 44, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC103",
+  "neighbourhood_name": "Southend East",
+  "force_id": "essex",
+  "lat": "51.5444",
+  "lng": "0.763108",
+  "population": 52849,
+  "total_crimes": 122,
+  "categories": {
+    "anti-social-behaviour": 27,
+    "burglary": 7,
+    "criminal-damage-arson": 11,
+    "drugs": 5,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "shoplifting": 5,
+    "vehicle-crime": 9,
+    "violent-crime": 44,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 33
+}

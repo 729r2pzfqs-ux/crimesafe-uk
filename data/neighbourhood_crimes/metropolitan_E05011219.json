@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05011219", "neighbourhood_name": "Bexleyheath", "force_id": "metropolitan", "lat": "51.4602", "lng": "0.149212", "population": 4979, "total_crimes": 294, "categories": {"anti-social-behaviour": 65, "bicycle-theft": 2, "burglary": 18, "criminal-damage-arson": 17, "drugs": 13, "other-theft": 19, "public-order": 10, "robbery": 8, "shoplifting": 35, "theft-from-the-person": 9, "vehicle-crime": 15, "violent-crime": 77, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011219",
+  "neighbourhood_name": "Bexleyheath",
+  "force_id": "metropolitan",
+  "lat": "51.4602",
+  "lng": "0.149212",
+  "population": 15315,
+  "total_crimes": 294,
+  "categories": {
+    "anti-social-behaviour": 65,
+    "bicycle-theft": 2,
+    "burglary": 18,
+    "criminal-damage-arson": 17,
+    "drugs": 13,
+    "other-theft": 19,
+    "public-order": 10,
+    "robbery": 8,
+    "shoplifting": 35,
+    "theft-from-the-person": 9,
+    "vehicle-crime": 15,
+    "violent-crime": 77,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

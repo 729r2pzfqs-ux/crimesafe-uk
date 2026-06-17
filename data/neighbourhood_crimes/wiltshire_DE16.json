@@ -1,1 +1,27 @@
-{"neighbourhood_id": "DE16", "neighbourhood_name": "Eldene", "force_id": "wiltshire", "lat": "51.5545", "lng": "-1.73218", "population": 12098, "total_crimes": 159, "categories": {"anti-social-behaviour": 28, "burglary": 3, "criminal-damage-arson": 6, "drugs": 9, "other-theft": 8, "public-order": 12, "robbery": 3, "shoplifting": 10, "theft-from-the-person": 1, "vehicle-crime": 4, "violent-crime": 72, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DE16",
+  "neighbourhood_name": "Eldene",
+  "force_id": "wiltshire",
+  "lat": "51.5545",
+  "lng": "-1.73218",
+  "population": 4228,
+  "total_crimes": 159,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "burglary": 3,
+    "criminal-damage-arson": 6,
+    "drugs": 9,
+    "other-theft": 8,
+    "public-order": 12,
+    "robbery": 3,
+    "shoplifting": 10,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 4,
+    "violent-crime": 72,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

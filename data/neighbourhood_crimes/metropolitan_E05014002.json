@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014002", "neighbourhood_name": "Penge and Cator", "force_id": "metropolitan", "lat": "51.4163", "lng": "-0.0526104", "population": 12098, "total_crimes": 445, "categories": {"anti-social-behaviour": 91, "bicycle-theft": 4, "burglary": 23, "criminal-damage-arson": 23, "drugs": 11, "other-theft": 34, "possession-of-weapons": 2, "public-order": 21, "robbery": 10, "shoplifting": 33, "theft-from-the-person": 8, "vehicle-crime": 50, "violent-crime": 133, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014002",
+  "neighbourhood_name": "Penge and Cator",
+  "force_id": "metropolitan",
+  "lat": "51.4163",
+  "lng": "-0.0526104",
+  "population": 21256,
+  "total_crimes": 445,
+  "categories": {
+    "anti-social-behaviour": 91,
+    "bicycle-theft": 4,
+    "burglary": 23,
+    "criminal-damage-arson": 23,
+    "drugs": 11,
+    "other-theft": 34,
+    "possession-of-weapons": 2,
+    "public-order": 21,
+    "robbery": 10,
+    "shoplifting": 33,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 50,
+    "violent-crime": 133,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 12
+}

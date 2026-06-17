@@ -1,1 +1,25 @@
-{"neighbourhood_id": "CLS4", "neighbourhood_name": "Chester-le-Street (Rural North)", "force_id": "durham", "lat": "54.8783", "lng": "-1.62529", "population": 12098, "total_crimes": 72, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 20, "drugs": 1, "other-theft": 3, "public-order": 4, "robbery": 1, "vehicle-crime": 1, "violent-crime": 30, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CLS4",
+  "neighbourhood_name": "Chester-le-Street (Rural North)",
+  "force_id": "durham",
+  "lat": "54.8783",
+  "lng": "-1.62529",
+  "population": 11680,
+  "total_crimes": 72,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 20,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 4,
+    "robbery": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 30,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

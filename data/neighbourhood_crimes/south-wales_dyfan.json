@@ -1,1 +1,25 @@
-{"neighbourhood_id": "dyfan", "neighbourhood_name": "Dyfan", "force_id": "south-wales", "lat": "51.4172", "lng": "-3.28928", "population": 12098, "total_crimes": 77, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 6, "drugs": 2, "other-theft": 8, "possession-of-weapons": 1, "public-order": 12, "shoplifting": 8, "vehicle-crime": 7, "violent-crime": 28, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "dyfan",
+  "neighbourhood_name": "Dyfan",
+  "force_id": "south-wales",
+  "lat": "51.4172",
+  "lng": "-3.28928",
+  "population": 5622,
+  "total_crimes": 77,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 6,
+    "drugs": 2,
+    "other-theft": 8,
+    "possession-of-weapons": 1,
+    "public-order": 12,
+    "shoplifting": 8,
+    "vehicle-crime": 7,
+    "violent-crime": 28,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

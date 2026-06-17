@@ -1,1 +1,26 @@
-{"neighbourhood_id": "N396", "neighbourhood_name": "Windsor West", "force_id": "thames-valley", "lat": "51.4701", "lng": "-0.64169", "population": 12098, "total_crimes": 116, "categories": {"anti-social-behaviour": 9, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 7, "drugs": 2, "other-theft": 11, "public-order": 11, "shoplifting": 8, "vehicle-crime": 5, "violent-crime": 51, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N396",
+  "neighbourhood_name": "Windsor West",
+  "force_id": "thames-valley",
+  "lat": "51.4701",
+  "lng": "-0.64169",
+  "population": 24494,
+  "total_crimes": 116,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 7,
+    "drugs": 2,
+    "other-theft": 11,
+    "public-order": 11,
+    "shoplifting": 8,
+    "vehicle-crime": 5,
+    "violent-crime": 51,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

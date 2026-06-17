@@ -1,1 +1,27 @@
-{"neighbourhood_id": "PLY.4011", "neighbourhood_name": "Efford", "force_id": "devon-and-cornwall", "lat": "50.389", "lng": "-4.10106", "population": 12098, "total_crimes": 137, "categories": {"anti-social-behaviour": 13, "burglary": 2, "criminal-damage-arson": 10, "drugs": 11, "other-theft": 4, "possession-of-weapons": 2, "public-order": 15, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 66, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "PLY.4011",
+  "neighbourhood_name": "Efford",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.389",
+  "lng": "-4.10106",
+  "population": 7382,
+  "total_crimes": 137,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "burglary": 2,
+    "criminal-damage-arson": 10,
+    "drugs": 11,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 15,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 66,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 18.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

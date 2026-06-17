@@ -1,1 +1,25 @@
-{"neighbourhood_id": "ZB13", "neighbourhood_name": "Garlinge", "force_id": "kent", "lat": "51.3775", "lng": "1.35828", "population": 12098, "total_crimes": 95, "categories": {"anti-social-behaviour": 20, "criminal-damage-arson": 9, "drugs": 4, "other-theft": 9, "possession-of-weapons": 2, "public-order": 3, "shoplifting": 6, "vehicle-crime": 5, "violent-crime": 34, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZB13",
+  "neighbourhood_name": "Garlinge",
+  "force_id": "kent",
+  "lat": "51.3775",
+  "lng": "1.35828",
+  "population": 4726,
+  "total_crimes": 95,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "criminal-damage-arson": 9,
+    "drugs": 4,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "shoplifting": 6,
+    "vehicle-crime": 5,
+    "violent-crime": 34,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

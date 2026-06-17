@@ -1,1 +1,27 @@
-{"neighbourhood_id": "AD", "neighbourhood_name": "Doncaster North", "force_id": "south-yorkshire", "lat": "53.5696", "lng": "-1.19905", "population": 12098, "total_crimes": 132, "categories": {"anti-social-behaviour": 32, "burglary": 3, "criminal-damage-arson": 9, "other-theft": 7, "possession-of-weapons": 2, "public-order": 7, "robbery": 1, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 53, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AD",
+  "neighbourhood_name": "Doncaster North",
+  "force_id": "south-yorkshire",
+  "lat": "53.5696",
+  "lng": "-1.19905",
+  "population": 70735,
+  "total_crimes": 132,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "burglary": 3,
+    "criminal-damage-arson": 9,
+    "other-theft": 7,
+    "possession-of-weapons": 2,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 4,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 53,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 46
+}

@@ -1,1 +1,23 @@
-{"neighbourhood_id": "DEV.4086", "neighbourhood_name": "Honiton Town", "force_id": "devon-and-cornwall", "lat": "50.7852", "lng": "-3.18473", "population": 12098, "total_crimes": 27, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 3, "other-theft": 1, "public-order": 1, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 15, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4086",
+  "neighbourhood_name": "Honiton Town",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.7852",
+  "lng": "-3.18473",
+  "population": 11499,
+  "total_crimes": 27,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 3,
+    "other-theft": 1,
+    "public-order": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 15,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

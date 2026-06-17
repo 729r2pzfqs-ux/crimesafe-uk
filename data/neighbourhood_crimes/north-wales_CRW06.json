@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CRW06", "neighbourhood_name": "Tremeirchion", "force_id": "north-wales", "lat": "53.2579", "lng": "-3.38796", "population": 12098, "total_crimes": 1, "categories": {"other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CRW06",
+  "neighbourhood_name": "Tremeirchion",
+  "force_id": "north-wales",
+  "lat": "53.2579",
+  "lng": "-3.38796",
+  "population": 1756,
+  "total_crimes": 1,
+  "categories": {
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

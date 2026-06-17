@@ -1,1 +1,28 @@
-{"neighbourhood_id": "KDT_HUD", "neighbourhood_name": "Huddersfield", "force_id": "west-yorkshire", "lat": "53.6512", "lng": "-1.78086", "population": 12098, "total_crimes": 565, "categories": {"anti-social-behaviour": 41, "burglary": 15, "criminal-damage-arson": 28, "drugs": 37, "other-theft": 35, "possession-of-weapons": 3, "public-order": 70, "robbery": 4, "shoplifting": 91, "theft-from-the-person": 6, "vehicle-crime": 14, "violent-crime": 202, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "KDT_HUD",
+  "neighbourhood_name": "Huddersfield",
+  "force_id": "west-yorkshire",
+  "lat": "53.6512",
+  "lng": "-1.78086",
+  "population": 139405,
+  "total_crimes": 565,
+  "categories": {
+    "anti-social-behaviour": 41,
+    "burglary": 15,
+    "criminal-damage-arson": 28,
+    "drugs": 37,
+    "other-theft": 35,
+    "possession-of-weapons": 3,
+    "public-order": 70,
+    "robbery": 4,
+    "shoplifting": 91,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 14,
+    "violent-crime": 202,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 80
+}

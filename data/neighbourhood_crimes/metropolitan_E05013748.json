@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013748", "neighbourhood_name": "Shepherd's Bush Green", "force_id": "metropolitan", "lat": "51.5069", "lng": "-0.222947", "population": 5509, "total_crimes": 1367, "categories": {"anti-social-behaviour": 293, "bicycle-theft": 13, "burglary": 39, "criminal-damage-arson": 70, "drugs": 69, "other-theft": 118, "possession-of-weapons": 9, "public-order": 85, "robbery": 16, "shoplifting": 212, "theft-from-the-person": 59, "vehicle-crime": 71, "violent-crime": 294, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013748",
+  "neighbourhood_name": "Shepherd's Bush Green",
+  "force_id": "metropolitan",
+  "lat": "51.5069",
+  "lng": "-0.222947",
+  "population": 5588,
+  "total_crimes": 1367,
+  "categories": {
+    "anti-social-behaviour": 293,
+    "bicycle-theft": 13,
+    "burglary": 39,
+    "criminal-damage-arson": 70,
+    "drugs": 69,
+    "other-theft": 118,
+    "possession-of-weapons": 9,
+    "public-order": 85,
+    "robbery": 16,
+    "shoplifting": 212,
+    "theft-from-the-person": 59,
+    "vehicle-crime": 71,
+    "violent-crime": 294,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 244.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

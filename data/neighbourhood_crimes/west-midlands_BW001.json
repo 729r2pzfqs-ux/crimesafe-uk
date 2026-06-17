@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BW001", "neighbourhood_name": "City Centre", "force_id": "west-midlands", "lat": "52.4814", "lng": "-1.89763", "population": 12098, "total_crimes": 1711, "categories": {"anti-social-behaviour": 68, "bicycle-theft": 9, "burglary": 31, "criminal-damage-arson": 96, "drugs": 79, "other-theft": 148, "possession-of-weapons": 35, "public-order": 135, "robbery": 47, "shoplifting": 203, "theft-from-the-person": 47, "vehicle-crime": 103, "violent-crime": 682, "other-crime": 28}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BW001",
+  "neighbourhood_name": "City Centre",
+  "force_id": "west-midlands",
+  "lat": "52.4814",
+  "lng": "-1.89763",
+  "population": 15653,
+  "total_crimes": 1711,
+  "categories": {
+    "anti-social-behaviour": 68,
+    "bicycle-theft": 9,
+    "burglary": 31,
+    "criminal-damage-arson": 96,
+    "drugs": 79,
+    "other-theft": 148,
+    "possession-of-weapons": 35,
+    "public-order": 135,
+    "robbery": 47,
+    "shoplifting": 203,
+    "theft-from-the-person": 47,
+    "vehicle-crime": 103,
+    "violent-crime": 682,
+    "other-crime": 28
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 109.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

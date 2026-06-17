@@ -1,1 +1,17 @@
-{"neighbourhood_id": "NS4", "neighbourhood_name": "Brackley", "force_id": "northamptonshire", "lat": "52.0383", "lng": "-1.21972", "population": 12098, "total_crimes": 2, "categories": {"burglary": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NS4",
+  "neighbourhood_name": "Brackley",
+  "force_id": "northamptonshire",
+  "lat": "52.0383",
+  "lng": "-1.21972",
+  "population": 24826,
+  "total_crimes": 2,
+  "categories": {
+    "burglary": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 15
+}

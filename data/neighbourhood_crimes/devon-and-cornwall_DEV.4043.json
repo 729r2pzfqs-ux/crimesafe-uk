@@ -1,1 +1,22 @@
-{"neighbourhood_id": "DEV.4043", "neighbourhood_name": "Kingsteignton", "force_id": "devon-and-cornwall", "lat": "50.5634", "lng": "-3.60938", "population": 12098, "total_crimes": 23, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 2, "possession-of-weapons": 1, "vehicle-crime": 1, "violent-crime": 15, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4043",
+  "neighbourhood_name": "Kingsteignton",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.5634",
+  "lng": "-3.60938",
+  "population": 12307,
+  "total_crimes": 23,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 15,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

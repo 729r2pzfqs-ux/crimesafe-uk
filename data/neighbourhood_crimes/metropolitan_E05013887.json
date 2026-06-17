@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013887", "neighbourhood_name": "Forest", "force_id": "metropolitan", "lat": "51.5762", "lng": "0.000156111", "population": 12098, "total_crimes": 772, "categories": {"anti-social-behaviour": 193, "bicycle-theft": 8, "burglary": 38, "criminal-damage-arson": 39, "drugs": 36, "other-theft": 61, "possession-of-weapons": 3, "public-order": 39, "robbery": 19, "shoplifting": 45, "theft-from-the-person": 31, "vehicle-crime": 55, "violent-crime": 200, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013887",
+  "neighbourhood_name": "Forest",
+  "force_id": "metropolitan",
+  "lat": "51.5762",
+  "lng": "0.000156111",
+  "population": 13137,
+  "total_crimes": 772,
+  "categories": {
+    "anti-social-behaviour": 193,
+    "bicycle-theft": 8,
+    "burglary": 38,
+    "criminal-damage-arson": 39,
+    "drugs": 36,
+    "other-theft": 61,
+    "possession-of-weapons": 3,
+    "public-order": 39,
+    "robbery": 19,
+    "shoplifting": 45,
+    "theft-from-the-person": 31,
+    "vehicle-crime": 55,
+    "violent-crime": 200,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 58.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

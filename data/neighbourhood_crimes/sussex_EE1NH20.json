@@ -1,1 +1,19 @@
-{"neighbourhood_id": "EE1NH20", "neighbourhood_name": "Meads", "force_id": "sussex", "lat": "50.7493", "lng": "0.246161", "population": 12098, "total_crimes": 9, "categories": {"anti-social-behaviour": 4, "public-order": 1, "vehicle-crime": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE1NH20",
+  "neighbourhood_name": "Meads",
+  "force_id": "sussex",
+  "lat": "50.7493",
+  "lng": "0.246161",
+  "population": 1866,
+  "total_crimes": 9,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "public-order": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

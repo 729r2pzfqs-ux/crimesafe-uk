@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013776N", "neighbourhood_name": "Fulwell and Hampton Hill", "force_id": "metropolitan", "lat": "51.4299", "lng": "-0.356662", "population": 12098, "total_crimes": 182, "categories": {"anti-social-behaviour": 43, "bicycle-theft": 1, "burglary": 11, "criminal-damage-arson": 10, "drugs": 2, "other-theft": 8, "public-order": 8, "robbery": 1, "shoplifting": 24, "theft-from-the-person": 1, "vehicle-crime": 27, "violent-crime": 44, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013776N",
+  "neighbourhood_name": "Fulwell and Hampton Hill",
+  "force_id": "metropolitan",
+  "lat": "51.4299",
+  "lng": "-0.356662",
+  "population": 10661,
+  "total_crimes": 182,
+  "categories": {
+    "anti-social-behaviour": 43,
+    "bicycle-theft": 1,
+    "burglary": 11,
+    "criminal-damage-arson": 10,
+    "drugs": 2,
+    "other-theft": 8,
+    "public-order": 8,
+    "robbery": 1,
+    "shoplifting": 24,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 27,
+    "violent-crime": 44,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

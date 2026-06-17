@@ -1,1 +1,24 @@
-{"neighbourhood_id": "B506", "neighbourhood_name": "Cardigan - Rhyd-y-Fuwch", "force_id": "dyfed-powys", "lat": "52.0894", "lng": "-4.64184", "population": 12098, "total_crimes": 33, "categories": {"anti-social-behaviour": 1, "burglary": 1, "criminal-damage-arson": 2, "drugs": 3, "other-theft": 2, "public-order": 4, "robbery": 1, "shoplifting": 4, "violent-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B506",
+  "neighbourhood_name": "Cardigan - Rhyd-y-Fuwch",
+  "force_id": "dyfed-powys",
+  "lat": "52.0894",
+  "lng": "-4.64184",
+  "population": 1182,
+  "total_crimes": 33,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 4,
+    "violent-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014100", "neighbourhood_name": "Clapham East", "force_id": "metropolitan", "lat": "51.4629", "lng": "-0.132346", "population": 12098, "total_crimes": 1557, "categories": {"anti-social-behaviour": 308, "bicycle-theft": 31, "burglary": 74, "criminal-damage-arson": 56, "drugs": 52, "other-theft": 124, "possession-of-weapons": 16, "public-order": 66, "robbery": 65, "shoplifting": 151, "theft-from-the-person": 118, "vehicle-crime": 129, "violent-crime": 343, "other-crime": 24}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014100",
+  "neighbourhood_name": "Clapham East",
+  "force_id": "metropolitan",
+  "lat": "51.4629",
+  "lng": "-0.132346",
+  "population": 10651,
+  "total_crimes": 1557,
+  "categories": {
+    "anti-social-behaviour": 308,
+    "bicycle-theft": 31,
+    "burglary": 74,
+    "criminal-damage-arson": 56,
+    "drugs": 52,
+    "other-theft": 124,
+    "possession-of-weapons": 16,
+    "public-order": 66,
+    "robbery": 65,
+    "shoplifting": 151,
+    "theft-from-the-person": 118,
+    "vehicle-crime": 129,
+    "violent-crime": 343,
+    "other-crime": 24
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 146.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

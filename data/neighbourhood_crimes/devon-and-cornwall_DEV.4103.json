@@ -1,1 +1,26 @@
-{"neighbourhood_id": "DEV.4103", "neighbourhood_name": "Ilfracombe East &amp;amp; Central", "force_id": "devon-and-cornwall", "lat": "51.1971", "lng": "-4.11192", "population": 12098, "total_crimes": 91, "categories": {"anti-social-behaviour": 12, "burglary": 3, "criminal-damage-arson": 10, "drugs": 3, "other-theft": 5, "public-order": 3, "shoplifting": 2, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 47, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4103",
+  "neighbourhood_name": "Ilfracombe East &amp;amp; Central",
+  "force_id": "devon-and-cornwall",
+  "lat": "51.1971",
+  "lng": "-4.11192",
+  "population": 6912,
+  "total_crimes": 91,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "drugs": 3,
+    "other-theft": 5,
+    "public-order": 3,
+    "shoplifting": 2,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 47,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

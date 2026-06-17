@@ -1,1 +1,22 @@
-{"neighbourhood_id": "FSW19", "neighbourhood_name": "Buckley Mountain", "force_id": "north-wales", "lat": "53.1815", "lng": "-3.08834", "population": 12098, "total_crimes": 21, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 1, "other-theft": 2, "robbery": 1, "vehicle-crime": 1, "violent-crime": 10, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FSW19",
+  "neighbourhood_name": "Buckley Mountain",
+  "force_id": "north-wales",
+  "lat": "53.1815",
+  "lng": "-3.08834",
+  "population": 3409,
+  "total_crimes": 21,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 1,
+    "other-theft": 2,
+    "robbery": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 10,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

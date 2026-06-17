@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013976", "neighbourhood_name": "Hylands and Harrow Lodge", "force_id": "metropolitan", "lat": "51.5635", "lng": "0.198006", "population": 12014, "total_crimes": 361, "categories": {"anti-social-behaviour": 81, "bicycle-theft": 2, "burglary": 9, "criminal-damage-arson": 17, "drugs": 12, "other-theft": 23, "possession-of-weapons": 9, "public-order": 21, "robbery": 17, "shoplifting": 27, "theft-from-the-person": 8, "vehicle-crime": 34, "violent-crime": 95, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013976",
+  "neighbourhood_name": "Hylands and Harrow Lodge",
+  "force_id": "metropolitan",
+  "lat": "51.5635",
+  "lng": "0.198006",
+  "population": 13284,
+  "total_crimes": 361,
+  "categories": {
+    "anti-social-behaviour": 81,
+    "bicycle-theft": 2,
+    "burglary": 9,
+    "criminal-damage-arson": 17,
+    "drugs": 12,
+    "other-theft": 23,
+    "possession-of-weapons": 9,
+    "public-order": 21,
+    "robbery": 17,
+    "shoplifting": 27,
+    "theft-from-the-person": 8,
+    "vehicle-crime": 34,
+    "violent-crime": 95,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

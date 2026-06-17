@@ -1,1 +1,27 @@
-{"neighbourhood_id": "CH1", "neighbourhood_name": "Chorley East", "force_id": "lancashire", "lat": "53.6502", "lng": "-2.61014", "population": 12098, "total_crimes": 238, "categories": {"anti-social-behaviour": 32, "bicycle-theft": 1, "burglary": 8, "criminal-damage-arson": 10, "drugs": 13, "other-theft": 12, "public-order": 18, "shoplifting": 25, "theft-from-the-person": 3, "vehicle-crime": 3, "violent-crime": 110, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CH1",
+  "neighbourhood_name": "Chorley East",
+  "force_id": "lancashire",
+  "lat": "53.6502",
+  "lng": "-2.61014",
+  "population": 8754,
+  "total_crimes": 238,
+  "categories": {
+    "anti-social-behaviour": 32,
+    "bicycle-theft": 1,
+    "burglary": 8,
+    "criminal-damage-arson": 10,
+    "drugs": 13,
+    "other-theft": 12,
+    "public-order": 18,
+    "shoplifting": 25,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 3,
+    "violent-crime": 110,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 27.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

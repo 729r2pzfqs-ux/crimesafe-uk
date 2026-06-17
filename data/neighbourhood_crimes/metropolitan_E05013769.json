@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013769", "neighbourhood_name": "The Wrythe", "force_id": "metropolitan", "lat": "51.3748", "lng": "-0.169839", "population": 11564, "total_crimes": 380, "categories": {"anti-social-behaviour": 65, "burglary": 15, "criminal-damage-arson": 15, "drugs": 14, "other-theft": 13, "possession-of-weapons": 5, "public-order": 30, "robbery": 3, "shoplifting": 66, "theft-from-the-person": 3, "vehicle-crime": 31, "violent-crime": 119, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013769",
+  "neighbourhood_name": "The Wrythe",
+  "force_id": "metropolitan",
+  "lat": "51.3748",
+  "lng": "-0.169839",
+  "population": 11335,
+  "total_crimes": 380,
+  "categories": {
+    "anti-social-behaviour": 65,
+    "burglary": 15,
+    "criminal-damage-arson": 15,
+    "drugs": 14,
+    "other-theft": 13,
+    "possession-of-weapons": 5,
+    "public-order": 30,
+    "robbery": 3,
+    "shoplifting": 66,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 31,
+    "violent-crime": 119,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 33.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

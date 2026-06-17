@@ -1,1 +1,21 @@
-{"neighbourhood_id": "14", "neighbourhood_name": "Burton upon Stather and Winterton", "force_id": "humberside", "lat": "53.6583", "lng": "-0.621863", "population": 12098, "total_crimes": 21, "categories": {"burglary": 4, "criminal-damage-arson": 2, "possession-of-weapons": 1, "public-order": 3, "vehicle-crime": 2, "violent-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "14",
+  "neighbourhood_name": "Burton upon Stather and Winterton",
+  "force_id": "humberside",
+  "lat": "53.6583",
+  "lng": "-0.621863",
+  "population": 11246,
+  "total_crimes": 21,
+  "categories": {
+    "burglary": 4,
+    "criminal-damage-arson": 2,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

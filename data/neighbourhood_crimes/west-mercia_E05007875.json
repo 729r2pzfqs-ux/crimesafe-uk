@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05007875", "neighbourhood_name": "Headless Cross and Oakenshaw", "force_id": "west-mercia", "lat": "52.2868", "lng": "-1.9365", "population": 8362, "total_crimes": 161, "categories": {"anti-social-behaviour": 21, "burglary": 3, "criminal-damage-arson": 13, "drugs": 6, "other-theft": 6, "possession-of-weapons": 3, "public-order": 14, "robbery": 4, "shoplifting": 6, "vehicle-crime": 1, "violent-crime": 79, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05007875",
+  "neighbourhood_name": "Headless Cross and Oakenshaw",
+  "force_id": "west-mercia",
+  "lat": "52.2868",
+  "lng": "-1.9365",
+  "population": 8282,
+  "total_crimes": 161,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 3,
+    "criminal-damage-arson": 13,
+    "drugs": 6,
+    "other-theft": 6,
+    "possession-of-weapons": 3,
+    "public-order": 14,
+    "robbery": 4,
+    "shoplifting": 6,
+    "vehicle-crime": 1,
+    "violent-crime": 79,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

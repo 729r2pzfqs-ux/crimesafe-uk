@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013617", "neighbourhood_name": "Heston Central", "force_id": "metropolitan", "lat": "51.4797", "lng": "-0.382421", "population": 12098, "total_crimes": 460, "categories": {"anti-social-behaviour": 85, "bicycle-theft": 6, "burglary": 17, "criminal-damage-arson": 30, "drugs": 5, "other-theft": 24, "possession-of-weapons": 2, "public-order": 29, "robbery": 12, "shoplifting": 31, "theft-from-the-person": 15, "vehicle-crime": 35, "violent-crime": 166, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013617",
+  "neighbourhood_name": "Heston Central",
+  "force_id": "metropolitan",
+  "lat": "51.4797",
+  "lng": "-0.382421",
+  "population": 13117,
+  "total_crimes": 460,
+  "categories": {
+    "anti-social-behaviour": 85,
+    "bicycle-theft": 6,
+    "burglary": 17,
+    "criminal-damage-arson": 30,
+    "drugs": 5,
+    "other-theft": 24,
+    "possession-of-weapons": 2,
+    "public-order": 29,
+    "robbery": 12,
+    "shoplifting": 31,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 35,
+    "violent-crime": 166,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

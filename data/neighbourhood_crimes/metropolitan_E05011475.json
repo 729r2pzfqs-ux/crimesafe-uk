@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05011475", "neighbourhood_name": "Park Hill and Whitgift", "force_id": "metropolitan", "lat": "51.3692", "lng": "-0.0782337", "population": 12098, "total_crimes": 663, "categories": {"anti-social-behaviour": 170, "bicycle-theft": 2, "burglary": 29, "criminal-damage-arson": 28, "drugs": 31, "other-theft": 42, "possession-of-weapons": 9, "public-order": 32, "robbery": 16, "shoplifting": 72, "theft-from-the-person": 14, "vehicle-crime": 36, "violent-crime": 175, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05011475",
+  "neighbourhood_name": "Park Hill and Whitgift",
+  "force_id": "metropolitan",
+  "lat": "51.3692",
+  "lng": "-0.0782337",
+  "population": 5323,
+  "total_crimes": 663,
+  "categories": {
+    "anti-social-behaviour": 170,
+    "bicycle-theft": 2,
+    "burglary": 29,
+    "criminal-damage-arson": 28,
+    "drugs": 31,
+    "other-theft": 42,
+    "possession-of-weapons": 9,
+    "public-order": 32,
+    "robbery": 16,
+    "shoplifting": 72,
+    "theft-from-the-person": 14,
+    "vehicle-crime": 36,
+    "violent-crime": 175,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 124.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

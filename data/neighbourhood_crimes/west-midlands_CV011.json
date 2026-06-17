@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CV011", "neighbourhood_name": "Henley and Longford", "force_id": "west-midlands", "lat": "52.437", "lng": "-1.462", "population": 12098, "total_crimes": 293, "categories": {"anti-social-behaviour": 14, "bicycle-theft": 2, "burglary": 10, "criminal-damage-arson": 30, "drugs": 11, "other-theft": 19, "possession-of-weapons": 9, "public-order": 11, "robbery": 1, "shoplifting": 18, "theft-from-the-person": 4, "vehicle-crime": 20, "violent-crime": 141, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CV011",
+  "neighbourhood_name": "Henley and Longford",
+  "force_id": "west-midlands",
+  "lat": "52.437",
+  "lng": "-1.462",
+  "population": 42720,
+  "total_crimes": 293,
+  "categories": {
+    "anti-social-behaviour": 14,
+    "bicycle-theft": 2,
+    "burglary": 10,
+    "criminal-damage-arson": 30,
+    "drugs": 11,
+    "other-theft": 19,
+    "possession-of-weapons": 9,
+    "public-order": 11,
+    "robbery": 1,
+    "shoplifting": 18,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 20,
+    "violent-crime": 141,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 24
+}

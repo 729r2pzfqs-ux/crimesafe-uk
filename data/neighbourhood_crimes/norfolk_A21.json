@@ -1,1 +1,29 @@
-{"neighbourhood_id": "A21", "neighbourhood_name": "King's Lynn North", "force_id": "norfolk", "lat": "52.7673", "lng": "0.395786", "population": 12098, "total_crimes": 174, "categories": {"anti-social-behaviour": 18, "bicycle-theft": 5, "burglary": 9, "criminal-damage-arson": 8, "drugs": 17, "other-theft": 2, "possession-of-weapons": 4, "public-order": 17, "robbery": 1, "shoplifting": 24, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 61, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "A21",
+  "neighbourhood_name": "King's Lynn North",
+  "force_id": "norfolk",
+  "lat": "52.7673",
+  "lng": "0.395786",
+  "population": 9824,
+  "total_crimes": 174,
+  "categories": {
+    "anti-social-behaviour": 18,
+    "bicycle-theft": 5,
+    "burglary": 9,
+    "criminal-damage-arson": 8,
+    "drugs": 17,
+    "other-theft": 2,
+    "possession-of-weapons": 4,
+    "public-order": 17,
+    "robbery": 1,
+    "shoplifting": 24,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 61,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "DE21", "neighbourhood_name": "Walcot West", "force_id": "wiltshire", "lat": "51.5576", "lng": "-1.76711", "population": 12098, "total_crimes": 600, "categories": {"anti-social-behaviour": 121, "bicycle-theft": 4, "burglary": 13, "criminal-damage-arson": 49, "drugs": 20, "other-theft": 17, "possession-of-weapons": 10, "public-order": 55, "robbery": 7, "shoplifting": 63, "theft-from-the-person": 5, "vehicle-crime": 22, "violent-crime": 206, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DE21",
+  "neighbourhood_name": "Walcot West",
+  "force_id": "wiltshire",
+  "lat": "51.5576",
+  "lng": "-1.76711",
+  "population": 3241,
+  "total_crimes": 600,
+  "categories": {
+    "anti-social-behaviour": 121,
+    "bicycle-theft": 4,
+    "burglary": 13,
+    "criminal-damage-arson": 49,
+    "drugs": 20,
+    "other-theft": 17,
+    "possession-of-weapons": 10,
+    "public-order": 55,
+    "robbery": 7,
+    "shoplifting": 63,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 22,
+    "violent-crime": 206,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 185.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

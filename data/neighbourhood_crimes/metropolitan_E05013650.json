@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013650", "neighbourhood_name": "Whetstone", "force_id": "metropolitan", "lat": "51.6289", "lng": "-0.16942", "population": 12098, "total_crimes": 266, "categories": {"anti-social-behaviour": 53, "burglary": 24, "criminal-damage-arson": 17, "drugs": 3, "other-theft": 21, "possession-of-weapons": 3, "public-order": 11, "robbery": 9, "shoplifting": 13, "theft-from-the-person": 11, "vehicle-crime": 46, "violent-crime": 54, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013650",
+  "neighbourhood_name": "Whetstone",
+  "force_id": "metropolitan",
+  "lat": "51.6289",
+  "lng": "-0.16942",
+  "population": 11828,
+  "total_crimes": 266,
+  "categories": {
+    "anti-social-behaviour": 53,
+    "burglary": 24,
+    "criminal-damage-arson": 17,
+    "drugs": 3,
+    "other-theft": 21,
+    "possession-of-weapons": 3,
+    "public-order": 11,
+    "robbery": 9,
+    "shoplifting": 13,
+    "theft-from-the-person": 11,
+    "vehicle-crime": 46,
+    "violent-crime": 54,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 22.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

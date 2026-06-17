@@ -1,1 +1,28 @@
-{"neighbourhood_id": "N439", "neighbourhood_name": "Great Linford", "force_id": "thames-valley", "lat": "52.0626", "lng": "-0.741015", "population": 12098, "total_crimes": 135, "categories": {"anti-social-behaviour": 9, "burglary": 12, "criminal-damage-arson": 10, "drugs": 2, "other-theft": 12, "possession-of-weapons": 1, "public-order": 6, "robbery": 3, "shoplifting": 14, "theft-from-the-person": 2, "vehicle-crime": 12, "violent-crime": 48, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N439",
+  "neighbourhood_name": "Great Linford",
+  "force_id": "thames-valley",
+  "lat": "52.0626",
+  "lng": "-0.741015",
+  "population": 18905,
+  "total_crimes": 135,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "burglary": 12,
+    "criminal-damage-arson": 10,
+    "drugs": 2,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 6,
+    "robbery": 3,
+    "shoplifting": 14,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 12,
+    "violent-crime": 48,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 13
+}

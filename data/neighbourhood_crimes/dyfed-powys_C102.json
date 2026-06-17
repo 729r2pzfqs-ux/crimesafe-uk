@@ -1,1 +1,27 @@
-{"neighbourhood_id": "C102", "neighbourhood_name": "Milford - Hakin", "force_id": "dyfed-powys", "lat": "51.7117", "lng": "-5.04526", "population": 12098, "total_crimes": 150, "categories": {"anti-social-behaviour": 21, "burglary": 12, "criminal-damage-arson": 24, "drugs": 3, "other-theft": 9, "possession-of-weapons": 1, "public-order": 15, "shoplifting": 5, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 55, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "C102",
+  "neighbourhood_name": "Milford - Hakin",
+  "force_id": "dyfed-powys",
+  "lat": "51.7117",
+  "lng": "-5.04526",
+  "population": 2273,
+  "total_crimes": 150,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 12,
+    "criminal-damage-arson": 24,
+    "drugs": 3,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 15,
+    "shoplifting": 5,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 55,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 66.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

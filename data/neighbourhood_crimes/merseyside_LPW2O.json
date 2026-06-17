@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPW2O", "neighbourhood_name": "Birkenhead and Tranmere", "force_id": "merseyside", "lat": "53.3881", "lng": "-3.02178", "population": 12098, "total_crimes": 571, "categories": {"anti-social-behaviour": 64, "bicycle-theft": 3, "burglary": 14, "criminal-damage-arson": 36, "drugs": 38, "other-theft": 20, "possession-of-weapons": 9, "public-order": 64, "robbery": 9, "shoplifting": 74, "theft-from-the-person": 1, "vehicle-crime": 22, "violent-crime": 197, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPW2O",
+  "neighbourhood_name": "Birkenhead and Tranmere",
+  "force_id": "merseyside",
+  "lat": "53.3881",
+  "lng": "-3.02178",
+  "population": 15339,
+  "total_crimes": 571,
+  "categories": {
+    "anti-social-behaviour": 64,
+    "bicycle-theft": 3,
+    "burglary": 14,
+    "criminal-damage-arson": 36,
+    "drugs": 38,
+    "other-theft": 20,
+    "possession-of-weapons": 9,
+    "public-order": 64,
+    "robbery": 9,
+    "shoplifting": 74,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 22,
+    "violent-crime": 197,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 37.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

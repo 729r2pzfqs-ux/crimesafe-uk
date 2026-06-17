@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009373", "neighbourhood_name": "Hackney Downs", "force_id": "metropolitan", "lat": "51.5575", "lng": "-0.0622622", "population": 12998, "total_crimes": 1439, "categories": {"anti-social-behaviour": 279, "bicycle-theft": 38, "burglary": 67, "criminal-damage-arson": 60, "drugs": 65, "other-theft": 86, "possession-of-weapons": 12, "public-order": 85, "robbery": 43, "shoplifting": 117, "theft-from-the-person": 148, "vehicle-crime": 63, "violent-crime": 360, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009373",
+  "neighbourhood_name": "Hackney Downs",
+  "force_id": "metropolitan",
+  "lat": "51.5575",
+  "lng": "-0.0622622",
+  "population": 14120,
+  "total_crimes": 1439,
+  "categories": {
+    "anti-social-behaviour": 279,
+    "bicycle-theft": 38,
+    "burglary": 67,
+    "criminal-damage-arson": 60,
+    "drugs": 65,
+    "other-theft": 86,
+    "possession-of-weapons": 12,
+    "public-order": 85,
+    "robbery": 43,
+    "shoplifting": 117,
+    "theft-from-the-person": 148,
+    "vehicle-crime": 63,
+    "violent-crime": 360,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 101.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

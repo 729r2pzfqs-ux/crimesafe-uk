@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WRW21", "neighbourhood_name": "Pant", "force_id": "north-wales", "lat": "53.006", "lng": "-3.05536", "population": 12098, "total_crimes": 95, "categories": {"anti-social-behaviour": 26, "burglary": 2, "criminal-damage-arson": 5, "drugs": 3, "other-theft": 6, "public-order": 4, "shoplifting": 8, "vehicle-crime": 2, "violent-crime": 36, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW21",
+  "neighbourhood_name": "Pant",
+  "force_id": "north-wales",
+  "lat": "53.006",
+  "lng": "-3.05536",
+  "population": 2296,
+  "total_crimes": 95,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 3,
+    "other-theft": 6,
+    "public-order": 4,
+    "shoplifting": 8,
+    "vehicle-crime": 2,
+    "violent-crime": 36,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 41.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

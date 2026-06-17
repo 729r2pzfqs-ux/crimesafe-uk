@@ -1,1 +1,28 @@
-{"neighbourhood_id": "SC3", "neighbourhood_name": "Little Chell &amp; Stanfield", "force_id": "staffordshire", "lat": "53.059", "lng": "-2.19621", "population": 12098, "total_crimes": 411, "categories": {"anti-social-behaviour": 82, "bicycle-theft": 4, "burglary": 11, "criminal-damage-arson": 26, "drugs": 8, "other-theft": 22, "possession-of-weapons": 2, "public-order": 30, "robbery": 6, "shoplifting": 27, "vehicle-crime": 37, "violent-crime": 146, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SC3",
+  "neighbourhood_name": "Little Chell &amp; Stanfield",
+  "force_id": "staffordshire",
+  "lat": "53.059",
+  "lng": "-2.19621",
+  "population": 6416,
+  "total_crimes": 411,
+  "categories": {
+    "anti-social-behaviour": 82,
+    "bicycle-theft": 4,
+    "burglary": 11,
+    "criminal-damage-arson": 26,
+    "drugs": 8,
+    "other-theft": 22,
+    "possession-of-weapons": 2,
+    "public-order": 30,
+    "robbery": 6,
+    "shoplifting": 27,
+    "vehicle-crime": 37,
+    "violent-crime": 146,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 64.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "E05009977", "neighbourhood_name": "Hadley and Leegomery", "force_id": "west-mercia", "lat": "52.714", "lng": "-2.48778", "population": 12098, "total_crimes": 64, "categories": {"anti-social-behaviour": 8, "criminal-damage-arson": 3, "drugs": 4, "other-theft": 3, "possession-of-weapons": 2, "public-order": 3, "robbery": 2, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 34, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009977",
+  "neighbourhood_name": "Hadley and Leegomery",
+  "force_id": "west-mercia",
+  "lat": "52.714",
+  "lng": "-2.48778",
+  "population": 12367,
+  "total_crimes": 64,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "criminal-damage-arson": 3,
+    "drugs": 4,
+    "other-theft": 3,
+    "possession-of-weapons": 2,
+    "public-order": 3,
+    "robbery": 2,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 34,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

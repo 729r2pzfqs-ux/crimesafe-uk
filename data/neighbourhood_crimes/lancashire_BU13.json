@@ -1,1 +1,17 @@
-{"neighbourhood_id": "BU13", "neighbourhood_name": "Cliviger with Worsthorne", "force_id": "lancashire", "lat": "53.7615", "lng": "-2.18361", "population": 12098, "total_crimes": 2, "categories": {"criminal-damage-arson": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU13",
+  "neighbourhood_name": "Cliviger with Worsthorne",
+  "force_id": "lancashire",
+  "lat": "53.7615",
+  "lng": "-2.18361",
+  "population": 5017,
+  "total_crimes": 2,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

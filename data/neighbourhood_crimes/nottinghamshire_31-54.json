@@ -1,1 +1,29 @@
-{"neighbourhood_id": "31-54", "neighbourhood_name": "Sneinton and Dales", "force_id": "nottinghamshire", "lat": "52.9536", "lng": "-1.11174", "population": 12098, "total_crimes": 365, "categories": {"anti-social-behaviour": 50, "bicycle-theft": 2, "burglary": 13, "criminal-damage-arson": 32, "drugs": 8, "other-theft": 20, "possession-of-weapons": 3, "public-order": 27, "robbery": 4, "shoplifting": 22, "theft-from-the-person": 2, "vehicle-crime": 26, "violent-crime": 138, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "31-54",
+  "neighbourhood_name": "Sneinton and Dales",
+  "force_id": "nottinghamshire",
+  "lat": "52.9536",
+  "lng": "-1.11174",
+  "population": 17047,
+  "total_crimes": 365,
+  "categories": {
+    "anti-social-behaviour": 50,
+    "bicycle-theft": 2,
+    "burglary": 13,
+    "criminal-damage-arson": 32,
+    "drugs": 8,
+    "other-theft": 20,
+    "possession-of-weapons": 3,
+    "public-order": 27,
+    "robbery": 4,
+    "shoplifting": 22,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 26,
+    "violent-crime": 138,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 21.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

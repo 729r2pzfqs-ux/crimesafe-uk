@@ -1,1 +1,18 @@
-{"neighbourhood_id": "B201", "neighbourhood_name": "Tirymynach inc Bow St", "force_id": "dyfed-powys", "lat": "52.4464", "lng": "-4.03189", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "B201",
+  "neighbourhood_name": "Tirymynach inc Bow St",
+  "force_id": "dyfed-powys",
+  "lat": "52.4464",
+  "lng": "-4.03189",
+  "population": 1785,
+  "total_crimes": 3,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

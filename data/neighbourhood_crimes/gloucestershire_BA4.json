@@ -1,1 +1,17 @@
-{"neighbourhood_id": "BA4", "neighbourhood_name": "Barton, Tredworth and White City", "force_id": "gloucestershire", "lat": "51.8525", "lng": "-2.23386", "population": 12098, "total_crimes": 4, "categories": {"possession-of-weapons": 1, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BA4",
+  "neighbourhood_name": "Barton, Tredworth and White City",
+  "force_id": "gloucestershire",
+  "lat": "51.8525",
+  "lng": "-2.23386",
+  "population": 14932,
+  "total_crimes": 4,
+  "categories": {
+    "possession-of-weapons": 1,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

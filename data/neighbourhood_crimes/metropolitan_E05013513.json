@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013513", "neighbourhood_name": "Welsh Harp", "force_id": "metropolitan", "lat": "51.5694", "lng": "-0.261538", "population": 12098, "total_crimes": 460, "categories": {"anti-social-behaviour": 116, "bicycle-theft": 3, "burglary": 19, "criminal-damage-arson": 19, "drugs": 32, "other-theft": 39, "possession-of-weapons": 3, "public-order": 19, "robbery": 23, "shoplifting": 18, "theft-from-the-person": 21, "vehicle-crime": 29, "violent-crime": 113, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013513",
+  "neighbourhood_name": "Welsh Harp",
+  "force_id": "metropolitan",
+  "lat": "51.5694",
+  "lng": "-0.261538",
+  "population": 17312,
+  "total_crimes": 460,
+  "categories": {
+    "anti-social-behaviour": 116,
+    "bicycle-theft": 3,
+    "burglary": 19,
+    "criminal-damage-arson": 19,
+    "drugs": 32,
+    "other-theft": 39,
+    "possession-of-weapons": 3,
+    "public-order": 19,
+    "robbery": 23,
+    "shoplifting": 18,
+    "theft-from-the-person": 21,
+    "vehicle-crime": 29,
+    "violent-crime": 113,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 26.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

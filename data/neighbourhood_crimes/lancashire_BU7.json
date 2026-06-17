@@ -1,1 +1,27 @@
-{"neighbourhood_id": "BU7", "neighbourhood_name": "Queensgate", "force_id": "lancashire", "lat": "53.808", "lng": "-2.23756", "population": 12098, "total_crimes": 180, "categories": {"anti-social-behaviour": 28, "burglary": 6, "criminal-damage-arson": 6, "drugs": 6, "other-theft": 11, "possession-of-weapons": 2, "public-order": 12, "robbery": 4, "shoplifting": 18, "vehicle-crime": 9, "violent-crime": 75, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BU7",
+  "neighbourhood_name": "Queensgate",
+  "force_id": "lancashire",
+  "lat": "53.808",
+  "lng": "-2.23756",
+  "population": 5981,
+  "total_crimes": 180,
+  "categories": {
+    "anti-social-behaviour": 28,
+    "burglary": 6,
+    "criminal-damage-arson": 6,
+    "drugs": 6,
+    "other-theft": 11,
+    "possession-of-weapons": 2,
+    "public-order": 12,
+    "robbery": 4,
+    "shoplifting": 18,
+    "vehicle-crime": 9,
+    "violent-crime": 75,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 30.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

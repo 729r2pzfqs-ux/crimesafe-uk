@@ -1,1 +1,26 @@
-{"neighbourhood_id": "HY12", "neighbourhood_name": "Overton - Hyndburn", "force_id": "lancashire", "lat": "53.7955", "lng": "-2.41777", "population": 12098, "total_crimes": 64, "categories": {"anti-social-behaviour": 4, "burglary": 7, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 4, "public-order": 4, "robbery": 1, "shoplifting": 4, "theft-from-the-person": 3, "vehicle-crime": 7, "violent-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "HY12",
+  "neighbourhood_name": "Overton - Hyndburn",
+  "force_id": "lancashire",
+  "lat": "53.7955",
+  "lng": "-2.41777",
+  "population": 6436,
+  "total_crimes": 64,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 7,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 4,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 4,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 7,
+    "violent-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "WRW17", "neighbourhood_name": "Minera", "force_id": "north-wales", "lat": "53.0596", "lng": "-3.10569", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "public-order": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WRW17",
+  "neighbourhood_name": "Minera",
+  "force_id": "north-wales",
+  "lat": "53.0596",
+  "lng": "-3.10569",
+  "population": 2327,
+  "total_crimes": 3,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "public-order": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

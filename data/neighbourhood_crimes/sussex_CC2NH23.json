@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CC2NH23", "neighbourhood_name": "Bristol Estate", "force_id": "sussex", "lat": "50.8232", "lng": "-0.114699", "population": 12098, "total_crimes": 765, "categories": {"anti-social-behaviour": 182, "bicycle-theft": 5, "burglary": 18, "criminal-damage-arson": 53, "drugs": 46, "other-theft": 57, "possession-of-weapons": 9, "public-order": 53, "robbery": 12, "shoplifting": 57, "theft-from-the-person": 2, "vehicle-crime": 15, "violent-crime": 236, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CC2NH23",
+  "neighbourhood_name": "Bristol Estate",
+  "force_id": "sussex",
+  "lat": "50.8232",
+  "lng": "-0.114699",
+  "population": 1488,
+  "total_crimes": 765,
+  "categories": {
+    "anti-social-behaviour": 182,
+    "bicycle-theft": 5,
+    "burglary": 18,
+    "criminal-damage-arson": 53,
+    "drugs": 46,
+    "other-theft": 57,
+    "possession-of-weapons": 9,
+    "public-order": 53,
+    "robbery": 12,
+    "shoplifting": 57,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 15,
+    "violent-crime": 236,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 514.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CN206", "neighbourhood_name": "Boyd Valley, Emersons and Lyde Green", "force_id": "avon-and-somerset", "lat": "51.4772", "lng": "-2.39194", "population": "0", "total_crimes": 3, "categories": {"burglary": 1, "criminal-damage-arson": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CN206",
+  "neighbourhood_name": "Boyd Valley, Emersons and Lyde Green",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4772",
+  "lng": "-2.39194",
+  "population": 16998,
+  "total_crimes": 3,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

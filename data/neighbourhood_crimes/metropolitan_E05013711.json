@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013711", "neighbourhood_name": "St Peter's and Canalside", "force_id": "metropolitan", "lat": "51.5316", "lng": "-0.0988747", "population": 12098, "total_crimes": 2294, "categories": {"anti-social-behaviour": 401, "bicycle-theft": 52, "burglary": 91, "criminal-damage-arson": 73, "drugs": 134, "other-theft": 225, "possession-of-weapons": 20, "public-order": 109, "robbery": 81, "shoplifting": 299, "theft-from-the-person": 264, "vehicle-crime": 78, "violent-crime": 450, "other-crime": 17}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013711",
+  "neighbourhood_name": "St Peter's and Canalside",
+  "force_id": "metropolitan",
+  "lat": "51.5316",
+  "lng": "-0.0988747",
+  "population": 10302,
+  "total_crimes": 2294,
+  "categories": {
+    "anti-social-behaviour": 401,
+    "bicycle-theft": 52,
+    "burglary": 91,
+    "criminal-damage-arson": 73,
+    "drugs": 134,
+    "other-theft": 225,
+    "possession-of-weapons": 20,
+    "public-order": 109,
+    "robbery": 81,
+    "shoplifting": 299,
+    "theft-from-the-person": 264,
+    "vehicle-crime": 78,
+    "violent-crime": 450,
+    "other-crime": 17
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 222.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

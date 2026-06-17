@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013999", "neighbourhood_name": "Kelsey and Eden Park", "force_id": "metropolitan", "lat": "51.3917", "lng": "-0.0313336", "population": 12098, "total_crimes": 171, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 14, "drugs": 3, "other-theft": 12, "possession-of-weapons": 1, "public-order": 8, "robbery": 4, "shoplifting": 18, "theft-from-the-person": 1, "vehicle-crime": 14, "violent-crime": 63}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013999",
+  "neighbourhood_name": "Kelsey and Eden Park",
+  "force_id": "metropolitan",
+  "lat": "51.3917",
+  "lng": "-0.0313336",
+  "population": 16575,
+  "total_crimes": 171,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 14,
+    "drugs": 3,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 8,
+    "robbery": 4,
+    "shoplifting": 18,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 14,
+    "violent-crime": 63
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "CE04", "neighbourhood_name": "Macclesfield South", "force_id": "cheshire", "lat": "53.2453", "lng": "-2.13254", "population": "0", "total_crimes": 211, "categories": {"anti-social-behaviour": 8, "bicycle-theft": 2, "burglary": 2, "criminal-damage-arson": 15, "drugs": 7, "other-theft": 6, "possession-of-weapons": 2, "public-order": 16, "robbery": 3, "shoplifting": 56, "vehicle-crime": 3, "violent-crime": 88, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE04",
+  "neighbourhood_name": "Macclesfield South",
+  "force_id": "cheshire",
+  "lat": "53.2453",
+  "lng": "-2.13254",
+  "population": 9171,
+  "total_crimes": 211,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "bicycle-theft": 2,
+    "burglary": 2,
+    "criminal-damage-arson": 15,
+    "drugs": 7,
+    "other-theft": 6,
+    "possession-of-weapons": 2,
+    "public-order": 16,
+    "robbery": 3,
+    "shoplifting": 56,
+    "vehicle-crime": 3,
+    "violent-crime": 88,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 23.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

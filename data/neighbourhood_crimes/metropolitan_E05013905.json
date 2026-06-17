@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013905", "neighbourhood_name": "Boleyn", "force_id": "metropolitan", "lat": "51.5312", "lng": "0.0420604", "population": 16547, "total_crimes": 1397, "categories": {"anti-social-behaviour": 234, "bicycle-theft": 17, "burglary": 38, "criminal-damage-arson": 61, "drugs": 59, "other-theft": 103, "possession-of-weapons": 13, "public-order": 69, "robbery": 51, "shoplifting": 57, "theft-from-the-person": 214, "vehicle-crime": 92, "violent-crime": 373, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013905",
+  "neighbourhood_name": "Boleyn",
+  "force_id": "metropolitan",
+  "lat": "51.5312",
+  "lng": "0.0420604",
+  "population": 12584,
+  "total_crimes": 1397,
+  "categories": {
+    "anti-social-behaviour": 234,
+    "bicycle-theft": 17,
+    "burglary": 38,
+    "criminal-damage-arson": 61,
+    "drugs": 59,
+    "other-theft": 103,
+    "possession-of-weapons": 13,
+    "public-order": 69,
+    "robbery": 51,
+    "shoplifting": 57,
+    "theft-from-the-person": 214,
+    "vehicle-crime": 92,
+    "violent-crime": 373,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 111.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

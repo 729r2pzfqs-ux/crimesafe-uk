@@ -1,1 +1,29 @@
-{"neighbourhood_id": "XD18", "neighbourhood_name": "Newtown", "force_id": "kent", "lat": "51.443", "lng": "0.229664", "population": 12098, "total_crimes": 470, "categories": {"anti-social-behaviour": 72, "bicycle-theft": 4, "burglary": 8, "criminal-damage-arson": 39, "drugs": 21, "other-theft": 32, "possession-of-weapons": 6, "public-order": 21, "robbery": 1, "shoplifting": 54, "theft-from-the-person": 5, "vehicle-crime": 22, "violent-crime": 174, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "XD18",
+  "neighbourhood_name": "Newtown",
+  "force_id": "kent",
+  "lat": "51.443",
+  "lng": "0.229664",
+  "population": 5714,
+  "total_crimes": 470,
+  "categories": {
+    "anti-social-behaviour": 72,
+    "bicycle-theft": 4,
+    "burglary": 8,
+    "criminal-damage-arson": 39,
+    "drugs": 21,
+    "other-theft": 32,
+    "possession-of-weapons": 6,
+    "public-order": 21,
+    "robbery": 1,
+    "shoplifting": 54,
+    "theft-from-the-person": 5,
+    "vehicle-crime": 22,
+    "violent-crime": 174,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 82.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

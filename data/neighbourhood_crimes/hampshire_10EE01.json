@@ -1,1 +1,29 @@
-{"neighbourhood_id": "10EE01", "neighbourhood_name": "Eastleigh Central", "force_id": "hampshire", "lat": "50.9688", "lng": "-1.36285", "population": 12098, "total_crimes": 268, "categories": {"anti-social-behaviour": 52, "bicycle-theft": 7, "burglary": 3, "criminal-damage-arson": 19, "drugs": 6, "other-theft": 15, "possession-of-weapons": 2, "public-order": 23, "robbery": 2, "shoplifting": 23, "theft-from-the-person": 2, "vehicle-crime": 10, "violent-crime": 97, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "10EE01",
+  "neighbourhood_name": "Eastleigh Central",
+  "force_id": "hampshire",
+  "lat": "50.9688",
+  "lng": "-1.36285",
+  "population": 25853,
+  "total_crimes": 268,
+  "categories": {
+    "anti-social-behaviour": 52,
+    "bicycle-theft": 7,
+    "burglary": 3,
+    "criminal-damage-arson": 19,
+    "drugs": 6,
+    "other-theft": 15,
+    "possession-of-weapons": 2,
+    "public-order": 23,
+    "robbery": 2,
+    "shoplifting": 23,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 10,
+    "violent-crime": 97,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

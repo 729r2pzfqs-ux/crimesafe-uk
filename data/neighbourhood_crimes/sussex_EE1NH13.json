@@ -1,1 +1,29 @@
-{"neighbourhood_id": "EE1NH13", "neighbourhood_name": "Seaside", "force_id": "sussex", "lat": "50.7771", "lng": "0.301442", "population": 12098, "total_crimes": 503, "categories": {"anti-social-behaviour": 100, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 34, "drugs": 21, "other-theft": 26, "possession-of-weapons": 3, "public-order": 42, "robbery": 8, "shoplifting": 86, "theft-from-the-person": 3, "vehicle-crime": 5, "violent-crime": 154, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EE1NH13",
+  "neighbourhood_name": "Seaside",
+  "force_id": "sussex",
+  "lat": "50.7771",
+  "lng": "0.301442",
+  "population": 9836,
+  "total_crimes": 503,
+  "categories": {
+    "anti-social-behaviour": 100,
+    "bicycle-theft": 3,
+    "burglary": 6,
+    "criminal-damage-arson": 34,
+    "drugs": 21,
+    "other-theft": 26,
+    "possession-of-weapons": 3,
+    "public-order": 42,
+    "robbery": 8,
+    "shoplifting": 86,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 5,
+    "violent-crime": 154,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 51.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "DEV.4046", "neighbourhood_name": "Dawlish", "force_id": "devon-and-cornwall", "lat": "50.5803", "lng": "-3.49123", "population": 12098, "total_crimes": 33, "categories": {"anti-social-behaviour": 2, "burglary": 1, "criminal-damage-arson": 9, "other-theft": 3, "shoplifting": 7, "vehicle-crime": 1, "violent-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4046",
+  "neighbourhood_name": "Dawlish",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.5803",
+  "lng": "-3.49123",
+  "population": 12147,
+  "total_crimes": 33,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 9,
+    "other-theft": 3,
+    "shoplifting": 7,
+    "vehicle-crime": 1,
+    "violent-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

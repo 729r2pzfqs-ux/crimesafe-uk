@@ -1,1 +1,29 @@
-{"neighbourhood_id": "CE2NH3", "neighbourhood_name": "Tenantry", "force_id": "sussex", "lat": "50.8424", "lng": "-0.117573", "population": 12098, "total_crimes": 403, "categories": {"anti-social-behaviour": 98, "bicycle-theft": 6, "burglary": 18, "criminal-damage-arson": 32, "drugs": 23, "other-theft": 29, "possession-of-weapons": 5, "public-order": 27, "robbery": 4, "shoplifting": 34, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 112, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CE2NH3",
+  "neighbourhood_name": "Tenantry",
+  "force_id": "sussex",
+  "lat": "50.8424",
+  "lng": "-0.117573",
+  "population": 4195,
+  "total_crimes": 403,
+  "categories": {
+    "anti-social-behaviour": 98,
+    "bicycle-theft": 6,
+    "burglary": 18,
+    "criminal-damage-arson": 32,
+    "drugs": 23,
+    "other-theft": 29,
+    "possession-of-weapons": 5,
+    "public-order": 27,
+    "robbery": 4,
+    "shoplifting": 34,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 8,
+    "violent-crime": 112,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 96.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

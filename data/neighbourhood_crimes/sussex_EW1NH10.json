@@ -1,1 +1,17 @@
-{"neighbourhood_id": "EW1NH10", "neighbourhood_name": "Hartfield", "force_id": "sussex", "lat": "51.0689", "lng": "0.0820639", "population": 12098, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "EW1NH10",
+  "neighbourhood_name": "Hartfield",
+  "force_id": "sussex",
+  "lat": "51.0689",
+  "lng": "0.0820639",
+  "population": 2646,
+  "total_crimes": 2,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "vehicle-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

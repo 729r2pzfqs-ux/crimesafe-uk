@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WXW05", "neighbourhood_name": "Hermitage", "force_id": "north-wales", "lat": "53.0361", "lng": "-2.98427", "population": 12098, "total_crimes": 432, "categories": {"anti-social-behaviour": 100, "bicycle-theft": 5, "burglary": 4, "criminal-damage-arson": 33, "drugs": 10, "other-theft": 13, "possession-of-weapons": 5, "public-order": 31, "robbery": 2, "shoplifting": 69, "vehicle-crime": 13, "violent-crime": 140, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW05",
+  "neighbourhood_name": "Hermitage",
+  "force_id": "north-wales",
+  "lat": "53.0361",
+  "lng": "-2.98427",
+  "population": 2394,
+  "total_crimes": 432,
+  "categories": {
+    "anti-social-behaviour": 100,
+    "bicycle-theft": 5,
+    "burglary": 4,
+    "criminal-damage-arson": 33,
+    "drugs": 10,
+    "other-theft": 13,
+    "possession-of-weapons": 5,
+    "public-order": 31,
+    "robbery": 2,
+    "shoplifting": 69,
+    "vehicle-crime": 13,
+    "violent-crime": 140,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 180.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

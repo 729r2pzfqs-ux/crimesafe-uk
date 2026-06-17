@@ -1,1 +1,26 @@
-{"neighbourhood_id": "tonypandy", "neighbourhood_name": "Tonypandy", "force_id": "south-wales", "lat": "51.6211", "lng": "-3.47634", "population": 12098, "total_crimes": 54, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 3, "possession-of-weapons": 1, "public-order": 7, "robbery": 1, "shoplifting": 3, "vehicle-crime": 2, "violent-crime": 30, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "tonypandy",
+  "neighbourhood_name": "Tonypandy",
+  "force_id": "south-wales",
+  "lat": "51.6211",
+  "lng": "-3.47634",
+  "population": 3782,
+  "total_crimes": 54,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 7,
+    "robbery": 1,
+    "shoplifting": 3,
+    "vehicle-crime": 2,
+    "violent-crime": 30,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

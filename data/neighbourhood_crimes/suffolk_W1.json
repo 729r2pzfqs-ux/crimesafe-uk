@@ -1,1 +1,25 @@
-{"neighbourhood_id": "W1", "neighbourhood_name": "Newmarket", "force_id": "suffolk", "lat": "52.2622", "lng": "0.383483", "population": 12098, "total_crimes": 71, "categories": {"anti-social-behaviour": 4, "burglary": 6, "criminal-damage-arson": 4, "drugs": 1, "other-theft": 9, "public-order": 5, "shoplifting": 4, "vehicle-crime": 12, "violent-crime": 24, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "W1",
+  "neighbourhood_name": "Newmarket",
+  "force_id": "suffolk",
+  "lat": "52.2622",
+  "lng": "0.383483",
+  "population": 16067,
+  "total_crimes": 71,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 6,
+    "criminal-damage-arson": 4,
+    "drugs": 1,
+    "other-theft": 9,
+    "public-order": 5,
+    "shoplifting": 4,
+    "vehicle-crime": 12,
+    "violent-crime": 24,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

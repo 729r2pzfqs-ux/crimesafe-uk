@@ -1,1 +1,16 @@
-{"neighbourhood_id": "CB04CD04", "neighbourhood_name": "Prestbury and Alderley Edge", "force_id": "cheshire", "lat": "53.2978", "lng": "-2.19148", "population": "0", "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CB04CD04",
+  "neighbourhood_name": "Prestbury and Alderley Edge",
+  "force_id": "cheshire",
+  "lat": "53.2978",
+  "lng": "-2.19148",
+  "population": 8865,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

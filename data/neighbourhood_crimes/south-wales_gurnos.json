@@ -1,1 +1,26 @@
-{"neighbourhood_id": "gurnos", "neighbourhood_name": "Gurnos", "force_id": "south-wales", "lat": "51.7618", "lng": "-3.38722", "population": 12098, "total_crimes": 176, "categories": {"anti-social-behaviour": 20, "burglary": 3, "criminal-damage-arson": 10, "other-theft": 12, "possession-of-weapons": 1, "public-order": 23, "shoplifting": 13, "theft-from-the-person": 1, "vehicle-crime": 13, "violent-crime": 77, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "gurnos",
+  "neighbourhood_name": "Gurnos",
+  "force_id": "south-wales",
+  "lat": "51.7618",
+  "lng": "-3.38722",
+  "population": 5587,
+  "total_crimes": 176,
+  "categories": {
+    "anti-social-behaviour": 20,
+    "burglary": 3,
+    "criminal-damage-arson": 10,
+    "other-theft": 12,
+    "possession-of-weapons": 1,
+    "public-order": 23,
+    "shoplifting": 13,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 13,
+    "violent-crime": 77,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

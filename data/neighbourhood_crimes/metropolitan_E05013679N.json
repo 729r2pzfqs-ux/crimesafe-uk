@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013679N", "neighbourhood_name": "Edmonton Green", "force_id": "metropolitan", "lat": "51.6192", "lng": "-0.0494543", "population": 12098, "total_crimes": 871, "categories": {"anti-social-behaviour": 161, "bicycle-theft": 7, "burglary": 42, "criminal-damage-arson": 37, "drugs": 67, "other-theft": 54, "possession-of-weapons": 8, "public-order": 48, "robbery": 30, "shoplifting": 81, "theft-from-the-person": 57, "vehicle-crime": 84, "violent-crime": 183, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013679N",
+  "neighbourhood_name": "Edmonton Green",
+  "force_id": "metropolitan",
+  "lat": "51.6192",
+  "lng": "-0.0494543",
+  "population": 19407,
+  "total_crimes": 871,
+  "categories": {
+    "anti-social-behaviour": 161,
+    "bicycle-theft": 7,
+    "burglary": 42,
+    "criminal-damage-arson": 37,
+    "drugs": 67,
+    "other-theft": 54,
+    "possession-of-weapons": 8,
+    "public-order": 48,
+    "robbery": 30,
+    "shoplifting": 81,
+    "theft-from-the-person": 57,
+    "vehicle-crime": 84,
+    "violent-crime": 183,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 44.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

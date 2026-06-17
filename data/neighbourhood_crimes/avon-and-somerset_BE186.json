@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BE186", "neighbourhood_name": "Trinity", "force_id": "avon-and-somerset", "lat": "51.4623", "lng": "-2.57406", "population": "0", "total_crimes": 1691, "categories": {"anti-social-behaviour": 278, "bicycle-theft": 34, "burglary": 72, "criminal-damage-arson": 86, "drugs": 32, "other-theft": 113, "possession-of-weapons": 19, "public-order": 187, "robbery": 44, "shoplifting": 169, "theft-from-the-person": 17, "vehicle-crime": 82, "violent-crime": 530, "other-crime": 28}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BE186",
+  "neighbourhood_name": "Trinity",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4623",
+  "lng": "-2.57406",
+  "population": 10600,
+  "total_crimes": 1691,
+  "categories": {
+    "anti-social-behaviour": 278,
+    "bicycle-theft": 34,
+    "burglary": 72,
+    "criminal-damage-arson": 86,
+    "drugs": 32,
+    "other-theft": 113,
+    "possession-of-weapons": 19,
+    "public-order": 187,
+    "robbery": 44,
+    "shoplifting": 169,
+    "theft-from-the-person": 17,
+    "vehicle-crime": 82,
+    "violent-crime": 530,
+    "other-crime": 28
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 159.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

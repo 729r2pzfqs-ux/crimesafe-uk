@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ELEM", "neighbourhood_name": "East Molesey &amp; Weston Green", "force_id": "surrey", "lat": "51.3935", "lng": "-0.357385", "population": 12098, "total_crimes": 98, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 1, "burglary": 2, "criminal-damage-arson": 3, "drugs": 5, "other-theft": 9, "possession-of-weapons": 1, "public-order": 4, "robbery": 1, "shoplifting": 6, "vehicle-crime": 4, "violent-crime": 47, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ELEM",
+  "neighbourhood_name": "East Molesey &amp; Weston Green",
+  "force_id": "surrey",
+  "lat": "51.3935",
+  "lng": "-0.357385",
+  "population": 12573,
+  "total_crimes": 98,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 1,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 5,
+    "other-theft": 9,
+    "possession-of-weapons": 1,
+    "public-order": 4,
+    "robbery": 1,
+    "shoplifting": 6,
+    "vehicle-crime": 4,
+    "violent-crime": 47,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 7.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

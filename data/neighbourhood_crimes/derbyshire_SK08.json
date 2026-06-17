@@ -1,1 +1,25 @@
-{"neighbourhood_id": "SK08", "neighbourhood_name": "Sandiacre", "force_id": "derbyshire", "lat": "52.9235", "lng": "-1.30053", "population": 12098, "total_crimes": 89, "categories": {"anti-social-behaviour": 19, "burglary": 3, "criminal-damage-arson": 4, "drugs": 2, "other-theft": 4, "public-order": 6, "shoplifting": 5, "vehicle-crime": 2, "violent-crime": 39, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "SK08",
+  "neighbourhood_name": "Sandiacre",
+  "force_id": "derbyshire",
+  "lat": "52.9235",
+  "lng": "-1.30053",
+  "population": 9182,
+  "total_crimes": 89,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "burglary": 3,
+    "criminal-damage-arson": 4,
+    "drugs": 2,
+    "other-theft": 4,
+    "public-order": 6,
+    "shoplifting": 5,
+    "vehicle-crime": 2,
+    "violent-crime": 39,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 9.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

@@ -1,1 +1,17 @@
-{"neighbourhood_id": "VB01", "neighbourhood_name": "Winsford Over and Verdin", "force_id": "cheshire", "lat": "53.2058", "lng": "-2.57126", "population": "0", "total_crimes": 6, "categories": {"violent-crime": 4, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "VB01",
+  "neighbourhood_name": "Winsford Over and Verdin",
+  "force_id": "cheshire",
+  "lat": "53.2058",
+  "lng": "-2.57126",
+  "population": 15308,
+  "total_crimes": 6,
+  "categories": {
+    "violent-crime": 4,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

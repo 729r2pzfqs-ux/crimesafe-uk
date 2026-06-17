@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E8", "neighbourhood_name": "Byker and Walker", "force_id": "northumbria", "lat": "54.9762", "lng": "-1.56309", "population": 12098, "total_crimes": 494, "categories": {"anti-social-behaviour": 88, "bicycle-theft": 5, "burglary": 16, "criminal-damage-arson": 65, "drugs": 11, "other-theft": 9, "possession-of-weapons": 6, "public-order": 35, "robbery": 10, "shoplifting": 82, "theft-from-the-person": 4, "vehicle-crime": 21, "violent-crime": 128, "other-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E8",
+  "neighbourhood_name": "Byker and Walker",
+  "force_id": "northumbria",
+  "lat": "54.9762",
+  "lng": "-1.56309",
+  "population": 33216,
+  "total_crimes": 494,
+  "categories": {
+    "anti-social-behaviour": 88,
+    "bicycle-theft": 5,
+    "burglary": 16,
+    "criminal-damage-arson": 65,
+    "drugs": 11,
+    "other-theft": 9,
+    "possession-of-weapons": 6,
+    "public-order": 35,
+    "robbery": 10,
+    "shoplifting": 82,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 21,
+    "violent-crime": 128,
+    "other-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 21
+}

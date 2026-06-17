@@ -1,1 +1,28 @@
-{"neighbourhood_id": "NC15", "neighbourhood_name": "Lincoln Park Ward", "force_id": "lincolnshire", "lat": "53.2103", "lng": "-0.528194", "population": 12098, "total_crimes": 156, "categories": {"anti-social-behaviour": 30, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 15, "drugs": 13, "other-theft": 2, "possession-of-weapons": 1, "public-order": 19, "shoplifting": 8, "theft-from-the-person": 2, "vehicle-crime": 2, "violent-crime": 61, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NC15",
+  "neighbourhood_name": "Lincoln Park Ward",
+  "force_id": "lincolnshire",
+  "lat": "53.2103",
+  "lng": "-0.528194",
+  "population": 9964,
+  "total_crimes": 156,
+  "categories": {
+    "anti-social-behaviour": 30,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 15,
+    "drugs": 13,
+    "other-theft": 2,
+    "possession-of-weapons": 1,
+    "public-order": 19,
+    "shoplifting": 8,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 61,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

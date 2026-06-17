@@ -1,1 +1,28 @@
-{"neighbourhood_id": "LPSH1H", "neighbourhood_name": "West Park", "force_id": "merseyside", "lat": "53.4478", "lng": "-2.76081", "population": 12098, "total_crimes": 296, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 4, "burglary": 7, "criminal-damage-arson": 16, "drugs": 45, "other-theft": 16, "public-order": 28, "robbery": 3, "shoplifting": 35, "theft-from-the-person": 2, "vehicle-crime": 5, "violent-crime": 104, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1H",
+  "neighbourhood_name": "West Park",
+  "force_id": "merseyside",
+  "lat": "53.4478",
+  "lng": "-2.76081",
+  "population": 11810,
+  "total_crimes": 296,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "bicycle-theft": 4,
+    "burglary": 7,
+    "criminal-damage-arson": 16,
+    "drugs": 45,
+    "other-theft": 16,
+    "public-order": 28,
+    "robbery": 3,
+    "shoplifting": 35,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 5,
+    "violent-crime": 104,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 25.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

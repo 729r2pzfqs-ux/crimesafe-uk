@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009869", "neighbourhood_name": "Park", "force_id": "cleveland", "lat": "54.5597", "lng": "-1.24088", "population": "0", "total_crimes": 947, "categories": {"anti-social-behaviour": 108, "bicycle-theft": 7, "burglary": 32, "criminal-damage-arson": 91, "drugs": 25, "other-theft": 52, "possession-of-weapons": 12, "public-order": 79, "robbery": 18, "shoplifting": 135, "theft-from-the-person": 7, "vehicle-crime": 42, "violent-crime": 303, "other-crime": 36}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009869",
+  "neighbourhood_name": "Park",
+  "force_id": "cleveland",
+  "lat": "54.5597",
+  "lng": "-1.24088",
+  "population": 10546,
+  "total_crimes": 947,
+  "categories": {
+    "anti-social-behaviour": 108,
+    "bicycle-theft": 7,
+    "burglary": 32,
+    "criminal-damage-arson": 91,
+    "drugs": 25,
+    "other-theft": 52,
+    "possession-of-weapons": 12,
+    "public-order": 79,
+    "robbery": 18,
+    "shoplifting": 135,
+    "theft-from-the-person": 7,
+    "vehicle-crime": 42,
+    "violent-crime": 303,
+    "other-crime": 36
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 89.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

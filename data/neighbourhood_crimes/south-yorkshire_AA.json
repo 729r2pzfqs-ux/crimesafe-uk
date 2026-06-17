@@ -1,1 +1,29 @@
-{"neighbourhood_id": "AA", "neighbourhood_name": "Doncaster Central", "force_id": "south-yorkshire", "lat": "53.5212", "lng": "-1.10739", "population": 12098, "total_crimes": 542, "categories": {"anti-social-behaviour": 82, "bicycle-theft": 1, "burglary": 18, "criminal-damage-arson": 42, "drugs": 14, "other-theft": 24, "possession-of-weapons": 3, "public-order": 42, "robbery": 16, "shoplifting": 70, "theft-from-the-person": 4, "vehicle-crime": 36, "violent-crime": 171, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AA",
+  "neighbourhood_name": "Doncaster Central",
+  "force_id": "south-yorkshire",
+  "lat": "53.5212",
+  "lng": "-1.10739",
+  "population": 78831,
+  "total_crimes": 542,
+  "categories": {
+    "anti-social-behaviour": 82,
+    "bicycle-theft": 1,
+    "burglary": 18,
+    "criminal-damage-arson": 42,
+    "drugs": 14,
+    "other-theft": 24,
+    "possession-of-weapons": 3,
+    "public-order": 42,
+    "robbery": 16,
+    "shoplifting": 70,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 36,
+    "violent-crime": 171,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 47
+}

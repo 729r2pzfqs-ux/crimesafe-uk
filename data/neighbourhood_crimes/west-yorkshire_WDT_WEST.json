@@ -1,1 +1,29 @@
-{"neighbourhood_id": "WDT_WEST", "neighbourhood_name": "Wakefield West", "force_id": "west-yorkshire", "lat": "53.6615", "lng": "-1.47174", "population": 12098, "total_crimes": 157, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 1, "burglary": 6, "criminal-damage-arson": 11, "drugs": 7, "other-theft": 14, "possession-of-weapons": 3, "public-order": 6, "robbery": 2, "shoplifting": 3, "theft-from-the-person": 1, "vehicle-crime": 5, "violent-crime": 79, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WDT_WEST",
+  "neighbourhood_name": "Wakefield West",
+  "force_id": "west-yorkshire",
+  "lat": "53.6615",
+  "lng": "-1.47174",
+  "population": 163538,
+  "total_crimes": 157,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 11,
+    "drugs": 7,
+    "other-theft": 14,
+    "possession-of-weapons": 3,
+    "public-order": 6,
+    "robbery": 2,
+    "shoplifting": 3,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 79,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 100
+}

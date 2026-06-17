@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL1G", "neighbourhood_name": "Everton East", "force_id": "merseyside", "lat": "53.4202", "lng": "-2.957", "population": 12098, "total_crimes": 828, "categories": {"anti-social-behaviour": 37, "bicycle-theft": 9, "burglary": 22, "criminal-damage-arson": 61, "drugs": 99, "other-theft": 61, "possession-of-weapons": 8, "public-order": 78, "robbery": 7, "shoplifting": 53, "theft-from-the-person": 6, "vehicle-crime": 32, "violent-crime": 309, "other-crime": 46}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL1G",
+  "neighbourhood_name": "Everton East",
+  "force_id": "merseyside",
+  "lat": "53.4202",
+  "lng": "-2.957",
+  "population": 7063,
+  "total_crimes": 828,
+  "categories": {
+    "anti-social-behaviour": 37,
+    "bicycle-theft": 9,
+    "burglary": 22,
+    "criminal-damage-arson": 61,
+    "drugs": 99,
+    "other-theft": 61,
+    "possession-of-weapons": 8,
+    "public-order": 78,
+    "robbery": 7,
+    "shoplifting": 53,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 32,
+    "violent-crime": 309,
+    "other-crime": 46
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 117.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

@@ -1,1 +1,25 @@
-{"neighbourhood_id": "N377", "neighbourhood_name": "Didcot", "force_id": "thames-valley", "lat": "51.5991", "lng": "-1.24786", "population": 12098, "total_crimes": 141, "categories": {"anti-social-behaviour": 23, "burglary": 1, "criminal-damage-arson": 14, "drugs": 2, "other-theft": 10, "possession-of-weapons": 1, "public-order": 13, "shoplifting": 13, "vehicle-crime": 2, "violent-crime": 62}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N377",
+  "neighbourhood_name": "Didcot",
+  "force_id": "thames-valley",
+  "lat": "51.5991",
+  "lng": "-1.24786",
+  "population": 25113,
+  "total_crimes": 141,
+  "categories": {
+    "anti-social-behaviour": 23,
+    "burglary": 1,
+    "criminal-damage-arson": 14,
+    "drugs": 2,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 13,
+    "shoplifting": 13,
+    "vehicle-crime": 2,
+    "violent-crime": 62
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 16
+}

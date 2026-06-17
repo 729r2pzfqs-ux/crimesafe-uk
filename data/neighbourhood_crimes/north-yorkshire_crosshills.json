@@ -1,1 +1,18 @@
-{"neighbourhood_id": "crosshills", "neighbourhood_name": "Crosshills", "force_id": "north-yorkshire", "lat": "53.9136", "lng": "-2.07437", "population": 12098, "total_crimes": 3, "categories": {"burglary": 1, "other-theft": 1, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "crosshills",
+  "neighbourhood_name": "Crosshills",
+  "force_id": "north-yorkshire",
+  "lat": "53.9136",
+  "lng": "-2.07437",
+  "population": 16373,
+  "total_crimes": 3,
+  "categories": {
+    "burglary": 1,
+    "other-theft": 1,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

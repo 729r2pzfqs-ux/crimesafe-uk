@@ -1,1 +1,26 @@
-{"neighbourhood_id": "YD23", "neighbourhood_name": "Paddock Wood", "force_id": "kent", "lat": "51.1776", "lng": "0.406619", "population": 12098, "total_crimes": 70, "categories": {"anti-social-behaviour": 11, "burglary": 2, "criminal-damage-arson": 3, "other-theft": 7, "possession-of-weapons": 2, "public-order": 1, "robbery": 1, "shoplifting": 19, "vehicle-crime": 5, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YD23",
+  "neighbourhood_name": "Paddock Wood",
+  "force_id": "kent",
+  "lat": "51.1776",
+  "lng": "0.406619",
+  "population": 8173,
+  "total_crimes": 70,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "other-theft": 7,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "robbery": 1,
+    "shoplifting": 19,
+    "vehicle-crime": 5,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

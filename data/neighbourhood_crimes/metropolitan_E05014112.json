@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05014112", "neighbourhood_name": "Streatham Common and Vale", "force_id": "metropolitan", "lat": "51.4188", "lng": "-0.130375", "population": 16621, "total_crimes": 561, "categories": {"anti-social-behaviour": 108, "bicycle-theft": 4, "burglary": 19, "criminal-damage-arson": 37, "drugs": 30, "other-theft": 45, "possession-of-weapons": 4, "public-order": 20, "robbery": 21, "shoplifting": 36, "theft-from-the-person": 15, "vehicle-crime": 40, "violent-crime": 174, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05014112",
+  "neighbourhood_name": "Streatham Common and Vale",
+  "force_id": "metropolitan",
+  "lat": "51.4188",
+  "lng": "-0.130375",
+  "population": 17034,
+  "total_crimes": 561,
+  "categories": {
+    "anti-social-behaviour": 108,
+    "bicycle-theft": 4,
+    "burglary": 19,
+    "criminal-damage-arson": 37,
+    "drugs": 30,
+    "other-theft": 45,
+    "possession-of-weapons": 4,
+    "public-order": 20,
+    "robbery": 21,
+    "shoplifting": 36,
+    "theft-from-the-person": 15,
+    "vehicle-crime": 40,
+    "violent-crime": 174,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 32.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

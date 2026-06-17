@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013774", "neighbourhood_name": "Barnes", "force_id": "metropolitan", "lat": "51.4802", "lng": "-0.237134", "population": 10130, "total_crimes": 562, "categories": {"anti-social-behaviour": 105, "bicycle-theft": 18, "burglary": 20, "criminal-damage-arson": 26, "drugs": 9, "other-theft": 44, "public-order": 38, "robbery": 11, "shoplifting": 92, "theft-from-the-person": 17, "vehicle-crime": 73, "violent-crime": 107, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013774",
+  "neighbourhood_name": "Barnes",
+  "force_id": "metropolitan",
+  "lat": "51.4802",
+  "lng": "-0.237134",
+  "population": 10131,
+  "total_crimes": 562,
+  "categories": {
+    "anti-social-behaviour": 105,
+    "bicycle-theft": 18,
+    "burglary": 20,
+    "criminal-damage-arson": 26,
+    "drugs": 9,
+    "other-theft": 44,
+    "public-order": 38,
+    "robbery": 11,
+    "shoplifting": 92,
+    "theft-from-the-person": 17,
+    "vehicle-crime": 73,
+    "violent-crime": 107,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 55.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

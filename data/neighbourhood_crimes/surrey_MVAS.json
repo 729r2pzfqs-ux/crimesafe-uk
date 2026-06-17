@@ -1,1 +1,21 @@
-{"neighbourhood_id": "MVAS", "neighbourhood_name": "Ashtead", "force_id": "surrey", "lat": "51.31", "lng": "-0.299872", "population": 12098, "total_crimes": 28, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 1, "public-order": 3, "robbery": 1, "violent-crime": 14}, "date": "2026-03"}
+{
+  "neighbourhood_id": "MVAS",
+  "neighbourhood_name": "Ashtead",
+  "force_id": "surrey",
+  "lat": "51.31",
+  "lng": "-0.299872",
+  "population": 14749,
+  "total_crimes": 28,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "burglary": 1,
+    "criminal-damage-arson": 1,
+    "public-order": 3,
+    "robbery": 1,
+    "violent-crime": 14
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

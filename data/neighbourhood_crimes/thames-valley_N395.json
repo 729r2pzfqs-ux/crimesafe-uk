@@ -1,1 +1,24 @@
-{"neighbourhood_id": "N395", "neighbourhood_name": "Windsor East", "force_id": "thames-valley", "lat": "51.4547", "lng": "-0.592487", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 3, "drugs": 3, "other-theft": 2, "public-order": 1, "shoplifting": 1, "vehicle-crime": 5, "violent-crime": 6, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N395",
+  "neighbourhood_name": "Windsor East",
+  "force_id": "thames-valley",
+  "lat": "51.4547",
+  "lng": "-0.592487",
+  "population": 15085,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 3,
+    "other-theft": 2,
+    "public-order": 1,
+    "shoplifting": 1,
+    "vehicle-crime": 5,
+    "violent-crime": 6,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

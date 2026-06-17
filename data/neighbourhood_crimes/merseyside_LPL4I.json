@@ -1,1 +1,29 @@
-{"neighbourhood_id": "LPL4I", "neighbourhood_name": "Church", "force_id": "merseyside", "lat": "53.3932", "lng": "-2.91018", "population": 12098, "total_crimes": 255, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 4, "burglary": 4, "criminal-damage-arson": 20, "drugs": 14, "other-theft": 16, "possession-of-weapons": 2, "public-order": 26, "robbery": 2, "shoplifting": 3, "theft-from-the-person": 2, "vehicle-crime": 19, "violent-crime": 105, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPL4I",
+  "neighbourhood_name": "Church",
+  "force_id": "merseyside",
+  "lat": "53.3932",
+  "lng": "-2.91018",
+  "population": 5973,
+  "total_crimes": 255,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 4,
+    "burglary": 4,
+    "criminal-damage-arson": 20,
+    "drugs": 14,
+    "other-theft": 16,
+    "possession-of-weapons": 2,
+    "public-order": 26,
+    "robbery": 2,
+    "shoplifting": 3,
+    "theft-from-the-person": 2,
+    "vehicle-crime": 19,
+    "violent-crime": 105,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 42.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

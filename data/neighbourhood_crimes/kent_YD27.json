@@ -1,1 +1,14 @@
-{"neighbourhood_id": "YD27", "neighbourhood_name": "Hawkhurst, Sandhurst &amp; Benenden", "force_id": "kent", "lat": "51.0474", "lng": "0.550165", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YD27",
+  "neighbourhood_name": "Hawkhurst, Sandhurst &amp; Benenden",
+  "force_id": "kent",
+  "lat": "51.0474",
+  "lng": "0.550165",
+  "population": 8966,
+  "total_crimes": 0,
+  "categories": {},
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

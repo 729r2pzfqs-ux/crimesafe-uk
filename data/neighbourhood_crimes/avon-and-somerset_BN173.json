@@ -1,1 +1,29 @@
-{"neighbourhood_id": "BN173", "neighbourhood_name": "Cotham", "force_id": "avon-and-somerset", "lat": "51.4662", "lng": "-2.60109", "population": "0", "total_crimes": 1488, "categories": {"anti-social-behaviour": 243, "bicycle-theft": 31, "burglary": 81, "criminal-damage-arson": 70, "drugs": 18, "other-theft": 104, "possession-of-weapons": 9, "public-order": 151, "robbery": 39, "shoplifting": 178, "theft-from-the-person": 19, "vehicle-crime": 93, "violent-crime": 433, "other-crime": 19}, "date": "2026-03"}
+{
+  "neighbourhood_id": "BN173",
+  "neighbourhood_name": "Cotham",
+  "force_id": "avon-and-somerset",
+  "lat": "51.4662",
+  "lng": "-2.60109",
+  "population": 8815,
+  "total_crimes": 1488,
+  "categories": {
+    "anti-social-behaviour": 243,
+    "bicycle-theft": 31,
+    "burglary": 81,
+    "criminal-damage-arson": 70,
+    "drugs": 18,
+    "other-theft": 104,
+    "possession-of-weapons": 9,
+    "public-order": 151,
+    "robbery": 39,
+    "shoplifting": 178,
+    "theft-from-the-person": 19,
+    "vehicle-crime": 93,
+    "violent-crime": 433,
+    "other-crime": 19
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 168.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

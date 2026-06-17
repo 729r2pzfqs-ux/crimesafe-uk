@@ -1,1 +1,25 @@
-{"neighbourhood_id": "GB06", "neighbourhood_name": "Birchfield", "force_id": "cheshire", "lat": "53.3824", "lng": "-2.74633", "population": "0", "total_crimes": 112, "categories": {"anti-social-behaviour": 19, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 9, "possession-of-weapons": 3, "public-order": 15, "shoplifting": 4, "vehicle-crime": 7, "violent-crime": 45, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "GB06",
+  "neighbourhood_name": "Birchfield",
+  "force_id": "cheshire",
+  "lat": "53.3824",
+  "lng": "-2.74633",
+  "population": 7169,
+  "total_crimes": 112,
+  "categories": {
+    "anti-social-behaviour": 19,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 9,
+    "possession-of-weapons": 3,
+    "public-order": 15,
+    "shoplifting": 4,
+    "vehicle-crime": 7,
+    "violent-crime": 45,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 15.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

@@ -1,1 +1,19 @@
-{"neighbourhood_id": "WX2", "neighbourhood_name": "Trysull &amp; Seisdon", "force_id": "staffordshire", "lat": "52.5143", "lng": "-2.25611", "population": 12098, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "drugs": 2, "other-theft": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WX2",
+  "neighbourhood_name": "Trysull &amp; Seisdon",
+  "force_id": "staffordshire",
+  "lat": "52.5143",
+  "lng": "-2.25611",
+  "population": 2256,
+  "total_crimes": 5,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "drugs": 2,
+    "other-theft": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

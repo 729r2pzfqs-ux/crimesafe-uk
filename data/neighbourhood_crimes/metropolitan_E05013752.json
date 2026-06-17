@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013752", "neighbourhood_name": "White City", "force_id": "metropolitan", "lat": "51.5102", "lng": "-0.231453", "population": 8468, "total_crimes": 1239, "categories": {"anti-social-behaviour": 246, "bicycle-theft": 9, "burglary": 34, "criminal-damage-arson": 69, "drugs": 61, "other-theft": 100, "possession-of-weapons": 10, "public-order": 70, "robbery": 12, "shoplifting": 223, "theft-from-the-person": 38, "vehicle-crime": 70, "violent-crime": 284, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013752",
+  "neighbourhood_name": "White City",
+  "force_id": "metropolitan",
+  "lat": "51.5102",
+  "lng": "-0.231453",
+  "population": 7830,
+  "total_crimes": 1239,
+  "categories": {
+    "anti-social-behaviour": 246,
+    "bicycle-theft": 9,
+    "burglary": 34,
+    "criminal-damage-arson": 69,
+    "drugs": 61,
+    "other-theft": 100,
+    "possession-of-weapons": 10,
+    "public-order": 70,
+    "robbery": 12,
+    "shoplifting": 223,
+    "theft-from-the-person": 38,
+    "vehicle-crime": 70,
+    "violent-crime": 284,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 158.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013546", "neighbourhood_name": "Greenhill", "force_id": "metropolitan", "lat": "51.5829", "lng": "-0.329524", "population": 14578, "total_crimes": 698, "categories": {"anti-social-behaviour": 157, "bicycle-theft": 3, "burglary": 24, "criminal-damage-arson": 35, "drugs": 22, "other-theft": 39, "possession-of-weapons": 3, "public-order": 43, "robbery": 18, "shoplifting": 84, "theft-from-the-person": 64, "vehicle-crime": 35, "violent-crime": 167, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013546",
+  "neighbourhood_name": "Greenhill",
+  "force_id": "metropolitan",
+  "lat": "51.5829",
+  "lng": "-0.329524",
+  "population": 9001,
+  "total_crimes": 698,
+  "categories": {
+    "anti-social-behaviour": 157,
+    "bicycle-theft": 3,
+    "burglary": 24,
+    "criminal-damage-arson": 35,
+    "drugs": 22,
+    "other-theft": 39,
+    "possession-of-weapons": 3,
+    "public-order": 43,
+    "robbery": 18,
+    "shoplifting": 84,
+    "theft-from-the-person": 64,
+    "vehicle-crime": 35,
+    "violent-crime": 167,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 77.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

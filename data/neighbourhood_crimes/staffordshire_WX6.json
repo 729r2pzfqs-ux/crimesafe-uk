@@ -1,1 +1,24 @@
-{"neighbourhood_id": "WX6", "neighbourhood_name": "Penkridge &amp; Huntington", "force_id": "staffordshire", "lat": "52.7298", "lng": "-2.11358", "population": 12098, "total_crimes": 34, "categories": {"anti-social-behaviour": 2, "burglary": 3, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 1, "public-order": 2, "vehicle-crime": 4, "violent-crime": 18, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WX6",
+  "neighbourhood_name": "Penkridge &amp; Huntington",
+  "force_id": "staffordshire",
+  "lat": "52.7298",
+  "lng": "-2.11358",
+  "population": 16284,
+  "total_crimes": 34,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 3,
+    "criminal-damage-arson": 1,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "vehicle-crime": 4,
+    "violent-crime": 18,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

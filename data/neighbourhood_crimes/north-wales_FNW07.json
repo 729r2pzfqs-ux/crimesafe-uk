@@ -1,1 +1,24 @@
-{"neighbourhood_id": "FNW07", "neighbourhood_name": "Holywell West", "force_id": "north-wales", "lat": "53.2714", "lng": "-3.22624", "population": 12098, "total_crimes": 76, "categories": {"anti-social-behaviour": 25, "burglary": 3, "criminal-damage-arson": 8, "other-theft": 6, "public-order": 3, "shoplifting": 5, "vehicle-crime": 1, "violent-crime": 24, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW07",
+  "neighbourhood_name": "Holywell West",
+  "force_id": "north-wales",
+  "lat": "53.2714",
+  "lng": "-3.22624",
+  "population": 2433,
+  "total_crimes": 76,
+  "categories": {
+    "anti-social-behaviour": 25,
+    "burglary": 3,
+    "criminal-damage-arson": 8,
+    "other-theft": 6,
+    "public-order": 3,
+    "shoplifting": 5,
+    "vehicle-crime": 1,
+    "violent-crime": 24,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

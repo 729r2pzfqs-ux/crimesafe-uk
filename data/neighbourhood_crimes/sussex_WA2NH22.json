@@ -1,1 +1,25 @@
-{"neighbourhood_id": "WA2NH22", "neighbourhood_name": "Ferring", "force_id": "sussex", "lat": "50.8193", "lng": "-0.447992", "population": 12098, "total_crimes": 56, "categories": {"anti-social-behaviour": 13, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 1, "public-order": 2, "robbery": 1, "shoplifting": 2, "vehicle-crime": 3, "violent-crime": 24, "other-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WA2NH22",
+  "neighbourhood_name": "Ferring",
+  "force_id": "sussex",
+  "lat": "50.8193",
+  "lng": "-0.447992",
+  "population": 4592,
+  "total_crimes": 56,
+  "categories": {
+    "anti-social-behaviour": 13,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 1,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 2,
+    "vehicle-crime": 3,
+    "violent-crime": 24,
+    "other-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 12.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

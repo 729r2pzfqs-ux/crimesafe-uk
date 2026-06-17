@@ -1,1 +1,18 @@
-{"neighbourhood_id": "CIOS.4039", "neighbourhood_name": "Perranporth", "force_id": "devon-and-cornwall", "lat": "50.3419", "lng": "-5.08316", "population": 12098, "total_crimes": 3, "categories": {"criminal-damage-arson": 1, "possession-of-weapons": 1, "vehicle-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4039",
+  "neighbourhood_name": "Perranporth",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.3419",
+  "lng": "-5.08316",
+  "population": 8899,
+  "total_crimes": 3,
+  "categories": {
+    "criminal-damage-arson": 1,
+    "possession-of-weapons": 1,
+    "vehicle-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

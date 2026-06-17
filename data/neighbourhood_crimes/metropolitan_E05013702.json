@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013702", "neighbourhood_name": "Clerkenwell", "force_id": "metropolitan", "lat": "51.5252", "lng": "-0.109996", "population": 12098, "total_crimes": 2573, "categories": {"anti-social-behaviour": 468, "bicycle-theft": 60, "burglary": 96, "criminal-damage-arson": 70, "drugs": 89, "other-theft": 413, "possession-of-weapons": 12, "public-order": 141, "robbery": 87, "shoplifting": 305, "theft-from-the-person": 359, "vehicle-crime": 61, "violent-crime": 392, "other-crime": 20}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013702",
+  "neighbourhood_name": "Clerkenwell",
+  "force_id": "metropolitan",
+  "lat": "51.5252",
+  "lng": "-0.109996",
+  "population": 13820,
+  "total_crimes": 2573,
+  "categories": {
+    "anti-social-behaviour": 468,
+    "bicycle-theft": 60,
+    "burglary": 96,
+    "criminal-damage-arson": 70,
+    "drugs": 89,
+    "other-theft": 413,
+    "possession-of-weapons": 12,
+    "public-order": 141,
+    "robbery": 87,
+    "shoplifting": 305,
+    "theft-from-the-person": 359,
+    "vehicle-crime": 61,
+    "violent-crime": 392,
+    "other-crime": 20
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 186.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

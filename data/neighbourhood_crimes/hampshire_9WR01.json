@@ -1,1 +1,16 @@
-{"neighbourhood_id": "9WR01", "neighbourhood_name": "Winchester Rural West", "force_id": "hampshire", "lat": "51.0553", "lng": "-1.37626", "population": 12098, "total_crimes": 1, "categories": {"vehicle-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "9WR01",
+  "neighbourhood_name": "Winchester Rural West",
+  "force_id": "hampshire",
+  "lat": "51.0553",
+  "lng": "-1.37626",
+  "population": 6563,
+  "total_crimes": 1,
+  "categories": {
+    "vehicle-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

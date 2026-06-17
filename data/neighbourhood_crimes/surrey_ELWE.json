@@ -1,1 +1,26 @@
-{"neighbourhood_id": "ELWE", "neighbourhood_name": "Weybridge", "force_id": "surrey", "lat": "51.3584", "lng": "-0.452338", "population": 12098, "total_crimes": 48, "categories": {"anti-social-behaviour": 8, "bicycle-theft": 1, "burglary": 1, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 5, "public-order": 6, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 18, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ELWE",
+  "neighbourhood_name": "Weybridge",
+  "force_id": "surrey",
+  "lat": "51.3584",
+  "lng": "-0.452338",
+  "population": 22557,
+  "total_crimes": 48,
+  "categories": {
+    "anti-social-behaviour": 8,
+    "bicycle-theft": 1,
+    "burglary": 1,
+    "criminal-damage-arson": 2,
+    "drugs": 2,
+    "other-theft": 5,
+    "public-order": 6,
+    "shoplifting": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 18,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

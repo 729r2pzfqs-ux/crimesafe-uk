@@ -1,1 +1,23 @@
-{"neighbourhood_id": "briton-ferry-west", "neighbourhood_name": "Briton Ferry West", "force_id": "south-wales", "lat": "51.635", "lng": "-3.82886", "population": 12098, "total_crimes": 41, "categories": {"anti-social-behaviour": 3, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 3, "public-order": 7, "shoplifting": 2, "vehicle-crime": 2, "violent-crime": 21}, "date": "2026-03"}
+{
+  "neighbourhood_id": "briton-ferry-west",
+  "neighbourhood_name": "Briton Ferry West",
+  "force_id": "south-wales",
+  "lat": "51.635",
+  "lng": "-3.82886",
+  "population": 2963,
+  "total_crimes": 41,
+  "categories": {
+    "anti-social-behaviour": 3,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 3,
+    "public-order": 7,
+    "shoplifting": 2,
+    "vehicle-crime": 2,
+    "violent-crime": 21
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 13.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

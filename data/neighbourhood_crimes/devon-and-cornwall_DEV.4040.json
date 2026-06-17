@@ -1,1 +1,16 @@
-{"neighbourhood_id": "DEV.4040", "neighbourhood_name": "Chudleigh-Teign Valley", "force_id": "devon-and-cornwall", "lat": "50.6307", "lng": "-3.63571", "population": 12098, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4040",
+  "neighbourhood_name": "Chudleigh-Teign Valley",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.6307",
+  "lng": "-3.63571",
+  "population": 7968,
+  "total_crimes": 2,
+  "categories": {
+    "violent-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

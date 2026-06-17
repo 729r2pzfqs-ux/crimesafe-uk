@@ -1,1 +1,28 @@
-{"neighbourhood_id": "WXW12", "neighbourhood_name": "Maesydre", "force_id": "north-wales", "lat": "53.0515", "lng": "-2.98344", "population": 12098, "total_crimes": 511, "categories": {"anti-social-behaviour": 109, "bicycle-theft": 4, "burglary": 5, "criminal-damage-arson": 39, "drugs": 15, "other-theft": 14, "possession-of-weapons": 5, "public-order": 44, "robbery": 1, "shoplifting": 94, "vehicle-crime": 16, "violent-crime": 156, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "WXW12",
+  "neighbourhood_name": "Maesydre",
+  "force_id": "north-wales",
+  "lat": "53.0515",
+  "lng": "-2.98344",
+  "population": 1905,
+  "total_crimes": 511,
+  "categories": {
+    "anti-social-behaviour": 109,
+    "bicycle-theft": 4,
+    "burglary": 5,
+    "criminal-damage-arson": 39,
+    "drugs": 15,
+    "other-theft": 14,
+    "possession-of-weapons": 5,
+    "public-order": 44,
+    "robbery": 1,
+    "shoplifting": 94,
+    "vehicle-crime": 16,
+    "violent-crime": 156,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 268.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

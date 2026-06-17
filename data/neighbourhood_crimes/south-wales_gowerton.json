@@ -1,1 +1,23 @@
-{"neighbourhood_id": "gowerton", "neighbourhood_name": "Gowerton", "force_id": "south-wales", "lat": "51.6461", "lng": "-4.06145", "population": 12098, "total_crimes": 24, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 4, "possession-of-weapons": 1, "public-order": 2, "shoplifting": 2, "vehicle-crime": 1, "violent-crime": 9, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "gowerton",
+  "neighbourhood_name": "Gowerton",
+  "force_id": "south-wales",
+  "lat": "51.6461",
+  "lng": "-4.06145",
+  "population": 5092,
+  "total_crimes": 24,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "criminal-damage-arson": 4,
+    "possession-of-weapons": 1,
+    "public-order": 2,
+    "shoplifting": 2,
+    "vehicle-crime": 1,
+    "violent-crime": 9,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 4.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

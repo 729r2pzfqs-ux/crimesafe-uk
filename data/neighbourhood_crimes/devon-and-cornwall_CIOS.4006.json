@@ -1,1 +1,23 @@
-{"neighbourhood_id": "CIOS.4006", "neighbourhood_name": "Redruth North", "force_id": "devon-and-cornwall", "lat": "50.248", "lng": "-5.22917", "population": 12098, "total_crimes": 66, "categories": {"anti-social-behaviour": 5, "burglary": 2, "criminal-damage-arson": 5, "drugs": 1, "other-theft": 6, "public-order": 8, "shoplifting": 6, "violent-crime": 33}, "date": "2026-03"}
+{
+  "neighbourhood_id": "CIOS.4006",
+  "neighbourhood_name": "Redruth North",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.248",
+  "lng": "-5.22917",
+  "population": 9537,
+  "total_crimes": 66,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "burglary": 2,
+    "criminal-damage-arson": 5,
+    "drugs": 1,
+    "other-theft": 6,
+    "public-order": 8,
+    "shoplifting": 6,
+    "violent-crime": 33
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

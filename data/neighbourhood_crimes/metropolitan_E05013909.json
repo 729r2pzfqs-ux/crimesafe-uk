@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013909", "neighbourhood_name": "East Ham", "force_id": "metropolitan", "lat": "51.5328", "lng": "0.0517091", "population": 16185, "total_crimes": 1237, "categories": {"anti-social-behaviour": 211, "bicycle-theft": 11, "burglary": 34, "criminal-damage-arson": 53, "drugs": 61, "other-theft": 92, "possession-of-weapons": 11, "public-order": 48, "robbery": 46, "shoplifting": 74, "theft-from-the-person": 190, "vehicle-crime": 83, "violent-crime": 308, "other-crime": 15}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013909",
+  "neighbourhood_name": "East Ham",
+  "force_id": "metropolitan",
+  "lat": "51.5328",
+  "lng": "0.0517091",
+  "population": 17137,
+  "total_crimes": 1237,
+  "categories": {
+    "anti-social-behaviour": 211,
+    "bicycle-theft": 11,
+    "burglary": 34,
+    "criminal-damage-arson": 53,
+    "drugs": 61,
+    "other-theft": 92,
+    "possession-of-weapons": 11,
+    "public-order": 48,
+    "robbery": 46,
+    "shoplifting": 74,
+    "theft-from-the-person": 190,
+    "vehicle-crime": 83,
+    "violent-crime": 308,
+    "other-crime": 15
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 72.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

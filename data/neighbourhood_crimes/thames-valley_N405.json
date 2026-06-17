@@ -1,1 +1,22 @@
-{"neighbourhood_id": "N405", "neighbourhood_name": "Marlow", "force_id": "thames-valley", "lat": "51.5861", "lng": "-0.75643", "population": 12098, "total_crimes": 30, "categories": {"burglary": 1, "criminal-damage-arson": 6, "drugs": 1, "other-theft": 5, "public-order": 1, "vehicle-crime": 3, "violent-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "N405",
+  "neighbourhood_name": "Marlow",
+  "force_id": "thames-valley",
+  "lat": "51.5861",
+  "lng": "-0.75643",
+  "population": 31198,
+  "total_crimes": 30,
+  "categories": {
+    "burglary": 1,
+    "criminal-damage-arson": 6,
+    "drugs": 1,
+    "other-theft": 5,
+    "public-order": 1,
+    "vehicle-crime": 3,
+    "violent-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 21
+}

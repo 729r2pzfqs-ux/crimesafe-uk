@@ -1,1 +1,27 @@
-{"neighbourhood_id": "NW03", "neighbourhood_name": "Beaumont Leys", "force_id": "leicestershire", "lat": "52.6697", "lng": "-1.161", "population": 12098, "total_crimes": 264, "categories": {"anti-social-behaviour": 42, "bicycle-theft": 3, "burglary": 9, "criminal-damage-arson": 32, "drugs": 8, "other-theft": 13, "possession-of-weapons": 2, "public-order": 17, "robbery": 2, "shoplifting": 19, "vehicle-crime": 18, "violent-crime": 99}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NW03",
+  "neighbourhood_name": "Beaumont Leys",
+  "force_id": "leicestershire",
+  "lat": "52.6697",
+  "lng": "-1.161",
+  "population": 17775,
+  "total_crimes": 264,
+  "categories": {
+    "anti-social-behaviour": 42,
+    "bicycle-theft": 3,
+    "burglary": 9,
+    "criminal-damage-arson": 32,
+    "drugs": 8,
+    "other-theft": 13,
+    "possession-of-weapons": 2,
+    "public-order": 17,
+    "robbery": 2,
+    "shoplifting": 19,
+    "vehicle-crime": 18,
+    "violent-crime": 99
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 14.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

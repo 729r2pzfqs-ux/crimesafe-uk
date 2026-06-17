@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013937", "neighbourhood_name": "Kingston Gate", "force_id": "metropolitan", "lat": "51.418", "lng": "-0.289876", "population": 12098, "total_crimes": 591, "categories": {"anti-social-behaviour": 101, "bicycle-theft": 13, "burglary": 13, "criminal-damage-arson": 31, "drugs": 44, "other-theft": 33, "possession-of-weapons": 5, "public-order": 35, "robbery": 9, "shoplifting": 98, "theft-from-the-person": 19, "vehicle-crime": 19, "violent-crime": 159, "other-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013937",
+  "neighbourhood_name": "Kingston Gate",
+  "force_id": "metropolitan",
+  "lat": "51.418",
+  "lng": "-0.289876",
+  "population": 12329,
+  "total_crimes": 591,
+  "categories": {
+    "anti-social-behaviour": 101,
+    "bicycle-theft": 13,
+    "burglary": 13,
+    "criminal-damage-arson": 31,
+    "drugs": 44,
+    "other-theft": 33,
+    "possession-of-weapons": 5,
+    "public-order": 35,
+    "robbery": 9,
+    "shoplifting": 98,
+    "theft-from-the-person": 19,
+    "vehicle-crime": 19,
+    "violent-crime": 159,
+    "other-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 47.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

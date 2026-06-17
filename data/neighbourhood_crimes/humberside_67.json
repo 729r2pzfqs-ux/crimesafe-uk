@@ -1,1 +1,29 @@
-{"neighbourhood_id": "67", "neighbourhood_name": "Avenues", "force_id": "humberside", "lat": "53.7544", "lng": "-0.364955", "population": 12098, "total_crimes": 658, "categories": {"anti-social-behaviour": 33, "bicycle-theft": 11, "burglary": 49, "criminal-damage-arson": 56, "drugs": 27, "other-theft": 49, "possession-of-weapons": 7, "public-order": 72, "robbery": 5, "shoplifting": 52, "theft-from-the-person": 6, "vehicle-crime": 28, "violent-crime": 247, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "67",
+  "neighbourhood_name": "Avenues",
+  "force_id": "humberside",
+  "lat": "53.7544",
+  "lng": "-0.364955",
+  "population": 14580,
+  "total_crimes": 658,
+  "categories": {
+    "anti-social-behaviour": 33,
+    "bicycle-theft": 11,
+    "burglary": 49,
+    "criminal-damage-arson": 56,
+    "drugs": 27,
+    "other-theft": 49,
+    "possession-of-weapons": 7,
+    "public-order": 72,
+    "robbery": 5,
+    "shoplifting": 52,
+    "theft-from-the-person": 6,
+    "vehicle-crime": 28,
+    "violent-crime": 247,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 45.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

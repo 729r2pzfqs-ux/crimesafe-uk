@@ -1,1 +1,23 @@
-{"neighbourhood_id": "ES2NH30", "neighbourhood_name": "Seaford West", "force_id": "sussex", "lat": "50.7872", "lng": "0.0892108", "population": 12098, "total_crimes": 13, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 2, "other-theft": 1, "possession-of-weapons": 1, "public-order": 1, "robbery": 1, "vehicle-crime": 1, "violent-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ES2NH30",
+  "neighbourhood_name": "Seaford West",
+  "force_id": "sussex",
+  "lat": "50.7872",
+  "lng": "0.0892108",
+  "population": 4706,
+  "total_crimes": 13,
+  "categories": {
+    "anti-social-behaviour": 5,
+    "criminal-damage-arson": 2,
+    "other-theft": 1,
+    "possession-of-weapons": 1,
+    "public-order": 1,
+    "robbery": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

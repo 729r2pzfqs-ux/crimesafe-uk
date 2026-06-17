@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013560", "neighbourhood_name": "Stanmore", "force_id": "metropolitan", "lat": "51.6249", "lng": "-0.317984", "population": 12098, "total_crimes": 104, "categories": {"anti-social-behaviour": 26, "burglary": 5, "criminal-damage-arson": 8, "drugs": 8, "other-theft": 6, "public-order": 2, "robbery": 1, "shoplifting": 6, "theft-from-the-person": 4, "vehicle-crime": 11, "violent-crime": 26, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013560",
+  "neighbourhood_name": "Stanmore",
+  "force_id": "metropolitan",
+  "lat": "51.6249",
+  "lng": "-0.317984",
+  "population": 16006,
+  "total_crimes": 104,
+  "categories": {
+    "anti-social-behaviour": 26,
+    "burglary": 5,
+    "criminal-damage-arson": 8,
+    "drugs": 8,
+    "other-theft": 6,
+    "public-order": 2,
+    "robbery": 1,
+    "shoplifting": 6,
+    "theft-from-the-person": 4,
+    "vehicle-crime": 11,
+    "violent-crime": 26,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

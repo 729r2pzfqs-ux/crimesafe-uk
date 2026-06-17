@@ -1,1 +1,27 @@
-{"neighbourhood_id": "IA01", "neighbourhood_name": "Ellesmere Port Town", "force_id": "cheshire", "lat": "53.2718", "lng": "-2.8804", "population": "0", "total_crimes": 209, "categories": {"anti-social-behaviour": 21, "burglary": 4, "criminal-damage-arson": 13, "drugs": 10, "other-theft": 12, "possession-of-weapons": 2, "public-order": 20, "robbery": 1, "shoplifting": 47, "vehicle-crime": 6, "violent-crime": 72, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "IA01",
+  "neighbourhood_name": "Ellesmere Port Town",
+  "force_id": "cheshire",
+  "lat": "53.2718",
+  "lng": "-2.8804",
+  "population": 10724,
+  "total_crimes": 209,
+  "categories": {
+    "anti-social-behaviour": 21,
+    "burglary": 4,
+    "criminal-damage-arson": 13,
+    "drugs": 10,
+    "other-theft": 12,
+    "possession-of-weapons": 2,
+    "public-order": 20,
+    "robbery": 1,
+    "shoplifting": 47,
+    "vehicle-crime": 6,
+    "violent-crime": 72,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 19.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 7
+}

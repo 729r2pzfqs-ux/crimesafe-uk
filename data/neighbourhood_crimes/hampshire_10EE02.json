@@ -1,1 +1,26 @@
-{"neighbourhood_id": "10EE02", "neighbourhood_name": "Eastleigh East", "force_id": "hampshire", "lat": "50.9656", "lng": "-1.30238", "population": 12098, "total_crimes": 59, "categories": {"anti-social-behaviour": 4, "burglary": 2, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 3, "possession-of-weapons": 1, "public-order": 5, "shoplifting": 1, "vehicle-crime": 2, "violent-crime": 35, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "10EE02",
+  "neighbourhood_name": "Eastleigh East",
+  "force_id": "hampshire",
+  "lat": "50.9656",
+  "lng": "-1.30238",
+  "population": 21437,
+  "total_crimes": 59,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 2,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 3,
+    "possession-of-weapons": 1,
+    "public-order": 5,
+    "shoplifting": 1,
+    "vehicle-crime": 2,
+    "violent-crime": 35,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 2.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 14
+}

@@ -1,1 +1,28 @@
-{"neighbourhood_id": "oldcastle", "neighbourhood_name": "Oldcastle", "force_id": "south-wales", "lat": "51.4947", "lng": "-3.57572", "population": 12098, "total_crimes": 165, "categories": {"anti-social-behaviour": 17, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 10, "drugs": 12, "other-theft": 10, "possession-of-weapons": 1, "public-order": 20, "robbery": 2, "shoplifting": 21, "theft-from-the-person": 1, "violent-crime": 62, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "oldcastle",
+  "neighbourhood_name": "Oldcastle",
+  "force_id": "south-wales",
+  "lat": "51.4947",
+  "lng": "-3.57572",
+  "population": 5245,
+  "total_crimes": 165,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "bicycle-theft": 2,
+    "burglary": 1,
+    "criminal-damage-arson": 10,
+    "drugs": 12,
+    "other-theft": 10,
+    "possession-of-weapons": 1,
+    "public-order": 20,
+    "robbery": 2,
+    "shoplifting": 21,
+    "theft-from-the-person": 1,
+    "violent-crime": 62,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 31.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

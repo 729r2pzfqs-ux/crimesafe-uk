@@ -1,1 +1,18 @@
-{"neighbourhood_id": "NH03", "neighbourhood_name": "Gamesley and St Johns", "force_id": "derbyshire", "lat": "53.4521", "lng": "-1.91365", "population": 12098, "total_crimes": 7, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH03",
+  "neighbourhood_name": "Gamesley and St Johns",
+  "force_id": "derbyshire",
+  "lat": "53.4521",
+  "lng": "-1.91365",
+  "population": 4256,
+  "total_crimes": 7,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "criminal-damage-arson": 1,
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.6,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 3
+}

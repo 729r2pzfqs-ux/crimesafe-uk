@@ -1,1 +1,26 @@
-{"neighbourhood_id": "NH28", "neighbourhood_name": "Burbage", "force_id": "leicestershire", "lat": "52.5248", "lng": "-1.35655", "population": 12098, "total_crimes": 54, "categories": {"anti-social-behaviour": 4, "burglary": 3, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 5, "possession-of-weapons": 2, "public-order": 1, "shoplifting": 10, "vehicle-crime": 3, "violent-crime": 21, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "NH28",
+  "neighbourhood_name": "Burbage",
+  "force_id": "leicestershire",
+  "lat": "52.5248",
+  "lng": "-1.35655",
+  "population": 15858,
+  "total_crimes": 54,
+  "categories": {
+    "anti-social-behaviour": 4,
+    "burglary": 3,
+    "criminal-damage-arson": 2,
+    "drugs": 1,
+    "other-theft": 5,
+    "possession-of-weapons": 2,
+    "public-order": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 3,
+    "violent-crime": 21,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.4,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 10
+}

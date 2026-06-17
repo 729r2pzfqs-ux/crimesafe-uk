@@ -1,1 +1,16 @@
-{"neighbourhood_id": "D204", "neighbourhood_name": "Trewern", "force_id": "dyfed-powys", "lat": "52.6841", "lng": "-3.07096", "population": 12098, "total_crimes": 5, "categories": {"violent-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D204",
+  "neighbourhood_name": "Trewern",
+  "force_id": "dyfed-powys",
+  "lat": "52.6841",
+  "lng": "-3.07096",
+  "population": 1325,
+  "total_crimes": 5,
+  "categories": {
+    "violent-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 3.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

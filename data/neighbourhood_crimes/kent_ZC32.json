@@ -1,1 +1,28 @@
-{"neighbourhood_id": "ZC32", "neighbourhood_name": "Highfield", "force_id": "kent", "lat": "51.1349", "lng": "0.904075", "population": 12098, "total_crimes": 126, "categories": {"anti-social-behaviour": 11, "bicycle-theft": 5, "burglary": 4, "criminal-damage-arson": 9, "drugs": 6, "other-theft": 9, "possession-of-weapons": 2, "public-order": 7, "shoplifting": 8, "theft-from-the-person": 1, "vehicle-crime": 6, "violent-crime": 52, "other-crime": 6}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZC32",
+  "neighbourhood_name": "Highfield",
+  "force_id": "kent",
+  "lat": "51.1349",
+  "lng": "0.904075",
+  "population": 2461,
+  "total_crimes": 126,
+  "categories": {
+    "anti-social-behaviour": 11,
+    "bicycle-theft": 5,
+    "burglary": 4,
+    "criminal-damage-arson": 9,
+    "drugs": 6,
+    "other-theft": 9,
+    "possession-of-weapons": 2,
+    "public-order": 7,
+    "shoplifting": 8,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 52,
+    "other-crime": 6
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 51.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 2
+}

@@ -1,1 +1,22 @@
-{"neighbourhood_id": "D14", "neighbourhood_name": "Poringland", "force_id": "norfolk", "lat": "52.5653", "lng": "1.34277", "population": 12098, "total_crimes": 19, "categories": {"anti-social-behaviour": 2, "burglary": 1, "drugs": 1, "public-order": 2, "theft-from-the-person": 1, "violent-crime": 11, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "D14",
+  "neighbourhood_name": "Poringland",
+  "force_id": "norfolk",
+  "lat": "52.5653",
+  "lng": "1.34277",
+  "population": 12350,
+  "total_crimes": 19,
+  "categories": {
+    "anti-social-behaviour": 2,
+    "burglary": 1,
+    "drugs": 1,
+    "public-order": 2,
+    "theft-from-the-person": 1,
+    "violent-crime": 11,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 1.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 8
+}

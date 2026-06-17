@@ -1,1 +1,16 @@
-{"neighbourhood_id": "RV6", "neighbourhood_name": "Chipping", "force_id": "lancashire", "lat": "53.9451", "lng": "-2.53259", "population": 12098, "total_crimes": 1, "categories": {"other-theft": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "RV6",
+  "neighbourhood_name": "Chipping",
+  "force_id": "lancashire",
+  "lat": "53.9451",
+  "lng": "-2.53259",
+  "population": 1517,
+  "total_crimes": 1,
+  "categories": {
+    "other-theft": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 0.7,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

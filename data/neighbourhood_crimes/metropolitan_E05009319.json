@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009319", "neighbourhood_name": "Bow East", "force_id": "metropolitan", "lat": "51.5363", "lng": "-0.0271638", "population": 14223, "total_crimes": 1164, "categories": {"anti-social-behaviour": 229, "bicycle-theft": 25, "burglary": 52, "criminal-damage-arson": 51, "drugs": 40, "other-theft": 84, "possession-of-weapons": 5, "public-order": 48, "robbery": 37, "shoplifting": 131, "theft-from-the-person": 114, "vehicle-crime": 60, "violent-crime": 272, "other-crime": 16}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009319",
+  "neighbourhood_name": "Bow East",
+  "force_id": "metropolitan",
+  "lat": "51.5363",
+  "lng": "-0.0271638",
+  "population": 14504,
+  "total_crimes": 1164,
+  "categories": {
+    "anti-social-behaviour": 229,
+    "bicycle-theft": 25,
+    "burglary": 52,
+    "criminal-damage-arson": 51,
+    "drugs": 40,
+    "other-theft": 84,
+    "possession-of-weapons": 5,
+    "public-order": 48,
+    "robbery": 37,
+    "shoplifting": 131,
+    "theft-from-the-person": 114,
+    "vehicle-crime": 60,
+    "violent-crime": 272,
+    "other-crime": 16
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 80.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

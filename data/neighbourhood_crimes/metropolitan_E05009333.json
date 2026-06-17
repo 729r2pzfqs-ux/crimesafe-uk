@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009333", "neighbourhood_name": "Spitalfields and Banglatown", "force_id": "metropolitan", "lat": "51.5191", "lng": "-0.0677911", "population": 12098, "total_crimes": 2434, "categories": {"anti-social-behaviour": 373, "bicycle-theft": 60, "burglary": 109, "criminal-damage-arson": 79, "drugs": 143, "other-theft": 298, "possession-of-weapons": 18, "public-order": 166, "robbery": 82, "shoplifting": 234, "theft-from-the-person": 251, "vehicle-crime": 89, "violent-crime": 519, "other-crime": 13}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009333",
+  "neighbourhood_name": "Spitalfields and Banglatown",
+  "force_id": "metropolitan",
+  "lat": "51.5191",
+  "lng": "-0.0677911",
+  "population": 14661,
+  "total_crimes": 2434,
+  "categories": {
+    "anti-social-behaviour": 373,
+    "bicycle-theft": 60,
+    "burglary": 109,
+    "criminal-damage-arson": 79,
+    "drugs": 143,
+    "other-theft": 298,
+    "possession-of-weapons": 18,
+    "public-order": 166,
+    "robbery": 82,
+    "shoplifting": 234,
+    "theft-from-the-person": 251,
+    "vehicle-crime": 89,
+    "violent-crime": 519,
+    "other-crime": 13
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 166.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 6
+}

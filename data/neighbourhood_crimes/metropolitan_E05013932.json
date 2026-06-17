@@ -1,1 +1,27 @@
-{"neighbourhood_id": "E05013932", "neighbourhood_name": "Coombe Hill", "force_id": "metropolitan", "lat": "51.4234", "lng": "-0.26771", "population": 12098, "total_crimes": 89, "categories": {"anti-social-behaviour": 12, "bicycle-theft": 4, "burglary": 8, "criminal-damage-arson": 4, "drugs": 3, "other-theft": 4, "possession-of-weapons": 1, "public-order": 3, "shoplifting": 1, "vehicle-crime": 6, "violent-crime": 41, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013932",
+  "neighbourhood_name": "Coombe Hill",
+  "force_id": "metropolitan",
+  "lat": "51.4234",
+  "lng": "-0.26771",
+  "population": 8630,
+  "total_crimes": 89,
+  "categories": {
+    "anti-social-behaviour": 12,
+    "bicycle-theft": 4,
+    "burglary": 8,
+    "criminal-damage-arson": 4,
+    "drugs": 3,
+    "other-theft": 4,
+    "possession-of-weapons": 1,
+    "public-order": 3,
+    "shoplifting": 1,
+    "vehicle-crime": 6,
+    "violent-crime": 41,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 10.3,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

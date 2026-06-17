@@ -1,1 +1,18 @@
-{"neighbourhood_id": "AC24", "neighbourhood_name": "Northern Quarter", "force_id": "greater-manchester", "lat": "53.4828", "lng": "-2.23241", "population": 12098, "total_crimes": 8, "categories": {"other-theft": 3, "theft-from-the-person": 2, "violent-crime": 3}, "date": "2026-03"}
+{
+  "neighbourhood_id": "AC24",
+  "neighbourhood_name": "Northern Quarter",
+  "force_id": "greater-manchester",
+  "lat": "53.4828",
+  "lng": "-2.23241",
+  "population": 1166,
+  "total_crimes": 8,
+  "categories": {
+    "other-theft": 3,
+    "theft-from-the-person": 2,
+    "violent-crime": 3
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 6.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

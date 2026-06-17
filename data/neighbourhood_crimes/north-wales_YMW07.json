@@ -1,1 +1,23 @@
-{"neighbourhood_id": "YMW07", "neighbourhood_name": "London Road", "force_id": "north-wales", "lat": "53.2987", "lng": "-4.60559", "population": 12098, "total_crimes": 31, "categories": {"anti-social-behaviour": 9, "criminal-damage-arson": 3, "drugs": 1, "other-theft": 2, "public-order": 2, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 12}, "date": "2026-03"}
+{
+  "neighbourhood_id": "YMW07",
+  "neighbourhood_name": "London Road",
+  "force_id": "north-wales",
+  "lat": "53.2987",
+  "lng": "-4.60559",
+  "population": 1532,
+  "total_crimes": 31,
+  "categories": {
+    "anti-social-behaviour": 9,
+    "criminal-damage-arson": 3,
+    "drugs": 1,
+    "other-theft": 2,
+    "public-order": 2,
+    "shoplifting": 1,
+    "vehicle-crime": 1,
+    "violent-crime": 12
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 20.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "ZA74", "neighbourhood_name": "St. Stephen's", "force_id": "kent", "lat": "51.2906", "lng": "1.08474", "population": 12098, "total_crimes": 559, "categories": {"anti-social-behaviour": 97, "bicycle-theft": 5, "burglary": 11, "criminal-damage-arson": 55, "drugs": 32, "other-theft": 27, "possession-of-weapons": 10, "public-order": 22, "robbery": 13, "shoplifting": 110, "theft-from-the-person": 3, "vehicle-crime": 8, "violent-crime": 156, "other-crime": 10}, "date": "2026-03"}
+{
+  "neighbourhood_id": "ZA74",
+  "neighbourhood_name": "St. Stephen's",
+  "force_id": "kent",
+  "lat": "51.2906",
+  "lng": "1.08474",
+  "population": 9170,
+  "total_crimes": 559,
+  "categories": {
+    "anti-social-behaviour": 97,
+    "bicycle-theft": 5,
+    "burglary": 11,
+    "criminal-damage-arson": 55,
+    "drugs": 32,
+    "other-theft": 27,
+    "possession-of-weapons": 10,
+    "public-order": 22,
+    "robbery": 13,
+    "shoplifting": 110,
+    "theft-from-the-person": 3,
+    "vehicle-crime": 8,
+    "violent-crime": 156,
+    "other-crime": 10
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 61.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

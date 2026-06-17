@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013738", "neighbourhood_name": "Fulham Reach", "force_id": "metropolitan", "lat": "51.4833", "lng": "-0.216138", "population": 14390, "total_crimes": 1054, "categories": {"anti-social-behaviour": 250, "bicycle-theft": 21, "burglary": 68, "criminal-damage-arson": 57, "drugs": 34, "other-theft": 92, "possession-of-weapons": 2, "public-order": 75, "robbery": 15, "shoplifting": 77, "theft-from-the-person": 41, "vehicle-crime": 74, "violent-crime": 239, "other-crime": 9}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013738",
+  "neighbourhood_name": "Fulham Reach",
+  "force_id": "metropolitan",
+  "lat": "51.4833",
+  "lng": "-0.216138",
+  "population": 14059,
+  "total_crimes": 1054,
+  "categories": {
+    "anti-social-behaviour": 250,
+    "bicycle-theft": 21,
+    "burglary": 68,
+    "criminal-damage-arson": 57,
+    "drugs": 34,
+    "other-theft": 92,
+    "possession-of-weapons": 2,
+    "public-order": 75,
+    "robbery": 15,
+    "shoplifting": 77,
+    "theft-from-the-person": 41,
+    "vehicle-crime": 74,
+    "violent-crime": 239,
+    "other-crime": 9
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 75.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

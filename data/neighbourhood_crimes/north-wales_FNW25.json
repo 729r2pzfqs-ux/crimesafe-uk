@@ -1,1 +1,19 @@
-{"neighbourhood_id": "FNW25", "neighbourhood_name": "Queensferry", "force_id": "north-wales", "lat": "53.1989", "lng": "-2.99927", "population": 12098, "total_crimes": 18, "categories": {"anti-social-behaviour": 6, "other-theft": 3, "violent-crime": 7, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "FNW25",
+  "neighbourhood_name": "Queensferry",
+  "force_id": "north-wales",
+  "lat": "53.1989",
+  "lng": "-2.99927",
+  "population": 2191,
+  "total_crimes": 18,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "other-theft": 3,
+    "violent-crime": 7,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 1
+}

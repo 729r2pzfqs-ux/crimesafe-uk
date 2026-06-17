@@ -1,1 +1,27 @@
-{"neighbourhood_id": "W3", "neighbourhood_name": "Mildenhall", "force_id": "suffolk", "lat": "52.3526", "lng": "0.523833", "population": 12098, "total_crimes": 51, "categories": {"anti-social-behaviour": 1, "burglary": 6, "criminal-damage-arson": 8, "drugs": 1, "other-theft": 4, "possession-of-weapons": 2, "public-order": 5, "robbery": 1, "shoplifting": 4, "vehicle-crime": 2, "violent-crime": 16, "other-crime": 1}, "date": "2026-03"}
+{
+  "neighbourhood_id": "W3",
+  "neighbourhood_name": "Mildenhall",
+  "force_id": "suffolk",
+  "lat": "52.3526",
+  "lng": "0.523833",
+  "population": 8713,
+  "total_crimes": 51,
+  "categories": {
+    "anti-social-behaviour": 1,
+    "burglary": 6,
+    "criminal-damage-arson": 8,
+    "drugs": 1,
+    "other-theft": 4,
+    "possession-of-weapons": 2,
+    "public-order": 5,
+    "robbery": 1,
+    "shoplifting": 4,
+    "vehicle-crime": 2,
+    "violent-crime": 16,
+    "other-crime": 1
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 5.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

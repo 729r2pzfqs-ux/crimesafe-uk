@@ -1,1 +1,28 @@
-{"neighbourhood_id": "E05013542", "neighbourhood_name": "Belmont", "force_id": "metropolitan", "lat": "51.6053", "lng": "-0.315215", "population": 12098, "total_crimes": 283, "categories": {"anti-social-behaviour": 70, "bicycle-theft": 2, "burglary": 18, "criminal-damage-arson": 15, "drugs": 8, "other-theft": 13, "public-order": 7, "robbery": 2, "shoplifting": 12, "theft-from-the-person": 12, "vehicle-crime": 27, "violent-crime": 92, "other-crime": 5}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013542",
+  "neighbourhood_name": "Belmont",
+  "force_id": "metropolitan",
+  "lat": "51.6053",
+  "lng": "-0.315215",
+  "population": 8040,
+  "total_crimes": 283,
+  "categories": {
+    "anti-social-behaviour": 70,
+    "bicycle-theft": 2,
+    "burglary": 18,
+    "criminal-damage-arson": 15,
+    "drugs": 8,
+    "other-theft": 13,
+    "public-order": 7,
+    "robbery": 2,
+    "shoplifting": 12,
+    "theft-from-the-person": 12,
+    "vehicle-crime": 27,
+    "violent-crime": 92,
+    "other-crime": 5
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 35.2,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}

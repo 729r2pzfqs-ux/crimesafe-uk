@@ -1,1 +1,26 @@
-{"neighbourhood_id": "LPSH1P", "neighbourhood_name": "Earlestown", "force_id": "merseyside", "lat": "53.4556", "lng": "-2.64439", "population": 12098, "total_crimes": 149, "categories": {"anti-social-behaviour": 17, "burglary": 1, "criminal-damage-arson": 13, "drugs": 8, "other-theft": 10, "public-order": 16, "robbery": 1, "shoplifting": 10, "vehicle-crime": 1, "violent-crime": 64, "other-crime": 8}, "date": "2026-03"}
+{
+  "neighbourhood_id": "LPSH1P",
+  "neighbourhood_name": "Earlestown",
+  "force_id": "merseyside",
+  "lat": "53.4556",
+  "lng": "-2.64439",
+  "population": 8537,
+  "total_crimes": 149,
+  "categories": {
+    "anti-social-behaviour": 17,
+    "burglary": 1,
+    "criminal-damage-arson": 13,
+    "drugs": 8,
+    "other-theft": 10,
+    "public-order": 16,
+    "robbery": 1,
+    "shoplifting": 10,
+    "vehicle-crime": 1,
+    "violent-crime": 64,
+    "other-crime": 8
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 17.5,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

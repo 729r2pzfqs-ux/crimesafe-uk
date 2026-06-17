@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013739", "neighbourhood_name": "Fulham Town", "force_id": "metropolitan", "lat": "51.4742", "lng": "-0.205945", "population": 7994, "total_crimes": 818, "categories": {"anti-social-behaviour": 192, "bicycle-theft": 21, "burglary": 63, "criminal-damage-arson": 41, "drugs": 27, "other-theft": 68, "possession-of-weapons": 2, "public-order": 51, "robbery": 7, "shoplifting": 65, "theft-from-the-person": 23, "vehicle-crime": 75, "violent-crime": 179, "other-crime": 4}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013739",
+  "neighbourhood_name": "Fulham Town",
+  "force_id": "metropolitan",
+  "lat": "51.4742",
+  "lng": "-0.205945",
+  "population": 8192,
+  "total_crimes": 818,
+  "categories": {
+    "anti-social-behaviour": 192,
+    "bicycle-theft": 21,
+    "burglary": 63,
+    "criminal-damage-arson": 41,
+    "drugs": 27,
+    "other-theft": 68,
+    "possession-of-weapons": 2,
+    "public-order": 51,
+    "robbery": 7,
+    "shoplifting": 65,
+    "theft-from-the-person": 23,
+    "vehicle-crime": 75,
+    "violent-crime": 179,
+    "other-crime": 4
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 99.9,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

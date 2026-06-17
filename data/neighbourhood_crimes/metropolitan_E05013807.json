@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013807", "neighbourhood_name": "Vincent Square", "force_id": "metropolitan", "lat": "51.4926", "lng": "-0.132751", "population": 12098, "total_crimes": 1615, "categories": {"anti-social-behaviour": 364, "bicycle-theft": 40, "burglary": 64, "criminal-damage-arson": 68, "drugs": 38, "other-theft": 170, "possession-of-weapons": 12, "public-order": 80, "robbery": 48, "shoplifting": 118, "theft-from-the-person": 250, "vehicle-crime": 36, "violent-crime": 309, "other-crime": 18}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013807",
+  "neighbourhood_name": "Vincent Square",
+  "force_id": "metropolitan",
+  "lat": "51.4926",
+  "lng": "-0.132751",
+  "population": 9611,
+  "total_crimes": 1615,
+  "categories": {
+    "anti-social-behaviour": 364,
+    "bicycle-theft": 40,
+    "burglary": 64,
+    "criminal-damage-arson": 68,
+    "drugs": 38,
+    "other-theft": 170,
+    "possession-of-weapons": 12,
+    "public-order": 80,
+    "robbery": 48,
+    "shoplifting": 118,
+    "theft-from-the-person": 250,
+    "vehicle-crime": 36,
+    "violent-crime": 309,
+    "other-crime": 18
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 168.0,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

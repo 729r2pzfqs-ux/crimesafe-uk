@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05013603N", "neighbourhood_name": "West Green", "force_id": "metropolitan", "lat": "51.5922", "lng": "-0.0910807", "population": 12098, "total_crimes": 1210, "categories": {"anti-social-behaviour": 306, "bicycle-theft": 5, "burglary": 39, "criminal-damage-arson": 42, "drugs": 57, "other-theft": 88, "possession-of-weapons": 13, "public-order": 53, "robbery": 40, "shoplifting": 97, "theft-from-the-person": 58, "vehicle-crime": 70, "violent-crime": 335, "other-crime": 7}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05013603N",
+  "neighbourhood_name": "West Green",
+  "force_id": "metropolitan",
+  "lat": "51.5922",
+  "lng": "-0.0910807",
+  "population": 14801,
+  "total_crimes": 1210,
+  "categories": {
+    "anti-social-behaviour": 306,
+    "bicycle-theft": 5,
+    "burglary": 39,
+    "criminal-damage-arson": 42,
+    "drugs": 57,
+    "other-theft": 88,
+    "possession-of-weapons": 13,
+    "public-order": 53,
+    "robbery": 40,
+    "shoplifting": 97,
+    "theft-from-the-person": 58,
+    "vehicle-crime": 70,
+    "violent-crime": 335,
+    "other-crime": 7
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 81.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 9
+}

@@ -1,1 +1,29 @@
-{"neighbourhood_id": "E05009335", "neighbourhood_name": "Weavers", "force_id": "metropolitan", "lat": "51.5268", "lng": "-0.070589", "population": 12098, "total_crimes": 2397, "categories": {"anti-social-behaviour": 405, "bicycle-theft": 69, "burglary": 105, "criminal-damage-arson": 78, "drugs": 156, "other-theft": 258, "possession-of-weapons": 21, "public-order": 143, "robbery": 73, "shoplifting": 270, "theft-from-the-person": 235, "vehicle-crime": 73, "violent-crime": 500, "other-crime": 11}, "date": "2026-03"}
+{
+  "neighbourhood_id": "E05009335",
+  "neighbourhood_name": "Weavers",
+  "force_id": "metropolitan",
+  "lat": "51.5268",
+  "lng": "-0.070589",
+  "population": 8852,
+  "total_crimes": 2397,
+  "categories": {
+    "anti-social-behaviour": 405,
+    "bicycle-theft": 69,
+    "burglary": 105,
+    "criminal-damage-arson": 78,
+    "drugs": 156,
+    "other-theft": 258,
+    "possession-of-weapons": 21,
+    "public-order": 143,
+    "robbery": 73,
+    "shoplifting": 270,
+    "theft-from-the-person": 235,
+    "vehicle-crime": 73,
+    "violent-crime": 500,
+    "other-crime": 11
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 270.8,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 5
+}

@@ -1,1 +1,26 @@
-{"neighbourhood_id": "DEV.4075", "neighbourhood_name": "Cullompton North &amp;amp; South", "force_id": "devon-and-cornwall", "lat": "50.8563", "lng": "-3.38835", "population": 12098, "total_crimes": 72, "categories": {"anti-social-behaviour": 6, "bicycle-theft": 1, "criminal-damage-arson": 6, "drugs": 4, "other-theft": 3, "possession-of-weapons": 3, "shoplifting": 3, "theft-from-the-person": 1, "vehicle-crime": 7, "violent-crime": 36, "other-crime": 2}, "date": "2026-03"}
+{
+  "neighbourhood_id": "DEV.4075",
+  "neighbourhood_name": "Cullompton North &amp;amp; South",
+  "force_id": "devon-and-cornwall",
+  "lat": "50.8563",
+  "lng": "-3.38835",
+  "population": 8881,
+  "total_crimes": 72,
+  "categories": {
+    "anti-social-behaviour": 6,
+    "bicycle-theft": 1,
+    "criminal-damage-arson": 6,
+    "drugs": 4,
+    "other-theft": 3,
+    "possession-of-weapons": 3,
+    "shoplifting": 3,
+    "theft-from-the-person": 1,
+    "vehicle-crime": 7,
+    "violent-crime": 36,
+    "other-crime": 2
+  },
+  "date": "2026-03",
+  "crime_rate_per_1000": 8.1,
+  "population_source": "census_2021_lsoa",
+  "lsoa_count": 4
+}
