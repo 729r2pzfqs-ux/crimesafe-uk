@@ -94,7 +94,7 @@ def get_footer():
     <footer class="footer">
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: March 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: April 2026</p>
         </div>
     </footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>

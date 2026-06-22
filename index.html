@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="canonical" href="https://crimesafe.uk/">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://crimesafe.uk/">
-<meta property="og:title" content="CrimeSafe UK — UK Crime Statistics & Safety Scores">
-<meta property="og:description" content="Explore crime data and safety scores for neighbourhoods across the UK">
-<meta property="og:site_name" content="CrimeSafe UK">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CrimeSafe UK — UK Crime Statistics & Safety Scores">
-<meta name="twitter:description" content="Explore crime data and safety scores for neighbourhoods across the UK">
-<meta name="google-adsense-account" content="ca-pub-5861928596436289">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5861928596436289" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
@@ -31,25 +20,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#01696F">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "CrimeSafe UK",
-  "url": "https://crimesafe.uk/",
-  "description": "Explore crime statistics, safety ratings and neighbourhood comparisons across the UK. Data sourced from the official UK Police API.",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://crimesafe.uk/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CrimeSafe UK",
-    "url": "https://crimesafe.uk/"
-  }
-}
-</script>
 </head>
 <body>
     <nav class="nav">
@@ -62,19 +32,12 @@
 </svg>
                 <span>CrimeSafe UK</span>
             </a>
-            <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-            </button>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/streets/">Streets</a>
-                <a href="/forces/">Forces</a>
-                <a href="/postcode/">Postcodes</a>
-                <a href="/city/">Cities</a>
-                <a href="/maps/">Maps</a>
+                <a href="/forces/">Forces</a><a href="/city/">City</a>
+                <a href="/districts/">Districts</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
-                <a href="/faq/">FAQ</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
         </div>
@@ -430,7 +393,7 @@
     <footer class="footer">
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: March 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: April 2026</p>
         </div>
     </footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
