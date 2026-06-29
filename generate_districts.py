@@ -17,7 +17,21 @@ def slugify(text):
     # Don't collapse multiple dashes - they come from " - " in names
     return text.strip('-')
 
-def get_header(title, description):
+def social_meta(title, description, canonical):
+    if not canonical:
+        return ""
+    return f'''    <link rel="canonical" href="{canonical}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:site_name" content="CrimeSafe UK">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+'''
+
+def get_header(title, description, canonical=None, extra_head=""):
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +43,7 @@ def get_header(title, description):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+{social_meta(title, description, canonical)}{extra_head}    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -88,7 +102,14 @@ def generate_district_page(district, rankings_lookup):
     neighbourhoods = district['neighbourhoods']
     
     desc = f"Crime statistics for {district_name} district in {force_name}. {nb_count} neighbourhoods covered."
-    html = get_header(f"{district_name} Crime Statistics — CrimeSafe UK", desc)
+    _title = f"{district_name} Crime Statistics — CrimeSafe UK"
+    _url = f"https://crimesafe.uk/district/{district_slug}/"
+    _ld = '    <script type="application/ld+json">' + json.dumps(
+        {"@context": "https://schema.org", "@type": "WebPage", "name": _title,
+         "description": desc, "url": _url,
+         "isPartOf": {"@type": "WebSite", "name": "CrimeSafe UK", "url": "https://crimesafe.uk/"}},
+        ensure_ascii=False, separators=(',', ':')) + '</script>\n'
+    html = get_header(_title, desc, canonical=_url, extra_head=_ld)
     
     html += f'''
     <main>
@@ -145,7 +166,8 @@ def generate_districts_index(districts):
     """Generate the districts index page"""
     districts_sorted = sorted(districts, key=lambda d: d['district'])
     
-    html = get_header("UK Districts — CrimeSafe UK", "Browse crime statistics by district across the UK")
+    html = get_header("UK Districts — CrimeSafe UK", "Browse crime statistics by district across the UK",
+                      canonical="https://crimesafe.uk/districts/")
     html += f'''
     <main>
         <div class="container">

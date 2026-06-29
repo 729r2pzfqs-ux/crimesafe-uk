@@ -18,7 +18,7 @@ TEMPLATE = '''<!DOCTYPE html>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{street_name} Crime Statistics | Is {street_name} Safe? | CrimeSafe UK</title>
-    <meta name="description" content="Is {street_name} safe? View real-time crime statistics, safety score of {score}/100, and recent incidents for {street_name}, {city}. Updated with official UK police data.">
+    <meta name="description" content="Is {street_name} safe? View real-time crime statistics, safety score of {score}/100, and recent incidents for {street_name}, {city}.">
     <link rel="canonical" href="https://crimesafe.uk/streets/{slug}/">
     
     <meta property="og:title" content="{street_name} Crime Statistics | CrimeSafe UK">
@@ -418,6 +418,18 @@ def main():
             updated=updated
         )
         
+        # Keep meta description under 160 chars (SEO) for long street names
+        import re as _re
+        def _trim_desc(m):
+            d = m.group(1)
+            if len(d) <= 160:
+                return m.group(0)
+            d = d[:158].rsplit(' ', 1)[0].rstrip(' ,;')
+            if not d.endswith('.'):
+                d += '.'
+            return f'<meta name="description" content="{d}">'
+        html = _re.sub(r'<meta name="description" content="([^"]*)">', _trim_desc, html, count=1)
+
         # Write file
         # Skip if slug would create index
         if slug == "" or slug == "index":

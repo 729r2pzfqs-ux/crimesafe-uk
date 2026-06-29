@@ -255,7 +255,12 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
     else:
         title = f"{nb_name} Crime Statistics 2026 | CrimeSafe UK"
         desc = f"Crime statistics for {nb_name} in {force_name}. View latest crime data and safety information."
-    html = get_header(title, desc)
+    # Trim boilerplate suffix when the title exceeds 60 chars (SEO)
+    import html as _html
+    if len(_html.unescape(title)) > 60 and title.endswith(" | CrimeSafe UK"):
+        title = title[:-len(" | CrimeSafe UK")]
+    canonical = f"https://crimesafe.uk/neighbourhood/{force_slug}/{nb_slug}/"
+    html = get_header(title, desc, canonical=canonical)
     
     # Build regional score HTML outside f-string to avoid nested f-string issues
     if regional_score is not None:

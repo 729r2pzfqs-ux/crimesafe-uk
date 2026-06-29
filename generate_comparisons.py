@@ -15,7 +15,21 @@ def slugify(text):
     text = re.sub(r'[\s_]+', '-', text)
     return text.strip('-')
 
-def get_header(title, description):
+def social_meta(title, description, canonical):
+    if not canonical:
+        return ""
+    return f'''    <link rel="canonical" href="{canonical}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:site_name" content="CrimeSafe UK">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+'''
+
+def get_header(title, description, canonical=None):
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +42,7 @@ def get_header(title, description):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
+{social_meta(title, description, canonical)}
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -87,9 +102,15 @@ def generate_comparison_page(nb1, nb2):
     force1 = html_lib.escape(nb1['force'])
     force2 = html_lib.escape(nb2['force'])
     
-    title = f"{name1} vs {name2} — Crime Comparison — CrimeSafe UK"
-    desc = f"Compare crime rates between {name1} and {name2}. Safety scores, crime breakdown, and which neighbourhood is safer."
-    
+    slug = f"{nb1['nb_slug']}-vs-{nb2['nb_slug']}"
+    canonical = f"https://crimesafe.uk/compare/{slug}/"
+    _plain = f"{html_lib.unescape(name1)} vs {html_lib.unescape(name2)}"
+    title = f"{name1} vs {name2} — CrimeSafe UK"
+    if len(_plain + " — CrimeSafe UK") > 60:
+        title = f"{name1} vs {name2}"
+    desc = (f"Compare crime and safety in {name1} ({nb1['score']}/100) and {name2} ({nb2['score']}/100). "
+            f"See side-by-side safety scores, crime breakdowns and which neighbourhood is safer.")
+
     # Determine winner
     if nb1['score'] > nb2['score']:
         winner = name1
@@ -102,8 +123,8 @@ def generate_comparison_page(nb1, nb2):
         winner_score = nb1['score']
     
     score_diff = abs(nb1['score'] - nb2['score'])
-    
-    html = get_header(title, desc)
+
+    html = get_header(title, desc, canonical)
     html += f'''
     <main>
         <div class="container">

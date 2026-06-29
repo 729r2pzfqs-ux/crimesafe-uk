@@ -7,7 +7,21 @@ import json
 import os
 import html
 
-def get_header(title, description):
+def social_meta(title, description, canonical):
+    if not canonical:
+        return ""
+    return f'''    <link rel="canonical" href="{canonical}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:site_name" content="CrimeSafe UK">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+'''
+
+def get_header(title, description, canonical=None):
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +35,7 @@ def get_header(title, description):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
+{social_meta(title, description, canonical)}
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -76,8 +91,8 @@ def generate_safest_page(rankings, top_n=100):
     """Generate safest neighbourhoods page"""
     title = "Safest Places to Live in the UK 2026 — CrimeSafe UK"
     desc = f"Top {top_n} safest neighbourhoods in the UK ranked by crime rate. Find the lowest crime areas to live in England, Wales, and Northern Ireland."
-    
-    html_content = get_header(title, desc)
+
+    html_content = get_header(title, desc, canonical="https://crimesafe.uk/safest/")
     html_content += f'''
     <main>
         <div class="container">
@@ -153,8 +168,8 @@ def generate_dangerous_page(rankings, bottom_n=100):
     
     # Reverse rankings for most dangerous
     reversed_rankings = list(reversed(rankings))
-    
-    html_content = get_header(title, desc)
+
+    html_content = get_header(title, desc, canonical="https://crimesafe.uk/dangerous/")
     html_content += f'''
     <main>
         <div class="container">

@@ -16,7 +16,22 @@ def slugify(text):
     text = re.sub(r'[\s_]+', '-', text)
     return text.strip('-')
 
-def get_header(title, description):
+def social_meta(title, description, canonical):
+    """Canonical + Open Graph + Twitter tags (must live inside <head>)."""
+    if not canonical:
+        return ""
+    return f'''    <link rel="canonical" href="{canonical}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:site_name" content="CrimeSafe UK">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+'''
+
+def get_header(title, description, canonical=None):
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +44,7 @@ def get_header(title, description):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+{social_meta(title, description, canonical)}    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
@@ -76,9 +91,15 @@ def generate_comparison_page(nb1, nb2):
     name1 = html_lib.escape(nb1['name'])
     name2 = html_lib.escape(nb2['name'])
     
-    title = f"{name1} vs {name2} Crime Comparison — London — CrimeSafe UK"
-    desc = f"Compare crime rates: {name1} ({nb1['score']}/100) vs {name2} ({nb2['score']}/100). Which London neighbourhood is safer?"
-    
+    slug = f"{nb1['nb_slug']}-vs-{nb2['nb_slug']}"
+    canonical = f"https://crimesafe.uk/compare/{slug}/"
+    _plain = f"{html_lib.unescape(name1)} vs {html_lib.unescape(name2)}"
+    title = f"{name1} vs {name2} — CrimeSafe UK"
+    if len(_plain + " — CrimeSafe UK") > 60:
+        title = f"{name1} vs {name2}"
+    desc = (f"Compare crime and safety in {name1} ({nb1['score']}/100) and {name2} ({nb2['score']}/100). "
+            f"See side-by-side safety scores, crime breakdowns and which neighbourhood is safer.")
+
     if nb1['score'] > nb2['score']:
         winner, winner_score = name1, nb1['score']
         loser, loser_score = name2, nb2['score']
@@ -102,7 +123,7 @@ def generate_comparison_page(nb1, nb2):
         if score >= 20: return "below average"
         return "high risk"
     
-    html = get_header(title, desc)
+    html = get_header(title, desc, canonical)
     html += f'''
     <main>
         <div class="container" style="padding: var(--space-4) 0;">

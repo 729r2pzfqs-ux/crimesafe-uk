@@ -44,7 +44,22 @@ def slugify(text):
     text = re.sub(r'-+', '-', text)
     return text.strip('-')
 
-def get_header(title="CrimeSafe UK", description="UK crime statistics and safety scores"):
+def social_meta(title, description, canonical):
+    """Canonical + Open Graph + Twitter tags (must live inside <head>)."""
+    if not canonical:
+        return ""
+    return f'''    <link rel="canonical" href="{canonical}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:site_name" content="CrimeSafe UK">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+'''
+
+def get_header(title="CrimeSafe UK", description="UK crime statistics and safety scores", canonical=None, extra_head=""):
     """Return HTML header"""
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -57,7 +72,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
-    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+{social_meta(title, description, canonical)}{extra_head}    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
@@ -114,7 +129,25 @@ def generate_homepage(forces_data):
     # Sort forces by neighbourhood count
     forces_sorted = sorted(forces_data['forces'], key=lambda f: len(f['neighbourhoods']), reverse=True)
     
-    html = get_header("CrimeSafe UK — UK Crime Statistics & Safety Scores", "Explore crime data and safety scores for neighbourhoods across the UK")
+    _home_desc = "Explore crime data and safety scores for neighbourhoods across the UK"
+    _home_graph = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "@id": "https://crimesafe.uk/#website", "name": "CrimeSafe UK",
+         "url": "https://crimesafe.uk/", "description": _home_desc,
+         "publisher": {"@id": "https://crimesafe.uk/#org"},
+         "potentialAction": {"@type": "SearchAction",
+            "target": {"@type": "EntryPoint", "urlTemplate": "https://crimesafe.uk/?q={search_term_string}"},
+            "query-input": "required name=search_term_string"}},
+        {"@type": "Organization", "@id": "https://crimesafe.uk/#org", "name": "CrimeSafe UK",
+         "url": "https://crimesafe.uk/",
+         "logo": {"@type": "ImageObject", "url": "https://crimesafe.uk/favicon-512.png"}},
+        {"@type": "WebApplication", "@id": "https://crimesafe.uk/#app", "name": "CrimeSafe UK",
+         "url": "https://crimesafe.uk/", "applicationCategory": "ReferenceApplication",
+         "operatingSystem": "Web", "description": _home_desc,
+         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP"}},
+    ]}
+    _home_ld = '    <script type="application/ld+json">' + json.dumps(_home_graph, ensure_ascii=False, separators=(',', ':')) + '</script>\n'
+    html = get_header("CrimeSafe UK — UK Crime Statistics & Safety Scores", _home_desc,
+                      canonical="https://crimesafe.uk/", extra_head=_home_ld)
     html += '''
     <main>
         <section class="hero">
@@ -264,8 +297,16 @@ def generate_force_page(force, all_forces, rankings_lookup=None):
     if rankings_lookup is None:
         rankings_lookup = {}
     nb_count = len(force['neighbourhoods'])
-    
-    html = get_header(f"{force['name']} — CrimeSafe UK", f"Crime statistics for {nb_count} neighbourhoods in {force['name']}")
+
+    _force_title = f"{force['name']} — CrimeSafe UK"
+    _force_desc = f"Crime statistics for {nb_count} neighbourhoods in {force['name']}"
+    _force_url = f"https://crimesafe.uk/force/{slug}/"
+    _force_ld = '    <script type="application/ld+json">' + json.dumps(
+        {"@context": "https://schema.org", "@type": "WebPage", "name": _force_title,
+         "description": _force_desc, "url": _force_url,
+         "isPartOf": {"@type": "WebSite", "name": "CrimeSafe UK", "url": "https://crimesafe.uk/"}},
+        ensure_ascii=False, separators=(',', ':')) + '</script>\n'
+    html = get_header(_force_title, _force_desc, canonical=_force_url, extra_head=_force_ld)
     html += f'''
     <main>
         <div class="container">
