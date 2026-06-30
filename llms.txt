@@ -1,7 +1,65 @@
 # crimesafe.uk
 
+> UK crime statistics, safety scores, and neighbourhood crime data for England, Wales, and Northern Ireland — sourced from official UK Police open data.
+
 ## About
 CrimeSafe UK provides UK crime statistics, safety scores, and neighbourhood crime data. Search by city, postcode, or street to find crime rates and safety information across England and Wales.
 
-## URLs
-- Homepage: https://crimesafe.uk/
+## Features / Content
+- City pages: crime rates and average safety scores for major UK cities.
+- Postcode & street search: look up crime data by postcode outcode and by street.
+- Neighbourhood pages: per-neighbourhood crime breakdowns and safety scores.
+- Police force pages: crime data grouped by the 44 UK police forces.
+- Comparisons: head-to-head safety and crime comparisons between any two neighbourhoods.
+- District / local-authority pages: crime overviews for UK districts.
+- Most-dangerous rankings: highest- and safest-crime-area rankings across the UK.
+- Embeddable widgets: lightweight "safety score" badges for any covered area.
+- Blog: explainer articles on UK crime statistics, safest places to live, and how to check crime in your area.
+- Maps: interactive crime maps (Leaflet-based).
+
+## Key Facts
+- 44 UK police forces covered.
+- 4,929 neighbourhoods.
+- 14 official crime categories tracked (violent crime, robbery, burglary, vehicle crime, theft, anti-social behaviour, criminal damage & arson, drugs, public order, weapons possession, and more).
+- 38 city pages.
+- ~274,000 neighbourhood-vs-neighbourhood comparison pages.
+- 79 district pages.
+- ~4,749 embeddable widget pages.
+- ~4,060 postcode pages and ~489 street pages.
+- Coverage: England, Wales, and Northern Ireland (Scotland excluded — different police data systems).
+- Crime data is monthly; latest data April 2026.
+
+## Sections
+- [Homepage](https://crimesafe.uk/): search and compare neighbourhoods, forces, and postcodes.
+- [Cities](https://crimesafe.uk/city/): city-level crime rates and safety scores.
+- [Districts](https://crimesafe.uk/districts/): UK district / local-authority crime overviews.
+- [Forces](https://crimesafe.uk/forces/): the 44 UK police forces.
+- [Rankings](https://crimesafe.uk/safest/): safest-area rankings.
+- [Most Dangerous Areas](https://crimesafe.uk/dangerous/): highest-crime areas in the UK.
+- [Blog](https://crimesafe.uk/blog/): crime and safety explainer articles.
+- [About](https://crimesafe.uk/about/): data sources, methodology, and limitations.
+- [FAQ](https://crimesafe.uk/faq/): common questions.
+- Sample city: [Birmingham](https://crimesafe.uk/city/birmingham/).
+- Sample comparison: [Abbey Hey vs Abram](https://crimesafe.uk/compare/abbey-hey-vs-abram/).
+
+## URL Patterns
+- City: `https://crimesafe.uk/city/<slug>/`
+- Comparison: `https://crimesafe.uk/compare/<area-a>-vs-<area-b>/`
+- District: `https://crimesafe.uk/district/<slug>/`
+- Police force: `https://crimesafe.uk/forces/<slug>/`
+- Postcode: `https://crimesafe.uk/postcode/<outcode>/`
+- Street: `https://crimesafe.uk/streets/<slug>/`
+- Embeddable widget: `https://crimesafe.uk/embed/<slug>/`
+- Blog post: `https://crimesafe.uk/blog/<slug>/`
+
+## Data Sources / Methodology
+- All crime data comes from [data.police.uk](https://data.police.uk), the official UK Police open data portal, updated monthly by all 44 police forces.
+- Safety scores (0–100) are calculated from per-capita crime rates adjusted for population size, so busy city centres and quiet residential areas can be compared fairly. Scores are percentile-based: a score of 80 means the area is safer than 80% of UK neighbourhoods.
+- Update cadence: a weekly check (`check_new_data.py`) polls the data.police.uk `crime-last-updated` endpoint and flags when a newer monthly dataset is available; data is refreshed when new monthly releases land.
+- Crime locations are anonymised by the police to protect victims, and figures represent reported crimes only.
+
+## Notes
+- This is a static site hosted on GitHub Pages.
+- Not affiliated with any UK police force, the Home Office, or the government.
+- For informational purposes only; actual crime levels may vary from reported figures.
+- Scotland is not covered because Scottish police data uses different systems.
