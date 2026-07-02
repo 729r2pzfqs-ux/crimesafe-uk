@@ -3,6 +3,7 @@
 Add FAQPage schema to all CrimeSafe UK pages.
 Compare pages already have Q&A content — just need schema wrapper.
 """
+import html as html_mod
 import os, re, json
 
 count = 0
@@ -66,32 +67,46 @@ def extract_postcode_faqs(html):
     ]
     return faqs
 
+def unescape_text(text):
+    """Decode HTML entities (incl. double-escaped ones like &amp;amp;) to plain text"""
+    for _ in range(3):
+        decoded = html_mod.unescape(text)
+        if decoded == text:
+            break
+        text = decoded
+    return text
+
 def inject_schema(filepath, faqs):
     """Add FAQPage schema to a page"""
     global count, errors
-    
+
     with open(filepath, "r") as f:
         html = f.read()
-    
+
     if "FAQPage" in html:
         return
-    
+
     if not faqs:
         errors += 1
         return
-    
+
     schema = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            {"@type": "Question", "name": unescape_text(q),
+             "acceptedAnswer": {"@type": "Answer", "text": unescape_text(a)}}
             for q, a in faqs
         ]
     }
-    
-    tag = f'<script type="application/ld+json">{json.dumps(schema)}</script>'
-    html = html.replace('</head>', tag + '\n</head>')
-    
+
+    # Escape "</" as "<\/" (still valid JSON) so the payload can never contain
+    # "</script>"/"</head>" sequences that break the script tag or get mangled
+    # by later tag-based text replacements over the file.
+    payload = json.dumps(schema).replace('</', '<\\/')
+    tag = f'<script type="application/ld+json">{payload}</script>'
+    html = html.replace('</head>', tag + '\n</head>', 1)
+
     with open(filepath, "w") as f:
         f.write(html)
     count += 1

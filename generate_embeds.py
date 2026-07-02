@@ -128,6 +128,14 @@ for r in rankings:  # All neighbourhoods
         .powered:hover {{
             color: #01696F;
         }}
+        .ogl {{
+            margin-top: 8px;
+            font-size: 9px;
+            color: #9ca3af;
+        }}
+        .ogl a {{
+            color: #9ca3af;
+        }}
     </style>
 </head>
 <body>
@@ -146,6 +154,7 @@ for r in rankings:  # All neighbourhoods
             <span class="grade">Grade: <strong>{grade}</strong> · Safer than {score}% of UK</span>
             <a href="https://crimesafe.uk/neighbourhood/{force_slug}/{slug}/" target="_blank" class="powered">CrimeSafe UK</a>
         </div>
+        <p class="ogl">Data: <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a> · <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a></p>
     </div>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');gtag('event','embed_view',{{'neighbourhood':'{slug}','referrer':document.referrer}});</script>
@@ -232,6 +241,7 @@ landing = '''<!DOCTYPE html>
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 CrimeSafe UK</p>
+            <p style="margin-top: var(--space-2);">Contains public sector information from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a> licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
         </div>
     </footer>
 </body>

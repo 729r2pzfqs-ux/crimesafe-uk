@@ -185,6 +185,7 @@ TEMPLATE = '''<!DOCTYPE html>
         <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
             <p>Data sourced from UK Police API. Updated monthly.</p>
             <p class="mt-2">© 2026 CrimeSafe UK</p>
+            <p class="mt-2">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
         </div>
     </footer>
 
