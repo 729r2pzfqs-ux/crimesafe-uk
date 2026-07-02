@@ -1,4 +1,8 @@
-fetch_crimes.log
+*.log
+*.bak
+*.pid
+logs/
+tmp
 .DS_Store
 __pycache__/
 *.pyc
