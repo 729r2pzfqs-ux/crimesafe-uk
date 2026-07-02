@@ -48,21 +48,7 @@ TEMPLATE = '''<!DOCTYPE html>
     
     <link rel="stylesheet" href="/css/main.css">
     <link rel="icon" href="/favicon.ico">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        tailwind.config = {{
-            darkMode: 'class',
-            theme: {{
-                extend: {{
-                    colors: {{
-                        primary: '#2563eb',
-                        surface: '#f8fafc',
-                    }}
-                }}
-            }}
-        }}
-    </script>
     <style>
         :root {{ --color-primary: #2563eb; --color-surface: #f8fafc; }}
         .dark {{ --color-surface: #1e293b; }}
