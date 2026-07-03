@@ -24,9 +24,11 @@ def social_meta(title, description, canonical):
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:site_name" content="CrimeSafe UK">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://crimesafe.uk/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
 '''
 
 def get_header(title, description, canonical=None):
@@ -43,13 +45,14 @@ def get_header(title, description, canonical=None):
     <title>{title}</title>
     <meta name="description" content="{description}">
 {social_meta(title, description, canonical)}
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -126,8 +129,12 @@ def generate_comparison_page(nb1, nb2):
     score_diff = abs(nb1['score'] - nb2['score'])
 
     html = get_header(title, desc, canonical)
+    # Freshly generated compare pages are thin until enrich_all_pages.py adds
+    # FAQPage schema; keep them out of the index until then.
+    html = html.replace('<meta charset="UTF-8">',
+                        '<meta charset="UTF-8">\n    <meta name="robots" content="noindex, follow">', 1)
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/compare/">Compare</a> › {name1} vs {name2}
@@ -215,7 +222,7 @@ def generate_compare_index(popular_comparisons):
     """Generate the compare index page"""
     html = get_header("Compare Neighbourhoods — CrimeSafe UK", "Compare crime rates between UK neighbourhoods. Side-by-side safety score comparisons.")
     html += '''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › Compare

@@ -32,6 +32,15 @@ def dedupe(urls):
         unique.append(entry)
     return unique
 
+def is_noindexed(filepath):
+    """True if the page opts out of indexing via a robots meta tag.
+
+    The tag sits near the top of <head>, so reading the first 2 KB is enough.
+    """
+    with open(filepath, "rb") as f:
+        head = f.read(2048)
+    return b'name="robots"' in head and b"noindex" in head
+
 def slugify(text):
     text = text.lower()
     text = re.sub(r'[^a-z0-9\s-]', '', text)
@@ -134,12 +143,15 @@ def main():
             nb_slug = slugify(nb['name'])
             neighbourhood_urls.append((f"/neighbourhood/{force_slug}/{nb_slug}/", "0.7", "monthly"))
     
-    # Comparison pages
+    # Comparison pages (unenriched pages carry a noindex meta and must stay
+    # out of sitemaps)
     compare_dir = f"{OUTPUT_DIR}/compare"
     if os.path.exists(compare_dir):
         for root, dirs, files in os.walk(compare_dir):
             for f in files:
                 if f == "index.html":
+                    if is_noindexed(os.path.join(root, f)):
+                        continue
                     rel_path = os.path.relpath(root, OUTPUT_DIR)
                     compare_urls.append((f"/{rel_path}/", "0.6", "monthly"))
     

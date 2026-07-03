@@ -107,6 +107,10 @@ def inject_schema(filepath, faqs):
     tag = f'<script type="application/ld+json">{payload}</script>'
     html = html.replace('</head>', tag + '\n</head>', 1)
 
+    # Unenriched pages carry a thin-content noindex; enrichment makes the
+    # page index-worthy again, so drop it.
+    html = html.replace('\n    <meta name="robots" content="noindex, follow">', '', 1)
+
     with open(filepath, "w") as f:
         f.write(html)
     count += 1
