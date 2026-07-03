@@ -10,7 +10,7 @@
     <title>Terms of Use — CrimeSafe UK</title>
     <link rel="canonical" href="https://crimesafe.uk/terms/">
     <meta name="description" content="Terms of use for CrimeSafe UK — data sources, accuracy disclaimers, acceptable use, and licensing information.">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -23,11 +23,14 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://crimesafe.uk/terms/">
     <meta property="og:site_name" content="CrimeSafe UK">
+    <meta property="og:image" content="https://crimesafe.uk/og-image.png">
+    <meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Terms of Use | CrimeSafe UK">
     <meta name="twitter:description" content="Terms of use for CrimeSafe UK - crime statistics and safety scores for UK neighbourhoods.">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <script>
     var saved=localStorage.getItem('theme');
     var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -63,7 +66,7 @@
         </div>
     </nav>
 
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › Terms of Use

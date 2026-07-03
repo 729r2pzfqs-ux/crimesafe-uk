@@ -9,7 +9,7 @@
     <meta name="description" content="Expert guides on UK crime statistics, safety tips, and neighbourhood reviews. Find out if your area is safe to live.">
     <link rel="canonical" href="https://crimesafe.uk/blog/">
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
@@ -18,6 +18,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://crimesafe.uk/blog/">
     <meta property="og:site_name" content="CrimeSafe UK">
+    <meta property="og:image" content="https://crimesafe.uk/og-image.png">
+    <meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Blog | CrimeSafe UK">
     <meta name="twitter:description" content="Crime safety insights, guides, and analysis for UK neighbourhoods.">
@@ -32,6 +34,7 @@
     </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -61,7 +64,7 @@
         </div>
     </nav>
 
-    <main class="container" style="padding-top: var(--space-8); padding-bottom: var(--space-16);">
+    <main id="main-content" class="container" style="padding-top: var(--space-8); padding-bottom: var(--space-16);">
         <nav class="breadcrumb" style="margin-bottom: var(--space-6);">
             <a href="/">Home</a> › <span>Blog</span>
         </nav>

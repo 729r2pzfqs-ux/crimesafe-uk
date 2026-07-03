@@ -57,9 +57,12 @@ TEMPLATE = '''<!DOCTYPE html>
         .dark .crime-card {{ background: #334155; }}
         .loading {{ animation: pulse 2s infinite; }}
         @keyframes pulse {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.5; }} }}
+        .skip-link {{ position: absolute; left: -9999px; z-index: 1000; padding: 10px 18px; background: #2563eb; color: #fff; font-weight: 600; text-decoration: none; }}
+        .skip-link:focus {{ left: 0; top: 0; }}
     </style>
 </head>
 <body class="bg-slate-50 dark:bg-slate-900 min-h-screen">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="flex items-center gap-2">
@@ -73,7 +76,7 @@ TEMPLATE = '''<!DOCTYPE html>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 py-8">
+    <main id="main-content" class="max-w-6xl mx-auto px-4 py-8">
         <!-- Breadcrumb -->
         <nav class="text-sm text-slate-500 mb-6">
             <a href="/" class="hover:text-primary">Home</a>

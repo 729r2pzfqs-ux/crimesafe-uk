@@ -26,9 +26,11 @@ def social_meta(title, description, canonical):
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:site_name" content="CrimeSafe UK">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://crimesafe.uk/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
 '''
 
 def get_header(title, description, canonical=None):
@@ -44,12 +46,13 @@ def get_header(title, description, canonical=None):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
-{social_meta(title, description, canonical)}    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+{social_meta(title, description, canonical)}    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -126,7 +129,7 @@ def generate_comparison_page(nb1, nb2):
     
     html = get_header(title, desc, canonical)
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container" style="padding: var(--space-4) 0;">
             <a href="/">Home</a> › <a href="/compare/">Compare</a> › {name1} vs {name2}
         </div>

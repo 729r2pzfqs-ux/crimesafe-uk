@@ -54,9 +54,11 @@ def social_meta(title, description, canonical):
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:site_name" content="CrimeSafe UK">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://crimesafe.uk/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
 '''
 
 def get_header(title="CrimeSafe UK", description="UK crime statistics and safety scores", canonical=None, extra_head=""):
@@ -74,8 +76,8 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
     <meta name="description" content="{description}">
 {social_meta(title, description, canonical)}{extra_head}    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -85,6 +87,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -113,7 +116,7 @@ def get_footer():
             <p style="margin-top: var(--space-2);">Data updated monthly. Last update: April 2026</p>
         </div>
     </footer>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
     <script src="/forces_search.js"></script>
     <script src="/neighbourhoods_search.js"></script>
     <script src="/compare_search.js"></script>
@@ -150,7 +153,7 @@ def generate_homepage(forces_data):
     html = get_header("CrimeSafe UK — UK Crime Statistics & Safety Scores", _home_desc,
                       canonical="https://crimesafe.uk/", extra_head=_home_ld)
     html += '''
-    <main>
+    <main id="main-content">
         <section class="hero">
             <div class="container">
                 <h1>UK Crime Statistics</h1>
@@ -163,7 +166,7 @@ def generate_homepage(forces_data):
                 <div class="search-panel active" id="searchPanel">
                     <div class="search-wrap">
                         <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                        <input type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
+                        <input aria-label="Search neighbourhoods, forces" type="text" class="search-input" id="searchInput" placeholder="Search neighbourhoods, forces..." autocomplete="off">
                         <div class="search-dropdown" id="searchDropdown"></div>
                     </div>
                 </div>
@@ -171,12 +174,12 @@ def generate_homepage(forces_data):
                 <div class="search-panel" id="comparePanel">
                     <div class="compare-wrap">
                         <div class="compare-input-wrap">
-                            <input type="text" class="search-input" id="compareCity1" placeholder="First neighbourhood..." autocomplete="off">
+                            <input aria-label="First neighbourhood" type="text" class="search-input" id="compareCity1" placeholder="First neighbourhood..." autocomplete="off">
                             <div class="search-dropdown" id="compareDropdown1"></div>
                         </div>
                         <span class="compare-vs">vs</span>
                         <div class="compare-input-wrap">
-                            <input type="text" class="search-input" id="compareCity2" placeholder="Second neighbourhood..." autocomplete="off">
+                            <input aria-label="Second neighbourhood" type="text" class="search-input" id="compareCity2" placeholder="Second neighbourhood..." autocomplete="off">
                             <div class="search-dropdown" id="compareDropdown2"></div>
                         </div>
                         <button class="compare-btn" id="compareBtn" disabled>Compare</button>
@@ -309,7 +312,7 @@ def generate_force_page(force, all_forces, rankings_lookup=None):
         ensure_ascii=False, separators=(',', ':')) + '</script>\n'
     html = get_header(_force_title, _force_desc, canonical=_force_url, extra_head=_force_ld)
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/forces/">Forces</a><a href="/city/">City</a> › {force['name']}
@@ -373,7 +376,7 @@ def generate_forces_index(forces_data):
     
     html = get_header("All Police Forces — CrimeSafe UK", "Browse all 44 UK police forces")
     html += '''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › Forces

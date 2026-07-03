@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://crimesafe.uk/maps/london/">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous"></noscript>
     <style>
         #map {
             height: 65vh;
@@ -280,6 +280,7 @@
     </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -308,7 +309,7 @@
         </div>
     </nav>
 
-    <main class="container" style="padding: var(--space-8) var(--space-4);">
+    <main id="main-content" class="container" style="padding: var(--space-8) var(--space-4);">
         <div style="text-align: center; margin-bottom: var(--space-6);">
             <h1 style="font-size: var(--text-3xl); font-weight: 700; margin-bottom: var(--space-2);">London Crime Map</h1>
             <p style="color: var(--color-text-muted); max-width: 600px; margin: 0 auto;">
@@ -413,7 +414,7 @@
         </div>
     </footer>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
     <script src="data.js"></script>
     <script>
         // Initialize map

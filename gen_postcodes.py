@@ -10,13 +10,14 @@ TEMPLATE = '''<!DOCTYPE html>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>PCUPPER Crime Rate 2026 | CrimeSafe UK</title>
     <meta name="description" content="Crime statistics for PCUPPER postcode area in Scotland.">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav"><div class="nav-inner"><a href="/" class="nav-logo"><svg width="28" height="28" viewBox="0 0 512 512" fill="none"><path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="currentColor" opacity="0.1"/><path d="M256 52L88 140v120c0 104 72 192 168 224 96-32 168-120 168-224V140L256 52z" fill="none" stroke="currentColor" stroke-width="20" stroke-linejoin="round"/><text x="256" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="160" fill="currentColor">UK</text></svg><span>CrimeSafe UK</span></a></div></nav>
-    <main><div class="container" style="padding:3rem 1rem;max-width:700px;margin:0 auto;">
+    <main id="main-content"><div class="container" style="padding:3rem 1rem;max-width:700px;margin:0 auto;">
         <h1 style="font-size:2rem;margin-bottom:0.5rem;">PCUPPER Postcode Area</h1>
         <p style="color:var(--color-text-muted);margin-bottom:2rem;">Scotland, United Kingdom</p>
         <div style="background:#fef3c7;border:1px solid #f59e0b;border-radius:var(--radius);padding:1.5rem;margin-bottom:2rem;">

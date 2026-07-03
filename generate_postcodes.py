@@ -69,12 +69,13 @@ def get_header(title, description):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -149,7 +150,7 @@ def generate_postcode_page(outcode, outcode_info, nearby_neighbourhoods):
     
     html = get_header(title, desc)
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/postcode/">Postcodes</a> › {outcode}
@@ -219,7 +220,7 @@ def generate_postcodes_index(valid_outcodes):
     """Generate the postcodes index page"""
     html = get_header("UK Postcode Crime Statistics — CrimeSafe UK", "Find crime rates by UK postcode. Enter your postcode to see local safety scores.")
     html += '''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › Postcodes
@@ -233,7 +234,7 @@ def generate_postcodes_index(valid_outcodes):
                 
                 <div style="max-width: 400px; margin: var(--space-6) auto 0;">
                     <div style="display: flex; gap: var(--space-2);">
-                        <input type="text" id="postcodeInput" class="search-input" placeholder="Enter postcode (e.g., SW1A 1AA)" style="flex: 1;">
+                        <input aria-label="Enter postcode" type="text" id="postcodeInput" class="search-input" placeholder="Enter postcode (e.g., SW1A 1AA)" style="flex: 1;">
                         <button id="postcodeBtn" class="btn btn-primary">Search</button>
                     </div>
                     <div id="postcodeResult"></div>

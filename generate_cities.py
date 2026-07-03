@@ -191,7 +191,7 @@ def get_header(title, description):
     <meta name="description" content="{description}">
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -204,6 +204,7 @@ def get_header(title, description):
     <meta property="og:type" content="website">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -310,7 +311,7 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
         grade_bg = "#fee2e2"
     
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/city/">City</a> › {city_name}
@@ -529,7 +530,7 @@ def generate_cities_index(city_scores):
                       "Browse crime statistics for major UK cities and towns. Compare safety scores and find the safest areas.")
     
     html += '''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › City

@@ -9,13 +9,16 @@
 <meta property="og:title" content="UK Postcode Crime Lookup | CrimeSafe UK">
 <meta property="og:description" content="Find crime statistics for any UK postcode. Browse by postcode district.">
 <meta property="og:site_name" content="CrimeSafe UK">
+<meta property="og:image" content="https://crimesafe.uk/og-image.png">
+<meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="UK Postcode Crime Lookup | CrimeSafe UK">
 <meta name="twitter:description" content="Find crime statistics for any UK postcode. Browse by postcode district.">
     <meta name="description" content="Find crime statistics for any UK postcode. Browse by postcode district.">
-<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="/style.css"></head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <script>
     var saved=localStorage.getItem('theme');
     var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -49,7 +52,7 @@
             </div>
         </div>
     </nav>
-<main><section class="hero"><div class="container"><h1>Postcode Crime Lookup</h1><p class="hero-sub">Find crime statistics for any UK postcode</p>
+<main id="main-content"><section class="hero"><div class="container"><h1>Postcode Crime Lookup</h1><p class="hero-sub">Find crime statistics for any UK postcode</p>
 </div></section>
 
 <section style="padding: var(--space-6) 0;">
@@ -76,7 +79,7 @@
 </div>
 <div style="max-width: 500px; margin: var(--space-6) auto 0;">
 <form action="/postcode/" method="get" style="display: flex; gap: var(--space-2);">
-<input type="text" name="q" placeholder="Enter postcode (e.g., SW1A 1AA)" style="flex: 1; padding: var(--space-3); border-radius: var(--radius); border: 1px solid var(--color-border);">
+<input aria-label="Enter postcode" type="text" name="q" placeholder="Enter postcode (e.g., SW1A 1AA)" style="flex: 1; padding: var(--space-3); border-radius: var(--radius); border: 1px solid var(--color-border);">
 <button type="submit" style="padding: var(--space-3) var(--space-4); background: var(--color-primary); color: white; border: none; border-radius: var(--radius); cursor: pointer;">Search</button>
 </form></div></div></section>
 <section style="padding: var(--space-8) 0;"><div class="container">

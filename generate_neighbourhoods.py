@@ -278,7 +278,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
     if safety_score is not None:
         # Full page with crime data
         html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/forces/">Forces</a> › <a href="/force/{force_slug}/">{force_name}</a> › {nb_name}
@@ -441,7 +441,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
     else:
         # Minimal page without data
         html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/forces/">Forces</a> › <a href="/force/{force_slug}/">{force_name}</a> › {nb_name}

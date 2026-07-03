@@ -26,9 +26,11 @@ def social_meta(title, description, canonical):
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:site_name" content="CrimeSafe UK">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://crimesafe.uk/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="https://crimesafe.uk/og-image.png">
 '''
 
 def get_header(title, description, canonical=None, extra_head=""):
@@ -43,13 +45,14 @@ def get_header(title, description, canonical=None, extra_head=""):
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
     <title>{title}</title>
     <meta name="description" content="{description}">
-{social_meta(title, description, canonical)}{extra_head}    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+{social_meta(title, description, canonical)}{extra_head}    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#01696F">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav class="nav">
         <div class="nav-inner">
             <a href="/" class="nav-logo">
@@ -113,7 +116,7 @@ def generate_district_page(district, rankings_lookup):
     html = get_header(_title, desc, canonical=_url, extra_head=_ld)
     
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › <a href="/districts/">Districts</a> › {district_name}
@@ -170,7 +173,7 @@ def generate_districts_index(districts):
     html = get_header("UK Districts — CrimeSafe UK", "Browse crime statistics by district across the UK",
                       canonical="https://crimesafe.uk/districts/")
     html += f'''
-    <main>
+    <main id="main-content">
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> › Districts
