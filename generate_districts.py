@@ -21,6 +21,8 @@ def social_meta(title, description, canonical):
     if not canonical:
         return ""
     return f'''    <link rel="canonical" href="{canonical}">
+    <link rel="alternate" hreflang="en" href="{canonical}">
+    <link rel="alternate" hreflang="x-default" href="{canonical}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{canonical}">
     <meta property="og:title" content="{title}">
@@ -105,7 +107,7 @@ def generate_district_page(district, rankings_lookup):
     nb_count = district['neighbourhood_count']
     neighbourhoods = district['neighbourhoods']
     
-    desc = f"Crime statistics for {district_name} district in {force_name}. {nb_count} neighbourhoods covered."
+    desc = f"{district_name} crime statistics: safety scores for {nb_count} police neighbourhoods in {force_name}. See the safest areas and monthly crime trends from police.uk."
     _title = f"{district_name} Crime Statistics — CrimeSafe UK"
     _url = f"https://crimesafe.uk/district/{district_slug}/"
     _ld = '    <script type="application/ld+json">' + json.dumps(

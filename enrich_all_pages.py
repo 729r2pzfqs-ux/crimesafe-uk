@@ -37,6 +37,7 @@ def extract_city_faqs(html):
     """Build FAQs from city page content"""
     city_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html)
     city = city_match.group(1).strip() if city_match else "this city"
+    city = re.sub(r'^Crime in ', '', city)
     
     score_match = re.search(r'average safety score of <strong>(\d+)/100</strong>', html)
     score = score_match.group(1) if score_match else "N/A"

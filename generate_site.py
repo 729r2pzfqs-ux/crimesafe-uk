@@ -49,6 +49,8 @@ def social_meta(title, description, canonical):
     if not canonical:
         return ""
     return f'''    <link rel="canonical" href="{canonical}">
+    <link rel="alternate" hreflang="en" href="{canonical}">
+    <link rel="alternate" hreflang="x-default" href="{canonical}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{canonical}">
     <meta property="og:title" content="{title}">
@@ -133,7 +135,7 @@ def generate_homepage(forces_data):
     # Sort forces by neighbourhood count
     forces_sorted = sorted(forces_data['forces'], key=lambda f: len(f['neighbourhoods']), reverse=True)
     
-    _home_desc = "Explore crime data and safety scores for neighbourhoods across the UK"
+    _home_desc = "UK crime statistics and safety scores for 4,900+ neighbourhoods, postcodes and every police force. Check how safe your area is with monthly police.uk data."
     _home_graph = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": "https://crimesafe.uk/#website", "name": "CrimeSafe UK",
          "url": "https://crimesafe.uk/", "description": _home_desc,

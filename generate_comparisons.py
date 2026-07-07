@@ -19,6 +19,8 @@ def social_meta(title, description, canonical):
     if not canonical:
         return ""
     return f'''    <link rel="canonical" href="{canonical}">
+    <link rel="alternate" hreflang="en" href="{canonical}">
+    <link rel="alternate" hreflang="x-default" href="{canonical}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{canonical}">
     <meta property="og:title" content="{title}">

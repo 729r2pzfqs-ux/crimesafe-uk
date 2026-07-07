@@ -20,6 +20,8 @@ TEMPLATE = '''<!DOCTYPE html>
     <title>{street_name} Crime Statistics | Is {street_name} Safe? | CrimeSafe UK</title>
     <meta name="description" content="Is {street_name} safe? View real-time crime statistics, safety score of {score}/100, and recent incidents for {street_name}, {city}.">
     <link rel="canonical" href="https://crimesafe.uk/streets/{slug}/">
+    <link rel="alternate" hreflang="en" href="https://crimesafe.uk/streets/{slug}/">
+    <link rel="alternate" hreflang="x-default" href="https://crimesafe.uk/streets/{slug}/">
     
     <meta property="og:title" content="{street_name} Crime Statistics | CrimeSafe UK">
     <meta property="og:description" content="Safety score: {score}/100. {total_crimes} crimes recorded. View detailed crime breakdown for {street_name}.">
