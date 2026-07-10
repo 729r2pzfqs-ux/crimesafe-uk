@@ -31,9 +31,34 @@ TEMPLATE = '''<!DOCTYPE html>
     <footer class="footer"><div class="container"><p>&copy; 2026 CrimeSafe UK</p><p>Contains public sector information from <a href="https://data.police.uk">data.police.uk</a> licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>.</p></div></footer>
 </body></html>'''
 
+def _r(a, b):
+    return set(range(a, b + 1))
+
+# Real geographic postcode districts per Scottish area — do not generate
+# pages for districts that don't exist.
+VALID_DISTRICTS = {
+    'ab': _r(10, 16) | _r(21, 25) | _r(30, 39) | _r(41, 45) | _r(51, 56),
+    'dd': _r(1, 11),
+    'dg': _r(1, 14) | {16},
+    'eh': _r(1, 49) | _r(51, 55),
+    'fk': _r(1, 21),
+    'g':  _r(1, 5) | _r(11, 15) | _r(20, 23) | _r(31, 34) | _r(40, 46)
+          | _r(51, 53) | _r(60, 69) | _r(71, 78) | _r(81, 84),
+    'hs': _r(1, 9),
+    'iv': _r(1, 28) | _r(30, 32) | {36} | _r(40, 49) | _r(51, 56) | {63},
+    'ka': _r(1, 30),
+    'kw': _r(1, 17),
+    'ky': _r(1, 16),
+    'ml': _r(1, 12),
+    'pa': _r(1, 38) | _r(41, 49) | _r(60, 78),
+    'ph': _r(1, 26) | _r(30, 44) | {49, 50},
+    'td': _r(1, 15),
+    'ze': _r(1, 3),
+}
+
 count = 0
-for prefix in ['ab','dd','dg','eh','fk','g','hs','iv','ka','kw','ky','ml','pa','ph','td','ze']:
-    for num in range(1, 100):
+for prefix, nums in VALID_DISTRICTS.items():
+    for num in sorted(nums):
         pc = f"{prefix}{num}"
         pc_dir = f"postcode/{pc}"
         if not os.path.exists(pc_dir):
