@@ -98,7 +98,7 @@ def main():
     lsoa_urls = []
     
     # Main pages
-    main_urls.append(("", "1.0", "daily"))
+    main_urls.append(("/", "1.0", "daily"))
     main_urls.append(("/forces/", "0.9", "weekly"))
     main_urls.append(("/districts/", "0.9", "weekly"))
     main_urls.append(("/safest/", "0.9", "weekly"))
