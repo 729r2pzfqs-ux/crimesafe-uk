@@ -249,6 +249,14 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         population = 0
         crime_rate = 0
     
+    # Missing population data must not render as "Population 0 / rate 0.0"
+    if population > 0:
+        pop_value, pop_detail = f"{population:,}", "Census 2021"
+        rate_value, rate_detail = f"{crime_rate:.1f}", "per 1,000 people"
+    else:
+        pop_value, pop_detail = "N/A", "Population data unavailable"
+        rate_value, rate_detail = "N/A", "Population data unavailable"
+
     if safety_score:
         title = f"{nb_name} Crime Rate 2026 — Safety Score {safety_score}/100 | CrimeSafe UK"
         desc = f"Is {nb_name} safe? Safety Score: {safety_score}/100. View {total:,} crimes reported in April 2026, compare with nearby areas, and see crime breakdown."
@@ -333,13 +341,13 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     </div>
                     <div class="kpi-card">
                         <div class="kpi-label">Population</div>
-                        <div class="kpi-value">{population:,}</div>
-                        <div class="kpi-detail">Census 2021</div>
+                        <div class="kpi-value">{pop_value}</div>
+                        <div class="kpi-detail">{pop_detail}</div>
                     </div>
                     <div class="kpi-card">
                         <div class="kpi-label">Crime Rate</div>
-                        <div class="kpi-value">{crime_rate:.1f}</div>
-                        <div class="kpi-detail">per 1,000 people</div>
+                        <div class="kpi-value">{rate_value}</div>
+                        <div class="kpi-detail">{rate_detail}</div>
                     </div>
                 </div>
                 
