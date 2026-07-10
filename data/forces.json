@@ -2347,7 +2347,7 @@
         },
         {
           "id": "CIOS.4007",
-          "name": "Redruth South &amp;amp; St Day &amp;amp; Lanner"
+          "name": "Redruth South & St Day & Lanner"
         },
         {
           "id": "CIOS.4008",
@@ -2359,7 +2359,7 @@
         },
         {
           "id": "CIOS.4010",
-          "name": "Porthleven &amp;amp; Helston North"
+          "name": "Porthleven & Helston North"
         },
         {
           "id": "CIOS.4011",
@@ -2379,7 +2379,7 @@
         },
         {
           "id": "CIOS.4015",
-          "name": "St Just, Pendeen &amp;amp; Sennen"
+          "name": "St Just, Pendeen & Sennen"
         },
         {
           "id": "CIOS.4016",
@@ -2387,7 +2387,7 @@
         },
         {
           "id": "CIOS.4017",
-          "name": "Copperhouse &amp;amp; Gwinear"
+          "name": "Copperhouse & Gwinear"
         },
         {
           "id": "CIOS.4018",
@@ -2403,11 +2403,11 @@
         },
         {
           "id": "CIOS.4021",
-          "name": "Arwenack &amp; Boslowick"
+          "name": "Arwenack & Boslowick"
         },
         {
           "id": "CIOS.4025",
-          "name": "Penwerris &amp;amp; Trescobeas"
+          "name": "Penwerris & Trescobeas"
         },
         {
           "id": "CIOS.4026",
@@ -2419,11 +2419,11 @@
         },
         {
           "id": "CIOS.4030",
-          "name": "Grampound &amp;amp; Mevagissey"
+          "name": "Grampound & Mevagissey"
         },
         {
           "id": "CIOS.4031",
-          "name": "Lostwithiel &amp;amp; Fowey"
+          "name": "Lostwithiel & Fowey"
         },
         {
           "id": "CIOS.4032",
@@ -2431,15 +2431,15 @@
         },
         {
           "id": "CIOS.4033",
-          "name": "St Blazey &amp;amp; Tywardreath"
+          "name": "St Blazey & Tywardreath"
         },
         {
           "id": "CIOS.4034",
-          "name": "St Stephen &amp;amp; St Dennis"
+          "name": "St Stephen & St Dennis"
         },
         {
           "id": "CIOS.4035",
-          "name": "Treverbyn &amp;amp; Roche"
+          "name": "Treverbyn & Roche"
         },
         {
           "id": "CIOS.4036",
@@ -2447,11 +2447,11 @@
         },
         {
           "id": "CIOS.4037",
-          "name": "Moresk &amp; Tregolls"
+          "name": "Moresk & Tregolls"
         },
         {
           "id": "CIOS.4038",
-          "name": "Mount Hawke &amp;amp; St Agnes"
+          "name": "Mount Hawke & St Agnes"
         },
         {
           "id": "CIOS.4039",
@@ -2459,7 +2459,7 @@
         },
         {
           "id": "CIOS.4040",
-          "name": "Roseland &amp;amp; Probus &amp;amp; Trispen &amp;amp; St Erme"
+          "name": "Roseland & Probus & Trispen & St Erme"
         },
         {
           "id": "CIOS.4042",
@@ -2479,7 +2479,7 @@
         },
         {
           "id": "CIOS.4047",
-          "name": "Padstow &amp;amp; St Merryn"
+          "name": "Padstow & St Merryn"
         },
         {
           "id": "CIOS.4048",
@@ -2487,7 +2487,7 @@
         },
         {
           "id": "CIOS.4049",
-          "name": "Rock, Polzeath &amp;amp; Port Isaac"
+          "name": "Rock, Polzeath & Port Isaac"
         },
         {
           "id": "CIOS.4050",
@@ -2499,7 +2499,7 @@
         },
         {
           "id": "CIOS.4052",
-          "name": "Camelford &amp; Tintagel"
+          "name": "Camelford & Tintagel"
         },
         {
           "id": "CIOS.4053",
@@ -2527,7 +2527,7 @@
         },
         {
           "id": "CIOS.4059",
-          "name": "Callington &amp;amp; Stokeclimsland"
+          "name": "Callington & Stokeclimsland"
         },
         {
           "id": "CIOS.4060",
@@ -2535,7 +2535,7 @@
         },
         {
           "id": "CIOS.4061",
-          "name": "Millbrook &amp;amp; Rame"
+          "name": "Millbrook & Rame"
         },
         {
           "id": "CIOS.4062",
@@ -2543,7 +2543,7 @@
         },
         {
           "id": "CIOS.4063",
-          "name": "St Germans &amp;amp; Landrake"
+          "name": "St Germans & Landrake"
         },
         {
           "id": "CIOS.4064",
@@ -2551,11 +2551,11 @@
         },
         {
           "id": "CIOS.4065",
-          "name": "Chacewater, Feock, Kea &amp;amp; Kenwyn"
+          "name": "Chacewater, Feock, Kea & Kenwyn"
         },
         {
           "id": "CIOS.4066",
-          "name": "Trehaverne, Highertown, Malabar &amp;amp; Redannick"
+          "name": "Trehaverne, Highertown, Malabar & Redannick"
         },
         {
           "id": "CIOS.4067",
@@ -2563,7 +2563,7 @@
         },
         {
           "id": "CIOS.4068",
-          "name": "Penryn, Mylor &amp;amp; Penryn Rural"
+          "name": "Penryn, Mylor & Penryn Rural"
         },
         {
           "id": "DEV.4001",
@@ -2571,7 +2571,7 @@
         },
         {
           "id": "DEV.4002",
-          "name": "Dartmouth Townstal &amp;amp; Rural"
+          "name": "Dartmouth Townstal & Rural"
         },
         {
           "id": "DEV.4003",
@@ -2699,7 +2699,7 @@
         },
         {
           "id": "DEV.4034",
-          "name": "Torre &amp;amp; Upton"
+          "name": "Torre & Upton"
         },
         {
           "id": "DEV.4035",
@@ -2715,7 +2715,7 @@
         },
         {
           "id": "DEV.4038",
-          "name": "Bovey Tracey &amp;amp; Moretonhampstead"
+          "name": "Bovey Tracey & Moretonhampstead"
         },
         {
           "id": "DEV.4039",
@@ -2727,11 +2727,11 @@
         },
         {
           "id": "DEV.4041",
-          "name": "Exminster &amp;amp; Rural"
+          "name": "Exminster & Rural"
         },
         {
           "id": "DEV.4042",
-          "name": "Kingskerswell &amp;amp; Rural"
+          "name": "Kingskerswell & Rural"
         },
         {
           "id": "DEV.4043",
@@ -2767,15 +2767,15 @@
         },
         {
           "id": "DEV.4051",
-          "name": "Countess Wear &amp;amp; Topsham"
+          "name": "Countess Wear & Topsham"
         },
         {
           "id": "DEV.4052",
-          "name": "Cowick &amp;amp; St Thomas"
+          "name": "Cowick & St Thomas"
         },
         {
           "id": "DEV.4053",
-          "name": "Duryard &amp;amp; Pennsylvannia"
+          "name": "Duryard & Pennsylvannia"
         },
         {
           "id": "DEV.4054",
@@ -2787,7 +2787,7 @@
         },
         {
           "id": "DEV.4056",
-          "name": "Heavitree &amp;amp; Polsloe"
+          "name": "Heavitree & Polsloe"
         },
         {
           "id": "DEV.4057",
@@ -2795,7 +2795,7 @@
         },
         {
           "id": "DEV.4058",
-          "name": "Newtown &amp;amp; St Leonards"
+          "name": "Newtown & St Leonards"
         },
         {
           "id": "DEV.4059",
@@ -2823,15 +2823,15 @@
         },
         {
           "id": "DEV.4065",
-          "name": "Budleigh &amp;amp; Bicton, &amp;amp; Raleigh"
+          "name": "Budleigh & Bicton, & Raleigh"
         },
         {
           "id": "DEV.4066",
-          "name": "Clyst Valley, Woodbury &amp;amp; Lympstone"
+          "name": "Clyst Valley, Woodbury & Lympstone"
         },
         {
           "id": "DEV.4067",
-          "name": "Exmouth Halsdon &amp;amp; Withycombe"
+          "name": "Exmouth Halsdon & Withycombe"
         },
         {
           "id": "DEV.4068",
@@ -2847,7 +2847,7 @@
         },
         {
           "id": "DEV.4071",
-          "name": "Canonsleigh, Halberton &amp;amp; Willand"
+          "name": "Canonsleigh, Halberton & Willand"
         },
         {
           "id": "DEV.4072",
@@ -2863,15 +2863,15 @@
         },
         {
           "id": "DEV.4075",
-          "name": "Cullompton North &amp;amp; South"
+          "name": "Cullompton North & South"
         },
         {
           "id": "DEV.4076",
-          "name": "Cullompton Outer &amp;amp; Bradninch"
+          "name": "Cullompton Outer & Bradninch"
         },
         {
           "id": "DEV.4077",
-          "name": "Lower Culm &amp;amp; Upper Culm"
+          "name": "Lower Culm & Upper Culm"
         },
         {
           "id": "DEV.4078",
@@ -2943,23 +2943,23 @@
         },
         {
           "id": "DEV.4095",
-          "name": "Bishops Tawton, Landkey, Swimbridge &amp;amp; Whiddon Valley"
+          "name": "Bishops Tawton, Landkey, Swimbridge & Whiddon Valley"
         },
         {
           "id": "DEV.4096",
-          "name": "Gorwell &amp;amp; Fort Hill, Frankmarsh &amp;amp; St Georges"
+          "name": "Gorwell & Fort Hill, Frankmarsh & St Georges"
         },
         {
           "id": "DEV.4097",
-          "name": "Instow, Fremington &amp;amp; Bickington"
+          "name": "Instow, Fremington & Bickington"
         },
         {
           "id": "DEV.4098",
-          "name": "Pilton, Bratton Fleming &amp;amp; Goodleigh"
+          "name": "Pilton, Bratton Fleming & Goodleigh"
         },
         {
           "id": "DEV.4099",
-          "name": "Roundswell, Tawstock &amp;amp; Longbridge"
+          "name": "Roundswell, Tawstock & Longbridge"
         },
         {
           "id": "DEV.4100",
@@ -2975,7 +2975,7 @@
         },
         {
           "id": "DEV.4103",
-          "name": "Ilfracombe East &amp;amp; Central"
+          "name": "Ilfracombe East & Central"
         },
         {
           "id": "DEV.4104",
@@ -2983,11 +2983,11 @@
         },
         {
           "id": "DEV.4105",
-          "name": "Lynton &amp; Lynmouth"
+          "name": "Lynton & Lynmouth"
         },
         {
           "id": "DEV.4106",
-          "name": "Mortehoe &amp;amp; Woolacombe"
+          "name": "Mortehoe & Woolacombe"
         },
         {
           "id": "DEV.4107",
@@ -3015,7 +3015,7 @@
         },
         {
           "id": "DEV.4113",
-          "name": "Westward Ho!, Northam &amp;amp; Appledore, Hartland Rural"
+          "name": "Westward Ho!, Northam & Appledore, Hartland Rural"
         },
         {
           "id": "PLY.4001",
@@ -3023,11 +3023,11 @@
         },
         {
           "id": "PLY.4002",
-          "name": "Colebrook &amp;amp; Newnham"
+          "name": "Colebrook & Newnham"
         },
         {
           "id": "PLY.4003",
-          "name": "Elburton &amp;amp; Dunstone"
+          "name": "Elburton & Dunstone"
         },
         {
           "id": "PLY.4004",
@@ -3039,7 +3039,7 @@
         },
         {
           "id": "PLY.4007",
-          "name": "Turnchapel, Hooe &amp;amp; Oreston"
+          "name": "Turnchapel, Hooe & Oreston"
         },
         {
           "id": "PLY.4008",
@@ -3055,15 +3055,15 @@
         },
         {
           "id": "PLY.4012",
-          "name": "Greenbank &amp;amp; University"
+          "name": "Greenbank & University"
         },
         {
           "id": "PLY.4013",
-          "name": "Higher Compton &amp;amp; Mannamead"
+          "name": "Higher Compton & Mannamead"
         },
         {
           "id": "PLY.4014",
-          "name": "Lipson &amp;amp; Laira"
+          "name": "Lipson & Laira"
         },
         {
           "id": "PLY.4015",
@@ -3075,11 +3075,11 @@
         },
         {
           "id": "PLY.4017",
-          "name": "Derriford West &amp;amp; Crownhill"
+          "name": "Derriford West & Crownhill"
         },
         {
           "id": "PLY.4018",
-          "name": "Estover, Glenholt &amp;amp; Derriford East"
+          "name": "Estover, Glenholt & Derriford East"
         },
         {
           "id": "PLY.4019",
@@ -3095,7 +3095,7 @@
         },
         {
           "id": "PLY.4022",
-          "name": "Leigham &amp;amp; Mainstone"
+          "name": "Leigham & Mainstone"
         },
         {
           "id": "PLY.4023",
@@ -3155,7 +3155,7 @@
         },
         {
           "id": "PLY.4037",
-          "name": "Ham, Weston Mill &amp;amp; Pennycross"
+          "name": "Ham, Weston Mill & Pennycross"
         },
         {
           "id": "PLY.4038",
@@ -3163,15 +3163,15 @@
         },
         {
           "id": "PLY.4039",
-          "name": "Peverell &amp;amp; Hartley"
+          "name": "Peverell & Hartley"
         },
         {
           "id": "PLY.4040",
-          "name": "St Budeaux &amp;amp; Kings Tamerton"
+          "name": "St Budeaux & Kings Tamerton"
         },
         {
           "id": "PLY.4041",
-          "name": "Plympton St Maurice &amp;amp; Yealmpstone"
+          "name": "Plympton St Maurice & Yealmpstone"
         }
       ]
     },
@@ -3515,7 +3515,7 @@
         },
         {
           "id": "NEW9",
-          "name": "Trimdon Village &amp; Trimdon Grange"
+          "name": "Trimdon Village & Trimdon Grange"
         },
         {
           "id": "PLE1",
@@ -5172,7 +5172,7 @@
         },
         {
           "id": "PC22",
-          "name": "Milkstone &amp; Deeplish"
+          "name": "Milkstone & Deeplish"
         },
         {
           "id": "PC23",
@@ -6525,7 +6525,7 @@
         },
         {
           "id": "A064",
-          "name": "Cefneithin &amp; Foelgastell"
+          "name": "Cefneithin & Foelgastell"
         },
         {
           "id": "A065",
@@ -7701,7 +7701,7 @@
         },
         {
           "id": "77",
-          "name": "Hainton &amp; Heneage"
+          "name": "Hainton & Heneage"
         },
         {
           "id": "78",
@@ -7822,7 +7822,7 @@
         },
         {
           "id": "XA52",
-          "name": "Chatham Central &amp; Brompton"
+          "name": "Chatham Central & Brompton"
         },
         {
           "id": "XA53",
@@ -7986,7 +7986,7 @@
         },
         {
           "id": "XC21",
-          "name": "Meopham South &amp; Vigo"
+          "name": "Meopham South & Vigo"
         },
         {
           "id": "XC22",
@@ -8002,7 +8002,7 @@
         },
         {
           "id": "XC35",
-          "name": "Coldharbour &amp; Perry Street"
+          "name": "Coldharbour & Perry Street"
         },
         {
           "id": "XC36",
@@ -8010,15 +8010,15 @@
         },
         {
           "id": "XC37",
-          "name": "Higham &amp; Shorne"
+          "name": "Higham & Shorne"
         },
         {
           "id": "XC38",
-          "name": "Istead Rise, Cobham &amp; Luddesdown"
+          "name": "Istead Rise, Cobham & Luddesdown"
         },
         {
           "id": "XC39",
-          "name": "Northfleet &amp; Springhead"
+          "name": "Northfleet & Springhead"
         },
         {
           "id": "XC40",
@@ -8030,7 +8030,7 @@
         },
         {
           "id": "XC42",
-          "name": "Whitehill &amp; Windmill Hill"
+          "name": "Whitehill & Windmill Hill"
         },
         {
           "id": "XC47",
@@ -8066,11 +8066,11 @@
         },
         {
           "id": "XD36",
-          "name": "Longfield, New Barn &amp; Southfleet"
+          "name": "Longfield, New Barn & Southfleet"
         },
         {
           "id": "XD60",
-          "name": "Bean &amp; Village Park"
+          "name": "Bean & Village Park"
         },
         {
           "id": "XD61",
@@ -8090,11 +8090,11 @@
         },
         {
           "id": "XD65",
-          "name": "Greenhithe &amp; Knockhall"
+          "name": "Greenhithe & Knockhall"
         },
         {
           "id": "XD66",
-          "name": "Maypole &amp; Leyton Cross"
+          "name": "Maypole & Leyton Cross"
         },
         {
           "id": "XD67",
@@ -8110,7 +8110,7 @@
         },
         {
           "id": "XD70",
-          "name": "Wilmington, Sutton-at-Hone &amp; Hawley"
+          "name": "Wilmington, Sutton-at-Hone & Hawley"
         },
         {
           "id": "XD71",
@@ -8122,15 +8122,15 @@
         },
         {
           "id": "YA12",
-          "name": "Fant &amp; Oakwood"
+          "name": "Fant & Oakwood"
         },
         {
           "id": "YA13",
-          "name": "Barming Heath &amp; Teston"
+          "name": "Barming Heath & Teston"
         },
         {
           "id": "YA15",
-          "name": "Allington &amp; Bridge"
+          "name": "Allington & Bridge"
         },
         {
           "id": "YA16",
@@ -8142,7 +8142,7 @@
         },
         {
           "id": "YA18",
-          "name": "Grove Green &amp; Vinters Park"
+          "name": "Grove Green & Vinters Park"
         },
         {
           "id": "YA19",
@@ -8150,15 +8150,15 @@
         },
         {
           "id": "YA21",
-          "name": "Marden &amp; Yalding"
+          "name": "Marden & Yalding"
         },
         {
           "id": "YA22",
-          "name": "Coxheath &amp; Farleigh"
+          "name": "Coxheath & Farleigh"
         },
         {
           "id": "YA23",
-          "name": "Boughton Monchelsea &amp; Chart Sutton"
+          "name": "Boughton Monchelsea & Chart Sutton"
         },
         {
           "id": "YA24",
@@ -8166,15 +8166,15 @@
         },
         {
           "id": "YA25",
-          "name": "Headcorn &amp; Sutton Valence"
+          "name": "Headcorn & Sutton Valence"
         },
         {
           "id": "YA27",
-          "name": "Leeds &amp; Langley"
+          "name": "Leeds & Langley"
         },
         {
           "id": "YA28",
-          "name": "Harrietsham, Lenham &amp; North Downs"
+          "name": "Harrietsham, Lenham & North Downs"
         },
         {
           "id": "YA29",
@@ -8182,7 +8182,7 @@
         },
         {
           "id": "YA32",
-          "name": "Bearsted &amp; Downswood"
+          "name": "Bearsted & Downswood"
         },
         {
           "id": "YA33",
@@ -8194,7 +8194,7 @@
         },
         {
           "id": "YA36",
-          "name": "Park Wood &amp; Mangravet"
+          "name": "Park Wood & Mangravet"
         },
         {
           "id": "YA37",
@@ -8202,7 +8202,7 @@
         },
         {
           "id": "YA38",
-          "name": "Loose &amp; Linton"
+          "name": "Loose & Linton"
         },
         {
           "id": "YB11",
@@ -8226,11 +8226,11 @@
         },
         {
           "id": "YB72",
-          "name": "Snodland East &amp; Ham Hill"
+          "name": "Snodland East & Ham Hill"
         },
         {
           "id": "YB73",
-          "name": "Snodland West &amp; Holborough Lakes"
+          "name": "Snodland West & Holborough Lakes"
         },
         {
           "id": "YB74",
@@ -8238,19 +8238,19 @@
         },
         {
           "id": "YB77",
-          "name": "Aylesford North &amp; North Downs"
+          "name": "Aylesford North & North Downs"
         },
         {
           "id": "YB78",
-          "name": "Aylesford South &amp; Ditton"
+          "name": "Aylesford South & Ditton"
         },
         {
           "id": "YB79",
-          "name": "Birling, Leybourne &amp; Ryarsh"
+          "name": "Birling, Leybourne & Ryarsh"
         },
         {
           "id": "YB80",
-          "name": "Borough Green &amp; Platt"
+          "name": "Borough Green & Platt"
         },
         {
           "id": "YB81",
@@ -8258,15 +8258,15 @@
         },
         {
           "id": "YB82",
-          "name": "Cage Green &amp; Angel"
+          "name": "Cage Green & Angel"
         },
         {
           "id": "YB83",
-          "name": "East Malling, West Malling &amp; Offham"
+          "name": "East Malling, West Malling & Offham"
         },
         {
           "id": "YB84",
-          "name": "East and West Peckham, Mereworth &amp; Wateringbury"
+          "name": "East and West Peckham, Mereworth & Wateringbury"
         },
         {
           "id": "YB85",
@@ -8406,7 +8406,7 @@
         },
         {
           "id": "YD18",
-          "name": "Southborough &amp; Bidborough"
+          "name": "Southborough & Bidborough"
         },
         {
           "id": "YD23",
@@ -8418,19 +8418,19 @@
         },
         {
           "id": "YD25",
-          "name": "Pembury &amp; Capel"
+          "name": "Pembury & Capel"
         },
         {
           "id": "YD27",
-          "name": "Hawkhurst, Sandhurst &amp; Benenden"
+          "name": "Hawkhurst, Sandhurst & Benenden"
         },
         {
           "id": "YD28",
-          "name": "Cranbrook, Sissinghurst &amp; Frittenden"
+          "name": "Cranbrook, Sissinghurst & Frittenden"
         },
         {
           "id": "YD31",
-          "name": "Rusthall &amp; Speldhurst"
+          "name": "Rusthall & Speldhurst"
         },
         {
           "id": "YD32",
@@ -8450,7 +8450,7 @@
         },
         {
           "id": "ZA63",
-          "name": "Chartham &amp; Stone Street"
+          "name": "Chartham & Stone Street"
         },
         {
           "id": "ZA64",
@@ -8466,7 +8466,7 @@
         },
         {
           "id": "ZA67",
-          "name": "Herne &amp; Broomfield"
+          "name": "Herne & Broomfield"
         },
         {
           "id": "ZA68",
@@ -8474,7 +8474,7 @@
         },
         {
           "id": "ZA69",
-          "name": "Little Stour &amp; Adisham"
+          "name": "Little Stour & Adisham"
         },
         {
           "id": "ZA70",
@@ -8690,7 +8690,7 @@
         },
         {
           "id": "ZC41",
-          "name": "Rolvenden &amp; Tenterden West"
+          "name": "Rolvenden & Tenterden West"
         },
         {
           "id": "ZC42",
@@ -8714,7 +8714,7 @@
         },
         {
           "id": "ZC60",
-          "name": "Aylesford &amp; East Stour"
+          "name": "Aylesford & East Stour"
         },
         {
           "id": "ZC61",
@@ -8722,7 +8722,7 @@
         },
         {
           "id": "ZC62",
-          "name": "Conningbrook &amp; Little Burton Farm"
+          "name": "Conningbrook & Little Burton Farm"
         },
         {
           "id": "ZC63",
@@ -8734,7 +8734,7 @@
         },
         {
           "id": "ZC65",
-          "name": "Kingsnorth Village &amp; Bridgefield"
+          "name": "Kingsnorth Village & Bridgefield"
         },
         {
           "id": "ZC66",
@@ -8790,7 +8790,7 @@
         },
         {
           "id": "ZD27",
-          "name": "Little Stour &amp; Ashstone"
+          "name": "Little Stour & Ashstone"
         },
         {
           "id": "ZD28",
@@ -8810,23 +8810,23 @@
         },
         {
           "id": "ZD60",
-          "name": "Alkham &amp; Capel-le-Ferne"
+          "name": "Alkham & Capel-le-Ferne"
         },
         {
           "id": "ZD61",
-          "name": "Aylesham, Eythorne &amp; Shepherdswell"
+          "name": "Aylesham, Eythorne & Shepherdswell"
         },
         {
           "id": "ZD62",
-          "name": "Dover Downs &amp; River"
+          "name": "Dover Downs & River"
         },
         {
           "id": "ZD63",
-          "name": "Guston, Kingsdown &amp; St Margaret's-at-Cliffe"
+          "name": "Guston, Kingsdown & St Margaret's-at-Cliffe"
         },
         {
           "id": "ZD64",
-          "name": "Maxton &amp; Elms Vale"
+          "name": "Maxton & Elms Vale"
         },
         {
           "id": "ZD65",
@@ -8834,7 +8834,7 @@
         },
         {
           "id": "ZD66",
-          "name": "Town &amp; Castle"
+          "name": "Town & Castle"
         },
         {
           "id": "ZE60",
@@ -8882,11 +8882,11 @@
         },
         {
           "id": "ZE71",
-          "name": "Sandgate &amp; West Folkestone"
+          "name": "Sandgate & West Folkestone"
         },
         {
           "id": "ZE72",
-          "name": "Walland &amp; Denge Marsh"
+          "name": "Walland & Denge Marsh"
         }
       ]
     },
@@ -8927,7 +8927,7 @@
         },
         {
           "id": "BD10",
-          "name": "Blackburn South &amp; Lower Darwen"
+          "name": "Blackburn South & Lower Darwen"
         },
         {
           "id": "BD11",
@@ -8947,15 +8947,15 @@
         },
         {
           "id": "BD15",
-          "name": "Little Harwood &amp; Whitebirk"
+          "name": "Little Harwood & Whitebirk"
         },
         {
           "id": "BD16",
-          "name": "Livesey &amp; Pleasington"
+          "name": "Livesey & Pleasington"
         },
         {
           "id": "BD17",
-          "name": "Mill Hill &amp; Moorgate"
+          "name": "Mill Hill & Moorgate"
         },
         {
           "id": "BD2",
@@ -8967,7 +8967,7 @@
         },
         {
           "id": "BD4",
-          "name": "Shear Brow &amp; Corporation Park"
+          "name": "Shear Brow & Corporation Park"
         },
         {
           "id": "BD5",
@@ -8975,15 +8975,15 @@
         },
         {
           "id": "BD6",
-          "name": "Audley &amp; Queen's Park"
+          "name": "Audley & Queen's Park"
         },
         {
           "id": "BD7",
-          "name": "Bastwell &amp; Daisyfield"
+          "name": "Bastwell & Daisyfield"
         },
         {
           "id": "BD8",
-          "name": "Billinge &amp; Beardwood"
+          "name": "Billinge & Beardwood"
         },
         {
           "id": "BD9",
@@ -9079,7 +9079,7 @@
         },
         {
           "id": "BU10",
-          "name": "Whittlefield &amp; Ightenhill"
+          "name": "Whittlefield & Ightenhill"
         },
         {
           "id": "BU11",
@@ -9139,23 +9139,23 @@
         },
         {
           "id": "CH10",
-          "name": "Chorley South East &amp; Heath Charnock"
+          "name": "Chorley South East & Heath Charnock"
         },
         {
           "id": "CH11",
-          "name": "Clayton East, Brindle &amp; Hoghton"
+          "name": "Clayton East, Brindle & Hoghton"
         },
         {
           "id": "CH12",
-          "name": "Clayton West &amp; Cuerden"
+          "name": "Clayton West & Cuerden"
         },
         {
           "id": "CH13",
-          "name": "Croston, Mawdesley &amp; Euxton South"
+          "name": "Croston, Mawdesley & Euxton South"
         },
         {
           "id": "CH14",
-          "name": "Eccleston, Heskin &amp; Charnock Richard"
+          "name": "Eccleston, Heskin & Charnock Richard"
         },
         {
           "id": "CH2",
@@ -9179,15 +9179,15 @@
         },
         {
           "id": "CH7",
-          "name": "Adlington &amp; Anderton"
+          "name": "Adlington & Anderton"
         },
         {
           "id": "CH8",
-          "name": "Buckshaw &amp; Whittle"
+          "name": "Buckshaw & Whittle"
         },
         {
           "id": "CH9",
-          "name": "Chorley North &amp; Astley"
+          "name": "Chorley North & Astley"
         },
         {
           "id": "FY1",
@@ -9239,7 +9239,7 @@
         },
         {
           "id": "FY5",
-          "name": "Ansdell &amp; Fairhaven"
+          "name": "Ansdell & Fairhaven"
         },
         {
           "id": "FY6",
@@ -9335,7 +9335,7 @@
         },
         {
           "id": "LA12",
-          "name": "Carnforth &amp; Millhead"
+          "name": "Carnforth & Millhead"
         },
         {
           "id": "LA13",
@@ -9347,7 +9347,7 @@
         },
         {
           "id": "LA15",
-          "name": "Halton with Aughton &amp; Kellet"
+          "name": "Halton with Aughton & Kellet"
         },
         {
           "id": "LA16",
@@ -9427,7 +9427,7 @@
         },
         {
           "id": "LA9",
-          "name": "Bolton &amp; Slyne"
+          "name": "Bolton & Slyne"
         },
         {
           "id": "PE1",
@@ -9435,15 +9435,15 @@
         },
         {
           "id": "PE10",
-          "name": "Marsden &amp; Southfield"
+          "name": "Marsden & Southfield"
         },
         {
           "id": "PE11",
-          "name": "Waterside &amp; Horsfield"
+          "name": "Waterside & Horsfield"
         },
         {
           "id": "PE12",
-          "name": "Whitefield &amp; Walverton"
+          "name": "Whitefield & Walverton"
         },
         {
           "id": "PE2",
@@ -9455,27 +9455,27 @@
         },
         {
           "id": "PE4",
-          "name": "Barrowford &amp; Pendleside"
+          "name": "Barrowford & Pendleside"
         },
         {
           "id": "PE5",
-          "name": "Boulsworth &amp; Foulridge"
+          "name": "Boulsworth & Foulridge"
         },
         {
           "id": "PE6",
-          "name": "Brierfield East &amp; Cloverhill"
+          "name": "Brierfield East & Cloverhill"
         },
         {
           "id": "PE7",
-          "name": "Brierfield West &amp; Reedley"
+          "name": "Brierfield West & Reedley"
         },
         {
           "id": "PE8",
-          "name": "Earby &amp; Coates"
+          "name": "Earby & Coates"
         },
         {
           "id": "PE9",
-          "name": "Fence &amp; Higham"
+          "name": "Fence & Higham"
         },
         {
           "id": "PR1",
@@ -9487,11 +9487,11 @@
         },
         {
           "id": "PR11",
-          "name": "Ingol &amp; Cottam"
+          "name": "Ingol & Cottam"
         },
         {
           "id": "PR12",
-          "name": "Lea &amp; Larches"
+          "name": "Lea & Larches"
         },
         {
           "id": "PR13",
@@ -9539,7 +9539,7 @@
         },
         {
           "id": "PR9",
-          "name": "Fishwick &amp; Frenchwood"
+          "name": "Fishwick & Frenchwood"
         },
         {
           "id": "RO1",
@@ -9559,15 +9559,15 @@
         },
         {
           "id": "RO4",
-          "name": "Britannia &amp; Lee Mill"
+          "name": "Britannia & Lee Mill"
         },
         {
           "id": "RO5",
-          "name": "Goodshaw &amp; Cribden"
+          "name": "Goodshaw & Cribden"
         },
         {
           "id": "RO6",
-          "name": "Greenfield &amp; Eden"
+          "name": "Greenfield & Eden"
         },
         {
           "id": "RO7",
@@ -9579,27 +9579,27 @@
         },
         {
           "id": "RO9",
-          "name": "Whitewell &amp; Stacksteads"
+          "name": "Whitewell & Stacksteads"
         },
         {
           "id": "RV1",
-          "name": "Alston &amp; Hothersall"
+          "name": "Alston & Hothersall"
         },
         {
           "id": "RV10",
-          "name": "East Whalley Read &amp; Simonstone"
+          "name": "East Whalley Read & Simonstone"
         },
         {
           "id": "RV11",
-          "name": "Edisford &amp; Low Moor"
+          "name": "Edisford & Low Moor"
         },
         {
           "id": "RV12",
-          "name": "Gisburn &amp; Rimington"
+          "name": "Gisburn & Rimington"
         },
         {
           "id": "RV13",
-          "name": "Hurst Green &amp; Whitewell"
+          "name": "Hurst Green & Whitewell"
         },
         {
           "id": "RV14",
@@ -9627,7 +9627,7 @@
         },
         {
           "id": "RV2",
-          "name": "Billington &amp; Langho"
+          "name": "Billington & Langho"
         },
         {
           "id": "RV20",
@@ -9635,15 +9635,15 @@
         },
         {
           "id": "RV21",
-          "name": "Waddington, Bashall Eaves &amp; Mitton"
+          "name": "Waddington, Bashall Eaves & Mitton"
         },
         {
           "id": "RV22",
-          "name": "West Bradford &amp; Grindleton"
+          "name": "West Bradford & Grindleton"
         },
         {
           "id": "RV23",
-          "name": "Whalley &amp; Painterwood"
+          "name": "Whalley & Painterwood"
         },
         {
           "id": "RV24",
@@ -9651,11 +9651,11 @@
         },
         {
           "id": "RV25",
-          "name": "Wilpshire &amp; Ramsgreave"
+          "name": "Wilpshire & Ramsgreave"
         },
         {
           "id": "RV26",
-          "name": "Wiswell &amp; Barrow"
+          "name": "Wiswell & Barrow"
         },
         {
           "id": "RV3",
@@ -9663,7 +9663,7 @@
         },
         {
           "id": "RV4",
-          "name": "Brockhall &amp; Dinckley"
+          "name": "Brockhall & Dinckley"
         },
         {
           "id": "RV5",
@@ -9675,11 +9675,11 @@
         },
         {
           "id": "RV7",
-          "name": "Clayton-le-dale &amp; Salesbury"
+          "name": "Clayton-le-dale & Salesbury"
         },
         {
           "id": "RV8",
-          "name": "Derby &amp; Thornley"
+          "name": "Derby & Thornley"
         },
         {
           "id": "RV9",
@@ -9699,7 +9699,7 @@
         },
         {
           "id": "SR12",
-          "name": "Howick &amp; Priory"
+          "name": "Howick & Priory"
         },
         {
           "id": "SR13",
@@ -9707,7 +9707,7 @@
         },
         {
           "id": "SR14",
-          "name": "Longton &amp; Hutton West"
+          "name": "Longton & Hutton West"
         },
         {
           "id": "SR15",
@@ -9723,11 +9723,11 @@
         },
         {
           "id": "SR18",
-          "name": "New Longton &amp; Hutton East"
+          "name": "New Longton & Hutton East"
         },
         {
           "id": "SR19",
-          "name": "Samlesbury &amp; Walton"
+          "name": "Samlesbury & Walton"
         },
         {
           "id": "SR2",
@@ -9759,7 +9759,7 @@
         },
         {
           "id": "SR5",
-          "name": "Buckshaw &amp; Worden"
+          "name": "Buckshaw & Worden"
         },
         {
           "id": "SR6",
@@ -9767,7 +9767,7 @@
         },
         {
           "id": "SR7",
-          "name": "Coupe Green &amp; Gregson Lane"
+          "name": "Coupe Green & Gregson Lane"
         },
         {
           "id": "SR8",
@@ -9795,7 +9795,7 @@
         },
         {
           "id": "WL13",
-          "name": "Tanhouse &amp; Skelmersdale Town Centre"
+          "name": "Tanhouse & Skelmersdale Town Centre"
         },
         {
           "id": "WL14",
@@ -9807,11 +9807,11 @@
         },
         {
           "id": "WL2",
-          "name": "Aughton &amp; Holborn"
+          "name": "Aughton & Holborn"
         },
         {
           "id": "WL3",
-          "name": "Burscough Bridge &amp; Rufford"
+          "name": "Burscough Bridge & Rufford"
         },
         {
           "id": "WL4",
@@ -9819,7 +9819,7 @@
         },
         {
           "id": "WL5",
-          "name": "North Meols &amp; Hesketh Bank"
+          "name": "North Meols & Hesketh Bank"
         },
         {
           "id": "WL6",
@@ -9863,7 +9863,7 @@
         },
         {
           "id": "WY15",
-          "name": "Hambleton &amp; Stalmine"
+          "name": "Hambleton & Stalmine"
         },
         {
           "id": "WY16",
@@ -9899,7 +9899,7 @@
         },
         {
           "id": "WY23",
-          "name": "Victoria &amp; Norcross"
+          "name": "Victoria & Norcross"
         },
         {
           "id": "WY24",
@@ -13866,7 +13866,7 @@
         },
         {
           "id": "A22",
-          "name": "Gaywood, Fairstead &amp;amp; Reffley"
+          "name": "Gaywood, Fairstead & Reffley"
         },
         {
           "id": "A23",
@@ -15473,7 +15473,7 @@
         },
         {
           "id": "NN3",
-          "name": "St. George, Abington &amp; Phippsville"
+          "name": "St. George, Abington & Phippsville"
         },
         {
           "id": "NN4",
@@ -15493,7 +15493,7 @@
         },
         {
           "id": "NN8",
-          "name": "Northampton Kingsthorpe, Headlands &amp; Boothville"
+          "name": "Northampton Kingsthorpe, Headlands & Boothville"
         },
         {
           "id": "NS1",
@@ -15793,7 +15793,7 @@
         },
         {
           "id": "31-20",
-          "name": "Ollerton, Edwinstowe, Clipstone &amp; Villages"
+          "name": "Ollerton, Edwinstowe, Clipstone & Villages"
         },
         {
           "id": "31-21",
@@ -15801,15 +15801,15 @@
         },
         {
           "id": "31-22",
-          "name": "Bingham &amp; Trent"
+          "name": "Bingham & Trent"
         },
         {
           "id": "31-23",
-          "name": "Cotgrave &amp; Wiverton"
+          "name": "Cotgrave & Wiverton"
         },
         {
           "id": "31-24",
-          "name": "Leake &amp; Keyworth"
+          "name": "Leake & Keyworth"
         },
         {
           "id": "31-25",
@@ -15821,7 +15821,7 @@
         },
         {
           "id": "31-27",
-          "name": "Arnold &amp; Woodthorpe"
+          "name": "Arnold & Woodthorpe"
         },
         {
           "id": "31-28",
@@ -15901,11 +15901,11 @@
         },
         {
           "id": "31-45",
-          "name": "Dunkirk &amp; Lenton"
+          "name": "Dunkirk & Lenton"
         },
         {
           "id": "31-46",
-          "name": "Radford &amp; Park"
+          "name": "Radford & Park"
         },
         {
           "id": "31-47",
@@ -15933,7 +15933,7 @@
         },
         {
           "id": "31-52",
-          "name": "Mapperley &amp; Wells"
+          "name": "Mapperley & Wells"
         },
         {
           "id": "31-53",
@@ -17099,7 +17099,7 @@
       "neighbourhoods": [
         {
           "id": "EP0",
-          "name": "Tutbury &amp; Rolleston"
+          "name": "Tutbury & Rolleston"
         },
         {
           "id": "EP1",
@@ -17111,11 +17111,11 @@
         },
         {
           "id": "EP3",
-          "name": "Burton Town &amp; Uxbridge"
+          "name": "Burton Town & Uxbridge"
         },
         {
           "id": "EP4",
-          "name": "Winshill &amp; Stapenhill"
+          "name": "Winshill & Stapenhill"
         },
         {
           "id": "EP5",
@@ -17143,11 +17143,11 @@
         },
         {
           "id": "ER2",
-          "name": "Bourne Vale &amp; Fazeley"
+          "name": "Bourne Vale & Fazeley"
         },
         {
           "id": "ER3",
-          "name": "Mease Tame &amp; Whittington"
+          "name": "Mease Tame & Whittington"
         },
         {
           "id": "ER4",
@@ -17175,7 +17175,7 @@
         },
         {
           "id": "EW1",
-          "name": "Mercian &amp; Spital"
+          "name": "Mercian & Spital"
         },
         {
           "id": "EW2",
@@ -17183,7 +17183,7 @@
         },
         {
           "id": "EW4",
-          "name": "Wilnecote &amp; Trinity"
+          "name": "Wilnecote & Trinity"
         },
         {
           "id": "EW5",
@@ -17219,11 +17219,11 @@
         },
         {
           "id": "NA4",
-          "name": "Werrington &amp; Cheddleton"
+          "name": "Werrington & Cheddleton"
         },
         {
           "id": "NA7",
-          "name": "Forsbrook &amp; Caverswall"
+          "name": "Forsbrook & Caverswall"
         },
         {
           "id": "NA8",
@@ -17235,15 +17235,15 @@
         },
         {
           "id": "NB1",
-          "name": "Audley &amp; Halmerend"
+          "name": "Audley & Halmerend"
         },
         {
           "id": "NB2",
-          "name": "Madeley Keele &amp; Loggerheads"
+          "name": "Madeley Keele & Loggerheads"
         },
         {
           "id": "NB3",
-          "name": "Chesterton &amp; Holditch"
+          "name": "Chesterton & Holditch"
         },
         {
           "id": "NB4",
@@ -17263,11 +17263,11 @@
         },
         {
           "id": "SC0",
-          "name": "Goldenhill &amp; Sandyford"
+          "name": "Goldenhill & Sandyford"
         },
         {
           "id": "SC1",
-          "name": "Great Chell &amp; Packmoor"
+          "name": "Great Chell & Packmoor"
         },
         {
           "id": "SC2",
@@ -17275,11 +17275,11 @@
         },
         {
           "id": "SC3",
-          "name": "Little Chell &amp; Stanfield"
+          "name": "Little Chell & Stanfield"
         },
         {
           "id": "SC4",
-          "name": "Bradeley &amp; Chell Heath"
+          "name": "Bradeley & Chell Heath"
         },
         {
           "id": "SC5",
@@ -17287,7 +17287,7 @@
         },
         {
           "id": "SC6",
-          "name": "Ford Green &amp; Smallthorne"
+          "name": "Ford Green & Smallthorne"
         },
         {
           "id": "SC7",
@@ -17303,15 +17303,15 @@
         },
         {
           "id": "SCA",
-          "name": "Baddeley, Milton &amp; Norton"
+          "name": "Baddeley, Milton & Norton"
         },
         {
           "id": "SCB",
-          "name": "Etruria &amp; Hanley"
+          "name": "Etruria & Hanley"
         },
         {
           "id": "SCC",
-          "name": "Birches Hd &amp; Central Forest Pk"
+          "name": "Birches Hd & Central Forest Pk"
         },
         {
           "id": "SCD",
@@ -17323,19 +17323,19 @@
         },
         {
           "id": "SCF",
-          "name": "Abbey Hulton &amp; Townsend"
+          "name": "Abbey Hulton & Townsend"
         },
         {
           "id": "SG0",
-          "name": "Fenton West &amp; Mount Pleasant"
+          "name": "Fenton West & Mount Pleasant"
         },
         {
           "id": "SG1",
-          "name": "Hanford &amp; Trentham"
+          "name": "Hanford & Trentham"
         },
         {
           "id": "SG2",
-          "name": "Blurton &amp; Longton West"
+          "name": "Blurton & Longton West"
         },
         {
           "id": "SG3",
@@ -17343,43 +17343,43 @@
         },
         {
           "id": "SG4",
-          "name": "Meir Park &amp; South"
+          "name": "Meir Park & South"
         },
         {
           "id": "SG5",
-          "name": "Meir North &amp; Weston Coyney"
+          "name": "Meir North & Weston Coyney"
         },
         {
           "id": "SG6",
-          "name": "Broadway &amp; Longton East"
+          "name": "Broadway & Longton East"
         },
         {
           "id": "SG7",
-          "name": "Meir Hay &amp; Sandford Hill"
+          "name": "Meir Hay & Sandford Hill"
         },
         {
           "id": "SG8",
-          "name": "Bentilee &amp; Ubberley"
+          "name": "Bentilee & Ubberley"
         },
         {
           "id": "SG9",
-          "name": "Hanley Park &amp; Shelton"
+          "name": "Hanley Park & Shelton"
         },
         {
           "id": "SGA",
-          "name": "Hartshill &amp; Basford"
+          "name": "Hartshill & Basford"
         },
         {
           "id": "SGB",
-          "name": "Penkhull &amp; Stoke"
+          "name": "Penkhull & Stoke"
         },
         {
           "id": "SGC",
-          "name": "Springfields &amp; Trent Vale"
+          "name": "Springfields & Trent Vale"
         },
         {
           "id": "SGD",
-          "name": "Boothen &amp; Oak Hill"
+          "name": "Boothen & Oak Hill"
         },
         {
           "id": "WM0",
@@ -17403,11 +17403,11 @@
         },
         {
           "id": "WM5",
-          "name": "Eccleshall &amp; Swynnerton"
+          "name": "Eccleshall & Swynnerton"
         },
         {
           "id": "WM6",
-          "name": "Fulford Barlaston &amp; Oulton"
+          "name": "Fulford Barlaston & Oulton"
         },
         {
           "id": "WM7",
@@ -17435,19 +17435,19 @@
         },
         {
           "id": "WV4",
-          "name": "Cannock South &amp; West"
+          "name": "Cannock South & West"
         },
         {
           "id": "WV5",
-          "name": "Cannock East &amp; North"
+          "name": "Cannock East & North"
         },
         {
           "id": "WV6",
-          "name": "Brereton  Ravenhill &amp; Hagley"
+          "name": "Brereton  Ravenhill & Hagley"
         },
         {
           "id": "WV7",
-          "name": "Etching Hill &amp; The Heath"
+          "name": "Etching Hill & The Heath"
         },
         {
           "id": "WX0",
@@ -17459,31 +17459,31 @@
         },
         {
           "id": "WX2",
-          "name": "Trysull &amp; Seisdon"
+          "name": "Trysull & Seisdon"
         },
         {
           "id": "WX3",
-          "name": "Perton &amp; Pattingham"
+          "name": "Perton & Pattingham"
         },
         {
           "id": "WX4",
-          "name": "Codsall &amp; Bilbrook"
+          "name": "Codsall & Bilbrook"
         },
         {
           "id": "WX5",
-          "name": "Wheaton Aston &amp; Rural"
+          "name": "Wheaton Aston & Rural"
         },
         {
           "id": "WX6",
-          "name": "Penkridge &amp; Huntington"
+          "name": "Penkridge & Huntington"
         },
         {
           "id": "WX7",
-          "name": "Essington &amp; Featherstone"
+          "name": "Essington & Featherstone"
         },
         {
           "id": "WX8",
-          "name": "Cheslyn Hay &amp; Saredon"
+          "name": "Cheslyn Hay & Saredon"
         }
       ]
     },
@@ -17548,7 +17548,7 @@
         },
         {
           "id": "E7",
-          "name": "Carlton Colville &amp; Kessingland"
+          "name": "Carlton Colville & Kessingland"
         },
         {
           "id": "E8",
@@ -17753,19 +17753,19 @@
       "neighbourhoods": [
         {
           "id": "ELCO",
-          "name": "Cobham &amp; Oxshott"
+          "name": "Cobham & Oxshott"
         },
         {
           "id": "ELDH",
-          "name": "The Dittons &amp; Hinchley Wood"
+          "name": "The Dittons & Hinchley Wood"
         },
         {
           "id": "ELEC",
-          "name": "Esher &amp; Claygate"
+          "name": "Esher & Claygate"
         },
         {
           "id": "ELEM",
-          "name": "East Molesey &amp; Weston Green"
+          "name": "East Molesey & Weston Green"
         },
         {
           "id": "ELHE",
@@ -17777,7 +17777,7 @@
         },
         {
           "id": "ELSW",
-          "name": "South Walton &amp; Ambleside"
+          "name": "South Walton & Ambleside"
         },
         {
           "id": "ELWC",
@@ -17793,27 +17793,27 @@
         },
         {
           "id": "EPCE",
-          "name": "Epsom &amp; Ewell Central"
+          "name": "Epsom & Ewell Central"
         },
         {
           "id": "EPEA",
-          "name": "Epsom &amp; Ewell East"
+          "name": "Epsom & Ewell East"
         },
         {
           "id": "EPNO",
-          "name": "Epsom &amp; Ewell North"
+          "name": "Epsom & Ewell North"
         },
         {
           "id": "EPNW",
-          "name": "Epsom &amp; Ewell North West"
+          "name": "Epsom & Ewell North West"
         },
         {
           "id": "EPSO",
-          "name": "Epsom &amp; Ewell South"
+          "name": "Epsom & Ewell South"
         },
         {
           "id": "EPWE",
-          "name": "Epsom &amp; Ewell West"
+          "name": "Epsom & Ewell West"
         },
         {
           "id": "GDAA",
@@ -17821,11 +17821,11 @@
         },
         {
           "id": "GDAS",
-          "name": "Albury, Shalford, Compton, Holy Trinity, Shere, Gomshall, Peaslake &amp; Farley Green"
+          "name": "Albury, Shalford, Compton, Holy Trinity, Shere, Gomshall, Peaslake & Farley Green"
         },
         {
           "id": "GDEH",
-          "name": "Eashing, Hurtmore, Shackleford, Puttenham, Seale &amp; Sands, Ash South &amp; Tongham"
+          "name": "Eashing, Hurtmore, Shackleford, Puttenham, Seale & Sands, Ash South & Tongham"
         },
         {
           "id": "GDGT",
@@ -17833,27 +17833,27 @@
         },
         {
           "id": "GDMB",
-          "name": "Merrow &amp; Burpham"
+          "name": "Merrow & Burpham"
         },
         {
           "id": "GDOU",
-          "name": "Onslow &amp; University"
+          "name": "Onslow & University"
         },
         {
           "id": "GDPB",
-          "name": "Park Barn &amp; Westborough"
+          "name": "Park Barn & Westborough"
         },
         {
           "id": "GDPW",
-          "name": "Pirbright, Worplesdon, Jacobs Well &amp; Normandy"
+          "name": "Pirbright, Worplesdon, Jacobs Well & Normandy"
         },
         {
           "id": "GDSB",
-          "name": "Slyfield &amp; Bellfields"
+          "name": "Slyfield & Bellfields"
         },
         {
           "id": "GDSR",
-          "name": "Send, Ripley, Wisley, Ockham, The Horsleys, The Clandons &amp; Effingham"
+          "name": "Send, Ripley, Wisley, Ockham, The Horsleys, The Clandons & Effingham"
         },
         {
           "id": "GDST",
@@ -17865,7 +17865,7 @@
         },
         {
           "id": "MVBF",
-          "name": "Bookham &amp; Fetcham"
+          "name": "Bookham & Fetcham"
         },
         {
           "id": "MVDT",
@@ -17873,7 +17873,7 @@
         },
         {
           "id": "MVGC",
-          "name": "Goodwyns, Chart Downs &amp; North Holmwood"
+          "name": "Goodwyns, Chart Downs & North Holmwood"
         },
         {
           "id": "MVNL",
@@ -17893,7 +17893,7 @@
         },
         {
           "id": "RBCH",
-          "name": "Chipstead, Lower Kingswood, Hooley &amp; Netherne"
+          "name": "Chipstead, Lower Kingswood, Hooley & Netherne"
         },
         {
           "id": "RBHO",
@@ -17909,7 +17909,7 @@
         },
         {
           "id": "RBNO",
-          "name": "Banstead, Nork &amp; Woodmansterne"
+          "name": "Banstead, Nork & Woodmansterne"
         },
         {
           "id": "RBRE",
@@ -17925,15 +17925,15 @@
         },
         {
           "id": "RBSE",
-          "name": "Salfords, Earlswood &amp; Whitebushes"
+          "name": "Salfords, Earlswood & Whitebushes"
         },
         {
           "id": "RBTB",
-          "name": "Tattenhams, Burgh Heath &amp; Preston Estate"
+          "name": "Tattenhams, Burgh Heath & Preston Estate"
         },
         {
           "id": "RBTW",
-          "name": "Tadworth, Walton &amp; Kingswood"
+          "name": "Tadworth, Walton & Kingswood"
         },
         {
           "id": "RBWO",
@@ -17941,7 +17941,7 @@
         },
         {
           "id": "RUAN",
-          "name": "Addlestone North &amp; Bourneside"
+          "name": "Addlestone North & Bourneside"
         },
         {
           "id": "RUAT",
@@ -17949,7 +17949,7 @@
         },
         {
           "id": "RUCM",
-          "name": "Chertsey Meads &amp; St Annes"
+          "name": "Chertsey Meads & St Annes"
         },
         {
           "id": "RUEG",
@@ -17961,15 +17961,15 @@
         },
         {
           "id": "RUNH",
-          "name": "New Haw &amp; Woodham"
+          "name": "New Haw & Woodham"
         },
         {
           "id": "RURT",
-          "name": "Row Town, Ottershaw &amp; Foxhills"
+          "name": "Row Town, Ottershaw & Foxhills"
         },
         {
           "id": "RUTH",
-          "name": "Thorpe &amp; Hythe"
+          "name": "Thorpe & Hythe"
         },
         {
           "id": "RUVW",
@@ -17981,15 +17981,15 @@
         },
         {
           "id": "SHFH",
-          "name": "Frimley, Heatherside &amp; Parkside"
+          "name": "Frimley, Heatherside & Parkside"
         },
         {
           "id": "SHMD",
-          "name": "Mytchett, Deepcut &amp; Frimley Green"
+          "name": "Mytchett, Deepcut & Frimley Green"
         },
         {
           "id": "SHOS",
-          "name": "Old Dean, St Michaels &amp; Watchetts"
+          "name": "Old Dean, St Michaels & Watchetts"
         },
         {
           "id": "SHSV",
@@ -18005,11 +18005,11 @@
         },
         {
           "id": "SPSH",
-          "name": "Shepperton &amp; Halliford"
+          "name": "Shepperton & Halliford"
         },
         {
           "id": "SPSL",
-          "name": "Shepperton &amp; Laleham"
+          "name": "Shepperton & Laleham"
         },
         {
           "id": "SPST",
@@ -18025,23 +18025,23 @@
         },
         {
           "id": "TNBG",
-          "name": "Bletchingley, Nutfield &amp; Godstone"
+          "name": "Bletchingley, Nutfield & Godstone"
         },
         {
           "id": "TNCV",
-          "name": "Caterham Valley, Harestone &amp; Valley"
+          "name": "Caterham Valley, Harestone & Valley"
         },
         {
           "id": "TNCW",
-          "name": "Caterham on the Hill, Chaldon, Whyteleafe &amp; Portley"
+          "name": "Caterham on the Hill, Chaldon, Whyteleafe & Portley"
         },
         {
           "id": "TNLD",
-          "name": "Lingfield, Dormansland, Crowhurst, Felbridge &amp; Felcourt"
+          "name": "Lingfield, Dormansland, Crowhurst, Felbridge & Felcourt"
         },
         {
           "id": "TNOL",
-          "name": "Oxted, Limpsfield &amp; Hurst Green"
+          "name": "Oxted, Limpsfield & Hurst Green"
         },
         {
           "id": "TNSB",
@@ -18049,15 +18049,15 @@
         },
         {
           "id": "TNWT",
-          "name": "Warlingham, Woldingham, Chelsham, Farleigh &amp; Tatsfield"
+          "name": "Warlingham, Woldingham, Chelsham, Farleigh & Tatsfield"
         },
         {
           "id": "WKBP",
-          "name": "Byfleet, West Byfleet &amp; Pyrford"
+          "name": "Byfleet, West Byfleet & Pyrford"
         },
         {
           "id": "WKGH",
-          "name": "Goldsworth Park &amp; Horsell"
+          "name": "Goldsworth Park & Horsell"
         },
         {
           "id": "WKMA",
@@ -18065,11 +18065,11 @@
         },
         {
           "id": "WKMH",
-          "name": "Mount Hermon, St Johns, Hook Heath, Mayford &amp; Sutton Green"
+          "name": "Mount Hermon, St Johns, Hook Heath, Mayford & Sutton Green"
         },
         {
           "id": "WKNB",
-          "name": "Knaphill &amp; Brookwood"
+          "name": "Knaphill & Brookwood"
         },
         {
           "id": "WKOW",
@@ -18085,23 +18085,23 @@
         },
         {
           "id": "WVBS",
-          "name": "Bramley, Shamley Green, Blackheath, Wonersh, Hascombe &amp; Winterfold"
+          "name": "Bramley, Shamley Green, Blackheath, Wonersh, Hascombe & Winterfold"
         },
         {
           "id": "WVCE",
-          "name": "Cranleigh, Ewhurst &amp; Rowly"
+          "name": "Cranleigh, Ewhurst & Rowly"
         },
         {
           "id": "WVDA",
-          "name": "Dunsfold, Alfold &amp; Ellens Green"
+          "name": "Dunsfold, Alfold & Ellens Green"
         },
         {
           "id": "WVDR",
-          "name": "Ockford Ridge, Aarons Hill, Busbridge &amp; Godalming Town Centre"
+          "name": "Ockford Ridge, Aarons Hill, Busbridge & Godalming Town Centre"
         },
         {
           "id": "WVFB",
-          "name": "Farncombe, Binscombe &amp; Charterhouse"
+          "name": "Farncombe, Binscombe & Charterhouse"
         },
         {
           "id": "WVFT",
@@ -18109,31 +18109,31 @@
         },
         {
           "id": "WVHG",
-          "name": "Haslemere, Grayswood &amp; Chiddingfold"
+          "name": "Haslemere, Grayswood & Chiddingfold"
         },
         {
           "id": "WVMW",
-          "name": "Milford, Witley, Hambledon &amp; Brook"
+          "name": "Milford, Witley, Hambledon & Brook"
         },
         {
           "id": "WVSC",
-          "name": "Shottermill, Critchmere, Hindhead, Beacon Hill, Churt &amp; Weyhill"
+          "name": "Shottermill, Critchmere, Hindhead, Beacon Hill, Churt & Weyhill"
         },
         {
           "id": "WVSU",
-          "name": "Sandy Hill, Upper Hale, Dippenhall &amp; Folly Hill"
+          "name": "Sandy Hill, Upper Hale, Dippenhall & Folly Hill"
         },
         {
           "id": "WVTE",
-          "name": "Tilford, Elstead, Thursley, Frensham, Peper Harow &amp; Dockenfield"
+          "name": "Tilford, Elstead, Thursley, Frensham, Peper Harow & Dockenfield"
         },
         {
           "id": "WVWB",
-          "name": "Weybourne, Badshot Lea &amp; Moor Park"
+          "name": "Weybourne, Badshot Lea & Moor Park"
         },
         {
           "id": "WVWT",
-          "name": "Wrecclesham, Rowledge &amp; The Bourne"
+          "name": "Wrecclesham, Rowledge & The Bourne"
         }
       ]
     },
@@ -19667,7 +19667,7 @@
         },
         {
           "id": "N458",
-          "name": "Chalvey, Town Centre &amp; Upton"
+          "name": "Chalvey, Town Centre & Upton"
         },
         {
           "id": "N459",

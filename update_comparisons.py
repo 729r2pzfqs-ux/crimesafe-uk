@@ -8,9 +8,14 @@ from pathlib import Path
 
 def slugify(text):
     text = text.lower()
+    text = re.sub(r'&(?:amp;)+', ' and ', text)
+    text = re.sub(r'&(?![a-z]+;)', ' and ', text)
     text = re.sub(r'[^a-z0-9\s-]', '', text)
     text = re.sub(r'[\s_]+', '-', text)
-    return text.strip('-')
+    slug = text.strip('-')
+    if slug == 'devon-and-cornwall-police':
+        slug = 'devon-cornwall-police'  # force slug predates '&' -> 'and'
+    return slug
 
 # Load rankings
 with open('data/rankings.json') as f:

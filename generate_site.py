@@ -39,10 +39,15 @@ LOGO_SVG = '''<svg width="28" height="28" viewBox="0 0 512 512" fill="none" xmln
 def slugify(text):
     """Convert text to URL-safe slug"""
     text = text.lower()
+    text = re.sub(r'&(?:amp;)+', ' and ', text)
+    text = re.sub(r'&(?![a-z]+;)', ' and ', text)
     text = re.sub(r'[^a-z0-9\s-]', '', text)
     text = re.sub(r'[\s_]+', '-', text)
     text = re.sub(r'-+', '-', text)
-    return text.strip('-')
+    slug = text.strip('-')
+    if slug == 'devon-and-cornwall-police':
+        slug = 'devon-cornwall-police'  # force slug predates '&' -> 'and'
+    return slug
 
 def social_meta(title, description, canonical):
     """Canonical + Open Graph + Twitter tags (must live inside <head>)."""

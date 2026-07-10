@@ -19,9 +19,14 @@ exec(open('generate_london_comparisons.py').read().replace("if __name__", "if Fa
 # Re-import needed functions since exec scope is messy
 def slugify(text):
     text = text.lower()
+    text = re.sub(r'&(?:amp;)+', ' and ', text)
+    text = re.sub(r'&(?![a-z]+;)', ' and ', text)
     text = re.sub(r'[^a-z0-9\s-]', '', text)
     text = re.sub(r'[\s_]+', '-', text)
-    return text.strip('-')
+    slug = text.strip('-')
+    if slug == 'devon-and-cornwall-police':
+        slug = 'devon-cornwall-police'  # force slug predates '&' -> 'and'
+    return slug
 
 def main():
     batch_num = int(sys.argv[1])
