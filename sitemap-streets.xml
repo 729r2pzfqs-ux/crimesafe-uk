@@ -169,12 +169,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://crimesafe.uk/streets/park/open-space/</loc>
-        <lastmod>2026-03-27</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://crimesafe.uk/streets/princes-street/</loc>
         <lastmod>2026-03-27</lastmod>
         <changefreq>monthly</changefreq>
@@ -205,12 +199,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://crimesafe.uk/streets//</loc>
-        <lastmod>2026-03-27</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://crimesafe.uk/streets/dyott-street/</loc>
         <lastmod>2026-03-27</lastmod>
         <changefreq>monthly</changefreq>
@@ -224,12 +212,6 @@
     </url>
     <url>
         <loc>https://crimesafe.uk/streets/north-end/</loc>
-        <lastmod>2026-03-27</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://crimesafe.uk/streets/theme/adventure-park/</loc>
         <lastmod>2026-03-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -2940,4 +2922,5 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
 </urlset>
