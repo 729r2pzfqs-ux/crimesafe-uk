@@ -106,8 +106,9 @@ def generate_district_page(district, rankings_lookup):
     district_slug = slugify(district['district'])
     nb_count = district['neighbourhood_count']
     neighbourhoods = district['neighbourhoods']
-    
-    desc = f"{district_name} crime statistics: safety scores for {nb_count} police neighbourhoods in {force_name}. See the safest areas and monthly crime trends from police.uk."
+    nb_word = "neighbourhood" if nb_count == 1 else "neighbourhoods"
+
+    desc = f"{district_name} crime statistics: safety scores for {nb_count} police {nb_word} in {force_name}. See the safest areas and monthly crime trends from police.uk."
     _title = f"{district_name} Crime Statistics — CrimeSafe UK"
     _url = f"https://crimesafe.uk/district/{district_slug}/"
     _ld = '    <script type="application/ld+json">' + json.dumps(
@@ -115,6 +116,12 @@ def generate_district_page(district, rankings_lookup):
          "description": desc, "url": _url,
          "isPartOf": {"@type": "WebSite", "name": "CrimeSafe UK", "url": "https://crimesafe.uk/"}},
         ensure_ascii=False, separators=(',', ':')) + '</script>\n'
+    _ld += '<script type="application/ld+json">' + json.dumps(
+        {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://crimesafe.uk/"},
+            {"@type": "ListItem", "position": 2, "name": "Districts", "item": "https://crimesafe.uk/districts/"},
+            {"@type": "ListItem", "position": 3, "name": district_name}]},
+        ensure_ascii=False) + '</script>\n'
     html = get_header(_title, desc, canonical=_url, extra_head=_ld)
     
     html += f'''
@@ -128,7 +135,7 @@ def generate_district_page(district, rankings_lookup):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{district_name}</h1>
-                <p class="hero-sub">{force_name} • {nb_count} neighbourhoods</p>
+                <p class="hero-sub">{force_name} • {nb_count} {nb_word}</p>
             </div>
         </section>
         
@@ -172,8 +179,13 @@ def generate_districts_index(districts):
     """Generate the districts index page"""
     districts_sorted = sorted(districts, key=lambda d: d['district'])
     
+    _crumbs = '<script type="application/ld+json">' + json.dumps(
+        {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://crimesafe.uk/"},
+            {"@type": "ListItem", "position": 2, "name": "Districts"}]},
+        ensure_ascii=False) + '</script>\n'
     html = get_header("UK Districts — CrimeSafe UK", "Browse crime statistics by district across the UK",
-                      canonical="https://crimesafe.uk/districts/")
+                      canonical="https://crimesafe.uk/districts/", extra_head=_crumbs)
     html += f'''
     <main id="main-content">
         <div class="container">
@@ -185,7 +197,7 @@ def generate_districts_index(districts):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>UK Districts</h1>
-                <p class="hero-sub">{len(districts)} districts across England, Wales, and Northern Ireland</p>
+                <p class="hero-sub">{len(districts)} districts across England and Wales</p>
             </div>
         </section>
         
@@ -199,7 +211,7 @@ def generate_districts_index(districts):
         html += f'''
                     <a href="/district/{district_slug}/" class="force-card">
                         <h3>{d['district'].title()}</h3>
-                        <div class="meta">{d['force']} • {d['neighbourhood_count']} neighbourhoods</div>
+                        <div class="meta">{d['force']} • {d['neighbourhood_count']} neighbourhood{'' if d['neighbourhood_count'] == 1 else 's'}</div>
                     </a>
 '''
     

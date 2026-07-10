@@ -121,18 +121,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://crimesafe.uk/district/luton/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/warrington/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crimesafe.uk/district/west-cornwall/</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -163,12 +151,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crimesafe.uk/district/ilfracombe-west/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crimesafe.uk/district/plymouth/</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -182,18 +164,6 @@
   </url>
   <url>
     <loc>https://crimesafe.uk/district/dorset-county/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/eastleigh/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/hart/</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -463,12 +433,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crimesafe.uk/district/broadland/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crimesafe.uk/district/east-northamptonshire/</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -517,48 +481,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://crimesafe.uk/district/bassetlaw/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/newark-and-sherwood/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/broxtowe/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/gedling/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/city-west/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/city-central/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/epsom-ewell/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://crimesafe.uk/district/south-worcestershire/</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -584,12 +506,6 @@
   </url>
   <url>
     <loc>https://crimesafe.uk/district/telford-and-wrekin/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crimesafe.uk/district/birmingham/</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
