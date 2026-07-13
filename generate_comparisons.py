@@ -88,7 +88,7 @@ def get_footer():
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
             <p style="margin-top: var(--space-2);">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: April 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: May 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>
@@ -151,7 +151,7 @@ def generate_comparison_page(nb1, nb2):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{name1} vs {name2}</h1>
-                <p class="hero-sub">Crime rate comparison • April 2026 data</p>
+                <p class="hero-sub">Crime rate comparison • May 2026 data</p>
             </div>
         </section>
         

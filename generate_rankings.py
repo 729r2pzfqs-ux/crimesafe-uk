@@ -76,7 +76,7 @@ def get_footer():
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
             <p style="margin-top: var(--space-2);">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: April 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: May 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>
@@ -110,7 +110,7 @@ def generate_safest_page(rankings, top_n=100):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>Safest Places to Live in the UK</h1>
-                <p class="hero-sub">Top {top_n} neighbourhoods with lowest crime rates • April 2026 data</p>
+                <p class="hero-sub">Top {top_n} neighbourhoods with lowest crime rates • May 2026 data</p>
             </div>
         </section>
         
@@ -187,7 +187,7 @@ def generate_dangerous_page(rankings, bottom_n=100):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>Highest Crime Areas in the UK</h1>
-                <p class="hero-sub">Top {bottom_n} neighbourhoods with highest crime rates • April 2026 data</p>
+                <p class="hero-sub">Top {bottom_n} neighbourhoods with highest crime rates • May 2026 data</p>
             </div>
         </section>
         
