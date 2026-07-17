@@ -257,16 +257,38 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         pop_value, pop_detail = "N/A", "Population data unavailable"
         rate_value, rate_detail = "N/A", "Population data unavailable"
 
-    if safety_score:
-        title = f"{nb_name} Crime Rate 2026 — Safety Score {safety_score}/100 | CrimeSafe UK"
-        desc = f"Is {nb_name} safe? Safety Score: {safety_score}/100. View {total:,} crimes reported in May 2026, compare with nearby areas, and see crime breakdown."
-    else:
-        title = f"{nb_name} Crime Statistics 2026 | CrimeSafe UK"
-        desc = f"Crime statistics for {nb_name} in {force_name}. View latest crime data and safety information."
-    # Trim boilerplate suffix when the title exceeds 60 chars (SEO)
     import html as _html
-    if len(_html.unescape(title)) > 60 and title.endswith(" | CrimeSafe UK"):
-        title = title[:-len(" | CrimeSafe UK")]
+    def _grade_label(s):
+        if s >= 80: return "Very Safe"
+        if s >= 60: return "Safe"
+        if s >= 40: return "Average"
+        if s >= 20: return "Below Average"
+        return "High Crime"
+
+    if safety_score:
+        _grade = _grade_label(safety_score)
+        _name_short = nb_name[:38].rsplit(' ', 1)[0] if len(nb_name) > 40 else nb_name
+        _candidates = [
+            f"Is {nb_name} Safe? Score {safety_score}/100 — {total:,} Crimes",
+            f"Is {nb_name} Safe? Crime Score {safety_score}/100 (2026)",
+            f"{nb_name} Safety Score {safety_score}/100 | 2026",
+            f"{_name_short}... Crime Score {safety_score}/100",
+        ]
+        title = next((t for t in _candidates if len(t) <= 65), _candidates[-1][:65])
+        _desc_full = (
+            f"Is {nb_name} safe? Crime score: {safety_score}/100 ({_grade}). "
+            f"{total:,} offences in May 2026. "
+            f"View crime breakdown by type and compare with nearby areas."
+        )
+        _desc_short = (
+            f"Is {nb_name} safe? Crime score: {safety_score}/100 ({_grade}). "
+            f"{total:,} offences in May 2026."
+        )
+        import html as _html_esc
+        desc = _desc_full if len(_html_esc.escape(_desc_full)) <= 160 else _desc_short
+    else:
+        title = f"{nb_name} Crime Statistics 2026"[:65]
+        desc = f"Crime statistics for {nb_name} in {force_name}. View latest crime data and safety information."
     canonical = f"https://crimesafe.uk/neighbourhood/{force_slug}/{nb_slug}/"
     html = get_header(title, desc, canonical=canonical)
     

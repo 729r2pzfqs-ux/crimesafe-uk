@@ -132,8 +132,33 @@ def generate_postcode_page(outcode, outcode_info, nearby_neighbourhoods):
     lat = outcode_info.get('latitude', 0)
     lng = outcode_info.get('longitude', 0)
     
-    title = f"{outcode} Postcode Crime Statistics — CrimeSafe UK"
-    desc = f"Crime rates and safety scores for {outcode} postcode area. Covers {', '.join(districts[:3])}."
+    def _grade_label(s):
+        if s >= 80: return "Very Safe"
+        if s >= 60: return "Safe"
+        if s >= 40: return "Average"
+        if s >= 20: return "Below Average"
+        return "High Crime"
+    districts_str = ', '.join(districts[:3]) if districts else outcode
+    if avg_score is not None:
+        _grade = _grade_label(avg_score)
+        _title_candidates = [
+            f"{outcode} Crime Stats 2026 | Safety Score {avg_score}/100",
+            f"{outcode} Postcode Crime Stats | Score {avg_score}/100",
+            f"{outcode} Postcode Crime Statistics 2026",
+        ]
+        title = next((t for t in _title_candidates if len(t) <= 65), _title_candidates[-1][:65])
+        desc = (
+            f"Crime rates and safety scores for {outcode} postcode "
+            f"({districts_str}). Average score: {avg_score}/100 ({_grade}) "
+            f"from nearby neighbourhood data — May 2026."
+        )
+    else:
+        title = f"{outcode} Postcode Crime Statistics 2026"[:65]
+        desc = (
+            f"Crime rates and safety scores for {outcode} postcode "
+            f"({districts_str}). Browse nearby neighbourhood safety scores "
+            f"from official May 2026 police.uk data."
+        )
     
     # Calculate average score
     scores = [n['score'] for n in nearby_neighbourhoods if n.get('score')]

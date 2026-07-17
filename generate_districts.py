@@ -113,8 +113,24 @@ def generate_district_page(district, rankings_lookup):
     neighbourhoods = district['neighbourhoods']
     nb_word = "neighbourhood" if nb_count == 1 else "neighbourhoods"
 
-    desc = f"{district_name} crime statistics: safety scores for {nb_count} police {nb_word} in {force_name}. See the safest areas and monthly crime trends from police.uk."
-    _title = f"{district_name} Crime Statistics — CrimeSafe UK"
+    _desc_long = (
+        f"Crime rates and safety scores for {nb_count} {nb_word} in "
+        f"{district_name}, {force_name}. Ranked 0–100 by crime rate using official "
+        f"May 2026 police data."
+    )
+    _desc_short = (
+        f"Crime rates and safety scores for {nb_count} {nb_word} in "
+        f"{district_name}. Ranked 0–100 by crime rate using official "
+        f"May 2026 police data."
+    )
+    import html as _html_mod
+    desc = _desc_long if len(_html_mod.escape(_desc_long)) <= 160 else _desc_short
+    _title_candidates = [
+        f"{district_name} Crime Rate 2026 | {nb_count} {nb_word.title()} Ranked",
+        f"{district_name} Crime Rate 2026 | {nb_count} Areas",
+        f"{district_name} Crime Statistics 2026",
+    ]
+    _title = next((t for t in _title_candidates if len(t) <= 65), _title_candidates[-1][:65])
     _url = f"https://crimesafe.uk/district/{district_slug}/"
     _ld = '    <script type="application/ld+json">' + json.dumps(
         {"@context": "https://schema.org", "@type": "WebPage", "name": _title,
@@ -189,7 +205,7 @@ def generate_districts_index(districts):
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://crimesafe.uk/"},
             {"@type": "ListItem", "position": 2, "name": "Districts"}]},
         ensure_ascii=False) + '</script>\n'
-    html = get_header("UK Districts — CrimeSafe UK", "Browse crime statistics by district across the UK",
+    html = get_header("UK District Crime Statistics 2026 | 65 Areas", "Browse crime rates and safety scores for 65 UK districts. Compare neighbourhoods by area using official May 2026 police data from police.uk.",
                       canonical="https://crimesafe.uk/districts/", extra_head=_crumbs)
     html += f'''
     <main id="main-content">

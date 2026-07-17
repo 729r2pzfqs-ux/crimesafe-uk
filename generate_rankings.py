@@ -95,8 +95,12 @@ def grade_class(grade):
 
 def generate_safest_page(rankings, top_n=100):
     """Generate safest neighbourhoods page"""
-    title = "Safest Places to Live in the UK 2026 — CrimeSafe UK"
-    desc = f"Top {top_n} safest neighbourhoods in the UK ranked by crime rate. Find the lowest crime areas to live in England, Wales, and Northern Ireland."
+    title = "100 Safest Places to Live in the UK 2026"
+    desc = (
+        f"The {top_n} safest places to live in the UK, ranked by crime rate. "
+        f"Areas scored 80–100/100 based on official May 2026 "
+        f"data from police.uk."
+    )
 
     html_content = get_header(title, desc, canonical="https://crimesafe.uk/safest/")
     html_content += f'''
@@ -169,8 +173,12 @@ def generate_safest_page(rankings, top_n=100):
 
 def generate_dangerous_page(rankings, bottom_n=100):
     """Generate highest crime neighbourhoods page"""
-    title = "Highest Crime Areas in the UK 2026 — CrimeSafe UK"
-    desc = f"Top {bottom_n} neighbourhoods with highest crime rates in the UK. Crime statistics for England, Wales, and Northern Ireland."
+    title = "100 Highest Crime Areas in the UK 2026"
+    desc = (
+        f"The {bottom_n} highest-crime neighbourhoods in the UK, ranked by crime rate. "
+        f"Areas scored 0–20/100 based on official May 2026 "
+        f"data from police.uk."
+    )
     
     # Reverse rankings for most dangerous
     reversed_rankings = list(reversed(rankings))

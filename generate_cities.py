@@ -299,8 +299,24 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
     total_crimes = sum(n.get('total_crimes', 0) for n in neighbourhoods)
     avg_score = round(sum(n.get('score', 0) for n in neighbourhoods) / max(1, len(neighbourhoods)))
     
-    title = f"{city_name} Crime Rate 2026 — Avg Safety Score {avg_score}/100 | CrimeSafe UK"
-    desc = f"Is {city_name} safe? Average Safety Score: {avg_score}/100 across {len(neighbourhoods)} areas. View {total_crimes:,} crimes reported, compare neighbourhoods, find the safest places."
+    def _grade_label(s):
+        if s >= 80: return "Very Safe"
+        if s >= 60: return "Safe"
+        if s >= 40: return "Average"
+        if s >= 20: return "Below Average"
+        return "High Crime"
+    _grade = _grade_label(avg_score)
+    _title_candidates = [
+        f"Is {city_name} Safe? Avg Score {avg_score}/100 | Crime 2026",
+        f"Is {city_name} Safe? Crime Score {avg_score}/100",
+        f"{city_name} Crime Rate 2026 | Score {avg_score}/100",
+    ]
+    title = next((t for t in _title_candidates if len(t) <= 65), _title_candidates[-1][:65])
+    desc = (
+        f"Is {city_name} safe? Average crime score: {avg_score}/100 ({_grade}) "
+        f"across {len(neighbourhoods)} neighbourhoods — {total_crimes:,} offences in May 2026. "
+        f"Find the safest places in {city_name}."
+    )
     
     html = get_header(title, desc)
     

@@ -140,7 +140,7 @@ def generate_homepage(forces_data):
     # Sort forces by neighbourhood count
     forces_sorted = sorted(forces_data['forces'], key=lambda f: len(f['neighbourhoods']), reverse=True)
     
-    _home_desc = "UK crime statistics and safety scores for 4,900+ neighbourhoods, postcodes and every police force. Check how safe your area is with monthly police.uk data."
+    _home_desc = "Find out if your area is safe. Crime scores for 4,926 UK neighbourhoods, 44 police forces and 2,800+ postcodes. Updated monthly from official police.uk data."
     _home_graph = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": "https://crimesafe.uk/#website", "name": "CrimeSafe UK",
          "url": "https://crimesafe.uk/", "description": _home_desc,
@@ -157,7 +157,7 @@ def generate_homepage(forces_data):
          "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP"}},
     ]}
     _home_ld = '    <script type="application/ld+json">' + json.dumps(_home_graph, ensure_ascii=False, separators=(',', ':')) + '</script>\n'
-    html = get_header("CrimeSafe UK — UK Crime Statistics & Safety Scores", _home_desc,
+    html = get_header("Check UK Crime Rates 2026 | 4,926 Areas Scored", _home_desc,
                       canonical="https://crimesafe.uk/", extra_head=_home_ld)
     html += '''
     <main id="main-content">
@@ -309,8 +309,14 @@ def generate_force_page(force, all_forces, rankings_lookup=None):
         rankings_lookup = {}
     nb_count = len(force['neighbourhoods'])
 
-    _force_title = f"{force['name']} — CrimeSafe UK"
-    _force_desc = f"Crime statistics for {nb_count} neighbourhoods in {force['name']}"
+    _fname = force['name']
+    _force_title_candidate = f"{_fname} Crime Statistics 2026 | {nb_count} Areas"
+    _force_title = _force_title_candidate if len(_force_title_candidate) <= 65 else f"{_fname} Crime Stats 2026"[:65]
+    _force_desc = (
+        f"Crime stats for {nb_count} neighbourhoods in {_fname}. "
+        f"Safety scores 0–100 by crime rate — updated monthly "
+        f"from official police.uk data."
+    )
     _force_url = f"https://crimesafe.uk/force/{slug}/"
     _force_ld = '    <script type="application/ld+json">' + json.dumps(
         {"@context": "https://schema.org", "@type": "WebPage", "name": _force_title,
@@ -381,7 +387,10 @@ def generate_forces_index(forces_data):
     """Generate the forces index page"""
     forces_sorted = sorted(forces_data['forces'], key=lambda f: f['name'])
     
-    html = get_header("All Police Forces — CrimeSafe UK", "Browse all 44 UK police forces")
+    html = get_header(
+        "44 UK Police Forces | Crime Statistics 2026",
+        "Browse crime statistics for all 44 UK police forces. Compare safety scores across 4,926 neighbourhoods in England, Wales, and Northern Ireland.",
+    )
     html += '''
     <main id="main-content">
         <div class="container">

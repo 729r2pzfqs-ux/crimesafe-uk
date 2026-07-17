@@ -115,12 +115,16 @@ def generate_comparison_page(nb1, nb2):
     
     slug = f"{nb1['nb_slug']}-vs-{nb2['nb_slug']}"
     canonical = f"https://crimesafe.uk/compare/{slug}/"
-    _plain = f"{html_lib.unescape(name1)} vs {html_lib.unescape(name2)}"
-    title = f"{name1} vs {name2} — CrimeSafe UK"
-    if len(_plain + " — CrimeSafe UK") > 60:
-        title = f"{name1} vs {name2}"
-    desc = (f"Compare crime and safety in {name1} ({nb1['score']}/100) and {name2} ({nb2['score']}/100). "
-            f"See side-by-side safety scores, crime breakdowns and which neighbourhood is safer.")
+    _plain1 = html_lib.unescape(name1)
+    _plain2 = html_lib.unescape(name2)
+    _winner = _plain1 if nb1['score'] > nb2['score'] else (_plain2 if nb2['score'] > nb1['score'] else None)
+    _candidate = f"{_plain1} vs {_plain2} — Crime Comparison"
+    title = _candidate if len(_candidate) <= 65 else f"{_plain1} vs {_plain2}"[:65]
+    desc = (
+        f"Is {_plain1} or {_plain2} safer? "
+        f"Scores: {_plain1} {nb1['score']}/100 vs {_plain2} {nb2['score']}/100. "
+        f"Side-by-side crime breakdown using May 2026 police.uk data."
+    )
 
     # Determine winner
     if nb1['score'] > nb2['score']:
