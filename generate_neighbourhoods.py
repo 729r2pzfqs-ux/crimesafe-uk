@@ -277,12 +277,12 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         title = next((t for t in _candidates if len(t) <= 65), _candidates[-1][:65])
         _desc_full = (
             f"Is {nb_name} safe? Crime score: {safety_score}/100 ({_grade}). "
-            f"{total:,} offences in May 2026. "
+            f"{total:,} offences in June 2026. "
             f"View crime breakdown by type and compare with nearby areas."
         )
         _desc_short = (
             f"Is {nb_name} safe? Crime score: {safety_score}/100 ({_grade}). "
-            f"{total:,} offences in May 2026."
+            f"{total:,} offences in June 2026."
         )
         import html as _html_esc
         desc = _desc_full if len(_html_esc.escape(_desc_full)) <= 160 else _desc_short
@@ -318,7 +318,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{nb_name} Crime Rate</h1>
-                <p class="hero-sub">{force_name} • May 2026 Data</p>
+                <p class="hero-sub">{force_name} • June 2026 Data</p>
             </div>
         </section>
         
@@ -344,7 +344,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <div class="kpi-card">
                         <div class="kpi-label">Total Crimes</div>
                         <div class="kpi-value">{total}</div>
-                        <div class="kpi-detail">May 2026</div>
+                        <div class="kpi-detail">June 2026</div>
                     </div>
                     <div class="kpi-card">
                         <div class="kpi-label">Violent Crime</div>
@@ -378,7 +378,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is {nb_name} Safe?</h2>
                     <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
                         {nb_name} has a safety score of <strong>{safety_score}/100</strong>, placing it in the <strong>{"top " + str(100-safety_score) + "%" if safety_score >= 50 else "bottom " + str(safety_score) + "%"}</strong> of UK neighbourhoods.
-                        In May 2026, police recorded {total} crimes in this area, including {violent} violent offences.
+                        In June 2026, police recorded {total} crimes in this area, including {violent} violent offences.
                     </p>
                     <p style="color: var(--color-text-muted);">
                         {"This area has lower crime rates than most UK neighbourhoods, making it a relatively safe place to live or visit." if safety_score >= 60 else "This area has average crime levels compared to other UK neighbourhoods. As with any area, stay aware of your surroundings." if safety_score >= 40 else "This area has higher crime rates than most UK neighbourhoods. Take extra precautions with personal belongings and avoid walking alone at night."}
@@ -408,12 +408,12 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">Is {nb_name} safe to live in?</div>
-                        <div style="color: var(--color-text-muted);">{nb_name} has a Safety Score of {safety_score}/100, rated "{grade_text}". This score is based on {total:,} crimes reported in May 2026.</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} has a Safety Score of {safety_score}/100, rated "{grade_text}". This score is based on {total:,} crimes reported in June 2026.</div>
                     </div>
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">What is {nb_name}'s crime rate?</div>
-                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total:,} crimes in May 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total:,} crimes in June 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
                     </div>
                     
                     <div style="padding: var(--space-4) 0;">
@@ -433,7 +433,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                             "name": "Is {nb_name} safe to live in?",
                             "acceptedAnswer": {{
                                 "@type": "Answer",
-                                "text": "{nb_name} has a Safety Score of {safety_score}/100, rated {grade_text}. This score is based on {total:,} crimes reported in May 2026."
+                                "text": "{nb_name} has a Safety Score of {safety_score}/100, rated {grade_text}. This score is based on {total:,} crimes reported in June 2026."
                             }}
                         }},
                         {{
@@ -441,7 +441,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                             "name": "What is {nb_name}'s crime rate?",
                             "acceptedAnswer": {{
                                 "@type": "Answer",
-                                "text": "{nb_name} recorded {total:,} crimes in May 2026, including {violent} violent crimes and {property_crime} property crimes."
+                                "text": "{nb_name} recorded {total:,} crimes in June 2026, including {violent} violent crimes and {property_crime} property crimes."
                             }}
                         }},
                         {{

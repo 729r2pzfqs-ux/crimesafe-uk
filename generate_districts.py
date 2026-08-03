@@ -87,7 +87,7 @@ def get_footer():
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
             <p style="margin-top: var(--space-2);">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: May 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: June 2026</p>
         </div>
     </footer>
     <script src="/forces_search.js"></script>
@@ -116,12 +116,12 @@ def generate_district_page(district, rankings_lookup):
     _desc_long = (
         f"Crime rates and safety scores for {nb_count} {nb_word} in "
         f"{district_name}, {force_name}. Ranked 0–100 by crime rate using official "
-        f"May 2026 police data."
+        f"June 2026 police data."
     )
     _desc_short = (
         f"Crime rates and safety scores for {nb_count} {nb_word} in "
         f"{district_name}. Ranked 0–100 by crime rate using official "
-        f"May 2026 police data."
+        f"June 2026 police data."
     )
     import html as _html_mod
     desc = _desc_long if len(_html_mod.escape(_desc_long)) <= 160 else _desc_short
@@ -205,7 +205,7 @@ def generate_districts_index(districts):
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://crimesafe.uk/"},
             {"@type": "ListItem", "position": 2, "name": "Districts"}]},
         ensure_ascii=False) + '</script>\n'
-    html = get_header("UK District Crime Statistics 2026 | 65 Areas", "Browse crime rates and safety scores for 65 UK districts. Compare neighbourhoods by area using official May 2026 police data from police.uk.",
+    html = get_header("UK District Crime Statistics 2026 | 65 Areas", "Browse crime rates and safety scores for 65 UK districts. Compare neighbourhoods by area using official June 2026 police data from police.uk.",
                       canonical="https://crimesafe.uk/districts/", extra_head=_crumbs)
     html += f'''
     <main id="main-content">
