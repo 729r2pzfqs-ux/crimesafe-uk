@@ -192,6 +192,7 @@ def get_header(title, description):
     <meta name="google-site-verification" content="S7uUZGMb9yLeKT16YkQGWumhCd0n70jt19wxR1qrYEc">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ikygp1RoIutuj76NgIYy2Q" async></script>
     <title>{title}</title>
     <meta name="description" content="{description}">
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin>

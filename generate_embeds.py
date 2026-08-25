@@ -142,6 +142,7 @@ for r in rankings:  # All neighbourhoods
             color: #9ca3af;
         }}
     </style>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ikygp1RoIutuj76NgIYy2Q" async></script>
 </head>
 <body>
     <div class="widget">
@@ -181,6 +182,7 @@ landing = '''<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ikygp1RoIutuj76NgIYy2Q" async></script>
     <title>Embed Safety Scores | CrimeSafe UK</title>
     <meta name="description" content="Embed crime safety scores on your website. Free widgets for estate agents, property sites, and local businesses.">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet"></noscript>

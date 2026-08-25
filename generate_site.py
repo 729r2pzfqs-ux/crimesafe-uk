@@ -79,6 +79,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ikygp1RoIutuj76NgIYy2Q" async></script>
     <title>{title}</title>
     <meta name="description" content="{description}">
 {social_meta(title, description, canonical)}{extra_head}    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>

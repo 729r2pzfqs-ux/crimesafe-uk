@@ -62,6 +62,7 @@ TEMPLATE = '''<!DOCTYPE html>
         .skip-link {{ position: absolute; left: -9999px; z-index: 1000; padding: 10px 18px; background: #2563eb; color: #fff; font-weight: 600; text-decoration: none; }}
         .skip-link:focus {{ left: 0; top: 0; }}
     </style>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ikygp1RoIutuj76NgIYy2Q" async></script>
 </head>
 <body class="bg-slate-50 dark:bg-slate-900 min-h-screen">
     <a href="#main-content" class="skip-link">Skip to main content</a>

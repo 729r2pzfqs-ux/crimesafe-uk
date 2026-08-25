@@ -17,6 +17,7 @@ TEMPLATE = '''<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK531DR9X9"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-CK531DR9X9');</script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ikygp1RoIutuj76NgIYy2Q" async></script>
     <title>{street_name} Crime Statistics | Is {street_name} Safe? | CrimeSafe UK</title>
     <meta name="description" content="Is {street_name} safe? View real-time crime statistics, safety score of {score}/100, and recent incidents for {street_name}, {city}.">
     <link rel="canonical" href="https://crimesafe.uk/streets/{slug}/">
