@@ -89,7 +89,7 @@ def get_footer():
         <div class="container">
             <p>CrimeSafe UK — Crime statistics from <a href="https://data.police.uk" target="_blank" rel="noopener">data.police.uk</a></p>
             <p style="margin-top: var(--space-2);">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: June 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: July 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>
@@ -124,7 +124,7 @@ def generate_comparison_page(nb1, nb2):
     desc = (
         f"Is {_plain1} or {_plain2} safer? "
         f"Scores: {_plain1} {nb1['score']}/100 vs {_plain2} {nb2['score']}/100. "
-        f"Side-by-side crime breakdown using June 2026 police.uk data."
+        f"Side-by-side crime breakdown using July 2026 police.uk data."
     )
 
     # Determine winner
@@ -156,7 +156,7 @@ def generate_comparison_page(nb1, nb2):
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{name1} vs {name2}</h1>
-                <p class="hero-sub">Crime rate comparison • June 2026 data</p>
+                <p class="hero-sub">Crime rate comparison • July 2026 data</p>
             </div>
         </section>
         
