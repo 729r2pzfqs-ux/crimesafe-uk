@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "D311",
-  "neighbourhood_name": "Disserth and Trecoed",
-  "force_id": "dyfed-powys",
-  "lat": "52.1998",
-  "lng": "-3.39488",
-  "population": 1214,
-  "total_crimes": 1,
-  "categories": {
-    "drugs": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.8,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "D311", "neighbourhood_name": "Disserth and Trecoed", "force_id": "dyfed-powys", "lat": "52.1998", "lng": "-3.39488", "population": 1214, "total_crimes": 8, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 2, "public-order": 4}, "date": "2026-07", "crime_rate_per_1000": 6.6, "population_source": "census_2021_lsoa", "lsoa_count": 1}

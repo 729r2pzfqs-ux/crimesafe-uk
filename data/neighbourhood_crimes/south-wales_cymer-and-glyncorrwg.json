@@ -1,1 +1,1 @@
-{"neighbourhood_id": "cymer-and-glyncorrwg", "neighbourhood_name": "Cymer and Glyncorrwg", "force_id": "south-wales", "lat": "51.674", "lng": "-3.65313", "population": 12098, "total_crimes": 0, "categories": {}, "date": "2026-03"}
+{"neighbourhood_id": "cymer-and-glyncorrwg", "neighbourhood_name": "Cymer and Glyncorrwg", "force_id": "south-wales", "lat": "51.674", "lng": "-3.65313", "population": 12098, "total_crimes": 3, "categories": {"anti-social-behaviour": 2, "violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 0.2}

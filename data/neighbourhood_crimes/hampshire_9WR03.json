@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "9WR03",
-  "neighbourhood_name": "Winchester Rural East",
-  "force_id": "hampshire",
-  "lat": "51.0769",
-  "lng": "-1.1849",
-  "population": 10437,
-  "total_crimes": 2,
-  "categories": {
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.2,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "9WR03", "neighbourhood_name": "Winchester Rural East", "force_id": "hampshire", "lat": "51.0769", "lng": "-1.1849", "population": 10437, "total_crimes": 9, "categories": {"anti-social-behaviour": 5, "other-theft": 3, "violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 0.9, "population_source": "census_2021_lsoa", "lsoa_count": 6}

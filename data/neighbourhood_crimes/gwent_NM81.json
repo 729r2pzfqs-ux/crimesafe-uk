@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "NM81",
-  "neighbourhood_name": "Victoria",
-  "force_id": "gwent",
-  "lat": "51.588",
-  "lng": "-2.98383",
-  "population": 8263,
-  "total_crimes": 3,
-  "categories": {
-    "shoplifting": 1,
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.4,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 4
-}
+{"neighbourhood_id": "NM81", "neighbourhood_name": "Victoria", "force_id": "gwent", "lat": "51.588", "lng": "-2.98383", "population": 8263, "total_crimes": 1075, "categories": {"anti-social-behaviour": 247, "bicycle-theft": 3, "burglary": 33, "criminal-damage-arson": 76, "drugs": 34, "other-theft": 37, "possession-of-weapons": 9, "public-order": 124, "robbery": 14, "shoplifting": 70, "theft-from-the-person": 8, "vehicle-crime": 44, "violent-crime": 348, "other-crime": 28}, "date": "2026-07", "crime_rate_per_1000": 130.1, "population_source": "census_2021_lsoa", "lsoa_count": 4}

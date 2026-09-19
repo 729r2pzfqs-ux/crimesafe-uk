@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "E05008164",
-  "neighbourhood_name": "Shrewsbury Rural East",
-  "force_id": "west-mercia",
-  "lat": "52.6535",
-  "lng": "-2.69726",
-  "population": 13257,
-  "total_crimes": 7,
-  "categories": {
-    "criminal-damage-arson": 1,
-    "other-theft": 2,
-    "violent-crime": 4
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.5,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 7
-}
+{"neighbourhood_id": "E05008164", "neighbourhood_name": "Shrewsbury Rural East", "force_id": "west-mercia", "lat": "52.6535", "lng": "-2.69726", "population": 13257, "total_crimes": 4, "categories": {"criminal-damage-arson": 1, "violent-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 0.3, "population_source": "census_2021_lsoa", "lsoa_count": 7}

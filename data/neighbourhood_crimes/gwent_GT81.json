@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "GT81",
-  "neighbourhood_name": "Tredegar",
-  "force_id": "gwent",
-  "lat": "51.7548",
-  "lng": "-3.2429",
-  "population": 6229,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 4
-}
+{"neighbourhood_id": "GT81", "neighbourhood_name": "Tredegar", "force_id": "gwent", "lat": "51.7548", "lng": "-3.2429", "population": 6229, "total_crimes": 64, "categories": {"anti-social-behaviour": 20, "burglary": 1, "criminal-damage-arson": 9, "other-theft": 1, "possession-of-weapons": 1, "public-order": 9, "violent-crime": 20, "other-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 10.3, "population_source": "census_2021_lsoa", "lsoa_count": 4}

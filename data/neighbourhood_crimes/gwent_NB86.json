@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "NB86",
-  "neighbourhood_name": "Shaftesbury",
-  "force_id": "gwent",
-  "lat": "51.6005",
-  "lng": "-3.0007",
-  "population": 5250,
-  "total_crimes": 4,
-  "categories": {
-    "shoplifting": 1,
-    "violent-crime": 2,
-    "other-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.8,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 4
-}
+{"neighbourhood_id": "NB86", "neighbourhood_name": "Shaftesbury", "force_id": "gwent", "lat": "51.6005", "lng": "-3.0007", "population": 5250, "total_crimes": 622, "categories": {"anti-social-behaviour": 169, "bicycle-theft": 1, "burglary": 20, "criminal-damage-arson": 43, "drugs": 20, "other-theft": 13, "possession-of-weapons": 4, "public-order": 68, "robbery": 8, "shoplifting": 40, "theft-from-the-person": 6, "vehicle-crime": 26, "violent-crime": 190, "other-crime": 14}, "date": "2026-07", "crime_rate_per_1000": 118.5, "population_source": "census_2021_lsoa", "lsoa_count": 4}

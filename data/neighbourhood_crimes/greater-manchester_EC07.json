@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "EC07",
-  "neighbourhood_name": "Northmoor",
-  "force_id": "greater-manchester",
-  "lat": "53.4544",
-  "lng": "-2.19478",
-  "population": 4491,
-  "total_crimes": 1,
-  "categories": {
-    "criminal-damage-arson": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.2,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "EC07", "neighbourhood_name": "Northmoor", "force_id": "greater-manchester", "lat": "53.4544", "lng": "-2.19478", "population": 4491, "total_crimes": 2, "categories": {"violent-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 0.4, "population_source": "census_2021_lsoa", "lsoa_count": 2}

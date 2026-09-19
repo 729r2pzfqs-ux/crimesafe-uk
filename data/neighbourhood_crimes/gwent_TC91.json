@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "TC91",
-  "neighbourhood_name": "Coed Eva",
-  "force_id": "gwent",
-  "lat": "51.6398",
-  "lng": "-3.04733",
-  "population": 2474,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "TC91", "neighbourhood_name": "Coed Eva", "force_id": "gwent", "lat": "51.6398", "lng": "-3.04733", "population": 2474, "total_crimes": 203, "categories": {"anti-social-behaviour": 36, "bicycle-theft": 1, "burglary": 7, "criminal-damage-arson": 19, "drugs": 2, "other-theft": 8, "possession-of-weapons": 1, "public-order": 24, "robbery": 2, "shoplifting": 8, "vehicle-crime": 3, "violent-crime": 84, "other-crime": 8}, "date": "2026-07", "crime_rate_per_1000": 82.1, "population_source": "census_2021_lsoa", "lsoa_count": 1}

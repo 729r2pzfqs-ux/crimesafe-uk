@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "LA19",
-  "neighbourhood_name": "Overton - Lancaster",
-  "force_id": "lancashire",
-  "lat": "54.023",
-  "lng": "-2.87793",
-  "population": 2567,
-  "total_crimes": 5,
-  "categories": {
-    "anti-social-behaviour": 2,
-    "vehicle-crime": 1,
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 1.9,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "LA19", "neighbourhood_name": "Overton - Lancaster", "force_id": "lancashire", "lat": "54.023", "lng": "-2.87793", "population": 2567, "total_crimes": 10, "categories": {"anti-social-behaviour": 3, "burglary": 3, "vehicle-crime": 1, "violent-crime": 2, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 3.9, "population_source": "census_2021_lsoa", "lsoa_count": 1}

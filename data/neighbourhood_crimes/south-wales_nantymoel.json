@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "nantymoel",
-  "neighbourhood_name": "Nant-y-Moel",
-  "force_id": "south-wales",
-  "lat": "51.6273",
-  "lng": "-3.53637",
-  "population": 2421,
-  "total_crimes": 11,
-  "categories": {
-    "criminal-damage-arson": 1,
-    "public-order": 2,
-    "violent-crime": 8
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 4.5,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "nantymoel", "neighbourhood_name": "Nant-y-Moel", "force_id": "south-wales", "lat": "51.6273", "lng": "-3.53637", "population": 2421, "total_crimes": 16, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 2, "public-order": 2, "vehicle-crime": 1, "violent-crime": 8}, "date": "2026-07", "crime_rate_per_1000": 6.6, "population_source": "census_2021_lsoa", "lsoa_count": 2}

@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "TP82",
-  "neighbourhood_name": "Brynwern",
-  "force_id": "gwent",
-  "lat": "51.7021",
-  "lng": "-3.04376",
-  "population": 1822,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "TP82", "neighbourhood_name": "Brynwern", "force_id": "gwent", "lat": "51.7021", "lng": "-3.04376", "population": 1822, "total_crimes": 224, "categories": {"anti-social-behaviour": 53, "burglary": 4, "criminal-damage-arson": 17, "drugs": 5, "other-theft": 11, "possession-of-weapons": 1, "public-order": 25, "robbery": 2, "shoplifting": 5, "vehicle-crime": 6, "violent-crime": 88, "other-crime": 7}, "date": "2026-07", "crime_rate_per_1000": 122.9, "population_source": "census_2021_lsoa", "lsoa_count": 1}

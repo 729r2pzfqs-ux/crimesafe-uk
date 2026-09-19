@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "CG85",
-  "neighbourhood_name": "Pengam",
-  "force_id": "gwent",
-  "lat": "51.6672",
-  "lng": "-3.21716",
-  "population": 4197,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "CG85", "neighbourhood_name": "Pengam", "force_id": "gwent", "lat": "51.6672", "lng": "-3.21716", "population": 4197, "total_crimes": 184, "categories": {"anti-social-behaviour": 55, "burglary": 1, "criminal-damage-arson": 18, "drugs": 2, "other-theft": 6, "possession-of-weapons": 3, "public-order": 19, "shoplifting": 4, "vehicle-crime": 8, "violent-crime": 63, "other-crime": 5}, "date": "2026-07", "crime_rate_per_1000": 43.8, "population_source": "census_2021_lsoa", "lsoa_count": 3}

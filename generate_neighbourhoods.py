@@ -257,6 +257,22 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         pop_value, pop_detail = "N/A", "Population data unavailable"
         rate_value, rate_detail = "N/A", "Population data unavailable"
 
+    # Label the month from the data itself: a force whose latest month is
+    # broken (North Yorkshire, July 2026) is held back on the previous month,
+    # and its pages must not claim a month it has no data for.
+    _MONTH_NAMES = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ]
+    month_label = "July 2026"  # fallback
+    _date = (crime_data or {}).get('date')
+    if _date:
+        try:
+            _y, _m = _date.split('-')[:2]
+            month_label = f"{_MONTH_NAMES[int(_m) - 1]} {_y}"
+        except (ValueError, IndexError):
+            pass
+
     import html as _html
     def _grade_label(s):
         if s >= 80: return "Very Safe"
@@ -277,12 +293,12 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         title = next((t for t in _candidates if len(t) <= 65), _candidates[-1][:65])
         _desc_full = (
             f"Is {nb_name} safe? Crime score: {safety_score}/100 ({_grade}). "
-            f"{total:,} offences in July 2026. "
+            f"{total:,} offences in {month_label}. "
             f"View crime breakdown by type and compare with nearby areas."
         )
         _desc_short = (
             f"Is {nb_name} safe? Crime score: {safety_score}/100 ({_grade}). "
-            f"{total:,} offences in July 2026."
+            f"{total:,} offences in {month_label}."
         )
         import html as _html_esc
         desc = _desc_full if len(_html_esc.escape(_desc_full)) <= 160 else _desc_short
@@ -318,7 +334,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
         <section class="hero" style="padding: var(--space-8) 0;">
             <div class="container">
                 <h1>{nb_name} Crime Rate</h1>
-                <p class="hero-sub">{force_name} • July 2026 Data</p>
+                <p class="hero-sub">{force_name} • {month_label} Data</p>
             </div>
         </section>
         
@@ -344,7 +360,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <div class="kpi-card">
                         <div class="kpi-label">Total Crimes</div>
                         <div class="kpi-value">{total}</div>
-                        <div class="kpi-detail">July 2026</div>
+                        <div class="kpi-detail">{month_label}</div>
                     </div>
                     <div class="kpi-card">
                         <div class="kpi-label">Violent Crime</div>
@@ -378,7 +394,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     <h2 style="color: var(--color-primary); margin-bottom: var(--space-4);">Is {nb_name} Safe?</h2>
                     <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">
                         {nb_name} has a safety score of <strong>{safety_score}/100</strong>, placing it in the <strong>{"top " + str(100-safety_score) + "%" if safety_score >= 50 else "bottom " + str(safety_score) + "%"}</strong> of UK neighbourhoods.
-                        In July 2026, police recorded {total} crimes in this area, including {violent} violent offences.
+                        In {month_label}, police recorded {total} crimes in this area, including {violent} violent offences.
                     </p>
                     <p style="color: var(--color-text-muted);">
                         {"This area has lower crime rates than most UK neighbourhoods, making it a relatively safe place to live or visit." if safety_score >= 60 else "This area has average crime levels compared to other UK neighbourhoods. As with any area, stay aware of your surroundings." if safety_score >= 40 else "This area has higher crime rates than most UK neighbourhoods. Take extra precautions with personal belongings and avoid walking alone at night."}
@@ -408,12 +424,12 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">Is {nb_name} safe to live in?</div>
-                        <div style="color: var(--color-text-muted);">{nb_name} has a Safety Score of {safety_score}/100, rated "{grade_text}". This score is based on {total:,} crimes reported in July 2026.</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} has a Safety Score of {safety_score}/100, rated "{grade_text}". This score is based on {total:,} crimes reported in {month_label}.</div>
                     </div>
                     
                     <div style="border-bottom: 1px solid var(--color-divider); padding: var(--space-4) 0;">
                         <div style="font-weight: 600; margin-bottom: var(--space-2);">What is {nb_name}'s crime rate?</div>
-                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total:,} crimes in July 2026, including {violent} violent crimes and {property_crime} property crimes.</div>
+                        <div style="color: var(--color-text-muted);">{nb_name} recorded {total:,} crimes in {month_label}, including {violent} violent crimes and {property_crime} property crimes.</div>
                     </div>
                     
                     <div style="padding: var(--space-4) 0;">
@@ -433,7 +449,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                             "name": "Is {nb_name} safe to live in?",
                             "acceptedAnswer": {{
                                 "@type": "Answer",
-                                "text": "{nb_name} has a Safety Score of {safety_score}/100, rated {grade_text}. This score is based on {total:,} crimes reported in July 2026."
+                                "text": "{nb_name} has a Safety Score of {safety_score}/100, rated {grade_text}. This score is based on {total:,} crimes reported in {month_label}."
                             }}
                         }},
                         {{
@@ -441,7 +457,7 @@ def generate_neighbourhood_page(force_name, force_slug, nb_name, nb_slug, crime_
                             "name": "What is {nb_name}'s crime rate?",
                             "acceptedAnswer": {{
                                 "@type": "Answer",
-                                "text": "{nb_name} recorded {total:,} crimes in July 2026, including {violent} violent crimes and {property_crime} property crimes."
+                                "text": "{nb_name} recorded {total:,} crimes in {month_label}, including {violent} violent crimes and {property_crime} property crimes."
                             }}
                         }},
                         {{

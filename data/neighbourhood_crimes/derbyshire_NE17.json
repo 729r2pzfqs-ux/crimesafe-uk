@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "NE17",
-  "neighbourhood_name": "Tibshelf",
-  "force_id": "derbyshire",
-  "lat": "53.155",
-  "lng": "-1.31864",
-  "population": 9922,
-  "total_crimes": 3,
-  "categories": {
-    "public-order": 1,
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.3,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "NE17", "neighbourhood_name": "Tibshelf", "force_id": "derbyshire", "lat": "53.155", "lng": "-1.31864", "population": 9922, "total_crimes": 9, "categories": {"anti-social-behaviour": 1, "vehicle-crime": 1, "violent-crime": 6, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 0.9, "population_source": "census_2021_lsoa", "lsoa_count": 6}

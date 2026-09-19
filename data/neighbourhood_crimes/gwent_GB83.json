@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "GB83",
-  "neighbourhood_name": "Blaina",
-  "force_id": "gwent",
-  "lat": "51.7613",
-  "lng": "-3.15142",
-  "population": 4791,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "GB83", "neighbourhood_name": "Blaina", "force_id": "gwent", "lat": "51.7613", "lng": "-3.15142", "population": 4791, "total_crimes": 29, "categories": {"anti-social-behaviour": 7, "burglary": 1, "criminal-damage-arson": 3, "other-theft": 2, "public-order": 2, "robbery": 1, "vehicle-crime": 2, "violent-crime": 10, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 6.1, "population_source": "census_2021_lsoa", "lsoa_count": 3}

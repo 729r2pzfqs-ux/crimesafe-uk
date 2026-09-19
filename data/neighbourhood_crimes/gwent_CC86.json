@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "CC86",
-  "neighbourhood_name": "Argoed",
-  "force_id": "gwent",
-  "lat": "51.7147",
-  "lng": "-3.19542",
-  "population": 2805,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.4,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "CC86", "neighbourhood_name": "Argoed", "force_id": "gwent", "lat": "51.7147", "lng": "-3.19542", "population": 2805, "total_crimes": 25, "categories": {"anti-social-behaviour": 9, "criminal-damage-arson": 3, "other-theft": 4, "public-order": 1, "violent-crime": 8}, "date": "2026-07", "crime_rate_per_1000": 8.9, "population_source": "census_2021_lsoa", "lsoa_count": 2}

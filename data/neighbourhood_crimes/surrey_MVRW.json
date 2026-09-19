@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "MVRW",
-  "neighbourhood_name": "Dorking Rural West",
-  "force_id": "surrey",
-  "lat": "51.1889",
-  "lng": "-0.363264",
-  "population": 11184,
-  "total_crimes": 3,
-  "categories": {
-    "criminal-damage-arson": 1,
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.3,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "MVRW", "neighbourhood_name": "Dorking Rural West", "force_id": "surrey", "lat": "51.1889", "lng": "-0.363264", "population": 11184, "total_crimes": 1, "categories": {"burglary": 1}, "date": "2026-07", "crime_rate_per_1000": 0.1, "population_source": "census_2021_lsoa", "lsoa_count": 6}

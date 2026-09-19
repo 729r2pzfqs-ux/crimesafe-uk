@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "MH84",
-  "neighbourhood_name": "St Christophers",
-  "force_id": "gwent",
-  "lat": "51.6302",
-  "lng": "-2.67328",
-  "population": 1905,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "MH84", "neighbourhood_name": "St Christophers", "force_id": "gwent", "lat": "51.6302", "lng": "-2.67328", "population": 1905, "total_crimes": 117, "categories": {"anti-social-behaviour": 12, "burglary": 9, "criminal-damage-arson": 9, "drugs": 2, "other-theft": 8, "public-order": 10, "robbery": 4, "shoplifting": 16, "theft-from-the-person": 1, "vehicle-crime": 12, "violent-crime": 33, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 61.4, "population_source": "census_2021_lsoa", "lsoa_count": 1}

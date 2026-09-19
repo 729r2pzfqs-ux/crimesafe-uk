@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "C113",
-  "neighbourhood_name": "Burton",
-  "force_id": "dyfed-powys",
-  "lat": "51.7298",
-  "lng": "-4.9431",
-  "population": 1880,
-  "total_crimes": 3,
-  "categories": {
-    "violent-crime": 2,
-    "other-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 1.6,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "C113", "neighbourhood_name": "Burton", "force_id": "dyfed-powys", "lat": "51.7298", "lng": "-4.9431", "population": 1880, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 1.1, "population_source": "census_2021_lsoa", "lsoa_count": 1}

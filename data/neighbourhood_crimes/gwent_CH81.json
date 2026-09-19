@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "CH81",
-  "neighbourhood_name": "Moriah",
-  "force_id": "gwent",
-  "lat": "51.7504",
-  "lng": "-3.26905",
-  "population": 4519,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.2,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "CH81", "neighbourhood_name": "Moriah", "force_id": "gwent", "lat": "51.7504", "lng": "-3.26905", "population": 4519, "total_crimes": 70, "categories": {"anti-social-behaviour": 15, "burglary": 5, "criminal-damage-arson": 14, "drugs": 2, "possession-of-weapons": 1, "public-order": 5, "robbery": 1, "shoplifting": 1, "vehicle-crime": 3, "violent-crime": 22, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 15.5, "population_source": "census_2021_lsoa", "lsoa_count": 3}

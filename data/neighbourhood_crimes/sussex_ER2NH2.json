@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "ER2NH2",
-  "neighbourhood_name": "Sedlescombe, Ewhurst, Staplecross, Cripps Corner and Bodiam",
-  "force_id": "sussex",
-  "lat": "50.9611",
-  "lng": "0.541297",
-  "population": 2758,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "ER2NH2", "neighbourhood_name": "Sedlescombe, Ewhurst, Staplecross, Cripps Corner and Bodiam", "force_id": "sussex", "lat": "50.9611", "lng": "0.541297", "population": 2758, "total_crimes": 3, "categories": {"anti-social-behaviour": 1, "public-order": 1, "violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 1.1, "population_source": "census_2021_lsoa", "lsoa_count": 2}

@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "YMW32",
-  "neighbourhood_name": "Beaumaris",
-  "force_id": "north-wales",
-  "lat": "53.2722",
-  "lng": "-4.10929",
-  "population": 1753,
-  "total_crimes": 6,
-  "categories": {
-    "other-theft": 1,
-    "violent-crime": 5
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 3.4,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "YMW32", "neighbourhood_name": "Beaumaris", "force_id": "north-wales", "lat": "53.2722", "lng": "-4.10929", "population": 1753, "total_crimes": 22, "categories": {"anti-social-behaviour": 9, "burglary": 1, "criminal-damage-arson": 4, "public-order": 1, "vehicle-crime": 1, "violent-crime": 6}, "date": "2026-07", "crime_rate_per_1000": 12.5, "population_source": "census_2021_lsoa", "lsoa_count": 1}

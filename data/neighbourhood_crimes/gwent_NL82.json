@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "NL82",
-  "neighbourhood_name": "Tredegar Park",
-  "force_id": "gwent",
-  "lat": "51.5606",
-  "lng": "-3.01892",
-  "population": 1804,
-  "total_crimes": 1,
-  "categories": {
-    "drugs": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.6,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "NL82", "neighbourhood_name": "Tredegar Park", "force_id": "gwent", "lat": "51.5606", "lng": "-3.01892", "population": 1804, "total_crimes": 191, "categories": {"anti-social-behaviour": 23, "bicycle-theft": 4, "burglary": 4, "criminal-damage-arson": 21, "drugs": 3, "other-theft": 7, "possession-of-weapons": 2, "public-order": 22, "robbery": 1, "shoplifting": 19, "vehicle-crime": 4, "violent-crime": 75, "other-crime": 6}, "date": "2026-07", "crime_rate_per_1000": 105.9, "population_source": "census_2021_lsoa", "lsoa_count": 1}

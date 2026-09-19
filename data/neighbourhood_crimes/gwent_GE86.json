@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "GE86",
-  "neighbourhood_name": "Cwm",
-  "force_id": "gwent",
-  "lat": "51.7348",
-  "lng": "-3.18171",
-  "population": 4162,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.2,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "GE86", "neighbourhood_name": "Cwm", "force_id": "gwent", "lat": "51.7348", "lng": "-3.18171", "population": 4162, "total_crimes": 14, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "vehicle-crime": 2, "violent-crime": 6, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 3.4, "population_source": "census_2021_lsoa", "lsoa_count": 3}

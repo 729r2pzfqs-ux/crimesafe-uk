@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "8OW03",
-  "neighbourhood_name": "Liss",
-  "force_id": "hampshire",
-  "lat": "51.0425",
-  "lng": "-0.962049",
-  "population": 10834,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "8OW03", "neighbourhood_name": "Liss", "force_id": "hampshire", "lat": "51.0425", "lng": "-0.962049", "population": 10834, "total_crimes": 5, "categories": {"anti-social-behaviour": 4, "public-order": 1}, "date": "2026-07", "crime_rate_per_1000": 0.5, "population_source": "census_2021_lsoa", "lsoa_count": 6}

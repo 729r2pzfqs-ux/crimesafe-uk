@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "CR87",
-  "neighbourhood_name": "Ynysddu",
-  "force_id": "gwent",
-  "lat": "51.6252",
-  "lng": "-3.16583",
-  "population": 4121,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "CR87", "neighbourhood_name": "Ynysddu", "force_id": "gwent", "lat": "51.6252", "lng": "-3.16583", "population": 4121, "total_crimes": 33, "categories": {"anti-social-behaviour": 10, "bicycle-theft": 1, "criminal-damage-arson": 6, "drugs": 1, "public-order": 4, "violent-crime": 11}, "date": "2026-07", "crime_rate_per_1000": 8.0, "population_source": "census_2021_lsoa", "lsoa_count": 2}

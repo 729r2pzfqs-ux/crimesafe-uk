@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "GB82",
-  "neighbourhood_name": "Nantyglo",
-  "force_id": "gwent",
-  "lat": "51.7836",
-  "lng": "-3.16554",
-  "population": 4710,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "GB82", "neighbourhood_name": "Nantyglo", "force_id": "gwent", "lat": "51.7836", "lng": "-3.16554", "population": 4710, "total_crimes": 86, "categories": {"anti-social-behaviour": 22, "burglary": 1, "criminal-damage-arson": 13, "other-theft": 3, "possession-of-weapons": 2, "public-order": 11, "robbery": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 27, "other-crime": 4}, "date": "2026-07", "crime_rate_per_1000": 18.3, "population_source": "census_2021_lsoa", "lsoa_count": 3}

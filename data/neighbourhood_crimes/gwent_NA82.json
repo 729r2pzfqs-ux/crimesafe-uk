@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "NA82",
-  "neighbourhood_name": "Ringland",
-  "force_id": "gwent",
-  "lat": "51.5928",
-  "lng": "-2.93706",
-  "population": 8344,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "NA82", "neighbourhood_name": "Ringland", "force_id": "gwent", "lat": "51.5928", "lng": "-2.93706", "population": 8344, "total_crimes": 240, "categories": {"anti-social-behaviour": 41, "burglary": 12, "criminal-damage-arson": 34, "drugs": 8, "other-theft": 11, "possession-of-weapons": 2, "public-order": 27, "shoplifting": 4, "theft-from-the-person": 1, "vehicle-crime": 8, "violent-crime": 89, "other-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 28.8, "population_source": "census_2021_lsoa", "lsoa_count": 6}

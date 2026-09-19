@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "TC88",
-  "neighbourhood_name": "St Dials",
-  "force_id": "gwent",
-  "lat": "51.652",
-  "lng": "-3.03398",
-  "population": 4287,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "TC88", "neighbourhood_name": "St Dials", "force_id": "gwent", "lat": "51.652", "lng": "-3.03398", "population": 4287, "total_crimes": 523, "categories": {"anti-social-behaviour": 107, "bicycle-theft": 2, "burglary": 15, "criminal-damage-arson": 39, "drugs": 9, "other-theft": 16, "possession-of-weapons": 4, "public-order": 66, "robbery": 1, "shoplifting": 61, "vehicle-crime": 10, "violent-crime": 179, "other-crime": 14}, "date": "2026-07", "crime_rate_per_1000": 122.0, "population_source": "census_2021_lsoa", "lsoa_count": 3}

@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "TC81",
-  "neighbourhood_name": "Llantarnam",
-  "force_id": "gwent",
-  "lat": "51.6373",
-  "lng": "-3.0068",
-  "population": 6640,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "TC81", "neighbourhood_name": "Llantarnam", "force_id": "gwent", "lat": "51.6373", "lng": "-3.0068", "population": 6640, "total_crimes": 103, "categories": {"anti-social-behaviour": 20, "burglary": 4, "criminal-damage-arson": 13, "drugs": 4, "other-theft": 8, "possession-of-weapons": 1, "public-order": 12, "robbery": 1, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 37, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 15.5, "population_source": "census_2021_lsoa", "lsoa_count": 3}

@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "LOCC2COC",
-  "neighbourhood_name": "Cockermouth",
-  "force_id": "cumbria",
-  "lat": "54.6314",
-  "lng": "-3.29841",
-  "population": 15927,
-  "total_crimes": 1,
-  "categories": {
-    "burglary": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.1,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 10
-}
+{"neighbourhood_id": "LOCC2COC", "neighbourhood_name": "Cockermouth", "force_id": "cumbria", "lat": "54.6314", "lng": "-3.29841", "population": 15927, "total_crimes": 4, "categories": {"burglary": 3, "vehicle-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 0.3, "population_source": "census_2021_lsoa", "lsoa_count": 10}

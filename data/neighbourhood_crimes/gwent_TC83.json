@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "TC83",
-  "neighbourhood_name": "Llanyravon North",
-  "force_id": "gwent",
-  "lat": "51.6518",
-  "lng": "-2.99484",
-  "population": 1997,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "TC83", "neighbourhood_name": "Llanyravon North", "force_id": "gwent", "lat": "51.6518", "lng": "-2.99484", "population": 1997, "total_crimes": 84, "categories": {"anti-social-behaviour": 26, "burglary": 2, "criminal-damage-arson": 8, "drugs": 3, "other-theft": 3, "possession-of-weapons": 1, "public-order": 8, "robbery": 1, "shoplifting": 7, "violent-crime": 24, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 42.1, "population_source": "census_2021_lsoa", "lsoa_count": 1}

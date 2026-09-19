@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "wenvoe",
-  "neighbourhood_name": "Wenvoe",
-  "force_id": "south-wales",
-  "lat": "51.4385",
-  "lng": "-3.28231",
-  "population": 3521,
-  "total_crimes": 2,
-  "categories": {
-    "public-order": 1,
-    "shoplifting": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.6,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "wenvoe", "neighbourhood_name": "Wenvoe", "force_id": "south-wales", "lat": "51.4385", "lng": "-3.28231", "population": 3521, "total_crimes": 4, "categories": {"burglary": 1, "other-theft": 1, "violent-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 1.1, "population_source": "census_2021_lsoa", "lsoa_count": 2}

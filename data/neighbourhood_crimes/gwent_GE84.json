@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "GE84",
-  "neighbourhood_name": "Rassau",
-  "force_id": "gwent",
-  "lat": "51.8044",
-  "lng": "-3.23341",
-  "population": 3205,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "GE84", "neighbourhood_name": "Rassau", "force_id": "gwent", "lat": "51.8044", "lng": "-3.23341", "population": 3205, "total_crimes": 54, "categories": {"anti-social-behaviour": 12, "burglary": 2, "criminal-damage-arson": 10, "drugs": 1, "possession-of-weapons": 2, "public-order": 6, "shoplifting": 1, "vehicle-crime": 7, "violent-crime": 12, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 16.8, "population_source": "census_2021_lsoa", "lsoa_count": 2}

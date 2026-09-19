@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "WC3NH21",
-  "neighbourhood_name": "Fernhurst",
-  "force_id": "sussex",
-  "lat": "51.0531",
-  "lng": "-0.744397",
-  "population": 5279,
-  "total_crimes": 9,
-  "categories": {
-    "anti-social-behaviour": 4,
-    "criminal-damage-arson": 1,
-    "violent-crime": 4
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 1.7,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "WC3NH21", "neighbourhood_name": "Fernhurst", "force_id": "sussex", "lat": "51.0531", "lng": "-0.744397", "population": 5279, "total_crimes": 10, "categories": {"anti-social-behaviour": 1, "burglary": 1, "public-order": 2, "theft-from-the-person": 1, "vehicle-crime": 1, "violent-crime": 3, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 1.9, "population_source": "census_2021_lsoa", "lsoa_count": 3}

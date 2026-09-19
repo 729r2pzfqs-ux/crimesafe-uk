@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "MM83",
-  "neighbourhood_name": "Wyesham",
-  "force_id": "gwent",
-  "lat": "51.8133",
-  "lng": "-2.68063",
-  "population": 2158,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "MM83", "neighbourhood_name": "Wyesham", "force_id": "gwent", "lat": "51.8133", "lng": "-2.68063", "population": 2158, "total_crimes": 10, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 2, "possession-of-weapons": 1, "public-order": 1, "violent-crime": 4}, "date": "2026-07", "crime_rate_per_1000": 4.6, "population_source": "census_2021_lsoa", "lsoa_count": 1}

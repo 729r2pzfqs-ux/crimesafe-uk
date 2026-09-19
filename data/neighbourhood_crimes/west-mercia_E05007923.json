@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "E05007923",
-  "neighbourhood_name": "Evesham Town South and Rural West",
-  "force_id": "west-mercia",
-  "lat": "52.1177",
-  "lng": "-1.9967",
-  "population": 23766,
-  "total_crimes": 2,
-  "categories": {
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.1,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 14
-}
+{"neighbourhood_id": "E05007923", "neighbourhood_name": "Evesham Town South and Rural West", "force_id": "west-mercia", "lat": "52.1177", "lng": "-1.9967", "population": 23766, "total_crimes": 4, "categories": {"other-theft": 2, "violent-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 0.2, "population_source": "census_2021_lsoa", "lsoa_count": 14}

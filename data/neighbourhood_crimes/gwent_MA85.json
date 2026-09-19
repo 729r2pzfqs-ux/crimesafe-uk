@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "MA85",
-  "neighbourhood_name": "Lansdown",
-  "force_id": "gwent",
-  "lat": "51.8326",
-  "lng": "-3.01776",
-  "population": 3177,
-  "total_crimes": 1,
-  "categories": {
-    "drugs": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.3,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "MA85", "neighbourhood_name": "Lansdown", "force_id": "gwent", "lat": "51.8326", "lng": "-3.01776", "population": 3177, "total_crimes": 162, "categories": {"anti-social-behaviour": 41, "bicycle-theft": 3, "burglary": 6, "criminal-damage-arson": 18, "drugs": 2, "other-theft": 3, "possession-of-weapons": 1, "public-order": 20, "shoplifting": 14, "vehicle-crime": 3, "violent-crime": 51}, "date": "2026-07", "crime_rate_per_1000": 51.0, "population_source": "census_2021_lsoa", "lsoa_count": 2}

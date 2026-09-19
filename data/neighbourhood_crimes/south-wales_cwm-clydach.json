@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "cwm-clydach",
-  "neighbourhood_name": "Cwm Clydach",
-  "force_id": "south-wales",
-  "lat": "51.6252",
-  "lng": "-3.49298",
-  "population": 2747,
-  "total_crimes": 16,
-  "categories": {
-    "anti-social-behaviour": 1,
-    "public-order": 3,
-    "violent-crime": 12
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 5.8,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "cwm-clydach", "neighbourhood_name": "Cwm Clydach", "force_id": "south-wales", "lat": "51.6252", "lng": "-3.49298", "population": 2747, "total_crimes": 14, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "violent-crime": 7}, "date": "2026-07", "crime_rate_per_1000": 5.1, "population_source": "census_2021_lsoa", "lsoa_count": 2}

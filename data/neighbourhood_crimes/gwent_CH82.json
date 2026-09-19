@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "CH82",
-  "neighbourhood_name": "Twyn Carno",
-  "force_id": "gwent",
-  "lat": "51.7769",
-  "lng": "-3.30101",
-  "population": 2395,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "CH82", "neighbourhood_name": "Twyn Carno", "force_id": "gwent", "lat": "51.7769", "lng": "-3.30101", "population": 2395, "total_crimes": 49, "categories": {"anti-social-behaviour": 8, "burglary": 1, "criminal-damage-arson": 10, "other-theft": 2, "public-order": 6, "robbery": 1, "vehicle-crime": 2, "violent-crime": 17, "other-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 20.5, "population_source": "census_2021_lsoa", "lsoa_count": 2}

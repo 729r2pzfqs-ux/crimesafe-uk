@@ -80,10 +80,15 @@ def regenerate_site():
     os.chdir(REPO_DIR)
     
     scripts = [
+        "generate_rankings_data.py",   # rebuilds data/rankings.json - must run first
         "generate_site.py",
         "generate_neighbourhoods.py",
         "generate_districts.py",
         "generate_rankings.py",
+        "generate_cities.py",
+        "generate_postcodes.py",
+        "generate_embeds.py",
+        "generate_comparisons.py",
         "generate_london_comparisons.py",
         "scripts/fetch_street_data.py",
         "scripts/generate_street_pages.py"

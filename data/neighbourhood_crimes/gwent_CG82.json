@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "CG82",
-  "neighbourhood_name": "Gilfach",
-  "force_id": "gwent",
-  "lat": "51.6774",
-  "lng": "-3.2319",
-  "population": 2077,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.5,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "CG82", "neighbourhood_name": "Gilfach", "force_id": "gwent", "lat": "51.6774", "lng": "-3.2319", "population": 2077, "total_crimes": 137, "categories": {"anti-social-behaviour": 35, "burglary": 4, "criminal-damage-arson": 16, "drugs": 1, "other-theft": 4, "possession-of-weapons": 2, "public-order": 13, "robbery": 1, "shoplifting": 3, "vehicle-crime": 3, "violent-crime": 49, "other-crime": 6}, "date": "2026-07", "crime_rate_per_1000": 66.0, "population_source": "census_2021_lsoa", "lsoa_count": 1}

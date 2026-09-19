@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "ZC44",
-  "neighbourhood_name": "Saxon Shore",
-  "force_id": "kent",
-  "lat": "51.0721",
-  "lng": "0.912661",
-  "population": 1893,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "ZC44", "neighbourhood_name": "Saxon Shore", "force_id": "kent", "lat": "51.0721", "lng": "0.912661", "population": 1893, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 0.5, "population_source": "census_2021_lsoa", "lsoa_count": 1}

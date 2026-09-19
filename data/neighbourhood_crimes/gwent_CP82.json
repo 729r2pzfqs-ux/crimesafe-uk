@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "CP82",
-  "neighbourhood_name": "Morgan Jones",
-  "force_id": "gwent",
-  "lat": "51.5835",
-  "lng": "-3.21852",
-  "population": 7425,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.1,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 4
-}
+{"neighbourhood_id": "CP82", "neighbourhood_name": "Morgan Jones", "force_id": "gwent", "lat": "51.5835", "lng": "-3.21852", "population": 7425, "total_crimes": 383, "categories": {"anti-social-behaviour": 71, "bicycle-theft": 3, "burglary": 13, "criminal-damage-arson": 38, "drugs": 7, "other-theft": 14, "possession-of-weapons": 5, "public-order": 52, "robbery": 2, "shoplifting": 12, "theft-from-the-person": 1, "vehicle-crime": 16, "violent-crime": 140, "other-crime": 9}, "date": "2026-07", "crime_rate_per_1000": 51.6, "population_source": "census_2021_lsoa", "lsoa_count": 4}

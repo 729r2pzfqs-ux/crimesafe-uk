@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "TP90",
-  "neighbourhood_name": "Cwmynyscoy",
-  "force_id": "gwent",
-  "lat": "51.686",
-  "lng": "-3.05753",
-  "population": 1420,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "TP90", "neighbourhood_name": "Cwmynyscoy", "force_id": "gwent", "lat": "51.686", "lng": "-3.05753", "population": 1420, "total_crimes": 17, "categories": {"anti-social-behaviour": 6, "criminal-damage-arson": 1, "vehicle-crime": 1, "violent-crime": 9}, "date": "2026-07", "crime_rate_per_1000": 12.0, "population_source": "census_2021_lsoa", "lsoa_count": 1}

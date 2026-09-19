@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "NM85",
-  "neighbourhood_name": "Caerleon",
-  "force_id": "gwent",
-  "lat": "51.6122",
-  "lng": "-2.95241",
-  "population": 7768,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "NM85", "neighbourhood_name": "Caerleon", "force_id": "gwent", "lat": "51.6122", "lng": "-2.95241", "population": 7768, "total_crimes": 86, "categories": {"anti-social-behaviour": 17, "burglary": 5, "criminal-damage-arson": 11, "other-theft": 4, "possession-of-weapons": 1, "public-order": 11, "shoplifting": 4, "vehicle-crime": 1, "violent-crime": 29, "other-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 11.1, "population_source": "census_2021_lsoa", "lsoa_count": 6}

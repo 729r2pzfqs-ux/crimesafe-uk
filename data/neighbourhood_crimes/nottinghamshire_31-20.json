@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "31-20",
-  "neighbourhood_name": "Ollerton, Edwinstowe, Clipstone &amp; Villages",
-  "force_id": "nottinghamshire",
-  "lat": "53.2072",
-  "lng": "-1.04606",
-  "population": 17560,
-  "total_crimes": 4,
-  "categories": {
-    "public-order": 1,
-    "vehicle-crime": 1,
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.2,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 10
-}
+{"neighbourhood_id": "31-20", "neighbourhood_name": "Ollerton, Edwinstowe, Clipstone &amp; Villages", "force_id": "nottinghamshire", "lat": "53.2072", "lng": "-1.04606", "population": 17560, "total_crimes": 5, "categories": {"criminal-damage-arson": 1, "violent-crime": 4}, "date": "2026-07", "crime_rate_per_1000": 0.3, "population_source": "census_2021_lsoa", "lsoa_count": 10}

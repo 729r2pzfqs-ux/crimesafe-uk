@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "A028",
-  "neighbourhood_name": "Gorslas including Maesybont",
-  "force_id": "dyfed-powys",
-  "lat": "51.8147",
-  "lng": "-4.09355",
-  "population": 2360,
-  "total_crimes": 7,
-  "categories": {
-    "anti-social-behaviour": 1,
-    "possession-of-weapons": 2,
-    "violent-crime": 4
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 3.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "A028", "neighbourhood_name": "Gorslas including Maesybont", "force_id": "dyfed-powys", "lat": "51.8147", "lng": "-4.09355", "population": 2360, "total_crimes": 13, "categories": {"burglary": 1, "criminal-damage-arson": 1, "drugs": 1, "other-theft": 1, "violent-crime": 8, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 5.5, "population_source": "census_2021_lsoa", "lsoa_count": 1}

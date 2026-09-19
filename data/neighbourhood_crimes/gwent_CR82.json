@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "CR82",
-  "neighbourhood_name": "Risca East",
-  "force_id": "gwent",
-  "lat": "51.6135",
-  "lng": "-3.08216",
-  "population": 6288,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 4
-}
+{"neighbourhood_id": "CR82", "neighbourhood_name": "Risca East", "force_id": "gwent", "lat": "51.6135", "lng": "-3.08216", "population": 6288, "total_crimes": 105, "categories": {"anti-social-behaviour": 27, "burglary": 2, "criminal-damage-arson": 12, "drugs": 4, "other-theft": 7, "public-order": 8, "theft-from-the-person": 1, "vehicle-crime": 3, "violent-crime": 38, "other-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 16.7, "population_source": "census_2021_lsoa", "lsoa_count": 4}

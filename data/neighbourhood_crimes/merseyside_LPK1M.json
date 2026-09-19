@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "LPK1M",
-  "neighbourhood_name": "Whiston and Cronton",
-  "force_id": "merseyside",
-  "lat": "53.3962",
-  "lng": "-2.78086",
-  "population": 8702,
-  "total_crimes": 3,
-  "categories": {
-    "violent-crime": 3
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.3,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "LPK1M", "neighbourhood_name": "Whiston and Cronton", "force_id": "merseyside", "lat": "53.3962", "lng": "-2.78086", "population": 8702, "total_crimes": 24, "categories": {"anti-social-behaviour": 4, "criminal-damage-arson": 2, "drugs": 2, "other-theft": 1, "public-order": 1, "violent-crime": 14}, "date": "2026-07", "crime_rate_per_1000": 2.8, "population_source": "census_2021_lsoa", "lsoa_count": 6}

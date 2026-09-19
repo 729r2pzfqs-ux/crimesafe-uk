@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "YC62",
-  "neighbourhood_name": "Eynsford",
-  "force_id": "kent",
-  "lat": "51.3557",
-  "lng": "0.197029",
-  "population": 1838,
-  "total_crimes": 3,
-  "categories": {
-    "other-theft": 1,
-    "vehicle-crime": 1,
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 1.6,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "YC62", "neighbourhood_name": "Eynsford", "force_id": "kent", "lat": "51.3557", "lng": "0.197029", "population": 1838, "total_crimes": 6, "categories": {"anti-social-behaviour": 2, "criminal-damage-arson": 1, "vehicle-crime": 1, "violent-crime": 1, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 3.3, "population_source": "census_2021_lsoa", "lsoa_count": 1}

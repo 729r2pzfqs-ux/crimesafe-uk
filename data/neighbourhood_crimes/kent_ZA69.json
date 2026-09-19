@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "ZA69",
-  "neighbourhood_name": "Little Stour &amp; Adisham",
-  "force_id": "kent",
-  "lat": "51.2659",
-  "lng": "1.17232",
-  "population": 4619,
-  "total_crimes": 9,
-  "categories": {
-    "burglary": 1,
-    "criminal-damage-arson": 5,
-    "violent-crime": 3
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 1.9,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "ZA69", "neighbourhood_name": "Little Stour &amp; Adisham", "force_id": "kent", "lat": "51.2659", "lng": "1.17232", "population": 4619, "total_crimes": 20, "categories": {"anti-social-behaviour": 1, "bicycle-theft": 1, "criminal-damage-arson": 4, "other-theft": 1, "shoplifting": 1, "violent-crime": 12}, "date": "2026-07", "crime_rate_per_1000": 4.3, "population_source": "census_2021_lsoa", "lsoa_count": 3}

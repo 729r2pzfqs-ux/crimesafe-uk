@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "BB7",
-  "neighbourhood_name": "Linden",
-  "force_id": "gloucestershire",
-  "lat": "51.8502",
-  "lng": "-2.25002",
-  "population": 8734,
-  "total_crimes": 3,
-  "categories": {
-    "violent-crime": 3
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.3,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "BB7", "neighbourhood_name": "Linden", "force_id": "gloucestershire", "lat": "51.8502", "lng": "-2.25002", "population": 8734, "total_crimes": 1, "categories": {"violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 0.1, "population_source": "census_2021_lsoa", "lsoa_count": 6}

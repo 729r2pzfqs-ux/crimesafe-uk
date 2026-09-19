@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "NC40",
-  "neighbourhood_name": "Grantham Rural North",
-  "force_id": "lincolnshire",
-  "lat": "52.9801",
-  "lng": "-0.663556",
-  "population": 16328,
-  "total_crimes": 7,
-  "categories": {
-    "anti-social-behaviour": 5,
-    "violent-crime": 2
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.4,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 8
-}
+{"neighbourhood_id": "NC40", "neighbourhood_name": "Grantham Rural North", "force_id": "lincolnshire", "lat": "52.9801", "lng": "-0.663556", "population": 16328, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "vehicle-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 0.2, "population_source": "census_2021_lsoa", "lsoa_count": 8}

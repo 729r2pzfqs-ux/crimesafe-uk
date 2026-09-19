@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "GE83",
-  "neighbourhood_name": "Badminton",
-  "force_id": "gwent",
-  "lat": "51.7907",
-  "lng": "-3.21787",
-  "population": 3189,
-  "total_crimes": 1,
-  "categories": {
-    "drugs": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.3,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 2
-}
+{"neighbourhood_id": "GE83", "neighbourhood_name": "Badminton", "force_id": "gwent", "lat": "51.7907", "lng": "-3.21787", "population": 3189, "total_crimes": 219, "categories": {"anti-social-behaviour": 55, "burglary": 5, "criminal-damage-arson": 38, "drugs": 3, "other-theft": 5, "possession-of-weapons": 2, "public-order": 21, "shoplifting": 5, "vehicle-crime": 13, "violent-crime": 63, "other-crime": 9}, "date": "2026-07", "crime_rate_per_1000": 68.7, "population_source": "census_2021_lsoa", "lsoa_count": 2}

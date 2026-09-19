@@ -315,7 +315,7 @@ def generate_city_page(city_slug, city_info, neighbourhoods, crime_stats):
     title = next((t for t in _title_candidates if len(t) <= 65), _title_candidates[-1][:65])
     desc = (
         f"Is {city_name} safe? Average crime score: {avg_score}/100 ({_grade}) "
-        f"across {len(neighbourhoods)} neighbourhoods — {total_crimes:,} offences in May 2026. "
+        f"across {len(neighbourhoods)} neighbourhoods — {total_crimes:,} offences in July 2026. "
         f"Find the safest places in {city_name}."
     )
     
@@ -454,8 +454,13 @@ def load_crime_scores():
                 # Use per-capita rate for fairer scoring
                 rate = data.get('crime_rate_per_1000')
                 if rate is None:
-                    pop = data.get('population', 12098)
-                    rate = (total_crimes / pop) * 1000 if pop > 0 else 0
+                    try:
+                        pop = int(data.get('population') or 0)
+                    except (TypeError, ValueError):
+                        pop = 0
+                    if pop <= 0:
+                        pop = 12098  # UK median neighbourhood population fallback
+                    rate = (total_crimes / pop) * 1000
                 
                 key = f'{force_id}_{nb_id}'
                 crime_data[key] = {'crime_rate': rate, 'total_crimes': total_crimes}

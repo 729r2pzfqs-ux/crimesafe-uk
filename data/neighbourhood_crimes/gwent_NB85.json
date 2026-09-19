@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "NB85",
-  "neighbourhood_name": "Allt-Yr-Yn",
-  "force_id": "gwent",
-  "lat": "51.5887",
-  "lng": "-3.01724",
-  "population": 9192,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.1,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 6
-}
+{"neighbourhood_id": "NB85", "neighbourhood_name": "Allt-Yr-Yn", "force_id": "gwent", "lat": "51.5887", "lng": "-3.01724", "population": 9192, "total_crimes": 489, "categories": {"anti-social-behaviour": 130, "burglary": 17, "criminal-damage-arson": 42, "drugs": 11, "other-theft": 13, "possession-of-weapons": 3, "public-order": 58, "robbery": 5, "shoplifting": 29, "theft-from-the-person": 4, "vehicle-crime": 15, "violent-crime": 152, "other-crime": 10}, "date": "2026-07", "crime_rate_per_1000": 53.2, "population_source": "census_2021_lsoa", "lsoa_count": 6}

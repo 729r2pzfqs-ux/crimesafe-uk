@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "D502",
-  "neighbourhood_name": "Aber-craf",
-  "force_id": "dyfed-powys",
-  "lat": "51.8039",
-  "lng": "-3.7283",
-  "population": 1437,
-  "total_crimes": 5,
-  "categories": {
-    "violent-crime": 5
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 3.5,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "D502", "neighbourhood_name": "Aber-craf", "force_id": "dyfed-powys", "lat": "51.8039", "lng": "-3.7283", "population": 1437, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 2, "other-theft": 1, "violent-crime": 4}, "date": "2026-07", "crime_rate_per_1000": 5.6, "population_source": "census_2021_lsoa", "lsoa_count": 1}

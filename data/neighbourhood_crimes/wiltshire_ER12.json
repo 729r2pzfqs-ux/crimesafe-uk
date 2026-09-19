@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "ER12",
-  "neighbourhood_name": "Warminster Rural",
-  "force_id": "wiltshire",
-  "lat": "51.1789",
-  "lng": "-2.1441",
-  "population": 6458,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 5
-}
+{"neighbourhood_id": "ER12", "neighbourhood_name": "Warminster Rural", "force_id": "wiltshire", "lat": "51.1789", "lng": "-2.1441", "population": 6458, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "burglary": 1, "criminal-damage-arson": 1, "vehicle-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 0.9, "population_source": "census_2021_lsoa", "lsoa_count": 5}

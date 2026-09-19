@@ -109,7 +109,7 @@ def get_footer():
         <div class="container">
             <p>CrimeSafe UK — Data from <a href="https://data.police.uk">data.police.uk</a></p>
             <p style="margin-top: var(--space-2);">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener">Open Government Licence v3.0</a>.</p>
-            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: January 2026</p>
+            <p style="margin-top: var(--space-2);">Data updated monthly. Last update: July 2026</p>
         </div>
     </footer>
     <script src="/script.js"></script>
@@ -140,6 +140,10 @@ def generate_postcode_page(outcode, outcode_info, nearby_neighbourhoods):
         if s >= 20: return "Below Average"
         return "High Crime"
     districts_str = ', '.join(districts[:3]) if districts else outcode
+    # Calculate average score
+    scores = [n['score'] for n in nearby_neighbourhoods if n.get('score')]
+    avg_score = round(sum(scores) / len(scores)) if scores else None
+    
     if avg_score is not None:
         _grade = _grade_label(avg_score)
         _title_candidates = [
@@ -151,19 +155,15 @@ def generate_postcode_page(outcode, outcode_info, nearby_neighbourhoods):
         desc = (
             f"Crime rates and safety scores for {outcode} postcode "
             f"({districts_str}). Average score: {avg_score}/100 ({_grade}) "
-            f"from nearby neighbourhood data — May 2026."
+            f"from nearby neighbourhood data — July 2026."
         )
     else:
         title = f"{outcode} Postcode Crime Statistics 2026"[:65]
         desc = (
             f"Crime rates and safety scores for {outcode} postcode "
             f"({districts_str}). Browse nearby neighbourhood safety scores "
-            f"from official May 2026 police.uk data."
+            f"from official July 2026 police.uk data."
         )
-    
-    # Calculate average score
-    scores = [n['score'] for n in nearby_neighbourhoods if n.get('score')]
-    avg_score = round(sum(scores) / len(scores)) if scores else None
     
     if avg_score:
         if avg_score >= 60:
@@ -351,60 +351,79 @@ def main():
         key = f"{slugify(r['force'])}_{r['nb_slug']}"
         rankings_lookup[r['nb_slug']] = r
     
+    # Outcode geography comes from the local cache, not postcodes.io: the old
+    # brute-force "AA1..AA24" loop missed every outcode above 24 and every
+    # letter-suffixed London one (B66, RG27, W1D, ...), leaving ~750 pages stale.
+    with open(f"{DATA_DIR}/all_outcodes.json") as f:
+        all_outcodes = json.load(f)
+    print(f"Loaded {len(all_outcodes)} outcodes")
+
     # Generate postcode districts
     valid_outcodes = []
     generated = 0
-    
-    for area in POSTCODE_AREAS:
-        for num in range(1, 25):
-            outcode = f"{area}{num}"
-            
-            # Check if valid
-            info = fetch_outcode_info(outcode)
-            if not info:
-                continue
-            
-            valid_outcodes.append(outcode)
-            lat = info.get('latitude')
-            lng = info.get('longitude')
-            
-            if not lat or not lng:
-                continue
-            
-            # Find nearby neighbourhoods (within 5km)
-            nearby = []
-            for key, loc in nb_locations.items():
-                dist = haversine_distance(lat, lng, loc['lat'], loc['lng'])
-                if dist <= 5:
-                    nb_slug = slugify(loc['name'])
-                    r = rankings_lookup.get(nb_slug, {})
-                    
-                    # Build URL
-                    force_slug = slugify(loc['force'].replace('-', ' '))
-                    url = f"/neighbourhood/{force_slug}/{nb_slug}/"
-                    
-                    nearby.append({
-                        'name': loc['name'],
-                        'force': loc['force'].replace('-', ' ').title(),
-                        'score': r.get('score'),
-                        'url': url,
-                        'distance': dist
-                    })
-            
-            nearby.sort(key=lambda n: n['distance'])
-            
-            # Generate page
-            out_dir = f"{OUTPUT_DIR}/postcode/{outcode.lower()}"
-            os.makedirs(out_dir, exist_ok=True)
-            
-            with open(f"{out_dir}/index.html", 'w') as f:
-                f.write(generate_postcode_page(outcode, info, nearby[:15]))
-            
-            generated += 1
-            if generated % 50 == 0:
-                print(f"  Generated {generated} postcode pages...")
-            
-            time.sleep(0.1)  # Rate limit
+    skipped_no_coverage = 0
+
+    for outcode in sorted(all_outcodes):
+        oc = all_outcodes[outcode]
+
+        # police.uk covers England and Wales only. Scotland / NI keep the
+        # "limited data coverage" stubs written by gen_postcodes.py.
+        countries = oc.get('country') or []
+        if not any(c in ('England', 'Wales') for c in countries):
+            continue
+
+        lat = oc.get('lat')
+        lng = oc.get('lng')
+        if not lat or not lng:
+            continue
+
+        info = {
+            'admin_district': oc.get('admin_district', []),
+            'latitude': lat,
+            'longitude': lng,
+        }
+
+        # Find nearby neighbourhoods (within 5km)
+        nearby = []
+        for key, loc in nb_locations.items():
+            dist = haversine_distance(lat, lng, loc['lat'], loc['lng'])
+            if dist <= 5:
+                nb_slug = slugify(loc['name'])
+                r = rankings_lookup.get(nb_slug, {})
+
+                # Build URL
+                force_slug = slugify(loc['force'].replace('-', ' '))
+                url = f"/neighbourhood/{force_slug}/{nb_slug}/"
+
+                nearby.append({
+                    'name': loc['name'],
+                    'force': loc['force'].replace('-', ' ').title(),
+                    'score': r.get('score'),
+                    'url': url,
+                    'distance': dist
+                })
+
+        # No nearby neighbourhoods means an empty page - leave whatever is
+        # already there (usually a coverage stub) alone.
+        if not nearby:
+            skipped_no_coverage += 1
+            continue
+
+        nearby.sort(key=lambda n: n['distance'])
+        valid_outcodes.append(outcode)
+
+        # Generate page
+        out_dir = f"{OUTPUT_DIR}/postcode/{outcode.lower()}"
+        os.makedirs(out_dir, exist_ok=True)
+
+        with open(f"{out_dir}/index.html", 'w') as f:
+            f.write(generate_postcode_page(outcode, info, nearby[:15]))
+
+        generated += 1
+        if generated % 250 == 0:
+            print(f"  Generated {generated} postcode pages...")
+
+    print(f"  Skipped {skipped_no_coverage} outcodes with no neighbourhood within 5km")
     
     # Generate index
     print("Generating postcodes index...")

@@ -1,16 +1,1 @@
-{
-  "neighbourhood_id": "AC21",
-  "neighbourhood_name": "Monsall",
-  "force_id": "greater-manchester",
-  "lat": "53.5012",
-  "lng": "-2.21127",
-  "population": 1680,
-  "total_crimes": 1,
-  "categories": {
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.6,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "AC21", "neighbourhood_name": "Monsall", "force_id": "greater-manchester", "lat": "53.5012", "lng": "-2.21127", "population": 1680, "total_crimes": 2, "categories": {"anti-social-behaviour": 1, "violent-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 1.2, "population_source": "census_2021_lsoa", "lsoa_count": 1}

@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "AB",
-  "neighbourhood_name": "Doncaster South",
-  "force_id": "south-yorkshire",
-  "lat": "53.4708",
-  "lng": "-1.12279",
-  "population": 77926,
-  "total_crimes": 6,
-  "categories": {
-    "possession-of-weapons": 1,
-    "robbery": 1,
-    "violent-crime": 4
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.1,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 50
-}
+{"neighbourhood_id": "AB", "neighbourhood_name": "Doncaster South", "force_id": "south-yorkshire", "lat": "53.4708", "lng": "-1.12279", "population": 77926, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "other-theft": 1, "public-order": 1, "violent-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 0.1, "population_source": "census_2021_lsoa", "lsoa_count": 50}

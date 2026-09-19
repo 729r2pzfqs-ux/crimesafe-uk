@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "MVRE",
-  "neighbourhood_name": "Dorking Rural East",
-  "force_id": "surrey",
-  "lat": "51.2111",
-  "lng": "-0.268479",
-  "population": 13391,
-  "total_crimes": 2,
-  "categories": {
-    "anti-social-behaviour": 1,
-    "violent-crime": 1
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.1,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 8
-}
+{"neighbourhood_id": "MVRE", "neighbourhood_name": "Dorking Rural East", "force_id": "surrey", "lat": "51.2111", "lng": "-0.268479", "population": 13391, "total_crimes": 8, "categories": {"anti-social-behaviour": 1, "drugs": 1, "possession-of-weapons": 1, "violent-crime": 5}, "date": "2026-07", "crime_rate_per_1000": 0.6, "population_source": "census_2021_lsoa", "lsoa_count": 8}

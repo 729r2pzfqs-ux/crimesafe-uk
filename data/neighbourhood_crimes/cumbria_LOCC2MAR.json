@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "LOCC2MAR",
-  "neighbourhood_name": "Maryport",
-  "force_id": "cumbria",
-  "lat": "54.7192",
-  "lng": "-3.44278",
-  "population": 17400,
-  "total_crimes": 4,
-  "categories": {
-    "vehicle-crime": 1,
-    "violent-crime": 3
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.2,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 10
-}
+{"neighbourhood_id": "LOCC2MAR", "neighbourhood_name": "Maryport", "force_id": "cumbria", "lat": "54.7192", "lng": "-3.44278", "population": 17400, "total_crimes": 5, "categories": {"anti-social-behaviour": 1, "other-theft": 1, "violent-crime": 3}, "date": "2026-07", "crime_rate_per_1000": 0.3, "population_source": "census_2021_lsoa", "lsoa_count": 10}

@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "CC82",
-  "neighbourhood_name": "Penmaen",
-  "force_id": "gwent",
-  "lat": "51.678",
-  "lng": "-3.17932",
-  "population": 5543,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "CC82", "neighbourhood_name": "Penmaen", "force_id": "gwent", "lat": "51.678", "lng": "-3.17932", "population": 5543, "total_crimes": 73, "categories": {"anti-social-behaviour": 26, "bicycle-theft": 2, "burglary": 1, "criminal-damage-arson": 9, "other-theft": 2, "public-order": 5, "shoplifting": 1, "vehicle-crime": 1, "violent-crime": 26}, "date": "2026-07", "crime_rate_per_1000": 13.2, "population_source": "census_2021_lsoa", "lsoa_count": 3}

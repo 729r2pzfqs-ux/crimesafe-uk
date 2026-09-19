@@ -1,18 +1,1 @@
-{
-  "neighbourhood_id": "C411",
-  "neighbourhood_name": "Narberth",
-  "force_id": "dyfed-powys",
-  "lat": "51.7983",
-  "lng": "-4.74296",
-  "population": 2277,
-  "total_crimes": 13,
-  "categories": {
-    "anti-social-behaviour": 1,
-    "criminal-damage-arson": 1,
-    "violent-crime": 11
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 5.7,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "C411", "neighbourhood_name": "Narberth", "force_id": "dyfed-powys", "lat": "51.7983", "lng": "-4.74296", "population": 2277, "total_crimes": 26, "categories": {"anti-social-behaviour": 5, "criminal-damage-arson": 2, "drugs": 1, "other-theft": 1, "shoplifting": 1, "violent-crime": 15, "other-crime": 1}, "date": "2026-07", "crime_rate_per_1000": 11.4, "population_source": "census_2021_lsoa", "lsoa_count": 1}

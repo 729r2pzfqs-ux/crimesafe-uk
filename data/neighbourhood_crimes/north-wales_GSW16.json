@@ -1,14 +1,1 @@
-{
-  "neighbourhood_id": "GSW16",
-  "neighbourhood_name": "Abererch",
-  "force_id": "north-wales",
-  "lat": "52.9247",
-  "lng": "-4.37624",
-  "population": 1336,
-  "total_crimes": 0,
-  "categories": {},
-  "date": "2026-03",
-  "crime_rate_per_1000": 0.0,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 1
-}
+{"neighbourhood_id": "GSW16", "neighbourhood_name": "Abererch", "force_id": "north-wales", "lat": "52.9247", "lng": "-4.37624", "population": 1336, "total_crimes": 4, "categories": {"anti-social-behaviour": 1, "burglary": 1, "violent-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 3.0, "population_source": "census_2021_lsoa", "lsoa_count": 1}

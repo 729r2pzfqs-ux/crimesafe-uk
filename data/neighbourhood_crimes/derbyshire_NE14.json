@@ -1,17 +1,1 @@
-{
-  "neighbourhood_id": "NE14",
-  "neighbourhood_name": "Scarcliffe",
-  "force_id": "derbyshire",
-  "lat": "53.2181",
-  "lng": "-1.25817",
-  "population": 4372,
-  "total_crimes": 8,
-  "categories": {
-    "burglary": 1,
-    "violent-crime": 7
-  },
-  "date": "2026-03",
-  "crime_rate_per_1000": 1.8,
-  "population_source": "census_2021_lsoa",
-  "lsoa_count": 3
-}
+{"neighbourhood_id": "NE14", "neighbourhood_name": "Scarcliffe", "force_id": "derbyshire", "lat": "53.2181", "lng": "-1.25817", "population": 4372, "total_crimes": 6, "categories": {"anti-social-behaviour": 1, "criminal-damage-arson": 1, "robbery": 1, "theft-from-the-person": 1, "violent-crime": 2}, "date": "2026-07", "crime_rate_per_1000": 1.4, "population_source": "census_2021_lsoa", "lsoa_count": 3}
