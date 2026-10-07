@@ -106,6 +106,7 @@ def get_header(title="CrimeSafe UK", description="UK crime statistics and safety
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a><a href="/city/">City</a>
                 <a href="/districts/">Districts</a>
+                <a href="/maps/">Maps</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>

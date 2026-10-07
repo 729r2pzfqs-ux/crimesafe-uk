@@ -225,6 +225,7 @@ def get_header(title, description):
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/districts/">Districts</a>
+                <a href="/maps/">Maps</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>

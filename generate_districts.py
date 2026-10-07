@@ -75,6 +75,7 @@ def get_header(title, description, canonical=None, extra_head=""):
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/districts/">Districts</a>
+                <a href="/maps/">Maps</a>
                 <a href="/about/">About</a>
                 <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>

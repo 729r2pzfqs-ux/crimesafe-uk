@@ -96,6 +96,7 @@ def get_header(title, description):
                 <a href="/">Home</a>
                 <a href="/forces/">Forces</a>
                 <a href="/postcode/">Postcodes</a>
+                <a href="/maps/">Maps</a>
                 <a href="/safest/">Rankings</a>
                 <a href="/about/">About</a>
             </div>
